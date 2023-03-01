@@ -1,0 +1,30 @@
+<script>
+  if(typeof(Spurit) === 'undefined'){
+    var Spurit = {};
+  }
+  if(!Spurit.PopupUpsell2){
+    Spurit.PopupUpsell2 = {};
+  }
+  if(!Spurit.PopupUpsell2.snippet){
+    Spurit.PopupUpsell2.snippet = {};
+  }
+  Spurit.PopupUpsell2.snippet.shopHash = '9300893aa794479d44398356a88f10bc';
+  Spurit.PopupUpsell2.snippet.cacheTimestamp = '1635932970';
+  Spurit.PopupUpsell2.snippet.pageType = '{{ request.page_type }}';
+
+  if(typeof(Spurit.globalSnippet) === 'undefined'){
+      Spurit.globalSnippet = {
+          shop_currency: '{{ shop.currency }}',
+          money_format: '{{ shop.money_format }}',
+          cart: {{ cart | json }},
+          customer_id: '{{ customer.id }}'
+      };
+  }
+</script>
+
+<script src="https://cdn-spurit.com/all-apps/spurit.global-2.x.min.js" async></script>
+<script src="https://cdn-spurit.com/shopify-apps/popup-upsell-2/store/9300893aa794479d44398356a88f10bc.js?1635932970" async></script>
+<link href="https://cdn-spurit.com/shopify-apps/popup-upsell-2/store/9300893aa794479d44398356a88f10bc.css?1635932970" rel="stylesheet" type="text/css" media="all">
+
+    <script src="https://cdn-spurit.com/shopify-apps/popup-upsell-2/common.js" async></script>
+    <link href="https://cdn-spurit.com/shopify-apps/popup-upsell-2/common.css" rel="stylesheet" type="text/css" media="all">

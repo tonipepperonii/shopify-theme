@@ -1,0 +1,141 @@
+{%- liquid
+  assign paginate_by = 50
+  assign paginate_by_1 = 49
+-%}
+
+
+{%- paginate collection.products by paginate_by -%}
+
+<div
+  id="CollectionSection"
+  data-section-id="{{ section.id }}"
+  data-section-type="collection-template"
+  data-collection-template="true">
+
+  {%- if section.settings.description_position == 'top' -%}
+    {%- if collection.description != blank -%}
+      <div class="rte rte--collection-desc">
+        <div class="enlarge-text">
+          {{ collection.description }}
+        </div>
+      </div>
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- if paginate.current_page == 1 and section.settings.subcollection_style == 'above' -%}
+    {%- render 'subcollections' -%}
+  {%- endif -%}
+
+  <div class="collection-filter">
+    <div class="collection-filter__inner">
+      {%- assign current_filter_size = current_tags | size -%}
+      <div class="collection-filter__item collection-filter__item--drawer">
+        <button
+          type="button"
+          class="collection-filter__btn text-link">
+          <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-filter" viewBox="0 0 64 64"><path d="M48 42h10">.</path><path d="M48 42a5 5 0 1 1-5-5 5 5 0 0 1 5 5z"/><path d="M7 42h31">.</path><path d="M16 22H6">.</path><path d="M16 22a5 5 0 1 1 5 5 5 5 0 0 1-5-5z"/><path d="M57 22H26">.</path></svg>
+          {{ 'collections.filters.title_tags' | t }}
+          {%- if current_filter_size > 0 -%}
+            ({{ current_filter_size }})
+          {%- endif -%}
+        </button>
+      </div>
+    </div>
+
+
+  {%- liquid
+    if paginate.current_page == 1 and section.settings.subcollection_style == 'below'
+      render 'subcollections'
+    endif
+  -%}
+
+  {%- if section.settings.description_position == 'bottom' -%}
+    {%- if collection.description != blank -%}
+      <hr class="hr--clear hr--small">
+      <div class="rte">
+        <div class="enlarge-text">
+          {{ collection.description }}
+        </div>
+      </div>
+      <hr class="hr--clear hr--small">
+    {%- endif -%}
+  {%- endif -%}
+</div>
+
+{%- endpaginate -%}
+
+{% schema %}
+  {
+    "name": "Collection pages custom2",
+    "settings": [
+      {
+        "type": "select",
+        "id": "description_position",
+        "label": "Collection description position",
+        "default": "top",
+        "options": [
+          {
+            "value": "top",
+            "label": "Top"
+          },
+          {
+            "value": "bottom",
+            "label": "Bottom"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Subcollections"
+      },
+      {
+        "type": "paragraph",
+        "content": "Links to collections from your menu will appear here. [Learn more](https://archetypethemes.co/blogs/expanse/how-do-i-create-subcollections)"
+      },
+      {
+        "type": "select",
+        "id": "subcollection_style",
+        "label": "Subcollection style",
+        "default": "above",
+        "options": [
+          {
+            "value": "above",
+            "label": "Above products"
+          },
+          {
+            "value": "below",
+            "label": "Below products"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Products"
+      },
+      {
+        "type": "select",
+        "id": "grid_style",
+        "label": "Default product layout",
+        "default": "small",
+        "options": [
+          {
+            "value": "large",
+            "label": "Large grid"
+          },
+          {
+            "value": "small",
+            "label": "Small grid"
+          },
+          {
+            "value": "list",
+            "label": "List"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

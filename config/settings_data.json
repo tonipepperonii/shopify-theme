@@ -1,0 +1,3118 @@
+{
+  "current": {
+    "color_body_bg": "#ffffff",
+    "color_body_text": "#000000",
+    "color_price": "#1c1d1d",
+    "color_savings_text": "#ba4444",
+    "color_borders": "#e8e8e1",
+    "color_button": "#111111",
+    "color_button_text": "#ffffff",
+    "color_sale_tag": "#ba4444",
+    "color_cart_dot": "#ba4444",
+    "color_small_image_bg": "#ffffff",
+    "color_large_image_bg": "#0f0f0f",
+    "color_header": "#ffffff",
+    "color_header_text": "#000000",
+    "color_header_search": "#ffffff",
+    "color_footer": "#ffffff",
+    "color_footer_border": "#e8e8e1",
+    "color_footer_text": "#000000",
+    "color_scheme_1_bg": "#ffffff",
+    "color_scheme_1_text": "#000000",
+    "color_scheme_1_texture": "marble.jpg",
+    "color_scheme_2_bg": "#46a8e9",
+    "color_scheme_2_text": "#ffffff",
+    "color_scheme_2_texture": "swirl",
+    "color_scheme_3_bg": "#fcf4f1",
+    "color_scheme_3_text": "#ffffff",
+    "color_scheme_3_texture": "squiggle",
+    "type_header_font_family": "harmonia_sans_n6",
+    "type_header_spacing": "25",
+    "type_header_base_size": 36,
+    "type_header_line_height": 1.1,
+    "type_header_capitalize": false,
+    "type_base_font_family": "century_gothic_n4",
+    "type_base_spacing": "50",
+    "type_base_size": 15,
+    "type_base_line_height": 1.6,
+    "type_navigation_style": "body",
+    "type_navigation_size": 16,
+    "type_navigation_capitalize": true,
+    "button_style": "square",
+    "cart_icon": "cart",
+    "icon_weight": "3px",
+    "icon_linecaps": "miter",
+    "superscript_decimals": true,
+    "product_grid_style": "simple",
+    "product_grid_image_margin": 0,
+    "collection_grid_shape": "circle",
+    "collection_grid_image": "collection",
+    "collection_grid_image_margin": 0,
+    "vendor_enable": false,
+    "quick_shop_enable": true,
+    "quick_add_enable": true,
+    "product_grid_image_size": "square",
+    "product_grid_image_fill": true,
+    "product_hover_image": true,
+    "variant_type": "button",
+    "enable_payment_button": true,
+    "sku_enable": false,
+    "quantity_enable": true,
+    "inventory_enable": true,
+    "inventory_transfers_enable": true,
+    "surface_pickup_enable": true,
+    "product_zoom_enable": true,
+    "sales_point_1": "Direkt aus unserer Hildesheimer Orchideengärtnerei",
+    "sales_point_2": "Kostenloser Versand ab 100€ | Reduzierter Versand ab 60€",
+    "sales_point_3": "",
+    "sales_point_4": "Sicherer Checkout",
+    "product_color_swatches": false,
+    "collection_color_swatches": false,
+    "product_contact": true,
+    "product_contact_title": "Eine Frage stellen",
+    "cart_type": "page",
+    "cart_additional_buttons": true,
+    "cart_collection": "dunger",
+    "cart_notes_enable": false,
+    "cart_terms_conditions_enable": false,
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "search_type": "product",
+    "search_top_collection": "alle-produkte",
+    "show_breadcrumbs": false,
+    "show_breadcrumbs_collection_link": true,
+    "checkout_logo_image": "shopify:\/\/shop_images\/Logo.jpg",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "transparent",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Raleway",
+    "checkout_body_font": "Open Sans",
+    "checkout_accent_color": "#46a8e9",
+    "checkout_button_color": "#111111",
+    "checkout_error_color": "#ff6d6d",
+    "color_image_overlay": "#000000",
+    "color_image_overlay_opacity": 0,
+    "color_image_overlay_text_shadow": 28,
+    "type_headers_align_text": false,
+    "type_body_align_text": false,
+    "color_announcement": "#000000",
+    "color_announcement_text": "#ffffff",
+    "color_drawer_background": "#ffffff",
+    "color_drawer_text": "#000000",
+    "color_drawer_border": "#e8e8e1",
+    "color_drawer_button": "#111111",
+    "color_drawer_button_text": "#ffffff",
+    "color_modal_overlays": "#e6e6e6",
+    "type_collection_font": "body",
+    "type_collection_size": 18,
+    "collection_grid_style": "below",
+    "collection_grid_text_align": "center",
+    "collection_grid_tint": "#000000",
+    "collection_grid_opacity": 10,
+    "collection_grid_gutter": true,
+    "breadcrumb": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "1524770014057": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/Logo.jpg",
+              "desktop_logo_width": 220,
+              "mobile_logo_width": 140
+            }
+          }
+        },
+        "block_order": [
+          "1524770014057"
+        ],
+        "settings": {
+          "main_menu_link_list": "main-menu",
+          "main_menu_alignment": "below",
+          "mega_products": false,
+          "header_sticky": true,
+          "sticky_index": false,
+          "sticky_collection": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "description_position": "top",
+          "subcollection_style": "above",
+          "grid_style": "small"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "image_position": "left",
+          "image_container_size": "small",
+          "product_image_size": "square",
+          "thumbnail_position": "below",
+          "thumbnail_arrows": true,
+          "mobile_layout": "partial",
+          "enable_video_looping": true,
+          "product_video_style": "muted",
+          "description_style": "visible",
+          "social_enable": false
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_capitalize_first": true,
+          "blog_show_tags": true,
+          "blog_show_date": true,
+          "blog_show_comments": true,
+          "blog_show_author": true
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "blog_show_rss": false,
+          "blog_show_tags": true,
+          "blog_show_date": true,
+          "blog_show_comments": true,
+          "blog_show_author": true,
+          "blog_image_size": "wide"
+        }
+      },
+      "1499789718857": {
+        "type": "featured-collections",
+        "blocks": {
+          "1499789718857-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "einsteiger",
+              "title": ""
+            }
+          },
+          "1499789718857-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "miniaturpflanze",
+              "title": ""
+            }
+          },
+          "1499789718857-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "bucher",
+              "title": ""
+            }
+          },
+          "1499789718857-3": {
+            "type": "collection",
+            "settings": {
+              "collection": "zubehor",
+              "title": ""
+            }
+          },
+          "a3ec4b25-8e90-420c-bd94-1747f371ffe8": {
+            "type": "collection",
+            "settings": {
+              "collection": "geschenkideen",
+              "title": ""
+            }
+          },
+          "b71b4f49-6eab-48c3-8d05-d277fb43ea7d": {
+            "type": "collection",
+            "settings": {
+              "collection": "exklusive-zierpflanzen",
+              "title": ""
+            }
+          }
+        },
+        "block_order": [
+          "1499789718857-0",
+          "1499789718857-1",
+          "1499789718857-2",
+          "1499789718857-3",
+          "a3ec4b25-8e90-420c-bd94-1747f371ffe8",
+          "b71b4f49-6eab-48c3-8d05-d277fb43ea7d"
+        ],
+        "settings": {
+          "title": "Weitere Kategorien",
+          "divider": false
+        }
+      },
+      "product-sections-template": {
+        "type": "product-sections-template",
+        "blocks": {
+          "sections-1592410313636": {
+            "type": "background-image-text",
+            "settings": {
+              "subtitle": "",
+              "title": "Large image with text box",
+              "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "alignment": "center",
+              "layout": "right",
+              "height": 650,
+              "parallax": false
+            }
+          },
+          "sections-1592408476245": {
+            "type": "testimonials",
+            "settings": {
+              "title": "From our customers",
+              "align_text": "center",
+              "round_images": false,
+              "color_background": "#f9f9f9",
+              "color_text": "#1c1d1d",
+              "icon_1": "5-stars",
+              "testimonial_1": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author_1": "Author's name",
+              "author_info_1": "Los Angeles, CA",
+              "icon_2": "5-stars",
+              "testimonial_2": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author_2": "Author's name",
+              "author_info_2": "Los Angeles, CA"
+            }
+          },
+          "sections-1592408474529": {
+            "type": "text-and-image",
+            "settings": {
+              "image_width": 500,
+              "subtitle": "",
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+              "button_label": "Optional button",
+              "button_link": "",
+              "layout": "right",
+              "color_scheme": "none"
+            }
+          },
+          "sections-1592410318615": {
+            "type": "text-and-image",
+            "settings": {
+              "image_width": 500,
+              "subtitle": "",
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+              "button_label": "Optional button",
+              "button_link": "",
+              "layout": "left",
+              "color_scheme": "none"
+            }
+          },
+          "sections-1592410272428": {
+            "type": "image-hero",
+            "settings": {
+              "full_width": true,
+              "title": "Two line\ntitle image",
+              "title_size": 80,
+              "subheading": "And optional subtext",
+              "link": "",
+              "link_text": "Optional button",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "#fff",
+              "text_align": "vertical-bottom horizontal-left",
+              "focal_point": "center center",
+              "desktop_size": 0,
+              "mobile_size": 0
+            }
+          }
+        },
+        "block_order": [
+          "sections-1592410313636",
+          "sections-1592408476245",
+          "sections-1592408474529",
+          "sections-1592410318615",
+          "sections-1592410272428"
+        ],
+        "settings": {
+        }
+      },
+      "product-story-sections": {
+        "type": "product-story-sections",
+        "blocks": {
+          "1592408474529": {
+            "type": "text-and-image",
+            "settings": {
+              "image_width": 500,
+              "layout": "right"
+            }
+          },
+          "1592410313636": {
+            "type": "background-image-text",
+            "settings": {
+              "alignment": "center",
+              "layout": "right",
+              "height": 650
+            }
+          },
+          "1592408476245": {
+            "type": "testimonials",
+            "settings": {
+            }
+          },
+          "1592410272428": {
+            "type": "image-hero",
+            "settings": {
+            }
+          },
+          "1592410318615": {
+            "type": "text-and-image",
+            "settings": {
+              "image_width": 500,
+              "layout": "left"
+            }
+          }
+        },
+        "block_order": [
+          "1592410313636",
+          "1592408476245",
+          "1592408474529",
+          "1592410318615",
+          "1592410272428"
+        ],
+        "settings": {
+        }
+      },
+      "page-sections-template": {
+        "type": "page-sections-template",
+        "blocks": {
+          "c07a6c7e-44d1-437a-bc57-b30e30f2da74": {
+            "type": "rich-text",
+            "settings": {
+              "title": "Orchideenarten",
+              "text": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.<\/p>",
+              "align_text": "center",
+              "narrow_column": true,
+              "enlarge_text": false
+            }
+          },
+          "page-text-columns": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "left",
+              "color_scheme": "none",
+              "enable_image_1": true,
+              "image_width_1": 650,
+              "title_1": "New York",
+              "text_1": "<p>4523 Broadway Ave<br\/>Manhattan, New York<\/p><p>Mon - Fri, 8:30am - 10:30pm<br\/>Saturday, 8:30am - 10:30pm<br\/>Sunday, 8:30am - 10:30pm<\/p>",
+              "button_label_1": "View map",
+              "button_link_1": "https:\/\/www.google.ca\/maps\/place\/Main+St,+Queens,+NY,+USA\/@40.7359745,-73.8338499,15z\/data=!4m5!3m4!1s0x89c260618039000d:0x4e4216fa03a650cf!8m2!3d40.7359744!4d-73.8250952",
+              "enable_image_2": true,
+              "image_width_2": 650,
+              "title_2": "Brooklyn",
+              "text_2": "<p>301 Front St W<br\/>Brooklyn, New York<\/p><p>Mon - Fri, 8:30am - 10:30pm<br\/>Saturday, 8:30am - 10:30pm<br\/>Sunday, 8:30am - 10:30pm<\/p>",
+              "button_label_2": "View map",
+              "button_link_2": "https:\/\/www.google.ca\/maps\/place\/Main+St,+Queens,+NY,+USA\/@40.7359745,-73.8338499,15z\/data=!4m5!3m4!1s0x89c260618039000d:0x4e4216fa03a650cf!8m2!3d40.7359744!4d-73.8250952",
+              "enable_image_3": true,
+              "image_width_3": 650,
+              "title_3": "Queens",
+              "text_3": "<p>2381 Main St<br\/>Queens, New York<\/p><p>Mon - Fri, 8:30am - 10:30pm<br\/>Saturday, 8:30am - 10:30pm<br\/>Sunday, 8:30am - 10:30pm<\/p>",
+              "button_label_3": "View map",
+              "button_link_3": "https:\/\/www.google.ca\/maps\/place\/Main+St,+Queens,+NY,+USA\/@40.7359745,-73.8338499,15z\/data=!4m5!3m4!1s0x89c260618039000d:0x4e4216fa03a650cf!8m2!3d40.7359744!4d-73.8250952"
+            }
+          },
+          "page-background-image-text": {
+            "type": "background-image-text",
+            "settings": {
+              "subtitle": "",
+              "title": "Large image with text box",
+              "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "alignment": "center",
+              "layout": "right",
+              "height": 550,
+              "parallax": false
+            }
+          },
+          "fc63ae2d-4241-4508-b70e-b6d2b0ee6a17": {
+            "type": "contact-form",
+            "settings": {
+              "title": "",
+              "text": "",
+              "show_phone": true,
+              "narrow_column": true
+            }
+          }
+        },
+        "block_order": [
+          "c07a6c7e-44d1-437a-bc57-b30e30f2da74",
+          "page-text-columns",
+          "page-background-image-text",
+          "fc63ae2d-4241-4508-b70e-b6d2b0ee6a17"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false,
+          "overlaid_header": true
+        }
+      },
+      "newsletter-popup": {
+        "type": "newsletter-popup",
+        "settings": {
+          "mode": "disabled",
+          "popup_seconds": 5,
+          "popup_days": 2,
+          "popup_title": "07.08.2021 - 22.08.2021  Sommerpause!",
+          "popup_text": "<p>Gärtnerei GESCHLOSSEN, KEIN Versand in dieser Zeit! Bestellungen werden im Anschluss verschickt<\/p>",
+          "color_scheme": "2",
+          "enable_newsletter": true,
+          "button_label": "Optional button",
+          "button_link": "",
+          "enable_button": false
+        }
+      },
+      "collection-header": {
+        "type": "collection-header",
+        "settings": {
+          "enable": true,
+          "collection_image_enable": false,
+          "parallax": false
+        }
+      },
+      "collection-sidebar": {
+        "type": "collection-sidebar",
+        "blocks": {
+          "a6096aac-caf5-443a-b83a-324cdcded31f": {
+            "type": "tags_group",
+            "settings": {
+              "title": "Tag Group",
+              "tag_list": "First tag \nSecond tag \nThird tag",
+              "collapsed": false
+            }
+          }
+        },
+        "block_order": [
+          "a6096aac-caf5-443a-b83a-324cdcded31f"
+        ],
+        "settings": {
+          "enable_sidebar": true,
+          "tags_combine": true,
+          "enable_sort": true
+        }
+      },
+      "1525115199973": {
+        "type": "blog-posts",
+        "disabled": true,
+        "settings": {
+          "title": "Neuigkeiten",
+          "blog": "hennis-orchideen-blog",
+          "blog_show_tags": true,
+          "blog_show_date": true,
+          "blog_show_comments": false,
+          "blog_show_author": false,
+          "blog_image_size": "wide",
+          "divider": false
+        }
+      },
+      "footer-promotions": {
+        "type": "footer-promotions",
+        "blocks": {
+          "footer-promotions-0": {
+            "type": "promotion",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/getimage.jpg",
+              "title": "Zu den blühenden Pflanzen",
+              "text": "",
+              "button_label": "",
+              "button_link": "shopify:\/\/collections\/bluhende-pflanzen",
+              "color_scheme": "1"
+            }
+          },
+          "footer-promotions-2": {
+            "type": "promotion",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/getimage_d5f2e3ed-61c6-470f-9464-1b602532de61.jpg",
+              "title": "Ab sofort bieten wir auch Bücher und Zubehör an",
+              "text": "",
+              "button_label": "",
+              "button_link": "shopify:\/\/collections\/zubehor",
+              "color_scheme": "2"
+            }
+          }
+        },
+        "block_order": [
+          "footer-promotions-0",
+          "footer-promotions-2"
+        ],
+        "settings": {
+          "hide_homepage": false,
+          "image_size": "wide"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": false,
+          "product_recommendations_heading": "Mehr von Hennis Orchideen"
+        }
+      },
+      "recently-viewed": {
+        "type": "recently-viewed",
+        "settings": {
+          "show_section": true
+        }
+      },
+      "toolbar": {
+        "type": "toolbar",
+        "blocks": {
+          "0b066516-effd-470b-ba3b-fc9f69d6c6ae": {
+            "type": "announcement",
+            "settings": {
+              "richtext": "<p>Kostenloser Versand in Deutschland ab 100€ Bestellwert - Reduzierter Versand ab 60€<\/p>",
+              "richtext_mobile": "<p>Kostenloser Versand in Deutschland ab 100€<\/p>"
+            }
+          },
+          "c69c6a5f-f622-4ab9-a95d-8e5ee3138794": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "richtext": "<p>07.08.2021 - 22.08.2021  Gärtnerei GESCHLOSSEN. Bestellungen werden im Anschluss verschickt<\/p>",
+              "richtext_mobile": "<p>Sommerpause 07.08.2021 - 22.08.2021<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "0b066516-effd-470b-ba3b-fc9f69d6c6ae",
+          "c69c6a5f-f622-4ab9-a95d-8e5ee3138794"
+        ],
+        "settings": {
+          "toolbar_social": false,
+          "show_locale_selector": false,
+          "show_currency_selector": false
+        }
+      },
+      "blog-sidebar": {
+        "type": "blog-sidebar",
+        "blocks": {
+          "ff7a549d-af1e-4e72-93c7-326f5ace6fbb": {
+            "type": "article",
+            "settings": {
+              "article": ""
+            }
+          },
+          "a9c19dcb-3172-4927-b454-954715dfdfbc": {
+            "type": "article",
+            "settings": {
+              "article": ""
+            }
+          },
+          "475da60e-4773-448e-9c02-92633e2e15f3": {
+            "type": "article",
+            "settings": {
+              "article": ""
+            }
+          }
+        },
+        "block_order": [
+          "ff7a549d-af1e-4e72-93c7-326f5ace6fbb",
+          "a9c19dcb-3172-4927-b454-954715dfdfbc",
+          "475da60e-4773-448e-9c02-92633e2e15f3"
+        ],
+        "settings": {
+          "featured_product": "",
+          "blog_show_tags": true,
+          "blog_show_date": true,
+          "blog_show_comments": true,
+          "blog_show_author": false,
+          "social_sharing_blog": true,
+          "blog_image_size": "wide"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "show_newsletter": false,
+          "newsletter_richtext": "<p>In den Newsletter eintragen und immer über die neusten Angebote Bescheid wissen<\/p>",
+          "show_copyright": true,
+          "copyright_text": "",
+          "policies_menu": "footer"
+        }
+      },
+      "vendor-products": {
+        "type": "vendor-products",
+        "settings": {
+          "show_section": false
+        }
+      },
+      "password-header": {
+        "type": "password-header",
+        "settings": {
+          "desktop_logo_height": 100,
+          "mobile_logo_height": 60
+        }
+      },
+      "password-content": {
+        "type": "password-content",
+        "settings": {
+          "title": "Zum Newsletter eintragen",
+          "show_password_message": false,
+          "text": "",
+          "newsletter_enable": true,
+          "newsletter_placeholder": "Email",
+          "show_share_buttons": true,
+          "show_image": true,
+          "image": "shopify:\/\/shop_images\/Orchideen2_1600x900_c16827aa-1bd2-452b-9614-2612e97e2a1b.jpg"
+        }
+      },
+      "16166836436b96a4af": {
+        "type": "promo-grid",
+        "blocks": {
+          "9a0de8d9-d719-4516-a7d2-cb25ae0c0687": {
+            "type": "banner",
+            "settings": {
+              "heading": "Orchideen kaufen bei Hennis Orchideen seit 1891",
+              "text": "",
+              "link": "shopify:\/\/collections\/alle-produkte",
+              "label": "Jetzt einkaufen",
+              "color_scheme": "2"
+            }
+          }
+        },
+        "block_order": [
+          "9a0de8d9-d719-4516-a7d2-cb25ae0c0687"
+        ],
+        "settings": {
+          "full_width": true,
+          "gutter_size": 0,
+          "space_above": false,
+          "space_below": false
+        }
+      },
+      "1616683902f20dcab4": {
+        "type": "promo-grid",
+        "blocks": {
+          "1616683902f20dcab4-0": {
+            "type": "advanced",
+            "settings": {
+              "subheading": "",
+              "heading": "Jetzt blühende Pflanzen online bestellen",
+              "textarea": "",
+              "cta_text1": "Blühende Pflanzen",
+              "cta_link1": "shopify:\/\/collections\/bluhende-pflanzen",
+              "cta_text2": "Alle Pflanzen",
+              "cta_link2": "shopify:\/\/collections\/alle-produkte",
+              "image": "shopify:\/\/shop_images\/getimage.jpg",
+              "video_url": "",
+              "width": "100",
+              "height": 500,
+              "text_align": "vertical-center horizontal-center",
+              "focal_point": "center",
+              "color_accent": "#46a8e9"
+            }
+          }
+        },
+        "block_order": [
+          "1616683902f20dcab4-0"
+        ],
+        "settings": {
+          "full_width": true,
+          "gutter_size": 15,
+          "space_above": false,
+          "space_below": false
+        }
+      },
+      "1616684538a6424589": {
+        "type": "text-columns",
+        "blocks": {
+          "1616684538a6424589-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Jung.jpg",
+              "image_width": 650,
+              "title": "Jungpflanzen",
+              "text": "",
+              "button_label": "Zu den Jungpflanzen",
+              "button_link": "shopify:\/\/collections\/jungpflanzen"
+            }
+          },
+          "6c85b916-2109-493d-95ef-58e9ecdd3035": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/bluhfahig.jpg",
+              "image_width": 650,
+              "title": "Blühfähige Pflanzen",
+              "text": "",
+              "button_label": "Zu den blühfähigen Pflanzen",
+              "button_link": "shopify:\/\/collections\/bluhfahige-pflanzen"
+            }
+          },
+          "1616684538a6424589-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/getimage_3_90bd89c6-b42f-46aa-870a-a2f92e237f14.jpg",
+              "image_width": 650,
+              "title": "Blühende Pflanzen",
+              "text": "",
+              "button_label": "Zu den blühenden Pflanzen",
+              "button_link": "shopify:\/\/collections\/bluhende-pflanzen"
+            }
+          }
+        },
+        "block_order": [
+          "1616684538a6424589-1",
+          "6c85b916-2109-493d-95ef-58e9ecdd3035",
+          "1616684538a6424589-0"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "left",
+          "divider": false,
+          "color_scheme": "1"
+        }
+      },
+      "page-faq-template": {
+        "type": "page-faq-template",
+        "blocks": {
+          "page-faq-template-0": {
+            "type": "rich-text",
+            "settings": {
+              "align_text": "left"
+            }
+          },
+          "page-faq-template-1": {
+            "type": "question",
+            "settings": {
+            }
+          },
+          "page-faq-template-2": {
+            "type": "question",
+            "settings": {
+            }
+          },
+          "page-faq-template-3": {
+            "type": "rich-text",
+            "settings": {
+            }
+          },
+          "page-faq-template-4": {
+            "type": "question",
+            "settings": {
+            }
+          },
+          "e4d545d7-9e61-43a0-a334-2037ad7ddc0d": {
+            "type": "question",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "page-faq-template-0",
+          "page-faq-template-1",
+          "page-faq-template-2",
+          "page-faq-template-3",
+          "page-faq-template-4",
+          "e4d545d7-9e61-43a0-a334-2037ad7ddc0d"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "page-contact-template": {
+        "type": "page-contact-template",
+        "blocks": {
+          "page-contact-template-0": {
+            "type": "contact-form",
+            "settings": {
+              "show_phone": true,
+              "narrow_column": true
+            }
+          }
+        },
+        "block_order": [
+          "page-contact-template-0"
+        ],
+        "settings": {
+          "page_title_enable": true,
+          "page_content_enable": false,
+          "overlaid_header": false
+        }
+      },
+      "1617151606b67977d8": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "Blühende Pflanzen",
+          "home_featured_products": "bluhende-pflanzen",
+          "count": 5,
+          "mobile_scrollable": true,
+          "view_all": true,
+          "divider": false
+        }
+      },
+      "161715166764325dd6": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "Zubehör",
+          "home_featured_products": "zubehor",
+          "count": 5,
+          "mobile_scrollable": true,
+          "view_all": true,
+          "divider": false
+        }
+      },
+      "16171517359a3ac16d": {
+        "type": "newsletter",
+        "settings": {
+          "title": "Newsletter abonnieren und sparen",
+          "text": "<p>Abonniere den Newsletter und profitiere von exklusiven Angeboten<\/p>",
+          "color_scheme": "1"
+        }
+      },
+      "1617908311da4ac677": {
+        "type": "slideshow",
+        "blocks": {
+          "1617908311da4ac677-0": {
+            "type": "hero",
+            "settings": {
+              "top_subheading": "",
+              "title": "<p>Hennis Orchideen<\/p>",
+              "title_size": 50,
+              "subheading": "Eine der ältesten Orchideengärtnereien weltweit",
+              "link": "shopify:\/\/collections\/alle-produkte",
+              "link_text": "Zu den Orchideen",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "#ffffff",
+              "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/bloom-of-orchid-QUS3JB8.jpg",
+              "overlay_opacity": 0,
+              "focal_point": "center center"
+            }
+          },
+          "1617908311da4ac677-1": {
+            "type": "hero",
+            "settings": {
+              "top_subheading": "",
+              "title": "<p>Hennis Orchideen<\/p>",
+              "title_size": 50,
+              "subheading": "Orchideen seit 1891",
+              "link": "shopify:\/\/collections",
+              "link_text": "Zu den Orchideen",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "#ffffff",
+              "text_align": "vertical-center horizontal-left",
+              "image": "shopify:\/\/shop_images\/Orchideen2_1600x900_c16827aa-1bd2-452b-9614-2612e97e2a1b.jpg",
+              "overlay_opacity": 12,
+              "focal_point": "20% 50%"
+            }
+          },
+          "5d3d52b3-8700-4d42-a70b-3b9a57890cd4": {
+            "type": "hero",
+            "settings": {
+              "top_subheading": "",
+              "title": "<p>Die Orchidee des Monats<\/p>",
+              "title_size": 70,
+              "subheading": "Maxillaria porphyrostele",
+              "link": "shopify:\/\/products\/maxillaria-porphyrostele",
+              "link_text": "Zur Orchidee des Monats",
+              "link_2": "shopify:\/\/products\/maxillaria-porphyrostele",
+              "link_text_2": "",
+              "color_accent": "#ffffff",
+              "text_align": "vertical-bottom horizontal-left",
+              "image": "shopify:\/\/shop_images\/Max_porphy.jpg",
+              "overlay_opacity": 0,
+              "focal_point": "center center"
+            }
+          }
+        },
+        "block_order": [
+          "1617908311da4ac677-0",
+          "1617908311da4ac677-1",
+          "5d3d52b3-8700-4d42-a70b-3b9a57890cd4"
+        ],
+        "settings": {
+          "full_width": true,
+          "desktop_size": -40,
+          "mobile_size": 0,
+          "style": "minimal",
+          "autoplay": true,
+          "autoplay_speed": 7
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "title_enable": true,
+          "display_type": "all",
+          "sort": "alphabetical"
+        }
+      },
+      "1622294963218afa30": {
+        "type": "featured-content",
+        "settings": {
+          "title": "",
+          "text": "<p><strong>Liebe Kunden, <\/strong><\/p><p><strong>die Hauptzufahrt zu uns ist gesperrt, Zufahrt nur über die Strasse Gelber Stern und dann den Kalenberger Graben möglich!<\/strong><\/p><p><strong>Wir freuen uns auf Ihren Besuch!<\/strong><\/p>",
+          "link": "",
+          "link_text": "",
+          "align_text": "center",
+          "narrow_column": true,
+          "enlarge_text": true,
+          "color_scheme": "1",
+          "divider": false
+        }
+      },
+      "162229524025e7fa93": {
+        "type": "background-image-text",
+        "settings": {
+          "subtitle": "",
+          "title": "Besuchen Sie uns in Hildesheim",
+          "text": "<p>Große Venedig 4<br\/>31134 Hildesheim<br\/><br\/>Mo-Di: nach Vereinbarung<br\/>Mi-Fr: 9-13 und 14-17 Uhr<br\/>Sa: 9-12 Uhr<\/p><p>An allen gesetzlichen Feiertagen haben wir geschlossen!<\/p>",
+          "button_label": "",
+          "button_link": "",
+          "image": "shopify:\/\/shop_images\/Orchideen2_1600x900_c16827aa-1bd2-452b-9614-2612e97e2a1b.jpg",
+          "focal_point": "20% 50%",
+          "layout": "left",
+          "height": 550,
+          "parallax": false
+        }
+      },
+      "1631881464e86e265b": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "Orchideen kaufen: Neu im Shop oder wieder erhältlich",
+          "home_featured_products": "neu-im-shop-oder-wieder-erhaltlich-1",
+          "count": 10,
+          "mobile_scrollable": true,
+          "view_all": true,
+          "divider": false
+        }
+      },
+      "1631881482377dc87c": {
+        "type": "featured-product",
+        "settings": {
+          "featured_product": "maxillaria-porphyrostele",
+          "divider": false,
+          "product_image_size": "square",
+          "thumbnail_position": "beside",
+          "thumbnail_arrows": false,
+          "mobile_layout": "partial",
+          "enable_video_looping": true,
+          "product_video_style": "muted"
+        }
+      },
+      "1631882221c5da3c34": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "Im Angebot",
+          "home_featured_products": "im-angebot",
+          "count": 5,
+          "mobile_scrollable": true,
+          "view_all": true,
+          "divider": true
+        }
+      },
+      "1636022591a0ddb717": {
+        "type": "advanced-content",
+        "blocks": {
+          "1636022591a0ddb717-1": {
+            "type": "html",
+            "settings": {
+              "code": "<h2 style=\"text-align: center;\"><strong>Orchideen kaufen von Hennis Orchideen<\/strong><\/h2>\n<p>Orchideen kaufen ist heute einfacher als jemals zuvor. Ganz bequem von zu Hause kannst Du Deine Orchideen bei Hennis Orchideen online bestellen. Doch das war nicht immer so: <\/p>\n<p>Hennis Orchideen besteht als Orchideenimporteur und Orchideenzucht seit 1891. Damit gehört Hennis Orchideen zu einer der ältesten Orchideengärtnereien weltweit. <\/p>\n<p>Früher war es noch alles andere als einfach an Orchideen zu kommen, geschweige denn sie zu kaufen. Sie mussten erst im Urwald gefunden, gesammelt und auf eine weite Reise geschickt werden. Heute ist das zum Glück leichter: <strong>Orchideen kaufen<\/strong> ist heutzutage fast in jedem Gartencenter möglich und <strong>Orchideen kaufen geht sogar online <\/strong>– wie zum Beispiel hier im Shop. <\/p>\n<h3><strong>Orchideen online kaufen \/ bestellen. Wo kann ich Orchideen bestellen?<\/strong><\/h3>\n<p>Jetzt ist es sogar noch einfacher eine Orchidee zu kaufen… ganz bequem von zu Hause aus. Du kannst Deine Wunschorchidee Dir einfach in unserem Shop aussuchen und bestellen. Die Orchideen werden sicher verpackt und machen sich ohne Umwege auf den Weg zu Dir. <\/p>\n<p>Bei uns findest Du neben den Klassikern auch außergewöhnliche Orchideen. Insgesamt hast Du eine Auswahl aus über <strong>100 Gattungen<\/strong>. Da ist neben der Orchidee fürs Wohnzimmer auch die ein oder andere <strong>Seltenheit für den Hobbyisten<\/strong> dabei. <\/p>\n<h3><strong>Wie viel kostet eine Orchidee?<\/strong><\/h3>\n<p>Orchideen haben ganz unterschiedliche Preise und so ist es auch bei uns im Shop. Wenn Du eine Orchidee kaufen willst, dann wirst Du bei uns schon ab ca. <strong>10€<\/strong> fündig, allerdings bieten wir Dir auch Exemplare bis <strong>100€<\/strong> an. Dabei handelt es sich dann meist um Raritäten, von denen auch nur ganz wenige zur Verfügung stehen. Die klassischen Orchideen kannst Du bei uns zwischen <strong>10€ und 30€<\/strong> erwerben und direkt zu Dir nach Hause schicken lassen. <\/p>\n<h3><strong>Orchideen verschenken<\/strong><\/h3>\n<p>Orchideen sind nicht nur super für Deine eigene Wohnung als Deko, sondern auch als Geschenk – besonders zu Anlässen wie Weihnachten, Ostern und Muttertag sind sie das perfekte Geschenk und bereiten dem Beschenkten viel und lange Freude. <\/p>\n<h3><strong>Orchideen pflegen<\/strong><\/h3>\n<p>Orchideen sind zwar Überlebenskünstler und schaffen es auf Baumkronen im Regenwald zu überleben, aber sind aufgrund der speziellen Herkunft auch anspruchsvoll. <\/p>\n<p>Die meisten Orchideenarten bevorzugen helle Standorte auf Fensterbänken, aber wollen auch nicht der direkten Sonne ausgesetzt sein – zumindest nicht über eine zu lange Zeit. <\/p>\n<p><strong>Kleiner Tipp:<\/strong> Die Phalaenopsis gehört zu den pflegeleichtesten Orchideen und ist daher gerade für Einsteiger, die gerade zum ersten Mal <strong>Orchideen kaufen<\/strong>, perfekt geeignet. <\/p>\n<p>Statt die Pflanzen zu gießen, solltest Du sie am besten tauchen. Dabei nimmst Du Deine Orchidee alle 2 Wochen aus dem Übertopf und tauchst sie in ein Wasserbad, solange bis die Wurzeln dunkelgrün werden. <\/p>\n<p>Orchideen lieben besonders eine hohe Luftfeuchtigkeit. Am besten besprühst Du die Blätter daher regelmäßig mit etwas Wasser. Pass dabei aber auf: Das Wasser darf nicht zu kalkhaltig sein, denn dann kriegen die Blätter schnell Flecken. <\/p>\n<h3><strong>Orchideen fürs Raumklima<\/strong><\/h3>\n<p>Orchideen kaufen ist nicht nur toll für die Optik, sondern auch fürs Raumklima. Mit ihren bunten Blüten sorgen sie für eine schöne Atmosphäre und leisten einen Beitrag zur Erhöhung der Luftfeuchtigkeit.<\/p>\n<h3><strong>Vorteile beim Orchideen kaufen bei Hennis Orchideen:<\/strong><\/h3>\n<ol>\n<li>Langlebige Orchideen, die viel Freude bereiten<\/li>\n<li>Sicherer und schneller Versand der Orchideen<\/li>\n<li>Von Jungpflanze über blühfähig zu voll blühend alles verfügbar<\/li>\n<li>Große Auswahl aus über 100 Gattungen<\/li>\n<li>Über 120 Jahre Erfahrung in der Orchideenzucht<\/li>\n<\/ol>\n<h3><strong>Orchideen kaufen: Worauf muss ich achten?<\/strong><\/h3>\n<p>Beim Orchideen kaufen machen viele den Fehler, dass Du nicht einfach die nächstbeste Orchidee kaufst, die im Supermarkt zur Verfügung steht. Häufig handelt es sich dabei allerdings um Pflanzen, die viel Stress ausgesetzt waren und im Verkaufsraum schon voll aufgeblüht sein müssen, um möglichst attraktiv auszusehen und sich gut zu verkaufen. <\/p>\n<p>Viel besser ist es aber Orchideen zu kaufen, die erst gerade aufgeblüht sind oder die Blüte noch vor sich haben. So kannst Du Dir sicher sein, dass Du auch wirklich lange etwas von der Blüte hast. <\/p>\n<h3>Orchideen in verschiedenen Farben kaufen<\/h3>\n<p>Unsere große Auswahl an Orchideen in verschiedenen Farben ermöglicht es Ihnen auch <strong>Orchideen in rot, weiß, schwarz, grün, gelb, blau, lila oder in einer Kombination dieser Farben zu kaufen<\/strong>. Damit bieten wir auch Exemplare jenseits der weißen Standard-Phalaenopsis an.<\/p>\n<p>Die unterschiedlich farbigen Orchideen gehören zu verschiedenen Gattungen. Daher kannst Du in den dafür hinterlegten Kollektionen nicht nur Phalaenopsis und Vanda Orchideen entdecken, sondern auch seltene Exemplare in den schönsten Farben.<\/p>\n<h3>Verschiedene Orchideengattungen kaufen<\/h3>\n<p>Wenn Du auf der Suche nach seltenen Orchideengattungen bist, bist Du bei uns genau richtig. Wir bieten insgesamt weit über 50 verschiedene Orchideengattungen und haben damit eines der umfangreichsten Sortimente im gesamten deutschen Orchideenmarkt. Falls Du also eine <strong>Orchidee kaufen<\/strong> möchtest, die zu einer außergewöhnlichen Gattung gehört, wirst Du bei uns bestimmt fündig.<\/p>\n<h3>Welche ist die schönste Orchidee?<\/h3>\n<p>Welche Orchidee die schönste ist, hängt ganz vom eigenen Geschmack ab. Sicher lässt sich nur sagen, dass die weiße Phalaenopsis am weitesten verbreitet ist in den heimischen Häusern und Wohnungen. Das hängt vor allem mit ihren großen Blüten zusammen. Neben einer weißen Orchidee sind vor allem Orchideen in knalligen Farben beliebt.<\/p>\n<h3>Welche Orchidee duftet am stärksten?<\/h3>\n<p>Zu den duftenden Orchideen gehören unterschiedliche Orchideen. Besonders stark duften die <strong>Phalaenopsis Liodoro<\/strong>, die <strong>Maxillaria tenuifolia 'Hennis'<\/strong>, die <strong>Coelogyne orchracea<\/strong> und die <strong>Dendrobium Berry Oda<\/strong>, die alle bei uns im Shop unter Duftorchideen erhältlich sind.<\/p>\n<h3>Welche Orchidee ist pflegeleicht?<\/h3>\n<p>Zu den pflegeleichten Orchideen gehört insbesondere die <strong>Phalaenopsis<\/strong>, was einer der Gründe dafür ist, warum sie so beliebt ist und fast jeder Orchideenbesitzer mindestens eine hat.<\/p>",
+              "width": "100%",
+              "alignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "1636022591a0ddb717-1"
+        ],
+        "settings": {
+          "full_width": false,
+          "space_around": true
+        }
+      },
+      "page-orchideenarten-template": {
+        "type": "page-orchideenarten-template",
+        "blocks": {
+          "b6cf1943-cb4d-4c1a-bd1b-f06f7f446a05": {
+            "type": "custom-html",
+            "settings": {
+              "full_width": false,
+              "space_around": true,
+              "code": "<center>\n<h1>Orchideenarten<\/h1>\n<p>Orchideen sind tolle Pflanzen.<\/p>\n<\/center>"
+            }
+          },
+          "f40d9fe9-9dee-4dc0-8ac5-5cb49d8693c2": {
+            "type": "custom-html",
+            "settings": {
+              "full_width": false,
+              "space_around": true,
+              "code": "<h2>Orchideenarten mit A<\/h2>"
+            }
+          }
+        },
+        "block_order": [
+          "b6cf1943-cb4d-4c1a-bd1b-f06f7f446a05",
+          "f40d9fe9-9dee-4dc0-8ac5-5cb49d8693c2"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false,
+          "overlaid_header": true
+        }
+      },
+      "16362049927d2fb97a": {
+        "type": "featured-content",
+        "settings": {
+          "title": "Die Orchidee des Monats",
+          "text": "",
+          "link": "",
+          "link_text": "",
+          "align_text": "center",
+          "narrow_column": true,
+          "enlarge_text": true,
+          "color_scheme": "none",
+          "divider": false
+        }
+      },
+      "163620684288794478": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "Seltene Orchideen",
+          "home_featured_products": "seltene-orchideen",
+          "count": 5,
+          "mobile_scrollable": true,
+          "view_all": true,
+          "divider": false
+        }
+      },
+      "announcement-bar-present": {
+        "type": "announcement-bar-present",
+        "settings": {
+          "message": true,
+          "home_page_only": false,
+          "header_padding": 0,
+          "message_text": "Unsere Hauptzufahrt ist gesperrt. Ihr erreicht uns nur über \"Gelber Stern\" (Eingabe Navi), Godehardplatz, Kalenberger Graben und dann Große Venedig.",
+          "free_shipping_countdown": false,
+          "free_shipping_threshold": 70,
+          "free_shipping_notqualified": "Dir fehlen nur noch [price], um 15% Rabatt auf die gesamte Bestellung zu erhalten.",
+          "free_shipping_qualified": "Herzlichen Glückwunsch! Dein Warenkorb liegt über 70€. Der 15%-Rabatt wird automatisch an der Kasse für Dich eingelöst.",
+          "message_link": "",
+          "color_bg": "#46a8e9",
+          "color_text": "#ffffff",
+          "color_text_hover": "#eeeeee",
+          "font_size": 15
+        }
+      },
+      "1645432823e3628ba0": {
+        "type": "featured-collections",
+        "blocks": {
+          "1645432823e3628ba0-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "rote-orchideen",
+              "title": ""
+            }
+          },
+          "1645432823e3628ba0-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "lila-orchideen",
+              "title": ""
+            }
+          },
+          "1645432823e3628ba0-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "gelbe-orchideen",
+              "title": ""
+            }
+          },
+          "1645432823e3628ba0-3": {
+            "type": "collection",
+            "settings": {
+              "collection": "blaue-orchideen",
+              "title": ""
+            }
+          },
+          "1645432823e3628ba0-4": {
+            "type": "collection",
+            "settings": {
+              "collection": "grune-orchideen",
+              "title": ""
+            }
+          },
+          "1645432823e3628ba0-5": {
+            "type": "collection",
+            "settings": {
+              "collection": "weisse-orchideen",
+              "title": ""
+            }
+          }
+        },
+        "block_order": [
+          "1645432823e3628ba0-0",
+          "1645432823e3628ba0-1",
+          "1645432823e3628ba0-2",
+          "1645432823e3628ba0-3",
+          "1645432823e3628ba0-4",
+          "1645432823e3628ba0-5"
+        ],
+        "settings": {
+          "title": "Farbige Orchideen",
+          "divider": false
+        }
+      },
+      "1653983228170114ae": {
+        "type": "featured-collections",
+        "blocks": {
+          "1653983228170114ae-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "phalaenopsis",
+              "title": ""
+            }
+          },
+          "1653983228170114ae-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "vanda",
+              "title": ""
+            }
+          },
+          "1653983228170114ae-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "dendrobium",
+              "title": ""
+            }
+          },
+          "1653983228170114ae-3": {
+            "type": "collection",
+            "settings": {
+              "collection": "aerangis",
+              "title": ""
+            }
+          },
+          "1653983228170114ae-4": {
+            "type": "collection",
+            "settings": {
+              "collection": "cattleya",
+              "title": ""
+            }
+          },
+          "1653983228170114ae-5": {
+            "type": "collection",
+            "settings": {
+              "collection": "odontocidium",
+              "title": ""
+            }
+          },
+          "69d535d4-fba6-4c0b-8451-9a8715d22817": {
+            "type": "collection",
+            "settings": {
+              "collection": "laelia",
+              "title": ""
+            }
+          },
+          "86acf241-fcde-4b65-b4ef-c802fd0eed41": {
+            "type": "collection",
+            "settings": {
+              "collection": "cypripedium",
+              "title": ""
+            }
+          },
+          "b7d8ba5d-5c17-4139-a231-577f1824ad92": {
+            "type": "collection",
+            "settings": {
+              "collection": "acacallis",
+              "title": ""
+            }
+          },
+          "9cb63909-07f4-4527-8cc2-a3d6fb34bc36": {
+            "type": "collection",
+            "settings": {
+              "collection": "miltonia",
+              "title": ""
+            }
+          },
+          "4d92a79f-7157-469f-af02-186ae01ceced": {
+            "type": "collection",
+            "settings": {
+              "collection": "dracula",
+              "title": ""
+            }
+          },
+          "72f8596b-274a-4fb8-a0d0-964eb7e12f96": {
+            "type": "collection",
+            "settings": {
+              "collection": "miltassia",
+              "title": ""
+            }
+          },
+          "1362fe6a-5461-4ea5-9332-e5e0689ed473": {
+            "type": "collection",
+            "settings": {
+              "collection": "epidendrum",
+              "title": ""
+            }
+          },
+          "530a6f88-c637-48f7-b7d0-9d3ca9b9226c": {
+            "type": "collection",
+            "settings": {
+              "collection": "vandopsis",
+              "title": ""
+            }
+          },
+          "6f7f5987-b8d1-487e-b222-b4591425574f": {
+            "type": "collection",
+            "settings": {
+              "collection": "paphiopedilum",
+              "title": ""
+            }
+          },
+          "dfc0c366-55e0-4f09-b3c8-f3ec029c86fb": {
+            "type": "collection",
+            "settings": {
+              "collection": "stanhopea",
+              "title": ""
+            }
+          },
+          "c55fdf8f-e99c-4075-9dd3-c0095c6fd4ad": {
+            "type": "collection",
+            "settings": {
+              "collection": "zygopetalum",
+              "title": ""
+            }
+          },
+          "20b92165-f4f7-4d6b-aa43-7e73c7745e0a": {
+            "type": "collection",
+            "settings": {
+              "collection": "odontoglossum",
+              "title": ""
+            }
+          }
+        },
+        "block_order": [
+          "1653983228170114ae-0",
+          "1653983228170114ae-1",
+          "1653983228170114ae-2",
+          "1653983228170114ae-3",
+          "1653983228170114ae-4",
+          "1653983228170114ae-5",
+          "69d535d4-fba6-4c0b-8451-9a8715d22817",
+          "86acf241-fcde-4b65-b4ef-c802fd0eed41",
+          "b7d8ba5d-5c17-4139-a231-577f1824ad92",
+          "9cb63909-07f4-4527-8cc2-a3d6fb34bc36",
+          "4d92a79f-7157-469f-af02-186ae01ceced",
+          "72f8596b-274a-4fb8-a0d0-964eb7e12f96",
+          "1362fe6a-5461-4ea5-9332-e5e0689ed473",
+          "530a6f88-c637-48f7-b7d0-9d3ca9b9226c",
+          "6f7f5987-b8d1-487e-b222-b4591425574f",
+          "dfc0c366-55e0-4f09-b3c8-f3ec029c86fb",
+          "c55fdf8f-e99c-4075-9dd3-c0095c6fd4ad",
+          "20b92165-f4f7-4d6b-aa43-7e73c7745e0a"
+        ],
+        "settings": {
+          "title": "Orchideengattungen",
+          "divider": true
+        }
+      },
+      "custom-fields-collections": {
+        "type": "custom-fields-collections",
+        "settings": {
+        }
+      },
+      "b1af56f3-f326-408e-a21d-596113263af9": {
+        "type": "promo-grid",
+        "blocks": {
+          "b1af56f3-f326-408e-a21d-596113263af9-1669301782314497c2-0": {
+            "type": "advanced",
+            "disabled": true,
+            "settings": {
+              "subheading": "",
+              "heading": "Announce your promotion",
+              "textarea": "Include the smaller details of your promotion in text below the title.",
+              "cta_text1": "Shop This",
+              "cta_link1": "",
+              "cta_text2": "Shop All",
+              "cta_link2": "",
+              "video_url": "",
+              "width": "50",
+              "height": 500,
+              "text_align": "vertical-center horizontal-center",
+              "focal_point": "center",
+              "color_accent": "#ffffff"
+            }
+          }
+        },
+        "block_order": [
+          "b1af56f3-f326-408e-a21d-596113263af9-1669301782314497c2-0"
+        ],
+        "settings": {
+          "full_width": false,
+          "gutter_size": 20,
+          "space_above": false,
+          "space_below": false
+        }
+      }
+    },
+    "content_for_index": [
+      "1617908311da4ac677",
+      "16166836436b96a4af",
+      "b1af56f3-f326-408e-a21d-596113263af9",
+      "1631881464e86e265b",
+      "16362049927d2fb97a",
+      "1631881482377dc87c",
+      "1616684538a6424589",
+      "1499789718857",
+      "1631882221c5da3c34",
+      "162229524025e7fa93",
+      "1622294963218afa30",
+      "1616683902f20dcab4",
+      "1617151606b67977d8",
+      "161715166764325dd6",
+      "163620684288794478",
+      "16171517359a3ac16d",
+      "1525115199973",
+      "1636022591a0ddb717",
+      "1645432823e3628ba0",
+      "1653983228170114ae"
+    ]
+  },
+  "presets": {
+    "Classic": {
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#000000",
+      "color_price": "#1c1d1d",
+      "color_savings_text": "#ba4444",
+      "color_borders": "#e8e8e1",
+      "color_button": "#313652",
+      "color_button_text": "#ffffff",
+      "color_sale_tag": "#ba4444",
+      "color_cart_dot": "#ba4444",
+      "color_small_image_bg": "#ffffff",
+      "color_large_image_bg": "#e7e7e7",
+      "color_header": "#313652",
+      "color_header_text": "#ffffff",
+      "color_header_search": "#ffffff",
+      "color_footer": "#f9f9fb",
+      "color_footer_border": "#e8e8e1",
+      "color_footer_text": "#242430",
+      "color_scheme_1_bg": "#ffffff",
+      "color_scheme_1_text": "#000000",
+      "color_scheme_1_texture": "marble.jpg",
+      "color_scheme_2_bg": "#9cc1bc",
+      "color_scheme_2_texture": "swirl",
+      "color_scheme_3_bg": "#ffffff",
+      "color_scheme_3_text": "#000000",
+      "color_scheme_3_texture": "darken",
+      "type_header_font_family": "libre_baskerville_n4",
+      "type_header_spacing": "0",
+      "type_header_base_size": 36,
+      "type_header_line_height": 1.2,
+      "type_header_capitalize": false,
+      "type_base_font_family": "harmonia_sans_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 16,
+      "type_base_line_height": 1.5,
+      "type_navigation_style": "body",
+      "type_navigation_size": 14,
+      "type_navigation_capitalize": true,
+      "button_style": "square",
+      "icon_weight": "4px",
+      "icon_linecaps": "miter",
+      "product_grid_style": "grey-square",
+      "vendor_enable": true,
+      "quick_shop_enable": true,
+      "quick_add_enable": true,
+      "product_grid_image_size": "square",
+      "product_grid_image_fill": true,
+      "product_grid_image_margin": 10,
+      "product_hover_image": true,
+      "variant_type": "button",
+      "enable_payment_button": true,
+      "sku_enable": true,
+      "quantity_enable": false,
+      "inventory_enable": true,
+      "inventory_transfers_enable": true,
+      "surface_pickup_enable": true,
+      "product_zoom_enable": true,
+      "product_color_swatches": false,
+      "collection_color_swatches": false,
+      "product_contact": true,
+      "collection_grid_shape": "circle",
+      "collection_grid_image": "product",
+      "collection_grid_image_margin": 17,
+      "cart_type": "dropdown",
+      "cart_icon": "cart",
+      "cart_additional_buttons": false,
+      "cart_notes_enable": false,
+      "cart_terms_conditions_enable": false,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "superscript_decimals": true,
+      "show_breadcrumbs": false,
+      "show_breadcrumbs_collection_link": true,
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_overlay": "#000000",
+      "color_image_overlay_opacity": 0,
+      "color_image_overlay_text_shadow": 28,
+      "type_headers_align_text": false,
+      "type_body_align_text": true,
+      "color_announcement": "#000000",
+      "color_announcement_text": "#ffffff",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_drawer_border": "#e8e8e1",
+      "color_drawer_button": "#111111",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#e6e6e6",
+      "type_collection_font": "body",
+      "type_collection_size": 18,
+      "collection_grid_style": "below",
+      "collection_grid_text_align": "center",
+      "collection_grid_tint": "#000000",
+      "collection_grid_opacity": 10,
+      "collection_grid_gutter": true,
+      "breadcrumb": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "blocks": {
+            "1524770014057": {
+              "type": "logo",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1524770014057"
+          ],
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "main_menu_alignment": "below",
+            "sticky_index": false,
+            "sticky_collection": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "description_position": "top",
+            "subcollection_style": "above",
+            "grid_style": "small"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "image_position": "left",
+            "image_container_size": "medium",
+            "product_image_size": "square",
+            "thumbnail_position": "beside",
+            "thumbnail_arrows": false,
+            "mobile_layout": "partial",
+            "enable_video_looping": true,
+            "product_video_style": "muted",
+            "social_enable": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_capitalize_first": true,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": true
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "blog_image_size": "wide"
+          }
+        },
+        "1499789718857": {
+          "type": "featured-collections",
+          "blocks": {
+            "1499789718857-0": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "deff6d8f-5200-4686-b6aa-bcfff90ddeef": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "1499789718857-1": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "1499789718857-2": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "1499789718857-3": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "e2697eb6-4ee1-4531-8beb-f000e64b262c": {
+              "type": "collection",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1499789718857-0",
+            "deff6d8f-5200-4686-b6aa-bcfff90ddeef",
+            "1499789718857-1",
+            "1499789718857-2",
+            "1499789718857-3",
+            "e2697eb6-4ee1-4531-8beb-f000e64b262c"
+          ],
+          "settings": {
+          }
+        },
+        "product-sections-template": {
+          "type": "product-sections-template",
+          "blocks": {
+            "sections-1592408474529": {
+              "type": "text-and-image",
+              "settings": {
+                "image_width": 500,
+                "subtitle": "Improved",
+                "layout": "right"
+              }
+            },
+            "sections-1592410313636": {
+              "type": "background-image-text",
+              "settings": {
+                "alignment": "center",
+                "layout": "right",
+                "height": 650
+              }
+            },
+            "sections-1592408476245": {
+              "type": "testimonials",
+              "settings": {
+              }
+            },
+            "sections-1592410272428": {
+              "type": "image-hero",
+              "settings": {
+              }
+            },
+            "sections-1592410318615": {
+              "type": "text-and-image",
+              "settings": {
+                "image_width": 500,
+                "subtitle": "Improved",
+                "layout": "left"
+              }
+            }
+          },
+          "block_order": [
+            "sections-1592410313636",
+            "sections-1592408476245",
+            "sections-1592408474529",
+            "sections-1592410318615",
+            "sections-1592410272428"
+          ],
+          "settings": {
+          }
+        },
+        "product-story-sections": {
+          "type": "product-story-sections",
+          "blocks": {
+            "1592408474529": {
+              "type": "text-and-image",
+              "settings": {
+                "image_width": 500,
+                "layout": "right"
+              }
+            },
+            "1592410313636": {
+              "type": "background-image-text",
+              "settings": {
+                "alignment": "center",
+                "layout": "right",
+                "height": 650
+              }
+            },
+            "1592408476245": {
+              "type": "testimonials",
+              "settings": {
+              }
+            },
+            "1592410272428": {
+              "type": "image-hero",
+              "settings": {
+              }
+            },
+            "1592410318615": {
+              "type": "text-and-image",
+              "settings": {
+                "image_width": 500,
+                "layout": "left"
+              }
+            }
+          },
+          "block_order": [
+            "1592410313636",
+            "1592408476245",
+            "1592408474529",
+            "1592410318615",
+            "1592410272428"
+          ],
+          "settings": {
+          }
+        },
+        "page-sections-template": {
+          "type": "page-sections-template",
+          "blocks": {
+            "page-image-hero": {
+              "type": "image-hero",
+              "settings": {
+              }
+            },
+            "page-rich-text": {
+              "type": "rich-text",
+              "settings": {
+                "align_text": "center",
+                "narrow_column": true,
+                "enlarge_text": true
+              }
+            },
+            "page-text-columns": {
+              "type": "text-columns",
+              "settings": {
+                "align_text": "left",
+                "color_scheme": "none",
+                "enable_image_1": true,
+                "image_width_1": 650,
+                "title_1": "New York",
+                "text_1": "<p>4523 Broadway Ave<br\/>Manhattan, New York<\/p><p>Mon - Fri, 8:30am - 10:30pm<br\/>Saturday, 8:30am - 10:30pm<br\/>Sunday, 8:30am - 10:30pm<\/p>",
+                "button_label_1": "View map",
+                "button_link_1": "https:\/\/www.google.ca\/maps\/place\/Main+St,+Queens,+NY,+USA\/@40.7359745,-73.8338499,15z\/data=!4m5!3m4!1s0x89c260618039000d:0x4e4216fa03a650cf!8m2!3d40.7359744!4d-73.8250952",
+                "enable_image_2": true,
+                "image_width_2": 650,
+                "title_2": "Brooklyn",
+                "text_2": "<p>301 Front St W<br\/>Brooklyn, New York<\/p><p>Mon - Fri, 8:30am - 10:30pm<br\/>Saturday, 8:30am - 10:30pm<br\/>Sunday, 8:30am - 10:30pm<\/p>",
+                "button_label_2": "View map",
+                "button_link_2": "https:\/\/www.google.ca\/maps\/place\/Main+St,+Queens,+NY,+USA\/@40.7359745,-73.8338499,15z\/data=!4m5!3m4!1s0x89c260618039000d:0x4e4216fa03a650cf!8m2!3d40.7359744!4d-73.8250952",
+                "enable_image_3": true,
+                "image_width_3": 650,
+                "title_3": "Queens",
+                "text_3": "<p>2381 Main St<br\/>Queens, New York<\/p><p>Mon - Fri, 8:30am - 10:30pm<br\/>Saturday, 8:30am - 10:30pm<br\/>Sunday, 8:30am - 10:30pm<\/p>",
+                "button_label_3": "View map",
+                "button_link_3": "https:\/\/www.google.ca\/maps\/place\/Main+St,+Queens,+NY,+USA\/@40.7359745,-73.8338499,15z\/data=!4m5!3m4!1s0x89c260618039000d:0x4e4216fa03a650cf!8m2!3d40.7359744!4d-73.8250952"
+              }
+            },
+            "page-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "alignment": "center",
+                "layout": "right",
+                "height": 550
+              }
+            },
+            "4ad4156a-1153-4805-bd3e-aa61a2a79c4b": {
+              "type": "contact-form",
+              "settings": {
+                "show_phone": true,
+                "narrow_column": true
+              }
+            }
+          },
+          "block_order": [
+            "page-image-hero",
+            "page-rich-text",
+            "page-text-columns",
+            "page-background-image-text",
+            "4ad4156a-1153-4805-bd3e-aa61a2a79c4b"
+          ],
+          "settings": {
+            "page_title_enable": false,
+            "page_content_enable": false,
+            "overlaid_header": true
+          }
+        },
+        "newsletter-popup": {
+          "type": "newsletter-popup",
+          "settings": {
+            "mode": "enabled",
+            "popup_seconds": 60,
+            "popup_days": 30,
+            "color_scheme": "2",
+            "enable_newsletter": true,
+            "enable_button": false
+          }
+        },
+        "collection-header": {
+          "type": "collection-header",
+          "settings": {
+            "enable": true,
+            "collection_image_enable": true
+          }
+        },
+        "collection-sidebar": {
+          "type": "collection-sidebar",
+          "blocks": {
+            "27a46cde-6ef5-4e83-9f49-91473d9bdd47": {
+              "type": "tags_group",
+              "settings": {
+                "tag_list": "$50 - $100\n$100 - $200\n$200 to $500\n$500 and up",
+                "collapsed": false
+              }
+            }
+          },
+          "block_order": [
+            "27a46cde-6ef5-4e83-9f49-91473d9bdd47"
+          ],
+          "settings": {
+            "enable_sidebar": true,
+            "tags_combine": false,
+            "enable_sort": true
+          }
+        },
+        "1525115199973": {
+          "type": "blog-posts",
+          "settings": {
+            "blog": "news",
+            "blog_show_tags": true,
+            "blog_show_date": false,
+            "blog_show_comments": false,
+            "blog_show_author": false,
+            "blog_image_size": "wide",
+            "divider": false
+          }
+        },
+        "1525295772132": {
+          "type": "featured-collection",
+          "settings": {
+            "count": 5,
+            "mobile_scrollable": true,
+            "view_all": true,
+            "divider": false
+          }
+        },
+        "footer-promotions": {
+          "type": "footer-promotions",
+          "blocks": {
+            "footer-promotions-0": {
+              "type": "promotion",
+              "settings": {
+                "enable_image": true,
+                "color_scheme": "1"
+              }
+            },
+            "footer-promotions-1": {
+              "type": "promotion",
+              "settings": {
+                "enable_image": true
+              }
+            },
+            "footer-promotions-2": {
+              "type": "promotion",
+              "settings": {
+                "enable_image": true,
+                "color_scheme": "2"
+              }
+            }
+          },
+          "block_order": [
+            "footer-promotions-0",
+            "footer-promotions-1",
+            "footer-promotions-2"
+          ],
+          "settings": {
+            "hide_homepage": true,
+            "image_size": "wide"
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+          }
+        },
+        "recently-viewed": {
+          "type": "recently-viewed",
+          "settings": {
+            "show_section": true
+          }
+        },
+        "toolbar": {
+          "type": "toolbar",
+          "settings": {
+            "toolbar_social": false,
+            "show_locale_selector": false,
+            "show_currency_selector": false
+          }
+        },
+        "16154004051a1fa86e": {
+          "type": "featured-collection",
+          "settings": {
+            "count": 5,
+            "mobile_scrollable": false,
+            "view_all": true,
+            "divider": false
+          }
+        },
+        "blog-sidebar": {
+          "type": "blog-sidebar",
+          "blocks": {
+            "ff7a549d-af1e-4e72-93c7-326f5ace6fbb": {
+              "type": "article",
+              "settings": {
+              }
+            },
+            "a9c19dcb-3172-4927-b454-954715dfdfbc": {
+              "type": "article",
+              "settings": {
+              }
+            },
+            "a0382939-ffb8-4144-83cc-9565ad819150": {
+              "type": "article",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "ff7a549d-af1e-4e72-93c7-326f5ace6fbb",
+            "a9c19dcb-3172-4927-b454-954715dfdfbc",
+            "a0382939-ffb8-4144-83cc-9565ad819150"
+          ],
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": false,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "blog_image_size": "wide"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "menu",
+              "settings": {
+                "enable_account_link": false
+              }
+            },
+            "fe6a67a0-686e-435b-a946-f28802053c97": {
+              "type": "contact",
+              "settings": {
+                "phone": "+1 800 123 1234",
+                "enable_social": true
+              }
+            },
+            "c296bc3e-1d7f-4750-b993-050176521596": {
+              "type": "payment",
+              "settings": {
+                "show_payment_icons": true,
+                "show_locale_selector": true,
+                "show_currency_selector": true
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "fe6a67a0-686e-435b-a946-f28802053c97",
+            "c296bc3e-1d7f-4750-b993-050176521596"
+          ],
+          "settings": {
+            "show_newsletter": true,
+            "show_copyright": true,
+            "policies_menu": "policies"
+          }
+        },
+        "vendor-products": {
+          "type": "vendor-products",
+          "settings": {
+            "show_section": true
+          }
+        },
+        "1616532692c6137801": {
+          "type": "promo-grid",
+          "blocks": {
+            "1616532692c6137801-0": {
+              "type": "advanced",
+              "settings": {
+                "width": "100",
+                "height": 500,
+                "text_align": "vertical-center horizontal-center",
+                "focal_point": "bottom",
+                "color_accent": "#ffffff"
+              }
+            }
+          },
+          "block_order": [
+            "1616532692c6137801-0"
+          ],
+          "settings": {
+            "full_width": true,
+            "gutter_size": 0,
+            "space_above": false,
+            "space_below": false
+          }
+        },
+        "16166970499d200586": {
+          "type": "promo-grid",
+          "blocks": {
+            "8fcbacfa-2b4f-4197-a9c7-d2c9cce20ef5": {
+              "type": "banner",
+              "settings": {
+                "color_scheme": "2"
+              }
+            },
+            "39d950a6-389b-415c-b815-62cfd8e07480": {
+              "type": "product",
+              "settings": {
+                "enable_price": true,
+                "width": "50",
+                "color_scheme": "1"
+              }
+            },
+            "a6ec910f-4f19-440b-8963-596f8c2e1ca8": {
+              "type": "product",
+              "settings": {
+                "enable_price": true,
+                "width": "50",
+                "color_scheme": "1"
+              }
+            },
+            "84d708d3-fa85-41cb-b184-2def6e310102": {
+              "type": "sale_collection",
+              "settings": {
+                "width": "50",
+                "color_scheme": "none"
+              }
+            },
+            "ff6095f4-fe8a-452f-a564-f3df78725e16": {
+              "type": "sale_collection",
+              "settings": {
+                "width": "50",
+                "color_scheme": "none"
+              }
+            }
+          },
+          "block_order": [
+            "8fcbacfa-2b4f-4197-a9c7-d2c9cce20ef5",
+            "39d950a6-389b-415c-b815-62cfd8e07480",
+            "a6ec910f-4f19-440b-8963-596f8c2e1ca8",
+            "84d708d3-fa85-41cb-b184-2def6e310102",
+            "ff6095f4-fe8a-452f-a564-f3df78725e16"
+          ],
+          "settings": {
+            "full_width": false,
+            "gutter_size": 20,
+            "space_above": false,
+            "space_below": true
+          }
+        },
+        "16167068142513abfa": {
+          "type": "logo-list",
+          "blocks": {
+            "16167068142513abfa-0": {
+              "type": "logo_image",
+              "settings": {
+              }
+            },
+            "16167068142513abfa-1": {
+              "type": "logo_image",
+              "settings": {
+              }
+            },
+            "16167068142513abfa-2": {
+              "type": "logo_image",
+              "settings": {
+              }
+            },
+            "16167068142513abfa-3": {
+              "type": "logo_image",
+              "settings": {
+              }
+            },
+            "052533e5-a371-4932-a016-34def42383db": {
+              "type": "logo_image",
+              "settings": {
+              }
+            },
+            "ba0ef081-a41c-4913-a3db-412ecb522875": {
+              "type": "logo_image",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "16167068142513abfa-0",
+            "16167068142513abfa-1",
+            "16167068142513abfa-2",
+            "16167068142513abfa-3",
+            "052533e5-a371-4932-a016-34def42383db",
+            "ba0ef081-a41c-4913-a3db-412ecb522875"
+          ],
+          "settings": {
+          }
+        },
+        "password-header": {
+          "type": "password-header",
+          "settings": {
+            "desktop_logo_height": 100,
+            "mobile_logo_height": 60
+          }
+        },
+        "password-content": {
+          "type": "password-content",
+          "settings": {
+            "show_password_message": false,
+            "newsletter_enable": true,
+            "show_share_buttons": true,
+            "show_image": true
+          }
+        },
+        "page-faq-template": {
+          "type": "page-faq-template",
+          "blocks": {
+            "page-faq-template-0": {
+              "type": "rich-text",
+              "settings": {
+                "align_text": "left"
+              }
+            },
+            "page-faq-template-1": {
+              "type": "question",
+              "settings": {
+              }
+            },
+            "page-faq-template-2": {
+              "type": "question",
+              "settings": {
+              }
+            },
+            "page-faq-template-3": {
+              "type": "rich-text",
+              "settings": {
+              }
+            },
+            "page-faq-template-4": {
+              "type": "question",
+              "settings": {
+              }
+            },
+            "da266b3d-2723-4be1-bb61-6bcb82d5d346": {
+              "type": "question",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "page-faq-template-0",
+            "page-faq-template-1",
+            "page-faq-template-2",
+            "page-faq-template-3",
+            "page-faq-template-4",
+            "da266b3d-2723-4be1-bb61-6bcb82d5d346"
+          ],
+          "settings": {
+            "page_title_enable": false,
+            "page_content_enable": false
+          }
+        },
+        "page-contact-template": {
+          "type": "page-contact-template",
+          "blocks": {
+            "page-contact-template-0": {
+              "type": "contact-form",
+              "settings": {
+                "show_phone": true,
+                "narrow_column": true
+              }
+            }
+          },
+          "block_order": [
+            "page-contact-template-0"
+          ],
+          "settings": {
+            "page_title_enable": true,
+            "page_content_enable": false,
+            "overlaid_header": false
+          }
+        },
+        "161789469679fffe6b": {
+          "type": "slideshow-split",
+          "blocks": {
+            "161789469679fffe6b-1": {
+              "type": "slide",
+              "settings": {
+                "title": "Side by side slide",
+                "title_size": 60,
+                "subheading": "Tailored for longer text and smaller images. Explain more about your promotion.",
+                "text_position": "right",
+                "indent_image": false,
+                "color_scheme": "2"
+              }
+            },
+            "161789469679fffe6b-0": {
+              "type": "slide",
+              "settings": {
+                "title": "Highlight products",
+                "title_size": 70,
+                "subheading": "Repurpose your product photography with our \"Indented\" image option",
+                "text_position": "left",
+                "indent_image": true,
+                "color_scheme": "1"
+              }
+            }
+          },
+          "block_order": [
+            "161789469679fffe6b-1",
+            "161789469679fffe6b-0"
+          ],
+          "settings": {
+            "full_width": true,
+            "height": 600,
+            "height_mobile": 450,
+            "style": "arrows",
+            "autoplay": true,
+            "autoplay_speed": 7
+          }
+        },
+        "161789690258ed465f": {
+          "type": "newsletter",
+          "settings": {
+            "color_scheme": "2"
+          }
+        },
+        "1617897211fa46356d": {
+          "type": "background-image-text",
+          "settings": {
+          }
+        },
+        "16178979463942f7c3": {
+          "type": "featured-content",
+          "settings": {
+            "align_text": "center",
+            "narrow_column": true,
+            "enlarge_text": true,
+            "color_scheme": "1",
+            "divider": false
+          }
+        }
+      },
+      "content_for_index": [
+        "161789469679fffe6b",
+        "1499789718857",
+        "1525295772132",
+        "16166970499d200586",
+        "1616532692c6137801",
+        "16154004051a1fa86e",
+        "16167068142513abfa",
+        "161789690258ed465f",
+        "1525115199973",
+        "16178979463942f7c3",
+        "1617897211fa46356d"
+      ]
+    },
+    "Modern": {
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#000000",
+      "color_price": "#1c1d1d",
+      "color_savings_text": "#ba4444",
+      "color_borders": "#e8e8e1",
+      "color_button": "#111111",
+      "color_button_text": "#ffffff",
+      "color_sale_tag": "#ba4444",
+      "color_cart_dot": "#ba4444",
+      "color_small_image_bg": "#ffffff",
+      "color_large_image_bg": "#0f0f0f",
+      "color_header": "#111212",
+      "color_header_text": "#ffffff",
+      "color_header_search": "#ffffff",
+      "color_footer": "#ffffff",
+      "color_footer_border": "#e8e8e1",
+      "color_footer_text": "#000000",
+      "color_scheme_1_bg": "#ffffff",
+      "color_scheme_1_text": "#000000",
+      "color_scheme_1_texture": "paper.jpg",
+      "color_scheme_2_bg": "#ba4444",
+      "color_scheme_2_text": "#ffffff",
+      "color_scheme_2_texture": "swirl",
+      "color_scheme_3_bg": "#fcf4f1",
+      "color_scheme_3_text": "#ffffff",
+      "color_scheme_3_texture": "squiggle",
+      "type_header_font_family": "harmonia_sans_n6",
+      "type_header_spacing": "25",
+      "type_header_base_size": 36,
+      "type_header_line_height": 1.1,
+      "type_header_capitalize": false,
+      "type_base_font_family": "century_gothic_n4",
+      "type_base_spacing": "50",
+      "type_base_size": 15,
+      "type_base_line_height": 1.6,
+      "type_navigation_style": "body",
+      "type_navigation_size": 14,
+      "type_navigation_capitalize": true,
+      "button_style": "square",
+      "icon_weight": "3px",
+      "icon_linecaps": "miter",
+      "product_grid_style": "simple",
+      "vendor_enable": true,
+      "quick_shop_enable": true,
+      "quick_add_enable": true,
+      "product_grid_image_size": "square",
+      "product_grid_image_fill": false,
+      "product_grid_image_margin": 10,
+      "product_hover_image": true,
+      "variant_type": "button",
+      "enable_payment_button": true,
+      "sku_enable": true,
+      "quantity_enable": true,
+      "inventory_enable": true,
+      "inventory_transfers_enable": true,
+      "surface_pickup_enable": true,
+      "product_zoom_enable": true,
+      "product_color_swatches": false,
+      "collection_color_swatches": false,
+      "product_contact": true,
+      "collection_grid_shape": "circle",
+      "collection_grid_image": "product",
+      "collection_grid_image_margin": 15,
+      "cart_type": "dropdown",
+      "cart_icon": "bag-minimal",
+      "cart_additional_buttons": false,
+      "cart_notes_enable": false,
+      "cart_terms_conditions_enable": false,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "superscript_decimals": true,
+      "show_breadcrumbs": false,
+      "show_breadcrumbs_collection_link": true,
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_overlay": "#000000",
+      "color_image_overlay_opacity": 0,
+      "color_image_overlay_text_shadow": 28,
+      "type_headers_align_text": false,
+      "type_body_align_text": false,
+      "color_announcement": "#000000",
+      "color_announcement_text": "#ffffff",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_drawer_border": "#e8e8e1",
+      "color_drawer_button": "#111111",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#e6e6e6",
+      "type_collection_font": "body",
+      "type_collection_size": 18,
+      "collection_grid_style": "below",
+      "collection_grid_text_align": "center",
+      "collection_grid_tint": "#000000",
+      "collection_grid_opacity": 10,
+      "collection_grid_gutter": true,
+      "breadcrumb": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "blocks": {
+            "1524770014057": {
+              "type": "logo",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1524770014057"
+          ],
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "main_menu_alignment": "left",
+            "sticky_index": false,
+            "sticky_collection": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "description_position": "top",
+            "subcollection_style": "above",
+            "grid_style": "small"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "image_position": "left",
+            "image_container_size": "medium",
+            "product_image_size": "square",
+            "thumbnail_position": "beside",
+            "thumbnail_arrows": true,
+            "mobile_layout": "partial",
+            "enable_video_looping": true,
+            "product_video_style": "muted",
+            "social_enable": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_capitalize_first": true,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": true
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": true,
+            "blog_image_size": "wide"
+          }
+        },
+        "1499789718857": {
+          "type": "featured-collections",
+          "blocks": {
+            "1499789718857-0": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "1499789718857-1": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "1499789718857-2": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "1499789718857-3": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "e2697eb6-4ee1-4531-8beb-f000e64b262c": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "bdee223b-343e-40da-97f5-d2f936098982": {
+              "type": "collection",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1499789718857-0",
+            "1499789718857-1",
+            "1499789718857-2",
+            "1499789718857-3",
+            "e2697eb6-4ee1-4531-8beb-f000e64b262c",
+            "bdee223b-343e-40da-97f5-d2f936098982"
+          ],
+          "settings": {
+            "divider": false
+          }
+        },
+        "product-sections-template": {
+          "type": "product-sections-template",
+          "blocks": {
+            "sections-1592408474529": {
+              "type": "text-and-image",
+              "settings": {
+                "image_width": 500,
+                "layout": "right"
+              }
+            },
+            "sections-1592410313636": {
+              "type": "background-image-text",
+              "settings": {
+                "alignment": "center",
+                "layout": "right",
+                "height": 650
+              }
+            },
+            "sections-1592408476245": {
+              "type": "testimonials",
+              "settings": {
+              }
+            },
+            "sections-1592410272428": {
+              "type": "image-hero",
+              "settings": {
+              }
+            },
+            "sections-1592410318615": {
+              "type": "text-and-image",
+              "settings": {
+                "image_width": 500,
+                "layout": "left"
+              }
+            }
+          },
+          "block_order": [
+            "sections-1592410313636",
+            "sections-1592408476245",
+            "sections-1592408474529",
+            "sections-1592410318615",
+            "sections-1592410272428"
+          ],
+          "settings": {
+          }
+        },
+        "product-story-sections": {
+          "type": "product-story-sections",
+          "blocks": {
+            "1592408474529": {
+              "type": "text-and-image",
+              "settings": {
+                "image_width": 500,
+                "layout": "right"
+              }
+            },
+            "1592410313636": {
+              "type": "background-image-text",
+              "settings": {
+                "alignment": "center",
+                "layout": "right",
+                "height": 650
+              }
+            },
+            "1592408476245": {
+              "type": "testimonials",
+              "settings": {
+              }
+            },
+            "1592410272428": {
+              "type": "image-hero",
+              "settings": {
+              }
+            },
+            "1592410318615": {
+              "type": "text-and-image",
+              "settings": {
+                "image_width": 500,
+                "layout": "left"
+              }
+            }
+          },
+          "block_order": [
+            "1592410313636",
+            "1592408476245",
+            "1592408474529",
+            "1592410318615",
+            "1592410272428"
+          ],
+          "settings": {
+          }
+        },
+        "page-sections-template": {
+          "type": "page-sections-template",
+          "blocks": {
+            "13999cc7-8d90-4d77-b3ee-414378af3c71": {
+              "type": "image-hero",
+              "settings": {
+              }
+            },
+            "c07a6c7e-44d1-437a-bc57-b30e30f2da74": {
+              "type": "rich-text",
+              "settings": {
+                "align_text": "center",
+                "narrow_column": true,
+                "enlarge_text": false
+              }
+            },
+            "page-text-columns": {
+              "type": "text-columns",
+              "settings": {
+                "align_text": "left",
+                "color_scheme": "none",
+                "enable_image_1": true,
+                "image_width_1": 650,
+                "title_1": "New York",
+                "text_1": "<p>4523 Broadway Ave<br\/>Manhattan, New York<\/p><p>Mon - Fri, 8:30am - 10:30pm<br\/>Saturday, 8:30am - 10:30pm<br\/>Sunday, 8:30am - 10:30pm<\/p>",
+                "button_label_1": "View map",
+                "button_link_1": "https:\/\/www.google.ca\/maps\/place\/Main+St,+Queens,+NY,+USA\/@40.7359745,-73.8338499,15z\/data=!4m5!3m4!1s0x89c260618039000d:0x4e4216fa03a650cf!8m2!3d40.7359744!4d-73.8250952",
+                "enable_image_2": true,
+                "image_width_2": 650,
+                "title_2": "Brooklyn",
+                "text_2": "<p>301 Front St W<br\/>Brooklyn, New York<\/p><p>Mon - Fri, 8:30am - 10:30pm<br\/>Saturday, 8:30am - 10:30pm<br\/>Sunday, 8:30am - 10:30pm<\/p>",
+                "button_label_2": "View map",
+                "button_link_2": "https:\/\/www.google.ca\/maps\/place\/Main+St,+Queens,+NY,+USA\/@40.7359745,-73.8338499,15z\/data=!4m5!3m4!1s0x89c260618039000d:0x4e4216fa03a650cf!8m2!3d40.7359744!4d-73.8250952",
+                "enable_image_3": true,
+                "image_width_3": 650,
+                "title_3": "Queens",
+                "text_3": "<p>2381 Main St<br\/>Queens, New York<\/p><p>Mon - Fri, 8:30am - 10:30pm<br\/>Saturday, 8:30am - 10:30pm<br\/>Sunday, 8:30am - 10:30pm<\/p>",
+                "button_label_3": "View map",
+                "button_link_3": "https:\/\/www.google.ca\/maps\/place\/Main+St,+Queens,+NY,+USA\/@40.7359745,-73.8338499,15z\/data=!4m5!3m4!1s0x89c260618039000d:0x4e4216fa03a650cf!8m2!3d40.7359744!4d-73.8250952"
+              }
+            },
+            "page-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "alignment": "center",
+                "layout": "right",
+                "height": 550
+              }
+            },
+            "fc63ae2d-4241-4508-b70e-b6d2b0ee6a17": {
+              "type": "contact-form",
+              "settings": {
+                "show_phone": true,
+                "narrow_column": true
+              }
+            }
+          },
+          "block_order": [
+            "13999cc7-8d90-4d77-b3ee-414378af3c71",
+            "c07a6c7e-44d1-437a-bc57-b30e30f2da74",
+            "page-text-columns",
+            "page-background-image-text",
+            "fc63ae2d-4241-4508-b70e-b6d2b0ee6a17"
+          ],
+          "settings": {
+            "page_title_enable": false,
+            "page_content_enable": false,
+            "overlaid_header": true
+          }
+        },
+        "newsletter-popup": {
+          "type": "newsletter-popup",
+          "settings": {
+            "mode": "enabled",
+            "popup_seconds": 60,
+            "popup_days": 30,
+            "color_scheme": "2",
+            "enable_newsletter": true,
+            "enable_button": false
+          }
+        },
+        "collection-header": {
+          "type": "collection-header",
+          "settings": {
+            "enable": true,
+            "collection_image_enable": true
+          }
+        },
+        "collection-sidebar": {
+          "type": "collection-sidebar",
+          "blocks": {
+            "a6096aac-caf5-443a-b83a-324cdcded31f": {
+              "type": "tags_group",
+              "settings": {
+                "collapsed": false
+              }
+            }
+          },
+          "block_order": [
+            "a6096aac-caf5-443a-b83a-324cdcded31f"
+          ],
+          "settings": {
+            "enable_sidebar": true,
+            "tags_combine": true,
+            "enable_sort": true
+          }
+        },
+        "1525115199973": {
+          "type": "blog-posts",
+          "settings": {
+            "blog": "news",
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "blog_image_size": "wide",
+            "divider": false
+          }
+        },
+        "1525295772132": {
+          "type": "featured-collection",
+          "settings": {
+            "count": 10,
+            "mobile_scrollable": true,
+            "view_all": true,
+            "divider": false
+          }
+        },
+        "footer-promotions": {
+          "type": "footer-promotions",
+          "blocks": {
+            "footer-promotions-0": {
+              "type": "promotion",
+              "settings": {
+                "enable_image": true,
+                "color_scheme": "1"
+              }
+            },
+            "footer-promotions-1": {
+              "type": "promotion",
+              "settings": {
+                "enable_image": true,
+                "color_scheme": "3"
+              }
+            },
+            "footer-promotions-2": {
+              "type": "promotion",
+              "settings": {
+                "enable_image": true,
+                "color_scheme": "2"
+              }
+            }
+          },
+          "block_order": [
+            "footer-promotions-0",
+            "footer-promotions-1",
+            "footer-promotions-2"
+          ],
+          "settings": {
+            "hide_homepage": false,
+            "image_size": "wide"
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+          }
+        },
+        "recently-viewed": {
+          "type": "recently-viewed",
+          "settings": {
+            "show_section": true
+          }
+        },
+        "toolbar": {
+          "type": "toolbar",
+          "blocks": {
+            "0b066516-effd-470b-ba3b-fc9f69d6c6ae": {
+              "type": "announcement",
+              "settings": {
+              }
+            },
+            "cff431d4-9a3a-4622-a731-bd2d4c67a45c": {
+              "type": "announcement",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "0b066516-effd-470b-ba3b-fc9f69d6c6ae",
+            "cff431d4-9a3a-4622-a731-bd2d4c67a45c"
+          ],
+          "settings": {
+            "toolbar_social": true,
+            "show_locale_selector": true,
+            "show_currency_selector": true
+          }
+        },
+        "blog-sidebar": {
+          "type": "blog-sidebar",
+          "blocks": {
+            "ff7a549d-af1e-4e72-93c7-326f5ace6fbb": {
+              "type": "article",
+              "settings": {
+              }
+            },
+            "a9c19dcb-3172-4927-b454-954715dfdfbc": {
+              "type": "article",
+              "settings": {
+              }
+            },
+            "475da60e-4773-448e-9c02-92633e2e15f3": {
+              "type": "article",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "ff7a549d-af1e-4e72-93c7-326f5ace6fbb",
+            "a9c19dcb-3172-4927-b454-954715dfdfbc",
+            "475da60e-4773-448e-9c02-92633e2e15f3"
+          ],
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "blog_image_size": "wide"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "menu",
+              "settings": {
+                "menu": "about-us",
+                "enable_account_link": false
+              }
+            },
+            "fe6a67a0-686e-435b-a946-f28802053c97": {
+              "type": "contact",
+              "settings": {
+                "phone": "+1 800 123 1234",
+                "enable_social": true
+              }
+            },
+            "c296bc3e-1d7f-4750-b993-050176521596": {
+              "type": "payment",
+              "settings": {
+                "show_payment_icons": true,
+                "show_locale_selector": true,
+                "show_currency_selector": true
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "fe6a67a0-686e-435b-a946-f28802053c97",
+            "c296bc3e-1d7f-4750-b993-050176521596"
+          ],
+          "settings": {
+            "show_newsletter": true,
+            "show_copyright": true,
+            "policies_menu": "policies"
+          }
+        },
+        "vendor-products": {
+          "type": "vendor-products",
+          "settings": {
+            "show_section": true
+          }
+        },
+        "password-header": {
+          "type": "password-header",
+          "settings": {
+            "desktop_logo_height": 100,
+            "mobile_logo_height": 60
+          }
+        },
+        "password-content": {
+          "type": "password-content",
+          "settings": {
+            "show_password_message": false,
+            "newsletter_enable": true,
+            "show_share_buttons": true,
+            "show_image": true
+          }
+        },
+        "16166836436b96a4af": {
+          "type": "promo-grid",
+          "blocks": {
+            "9a0de8d9-d719-4516-a7d2-cb25ae0c0687": {
+              "type": "banner",
+              "settings": {
+                "color_scheme": "1"
+              }
+            }
+          },
+          "block_order": [
+            "9a0de8d9-d719-4516-a7d2-cb25ae0c0687"
+          ],
+          "settings": {
+            "full_width": true,
+            "gutter_size": 0,
+            "space_above": false,
+            "space_below": false
+          }
+        },
+        "1616683902f20dcab4": {
+          "type": "promo-grid",
+          "blocks": {
+            "1616683902f20dcab4-0": {
+              "type": "advanced",
+              "settings": {
+                "width": "100",
+                "height": 500,
+                "text_align": "vertical-center horizontal-center",
+                "focal_point": "center",
+                "color_accent": "#d95d57"
+              }
+            }
+          },
+          "block_order": [
+            "1616683902f20dcab4-0"
+          ],
+          "settings": {
+            "full_width": true,
+            "gutter_size": 15,
+            "space_above": false,
+            "space_below": false
+          }
+        },
+        "1616684538a6424589": {
+          "type": "text-columns",
+          "blocks": {
+            "1616684538a6424589-0": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image_width": 650
+              }
+            },
+            "1616684538a6424589-1": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image_width": 650
+              }
+            },
+            "1616684538a6424589-2": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image_width": 650
+              }
+            }
+          },
+          "block_order": [
+            "1616684538a6424589-0",
+            "1616684538a6424589-1",
+            "1616684538a6424589-2"
+          ],
+          "settings": {
+            "align_text": "left",
+            "divider": false,
+            "color_scheme": "2"
+          }
+        },
+        "page-faq-template": {
+          "type": "page-faq-template",
+          "blocks": {
+            "page-faq-template-0": {
+              "type": "rich-text",
+              "settings": {
+                "align_text": "left"
+              }
+            },
+            "page-faq-template-1": {
+              "type": "question",
+              "settings": {
+              }
+            },
+            "page-faq-template-2": {
+              "type": "question",
+              "settings": {
+              }
+            },
+            "page-faq-template-3": {
+              "type": "rich-text",
+              "settings": {
+              }
+            },
+            "page-faq-template-4": {
+              "type": "question",
+              "settings": {
+              }
+            },
+            "e4d545d7-9e61-43a0-a334-2037ad7ddc0d": {
+              "type": "question",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "page-faq-template-0",
+            "page-faq-template-1",
+            "page-faq-template-2",
+            "page-faq-template-3",
+            "page-faq-template-4",
+            "e4d545d7-9e61-43a0-a334-2037ad7ddc0d"
+          ],
+          "settings": {
+            "page_title_enable": false,
+            "page_content_enable": false
+          }
+        },
+        "page-contact-template": {
+          "type": "page-contact-template",
+          "blocks": {
+            "page-contact-template-0": {
+              "type": "contact-form",
+              "settings": {
+                "show_phone": true,
+                "narrow_column": true
+              }
+            }
+          },
+          "block_order": [
+            "page-contact-template-0"
+          ],
+          "settings": {
+            "page_title_enable": true,
+            "page_content_enable": false,
+            "overlaid_header": false
+          }
+        },
+        "1617151403b3970020": {
+          "type": "background-image-text",
+          "settings": {
+            "focal_point": "bottom",
+            "layout": "left",
+            "height": 550
+          }
+        },
+        "1617151606b67977d8": {
+          "type": "featured-collection",
+          "settings": {
+            "count": 5,
+            "mobile_scrollable": true,
+            "view_all": true,
+            "divider": false
+          }
+        },
+        "161715166764325dd6": {
+          "type": "featured-collection",
+          "settings": {
+            "count": 5,
+            "mobile_scrollable": true,
+            "view_all": true,
+            "divider": false
+          }
+        },
+        "16171517359a3ac16d": {
+          "type": "newsletter",
+          "settings": {
+            "color_scheme": "1"
+          }
+        },
+        "1617310925d02ece36": {
+          "type": "logo-list",
+          "blocks": {
+            "1617310925d02ece36-0": {
+              "type": "logo_image",
+              "settings": {
+              }
+            },
+            "1617310925d02ece36-1": {
+              "type": "logo_image",
+              "settings": {
+              }
+            },
+            "1617310925d02ece36-2": {
+              "type": "logo_image",
+              "settings": {
+              }
+            },
+            "1617310925d02ece36-3": {
+              "type": "logo_image",
+              "settings": {
+              }
+            },
+            "1617310925d02ece36-4": {
+              "type": "logo_image",
+              "settings": {
+              }
+            },
+            "1617310925d02ece36-5": {
+              "type": "logo_image",
+              "settings": {
+              }
+            },
+            "ddabf70c-c1ff-4c9e-8d85-b345786fb672": {
+              "type": "logo_image",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1617310925d02ece36-0",
+            "1617310925d02ece36-1",
+            "1617310925d02ece36-2",
+            "1617310925d02ece36-3",
+            "1617310925d02ece36-4",
+            "1617310925d02ece36-5",
+            "ddabf70c-c1ff-4c9e-8d85-b345786fb672"
+          ],
+          "settings": {
+          }
+        },
+        "1617908311da4ac677": {
+          "type": "slideshow",
+          "blocks": {
+            "1617908311da4ac677-0": {
+              "type": "hero",
+              "settings": {
+                "title_size": 70,
+                "color_accent": "#fff",
+                "text_align": "vertical-bottom horizontal-left",
+                "overlay_opacity": 0,
+                "focal_point": "center center"
+              }
+            },
+            "1617908311da4ac677-1": {
+              "type": "hero",
+              "settings": {
+                "title_size": 70,
+                "color_accent": "#fff",
+                "text_align": "vertical-bottom horizontal-left",
+                "overlay_opacity": 0,
+                "focal_point": "center center"
+              }
+            }
+          },
+          "block_order": [
+            "1617908311da4ac677-0",
+            "1617908311da4ac677-1"
+          ],
+          "settings": {
+            "full_width": true,
+            "desktop_size": -20,
+            "mobile_size": 40,
+            "style": "arrows",
+            "autoplay": true,
+            "autoplay_speed": 7
+          }
+        }
+      },
+      "content_for_index": [
+        "1617908311da4ac677",
+        "16166836436b96a4af",
+        "1525295772132",
+        "1616684538a6424589",
+        "1499789718857",
+        "1617310925d02ece36",
+        "1616683902f20dcab4",
+        "1617151606b67977d8",
+        "16171517359a3ac16d",
+        "161715166764325dd6",
+        "1617151403b3970020",
+        "1525115199973"
+      ]
+    }
+  }
+}
