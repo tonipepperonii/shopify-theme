@@ -450,7 +450,7 @@ lazySizesConfig.expFactor = 4;
         clearInterval(interval);
         setAsLoaded();
       }
-    }, 80);
+    }, 25);
   };
   
   // Init section function when it's visible, then disable observer
@@ -635,13 +635,17 @@ lazySizesConfig.expFactor = 4;
         }
       }
   
-      var instance = Object.assign(new constructor(container), {
-        id: id,
-        type: type,
-        container: container
-      });
-  
-      this.instances.push(instance);
+      // If a section fails to init, handle the error without letting all subsequest section registers to fail
+      try {
+        var instance = Object.assign(new constructor(container), {
+          id: id,
+          type: type,
+          container: container
+        });
+        this.instances.push(instance);
+      } catch (e) {
+        console.error(e);
+      }
     },
   
     _findInstance: function(id) {
@@ -717,15 +721,15 @@ lazySizesConfig.expFactor = 4;
     },
   
     loadSubSections: function(scope) {
-      var sections = scope
-                     ? scope.querySelectorAll('[data-subsection]')
-                     : document.querySelectorAll('[data-subsection]');
+      if (!scope) {
+        return;
+      }
+  
+      var sections = scope.querySelectorAll('[data-section-id]');
   
       sections.forEach(el => {
         this._onSectionLoad(null, el, el.dataset.sectionId);
       });
-  
-      if (window.AOS) { AOS.refreshHard() }
     },
   
     _onSelect: function(evt) {
@@ -800,6 +804,14 @@ lazySizesConfig.expFactor = 4;
     }
   });
   
+  /*
+    Options:
+      container
+      enableHistoryState - enable when on single product page to update URL
+      singleOptionSelector - selector for individual variant option (e.g. 'Blue' or 'Small')
+      originalSelectorId - selector for base variant selector (visually hidden)
+      variants - JSON parsed object of product variant info
+   */
   theme.Variants = (function() {
   
     function Variants(options) {
@@ -808,6 +820,7 @@ lazySizesConfig.expFactor = 4;
       this.singleOptionSelector = options.singleOptionSelector;
       this.originalSelectorId = options.originalSelectorId;
       this.enableHistoryState = options.enableHistoryState;
+      this.currentlySelectedValues = this._getCurrentOptions();
       this.currentVariant = this._getVariantFromOptions();
   
       this.container.querySelectorAll(this.singleOptionSelector).forEach(el => {
@@ -844,43 +857,115 @@ lazySizesConfig.expFactor = 4;
         return result;
       },
   
-      _getVariantFromOptions: function() {
-        var selectedValues = this._getCurrentOptions();
-        var variants = this.variants;
-        var found = false;
-  
-        variants.forEach(function(variant) {
-          var match = true;
-          var options = variant.options;
-  
-          selectedValues.forEach(function(option) {
-            if (match) {
-              match = (variant[option.index] === option.value);
-            }
-          });
-  
-          if (match) {
-            found = variant;
-          }
-        });
-  
-        return found || null;
+      // Pull the number out of the option index name, e.g. 'option1' -> 1
+      _numberFromOptionKey: function(key) {
+        return parseInt(key.substr(-1));
       },
   
-      _onSelectChange: function() {
-        var variant = this._getVariantFromOptions();
+      // Options should be ordered from highest to lowest priority. Make sure that priority
+      // is represented using weighted values when finding best match
+      _getWeightedOptionMatchCount: function(variant) {
+        return this._getCurrentOptions().reduce((count, {value, index}) => {
+          const optionIndex = this._numberFromOptionKey(index);
+          const weightedCount = 4 - optionIndex; // The lower the index, the better the match we have
+          return variant[index] === value ? count + weightedCount : count;
+        },0)
+      },
   
-        this.container.dispatchEvent(new CustomEvent('variantChange', {
-          detail: {
-            variant: variant
-          }
-        }));
+      _getFullMatch(needsToBeAvailable) {
+        const currentlySelectedOptions = this._getCurrentOptions();
+        const variants = this.variants;
   
-        document.dispatchEvent(new CustomEvent('variant:change', {
-          detail: {
-            variant: variant
+        return variants.find(variant => {
+          const isMatch = currentlySelectedOptions.every(({value, index}) => {
+            return variant[index] === value;
+          });
+  
+          if (needsToBeAvailable) {
+            return isMatch && variant.available;
+          } else {
+            return isMatch;
           }
-        }));
+        });
+      },
+  
+      // Find a variant that is available and best matches last selected option
+      _getClosestAvailableMatch: function(lastSelectedOption) {
+        if (!lastSelectedOption) return null;
+  
+        const currentlySelectedOptions = this._getCurrentOptions();
+        const variants = this.variants;
+  
+        const potentialAvailableMatches = lastSelectedOption && variants.filter(variant => {
+          return currentlySelectedOptions
+            .filter(
+              // Only match based selected options that are equal and preceeding the last selected option
+              ({value, index}) => this._numberFromOptionKey(index) <= this._numberFromOptionKey(lastSelectedOption.index)
+            ).every(({value, index}) => {
+              // Variant needs to have options that match the current and preceeding selection options
+              return variant[index] === value;
+            }) && variant.available
+        });
+  
+        return potentialAvailableMatches.reduce((bestMatch, variant) => {
+          // If this is the first potential match we've found, store it as the best match
+          if (bestMatch === null) return variant;
+  
+          // If this is not the first potential match, compare the number of options our current best match has in common
+          // compared to the next contender.
+          const bestMatchCount = this._getWeightedOptionMatchCount(bestMatch, lastSelectedOption);
+          const newCount = this._getWeightedOptionMatchCount(variant, lastSelectedOption);
+  
+          return newCount > bestMatchCount ? variant : bestMatch;
+        }, null);
+      },
+  
+      _getVariantFromOptions: function(lastSelectedOption) {
+        const availableFullMatch = this._getFullMatch(true);
+        const closestAvailableMatch = this._getClosestAvailableMatch(lastSelectedOption);
+        const fullMatch = this._getFullMatch(false);
+  
+        return availableFullMatch || closestAvailableMatch || fullMatch || null;
+      },
+  
+      _updateInputState: function (variant, el) {
+        return (input) => {
+          if (variant === null) return;
+  
+          const index = input.dataset.index;
+          const value = input.value;
+          const type = input.getAttribute('type');
+  
+          if (type === 'radio' || type === 'checkbox') {
+            input.checked = variant[index] === value
+          }
+        }
+      },
+  
+      _onSelectChange: function({srcElement}) {
+        const optionSelectElements = this.container.querySelectorAll(this.singleOptionSelector);
+  
+        // Get the best variant based on the current selection + last selected element
+        const variant = this._getVariantFromOptions({
+          index: srcElement.dataset.index,
+          value: srcElement.value
+        });
+  
+        // Update DOM option input states based on the variant that was found
+        optionSelectElements.forEach(this._updateInputState(variant, srcElement))
+  
+        // Make sure our currently selected values are up to date after updating state of DOM
+        const currentlySelectedValues = this.currentlySelectedValues = this._getCurrentOptions();
+  
+        const detail = {
+          variant,
+          currentlySelectedValues,
+          value: srcElement.value,
+          index: srcElement.parentElement.dataset.index
+        }
+  
+        this.container.dispatchEvent(new CustomEvent('variantChange', {detail}));
+        document.dispatchEvent(new CustomEvent('variant:change', {detail}));
   
         if (!variant) {
           return;
@@ -900,7 +985,7 @@ lazySizesConfig.expFactor = 4;
   
       _updateImages: function(variant) {
         var variantImage = variant.featured_image || {};
-        var currentVariantImage = this.currentVariant.featured_image || {};
+        var currentVariantImage = this.currentVariant && this.currentVariant.featured_image || {};
   
         if (!variant.featured_image || variantImage.src === currentVariantImage.src) {
           return;
@@ -914,7 +999,7 @@ lazySizesConfig.expFactor = 4;
       },
   
       _updatePrice: function(variant) {
-        if (variant.price === this.currentVariant.price && variant.compare_at_price === this.currentVariant.compare_at_price) {
+        if (this.currentVariant && variant.price === this.currentVariant.price && variant.compare_at_price === this.currentVariant.compare_at_price) {
           return;
         }
   
@@ -926,7 +1011,7 @@ lazySizesConfig.expFactor = 4;
       },
   
       _updateUnitPrice: function(variant) {
-        if (variant.unit_price === this.currentVariant.unit_price) {
+        if (this.currentVariant && variant.unit_price === this.currentVariant.unit_price) {
           return;
         }
   
@@ -938,7 +1023,7 @@ lazySizesConfig.expFactor = 4;
       },
   
       _updateSKU: function(variant) {
-        if (variant.sku === this.currentVariant.sku) {
+        if (this.currentVariant && variant.sku === this.currentVariant.sku) {
           return;
         }
   
@@ -960,6 +1045,8 @@ lazySizesConfig.expFactor = 4;
   
       _updateMasterSelect: function(variant) {
         this.container.querySelector(this.originalSelectorId).value = variant.id;
+        // Force a change event so Shop Pay installments works after a variant is changed
+        this.container.querySelector(this.originalSelectorId).dispatchEvent(new Event('change', { bubbles: true }));
       }
     });
   
@@ -1284,7 +1371,180 @@ lazySizesConfig.expFactor = 4;
     return YouTube;
   })();
   
+  // Prevent vertical scroll while using flickity sliders
+  (function() {
+    var e = !1;
+    var t;
+  
+    document.body.addEventListener('touchstart', function(i) {
+      if (!i.target.closest('.flickity-slider')) {
+        return e = !1;
+        void 0;
+      }
+      e = !0;
+      t = {
+        x: i.touches[0].pageX,
+        y: i.touches[0].pageY
+      }
+    })
+  
+    document.body.addEventListener('touchmove', function(i) {
+      if (e && i.cancelable) {
+        var n = {
+          x: i.touches[0].pageX - t.x,
+          y: i.touches[0].pageY - t.y
+        };
+        Math.abs(n.x) > Flickity.defaults.dragThreshold && i.preventDefault()
+      }
+    }, { passive: !1 })
+  })();
+  
 
+  /**
+   * Ajax Renderer
+   * -----------------------------------------------------------------------------
+   * Render sections without reloading the page.
+   * @param {Object[]} sections - The section to update on render.
+   * @param {string} sections[].sectionId - The ID of the section from Shopify.
+   * @param {string} sections[].nodeId - The ID of the DOM node to replace.
+   * @param {Function} sections[].onReplace (optional) - The custom render function.
+   * @param {boolean} debug - Output logs to console for debugging.
+   *
+   */
+  
+  theme.AjaxRenderer = (function () {
+    function AjaxRenderer({ sections, onReplace, debug } = {}) {
+      this.sections = sections || [];
+      this.cachedSections = [];
+      this.onReplace = onReplace;
+      this.debug = Boolean(debug);
+    }
+  
+    AjaxRenderer.prototype = Object.assign({}, AjaxRenderer.prototype, {
+      renderPage: function (basePath, newParams, updateURLHash = true) {
+        const currentParams = new URLSearchParams(window.location.search);
+        const updatedParams = this.getUpdatedParams(currentParams, newParams)
+  
+        const sectionRenders = this.sections.map(section => {
+  
+          const url = `${basePath}?section_id=${section.sectionId}&${updatedParams.toString()}`;
+          const cachedSectionUrl = cachedSection => cachedSection.url === url;
+  
+          return this.cachedSections.some(cachedSectionUrl)
+            ? this.renderSectionFromCache(cachedSectionUrl, section)
+            : this.renderSectionFromFetch(url, section);
+        });
+  
+        if (updateURLHash) this.updateURLHash(updatedParams);
+  
+        return Promise.all(sectionRenders);
+      },
+  
+      renderSectionFromCache: function (url, section) {
+        const cachedSection = this.cachedSections.find(url);
+  
+        this.log(`[AjaxRenderer] rendering from cache: url=${cachedSection.url}`);
+        this.renderSection(cachedSection.html, section);
+        return Promise.resolve(section);
+      },
+  
+      renderSectionFromFetch: function (url, section) {
+        this.log(`[AjaxRenderer] redering from fetch: url=${url}`);
+  
+        return new Promise((resolve, reject) => {
+          fetch(url)
+            .then(response => response.text())
+            .then(responseText => {
+              const html = responseText;
+              this.cachedSections = [...this.cachedSections, { html, url }];
+              this.renderSection(html, section);
+              resolve(section);
+            })
+            .catch(err => reject(err));
+        });
+      },
+  
+      renderSection: function (html, section) {
+        this.log(
+          `[AjaxRenderer] rendering section: section=${JSON.stringify(section)}`,
+        );
+  
+        const newDom = new DOMParser().parseFromString(html, 'text/html');
+        if (this.onReplace) {
+          this.onReplace(newDom, section);
+        } else {
+          if (typeof section.nodeId === 'string') {
+            var newContentEl = newDom.getElementById(section.nodeId);
+            if (!newContentEl) {
+              return;
+            }
+  
+            document.getElementById(section.nodeId).innerHTML =
+              newContentEl.innerHTML;
+          } else {
+            section.nodeId.forEach(id => {
+              document.getElementById(id).innerHTML =
+                newDom.getElementById(id).innerHTML;
+            });
+          }
+        }
+  
+        return section;
+      },
+  
+      getUpdatedParams: function (currentParams, newParams) {
+        const clone = new URLSearchParams(currentParams);
+        const preservedParams = ['sort_by', 'q', 'options[prefix]', 'type'];
+  
+        // Find what params need to be removed
+        // delete happens first as we cannot specify keys based off of values
+        for (const [key, value] of clone.entries()) {
+          if (!newParams.getAll(key).includes(value) && !preservedParams.includes(key)) {
+            clone.delete(key);
+          };
+        }
+  
+        // Find what params need to be added
+        for (const [key, value] of newParams.entries()) {
+          if (!clone.getAll(key).includes(value) && value !== '') {
+            clone.append(key, value);
+          }
+        }
+  
+        return clone;
+      },
+  
+      updateURLHash: function (searchParams) {
+        history.pushState(
+          {},
+          '',
+          `${window.location.pathname}${
+            searchParams && '?'.concat(searchParams)
+          }`,
+        );
+      },
+  
+      log: function (...args) {
+        if (this.debug) {
+          console.log(...args);
+        }
+      },
+    });
+  
+    return AjaxRenderer;
+  })();
+  
+  if (window.Shopify && window.Shopify.theme && navigator && navigator.sendBeacon && window.Shopify.designMode) {
+    navigator.sendBeacon('https://api.archetypethemes.co/api/beacon', new URLSearchParams({
+      shop: window.Shopify.shop,
+      themeName: window.theme && window.theme.settings && `${window.theme.settings.themeName} v${window.theme.settings.themeVersion}`,
+      role: window.Shopify.theme.role,
+      route: window.location.pathname,
+      themeId: window.Shopify.theme.id,
+      themeStoreId: window.Shopify.theme.theme_store_id || 0,
+      isThemeEditor: !!window.Shopify.designMode
+    }))
+  }
   theme.cart = {
     getCart: function() {
       var url = ''.concat(theme.routes.cart, '?t=').concat(Date.now());
@@ -1376,7 +1636,7 @@ lazySizesConfig.expFactor = 4;
       savings: '[data-savings]',
       subTotal: '[data-subtotal]',
   
-      cartBubble: '#CartBubble',
+      cartBubble: '.cart-link__bubble',
       cartNote: '[name="note"]',
       termsCheckbox: '.cart__terms-checkbox',
       checkoutBtn: '.cart__checkout'
@@ -1580,17 +1840,26 @@ lazySizesConfig.expFactor = 4;
       },
   
       updateCount: function(count) {
-        var countEl = document.querySelector('.cart-link__bubble-num');
+        var countEls = document.querySelectorAll('.cart-link__bubble-num');
   
-        if (countEl) {
-          countEl.innerText = count;
+        if (countEls.length) {
+          countEls.forEach(el => {
+            el.innerText = count;
+          });
         }
   
-        // show/hide bubble
-        if (count > 0) {
-          document.querySelector(selectors.cartBubble).classList.add('cart-link__bubble--visible');
-        } else {
-          document.querySelector(selectors.cartBubble).classList.remove('cart-link__bubble--visible');
+        // show/hide bubble(s)
+        var bubbles = document.querySelectorAll(selectors.cartBubble);
+        if (bubbles.length) {
+          if (count > 0) {
+            bubbles.forEach(b => {
+              b.classList.add('cart-link__bubble--visible');
+            });
+          } else {
+            bubbles.forEach(b => {
+              b.classList.remove('cart-link__bubble--visible');
+            });
+          }
         }
       }
     });
@@ -1598,17 +1867,21 @@ lazySizesConfig.expFactor = 4;
     return CartForm;
   })();
   
+  // Either collapsible containers all acting individually,
+  // or tabs that can only have one open at a time
   theme.collapsibles = (function() {
     var selectors = {
       trigger: '.collapsible-trigger',
       module: '.collapsible-content',
-      moduleInner: '.collapsible-content__inner'
+      moduleInner: '.collapsible-content__inner',
+      tabs: '.collapsible-trigger--tab'
     };
   
     var classes = {
       hide: 'hide',
       open: 'is-open',
-      autoHeight: 'collapsible--auto-height'
+      autoHeight: 'collapsible--auto-height',
+      tabs: 'collapsible-trigger--tab'
     };
   
     var namespace = '.collapsible';
@@ -1635,6 +1908,7 @@ lazySizesConfig.expFactor = 4;
   
       var el = evt.currentTarget;
       var isOpen = el.classList.contains(classes.open);
+      var isTab = el.classList.contains(classes.tabs);
       var moduleId = el.getAttribute('aria-controls');
       var container = document.getElementById(moduleId);
   
@@ -1667,6 +1941,20 @@ lazySizesConfig.expFactor = 4;
       var parentCollapsibleEl = container.parentNode.closest(selectors.module);
       var childHeight = height;
   
+      if (isTab) {
+        if(isOpen) {
+          isTransitioning = false;
+          return;
+        }
+  
+        var newModule;
+        document.querySelectorAll(selectors.tabs + '[data-id="'+ el.dataset.id +'"]').forEach(el => {
+          el.classList.remove(classes.open);
+          newModule = document.querySelector('#' + el.getAttribute('aria-controls'));
+          setTransitionHeight(newModule, 0, true);
+        });
+      }
+  
       // If isAutoHeight, set the height to 0 just after setting the actual height
       // so the closing animation works nicely
       if (isOpen && isAutoHeight) {
@@ -1692,9 +1980,15 @@ lazySizesConfig.expFactor = 4;
       // If we are in a nested collapsible element like the mobile nav,
       // also set the parent element's height
       if (parentCollapsibleEl) {
+        var parentHeight = parentCollapsibleEl.style.height;
+  
+        if (isOpen && parentHeight === 'auto') {
+          childHeight = 0; // Set childHeight to 0 if parent is initially opened
+        }
+  
         var totalHeight = isOpen
-                          ? parentCollapsibleEl.offsetHeight - childHeight
-                          : height + parentCollapsibleEl.offsetHeight;
+                        ? parentCollapsibleEl.offsetHeight - childHeight
+                        : height + parentCollapsibleEl.offsetHeight;
   
         setTransitionHeight(parentCollapsibleEl, totalHeight, false, false);
       }
@@ -1716,6 +2010,7 @@ lazySizesConfig.expFactor = 4;
     function setTransitionHeight(container, height, isOpen, isAutoHeight) {
       container.classList.remove(classes.hide);
       theme.utils.prepareTransition(container, function() {
+  
         container.style.height = height+'px';
         if (isOpen) {
           container.classList.remove(classes.open);
@@ -1927,7 +2222,7 @@ lazySizesConfig.expFactor = 4;
         open: '.js-modal-open-' + name,
         openClass: 'modal--is-active',
         closingClass: 'modal--is-closing',
-        bodyOpenClass: 'modal-open',
+        bodyOpenClass: ['modal-open'],
         bodyOpenSolidClass: 'modal-open--solid',
         bodyClosingClass: 'modal-closing',
         closeOffContentClick: true
@@ -1996,7 +2291,7 @@ lazySizesConfig.expFactor = 4;
   
       this.modal.classList.add(this.config.openClass);
   
-      document.documentElement.classList.add(this.config.bodyOpenClass);
+      document.documentElement.classList.add(...this.config.bodyOpenClass);
   
       if (this.isSolid) {
         document.documentElement.classList.add(this.config.bodyOpenSolidClass);
@@ -2037,7 +2332,7 @@ lazySizesConfig.expFactor = 4;
       this.modal.classList.remove(this.config.openClass);
       this.modal.classList.add(this.config.closingClass);
   
-      document.documentElement.classList.remove(this.config.bodyOpenClass);
+      document.documentElement.classList.remove(...this.config.bodyOpenClass);
       document.documentElement.classList.add(this.config.bodyClosingClass);
   
       window.setTimeout(function() {
@@ -2087,6 +2382,63 @@ lazySizesConfig.expFactor = 4;
   
     return Modal;
   })();
+  
+  window.onpageshow = function(evt) {
+    // Removes unload class when returning to page via history
+    if (evt.persisted) {
+      document.body.classList.remove('unloading');
+      document.querySelectorAll('.cart__checkout').forEach(el => {
+        el.classList.remove('btn--loading');
+      });
+    }
+  };
+  
+  // Used in Motion and Expanse to fade between pages.
+  // initialize in theme.js with theme.pageTransitions();
+  theme.pageTransitions = function() {
+    if (document.body.dataset.transitions === 'true') {
+  
+      // Hack test to fix Safari page cache issue.
+      // window.onpageshow doesn't always run when navigating
+      // back to the page, so the unloading class remains, leaving
+      // a white page. Setting a timeout to remove that class when leaving
+      // the page actually finishes running when they come back.
+      if (!!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/)) {
+        document.querySelectorAll('a').forEach(a => {
+          window.setTimeout(function() {
+            document.body.classList.remove('unloading');
+          }, 1200);
+        });
+      }
+  
+      // Disable the page transition feature on some links
+      // by adding class `js-no-transition`
+      document.querySelectorAll('a[href^="mailto:"], a[href^="#"], a[target="_blank"], a[href*="youtube.com/watch"], a[href*="youtu.be/"], a[download]').forEach(el => {
+        el.classList.add('js-no-transition');
+      });
+  
+      // Add class `unloading` to body for page transition on all
+      // anchor tags, unless they have `js-no-transition` class
+      document.querySelectorAll('a:not(.js-no-transition)').forEach(el => {
+        el.addEventListener('click', function(evt) {
+          if (evt.metaKey) return true;
+          evt.preventDefault();
+          document.body.classList.add('unloading');
+          var src = el.getAttribute('href');
+          window.setTimeout(function() {
+            location.href = src;
+          }, 50);
+        });
+      });
+  
+      // Close the mobile nav drawer after clicking on a nav link
+      document.querySelectorAll('a.mobile-nav__link').forEach(el => {
+        el.addEventListener('click', function() {
+          theme.NavDrawer.close();
+        })
+      });
+    }
+  };
   
   theme.parallaxSections = {};
   
@@ -2197,13 +2549,108 @@ lazySizesConfig.expFactor = 4;
     return parallax;
   })();
   
+  if (typeof window.noUiSlider === 'undefined') {
+    throw new Error('theme.PriceRange is missing vendor noUiSlider: // =require vendor/nouislider.js');
+  }
+  
+  theme.PriceRange = (function () {
+    var defaultStep = 10;
+    var selectors = {
+      priceRange: '.price-range',
+      priceRangeSlider: '.price-range__slider',
+      priceRangeInputMin: '.price-range__input-min',
+      priceRangeInputMax: '.price-range__input-max',
+      priceRangeDisplayMin: '.price-range__display-min',
+      priceRangeDisplayMax: '.price-range__display-max',
+    };
+  
+    function PriceRange(container, {onChange, onUpdate, ...sliderOptions} = {}) {
+      this.container = container;
+      this.onChange = onChange;
+      this.onUpdate = onUpdate;
+      this.sliderOptions = sliderOptions || {};
+  
+      return this.init();
+    }
+  
+    PriceRange.prototype = Object.assign({}, PriceRange.prototype, {
+      init: function () {
+        if (!this.container.classList.contains('price-range')) {
+          throw new Error('You must instantiate PriceRange with a valid container')
+        }
+  
+        this.formEl = this.container.closest('form');
+        this.sliderEl = this.container.querySelector(selectors.priceRangeSlider);
+        this.inputMinEl = this.container.querySelector(selectors.priceRangeInputMin);
+        this.inputMaxEl = this.container.querySelector(selectors.priceRangeInputMax);
+        this.displayMinEl = this.container.querySelector(selectors.priceRangeDisplayMin);
+        this.displayMaxEl = this.container.querySelector(selectors.priceRangeDisplayMax);
+  
+        this.minRange = parseFloat(this.container.dataset.min) || 0;
+        this.minValue = parseFloat(this.container.dataset.minValue) || 0;
+        this.maxRange = parseFloat(this.container.dataset.max) || 100;
+        this.maxValue = parseFloat(this.container.dataset.maxValue) || this.maxRange;
+  
+        return this.createPriceRange();
+      },
+  
+      createPriceRange: function () {
+        if (this.sliderEl && this.sliderEl.noUiSlider && typeof this.sliderEl.noUiSlider.destroy === 'function') {
+          this.sliderEl.noUiSlider.destroy();
+        }
+  
+        var slider = noUiSlider.create(this.sliderEl, {
+          connect: true,
+          step: defaultStep,
+          ...this.sliderOptions,
+          // Do not allow overriding these options
+          start: [this.minValue, this.maxValue],
+          range: {
+            min: this.minRange,
+            max: this.maxRange,
+          },
+        });
+  
+        slider.on('update', values => {
+          this.displayMinEl.innerHTML = theme.Currency.formatMoney(
+            values[0],
+            theme.settings.moneyFormat,
+          );
+          this.displayMaxEl.innerHTML = theme.Currency.formatMoney(
+            values[1],
+            theme.settings.moneyFormat,
+          );
+  
+          if (this.onUpdate) {
+            this.onUpdate(values);
+          }
+        });
+  
+        slider.on('change', values => {
+          this.inputMinEl.value = values[0];
+          this.inputMaxEl.value = values[1];
+  
+          if (this.onChange) {
+            const formData = new FormData(this.formEl);
+            this.onChange(formData);
+          }
+        });
+  
+        return slider;
+      },
+    });
+  
+    return PriceRange;
+  })();
+  
   theme.AjaxProduct = (function() {
     var status = {
       loading: false
     };
   
-    function ProductForm(form, submit) {
+    function ProductForm(form, submit, args) {
       this.form = form;
+      this.args = args;
   
       var submitSelector = submit ? submit : '.add-to-cart';
   
@@ -2248,6 +2695,12 @@ lazySizesConfig.expFactor = 4;
   
           status.loading = false;
           this.addToCart.classList.remove('btn--loading');
+  
+          // Reload page if adding product from a section on the cart page
+          if (document.body.classList.contains('template-cart')) {
+            window.scrollTo(0, 0);
+            location.reload();
+          }
         }.bind(this));
       },
   
@@ -2263,6 +2716,15 @@ lazySizesConfig.expFactor = 4;
             addToCartBtn: this.addToCart
           }
         }));
+  
+        if (this.args && this.args.scopedEventId) {
+          document.dispatchEvent(new CustomEvent('ajaxProduct:added:' + this.args.scopedEventId, {
+            detail: {
+              product: product,
+              addToCartBtn: this.addToCart
+            }
+          }));
+        }
       },
   
       error: function(error) {
@@ -2286,6 +2748,14 @@ lazySizesConfig.expFactor = 4;
             errorMessage: error.description
           }
         }));
+  
+        if (this.args && this.args.scopedEventId) {
+          document.dispatchEvent(new CustomEvent('ajaxProduct:error:' + this.args.scopedEventId, {
+            detail: {
+              errorMessage: error.description
+            }
+          }));
+        }
       }
     });
   
@@ -2522,12 +2992,15 @@ lazySizesConfig.expFactor = 4;
       childNav: null, // element. Custom by Archetype instead of asNavFor
       childNavScroller: null, // element
       childVertical: false,
+      dragThreshold: 7,
       fade: false,
+      friction: 0.8,
       initialIndex: 0,
       pageDots: false,
       pauseAutoPlayOnHover: false,
       prevNextButtons: false,
       rightToLeft: theme.config.rtl,
+      selectedAttraction: 0.14,
       setGallerySize: true,
       wrapAround: true
     };
@@ -2594,7 +3067,7 @@ lazySizesConfig.expFactor = 4;
         // Optional onInit callback
         if (this.args.callbacks && this.args.callbacks.onInit) {
           if (typeof this.args.callbacks.onInit === 'function') {
-            this.args.callbacks.onInit();
+            this.args.callbacks.onInit(this.currentSlide);
           }
         }
   
@@ -2644,7 +3117,15 @@ lazySizesConfig.expFactor = 4;
         }
       },
       destroy: function() {
+        if (this.args.childNav && this.childNavLinks.length) {
+          this.childNavLinks.forEach(a => {
+            a.classList.remove(classes.isActive);
+          });
+        }
         this.slideshow.destroy();
+      },
+      reposition: function() {
+        this.slideshow.reposition();
       },
       _togglePause: function() {
         if (this.pauseBtn.classList.contains(classes.isPaused)) {
@@ -2708,11 +3189,16 @@ lazySizesConfig.expFactor = 4;
   
       childNavGoTo: function(index) {
         this.childNavLinks.forEach(a => {
+          a.blur();
           a.classList.remove(classes.isActive);
         });
   
         var el = this.childNavLinks[index];
         el.classList.add(classes.isActive);
+  
+        if (!this.args.childNavScroller) {
+          return;
+        }
   
         if (this.args.childVertical) {
           var elTop = el.offsetTop;
@@ -2737,8 +3223,8 @@ lazySizesConfig.expFactor = 4;
   
   /*============================================================================
     VariantAvailability
-    - Cross out sold out/unavailable variants
-    - To disable feature, set dynamicVariantsEnable to false in theme.liquid
+    - Cross out sold out or unavailable variants
+    - To disable, set dynamicVariantsEnable to false in theme.liquid
     - Required markup:
       - class=variant-input-wrap to wrap select or button group
       - class=variant-input to wrap button/label
@@ -2750,12 +3236,11 @@ lazySizesConfig.expFactor = 4;
     };
   
     function availability(args) {
-      this.container = args.container,
-      this.namespace = args.namespace,
       this.type = args.type;
       this.variantsObject = args.variantsObject;
       this.currentVariantObject = args.currentVariantObject;
-      this.form = args.form;
+      this.container = args.container;
+      this.namespace = args.namespace;
   
       this.init();
     }
@@ -2765,115 +3250,91 @@ lazySizesConfig.expFactor = 4;
         this.container.on('variantChange' + this.namespace, this.setAvailability.bind(this));
   
         // Set default state based on current selected variant
-        this.setAvailability(null, this.currentVariantObject);
+        this.setInitialAvailability();
       },
   
-      setAvailability: function(evt, variant) {
-        if (evt) {
-          var variant = evt.detail.variant;
-        }
+      // Create a list of all options. If any variant exists and is in stock with that option, it's considered available
+      createAvailableOptionsTree(variants, currentlySelectedValues) {
+        // Reduce variant array into option availability tree
+        return variants.reduce((options, variant) => {
   
-        // Object to hold all options by value.
-        // This will be what sets a button/dropdown as
-        // sold out or unavailable (not a combo set as purchasable)
-        var valuesToManage = {
-          option1: [],
-          option2: [],
-          option3: []
-        };
+          // Check each option group (e.g. option1, option2, option3) of the variant
+          Object.keys(options).forEach(index => {
   
-        var ignoreIndex = null;
+            if (variant[index] === null) return;
   
-        var availableVariants = this.variantsObject.filter(function(el) {
-          if (!variant) {
-            return false
-          }
+            let entry = options[index].find(option => option.value === variant[index]);
   
-          if (variant.id === el.id) {
-            return false;
-          }
+            if (typeof entry === 'undefined') {
+              // If option has yet to be added to the options tree, add it
+              entry = {value: variant[index], soldOut: true}
+              options[index].push(entry);
+            }
   
-          if (variant.option2 === el.option2 && variant.option3 === el.option3) {
-            return true;
-          }
+            const currentOption1 = currentlySelectedValues.find(({value, index}) => index === 'option1')
+            const currentOption2 = currentlySelectedValues.find(({value, index}) => index === 'option2')
   
-          if (variant.option1 === el.option1 && variant.option3 === el.option3) {
-            return true;
-          }
+            switch (index) {
+              case 'option1':
+                // Option1 inputs should always remain enabled based on all available variants
+                entry.soldOut = entry.soldOut && variant.available ? false : entry.soldOut;
+                break;
+              case 'option2':
+                // Option2 inputs should remain enabled based on available variants that match first option group
+                if (currentOption1 && variant['option1'] === currentOption1.value) {
+                  entry.soldOut = entry.soldOut && variant.available ? false : entry.soldOut;
+                }
+              case 'option3':
+                // Option 3 inputs should remain enabled based on available variants that match first and second option group
+                if (
+                  currentOption1 && variant['option1'] === currentOption1.value
+                  && currentOption2 && variant['option2'] === currentOption2.value
+                ) {
+                  entry.soldOut = entry.soldOut && variant.available ? false : entry.soldOut;
+                }
+            }
+          })
   
-          if (variant.option1 === el.option1 && variant.option2 === el.option2) {
-            return true;
-          }
-        });
+          return options;
+        }, { option1: [], option2: [], option3: []})
+      },
   
-        // IE11 can't handle shortform of {variant} so extra step is needed
-        var variantObject = {
-          variant: variant
-        };
-  
-        var variants = Object.assign({}, variantObject, availableVariants);
-  
-        // Disable all options to start.
-        this.form.querySelectorAll('.variant-input-wrap').forEach(group => {
+      setInitialAvailability: function() {
+        this.container.querySelectorAll('.variant-input-wrap').forEach(group => {
           this.disableVariantGroup(group);
         });
   
-        // Loop through each available variant to gather variant values
-        for (var property in variants) {
-          if (variants.hasOwnProperty(property)) {
-            var item = variants[property];
-            if (!item) {
-              return;
-            }
+        const currentlySelectedValues = this.currentVariantObject.options.map((value,index) => {return {value, index: `option${index+1}`}})
+        const initialOptions = this.createAvailableOptionsTree(this.variantsObject, currentlySelectedValues, this.currentVariantObject);
   
-            var value1 = item.option1;
-            var value2 = item.option2;
-            var value3 = item.option3;
-            var soldOut = item.available === false;
-  
-            if (value1 && ignoreIndex !== 'option1') {
-              valuesToManage.option1.push({
-                value: value1,
-                soldOut: soldOut
-              });
-            }
-            if (value2 && ignoreIndex !== 'option2') {
-              valuesToManage.option2.push({
-                value: value2,
-                soldOut: soldOut
-              });
-            }
-            if (value3 && ignoreIndex !== 'option3') {
-              valuesToManage.option3.push({
-                value: value3,
-                soldOut: soldOut
-              });
-            }
-          }
-        }
-  
-        // Loop through all option levels and send each
-        // value w/ args to function that determines to show/hide/enable/disable
-        for (var [option, values] of Object.entries(valuesToManage)) {
+        for (var [option, values] of Object.entries(initialOptions)) {
           this.manageOptionState(option, values);
         }
       },
   
+      setAvailability: function(evt) {
+  
+        const {value: lastSelectedValue, index: lastSelectedIndex, currentlySelectedValues, variant} = evt.detail;
+  
+        // Object to hold all options by value.
+        // This will be what sets a button/dropdown as
+        // sold out or unavailable (not a combo set as purchasable)
+        const valuesToManage = this.createAvailableOptionsTree(this.variantsObject, currentlySelectedValues, variant, lastSelectedIndex, lastSelectedValue)
+  
+        // Loop through all option levels and send each
+        // value w/ args to function that determines to show/hide/enable/disable
+        for (var [option, values] of Object.entries(valuesToManage)) {
+          this.manageOptionState(option, values, lastSelectedValue);
+        }
+      },
+  
       manageOptionState: function(option, values) {
-        var group = this.form.querySelector('.variant-input-wrap[data-index="'+ option +'"]');
+        var group = this.container.querySelector('.variant-input-wrap[data-index="'+ option +'"]');
   
         // Loop through each option value
         values.forEach(obj => {
           this.enableVariantOption(group, obj);
         });
-      },
-  
-      enableVariantOptionByValue: function(array, index) {
-        var group = this.form.querySelector('.variant-input-wrap[data-index="'+ index +'"]');
-  
-        for (var i = 0; i < array.length; i++) {
-          this.enableVariantOption(group, array[i]);
-        }
       },
   
       enableVariantOption: function(group, obj) {
@@ -2949,6 +3410,7 @@ lazySizesConfig.expFactor = 4;
   
     var modal = new theme.Modals('VideoModal', 'video-modal', {
       closeOffContentClick: true,
+      bodyOpenClass: ['modal-open', 'video-modal-open'],
       solid: true
     });
   
@@ -3027,6 +3489,165 @@ lazySizesConfig.expFactor = 4;
     }
   };
   
+  
+  /*============================================================================
+    ToolTip
+  ==============================================================================*/
+  
+  class ToolTip extends HTMLElement {
+    constructor() {
+      super();
+      this.el = this;
+      this.inner = this.querySelector('[data-tool-tip-inner]');
+      this.closeButton = this.querySelector('[data-tool-tip-close]');
+      this.toolTipContent = this.querySelector('[data-tool-tip-content]');
+  
+      this.triggers = document.querySelectorAll('[data-tool-tip-trigger]');
+  
+      document.addEventListener('tooltip:open', e => {
+        this._open(e.detail.context, e.detail.content);
+      });
+    }
+  
+    _open(context, insertedHtml) {
+      this.toolTipContent.innerHTML = insertedHtml;
+  
+      theme.a11y.trapFocus({
+        container: this.el,
+        namespace: 'tooltip_focus'
+      });
+  
+      if (this.closeButton) {
+        this.closeButton.on('click' + '.tooltip-close', () => {
+          this._close();
+        });
+      }
+  
+      document.documentElement.on('click' + '.tooltip-outerclick', event => {
+        if (this.el.dataset.toolTipOpen === 'true' && !this.inner.contains(event.target)) this._close();
+      });
+  
+      document.documentElement.on('keydown' + '.tooltip-esc', event => {
+        if (event.code === 'Escape') this._close();
+      });
+  
+      this.el.dataset.toolTipOpen = true;
+      this.el.dataset.toolTip = context;
+    }
+  
+    _close() {
+      this.toolTipContent.innerHTML = '';
+      this.el.dataset.toolTipOpen = 'false';
+      this.el.dataset.toolTip = '';
+  
+      theme.a11y.removeTrapFocus({
+        container: this.el,
+        namespace: 'tooltip_focus'
+      });
+  
+      this.closeButton.off('click' + '.tooltip-close');
+      document.documentElement.off('click' + '.tooltip-outerclick');
+      document.documentElement.off('keydown' + '.tooltip-esc');
+    }
+  }
+  
+  customElements.define('tool-tip', ToolTip);
+  
+  /*============================================================================
+    ToolTipTrigger
+  ==============================================================================*/
+  
+  class ToolTipTrigger extends HTMLElement {
+    constructor() {
+      super();
+      this.el = this;
+      this.toolTipContent = this.querySelector('[data-tool-tip-content]');
+      this.init();
+    }
+  
+    init() {
+      const toolTipOpen = new CustomEvent('tooltip:open', {
+        detail: {
+          context: this.dataset.toolTip,
+          content: this.toolTipContent.innerHTML
+        },
+        bubbles: true
+      });
+  
+      this.el.addEventListener('click', e => {
+        e.stopPropagation();
+        this.dispatchEvent(toolTipOpen);
+      });
+    }
+  }
+  
+  customElements.define('tool-tip-trigger', ToolTipTrigger);
+  
+  /*============================================================================
+    NewsletterReminder
+  ==============================================================================*/
+  
+  class NewsletterReminder extends HTMLElement {
+    constructor() {
+      super();
+      this.closeBtn = this.querySelector('[data-close-button]');
+      this.popupTrigger = this.querySelector('[data-message]');
+  
+      this.id = this.dataset.sectionId;
+      this.newsletterId = `NewsletterPopup-${ this.id }`;
+      this.cookie = Cookies.get(`newsletter-${this.id}`);
+      this.cookieName = `newsletter-${this.id}`;
+      this.secondsBeforeShow = this.dataset.delaySeconds;
+      this.expiry = parseInt(this.dataset.delayDays);
+      this.modal = new theme.Modals(`NewsletterPopup-${this.newsletterId}`, 'newsletter-popup-modal');
+  
+      this.init();
+    }
+  
+    init() {
+      document.addEventListener('shopify:block:select', (evt) => {
+        if (evt.detail.sectionId === this.id) {
+          this.show(0, true)
+        }
+      });
+  
+      document.addEventListener('shopify:block:deselect', (evt) => {
+        if (evt.detail.sectionId === this.id) {
+          this.hide();
+        }
+      });
+  
+      document.addEventListener(`modalOpen.${this.newsletterId}`, () => this.hide());
+      document.addEventListener(`modalClose.${this.newsletterId}`, () => this.show());
+  
+      this.closeBtn.addEventListener('click', () => {
+        this.hide();
+        Cookies.set(this.cookieName, 'opened', { path: '/', expires: this.expiry });
+      });
+  
+      this.popupTrigger.addEventListener('click', () => {
+        const reminderOpen = new CustomEvent('reminder:openNewsletter', { bubbles: true });
+        this.dispatchEvent(reminderOpen);
+  
+        this.hide();
+      });
+    }
+  
+    show(time = this.secondsBeforeShow, forceOpen = false) {
+      if (!sessionStorage.getItem('newsletterAppeared') === true || forceOpen) {
+        setTimeout(() => {
+          this.dataset.enabled = 'true';
+          if (!forceOpen) sessionStorage.setItem('newsletterAppeared', true);
+        }, time * 1000);
+      }
+    }
+  
+    hide() {
+      this.dataset.enabled = 'false';
+    }
+  }
+  
+  customElements.define('newsletter-reminder', NewsletterReminder);
   
 
   theme.announcementBar = (function() {
@@ -3163,8 +3784,10 @@ lazySizesConfig.expFactor = 4;
       }, 1000);
   
       // Toggle new/edit address forms
-      document.querySelector('.address-new-toggle').addEventListener('click', function() {
-        newAddressForm.classList.toggle('hide');
+      document.querySelectorAll('.address-new-toggle').forEach(el => {
+        el.addEventListener('click', function() {
+          newAddressForm.classList.toggle('hide');
+        });
       });
   
       document.querySelectorAll('.address-edit-toggle').forEach(el => {
@@ -3265,7 +3888,7 @@ lazySizesConfig.expFactor = 4;
         collapsedNavTrigger.on('click', function() {
           collapsedNavTrigger.classList.toggle('is-active');
           theme.utils.prepareTransition(bottomNav, function() {
-            bottomNav.classList.toggle('is-active');;
+            bottomNav.classList.toggle('is-active');
           });
         });
       }
@@ -3483,6 +4106,20 @@ lazySizesConfig.expFactor = 4;
           openSecondLevelDropdown(evt.currentTarget, true);
         })
       });
+  
+      // Clicking outside of the megamenu should close it
+      if (theme.config.isTouch) {
+        document.body.on('touchend' + config.namespace, function() {
+          closeDropdowns();
+        });
+  
+        // Exception to above: clicking anywhere on the megamenu content will NOT close it
+        siteHeader.querySelectorAll(selectors.megamenu).forEach(el => {
+          el.on('touchend' + config.namespace, function(evt) {
+            evt.stopImmediatePropagation();
+          });
+        });
+      }
   
       function accessibleMouseEvent(evt) {
         if (hasActiveDropdown) {
@@ -3771,14 +4408,6 @@ lazySizesConfig.expFactor = 4;
     return MobileNav;
   })();
   
-  window.onpageshow = function(evt) {
-    if (evt.persisted) {
-      document.querySelectorAll('.cart__checkout').forEach(el => {
-        el.classList.remove('btn--loading');
-      });
-    }
-  };
-  
   theme.headerSearch = (function() {
     var currentString = '';
     var isLoading = false;
@@ -3964,7 +4593,7 @@ lazySizesConfig.expFactor = 4;
   
       var params = paramUrl(obj);
   
-      window.location.href = '/search?' + params;
+      window.location.href = `${theme.routes.search}?${params}`;
       return false;
     }
   
@@ -4247,9 +4876,6 @@ lazySizesConfig.expFactor = 4;
     };
   })();
   
-  /*============================================================================
-    HeaderCart
-  ==============================================================================*/
   theme.HeaderCart = (function() {
     var selectors = {
       cartTrigger: '#HeaderCartTrigger',
@@ -4336,7 +4962,10 @@ lazySizesConfig.expFactor = 4;
   
         document.documentElement.classList.add('cart-open');
   
-        theme.a11y.lockMobileScrolling(config.namespace);
+        // Don't lock mobile scrolling if sticky header isn't present
+        if (!theme.config.bpSmall && theme.settings.overlayHeader) {
+          theme.a11y.lockMobileScrolling(config.namespace);
+        }
   
         // Esc closes cart popup
         window.on('keyup' + config.namespace, function(evt) {
@@ -4386,7 +5015,9 @@ lazySizesConfig.expFactor = 4;
         window.off('keyup' + config.namespace);
         window.off('click' + config.namespace);
   
-        theme.a11y.unlockMobileScrolling(config.namespace);
+        if (!theme.config.bpSmall && theme.settings.overlayHeader) {
+          theme.a11y.unlockMobileScrolling(config.namespace);
+        }
   
         document.documentElement.classList.remove('cart-open');
   
@@ -4504,7 +5135,7 @@ lazySizesConfig.expFactor = 4;
         var handle = gridItem.getAttribute('data-product-handle');
         var prodId = gridItem.getAttribute('data-product-id');
   
-        var url = theme.routes.home + '/products/' + handle + '?view=ajax';
+        var url = theme.routes.home + '/products/' + handle + '?view=form';
   
         // remove double `/` in case shop might have /en or language in URL
         url = url.replace('//', '/');
@@ -4521,7 +5152,18 @@ lazySizesConfig.expFactor = 4;
           // Register product template inside modal
           theme.sections.register('product', theme.Product, this.quickAddHolder);
   
+          if (Shopify && Shopify.PaymentButton) {
+            Shopify.PaymentButton.init();
+          }
+  
           window.dispatchEvent(new CustomEvent('quickadd:loaded:' + prodId));
+  
+          document.dispatchEvent(new CustomEvent('quickadd:loaded', {
+            detail: {
+              productId: prodId,
+              handle: handle
+            }
+          }));
   
           modal.open();
         }.bind(this));
@@ -5052,11 +5694,13 @@ lazySizesConfig.expFactor = 4;
     return Map;
   })();
   
-  theme.NewsletterPopup = (function() {
+  theme.NewsletterPopup = (function () {
     function NewsletterPopup(container) {
       this.container = container;
       var sectionId = this.container.getAttribute('data-section-id');
+  
       this.cookieName = 'newsletter-' + sectionId;
+      this.cookie = Cookies.get(this.cookieName);
   
       if (!container) {
         return;
@@ -5067,14 +5711,28 @@ lazySizesConfig.expFactor = 4;
         return;
       }
   
+      // Prevent popup on password page
+      if (window.location.pathname === '/password') {
+        return;
+      }
+  
       this.data = {
         secondsBeforeShow: container.dataset.delaySeconds,
         daysBeforeReappear: container.dataset.delayDays,
-        cookie: Cookies.get(this.cookieName),
-        testMode: container.dataset.testMode
+        hasReminder: container.dataset.hasReminder,
+        testMode: container.dataset.testMode,
+        isEnabled: container.dataset.enabled
       };
   
       this.modal = new theme.Modals('NewsletterPopup-' + sectionId, 'newsletter-popup-modal');
+  
+      // Set cookie if optional button is clicked
+      var btn = container.querySelector('.popup-cta a');
+      if (btn) {
+        btn.addEventListener('click', function () {
+          this.closePopup(true);
+        }.bind(this));
+      }
   
       // Open modal if errors or success message exist
       if (container.querySelector('.errors') || container.querySelector('.note--success')) {
@@ -5089,22 +5747,27 @@ lazySizesConfig.expFactor = 4;
   
       document.addEventListener('modalClose.' + container.id, this.closePopup.bind(this));
   
-      if (!this.data.cookie || this.data.testMode === 'true') {
+      if (!this.cookie && this.data.isEnabled === 'true') {
         this.initPopupDelay();
       }
+  
+      // Open modal if triggered by newsletter reminder
+      document.addEventListener('reminder:openNewsletter', () => {
+        this.modal.open();
+      });
     }
   
     NewsletterPopup.prototype = Object.assign({}, NewsletterPopup.prototype, {
-      initPopupDelay: function() {
-        if (Shopify && Shopify.designMode) {
+      initPopupDelay: function () {
+        if (this.data.testMode === 'true') {
           return;
         }
-        setTimeout(function() {
+        setTimeout(function () {
           this.modal.open();
         }.bind(this), this.data.secondsBeforeShow * 1000);
       },
   
-      closePopup: function(success) {
+      closePopup: function (success) {
         // Remove a cookie in case it was set in test mode
         if (this.data.testMode === 'true') {
           Cookies.remove(this.cookieName, { path: '/' });
@@ -5112,19 +5775,34 @@ lazySizesConfig.expFactor = 4;
         }
   
         var expiry = success ? 200 : this.data.daysBeforeReappear;
-        Cookies.set(this.cookieName, 'opened', { path: '/', expires: expiry });
+        var hasReminder = (this.data.hasReminder === 'true');
+        var newsletterAppeared =  (sessionStorage.getItem('newsletterAppeared') === 'true');
+  
+        if (hasReminder && newsletterAppeared) {
+          Cookies.set(this.cookieName, 'opened', { path: '/', expires: expiry });
+        } else if(!hasReminder) {
+          Cookies.set(this.cookieName, 'opened', { path: '/', expires: expiry });
+        }
       },
   
-      onLoad: function() {
+      onLoad: function () {
         this.modal.open();
       },
   
-      onSelect: function() {
+      onSelect: function () {
         this.modal.open();
       },
   
-      onDeselect: function() {
+      onDeselect: function () {
         this.modal.close();
+      },
+  
+      onBlockSelect: function () {
+        this.modal.close();
+      },
+  
+      onBlockDeselect: function () {
+        this.modal.open();
       }
     });
   
@@ -5178,10 +5856,6 @@ lazySizesConfig.expFactor = 4;
         return;
       }
   
-      if (container.dataset.hasSlideshow === 'true') {
-        this.inSlideshow = true;
-      }
-  
       this.init();
     }
   
@@ -5193,6 +5867,15 @@ lazySizesConfig.expFactor = 4;
       },
   
       triggerClick: function(evt) {
+        // Streamline changes between a slideshow and
+        // stacked images, so recheck if we are still
+        // working with a slideshow when initializing zoom
+        if (this.container.dataset && this.container.dataset.hasSlideshow === 'true') {
+          this.inSlideshow = true;
+        } else {
+          this.inSlideshow = false;
+        }
+  
         this.items = this.getImageData();
   
         var image = this.inSlideshow ? this.container.querySelector(selectors.activeImage) : evt.currentTarget;
@@ -5261,9 +5944,10 @@ lazySizesConfig.expFactor = 4;
         }
   
         this.gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
-  
-        this.gallery.init();
         this.gallery.listen('afterChange', this.afterChange.bind(this));
+        this.gallery.init();
+  
+        this.preventiOS15Scrolling();
       },
   
       afterChange: function() {
@@ -5273,6 +5957,35 @@ lazySizesConfig.expFactor = 4;
             index: index
           }
         }));
+      },
+  
+      syncHeight: function() {
+        document.documentElement.style.setProperty(
+          "--window-inner-height", 
+          `${window.innerHeight}px`
+        );
+      },
+  
+      // Fix poached from https://gist.github.com/dimsemenov/0b8c255c0d87f2989e8ab876073534ea
+      preventiOS15Scrolling: function() {
+        let initialScrollPos;
+  
+        if (!/iPhone|iPad|iPod/i.test(window.navigator.userAgent)) return; 
+        
+        this.syncHeight();
+              
+        // Store scroll position to restore it later
+        initialScrollPos = window.scrollY;
+        
+        // Add class to root element when PhotoSwipe opens
+        document.documentElement.classList.add('pswp-open-in-ios');
+  
+        window.addEventListener('resize', this.syncHeight);
+      
+        this.gallery.listen('destroy', () => {
+          document.documentElement.classList.remove('pswp-open-in-ios');
+          window.scrollTo(0, initialScrollPos);
+        });
       }
     });
   
@@ -5314,6 +6027,14 @@ lazySizesConfig.expFactor = 4;
   
         var url = this.url + '?section_id=product-recommendations&limit='+ limit +'&product_id=' + id;
   
+        // When section his hidden and shown, make sure it starts empty
+        if (Shopify.designMode) {
+          var wrapper = section.querySelector(selectors.sectionClass)
+          if (wrapper) {
+            wrapper.innerHTML = '';
+          }
+        }
+  
         fetch(url).then(function(response) {
           return response.text();
         }).then(function(html) {
@@ -5330,6 +6051,7 @@ lazySizesConfig.expFactor = 4;
   
           if (!div) {
             this.container.classList.add('hide');
+            if (AOS) { AOS.refreshHard() }
             return;
           }
   
@@ -5515,7 +6237,7 @@ lazySizesConfig.expFactor = 4;
               self.drawer = new theme.Drawers('StoreAvailabilityDrawer', 'availability');
             }
   
-            // Setup drawer if have open button
+            // Setup modal if have open button
             if (self.container.querySelector(selectors.modalOpenBtn)) {
               self.modal = new theme.Modals('StoreAvailabilityModal', 'availability');
             }
@@ -5731,6 +6453,7 @@ lazySizesConfig.expFactor = 4;
   
   theme.CollectionSidebar = (function() {
     var selectors = {
+      sidebarId: 'CollectionSidebar',
       trigger: '.collection-filter__btn',
       mobileWrapper: '#CollectionInlineFilterWrap',
       filters: '.filter-wrapper',
@@ -5742,11 +6465,13 @@ lazySizesConfig.expFactor = 4;
       namespace: '.collection-filters'
     }
   
-    function CollectionSidebar(container) {
-      this.container = container;
+    function CollectionSidebar() {
+      // Do not load when no sidebar exists
+      if(!document.getElementById(selectors.sidebarId)) {
+        return;
+      }
   
       document.addEventListener('filter:selected', this.close.bind(this));
-  
       this.init();
     }
   
@@ -5766,25 +6491,19 @@ lazySizesConfig.expFactor = 4;
     }
   
     CollectionSidebar.prototype = Object.assign({}, CollectionSidebar.prototype, {
-      init: function(reinit) {
+      init: function() {
+        config.isOpen = false;
+        theme.a11y.unlockMobileScrolling(config.namespace);
+  
         // This function runs on page load, and when the collection section loads
         // so we need to be mindful of not duplicating event listeners
+        this.container = document.getElementById(selectors.sidebarId);
         this.trigger = document.querySelector(selectors.trigger);
         this.wrapper = document.querySelector(selectors.mobileWrapper);
         this.filters = this.wrapper.querySelector(selectors.filters);
   
-        if (reinit) {
-          config.isOpen = false;
-          this.trigger.off('click');
-        }
-  
+        this.trigger.off('click');
         this.trigger.on('click', this.toggle.bind(this));
-      },
-  
-      // Collection template will force the sidebar filters to reload when it re-initializes. Make sure we aren't still locking mobile scrolling
-      forceReload: function() {
-        theme.a11y.unlockMobileScrolling(config.namespace);
-        this.init(true);
       },
   
       /*============================================================================
@@ -5799,8 +6518,6 @@ lazySizesConfig.expFactor = 4;
       },
   
       open: function() {
-        if (!this.filters) { return }
-  
         sizeDrawer();
   
         // Scroll to top of filter bar when opened
@@ -5824,8 +6541,6 @@ lazySizesConfig.expFactor = 4;
       },
   
       close: function() {
-        if (!this.filters) { return }
-  
         this.trigger.classList.remove('is-active');
   
         theme.utils.prepareTransition(this.filters, function() {
@@ -5871,23 +6586,27 @@ lazySizesConfig.expFactor = 4;
       collectionGrid: '.collection-grid__wrapper',
       sidebar: '#CollectionSidebar',
       activeTagList: '.tag-list--active-tags',
-      tags: '.tag-list a',
+      tags: '.tag-list input',
+      activeTags: '.tag-list a',
+      tagsForm: '.filter-form',
       filterBar: '.collection-filter',
+      priceRange: '.price-range',
+      trigger: '.collapsible-trigger',
   
       filters: '.filter-wrapper',
       sidebarWrapper: '#CollectionSidebarFilterWrap',
-      inlineWrapper: '#CollectionInlineFilterWrap'
+      inlineWrapper: '#CollectionInlineFilterWrap',
     };
   
     var config = {
-      isInit: false,
-      combineTags: false,
       mobileFiltersInPlace: false
     };
   
     var classes = {
       activeTag: 'tag--active',
-      removeTagParent: 'tag--remove'
+      removeTagParent: 'tag--remove',
+      collapsibleContent: 'collapsible-content',
+      isOpen: 'is-open',
     };
   
     function Collection(container) {
@@ -5896,12 +6615,18 @@ lazySizesConfig.expFactor = 4;
       this.sectionId = container.getAttribute('data-section-id');
       this.namespace = '.collection-' + this.sectionId;
       this.isCollectionTemplate = this.container.dataset.collectionTemplate;
+      this.ajaxRenderer = new theme.AjaxRenderer({
+        sections: [{ sectionId: this.sectionId, nodeId: 'CollectionAjaxContent' }],
+        onReplace: this.onReplaceAjaxContent.bind(this),
+      });
   
       this.init(container);
     }
   
     Collection.prototype = Object.assign({}, Collection.prototype, {
       init: function(container) {
+        config.mobileFiltersInPlace = false;
+  
         // If container not set, section has been reinitialized.
         // Update this.container to refreshed DOM element
         if (!container) {
@@ -5912,12 +6637,11 @@ lazySizesConfig.expFactor = 4;
           this.cloneFiltersOnMobile();
           this.initSort();
           this.initFilters();
+          this.initPriceRange();
           this.initGridOptions();
   
-          // If re-initialized, also reinit sidebar
-          if (config.isInit) {
-            theme.sections.reinit('collection-sidebar');
-          }
+          // Has to init after the Collection JS because cloneFiltersOnMobile
+          this.sidebar = new theme.CollectionSidebar();
         }
   
         this.quickAdd = new theme.QuickAdd(this.container);
@@ -5928,51 +6652,29 @@ lazySizesConfig.expFactor = 4;
           this.swatches = this.container.querySelectorAll(selectors.colorSwatch);
           this.colorSwatchHovering();
         }
-  
-        config.isInit = true;
       },
   
       /*============================================================================
         Collection sorting
       ==============================================================================*/
       initSort: function() {
+        this.queryParams = new URLSearchParams(window.location.search);
         this.sortSelect = document.querySelector(selectors.sortSelect);
         this.sortBtns = document.querySelectorAll(selectors.sortBtn);
   
-        if (this.sortSelect || this.sortBtn) {
-          this.initParams();
-        }
-  
         if (this.sortSelect) {
           this.defaultSort = this.getDefaultSortValue();
-          this.sortSelect.on('change' + this.namespace, this.onSortChange.bind(this));
+          this.sortSelect.on('change' + this.namespace, () => { this.onSortChange() });
         }
   
         if (this.sortBtns.length) {
           this.sortBtns.forEach(btn => {
             btn.addEventListener('click', function() {
               document.dispatchEvent(new Event('filter:selected'));
-              this.queryParams.sort_by = btn.dataset.value;
-              this.goToSortUrl();
+              const sortValue = btn.dataset.value;
+              this.onSortChange(sortValue);
             }.bind(this));
           });
-        }
-      },
-  
-      initParams: function() {
-        this.queryParams = {};
-  
-        if (location.search.length) {
-          var aKeyValue;
-          var aCouples = location.search.substr(1).split('&');
-          for (var i = 0; i < aCouples.length; i++) {
-            aKeyValue = aCouples[i].split('=');
-            if (aKeyValue.length > 1) {
-              this.queryParams[
-                decodeURIComponent(aKeyValue[0])
-              ] = decodeURIComponent(aKeyValue[1]);
-            }
-          }
         }
       },
   
@@ -5984,17 +6686,17 @@ lazySizesConfig.expFactor = 4;
         return this.sortSelect.getAttribute('data-default-sortby');
       },
   
-      onSortChange: function() {
-        this.queryParams.sort_by = this.getSortValue();
-        this.goToSortUrl();
-      },
+      onSortChange: function(sortValue = null) {
+        this.queryParams = new URLSearchParams(window.location.search);
   
-      goToSortUrl: function() {
-        if (this.queryParams.page) {
-          delete this.queryParams.page;
+        if (sortValue) {
+          this.queryParams.set('sort_by', sortValue);
+        } else {
+          this.queryParams.set('sort_by', this.getSortValue());
         }
   
-        window.location.search = new URLSearchParams(Object.entries(this.queryParams));
+        this.queryParams.delete('page'); // Delete if it exists
+        window.location.search = this.queryParams.toString();
       },
   
       /*============================================================================
@@ -6067,20 +6769,14 @@ lazySizesConfig.expFactor = 4;
         Collection filters
       ====================*/
       initFilters: function() {
-        var tags = document.querySelectorAll(selectors.tags);
+        var filterBar = document.querySelectorAll(selectors.filterBar);
   
-        if (!tags.length) {
+        if (!filterBar.length) {
           return;
         }
   
         document.addEventListener('matchSmall', this.cloneFiltersOnMobile.bind(this));
-  
-        // Ajax pagination
-        window.addEventListener('popstate', function(state) {
-          if (state) {
-            this.getNewCollectionContent(location.href);
-          }
-        }.bind(this));
+        this.bindBackButton();
   
         // Set mobile top value for filters if sticky header enabled
         if (theme.config.stickyHeader) {
@@ -6090,11 +6786,21 @@ lazySizesConfig.expFactor = 4;
           window.on('resize', theme.utils.debounce(500, this.setFilterStickyPosition));
         }
   
-        config.combineTags = (document.querySelector(selectors.sidebar).getAttribute('data-combine-tags') == 'true');
-  
-        document.querySelectorAll(selectors.tags).forEach(tag => {
-          tag.addEventListener('click', this.tagClick.bind(this));
+        document.querySelectorAll(selectors.activeTags).forEach(tag => {
+          tag.addEventListener('click', this.onTagClick.bind(this));
         });
+  
+        document.querySelectorAll(selectors.tagsForm).forEach(form => {
+          form.addEventListener('input', this.onFormSubmit.bind(this));
+        });
+      },
+  
+      initPriceRange: function() {
+        const priceRangeEls = document.querySelectorAll(selectors.priceRange)
+        priceRangeEls.forEach((el) => new theme.PriceRange(el, {
+          // onChange passes in formData
+          onChange: this.renderFromFormData.bind(this),
+        }));
       },
   
       cloneFiltersOnMobile: function() {
@@ -6119,8 +6825,36 @@ lazySizesConfig.expFactor = 4;
         config.mobileFiltersInPlace = true;
       },
   
-      tagClick: function(evt) {
-        var el = evt.currentTarget;
+      renderActiveTag: function(parent, el) {
+        const textEl = parent.querySelector('.tag__text');
+  
+        if (parent.classList.contains(classes.activeTag)) {
+          parent.classList.remove(classes.activeTag);
+        } else {
+          parent.classList.add(classes.activeTag);
+  
+          // If adding a tag, show new tag right away.
+          // Otherwise, remove it before ajax finishes
+          if (el.closest('li').classList.contains(classes.removeTagParent)) {
+            parent.remove();
+          } else {
+            // Append new tag in both drawer and sidebar
+            document.querySelectorAll(selectors.activeTagList).forEach(list => {
+              const newTag = document.createElement('li');
+              const newTagLink = document.createElement('a');
+              newTag.classList.add('tag', 'tag--remove');
+              newTagLink.classList.add('btn', 'btn--small');
+              newTagLink.innerText = textEl.innerText;
+              newTag.appendChild(newTagLink);
+  
+              list.appendChild(newTag);
+            });
+          }
+        }
+      },
+  
+      onTagClick: function(evt) {
+        const el = evt.currentTarget;
   
         document.dispatchEvent(new Event('filter:selected'));
   
@@ -6136,70 +6870,88 @@ lazySizesConfig.expFactor = 4;
   
         isAnimating = true;
   
-        var parent = el.parentNode;
-        var newUrl = el.href;
+        const parent = el.parentNode;
+        const newUrl = new URL(el.href);
   
-        if (config.combineTags) {
-          if (parent.classList.contains(classes.activeTag)) {
-            parent.classList.remove(classes.activeTag);
-          } else {
-            parent.classList.add(classes.activeTag);
-  
-            // If adding a tag, show new tag right away.
-            // Otherwise, remove it before ajax finishes
-            if (el.closest('li').classList.contains(classes.removeTagParent)) {
-              parent.remove();
-            } else {
-              var newTag = document.createElement('li');
-              var newTagLink = document.createElement('a');
-              newTag.classList.add('tag', 'tag--remove');
-              newTagLink.classList.add('btn', 'btn--small');
-              newTagLink.innerText = el.innerText;
-              newTag.appendChild(newTagLink);
-  
-              // Append new tag in both drawer and sidebar
-              document.querySelectorAll(selectors.activeTagList).forEach(list => {
-                list.appendChild(newTag);
-              });
-            }
-          }
-        } else {
-          // Remove active state on all tags, re-add to new one
-          document.querySelectorAll(selectors.tags).forEach(tag => {
-            tag.parentNode.classList.remove(classes.activeTag);
-          });
-          parent.classList.add(classes.activeTag);
-        }
-  
+        this.renderActiveTag(parent, el);
         this.updateScroll(true);
-  
-        history.pushState({}, '', newUrl);
-        document.querySelector(selectors.collectionGrid).classList.add('unload');
-        this.getNewCollectionContent(newUrl);
+        this.startLoading();
+        this.renderCollectionPage(newUrl.searchParams);
       },
   
-      getNewCollectionContent: function(url) {
-        url = url.indexOf('?') === -1 ? (url + '?view=ajax') : (url + '&view=ajax');
+      onFormSubmit: function(evt) {
+        const el = evt.target;
   
-        var ajaxContainer = document.getElementById('CollectionAjaxResult');
+        document.dispatchEvent(new Event('filter:selected'));
   
-        fetch(url).then(function(response) {
-          return response.text();
-        }).then(function(html) {
-          var parser = new DOMParser();
-          var doc = parser.parseFromString(html, 'text/html');
+        // Do not ajax-load collection links
+        if (el.classList.contains('no-ajax')) {
+          return;
+        }
   
-          var newContent = doc.getElementById('CollectionAjaxContent');
+        evt.preventDefault();
+        if (isAnimating) {
+          return;
+        }
   
-          ajaxContainer.innerHTML = '';
-          ajaxContainer.append(newContent);
+        isAnimating = true;
   
-          theme.sections.reinit('collection-template');
-          this.updateScroll(false);
-          theme.reinitProductGridItem();
+        const parent = el.closest('li');
+        const formEl = el.closest('form');
+        const formData = new FormData(formEl);
   
-          isAnimating = false;
-        }.bind(this));
+        this.renderActiveTag(parent, el);
+        this.updateScroll(true);
+        this.startLoading();
+        this.renderFromFormData(formData);
+      },
+  
+      onReplaceAjaxContent: function(newDom, section) {
+        const openCollapsibleIds = this.fetchOpenCollasibleFilters();
+  
+        openCollapsibleIds.forEach(selector => {
+          newDom
+            .querySelectorAll(`[data-collapsible-id=${selector}]`)
+            .forEach(this.openCollapsible);
+        });
+  
+        var newContentEl = newDom.getElementById(section.nodeId);
+        if (!newContentEl) {
+          return;
+        }
+  
+        document.getElementById(section.nodeId).innerHTML = newContentEl.innerHTML;
+  
+        // Update references to new product count in collection
+        var page = document.getElementById(section.nodeId);
+        var countEl = page.querySelector('.collection-filter__item--count');
+        if (countEl) {
+          var count = countEl.innerText;
+          document.querySelectorAll('[data-collection-count]').forEach(el => {
+            el.innerText = count;
+          });
+        }
+  
+      },
+  
+      renderFromFormData: function(formData) {
+        const searchParams = new URLSearchParams(formData);
+        this.renderCollectionPage(searchParams);
+      },
+  
+      renderCollectionPage: function(searchParams, updateURLHash = true) {
+        this.ajaxRenderer
+          .renderPage(window.location.pathname, searchParams, updateURLHash)
+          .then(() => {
+            theme.sections.reinit('collection-template');
+            this.updateScroll(false);
+            this.initPriceRange();
+            theme.reinitProductGridItem();
+  
+            document.dispatchEvent(new CustomEvent('collection:reloaded'));
+  
+            isAnimating = false;
+          });
       },
   
       updateScroll: function(animate) {
@@ -6221,6 +6973,44 @@ lazySizesConfig.expFactor = 4;
         }
       },
   
+      bindBackButton: function() {
+        // Ajax page on back button
+        window.off('popstate' + this.namespace);
+        window.on('popstate' + this.namespace, function(state) {
+          if (state) {
+            const newUrl = new URL(window.location.href);
+            this.renderCollectionPage(newUrl.searchParams, false);
+          }
+        }.bind(this));
+      },
+  
+      fetchOpenCollasibleFilters: function() {
+        const openDesktopCollapsible = Array.from(
+          document.querySelectorAll(
+            `${selectors.sidebar} ${selectors.trigger}.${classes.isOpen}`
+          )
+        );
+  
+        const openMobileCollapsible = Array.from(
+          document.querySelectorAll(
+            `${selectors.inlineWrapper} ${selectors.trigger}.${classes.isOpen}`
+          )
+        );
+  
+        return [
+          ...openDesktopCollapsible,
+          ...openMobileCollapsible,
+        ].map(trigger => trigger.dataset.collapsibleId);
+      },
+  
+      openCollapsible: function(el) {
+        if (el.classList.contains(classes.collapsibleContent)) {
+          el.style.height = 'auto';
+        }
+  
+        el.classList.add(classes.isOpen);
+      },
+  
       /*============================================================================
         Misc collection page helpers
       ==============================================================================*/
@@ -6235,15 +7025,17 @@ lazySizesConfig.expFactor = 4;
         }
       },
   
+      startLoading: function() {
+        document.querySelector(selectors.collectionGrid).classList.add('unload');
+      },
+  
       forceReload: function() {
-        config.mobileFiltersInPlace = false;
-        this.init();
-      }
+        this.init(this.container);
+      },
     });
   
     return Collection;
   })();
-  
   
   theme.FooterSection = (function() {
     var selectors = {
@@ -6258,8 +7050,6 @@ lazySizesConfig.expFactor = 4;
     };
   
     function FooterSection(container) {
-      this.container = container;
-  
       this.container = container;
       this.localeDisclosure = null;
       this.currencyDisclosure = null;
@@ -6294,6 +7084,11 @@ lazySizesConfig.expFactor = 4;
       },
   
       initDoubleMobileNav: function() {
+        var menuPlaceholder = document.getElementById(ids.footerNavWrap);
+        if (!menuPlaceholder) {
+          return;
+        }
+  
         var mobileNav = document.getElementById(ids.mobileNav);
         var footerNav = document.getElementById(ids.footerNav);
         var clone = mobileNav.cloneNode(true);
@@ -6305,7 +7100,8 @@ lazySizesConfig.expFactor = 4;
           id: ids.footerNav,
           inHeader: false
         });
-        document.getElementById(ids.footerNavWrap).classList.remove('hide');
+  
+        menuPlaceholder.classList.remove('hide');
       },
   
       onUnload: function() {
@@ -6373,6 +7169,10 @@ lazySizesConfig.expFactor = 4;
   
       cloneFooter: function() {
         var headerFooter = document.querySelector(selectors.headerFooter);
+        if (!headerFooter) {
+          return;
+        }
+  
         var footerMenus = document.querySelector(selectors.footerMenus);
   
         var clone = footerMenus.cloneNode(true);
@@ -6495,12 +7295,16 @@ lazySizesConfig.expFactor = 4;
       videoParent: '.product__video-wrapper',
       slide: '.product-main-slide',
       currentSlide: '.is-selected',
-      startingSlide: '.starting-slide'
+      startingSlide: '.starting-slide',
+      variantType: '.variant-wrapper',
+      blocks: '[data-product-blocks]',
+      blocksHolder: '[data-blocks-holder]'
     };
   
     function Product(container) {
       this.container = container;
       var sectionId = this.sectionId = container.getAttribute('data-section-id');
+      var productId = this.productId = container.getAttribute('data-product-id');
   
       this.inModal = (container.dataset.modal === 'true');
       this.modal;
@@ -6508,8 +7312,8 @@ lazySizesConfig.expFactor = 4;
       this.settings = {
         enableHistoryState: (container.dataset.history === 'true') || false,
         namespace: '.product-' + sectionId,
-        inventory: container.dataset.inventory || false,
-        incomingInventory: container.dataset.incomingInventory || false,
+        inventory: false,
+        inventoryThreshold: 10,
         modalInit: false,
         hasImages: true,
         imageSetName: null,
@@ -6524,45 +7328,45 @@ lazySizesConfig.expFactor = 4;
       if (this.inModal) {
         this.settings.enableHistoryState = false;
         this.settings.namespace = '.product-' + sectionId + '-modal';
-        this.modal = document.getElementById('QuickShopModal-' + sectionId);
+        this.modal = document.getElementById('QuickShopModal-' + productId);
       }
   
       this.selectors = {
-        variantsJson: 'VariantsJson-' + sectionId,
-        currentVariantJson: 'CurrentVariantJson-' + sectionId,
-        form: '#AddToCartForm-' + sectionId,
+        variantsJson: '[data-variant-json]',
+        currentVariantJson: '[data-current-variant-json]',
+        form: '.product-single__form',
   
         media: '[data-product-media-type-model]',
         closeMedia: '.product-single__close-media',
-        photoThumbs: '.product__thumb-' + sectionId,
-        thumbSlider: '#ProductThumbs-' + sectionId,
+        photoThumbs: '[data-product-thumb]',
+        thumbSlider: '[data-product-thumbs]',
         thumbScroller: '.product__thumbs--scroller',
-        mainSlider: '#ProductPhotos-' + sectionId,
+        mainSlider: '[data-product-photos]',
         imageContainer: '[data-product-images]',
-        productImageMain: '.product-image-main--' + sectionId,
+        productImageMain: '[data-product-image-main]',
   
-        priceWrapper: '.product__price-wrap-' + sectionId,
-        price: '#ProductPrice-' + sectionId,
-        comparePrice: '#ComparePrice-' + sectionId,
-        savePrice: '#SavePrice-' + sectionId,
-        priceA11y: '#PriceA11y-' + sectionId,
-        comparePriceA11y: '#ComparePriceA11y-' + sectionId,
-        unitWrapper: '.product__unit-price-wrapper--' + sectionId,
-        unitPrice: '.product__unit-price--' + sectionId,
-        unitPriceBaseUnit: '.product__unit-base--' + sectionId,
+        priceWrapper: '[data-product-price-wrap]',
+        price: '[data-product-price]',
+        comparePrice: '[data-compare-price]',
+        savePrice: '[data-save-price]',
+        priceA11y: '[data-a11y-price]',
+        comparePriceA11y: '[data-compare-price-a11y]',
+        unitWrapper: '[data-unit-price-wrapper]',
+        unitPrice: '[data-unit-price]',
+        unitPriceBaseUnit: '[data-unit-base]',
         sku: '[data-sku]',
-        inventory: 'ProductInventory-' + sectionId,
-        incomingInventory: 'ProductIncomingInventory-' + sectionId,
+        inventory: '[data-product-inventory]',
+        incomingInventory: '[data-incoming-inventory]',
+        colorLabel: '[data-variant-color-label]',
   
-        addToCart: 'AddToCart-' + sectionId,
-        addToCartText: 'AddToCartText-' + sectionId,
+        addToCart: '[data-add-to-cart]',
+        addToCartText: '[data-add-to-cart-text]',
   
-        originalSelectorId: '#ProductSelect-' + sectionId,
-        singleOptionSelector: '.variant__input-' + sectionId,
-        variantColorSwatch: '.variant__input--color-swatch-' + sectionId,
+        originalSelectorId: '[data-product-select]',
+        singleOptionSelector: '[data-variant-input]',
+        variantColorSwatch: '.variant__input--color-swatch',
   
-        modalFormHolder: '#ProductFormHolder-' + sectionId,
-        availabilityContainer: '#StoreAvailabilityHolder-' + sectionId
+        availabilityContainer: '[data-store-availability-holder]'
       };
   
       this.cacheElements();
@@ -6585,8 +7389,8 @@ lazySizesConfig.expFactor = 4;
       init: function() {
         if (this.inModal) {
           this.container.classList.add(classes.isModal);
-          document.addEventListener('modalOpen.QuickShopModal-' + this.sectionId, this.openModalProduct.bind(this));
-          document.addEventListener('modalClose.QuickShopModal-' + this.sectionId, this.closeModalProduct.bind(this));
+          document.addEventListener('modalOpen.QuickShopModal-' + this.productId, this.openModalProduct.bind(this));
+          document.addEventListener('modalClose.QuickShopModal-' + this.productId, this.closeModalProduct.bind(this));
         }
   
         if (!this.inModal) {
@@ -6645,6 +7449,8 @@ lazySizesConfig.expFactor = 4;
         this.initImageZoom();
         this.initModelViewerLibraries();
         this.initShopifyXrLaunch();
+  
+        if (window.SPR) {SPR.initDomEls();SPR.loadBadges()}
       },
   
       setImageSizes: function() {
@@ -6683,7 +7489,7 @@ lazySizesConfig.expFactor = 4;
       },
   
       initVariants: function() {
-        var variantJson = document.getElementById(this.selectors.variantsJson);
+        var variantJson = this.container.querySelector(this.selectors.variantsJson);
   
         if (!variantJson) {
           return;
@@ -6729,30 +7535,41 @@ lazySizesConfig.expFactor = 4;
           this.container.on('variantSKUChange' + this.settings.namespace, this.updateSku.bind(this));
         }
   
-        if (this.settings.inventory || this.settings.incomingInventory) {
+        var inventoryEl = this.container.querySelector(this.selectors.inventory);
+        if (inventoryEl) {
+          this.settings.inventory = true;
+          this.settings.inventoryThreshold = inventoryEl.dataset.threshold;
           this.container.on('variantChange' + this.settings.namespace, this.updateInventory.bind(this));
         }
   
         // Update individual variant availability on each selection
         if (theme.settings.dynamicVariantsEnable) {
-          var currentVariantJson = document.getElementById(this.selectors.currentVariantJson);
+          var currentVariantJson = this.container.querySelector(this.selectors.currentVariantJson);
   
           if (currentVariantJson) {
-            new theme.VariantAvailability({
-              container: this.container,
-              namespace: this.settings.namespace,
-              type: theme.settings.dynamicVariantType,
-              variantsObject: this.variantsObject,
-              currentVariantObject: JSON.parse(currentVariantJson.innerHTML),
-              form: this.cache.form
-            });
+            var variantType = this.container.querySelector(selectors.variantType);
+  
+            if (variantType) {
+              new theme.VariantAvailability({
+                container: this.container,
+                namespace: this.settings.namespace,
+                type: variantType.dataset.type,
+                variantsObject: this.variantsObject,
+                currentVariantObject: JSON.parse(currentVariantJson.innerHTML)
+              });
+            }
           }
         }
   
         // image set names variant change listeners
         if (this.settings.imageSetName) {
-          this.settings.imageSetIndex = this.cache.form.querySelector('.variant-input-wrap[data-handle="'+this.settings.imageSetName+'"]').dataset.index;
-          this.container.on('variantChange' + this.settings.namespace, this.updateImageSet.bind(this))
+          var variantWrapper = this.container.querySelector('.variant-input-wrap[data-handle="'+this.settings.imageSetName+'"]');
+          if (variantWrapper) {
+            this.settings.imageSetIndex = variantWrapper.dataset.index;
+            this.container.on('variantChange' + this.settings.namespace, this.updateImageSet.bind(this))
+          } else {
+            this.settings.imageSetName = null;
+          }
         }
       },
   
@@ -6775,13 +7592,13 @@ lazySizesConfig.expFactor = 4;
       ==============================================================================*/
       updateColorName: function(color, index) {
         // Updates on radio button change, not variant.js
-        this.container.querySelector('#VariantColorLabel-' + this.sectionId + '-' + index).textContent = color;
+        this.container.querySelector(this.selectors.colorLabel + `[data-index="${index}"`).textContent = color;
       },
   
       updateCartButton: function(evt) {
         var variant = evt.detail.variant;
-        var cartBtn = document.getElementById(this.selectors.addToCart);
-        var cartBtnText = document.getElementById(this.selectors.addToCartText);
+        var cartBtn = this.container.querySelector(this.selectors.addToCart);
+        var cartBtnText = this.container.querySelector(this.selectors.addToCartText);
   
         if (variant) {
           if (variant.available) {
@@ -6822,8 +7639,12 @@ lazySizesConfig.expFactor = 4;
             this.cache.comparePrice.innerHTML = theme.Currency.formatMoney(variant.compare_at_price, theme.settings.moneyFormat);
             this.cache.priceWrapper.classList.remove(classes.hidden);
             this.cache.price.classList.add(classes.onSale);
-            this.cache.comparePriceA11y.setAttribute('aria-hidden', 'false');
-            this.cache.priceA11y.setAttribute('aria-hidden', 'false');
+            if (this.cache.comparePriceA11y) {
+              this.cache.comparePriceA11y.setAttribute('aria-hidden', 'false');
+            }
+            if (this.cache.priceA11y) {
+              this.cache.priceA11y.setAttribute('aria-hidden', 'false');
+            }
   
             var savings = variant.compare_at_price - variant.price;
   
@@ -6844,7 +7665,9 @@ lazySizesConfig.expFactor = 4;
             if (this.cache.comparePriceA11y) {
               this.cache.comparePriceA11y.setAttribute('aria-hidden', 'true');
             }
-            this.cache.priceA11y.setAttribute('aria-hidden', 'true');
+            if (this.cache.priceA11y) {
+              this.cache.priceA11y.setAttribute('aria-hidden', 'true');
+            }
           }
         }
       },
@@ -6919,7 +7742,7 @@ lazySizesConfig.expFactor = 4;
           }
   
           this.container.querySelectorAll(this.selectors.sku).forEach(el => {
-            el.classList.toggle('hide', hideSku);
+            el.classList.toggle(classes.hidden, hideSku);
             el.querySelector('[data-sku-id]').textContent = newSku;
           });
         }
@@ -6930,28 +7753,36 @@ lazySizesConfig.expFactor = 4;
   
         // Hide stock if no inventory management or policy is continue
         if (!variant || !variant.inventory_management || variant.inventory_policy === 'continue') {
-          this.toggleInventoryQuantity(false);
+          this.toggleInventoryQuantity(variant, false);
           this.toggleIncomingInventory(false);
           return;
         }
   
-        if (variant.inventory_management === 'shopify' && window.inventories && window.inventories[this.sectionId]) {
-          var variantInventoryObject = window.inventories[this.sectionId][variant.id];
+        if (variant.inventory_management === 'shopify' && window.inventories && window.inventories[this.productId]) {
+          var variantInventoryObject = window.inventories[this.productId][variant.id];
+  
+          // Hide stock if policy is continue
+          if (variantInventoryObject.policy === 'continue') {
+            this.toggleInventoryQuantity(variant, false);
+            this.toggleIncomingInventory(false);
+            return;
+          }
+  
           var quantity = variantInventoryObject.quantity;
           var showInventory = true;
           var showIncomingInventory = false;
   
-          if (quantity <= 0 || quantity > theme.settings.inventoryThreshold) {
+          if (quantity <= 0 || quantity > this.settings.inventoryThreshold) {
             showInventory = false;
           }
   
-          this.toggleInventoryQuantity(showInventory, quantity);
+          this.toggleInventoryQuantity(variant, showInventory, quantity);
   
           // Only show incoming inventory when:
           // - inventory notice itself is hidden
           // - have incoming inventory
           // - current quantity is below theme setting threshold
-          if (!showInventory && variantInventoryObject.incoming === 'true' && quantity <= theme.settings.inventoryThreshold) {
+          if (!showInventory && variantInventoryObject.incoming === 'true' && quantity <= this.settings.inventoryThreshold) {
             showIncomingInventory = true;
           }
   
@@ -6968,31 +7799,44 @@ lazySizesConfig.expFactor = 4;
         this.storeAvailability.updateContent(variant.id);
       },
   
-      toggleInventoryQuantity: function(show, qty) {
+      toggleInventoryQuantity: function(variant, show, qty) {
         if (!this.settings.inventory) {
           show = false;
         }
   
-        var el = document.getElementById(this.selectors.inventory);
+        var el = this.container.querySelector(this.selectors.inventory);
+        var salesPoint = el.closest('.product-block');
   
-        if (show) {
-          el.classList.remove(classes.hidden);
+        if (parseInt(qty) <= parseInt(this.settings.inventoryThreshold)) {
+          el.parentNode.classList.add('inventory--low')
           el.textContent = theme.strings.stockLabel.replace('[count]', qty);
         } else {
-          el.classList.add(classes.hidden);
+          el.parentNode.classList.remove('inventory--low')
+          el.textContent = theme.strings.inStockLabel;
+        }
+  
+        if (variant && variant.available) {
+          el.parentNode.classList.remove(classes.hidden);
+          if (salesPoint) {
+            salesPoint.classList.remove(classes.hidden);
+          }
+        } else {
+          el.parentNode.classList.add(classes.hidden);
+          if (salesPoint) {
+            salesPoint.classList.add(classes.hidden);
+          }
         }
       },
   
       toggleIncomingInventory: function(show, available, date) {
-        if (!this.settings.incomingInventory) {
-          show = false;
-        }
-  
-        var el = document.getElementById(this.selectors.incomingInventory);
+        var el = this.container.querySelector(this.selectors.incomingInventory);
+        var salesPoint = el.closest('.product-block');
   
         if (!el) {
           return;
         }
+  
+        var textEl = el.querySelector('.js-incoming-text');
   
         if (show) {
           var string = available ?
@@ -7004,7 +7848,10 @@ lazySizesConfig.expFactor = 4;
           }
   
           el.classList.remove(classes.hidden);
-          el.textContent = string;
+          if (salesPoint) {
+            salesPoint.classList.remove(classes.hidden);
+          }
+          textEl.textContent = string;
         } else {
           el.classList.add(classes.hidden);
         }
@@ -7164,11 +8011,14 @@ lazySizesConfig.expFactor = 4;
         }
       },
   
-      // Return focus to
-      returnFocusToThumbnail: function() {
-        var thumb = this.container.querySelector('.product__thumb-item[data-index="'+ this.settings.currentSlideIndex +'"] a');
-        if (thumb) {
-          thumb.focus();
+      returnFocusToThumbnail: function(evt) {
+        // Only return focus to active thumbnail if relatedTarget
+        // is a thumbnail, otherwise user may have clicked elsewhere on the page
+        if (evt.relatedTarget && evt.relatedTarget.classList.contains('product__thumb')) {
+          var thumb = this.container.querySelector('.product__thumb-item[data-index="'+ this.settings.currentSlideIndex +'"] a');
+          if (thumb) {
+            thumb.focus();
+          }
         }
       },
   
@@ -7243,6 +8093,7 @@ lazySizesConfig.expFactor = 4;
           pageDots: true, // mobile only with CSS
           wrapAround: true,
           callbacks: {
+            onInit: this.onSliderInit.bind(this),
             onChange: this.onSlideChange.bind(this)
           }
         };
@@ -7257,11 +8108,23 @@ lazySizesConfig.expFactor = 4;
         this.flickity = new theme.Slideshow(this.cache.mainSlider, mainSliderArgs);
       },
   
+      onSliderInit: function(slide) {
+        // If slider is initialized with image set feature active,
+        // initialize any videos/media when they are first slide
+        if (this.settings.imageSetName) {
+          this.prepMediaOnSlide(slide);
+        }
+      },
+  
       onSlideChange: function(index) {
         if (!this.flickity) return;
   
         var prevSlide = this.cache.mainSlider.querySelector('.product-main-slide[data-index="'+this.settings.currentSlideIndex+'"]');
-        var nextSlide = this.cache.mainSlider.querySelector('.product-main-slide[data-index="'+index+'"]');
+  
+        // If imageSetName exists, use a more specific selector
+        var nextSlide = this.settings.imageSetName ?
+                        this.cache.mainSlider.querySelectorAll('.flickity-slider .product-main-slide')[index] :
+                        this.cache.mainSlider.querySelector('.product-main-slide[data-index="'+index+'"]');
   
         prevSlide.setAttribute('tabindex', '-1');
         nextSlide.setAttribute('tabindex', 0);
@@ -7308,6 +8171,7 @@ lazySizesConfig.expFactor = 4;
       prepMediaOnSlide(slide) {
         var video = slide.querySelector(selectors.productVideo);
         if (video) {
+          this.flickity.reposition();
           var videoType = this._getVideoType(video);
           var videoId = this._getVideoDivId(video);
           if (videoType === 'youtube') {
@@ -7344,32 +8208,60 @@ lazySizesConfig.expFactor = 4;
         var initialized = false;
   
         if (!this.settings.modalInit) {
-          var formHolder = this.container.querySelector(this.selectors.modalFormHolder);
-          var url = formHolder.dataset.url;
-          var template = formHolder.dataset.template;
-  
-          // Use stripped down ajax version for faster loading,
-          // unless preorder template is used so we show right button
-          if (template !== 'preorder') {
-            url = url + '?view=ajax';
-          }
+          this.blocksHolder = this.container.querySelector(selectors.blocksHolder);
+          var url = this.blocksHolder.dataset.url;
   
           fetch(url).then(function(response) {
             return response.text();
           }).then(function(html) {
             var parser = new DOMParser();
             var doc = parser.parseFromString(html, 'text/html');
-            this.cache.form = doc.querySelector('#AddToCartForm-' + this.sectionId);
+            var blocks = doc.querySelector(selectors.blocks);
   
-            formHolder.innerHTML = '';
-            formHolder.append(this.cache.form);
-            formHolder.classList.add('product-form-holder--loaded');
+            // Because the same product could be opened in quick view
+            // on the page we load the form elements from, we need to
+            // update any `id`, `for`, and `form` attributes
+            blocks.querySelectorAll('[id]').forEach(el => {
+              // Update input `id`
+              var val = el.getAttribute('id');
+              el.setAttribute('id', val + '-modal');
+  
+              // Update related label if it exists
+              var label = blocks.querySelector(`[for="${val}"]`);
+              if (label) {
+                label.setAttribute('for', val + '-modal');
+              }
+  
+              // Update any collapsible elements
+              var collapsibleTrigger = blocks.querySelector(`[aria-controls="${val}"]`);
+              if (collapsibleTrigger) {
+                collapsibleTrigger.setAttribute('aria-controls', val + '-modal');
+              }
+            });
+  
+            // Update any elements with `form` attribute.
+            // Form element already has `-modal` appended
+            var form = blocks.querySelector(this.selectors.form);
+            var formId = form.getAttribute('id');
+            blocks.querySelectorAll('[form]').forEach(el => {
+              el.setAttribute('form', formId);
+            });
+  
+            this.blocksHolder.innerHTML = '';
+            this.blocksHolder.append(blocks);
+            this.blocksHolder.classList.add('product-form-holder--loaded');
+  
+            this.cacheElements();
   
             this.formSetup();
+            this.updateModalProductInventory();
   
             if (Shopify && Shopify.PaymentButton) {
               Shopify.PaymentButton.init();
             }
+  
+            // Re-hook up collapsible box triggers
+            theme.collapsibles.init(this.container);
   
             document.dispatchEvent(new CustomEvent('quickview:loaded', {
               detail: {
@@ -7380,9 +8272,6 @@ lazySizesConfig.expFactor = 4;
   
           this.productSetup();
           this.videoSetup();
-  
-          // Setup product inventory data
-          this.updateModalProductInventory();
   
           // Enable product slider in quick view
           // 1. with image sets enabled, make sure we have this.variants before initializing
@@ -7421,12 +8310,13 @@ lazySizesConfig.expFactor = 4;
       updateModalProductInventory: function() {
         window.inventories = window.inventories || {};
         this.container.querySelectorAll('.js-product-inventory-data').forEach(el => {
-          var sectionId = el.dataset.sectionId;
-          window.inventories[sectionId] = {};
+          var productId = el.dataset.productId;
+          window.inventories[productId] = {};
   
           el.querySelectorAll('.js-variant-inventory-data').forEach(el => {
-            window.inventories[sectionId][el.dataset.id] = {
+            window.inventories[productId][el.dataset.id] = {
               'quantity': el.dataset.quantity,
+              'policy': el.dataset.policy,
               'incoming': el.dataset.incoming,
               'next_incoming_date': el.dataset.date
             }
@@ -7492,15 +8382,17 @@ lazySizesConfig.expFactor = 4;
           }.bind(this))
         });
   
-        var modelViewer = this.container.querySelector('model-viewer');
-        if (modelViewer) {
-          modelViewer.addEventListener('shopify_model_viewer_ui_toggle_play', function(evt) {
-            this.mediaLoaded(evt);
-          }.bind(this));
+        var modelViewers = this.container.querySelectorAll('model-viewer');
+        if (modelViewers.length) {
+          modelViewers.forEach(el => {
+            el.addEventListener('shopify_model_viewer_ui_toggle_play', function(evt) {
+              this.mediaLoaded(evt);
+            }.bind(this));
   
-          modelViewer.addEventListener('shopify_model_viewer_ui_toggle_pause', function(evt) {
-            this.mediaUnloaded(evt);
-          }.bind(this));
+            el.addEventListener('shopify_model_viewer_ui_toggle_pause', function(evt) {
+              this.mediaUnloaded(evt);
+            }.bind(this));
+          });
         }
       },
   
@@ -7865,14 +8757,13 @@ lazySizesConfig.expFactor = 4;
   DOMready(function(){
     theme.sections = new theme.Sections();
 
-    // sections
+    theme.sections.register('slideshow-section', theme.SlideshowSection);
     theme.sections.register('header', theme.HeaderSection);
     theme.sections.register('toolbar', theme.Toolbar);
     theme.sections.register('product', theme.Product);
     theme.sections.register('password-header', theme.PasswordHeader);
     theme.sections.register('photoswipe', theme.Photoswipe);
     theme.sections.register('product-recommendations', theme.Recommendations);
-    theme.sections.register('slideshow-section', theme.SlideshowSection);
     theme.sections.register('background-image', theme.BackgroundImage);
     theme.sections.register('testimonials', theme.Testimonials);
     theme.sections.register('video-section', theme.VideoSection);
@@ -7884,7 +8775,6 @@ lazySizesConfig.expFactor = 4;
     theme.sections.register('newsletter-popup', theme.NewsletterPopup);
     theme.sections.register('collection-header', theme.CollectionHeader);
     theme.sections.register('collection-template', theme.Collection);
-    theme.sections.register('collection-sidebar', theme.CollectionSidebar);
 
     theme.initGlobals();
     theme.rteInit();
@@ -7935,7 +8825,9 @@ lazySizesConfig.expFactor = 4;
         new theme.QuickAdd(evt.detail.section);
         new theme.QuickShop(evt.detail.section);
       }
-    })
+    });
+
+    theme.pageTransitions();
 
     document.dispatchEvent(new CustomEvent('page:loaded'));
   });
