@@ -33,8 +33,8 @@
         <input type="checkbox" id="CartTermsHeader" class="cart__terms-checkbox">
         <label for="CartTermsHeader" class="text-label">
           <small>
-            {% if settings.cart_terms_conditions_link != blank %}
-              {{ 'cart.general.terms_html' | t: url: settings.cart_terms_conditions_link }}
+            {% if settings.cart_terms_conditions_page != blank %}
+              {{ 'cart.general.terms_html' | t: url: settings.cart_terms_conditions_page.url }}
             {% else %}
               {{ 'cart.general.terms' | t }}
             {% endif %}

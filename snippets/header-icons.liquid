@@ -7,7 +7,7 @@
 
 <div class="site-nav">
   <div class="site-nav__icons">
-    <a href="{{ routes.search_url }}" class="site-nav__link site-nav__link--icon js-search-header{% if nav_position == 'below' %} medium-up--hide{% endif %}">
+    <a href="{{ routes.search_url }}" class="site-nav__link site-nav__link--icon js-search-header{% if nav_position == 'below' %} medium-up--hide{% endif %} js-no-transition">
       <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-search" viewBox="0 0 64 64"><defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:2px}</style></defs><path class="cls-1" d="M47.16 28.58A18.58 18.58 0 1 1 28.58 10a18.58 18.58 0 0 1 18.58 18.58zM54 54L41.94 42"/></svg>
       <span class="icon__fallback-text">{{ 'general.search.title' | t }}</span>
     </a>
@@ -24,7 +24,7 @@
     <a href="{{ routes.cart_url }}"
       id="HeaderCartTrigger"
       aria-controls="HeaderCart"
-      class="site-nav__link site-nav__link--icon"
+      class="site-nav__link site-nav__link--icon js-no-transition"
       data-icon="{{ settings.cart_icon }}">
       <span class="cart-link">
         {%- if settings.cart_icon == 'cart' -%}
@@ -34,7 +34,7 @@
         {%- else -%}
           <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-bag" viewBox="0 0 64 64"><defs><style>.cls-1{fill:none;stroke:#000;stroke-width:2px}</style></defs><path class="cls-1" d="M24.23 18c0-7.75 3.92-14 8.75-14s8.74 6.29 8.74 14M14.74 18h36.51l3.59 36.73h-43.7z"/></svg>
         {%- endif -%}
-        <span id="CartBubble" class="cart-link__bubble{% if cart.item_count > 0 %} cart-link__bubble--visible{% endif %}">
+        <span class="cart-link__bubble{% if cart.item_count > 0 %} cart-link__bubble--visible{% endif %}">
           <span class="cart-link__bubble-num">{{ cart.item_count }}</span>
         </span>
       </span>

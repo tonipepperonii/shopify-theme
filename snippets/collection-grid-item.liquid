@@ -18,14 +18,16 @@
   endif
 -%}
 
-<div class="grid-item">
+<div class="grid-item" {{ block.shopify_attributes }}>
   <a href="{{ collection_link }}" class="collection-item">
 
     {%- liquid
       if settings.collection_grid_image == 'collection' and collection.image
         assign collection_image = collection.image
+        assign using_collection_image = true
       else
         assign collection_image = collection.products.first.featured_media.preview_image
+        assign using_collection_image = false
       endif
     -%}
 
@@ -34,18 +36,21 @@
         {%- capture placeholder -%}collection-{% cycle 1, 2, 3, 4, 5, 6 %}{%- endcapture -%}
         <div class="collection-image collection-image--placeholder">{{ placeholder | placeholder_svg_tag: 'placeholder-svg' }}</div>
       {%- else -%}
-        <div class="collection-image image-wrap">
+        <div class="collection-image{% if using_collection_image %} collection-image--is-collection{% endif %} image-wrap">
           {%- assign img_url = collection_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
           <img
             class="lazyload"
             src=""
             data-src="{{ img_url }}"
             data-aspectratio="{{ collection_image.aspect_ratio }}"
-            data-widths="[360, 540, 720, 900, 1080]"
+            data-widths="[720, 900, 1080]"
             data-sizes="auto"
             alt="{{ collection_image.alt | escape }}">
+
           <noscript>
-            <img class="lazyloaded" src="{{ collection_image | img_url: '400x' }}" alt="{{ collection_image.alt | escape }}">
+            <img class="lazyloaded"
+              src="{{ collection_image | img_url: '400x' }}"
+              alt="{{ collection_image.alt | escape }}">
           </noscript>
         </div>
       {%- endif -%}

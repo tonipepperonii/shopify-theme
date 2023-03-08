@@ -16,102 +16,77 @@
       endif
     endif
   endfor
-
-  assign number_of_products_to_fetch = 6
 -%}
 
-{%- if section.settings.show_product_recommendations -%}
+<div
+  id="Recommendations-{{ product.id }}"
+  data-section-id="{{ product.id }}"
+  data-section-type="product-recommendations"
+  data-enable="{{ recommend_products }}"
+  data-product-id="{{ product.id }}"
+  data-url="{{ routes.product_recommendations_url }}"
+  data-limit="6">
+
   <div
-    id="Recommendations-{{ product.id }}"
     data-section-id="{{ product.id }}"
-    data-section-type="product-recommendations"
-    data-enable="{{ recommend_products }}"
-    data-product-id="{{ product.id }}"
-    data-url="{{ routes.product_recommendations_url }}"
-    data-limit="{{ number_of_products_to_fetch }}">
+    data-subsection
+    data-section-type="collection-template"
+    class="index-section index-section--sub-product">
+    <div class="page-width">
+      <header class="section-header">
+        <div class="h3 section-header__title">
+          {{ section.settings.product_recommendations_heading }}
+        </div>
+      </header>
+    </div>
 
-    <div
-      data-section-id="{{ product.id }}"
-      data-subsection
-      data-section-type="collection-template"
-      class="index-section">
-      <div class="page-width">
-        <header class="section-header">
-          <div class="h3 section-header__title">
-            {{ section.settings.product_recommendations_heading }}
+    <div class="page-width page-width--flush-small">
+      {%- if recommend_products -%}
+        <div class="product-recommendations-placeholder">
+          {% comment %}
+            This content is visually hidden and replaced when recommended
+            products show up
+          {% endcomment %}
+          <div class="new-grid product-grid scrollable-grid--small visually-invisible" aria-hidden="true" data-view="scrollable">
+            {%- render 'product-grid-item', product: product, no_actions: true -%}
           </div>
-        </header>
-      </div>
+        </div>
+      {%- endif -%}
+      {%- if related_collection.products_count > 1 -%}
+        <div class="product-recommendations">
+          <div class="new-grid product-grid scrollable-grid--small" data-view="scrollable">
+            {%- for product in related_collection.products -%}
+              {%- render 'product-grid-item', product: product -%}
+            {%- endfor -%}
+          </div>
 
-      <div class="page-width page-width--flush-small">
-        {%- if recommend_products -%}
-          <div class="product-recommendations-placeholder">
-            {% comment %}
-              This content is visually hidden and replaced when recommended
-              products show up
-            {% endcomment %}
-            <div class="new-grid product-grid scrollable-grid--small visually-invisible" aria-hidden="true" data-view="scrollable">
-              {%- render 'product-grid-item', product: product, no_actions: true -%}
-            </div>
-          </div>
-        {%- endif -%}
-        {%- if related_collection.products_count > 1 -%}
-          <div class="product-recommendations">
-            <div class="new-grid product-grid scrollable-grid--small" data-view="scrollable">
-              {%- liquid
-                assign current_product = product
-                assign current_product_found = false
-                assign related_count = 0
-              -%}
-              {%- for product in related_collection.products limit: number_of_products_to_fetch -%}
-                {%- if product.handle == current_product.handle -%}
-                  {%- assign current_product_found = true -%}
-                {%- else -%}
-                  {%- assign related_count = related_count | plus: 1 -%}
-                  {%- unless related_count > number_of_products -%}
-                    {%- if forloop.last and current_product_found -%}
-                      {%- render 'product-grid-item', product: product -%}
-                    {%- else -%}
-                      {%- render 'product-grid-item', product: product -%}
-                    {%- endif -%}
-                  {%- endunless -%}
-                {%- endif -%}
-              {%- endfor -%}
-            </div>
-
-            {%- liquid
-              if settings.quick_shop_enable
-                for product in related_collection.products limit: number_of_products_to_fetch
-                  if product.handle != current_product.handle
-                    render 'quick-shop-modal', product: product
-                  endif
-                endfor
-              endif
-            -%}
-          </div>
-        {%- endif -%}
-      </div>
+          {%- liquid
+            if settings.quick_shop_enable
+              for product in related_collection.products
+                render 'quick-shop-modal', product: product
+              endfor
+            endif
+          -%}
+        </div>
+      {%- endif -%}
     </div>
   </div>
-{%- endif -%}
+</div>
 
 {% schema %}
-  {
-    "name": "Product recommendations",
-    "settings": [
-      {
-        "type": "checkbox",
-        "id": "show_product_recommendations",
-        "label": "Show dynamic recommendations",
-        "info": "Dynamic recommendations change and improve with time. [Learn more](https://help.shopify.com/en/themes/development/recommended-products)",
-        "default": true
-      },
-      {
-        "type": "text",
-        "id": "product_recommendations_heading",
-        "label": "Heading",
-        "default": "You may also like"
-      }
-    ]
-  }
+{
+  "name": "t:sections.product-recommendations.name",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "t:sections.product-recommendations.settings.content"
+    },
+    {
+      "type": "text",
+      "id": "product_recommendations_heading",
+      "label": "t:sections.product-recommendations.settings.product_recommendations_heading.label",
+      "default": "You may also like"
+    }
+  ]
+}
 {% endschema %}

@@ -7,9 +7,9 @@
           data-widths="[180, 360, 540]"
           data-aspectratio="{{ product.aspect_ratio }}"
           data-sizes="auto"
-          alt="{{ product.title | escape }}">
+          alt="{{ product.product.title | escape }}">
       <noscript>
-        <img class="lazyloaded" src="{{ product | img_url: '400x' }}" alt="{{ product.title | escape }}">
+        <img class="lazyloaded" src="{{ product | img_url: '400x' }}" alt="{{ product.product.title | escape }}">
       </noscript>
     </a>
   </div>

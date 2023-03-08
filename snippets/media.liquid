@@ -65,7 +65,7 @@
     data-group="{{image_set_full}}"
   {% endif %}>
 
-  <div class="product-image-main product-image-main--{{ section_id }}" {% if set_image_size %}data-size="{{ image_size }}"{% endif %}>
+  <div data-product-image-main class="product-image-main" {% if set_image_size %}data-size="{{ image_size }}"{% endif %}>
     {%- if media.media_type == 'model' -%}
       {%- liquid
         if media.preview_image.aspect_ratio
@@ -81,7 +81,7 @@
         {%- liquid
           assign img_url = media | img_url: '1x1' | replace: '_1x1.', '_{width}x.'
         -%}
-        <img class="hide {% if settings.product_zoom_enable %}photoswipe__image{% endif %} lazyload"
+        <img class="hide {% if product_zoom_enable %}photoswipe__image{% endif %} lazyload"
           data-photoswipe-src="{{ media.preview_image | img_url: product_zoom_size }}"
           data-photoswipe-width="{{ media_width }}"
           data-photoswipe-height="{{ media_height }}"
@@ -106,7 +106,7 @@
           assign img_url = media | img_url: '1x1' | replace: '_1x1.', '_{width}x.'
         -%}
 
-        <img class="{% if settings.product_zoom_enable %}photoswipe__image{% endif %} lazyload"
+        <img class="{% if product_zoom_enable %}photoswipe__image{% endif %} lazyload"
           data-photoswipe-src="{{ media.preview_image | img_url: product_zoom_size }}"
           data-photoswipe-width="{{ media_width }}"
           data-photoswipe-height="{{ media_height }}"
@@ -118,12 +118,10 @@
           alt="{{ media.alt | escape | split: '#' | first }}">
 
         <noscript>
-          <noscript>
-            <img class="lazyloaded" src="{{ media.preview_image | img_url: '800x' }}" alt="{{ media.alt | escape | split: '#' | first }}">
-          </noscript>
+          <img class="lazyloaded" src="{{ media.preview_image | img_url: '800x' }}" alt="{{ media.alt | escape | split: '#' | first }}">
         </noscript>
 
-        {%- if settings.product_zoom_enable and media.media_type == 'image' -%}
+        {%- if product_zoom_enable and media.media_type == 'image' -%}
           <button type="button" class="btn btn--secondary btn--circle js-photoswipe__zoom product__photo-zoom" aria-label="Zoom">
             <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-search" viewBox="0 0 64 64"><defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:2px}</style></defs><path class="cls-1" d="M47.16 28.58A18.58 18.58 0 1 1 28.58 10a18.58 18.58 0 0 1 18.58 18.58zM54 54L41.94 42"/></svg>
           </button>

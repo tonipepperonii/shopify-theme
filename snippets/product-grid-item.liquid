@@ -6,32 +6,29 @@
 
   assign product_tags = product.tags | join: ','
   assign has_custom_label = false
-  if product_tags contains '_label_'
+  assign custom_labels = ''
+  if product.metafields.theme.label and product.metafields.theme.label != blank
+    assign has_custom_label = true
+    assign custom_labels = product.metafields.theme.label.value
+  elsif product_tags contains '_label_'
     for tag in product.tags
       if tag contains '_label_'
         assign tag_starts_with = tag | slice: 0
         if tag_starts_with == '_'
           assign has_custom_label = true
           assign custom_label = tag | replace: '_label_', ''
+          assign custom_labels = custom_labels | append: custom_label | append: ','
         endif
       endif
     endfor
   endif
 -%}
 
-{% assign in_gallery = false %}
-{% for collection in product.collections %}
-  {% if in_gallery == false and collection.title == 'Galerie' %}
-  	{% assign in_gallery = true %}
-  {% endif %}
-{% endfor %}
-
-
 <div class="grid-item grid-product {{ classes }}" data-product-handle="{{ product.handle }}" data-product-id="{{ product.id }}">
   <div class="grid-item__content">
 
-    {%- unless no_actions or in_gallery -%}
-      {%- if settings.quick_add_enable or settings.quick_shop_enable-%}
+    {%- unless no_actions -%}
+      {%- if settings.quick_add_enable or settings.quick_shop_enable -%}
         <div class="grid-product__actions">
           {%- if settings.quick_shop_enable -%}
             <button class="btn btn--circle btn--icon quick-product__btn quick-product__btn--not-ready js-modal-open-quick-modal-{{ product.id }} small--hide" title="{{ 'products.general.quick_shop' | t }}" tabindex="-1" data-handle="{{ product.handle }}">
@@ -80,12 +77,17 @@
 
     <a href="{{ product.url | within: collection }}" class="grid-item__link">
       <div class="grid-product__image-wrap">
-        {%- if has_custom_label -%}
-          <div class="grid-product__tag grid-product__tag--custom">
-            {{ custom_label }}
-          </div>
-        {%- else -%}
-          {%- unless product.available or in_gallery -%}
+        <div class="grid-product__tags">
+          {%- if has_custom_label -%}
+            {%- assign labels = custom_labels | split: ',' -%}
+            {%- for label in labels -%}
+              <div class="grid-product__tag grid-product__tag--custom">
+                {{ label }}
+              </div>
+            {%- endfor -%}
+          {%- endif -%}
+
+          {%- unless product.available -%}
             <div class="grid-product__tag grid-product__tag--sold-out">
               {{ 'products.product.sold_out' | t }}
             </div>
@@ -95,15 +97,13 @@
               {{ 'products.general.sale' | t }}
             </div>
           {%- endif -%}
-        {%- endif -%}
+        </div>
 
         {%- if fixed_aspect_ratio -%}
           <div
             class="grid__image-ratio grid__image-ratio--{{ settings.product_grid_image_size }}">
-            <!-- visionz edit: placeholder image url in data-src -->
             <img class="lazyload{% unless settings.product_grid_image_fill %} grid__image-contain{% endunless %}"
-                
-                data-src="{%- if preview_image.size > 0 -%}{{ img_url }}{%- else -%}https://cdn.shopify.com/s/files/1/0564/4825/4104/files/Untitled_design.jpg?v=1624024902{%- endif -%}"
+                data-src="{{ img_url }}"
                 data-widths="[160, 200, 280, 360, 540, 720, 900]"
                 data-aspectratio="{{ preview_image.aspect_ratio }}"
                 data-sizes="auto"
@@ -151,7 +151,7 @@
           </div>
         {%- endif -%}
 
-        {%- if settings.collection_color_swatches -%}
+        {%- if settings.enable_swatches -%}
           {%- assign swatch_trigger = 'products.general.color_swatch_trigger' | t | downcase -%}
           {%- for option in product.options_with_values -%}
             {%- liquid
@@ -185,7 +185,7 @@
 
       <div class="grid-item__meta">
         <div class="grid-item__meta-main">
-          {%- if settings.collection_color_swatches -%}
+          {%- if settings.enable_swatches -%}
             {%- liquid
               assign swatch_trigger = 'products.general.color_swatch_trigger' | t | downcase
               assign swatch_file_extension = 'png'
@@ -228,8 +228,7 @@
                             data-variant-id="{{ variant.id }}"
                             data-variant-image="{{ variant.image | img_url: '400x' }}"
                           {% endif %}
-                          style="background-color: {{ color_swatch_fallback }};{% if images[color_file_name] != blank %}  background-image: url({{ color_image }});{% endif %}"
-                        >
+                          style="background-color: {{ color_swatch_fallback }};{% if images[color_file_name] != blank %}  background-image: url({{ color_image }});{% endif %}">
                           <span class="visually-hidden">{{ value }}</span>
                         </span>
                       {%- else -%}
@@ -252,81 +251,59 @@
             <div class="grid-product__vendor">{{ product.vendor }}</div>
           {%- endif -%}
         </div>
-        
-        
-        
-        
-        
-        {% unless in_gallery and product.available == false %}
-        
-        
-          <div class="grid-item__meta-secondary">
-            <div class="grid-product__price">
-              {%- if product.price_varies -%}
-                <span class="grid-product__price--current">
-                  {% assign lowest_available_variant_price = product.first_available_variant.price %}
-                  {% for variant in product.variants %}
-                  	{%- if variant.price < lowest_available_variant_price and variant.available -%}
-                  		{% assign lowest_available_variant_price = variant.price %}
-                  	{%- endif -%}
-                  {% endfor %}
-                  {%- render 'price-varies', price: lowest_available_variant_price -%}
-                </span>
-              {%- else -%}
-                {%- if on_sale -%}
-                  <span class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
-                {%- endif -%}
-                <span class="grid-product__price--current">
-                  {%- render 'price' with product.price -%}
-                </span>
-              {%- endif -%}
+        <div class="grid-item__meta-secondary">
+          <div class="grid-product__price">
+            {%- if product.price_varies -%}
+              <span class="grid-product__price--current">
+                {%- render 'price-varies', price: product.price_min -%}
+              </span>
+            {%- else -%}
               {%- if on_sale -%}
-                <span class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
-                <span class="grid-product__price--original">
-                  {%- render 'price' with product.compare_at_price -%}
-                </span>
+                <span class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
+              {%- endif -%}
+              <span class="grid-product__price--current">
+                {%- render 'price' with product.price -%}
+              </span>
+            {%- endif -%}
+            {%- if on_sale -%}
+              <span class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
+              <span class="grid-product__price--original">
+                {%- render 'price' with product.compare_at_price -%}
+              </span>
 
-                {%- if settings.product_save_amount -%}
-                  {%- if settings.product_save_type == 'dollar' -%}
-                    {%- capture saved_amount -%}{{ product.first_available_variant.compare_at_price | minus: product.first_available_variant.price | money_without_trailing_zeros }}{%- endcapture -%}
-                  {%- else -%}
-                    {%- capture saved_amount -%}{{ product.first_available_variant.compare_at_price | minus: product.first_available_variant.price | times: 100.0 | divided_by: product.first_available_variant.compare_at_price | round }}%{%- endcapture -%}
-                  {%- endif -%}
-                  <span class="grid-product__price--savings">
-                    {{ 'products.general.save_html' | t: saved_amount: saved_amount }}
-                  </span>
+              {%- if settings.product_save_amount -%}
+                {%- if settings.product_save_type == 'dollar' -%}
+                  {%- capture saved_amount -%}{{ product.compare_at_price | minus: product.price | money_without_trailing_zeros }}{%- endcapture -%}
+                {%- else -%}
+                  {%- capture saved_amount -%}{{ product.compare_at_price | minus: product.price | times: 100.0 | divided_by: product.compare_at_price | round }}%{%- endcapture -%}
                 {%- endif -%}
+                <span class="grid-product__price--savings">
+                  {{ 'products.general.save_html' | t: saved_amount: saved_amount }}
+                </span>
               {%- endif -%}
+            {%- endif -%}
 
-              {%- assign product_variant = product.selected_or_first_available_variant -%}
-              {%- if product_variant.unit_price_measurement -%}
-                <div class="product__unit-price">
-                  {%- capture unit_price_base_unit -%}
-                    {%- if product_variant.unit_price_measurement -%}
-                      {%- if product_variant.unit_price_measurement.reference_value != 1 -%}
-                        {{ product_variant.unit_price_measurement.reference_value }}
-                      {%- endif -%}
-                      {{ product_variant.unit_price_measurement.reference_unit }}
+            {%- assign product_variant = product.selected_or_first_available_variant -%}
+            {%- if product_variant.unit_price_measurement -%}
+              <div class="product__unit-price">
+                {%- capture unit_price_base_unit -%}
+                  {%- if product_variant.unit_price_measurement -%}
+                    {%- if product_variant.unit_price_measurement.reference_value != 1 -%}
+                      {{ product_variant.unit_price_measurement.reference_value }}
                     {%- endif -%}
-                  {%- endcapture -%}
+                    {{ product_variant.unit_price_measurement.reference_unit }}
+                  {%- endif -%}
+                {%- endcapture -%}
 
-                  {{ product_variant.unit_price | money }}/{{ unit_price_base_unit }}
-                </div>
-              {%- endif -%}
-            </div>
-
-            {%- if settings.enable_product_reviews -%}
-              <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
+                {{ product_variant.unit_price | money }}/{{ unit_price_base_unit }}
+              </div>
             {%- endif -%}
           </div>
-        
-        {% endunless %}
-        
-        
-        
-        
-        
-        
+
+          {%- if settings.enable_product_reviews -%}
+            <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
+          {%- endif -%}
+        </div>
       </div>
     </a>
   </div>

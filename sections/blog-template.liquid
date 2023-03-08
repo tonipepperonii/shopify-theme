@@ -1,7 +1,6 @@
 {%- paginate blog.articles by 9 -%}
 
 <div data-section-id="{{ section.id }}" data-section-type="blog">
-  {%- render 'breadcrumbs' -%}
   <header class="section-header{% if section.settings.blog_show_tag_filter and blog.tags.size > 0 %} section-header--with-link{% endif %}">
     <h1 class="section-header__title">
       {{ blog.title }}
@@ -24,10 +23,13 @@
         endif
       -%}
       {%- render 'article-grid-item',
-        section: section,
         blog: blog,
         article: article,
         style: style,
+        show_tags: section.settings.blog_show_tags,
+        show_date: section.settings.blog_show_date,
+        show_comments: section.settings.blog_show_comments,
+        show_author: section.settings.blog_show_author,
         image_size: section.settings.blog_image_size -%}
     {%- endfor -%}
   </div>
@@ -42,66 +44,66 @@
 {%- endpaginate -%}
 
 {% schema %}
-  {
-    "name": "Blog pages",
-    "class": "blog-layout__main",
-    "settings": [
-      {
-        "type": "checkbox",
-        "id": "blog_show_rss",
-        "label": "Show RSS link"
-      },
-      {
-        "type": "checkbox",
-        "id": "blog_show_tags",
-        "label": "Show tags",
-        "default": true
-      },
-      {
-        "type": "checkbox",
-        "id": "blog_show_date",
-        "label": "Show date",
-        "default": true
-      },
-      {
-        "type": "checkbox",
-        "id": "blog_show_comments",
-        "label": "Show comment count",
-        "default": true
-      },
-      {
-        "type": "checkbox",
-        "id": "blog_show_author",
-        "label": "Show author"
-      },
-      {
-        "type": "select",
-        "id": "blog_image_size",
-        "label": "Force image size",
-        "default": "wide",
-        "options": [
-          {
-            "value": "natural",
-            "label": "Natural"
-          },
-          {
-            "value": "square",
-            "label": "Square (1:1)"
-          },
-          {
-            "value": "landscape",
-            "label": "Landscape (4:3)"
-          },
-          {
-            "value": "portrait",
-            "label": "Portrait (2:3)"
-          },
-          {
-            "value": "wide",
-            "label": "Wide (16:9)"
-          }
-        ]
-      }
-    ]
-  }
+{
+  "name": "t:sections.blog-template.name",
+  "class": "blog-layout__main",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "blog_show_rss",
+      "label": "t:sections.blog-template.settings.blog_show_rss.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_tags",
+      "label": "t:sections.blog-template.settings.blog_show_tags.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_date",
+      "label": "t:sections.blog-template.settings.blog_show_date.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_comments",
+      "label": "t:sections.blog-template.settings.blog_show_comments.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_author",
+      "label": "t:sections.blog-template.settings.blog_show_author.label"
+    },
+    {
+      "type": "select",
+      "id": "blog_image_size",
+      "label": "t:sections.blog-template.settings.blog_image_size.label",
+      "default": "wide",
+      "options": [
+        {
+          "value": "natural",
+          "label": "t:sections.blog-template.settings.blog_image_size.options.natural.label"
+        },
+        {
+          "value": "square",
+          "label": "t:sections.blog-template.settings.blog_image_size.options.square.label"
+        },
+        {
+          "value": "landscape",
+          "label": "t:sections.blog-template.settings.blog_image_size.options.landscape.label"
+        },
+        {
+          "value": "portrait",
+          "label": "t:sections.blog-template.settings.blog_image_size.options.portrait.label"
+        },
+        {
+          "value": "wide",
+          "label": "t:sections.blog-template.settings.blog_image_size.options.wide.label"
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
