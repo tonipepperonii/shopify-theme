@@ -10799,6 +10799,11 @@ html[dir=rtl] .product-single__meta .rte{
 .article_excerpt{
   font-size: calc(var(--typeBaseSize));
 }
+@media only screen and (max-width:768px){
+  .article_excerpt{
+    display:none;
+  }
+}
 
 .article__sub-meta{
   opacity:0.65;
@@ -10893,7 +10898,6 @@ html[dir=rtl] .product-single__meta .rte{
 
 @media only screen and (max-width:768px){
   .grid-article[data-style=medium]{
-    flex:0 0 100%;
     flex-wrap:nowrap;
     text-align:left;
     margin-bottom:20px
