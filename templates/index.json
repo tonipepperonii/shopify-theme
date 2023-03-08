@@ -38,16 +38,6 @@
         "autoplay_speed": 7
       }
     },
-    "1f3b5920-acdd-47f4-a00a-eac5237f2967": {
-      "type": "blog-posts",
-      "settings": {
-        "title": "From the blog",
-        "blog": "news",
-        "blog_show_tags": true,
-        "blog_show_date": true,
-        "divider": false
-      }
-    },
     "c708ac76-1f3e-42a5-beca-0213c4adf84a": {
       "type": "featured-collections",
       "blocks": {
@@ -316,7 +306,6 @@
   },
   "order": [
     "80218ac8-e737-45d5-9c66-8ea17e8498e8",
-    "1f3b5920-acdd-47f4-a00a-eac5237f2967",
     "c708ac76-1f3e-42a5-beca-0213c4adf84a",
     "8654ead3-a13f-4bcc-9889-5c72fca9d93a",
     "blog-posts",
