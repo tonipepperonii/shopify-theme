@@ -1,0 +1,83 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "5cebd602-a3f2-4711-9e43-4c1b4a047d6e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18204590342448__5cebd602-a3f2-4711-9e43-4c1b4a047d6e-16778323741cff4d3e-0": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<h1>Ideen Werkstatt<\/h1>",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#fff",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18204590342448__5cebd602-a3f2-4711-9e43-4c1b4a047d6e-16778323741cff4d3e-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": -40,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "582eae12-184d-4bd9-9cb1-c5eea2a4bd57": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18204590342448__582eae12-184d-4bd9-9cb1-c5eea2a4bd57-167783245720b5ce44-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Profile und Platten aus Aluminium habe sich in den verschiedensten Anwendungen bewährt. Dies liegt insbesondere an drei Eigenschaften des Werkstoffes: Sein niedriges Gewicht, seine guten Festigkeitswerte und an seiner guten Korrosionsbeständigkeit. Dazu kommt noch die leichte Verarbeitbarkeit.<br\/><br\/>Finden sie anbei einige Beispiele zur Anwendung von Aluminium Platten und Profilen. Gerne würden wir hier auch über Ihr Projekt berichten. Bitte wenden Sie sich an <a href=\"https:\/\/www.alu-verkauf.de\/content\/vertrieb@alu-verkauf.de\">vertrieb@alu-verkauf.de<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18204590342448__582eae12-184d-4bd9-9cb1-c5eea2a4bd57-167783245720b5ce44-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "f4a2325b-981d-4ece-8ed5-e3fa5ae36307": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "",
+        "blog": "news",
+        "blog_show_tags": true,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "5cebd602-a3f2-4711-9e43-4c1b4a047d6e",
+    "582eae12-184d-4bd9-9cb1-c5eea2a4bd57",
+    "f4a2325b-981d-4ece-8ed5-e3fa5ae36307"
+  ]
+}

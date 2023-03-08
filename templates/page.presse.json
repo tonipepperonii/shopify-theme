@@ -1,0 +1,287 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "0f292dc8-3761-454e-9a26-a8f5b29baee3": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18204574187824__0f292dc8-3761-454e-9a26-a8f5b29baee3-16778323741cff4d3e-0": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<h1>Presse<\/h1>",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/press1.png",
+            "overlay_opacity": 54,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18204574187824__0f292dc8-3761-454e-9a26-a8f5b29baee3-16778323741cff4d3e-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": -40,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "f7499798-01dd-4997-b1e3-f584b765673c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18204574187824__f7499798-01dd-4997-b1e3-f584b765673c-167783245720b5ce44-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Willkommen im Pressebereich"
+          }
+        },
+        "template--18204574187824__f7499798-01dd-4997-b1e3-f584b765673c-167783245720b5ce44-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Aktuelle Pressemitteilungen, Bilder, Logo-Dateien oder unser Fact-Sheet<br\/>finden Sie hier. Wählen Sie einfach in der Übersicht einen Bereich aus.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18204574187824__f7499798-01dd-4997-b1e3-f584b765673c-167783245720b5ce44-0",
+        "template--18204574187824__f7499798-01dd-4997-b1e3-f584b765673c-167783245720b5ce44-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "08e35f92-e7fd-4fd6-ba8e-728f85e7d685": {
+      "type": "text-columns",
+      "blocks": {
+        "template--18204574187824__08e35f92-e7fd-4fd6-ba8e-728f85e7d685-16778391507e95eac4-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/press-icon2.png",
+            "image_width": 70,
+            "title": "Pressemitteilungen",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--18204574187824__08e35f92-e7fd-4fd6-ba8e-728f85e7d685-16778391507e95eac4-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/press-icon1.png",
+            "image_width": 70,
+            "title": "Mediathek",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--18204574187824__08e35f92-e7fd-4fd6-ba8e-728f85e7d685-16778391507e95eac4-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/press-icon3.png",
+            "image_width": 70,
+            "title": "Zahlen & Fakten",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18204574187824__08e35f92-e7fd-4fd6-ba8e-728f85e7d685-16778391507e95eac4-0",
+        "template--18204574187824__08e35f92-e7fd-4fd6-ba8e-728f85e7d685-16778391507e95eac4-1",
+        "template--18204574187824__08e35f92-e7fd-4fd6-ba8e-728f85e7d685-16778391507e95eac4-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false,
+        "color_scheme": "none"
+      }
+    },
+    "38dde6db-dd47-4f10-ab1f-dfb6d979369d": {
+      "type": "text-and-image",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/press-char.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Ihr persönlicher Kontakt für Pressearbeit",
+        "text": "<p>Für Presseanfragen oder Infomaterialien stehen wir gern telefonisch oder per E-Mail zur Verfügung.<\/p>",
+        "button_label": "Jetzt Kontaktieren",
+        "button_link": "",
+        "button_style": "secondary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "e927439a-52aa-4dd0-b04f-a8ca40c8a6f5": {
+      "type": "text-columns",
+      "blocks": {
+        "template--18204574187824__e927439a-52aa-4dd0-b04f-a8ca40c8a6f5-1677833703217347a4-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "Kai Greten setzt jetzt auf Aluminium",
+            "text": "<h5>Alfelder Zeitung<\/h5><p>Kai Greten ist zwischen all den langen Alluminium-Stangen in der hohen Halle ganz in seinem Element.<\/p>",
+            "button_label": "Mehr erfahren",
+            "button_link": "https:\/\/www.alfelder-zeitung.de\/Story\/52513\/Kai-Greten-kauft-Hildesheimer-Alu-Firma"
+          }
+        },
+        "template--18204574187824__e927439a-52aa-4dd0-b04f-a8ca40c8a6f5-1677833703217347a4-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "Früherer Fagus-Chef kauft Firma in Hildesheim",
+            "text": "<h5>Opera News<\/h5><p>Setzen jetzt auf Aluminium: Kai und Kirsten Greten sowie Betriebsleiter Oliver Kaletta bei Alu-Verkauf.de am Hildesheimer Hafen.<\/p>",
+            "button_label": "mehr erfahren",
+            "button_link": ""
+          }
+        },
+        "template--18204574187824__e927439a-52aa-4dd0-b04f-a8ca40c8a6f5-1677833703217347a4-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18204574187824__e927439a-52aa-4dd0-b04f-a8ca40c8a6f5-1677833703217347a4-0",
+        "template--18204574187824__e927439a-52aa-4dd0-b04f-a8ca40c8a6f5-1677833703217347a4-1",
+        "template--18204574187824__e927439a-52aa-4dd0-b04f-a8ca40c8a6f5-1677833703217347a4-2"
+      ],
+      "custom_css": [
+        "h5 {color: #f39200;}"
+      ],
+      "settings": {
+        "title": "Pressemitteilungen",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none"
+      }
+    },
+    "b0d75604-2c4a-4a91-a66c-1b80bb9c5c96": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18204574187824__b0d75604-2c4a-4a91-a66c-1b80bb9c5c96-167783245720b5ce44-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Mediathek"
+          }
+        },
+        "template--18204574187824__b0d75604-2c4a-4a91-a66c-1b80bb9c5c96-167783245720b5ce44-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>In unserer Mediathek finden Sie nachfolgend alle Informationen und Materialien wie Fotos, Logos sowie unser Factsheet, welche Sie im Rahmen der Berichterstattung nutzen können, zum kostenfreien Download.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18204574187824__b0d75604-2c4a-4a91-a66c-1b80bb9c5c96-167783245720b5ce44-0",
+        "template--18204574187824__b0d75604-2c4a-4a91-a66c-1b80bb9c5c96-167783245720b5ce44-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "color_scheme": "2",
+        "divider": false
+      }
+    },
+    "5c1ae814-8807-4def-828b-6528fe69d0f9": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/press1.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Bildmaterial & Pressefotos",
+        "text": "<p>Sämtliches Bildmaterial und Pressefotos, die Ihnen zur freien Nutzung zur Verfügung stehen, können Sie hier downloaden.<\/p>",
+        "button_label": "DOWNLOAD",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "4e969ccf-68c3-41ad-8f6a-b2cf17ca95d3": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/press2.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Corporate Design",
+        "text": "<p>Sie benötigen unser Logo und weiteres Bildmaterial unseres Corporate Designs zur Einbindung? Kein Problem – Sie können alles hier herunterladen.<\/p>",
+        "button_label": "DOWNLOAD",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "fbbb0361-b2e4-4c10-9926-300c5322610d": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/press-graph.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Zahlen & Fakten",
+        "text": "<p><strong>Factsheet<\/strong><\/p><p>In unserem Factsheet finden Sie alle Zahlen und Fakten zu unserem Unternehmen übersichtlich zusammengestellt. Laden Sie es einfach hier herunter.<\/p>",
+        "button_label": "DOWNLOAD",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "1",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0f292dc8-3761-454e-9a26-a8f5b29baee3",
+    "f7499798-01dd-4997-b1e3-f584b765673c",
+    "08e35f92-e7fd-4fd6-ba8e-728f85e7d685",
+    "38dde6db-dd47-4f10-ab1f-dfb6d979369d",
+    "e927439a-52aa-4dd0-b04f-a8ca40c8a6f5",
+    "b0d75604-2c4a-4a91-a66c-1b80bb9c5c96",
+    "5c1ae814-8807-4def-828b-6528fe69d0f9",
+    "4e969ccf-68c3-41ad-8f6a-b2cf17ca95d3",
+    "fbbb0361-b2e4-4c10-9926-300c5322610d"
+  ]
+}

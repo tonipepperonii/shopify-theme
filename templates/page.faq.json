@@ -1,0 +1,215 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16f81cd6-1a19-4f18-9be3-f81d86f752c5": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18204113535280__16f81cd6-1a19-4f18-9be3-f81d86f752c5-16778323741cff4d3e-0": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<h1>Fragen und Antworten<\/h1>",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#fff",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18204113535280__16f81cd6-1a19-4f18-9be3-f81d86f752c5-16778323741cff4d3e-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": -40,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "3c7f59d0-aa81-4e78-b021-f13d8b912b9b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18204113535280__3c7f59d0-aa81-4e78-b021-f13d8b912b9b-167783245720b5ce44-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Häufig gestellte Fragen"
+          }
+        },
+        "template--18204113535280__3c7f59d0-aa81-4e78-b021-f13d8b912b9b-167783245720b5ce44-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Sie haben Fragen? Wir haben Antworten: Deshalb finden Sie hier eine Übersicht der am häufigsten gestellten Fragen. Sollte Ihre nicht dabei sein, zögern Sie nicht, uns zu kontaktieren.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18204113535280__3c7f59d0-aa81-4e78-b021-f13d8b912b9b-167783245720b5ce44-0",
+        "template--18204113535280__3c7f59d0-aa81-4e78-b021-f13d8b912b9b-167783245720b5ce44-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "2c8e42b0-832c-4781-aa09-12189e2f91fb": {
+      "type": "faq",
+      "blocks": {
+        "template--18204113535280__2c8e42b0-832c-4781-aa09-12189e2f91fb-167783250408c00792-0": {
+          "type": "question",
+          "settings": {
+            "title": "Wie lange beträgt die Lieferzeit?",
+            "text": "<p>Vorrätige Stangen- und Plattenzuschnitte im Paketbereich aktuell mit einer Lieferfrist von 1-3 Tagen (Stand 11.2022) (Versandabkürzungen durch Express Lieferungen möglich) ACHTUNG: Derzeit kann es vereinzelt durch Lieferschwierigkeiten der Werke zu Verzögerungen bei nicht vorrätigen Abmessungen kommen. Ggf. klären Sie bitte die konkrete Lieferzeit vor Bestellung mit uns ab.<\/p>"
+          }
+        },
+        "template--18204113535280__2c8e42b0-832c-4781-aa09-12189e2f91fb-167783250408c00792-1": {
+          "type": "question",
+          "settings": {
+            "title": "Sind die Profile eloxiert?",
+            "text": "<p>Nein – die Oberfläche ist unbehandelt, es sei denn bei Legierung steht \"eloxiert\". Sollten Sie eloxiertes Material benötigen, senden Sie uns bitte Ihre konkrete Anfrage mit der gewünschten Abmessung, der Stückzahl und den gewünschten Längen. Kleinmengen können wir kostengünstig für einen Aufpreis ab 40,- EUR netto zzgl. MwSt. silber eloxiert anbieten.<\/p>"
+          }
+        },
+        "01866210-a736-42c9-a387-fe583151e8b0": {
+          "type": "question",
+          "settings": {
+            "title": "Was kostet das eloxieren?",
+            "text": "<p>Kleinmengen, können für pauschal 40,- EUR netto zzgl. MwSt. silber eloxiert werden.<\/p>"
+          }
+        },
+        "2973d61f-8a92-42a3-bc6f-d1e5dac3c462": {
+          "type": "question",
+          "settings": {
+            "title": "Wird auch an eine Packstation geliefert?",
+            "text": "<p>Lieferungen an Packstationen sind leider nicht möglich. Gern liefern wir aber z.B. an Ihre Arbeitsstelle als alternative Lieferanschrift.<\/p>"
+          }
+        },
+        "18b94e29-acba-4c39-ac6c-ddb54f1b7958": {
+          "type": "question",
+          "settings": {
+            "title": "Kann ich die Ware auch abholen?",
+            "text": "<p>Abholungen sind möglich. Einfach im Bestellvorgang statt Lieferung \"Selbstabholer\" auswählen. Sobald das Material abholbereit ist, erhalten Sie eine Benachrichtigung per E-Mail. Bitte beachten Sie, dass Sie die Ware mit einem dafür geeigneten Fahrzeug abholen.<\/p>"
+          }
+        },
+        "14541166-2257-468f-a3b9-cdd4a4713817": {
+          "type": "question",
+          "settings": {
+            "title": "Zu welchen Zeiten kann die Ware abgeholt werden?",
+            "text": "<p>Selbstabholer können ihre Ware (nach vorheriger Shop-Bestellung) während der Öffnungszeiten von Mo. - Do. zwischen 07:30 Uhr und 16:00 Uhr und Fr. zwischen 07:30 Uhr und 15:30 Uhr abholen.<\/p>"
+          }
+        },
+        "2b61b529-38f5-4df3-9f78-7930579032f0": {
+          "type": "question",
+          "settings": {
+            "title": "Wie ist die Oberflächenqualität?",
+            "text": "<p>Leichte Oberflächenfehler wie Kratzer oder Lagerspuren sind handelsüblich und bei Aluminium leider nicht zu vermeiden.<\/p>"
+          }
+        },
+        "ca2a4091-acd9-4fbd-bcd8-0e9aaa7ff885": {
+          "type": "question",
+          "settings": {
+            "title": "Welche Legierung nehme ich zum Drehen und Fräsen?",
+            "text": "<p>Hierfür eignet sich z.B. AlCuMgPb (Bohr- und Fräsqualität) oder AlZnMgCu1,5 (hochfest). Bei Platten wäre AlCuMg1 oder AlMg4,5Mn die günstigste Variante der Bohr- und Fräsqualität.<\/p>"
+          }
+        },
+        "406dbb07-c649-4211-90d3-6964a4114fd3": {
+          "type": "question",
+          "settings": {
+            "title": "Kann ich jede gewünschte Länge bestellen?",
+            "text": "<p>Ja – Sie können in dem Feld \"Wunschlänge\" die benötigte Länge in mm eintragen und wir liefern diese dann.<\/p>"
+          }
+        },
+        "7988de49-40f0-44a1-ac79-bff5b47ad99d": {
+          "type": "question",
+          "settings": {
+            "title": "Sind Gehrungsschnitte möglich?",
+            "text": "<p>Ja, bis 45° Preise für Gehrungsschnitte bitte vorher per Mail anfragen.<\/p>"
+          }
+        },
+        "69877973-e077-4e37-9adf-02febf77c0b8": {
+          "type": "question",
+          "settings": {
+            "title": "Was bedeutet in der Preistabelle \"SK\/St\"?",
+            "text": "<p>Dies sind die anfallenden Sägekosten pro Stück<\/p>"
+          }
+        },
+        "80f7018c-2f1c-4333-a774-cce18e315075": {
+          "type": "question",
+          "settings": {
+            "title": "Meine Abmessung, die ich benötige ist nicht in der Liste aufgeführt",
+            "text": "<p>Wir können teilweise auch Abmessungen beschaffen, die Sie dort nicht finden. Für ein Angebot senden Sie uns bitte eine Anfrage mit der gewünschten Abmessung, der Stückzahl und den gewünschten Längen.<\/p>"
+          }
+        },
+        "d6a2900c-b5a4-4141-b8eb-4d8fffa291a6": {
+          "type": "question",
+          "settings": {
+            "title": "Mit welchen Toleranzen wird geliefert?",
+            "text": "<p>Gemäß unserer Liste unter https:\/\/www.alu-verkauf.de\/Längentoleranzen. Sonstige Abmessungstoleranzen gem. der gültigen Euronormen.<\/p>"
+          }
+        },
+        "5c09ddf6-3e7b-40fc-9244-63e8f2717eb2": {
+          "type": "question",
+          "settings": {
+            "title": "Kann ich die Rohre teleskopieren?",
+            "text": "<p>Wir raten dazu, für das Teleskopieren etwas \"Luft\" mit zu berücksichtigen. Ein Rundrohr 40x3 wird nicht zwingend in ein Rundrohr 50x5 (theor. 40mm Innen) passen. Dies ist bedingt durch die Toleranzen der Aussendurchmesser, die sowohl ins Plus wie auch ins Minus laufen können.<\/p>"
+          }
+        },
+        "6bbb26ba-5b1c-431c-8d80-2619a925e50a": {
+          "type": "question",
+          "settings": {
+            "title": "Können wir als öffentliche Einrichtung auf Rechnung kaufen?",
+            "text": "<p>Öffentliche Einrichtungen werden auch bei Erstaufträgen auf Rechnung beliefert. Für die Vorgehensweise setzen Sie sich bitte einfach telefonisch mit uns in Verbindung.<\/p>"
+          }
+        },
+        "953380eb-d508-4b34-896d-46e792fa2945": {
+          "type": "question",
+          "settings": {
+            "title": "Mehrwertsteuererstattung bei eigener Ausfuhr",
+            "text": "<p>Eine Erstattung der MwSt. ist erst ab einem MwSt-Betrag von mind. 100,- EUR möglich (nach Vorlage der erforderlichen Ausfuhrbescheinigung, die spätestens 3 Wochen nach Rechnungsdatum vorliegen muß)<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18204113535280__2c8e42b0-832c-4781-aa09-12189e2f91fb-167783250408c00792-0",
+        "template--18204113535280__2c8e42b0-832c-4781-aa09-12189e2f91fb-167783250408c00792-1",
+        "01866210-a736-42c9-a387-fe583151e8b0",
+        "2973d61f-8a92-42a3-bc6f-d1e5dac3c462",
+        "18b94e29-acba-4c39-ac6c-ddb54f1b7958",
+        "14541166-2257-468f-a3b9-cdd4a4713817",
+        "2b61b529-38f5-4df3-9f78-7930579032f0",
+        "ca2a4091-acd9-4fbd-bcd8-0e9aaa7ff885",
+        "406dbb07-c649-4211-90d3-6964a4114fd3",
+        "7988de49-40f0-44a1-ac79-bff5b47ad99d",
+        "69877973-e077-4e37-9adf-02febf77c0b8",
+        "80f7018c-2f1c-4333-a774-cce18e315075",
+        "d6a2900c-b5a4-4141-b8eb-4d8fffa291a6",
+        "5c09ddf6-3e7b-40fc-9244-63e8f2717eb2",
+        "6bbb26ba-5b1c-431c-8d80-2619a925e50a",
+        "953380eb-d508-4b34-896d-46e792fa2945"
+      ],
+      "settings": {
+        "title": "FAQs"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16f81cd6-1a19-4f18-9be3-f81d86f752c5",
+    "3c7f59d0-aa81-4e78-b021-f13d8b912b9b",
+    "2c8e42b0-832c-4781-aa09-12189e2f91fb"
+  ]
+}
