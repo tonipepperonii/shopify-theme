@@ -1,0 +1,89 @@
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": false
+      }
+    },
+    "9c222402-62ba-4101-92f4-5758e61571a8": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18216467988784__9c222402-62ba-4101-92f4-5758e61571a8-1677845210ccb13100-0": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<h1>Restposten<\/h1>",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#fff",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18216467988784__9c222402-62ba-4101-92f4-5758e61571a8-1677845210ccb13100-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": -40,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "subcollections": {
+          "type": "subcollections",
+          "settings": {
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "grid_style": "small"
+          }
+        },
+        "2b4203a3-40ca-47f3-a2e4-ff4c076d6fca": {
+          "type": "collection_description",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "subcollections",
+        "product_grid",
+        "2b4203a3-40ca-47f3-a2e4-ff4c076d6fca"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapse_filters": true,
+        "enable_color_swatches": false,
+        "enable_sort": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "9c222402-62ba-4101-92f4-5758e61571a8",
+    "main-collection",
+    "recently-viewed"
+  ]
+}

@@ -26,7 +26,7 @@
       "signup_form_email_label": "E-Mail",
       "signup_form_success": "Wir senden Ihnen eine E-Mail, kurz bevor wir eröffnen!",
       "admin_link_html": "Sind Sie der Geschäftsinhaber? <a href=\"\/admin\" class=\"text-link\">Melden Sie sich hier an<\/a>",
-      "password_link": "Mit Passwort betreten",
+      "password_link": "Passwort",
       "powered_by_shopify_html": "Dieser Shop wird mit Hilfe von {{ shopify }} betrieben werden"
     },
     "breadcrumbs": {
@@ -45,7 +45,7 @@
       }
     },
     "newsletter_form": {
-      "newsletter_email": "E-Mail eintragen",
+      "newsletter_email": "Melden Sie sich für unsere Mailingliste an",
       "newsletter_confirmation": "Danke fürs Anmelden",
       "submit": "Abonnieren"
     },
@@ -62,8 +62,8 @@
       "cancel": "Abbrechen",
       "search_title": "Top gesucht",
       "result_count": {
-        "one": "Ergebnisse",
-        "other": "Ergebnisse"
+        "one": "{{ count }} Ergebnis",
+        "other": "{{ count }} Ergebnisse"
       }
     },
     "drawers": {
@@ -131,14 +131,14 @@
       "update": "Einkaufswagen aktualisieren",
       "checkout": "Zur Kasse",
       "empty": "Ihr Einkaufswagen ist im Moment leer.",
-      "continue_shopping": "Weiter einkaufen",
+      "continue_shopping": "Einkaufen Sie weiter",
       "close_cart": "Einkaufswagen schließen",
       "reduce_quantity": "Artikelmenge um eins reduzieren",
       "increase_quantity": "Artikelmenge um eins erhöhen",
       "terms": "Ich stimme den Nutzungsbedingungen zu",
       "terms_html": "Ich stimme den <a href='{{ url }}' target='_blank'>Nutzungsbedingungen<\/a> zu",
       "terms_confirm": "Sie müssen den Verkaufsbedingungen zustimmen, um auszuchecken",
-      "recommended_title": "Dazu passt gut:"
+      "recommended_title": "Geht mit"
     },
     "label": {
       "price": "Preis",
@@ -313,19 +313,23 @@
   "products": {
     "general": {
       "color_swatch_trigger": "Farbe",
-      "save_html": "Sparen Sie {{ saved_amount }}",
+      "size_trigger": "Größe",
+      "size_chart": "Größentabelle",
+      "save_html": "Sparen {{ saved_amount }}",
       "collection_return": "Zurück zur {{ collection }}",
       "next_product": "Nächster: {{ title }}",
       "sale": "Reduziert",
       "sale_price": "Sonderpreis",
       "regular_price": "Normaler Preis",
-      "from_text_html": "{{ price }}",
+      "from_text_html": "<span>Von<\/span> {{ price }}",
       "quick_shop": "Schnellkauf",
       "more_from_html": "Mehr von {{ link }}",
-      "recent_products": "Zuletzt Angesehen"
+      "recent_products": "Zuletzt Angesehen",
+      "reviews": "Rezensionen"
     },
     "product": {
       "description": "Beschreibung",
+      "in_stock_label": "Auf Lager",
       "stock_label": "{{ count }} auf Lager",
       "sold_out": "Ausverkauft",
       "unavailable": "Nicht verfügbar",
@@ -343,12 +347,12 @@
   },
   "store_availability": {
     "general": {
-      "view_store_info": "Adresse anzeigen",
+      "view_store_info": "Ansicht speichern Informationen",
       "check_other_stores": "Prüfen Sie die Verfügbarkeit von anderen Shops",
       "pick_up_available": "Pickup verfügbar",
       "pick_up_currently_unavailable": "Pickup derzeit nicht verfügbar",
-      "pick_up_available_at_html": "Pickup verfügbar bei <strong> {{location_name}} <\/strong>",
-      "pick_up_unavailable_at_html": "Pickup derzeit nicht verfügbar bei <strong> {{location_name}} <\/strong>"
+      "pick_up_available_at_html": "Pickup verfügbar unter <strong> {{location_name}} <\/strong>",
+      "pick_up_unavailable_at_html": "Pickup derzeit nicht verfügbar unter <strong> {{location_name}} <\/strong>"
     }
   },
   "gift_cards": {
@@ -366,16 +370,5 @@
   },
   "date_formats": {
     "month_day_year": "%B %d, %Y"
-  },
-  "shopify": {
-    "checkout": {
-      "review": {
-        "review_notice_html": "Wir nutzen Deine E-Mail-Adresse neben der Vertragsabwicklung, um per E-Mail über eigene ähnliche Waren zu informieren. Du kannst der Verwendung Deiner E-Mail-Adresse jederzeit widersprechen. Teile uns dies einfach per E-Mail an folgende Adresse mit: kontakt@hennis-orchideen.de oder klicke auf den Link am Ende einer Newsletter E-Mail.\n<br><br>\nMit dem Bestätigen des Buttons \"Jetzt bezahlen\" erkläre ich mich mit den %{terms_of_service} und der {{ privacy_policy }} einverstanden und bestätige, dass ich die {{ refund_policy }} zur Kenntnis genommen habe."
-      },
-      "contact": {
-        "address_title": "Straße und Hausnummer",
-        "address1_label": "Straße und Hausnummer"
-      }
-    }
   }
 }

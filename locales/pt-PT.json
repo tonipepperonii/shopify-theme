@@ -26,7 +26,7 @@
       "signup_form_email_label": "Email",
       "signup_form_success": "Iremos enviar-lhe um email imediatamente antes de abrirmos!",
       "admin_link_html": "É o dono da loja? <a href=\"\/admin\" class=\"text-link\">Inicie sessão aqui<\/a>",
-      "password_link": "Entre usando a palavra-passe",
+      "password_link": "Palavra-passe",
       "powered_by_shopify_html": "Esta loja será movida por {{ shopify }}"
     },
     "breadcrumbs": {
@@ -313,6 +313,8 @@
   "products": {
     "general": {
       "color_swatch_trigger": "Cor",
+      "size_trigger": "Tamanho",
+      "size_chart": "Gráfico de tamanho",
       "save_html": "Poupe {{ saved_amount }}",
       "collection_return": "Regressar à {{ collection }}",
       "next_product": "Seguinte: {{ title }}",
@@ -322,10 +324,12 @@
       "from_text_html": "<span>Desde<\/span> {{ price }}",
       "quick_shop": "Compra rápida",
       "more_from_html": "Mais de {{ link }}",
-      "recent_products": "Visto recentemente"
+      "recent_products": "Visto recentemente",
+      "reviews": "Avaliações"
     },
     "product": {
       "description": "Descrição",
+      "in_stock_label": "Em estoque",
       "stock_label": "{{ count }} em estoque",
       "sold_out": "Esgotado",
       "unavailable": "Indisponível",
