@@ -41,7 +41,7 @@
           </span>
         {%- endif -%}
         {%- if show_date -%}
-          <span class="article__sub-meta-date">{{ article.published_at | time_tag: format: 'month_day_year' }}</span>
+          <span class="article__sub-meta-date">{{ article.published_at | time_tag: format: 'day_month_year' }}</span>
         {%- endif -%} 
       </div>
   <div class="article_excerpt">
@@ -56,7 +56,8 @@
   {%- endif-%}
 </div>
 <br>
-<a href="{{ article.url }}" class="btn">Mehr erfahren</a>
+<div class="article_button_containerr">
+<a href="{{ article.url }}" class="article .btn">Mehr erfahren</a>
 </div>
 </div>
-
+</div>
