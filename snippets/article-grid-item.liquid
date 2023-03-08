@@ -4,28 +4,12 @@
 {% endunless %}
 
 <div class="grid-item grid-article" data-style="{{ style }}">
-  <div class="grid-article__image">
-    {%- if show_tags and article.tags.size > 0 -%}
-      <div class="grid-article__tags">
-        {%- for tag in article.tags -%}
-          {% if tag contains "_" %}{%- assign tag_starts_with = tag | slice: 0 -%}{% if tag_starts_with == "_" %}{% if tag_count %}{%- assign tag_count = tag_count | minus: 1 | at_least: 0 -%}{% endif %}{% continue %}{% endif %}{% endif %}
-          <a class="article-tag" href="{{ blog.url }}/tagged/{{ tag | handle }}">{{ tag }}</a>
-        {%- endfor -%}
-      </div>
-    {%- endif -%}
-  </div>
+  
 
   <div class="grid-article__meta">
     {%- if article.empty? -%}
       <a href="{{ article.url }}" class="article__title">Example blog post</a>
       <div class="article__sub-meta">
-        {%- if show_comments -%}
-          <span>
-            <a href="#">
-              {{ 'blogs.comments.with_count' | t: count: 0 }}
-            </a>
-          </span>
-        {%- endif -%}
         {%- if show_date -%}
           <span class="article__sub-meta-date">Jul 17, {{ 'now' | date: "%Y" }}</span>
         {%- endif -%}
@@ -33,13 +17,6 @@
     {%- else -%}
       <a href="{{ article.url }}" class="article__title">{{ article.title }}</a>
       <div class="article__sub-meta">
-        {%- if show_comments and article.comments_count > 0 -%}
-          <span>
-            <a href="{{ article.url }}#comments">
-              {{ 'blogs.comments.with_count' | t: count: article.comments_count }}
-            </a>
-          </span>
-        {%- endif -%}
         {%- if show_date -%}
           <span class="article__sub-meta-date">{{ article.published_at | time_tag: format: 'month_day_year' }}</span>
         {%- endif -%} 
