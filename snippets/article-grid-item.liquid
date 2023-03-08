@@ -45,6 +45,7 @@
         {%- endif -%} 
       </div>
   <div class="article_excerpt">
+    <br>
     {%- if show_excerpt -%}
       {%- if article.excerpt.size > 0 -%}
           {{ article.excerpt }}
@@ -54,6 +55,7 @@
     {%- endif -%}
   {%- endif-%}
 </div>
+<a href="{{ article.url }}" class="btn">Mehr erfahren</a>
 </div>
 </div>
 
