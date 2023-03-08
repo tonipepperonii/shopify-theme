@@ -44,8 +44,8 @@
           <span class="article__sub-meta-date">{{ article.published_at | time_tag: format: 'month_day_year' }}</span>
         {%- endif -%} 
       </div>
-      <br>
-      {%- if show_excerpt -%}
+  <div class="article_excerpt">
+    {%- if show_excerpt -%}
       {%- if article.excerpt.size > 0 -%}
           {{ article.excerpt }}
         {%- else -%}
@@ -53,6 +53,7 @@
         {%- endif -%}
     {%- endif -%}
   {%- endif-%}
-
-  </div>
 </div>
+</div>
+</div>
+
