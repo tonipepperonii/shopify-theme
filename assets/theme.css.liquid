@@ -1164,6 +1164,16 @@ html[dir=rtl] .grid--center .grid__item{
   word-break:break-word;
 }
 
+@media only screen and (max-width:768px){
+  .new-grid{
+    flex-wrap:wrap;
+    margin-top:15px;
+    margin-left:-10px;
+    margin-right:-10px;
+    word-break:break-word;
+  }
+}
+
 .new-grid--center{
   justify-content:center;
 }
@@ -10898,6 +10908,7 @@ html[dir=rtl] .product-single__meta .rte{
 
 @media only screen and (max-width:768px){
   .grid-article[data-style=medium]{
+    flex:0 0 100%;
     flex-wrap:nowrap;
     text-align:left;
     margin-bottom:20px
