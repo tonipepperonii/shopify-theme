@@ -169,9 +169,6 @@
     },
     "c5e4a292-5547-4722-8908-f8e44d7f0a72": {
       "type": "blog-posts",
-      "custom_css": [
-        ".page-width {background-color: #fafaff;}"
-      ],
       "settings": {
         "title": "Neuigkeiten",
         "blog": "news",
