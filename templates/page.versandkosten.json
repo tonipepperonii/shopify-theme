@@ -1,0 +1,129 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16f81cd6-1a19-4f18-9be3-f81d86f752c5": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18204113535280__16f81cd6-1a19-4f18-9be3-f81d86f752c5-16778323741cff4d3e-0": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<h1>Versandkosten<\/h1>",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/BARTELS_Fotografie-9154.jpg",
+            "overlay_opacity": 50,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18204113535280__16f81cd6-1a19-4f18-9be3-f81d86f752c5-16778323741cff4d3e-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": -40,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "ca0a667c-8482-44c9-9ea5-91513365d76a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18215882654000__ca0a667c-8482-44c9-9ea5-91513365d76a-16778416329c1aa01d-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Versandkosten"
+          }
+        },
+        "template--18215882654000__ca0a667c-8482-44c9-9ea5-91513365d76a-16778416329c1aa01d-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Der Versand erfolgt per Paketdienst, gemäß folgender Preistabelle.<br\/>(Alle Preise wenn nicht anders angegeben <strong>inkl. Mehrwertsteuer<\/strong>, gültig für Versand in die ausgewiesenen Länder -ausgenommen Inseln-)<\/p><p><\/p><p>Im Regelfall versenden wir mittels Standardpaket (Laufzeit ca. 2 Tage)<\/p><p><strong>Express-Pakete<\/strong> werden, soweit Material am Lager, noch <strong>am Bestelltag versendet<\/strong>  und am nächsten Tag (Mo-Fr) zugestellt. Diese erfordern jedoch zwingend eine <strong>telefonische Absprache<\/strong>  und sind nur bei Bestellungen bis 13.00 Uhr möglich.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18215882654000__ca0a667c-8482-44c9-9ea5-91513365d76a-16778416329c1aa01d-0",
+        "template--18215882654000__ca0a667c-8482-44c9-9ea5-91513365d76a-16778416329c1aa01d-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "c82253ad-fcd0-40e0-a47d-d19487a9ceb5": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--18215882654000__c82253ad-fcd0-40e0-a47d-d19487a9ceb5-1677841455170e0e06-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<table>\n  <tr>\n    <th>Paket<\/th>\n    <th>Deutschland (standard)<\/th>\n    <th>Deutschland (express)<\/th>\n<th>Österreich<\/th>\n<th>Schweiz (ohne MwSt.)<\/th>\n  <\/tr>\n  <tr>\n    <td>bis 5 kg<\/td>\n    <td>7,14 €<\/td>\n    <td>26,18 €<\/td>\n<td>13,09 €<\/td>\n<td>33,00 €<\/td>\n  <\/tr>\n  <tr>\n    <td>5 bis 10 kg<\/td>\n    <td>9,52 €<\/td>\n    <td>28,56 €<\/td>\n<td>15,47 €<\/td>\n<td>35,00 €<\/td>\n  <\/tr>\n  <tr>\n    <td>10 bis 20 kg<\/td>\n    <td>11,90 €<\/td>\n    <td>32,13 €<\/td>\n<td>\t21,42 €<\/td>\n    <td>39,00 €<\/td>\n  <\/tr>\n  <tr>\n    <td>20 bis 50 kg<\/td>\n    <td>21,42 €<\/td>\n    <td>39,27 €<\/td>\n<td>34,51 €<\/td>\n<td>63,00 €<\/td>\n  <\/tr>\n<tr>\n<td>Paket über 50 kg<\/td>\n<td>28,56 €<\/td>\n\n<\/tr>\n<\/table>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "93e2d718-cb7a-4652-af82-81bee29fbf38": {
+          "type": "liquid",
+          "settings": {
+            "code": "<table>\n  <tr>\n    <th>Paket<\/th>\n    <th>Frankreich<\/th>\n    <th>Schweden<\/th>\n<th>Belgien \/ Niederlande\nLuxemburg \/ Dänemark<\/th>\n  <\/tr>\n  <tr>\n    <td>bis 5 kg<\/td>\n    <td>19,04 €<\/td>\n    <td>27,37 €<\/td>\n<td>13,09 €<\/td>\n  <\/tr>\n  <tr>\n    <td>5 bis 10 kg<\/td>\n    <td>21,42 €<\/td>\n    <td>33,32 €<\/td>\n<td>15,47 €<\/td>\n  <\/tr>\n  <tr>\n    <td>10 bis 20 kg<\/td>\n    <td>27,37 €<\/td>\n    <td>40,46 €<\/td>\n<td>\t21,42 €<\/td>\n  <\/tr>\n  <tr>\n    <td>20 bis 50 kg<\/td>\n    <td>45,22 €<\/td>\n    <td>71,40 €<\/td>\n<td>34,51 €<\/td>\n  <\/tr>\n<\/table>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18215882654000__c82253ad-fcd0-40e0-a47d-d19487a9ceb5-1677841455170e0e06-1",
+        "93e2d718-cb7a-4652-af82-81bee29fbf38"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "cdecd0da-d14b-455a-9c23-5261a9a126f4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18215882654000__cdecd0da-d14b-455a-9c23-5261a9a126f4-16778416329c1aa01d-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Höchstmaße für den Versand als \"normales\" Paket 115 x 60 x 60 cm. Längen über 1,15 mtr. zuzgl. 8,50 EUR für Überlänge.<\/p><p>Ab 2,00 mtr. erfolgt der Versand per Spedition. Längen bis 3,00 mtr. werden mit 41,65 EUR inkl. MwSt. berechnet.<\/p><p>Längen über 3,00 mtr. - je nach Empfangsort zwischen ca. 65,45 und 77,35 EUR inkl. MwSt. (bis 500 kg) (Deutschland).<br\/>Für Lieferungen unter 23,80,- EUR Warenwert berechnen wir eine Verpackungskostenpauschale von 4,50 €.<\/p><p>Auslandspakete max. 2 mtr. Längen per Paketdienst, Versand ins Ausland über 2 mtr. Längen bitte anfragen.<\/p><p>Versandkosten in andere Länder als oben angeführt, bitten wir anzufragen.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18215882654000__cdecd0da-d14b-455a-9c23-5261a9a126f4-16778416329c1aa01d-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": false,
+        "color_scheme": "1",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16f81cd6-1a19-4f18-9be3-f81d86f752c5",
+    "ca0a667c-8482-44c9-9ea5-91513365d76a",
+    "c82253ad-fcd0-40e0-a47d-d19487a9ceb5",
+    "cdecd0da-d14b-455a-9c23-5261a9a126f4"
+  ]
+}
