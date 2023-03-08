@@ -3,6 +3,10 @@
     "main": {
       "type": "blog-template",
       "settings": {
+        "blog_show_rss": false,
+        "blog_show_tags": true,
+        "blog_show_excerpt": true,
+        "blog_show_date": true
       }
     },
     "sidebar": {
@@ -12,65 +16,31 @@
           "type": "tags",
           "settings": {
           }
-        }
-      },
-      "block_order": [
-        "tags"
-      ],
-      "settings": {
-      }
-    },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection1": {
-          "type": "collection",
-          "settings": {
-          }
         },
-        "collection2": {
-          "type": "collection",
+        "84c73f0f-41cb-4736-a98a-2ee42e4509d6": {
+          "type": "article",
           "settings": {
-          }
-        },
-        "collection3": {
-          "type": "collection",
-          "settings": {
-          }
-        },
-        "collection4": {
-          "type": "collection",
-          "settings": {
-          }
-        },
-        "collection5": {
-          "type": "collection",
-          "settings": {
-          }
-        },
-        "collection6": {
-          "type": "collection",
-          "settings": {
+            "title": "Popular posts",
+            "article": "",
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "blog_image_size": "wide"
           }
         }
       },
       "block_order": [
-        "collection1",
-        "collection2",
-        "collection3",
-        "collection4",
-        "collection5",
-        "collection6"
+        "tags",
+        "84c73f0f-41cb-4736-a98a-2ee42e4509d6"
       ],
       "settings": {
-        "title": "You may also like"
       }
     }
   },
   "order": [
     "main",
-    "sidebar",
-    "featured-collections"
+    "sidebar"
   ],
   "wrapper": "div.page-width.page-content.blog-layout"
 }
