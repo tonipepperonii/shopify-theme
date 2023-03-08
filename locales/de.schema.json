@@ -203,11 +203,8 @@
         "blog_show_date": {
           "label": "Datum anzeigen"
         },
-        "blog_show_comments": {
-          "label": "Anzahl der Kommentare anzeigen"
-        },
-        "blog_show_author": {
-          "label": "Autor anzeigen"
+        "blog_show_excerpt": {
+          "label": "Auszug anzeigen"
         },
         "blog_image_size": {
           "label": "Bildgröße erzwingen",
