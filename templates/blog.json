@@ -3,6 +3,10 @@
     "main": {
       "type": "blog-template",
       "settings": {
+        "blog_show_rss": false,
+        "blog_show_tags": true,
+        "blog_show_excerpt": true,
+        "blog_show_date": true
       }
     },
     "sidebar": {
@@ -20,57 +24,41 @@
       "settings": {
       }
     },
-    "featured-collections": {
-      "type": "featured-collections",
+    "fedad52b-61ed-434f-bfe1-f8c6ded89608": {
+      "type": "newsletter",
       "blocks": {
-        "collection1": {
-          "type": "collection",
+        "template--18273042432304__fedad52b-61ed-434f-bfe1-f8c6ded89608-167835864751d3cb68-0": {
+          "type": "title",
           "settings": {
+            "title": "Sign up and save"
           }
         },
-        "collection2": {
-          "type": "collection",
+        "template--18273042432304__fedad52b-61ed-434f-bfe1-f8c6ded89608-167835864751d3cb68-1": {
+          "type": "text",
           "settings": {
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
           }
         },
-        "collection3": {
-          "type": "collection",
-          "settings": {
-          }
-        },
-        "collection4": {
-          "type": "collection",
-          "settings": {
-          }
-        },
-        "collection5": {
-          "type": "collection",
-          "settings": {
-          }
-        },
-        "collection6": {
-          "type": "collection",
+        "template--18273042432304__fedad52b-61ed-434f-bfe1-f8c6ded89608-167835864751d3cb68-2": {
+          "type": "form",
           "settings": {
           }
         }
       },
       "block_order": [
-        "collection1",
-        "collection2",
-        "collection3",
-        "collection4",
-        "collection5",
-        "collection6"
+        "template--18273042432304__fedad52b-61ed-434f-bfe1-f8c6ded89608-167835864751d3cb68-0",
+        "template--18273042432304__fedad52b-61ed-434f-bfe1-f8c6ded89608-167835864751d3cb68-1",
+        "template--18273042432304__fedad52b-61ed-434f-bfe1-f8c6ded89608-167835864751d3cb68-2"
       ],
       "settings": {
-        "title": "You may also like"
+        "color_scheme": "1"
       }
     }
   },
   "order": [
     "main",
     "sidebar",
-    "featured-collections"
+    "fedad52b-61ed-434f-bfe1-f8c6ded89608"
   ],
   "wrapper": "div.page-width.page-content.blog-layout"
 }
