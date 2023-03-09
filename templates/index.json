@@ -163,6 +163,7 @@
         "title": "From the journal",
         "blog": "news",
         "blog_show_tags": true,
+        "blog_show_excerpt": true,
         "blog_show_date": false,
         "divider": false
       }
@@ -170,9 +171,10 @@
     "c5e4a292-5547-4722-8908-f8e44d7f0a72": {
       "type": "blog-posts",
       "settings": {
-        "title": "Neuigkeiten",
-        "blog": "news",
+        "title": "Ideen",
+        "blog": "ideen",
         "blog_show_tags": true,
+        "blog_show_excerpt": true,
         "blog_show_date": true,
         "divider": false
       }
