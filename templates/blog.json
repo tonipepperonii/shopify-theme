@@ -23,42 +23,11 @@
       ],
       "settings": {
       }
-    },
-    "fedad52b-61ed-434f-bfe1-f8c6ded89608": {
-      "type": "newsletter",
-      "blocks": {
-        "template--18273042432304__fedad52b-61ed-434f-bfe1-f8c6ded89608-167835864751d3cb68-0": {
-          "type": "title",
-          "settings": {
-            "title": "Sign up and save"
-          }
-        },
-        "template--18273042432304__fedad52b-61ed-434f-bfe1-f8c6ded89608-167835864751d3cb68-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
-          }
-        },
-        "template--18273042432304__fedad52b-61ed-434f-bfe1-f8c6ded89608-167835864751d3cb68-2": {
-          "type": "form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--18273042432304__fedad52b-61ed-434f-bfe1-f8c6ded89608-167835864751d3cb68-0",
-        "template--18273042432304__fedad52b-61ed-434f-bfe1-f8c6ded89608-167835864751d3cb68-1",
-        "template--18273042432304__fedad52b-61ed-434f-bfe1-f8c6ded89608-167835864751d3cb68-2"
-      ],
-      "settings": {
-        "color_scheme": "1"
-      }
     }
   },
   "order": [
     "main",
-    "sidebar",
-    "fedad52b-61ed-434f-bfe1-f8c6ded89608"
+    "sidebar"
   ],
   "wrapper": "div.page-width.page-content.blog-layout"
 }
