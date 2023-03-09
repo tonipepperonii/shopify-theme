@@ -17,10 +17,7 @@
   <div class="new-grid">
     {%- for article in blog.articles -%}
       {%- liquid
-        assign style = 'medium'
-        if forloop.first
-          assign style = 'large'
-        endif
+        assign style = 'large'
       -%}
       {%- render 'article-grid-item',
         blog: blog,
