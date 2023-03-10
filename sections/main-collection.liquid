@@ -28,8 +28,8 @@
       <p>hallo</p>
       <p>{{ collection.metafields.custom.kategoriebilder.type }}</p>
       
-      {%- for x in collection.metafields.custom.kategoriebilder -%}
-        <p>{{ x }}</p>
+      {%- for file_reference in collection.metafields.custom.kategoriebilder -%}
+        <p>{{ file_reference }}</p>
         
       {%- endfor -%}
           
