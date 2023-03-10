@@ -28,7 +28,7 @@
       <p>hallo</p>
       <p>{{ collection.metafields.custom.kategoriebilder[1] }}</p>
       
-      {%- for media in collection.metafields.custom.kategoriebilder -%}
+      {%- for media in collection.metafields.custom.kategoriebilder.value -%}
         <p>{{ media }}</p>
         
       {%- else -%} nix drin hier
