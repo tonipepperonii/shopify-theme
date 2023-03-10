@@ -31,6 +31,7 @@
       {%- for media in collection.metafields.custom.kategoriebilder -%}
         <p>{{ media }}</p>
         
+      {%- else -%} nix drin hier
       {%- endfor -%}
           
       {%- render 'collection-images',
