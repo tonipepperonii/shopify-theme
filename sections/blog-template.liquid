@@ -13,6 +13,16 @@
       {%- endif -%}
     </h1>
   </header>
+  <div class="article_excerpt">
+    <br>
+    {%- if section.settings.show_excerpt -%}
+      {%- if article.excerpt.size > 0 -%}
+          {{ article.excerpt }}
+        {%- else -%}
+          {{ article.content | strip_html | truncate: 250 }}
+        {%- endif -%}
+    {%- endif -%}
+  </div>
 
   <div class="new-grid">
     {%- for article in blog.articles -%}
