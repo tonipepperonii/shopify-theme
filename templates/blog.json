@@ -23,11 +23,42 @@
       ],
       "settings": {
       }
+    },
+    "fd097d48-0771-4db0-8302-d748759e248b": {
+      "type": "newsletter",
+      "blocks": {
+        "template--18273042432304__fd097d48-0771-4db0-8302-d748759e248b-16784396919ddeffc2-0": {
+          "type": "title",
+          "settings": {
+            "title": "NEWSLETTER"
+          }
+        },
+        "template--18273042432304__fd097d48-0771-4db0-8302-d748759e248b-16784396919ddeffc2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Jetzt aktuell bleiben:<\/p>"
+          }
+        },
+        "template--18273042432304__fd097d48-0771-4db0-8302-d748759e248b-16784396919ddeffc2-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--18273042432304__fd097d48-0771-4db0-8302-d748759e248b-16784396919ddeffc2-0",
+        "template--18273042432304__fd097d48-0771-4db0-8302-d748759e248b-16784396919ddeffc2-1",
+        "template--18273042432304__fd097d48-0771-4db0-8302-d748759e248b-16784396919ddeffc2-2"
+      ],
+      "settings": {
+        "color_scheme": "2"
+      }
     }
   },
   "order": [
     "main",
-    "sidebar"
+    "sidebar",
+    "fd097d48-0771-4db0-8302-d748759e248b"
   ],
   "wrapper": "div.page-width.page-content.blog-layout"
 }
