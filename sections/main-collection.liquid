@@ -28,11 +28,11 @@
       <p>hallo</p>
       <p>{{ collection.metafields.custom.kategoriebilder.type }}</p>
       
-      {%- for media in collection.metafields.custom.kategoriebilder -%}
-            <p>{{ media }}</p>
-            
-           
-          {%- endfor -%}
+      {%- for x in collection.metafields.custom.kategoriebilder -%}
+        <p>{{ x }}</p>
+        
+      {%- endfor -%}
+          
       {%- render 'collection-images',
               section_id: section_id,
               collection: collection,
