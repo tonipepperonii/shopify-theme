@@ -26,6 +26,19 @@
       -%}
 
       <p>hallo</p>
+      {%- render 'collection-images',
+              section_id: section_id,
+              collection: collection,
+              isModal: isModal,
+              image_position: image_position,
+              image_size: image_size,
+              product_zoom_enable: product_zoom_enable,
+              product_zoom_size: product_zoom_size,
+              thumbnail_arrows: thumbnail_arrows,
+              thumbnail_position: thumbnail_position,
+              video_looping: video_looping,
+              video_style: video_style
+            -%}
 
       {%- paginate collection.products by paginate_by -%}
       <div class="grid">
