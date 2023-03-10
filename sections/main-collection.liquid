@@ -26,6 +26,12 @@
       -%}
 
       <p>hallo</p>
+      {%- for media in collection.metafields.custom.kategoriebilder -%}
+            <p>media.id</p>
+            <p>media.type</p>
+            
+           
+          {%- endfor -%}
       {%- render 'collection-images',
               section_id: section_id,
               collection: collection,
