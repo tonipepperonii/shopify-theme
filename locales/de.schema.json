@@ -206,6 +206,9 @@
         "blog_show_excerpt": {
           "label": "Auszug anzeigen"
         },
+        "blog_show_image": {
+          "label": "Titelbild anzeigen"
+        },
         "blog_image_size": {
           "label": "Bildgröße erzwingen",
           "options": {
@@ -318,6 +321,9 @@
         },
         "blog_show_excerpt": {
           "label": "Auszug anzeigen"
+        },
+        "blog_show_image": {
+          "label": "Titelbild anzeigen"
         },
         "blog_image_size": {
           "label": "Bildgröße erzwingen",

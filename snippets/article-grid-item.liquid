@@ -12,6 +12,7 @@
         </div>
       </div>
     {%- else -%}
+    {%- if show_image -%}
       {%- if article.image -%}
         <a href="{{ article.url }}" aria-label="{{ article.title | escape }}">
           {%- if fixed_aspect_ratio -%}
@@ -26,7 +27,7 @@
                     alt="{{ article.image.alt | escape }}">
               </div>
               <noscript>
-                <img class="lazyloaded" src="{{ article.image | img_url: '400x' }}" alt="{{ article.title | escape }}">
+                <img class="lazyloaded" src="{{ article.image | img_url: '400x' }}" alt="{{ article.title | escape }}" height=auto width=auto loading=lazy>
               </noscript>
             </div>
           {%- else -%}
@@ -37,14 +38,15 @@
                   data-widths="[180, 360, 540, 720, 900, 1080]"
                   data-aspectratio="{{ article.image.aspect_ratio }}"
                   data-sizes="auto"
-                  alt="{{ article.image.alt | escape }}">
+                  alt="{{ article.image.alt | escape }}"
+                  height=auto width=auto>
               <noscript>
-                <img class="lazyloaded" src="{{ article.image | img_url: '400x' }}" alt="{{ article.title | escape }}">
+                <img class="lazyloaded" src="{{ article.image | img_url: '400x' }}" alt="{{ article.title | escape }}" height=auto width=auto loading=lazy>
               </noscript>
             </div>
           {%- endif -%}
-
       {%- endif -%}
+    {%- endif -%}
     {%- endif -%}
     {%- if show_tags and article.tags.size > 0 -%}
       <div class="grid-article__tags">

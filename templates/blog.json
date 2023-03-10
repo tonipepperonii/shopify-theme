@@ -5,7 +5,6 @@
       "settings": {
         "blog_show_rss": false,
         "blog_show_tags": true,
-        "blog_image_size": "square",
         "blog_show_excerpt": true,
         "blog_show_date": true
       }

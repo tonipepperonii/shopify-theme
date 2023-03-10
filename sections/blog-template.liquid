@@ -26,6 +26,7 @@
         show_tags: section.settings.blog_show_tags,
         show_date: section.settings.blog_show_date,
         show_author: section.settings.blog_show_author,
+        show_image: section.settings.blog_show_image,
         image_size: section.settings.blog_image_size,
         show_excerpt: section.settings.blog_show_excerpt -%}
     {%- endfor -%}
@@ -54,6 +55,12 @@
       "type": "checkbox",
       "id": "blog_show_tags",
       "label": "t:sections.blog-template.settings.blog_show_tags.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_image",
+      "label": "t:sections.blog-template.settings.blog_show_image.label",
       "default": true
     },
     {
