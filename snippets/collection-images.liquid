@@ -1,5 +1,5 @@
 {%- liquid
-  assign featured_media = collection.metafields.custom.kategoriebilder | first
+  assign featured_media = collection.metafields.custom.kategoriebilder.value | first
 -%}
 
 {%- unless collection.empty? -%}
@@ -12,8 +12,8 @@
       <div class="product__main-photos" data-product-single-media-group>
         <div data-product-photos class="product-slideshow" id="ProductPhotos-{{ section_id }}">
           {%- for media in collection.metafields.custom.kategoriebilder.value -%}
-            <p>media.id</p>
-            <p>media.type</p>
+            <p>{{ media.id }}</p>
+            <p>{{ media.media_type }}</p>
             
             {%- render 'media',
               section_id: section_id,
