@@ -1,5 +1,5 @@
 {%- liquid
-  assign featured_media = collection.featured_image
+  assign featured_media = collection.metafields.custom.kategoriebilder.value | first
 -%}
 
 {%- unless collection.empty? -%}
