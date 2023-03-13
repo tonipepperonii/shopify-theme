@@ -51,15 +51,7 @@
       -%}
 
       <p>hallo</p>
-      <p>{{ collection.metafields.custom.kategoriebilder.value.size }}</p>
       
-      {%- for media in collection.metafields.custom.kategoriebilder.value -%}
-        <p>{{ media }}</p>
-
-        {%- render 'media',
-              media: media,
-              featured_media: media
-            -%}
 
       <!-- vz edit -->
    
@@ -172,8 +164,7 @@
 
         <!-- vz edit -->
         
-      {%- else -%} nix drin hier
-      {%- endfor -%}
+      
           
       {%- render 'collection-images',
               section_id: section_id,
