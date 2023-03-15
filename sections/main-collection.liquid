@@ -198,6 +198,15 @@
     
   </div>
 
+                {%- render 'collection-grid-filters',
+            collection: collection,
+            enable_sidebar: section.settings.enable_sidebar,
+            enable_color_swatches: section.settings.enable_color_swatches,
+            tags_combine: section.settings.tags_combine,
+            enable_sort: section.settings.enable_sort,
+            collapse_filters: section.settings.collapse_filters
+          -%}
+
         <!-- vz edit -->
         
      
