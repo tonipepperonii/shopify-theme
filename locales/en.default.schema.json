@@ -1892,6 +1892,14 @@
             }
           }
         },
+        "image_picker": {
+          "name": "Image",
+          "settings": {
+            "image": {
+              "label": "Image"
+            }
+          }
+        },
         "text": {
           "name": "Text",
           "settings": {
@@ -1900,12 +1908,9 @@
             }
           }
         },
-        "image_picker": {
-          "name": "Image",
-          "settings": {
-            "image": {
-              "label": "Image"
-            }
+        "presets": {
+          "rich_text_sidebar": {
+            "name": "Rich Text mit Sidebar"
           }
         }
       }
