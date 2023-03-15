@@ -1,8 +1,7 @@
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
-<div class="page-width page-width--medium">
-
-  {%- if section.settings.title != blank -%}
+<div class="page-width">
+{%- if section.settings.title != blank -%}
     <header class="section-header text-center">
       <h2 class="section-header__title">
         {{ section.settings.title | escape }}
@@ -14,6 +13,11 @@
         {{ section.settings.description | escape }}
       </p>
   {%- endif -%}
+</div>
+
+<div class="page-width page-width--medium">
+
+  
 
   {%- if section.blocks.size > 0 -%}
 
