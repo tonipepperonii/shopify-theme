@@ -2491,9 +2491,10 @@ button[disabled],html input[disabled]{
   }
 
 .collapsible-trigger-btn--borders{
-  border-bottom:1px solid;
-  border-color:{{ settings.color_borders | default: "#1c1d1d" }};
-  border-color:var(--colorBorder)
+  box-shadow: rgb(149 157 165 / 20%) 0px 0px 12px;
+  padding: 20px 35px;
+  border-radius: 8px;
+  margin-bottom: 30px;
 }
 
 .collapsible-trigger-btn--borders.is-open{
