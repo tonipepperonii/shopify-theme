@@ -48,6 +48,7 @@
         </a>
       {%- endif -%}
     {%- endif -%}
+  {%- endif -%}
 
     {%- if show_tags and article.tags.size > 0 -%}
       <div class="grid-article__tags">
@@ -84,7 +85,6 @@
           {{ article.content | strip_html | truncate: 250 }}
         {%- endif -%}
     {%- endif -%}
-  {%- endif-%}
 
 </div>
 
