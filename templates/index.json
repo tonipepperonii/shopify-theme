@@ -175,7 +175,7 @@
       "settings": {
         "title": "Ideen",
         "blog": "ideen",
-        "blog_show_tags": false,
+        "blog_show_tags": true,
         "blog_show_excerpt": true,
         "blog_show_image": true,
         "blog_show_date": true,
