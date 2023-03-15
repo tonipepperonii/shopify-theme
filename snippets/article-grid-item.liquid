@@ -62,7 +62,7 @@
 
   <div class="grid-article__meta">
     {%- if article.empty? -%}
-      <a href="{{ article.url }}" class="article__title">Example blog post</a>
+      <h3 href="{{ article.url }}">Example blog post</h3>
       <div class="article__sub-meta">
         {%- if show_date -%}
           <span class="article__sub-meta-date">Jul 17, {{ 'now' | date: "%Y" }}</span>
