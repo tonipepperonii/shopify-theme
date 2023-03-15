@@ -1,11 +1,9 @@
-„
-    <div class="rich-text-sidebar-container">
+<div class="rich-text-sidebar-container">
 {% for block in section.blocks %}
     {% case block.type %}
         {% when "image" %}
             <img src="{{ block.settings.image | img_url:'master' }}" height=100 width=100/>
-            {%- when 'text' -%}
-                <div class="rte">
+        {%- when 'text' -%}
                   {%- if block.settings.text != blank -%}
                     {%- if block.settings.enlarge_text %}<div class="enlarge-text">{% endif -%}
                     {{ block.settings.text }}
@@ -13,11 +11,10 @@
                   {%- else -%}
                     {{ 'home_page.onboarding.no_content' | t }}
                   {%- endif -%}
-                </div>
             
     {% endcase %}
 {% endfor %}
-</div>
+
 </div>
 
 {% schema %}
@@ -48,8 +45,8 @@
       "name": "t:sections.rich-text-sidebar.blocks.text.name",
       "settings": [
         {
-          "type":"checkbox",
-          "id":"text_color",
+          "type": "checkbox",
+          "id": "text_color",
           "label": "t:sections.rich-text-sidebar.blocks.text.settings.checkbox.label",
           "default": false
         },
