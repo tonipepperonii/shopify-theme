@@ -1,10 +1,35 @@
 {%- liquid
+  unless thumbnail_position
+    assign thumbnail_position = 'beside'
+  endunless
+
+  assign product_zoom_size = '1800x1800'
+
+  assign enableHistory = true
+  if isModal or isAjax
+    assign enableHistory = false
+  endif
+
+  case image_container_width
+    when 'small'
+      assign product_image_width = 'medium-up--two-fifths'
+      assign product_description_width = 'medium-up--three-fifths'
+    when 'medium'
+      assign product_image_width = 'medium-up--one-half'
+      assign product_description_width = 'medium-up--one-half'
+    when 'large'
+      assign product_image_width = 'medium-up--three-fifths'
+      assign product_description_width = 'medium-up--two-fifths'
+  endcase
+   
   assign show_sidebar = true
   assign total_tags = 0
 
   if section.settings.enable_sidebar == false or collection.filters.size == 0
     assign show_sidebar = false
   endif
+
+  
 -%}
 
 <div
@@ -25,27 +50,151 @@
         endfor
       -%}
 
-      <p>hallo</p>
-      <p>{{ collection.metafields.custom.kategoriebilder.type }}</p>
       
-      {%- for file_reference in collection.metafields.custom.kategoriebilder -%}
-        <p>{{ file_reference }}</p>
+      <div class="tabs">
+        <ul class="tabs-nav">
+          <li><a href="#tab-1">Features</a></li>
+          <li><a href="#tab-2">Details</a></li>
+        </ul>
+        <div class="tabs-stage">
+          <div id="tab-1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec neque nisi, dictum aliquet lectus.</p>
+          </div>
+          <div id="tab-2">
+            <p>Phasellus pharetra aliquet viverra. Donec scelerisque tincidunt diam, eu fringilla urna auctor at.</p>
+          </div>
+        </div>
+      </div>
+
+      <script>
+// Show the first tab by default
+$('.tabs-stage div').hide();
+$('.tabs-stage div:last').show();
+$('.tabs-nav li:last').addClass('tab-active');
+
+// Change tab class and display content
+$('.tabs-nav a').on('click', function(event){
+  event.preventDefault();
+  $('.tabs-nav li').removeClass('tab-active');
+  $(this).parent().addClass('tab-active');
+  $('.tabs-stage div').hide();
+  $($(this).attr('href')).show();
+});
         
-      {%- endfor -%}
+      </script>
+
+      <!-- vz edit -->
+   
+  <div
+    data-section-id="{{ section.id }}"
+    data-section-type="slideshow-section" style="max-width: 400px; padding: 50px 0;">
+
+    
+      <div class="slideshow-wrapper">
+        {%- if collection.metafields.custom.kategoriebilder.value.size > 1 -%}
+          {%- style -%}
+            [data-bars][data-autoplay="true"] .flickity-page-dots .dot:after {
+              animation-duration: {{ section.settings.autoplay_speed | times: 1000 }}ms;
+            }
+          {%- endstyle -%}
+
+          <button type="button" class="visually-hidden slideshow__pause" data-id="{{ section.id }}" aria-live="polite">
+            <span class="slideshow__pause-stop">
+              <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-pause" viewBox="0 0 10 13"><g fill="#000" fill-rule="evenodd"><path d="M0 0h3v13H0zM7 0h3v13H7z"/></g></svg>
+              <span class="icon__fallback-text">{{ 'sections.slideshow.pause_slideshow' | t }}</span>
+            </span>
+            <span class="slideshow__pause-play">
+              <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-play" viewBox="18.24 17.35 24.52 28.3"><path fill="#323232" d="M22.1 19.151v25.5l20.4-13.489-20.4-12.011z"/></svg>
+              <span class="icon__fallback-text">{{ 'sections.slideshow.play_slideshow' | t }}</span>
+            </span>
+          </button>
+        {%- endif -%}
+
+        {%- assign natural_height_ratio = '60%' -%}
+        {%- assign natural_height_ratio_mobile = '100%' -%}
+        {%- for media in collection.metafields.custom.kategoriebilder.value limit: 1 -%}
+          {%- if media != blank -%}
+            {%- capture natural_height_ratio -%}{{ 100 | divided_by: media.aspect_ratio }}%{% endcapture %}
+            {%- assign natural_height_ratio_mobile = natural_height_ratio -%}
+          {%- endif -%}
           
-      {%- render 'collection-images',
-              section_id: section_id,
-              collection: collection,
-              isModal: isModal,
-              image_position: image_position,
-              image_size: image_size,
-              product_zoom_enable: product_zoom_enable,
-              product_zoom_size: product_zoom_size,
-              thumbnail_arrows: thumbnail_arrows,
-              thumbnail_position: thumbnail_position,
-              video_looping: video_looping,
-              video_style: video_style
-            -%}
+        {%- endfor -%}
+
+        {%- style -%}
+          .hero-natural--{{ section.id }} {
+            height: 0;
+            padding-bottom: {{ natural_height_ratio }};
+          }
+
+          @media screen and (max-width: 768px) {
+            .hero-natural--{{ section.id }} {
+              padding-bottom: {{ natural_height_ratio_mobile }};
+            }
+          }
+        {%- endstyle -%}
+
+        <div class="hero-natural--{{ section.id }}">
+          <div id="Slideshow-{{ section.id }}"
+            class="hero hero--{{ section.id }} loading loading--delayed"
+            data-natural="true"
+            data-autoplay="true"
+            data-speed="3000"
+            data-arrows="true"
+            data-slide-count="{{ collection.metafields.custom.kategoriebilder.value.size }}">
+            {%- for media in collection.metafields.custom.kategoriebilder.value -%}
+              <div
+                class="slideshow__slide slideshow__slide--{{ media.id }}"
+                data-index="{{ forloop.index0 }}"
+                data-id="{{ media.id }}">
+                
+
+                <div class="hero__image-wrapper">
+
+                  {%- if section.settings.parallax -%}
+                    <div class="parallax-container">
+                      <div class="parallax-image">
+                  {%- endif -%}
+
+                    {%- if media != blank -%}
+                      {%- assign img_url = media | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+                      <img class="hero__image hero__image--{{ block.id }} lazyload"
+                        src="{{ media | img_url: '300x' }}"
+                        data-src="{{ img_url }}"
+                        data-aspectratio="{{ media.aspect_ratio }}"
+                        data-sizes="auto"
+                        alt="{{ media.alt | escape }}">
+                      
+                      <noscript>
+                        <img class="hero__image hero__image--{{ block.id }}"
+                          src="{{ media.image | img_url: '1400x' }}"
+                          alt="{{ media.alt | escape }}">
+                      </noscript>
+                    {%- else -%}
+                      {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                    {%- endif -%}
+
+                  {%- if section.settings.parallax -%}
+                      </div>
+                    </div>
+                  {%- endif -%}
+                </div>
+
+                
+
+              </div>
+            {%- endfor -%}
+          </div>
+        </div>
+      </div>
+    
+
+    
+  </div>
+
+        <!-- vz edit -->
+        
+     
 
       {%- paginate collection.products by paginate_by -%}
       <div class="grid">
