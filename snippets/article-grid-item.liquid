@@ -66,7 +66,7 @@
         {%- endif -%}
       </div>
     {%- else -%}
-      <a href="{{ article.url }}" class=".article__title">{{ article.title }}</a>
+      <a href="{{ article.url }}" class="article__title">{{ article.title }}</a>
       <div class="article__sub-meta">
         {%- if show_date -%}
           <span class="article__sub-meta-date">{{ article.published_at | time_tag: format: 'month_day_year' }}</span>
