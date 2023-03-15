@@ -6902,7 +6902,7 @@ lazySizesConfig.expFactor = 4;
         const formEl = el.closest('form');
         const formData = new FormData(formEl);
   
-        this.renderActiveTag(parent, el);
+        /*this.renderActiveTag(parent, el);*/
         this.updateScroll(true);
         this.startLoading();
         this.renderFromFormData(formData);
