@@ -164,10 +164,8 @@
         "blog": "news",
         "blog_show_tags": true,
         "blog_show_excerpt": true,
-        "blog_show_image": true,
         "blog_show_date": false,
-        "divider": false,
-        "blog_image_size": "wide"
+        "divider": false
       }
     },
     "c5e4a292-5547-4722-8908-f8e44d7f0a72": {
@@ -177,10 +175,8 @@
         "blog": "ideen",
         "blog_show_tags": true,
         "blog_show_excerpt": true,
-        "blog_show_image": true,
         "blog_show_date": true,
-        "divider": false,
-        "blog_image_size": "wide"
+        "divider": false
       }
     },
     "61a6d63d-1e52-498b-b291-23b56f504820": {
@@ -308,37 +304,6 @@
         "round_images": true,
         "color_scheme": "none"
       }
-    },
-    "5aada132-47b1-4d95-b4fe-e2e6d88becdd": {
-      "type": "rich-text-sidebar",
-      "blocks": {
-        "template--18273042170160__5aada132-47b1-4d95-b4fe-e2e6d88becdd-1678885822cb62771c-0": {
-          "type": "text",
-          "settings": {
-            "text": "<p>test test tets<\/p>"
-          }
-        },
-        "template--18273042170160__5aada132-47b1-4d95-b4fe-e2e6d88becdd-1678885822cb62771c-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Hier stehen Kontaktinformationen drin.<\/p>"
-          }
-        },
-        "36016345-7dc6-4840-9256-e3e8f8e336e5": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/press-icon2.png"
-          }
-        }
-      },
-      "block_order": [
-        "template--18273042170160__5aada132-47b1-4d95-b4fe-e2e6d88becdd-1678885822cb62771c-0",
-        "template--18273042170160__5aada132-47b1-4d95-b4fe-e2e6d88becdd-1678885822cb62771c-1",
-        "36016345-7dc6-4840-9256-e3e8f8e336e5"
-      ],
-      "settings": {
-        "enlarge_text": false
-      }
     }
   },
   "order": [
@@ -349,7 +314,6 @@
     "c5e4a292-5547-4722-8908-f8e44d7f0a72",
     "61a6d63d-1e52-498b-b291-23b56f504820",
     "21febce1-97b9-4f8a-a452-d41a6bc2c875",
-    "c185c803-627b-44c4-bb29-cd2ef0e10fae",
-    "5aada132-47b1-4d95-b4fe-e2e6d88becdd"
+    "c185c803-627b-44c4-bb29-cd2ef0e10fae"
   ]
 }

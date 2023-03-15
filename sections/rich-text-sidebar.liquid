@@ -9,7 +9,7 @@
                 {{ 'home_page.onboarding.no_content' | t }}
             {%- endif -%}
         {% when "image" %}
-            <img src="{{ block.settings.image | image_url: '2048x' | image_tag }}" loading="lazy" height=50 width=50/>
+            <img src="{{ block.settings.image | image_url | image_tag }}" height=50 width=50/>
             {%- when 'text' -%}
                 <div class="rte">
                   {%- if block.settings.text != blank -%}
