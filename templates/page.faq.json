@@ -20,7 +20,7 @@
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#fff",
+            "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
             "overlay_opacity": 0,
             "focal_point": "center center"
@@ -202,7 +202,8 @@
         "953380eb-d508-4b34-896d-46e792fa2945"
       ],
       "settings": {
-        "title": "FAQs"
+        "title": "Häufig gestellte Fragen",
+        "description": "Sie haben Fragen? Wir haben Antworten: Deshalb finden Sie hier eine Übersicht der am häufigsten gestellten Fragen. Sollte Ihre nicht dabei sein, zögern Sie nicht, uns zu kontaktieren."
       }
     }
   },
