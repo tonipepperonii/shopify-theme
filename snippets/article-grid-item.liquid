@@ -27,7 +27,7 @@
                     alt="{{ article.image.alt | escape }}">
               </div>
               <noscript>
-                <img class="lazyloaded" src="{{ article.image | img_url: '400x' }}" alt="{{ article.title | escape }}" height=auto width=auto loading=lazy>
+                <img class="lazyloaded" src="{{ article.image | img_url: '400x' }}" alt="{{ article.title | escape }}">
               </noscript>
             </div>
           {%- else -%}
@@ -41,12 +41,11 @@
                   alt="{{ article.image.alt | escape }}"
                   height=auto width=auto>
               <noscript>
-                <img class="lazyloaded" src="{{ article.image | img_url: '400x' }}" alt="{{ article.title | escape }}" height=auto width=auto loading=lazy>
+                <img class="lazyloaded" src="{{ article.image | img_url: '400x' }}" alt="{{ article.title | escape }}">
               </noscript>
             </div>
           {%- endif -%}
       {%- endif -%}
-    {%- endif -%}
     {%- endif -%}
     {%- if show_tags and article.tags.size > 0 -%}
       <div class="grid-article__tags">
@@ -83,6 +82,7 @@
         {%- endif -%}
     {%- endif -%}
   {%- endif-%}
+{%- endif -%}
 </div>
 
 </div>

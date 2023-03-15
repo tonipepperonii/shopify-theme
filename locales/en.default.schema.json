@@ -1881,6 +1881,30 @@
         }
       }
     },
+    "rich-text-sidebar": {
+      "name": "Rich Text Sidebar",
+      "blocks": {
+        "heading": {
+          "name": "Heading",
+          "settings": {
+            "title": {
+              "label": "Heading"
+            }
+          }
+        },
+        "text": {
+          "name": "Text",
+          "settings": {
+            "text": {
+              "label": "Text"
+            }
+          }
+        },
+        "image_picker": {
+          "name": "Image"
+        }
+      }
+    },
     "slideshow-image": {
       "name": "Image (optional slides)",
       "settings": {

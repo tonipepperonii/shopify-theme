@@ -1881,6 +1881,30 @@
         }
       }
     },
+    "rich-text-sidebar": {
+      "name": "Rich Text mit Sidebar",
+      "blocks": {
+        "heading": {
+          "name": "Überschrift",
+          "settings": {
+            "title": {
+              "label": "Überschrift"
+            }
+          }
+        },
+        "text": {
+          "name": "Text",
+          "settings": {
+            "text": {
+              "label": "Text"
+            }
+          }
+        },
+        "image_picker": {
+          "name": "Bild"
+        }
+      }
+    },
     "slideshow-image": {
       "name": "Bild (optionale Slides",
       "settings": {
