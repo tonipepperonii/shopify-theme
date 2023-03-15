@@ -1,9 +1,12 @@
-<div class="rich-text-sidebar-container">
+<div class="page-width">
+
 {% for block in section.blocks %}
+    <div class="rich-text-sidebar-container">
     {% case block.type %}
         {% when "image" %}
             <img src="{{ block.settings.image | img_url:'master' }}" height=100 width=100/>
         {%- when 'text' -%}
+                <div class="rte">
                   {%- if block.settings.text != blank -%}
                     {%- if block.settings.enlarge_text %}<div class="enlarge-text">{% endif -%}
                     {{ block.settings.text }}
@@ -11,10 +14,11 @@
                   {%- else -%}
                     {{ 'home_page.onboarding.no_content' | t }}
                   {%- endif -%}
+                </div>
             
     {% endcase %}
 {% endfor %}
-
+</div>
 </div>
 
 {% schema %}
