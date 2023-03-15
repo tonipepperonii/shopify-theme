@@ -10,12 +10,16 @@
             {%- endif -%}
         {% when "image" %}
             <img src="{{ block.settings.image | image_url: '2048x' | image_tag }}" loading="lazy" height=50 width=50/>
-        {% when "text" %}
-            {%- if block.settings.text != blank -%}
-                {{ block.settings.text }}
-            {%- else -%}
-            {{ 'home_page.onboarding.no_content' | t }}
-            {%- endif -%}
+            {%- when 'text' -%}
+                <div class="rte">
+                  {%- if block.settings.text != blank -%}
+                    {%- if block.settings.enlarge_text %}<div class="enlarge-text">{% endif -%}
+                    {{ block.settings.text }}
+                    {%- if block.settings.enlarge_text %}</div>{% endif -%}
+                  {%- else -%}
+                    {{ 'home_page.onboarding.no_content' | t }}
+                  {%- endif -%}
+                </div>
     {% endcase %}
 {% endfor %}
 </div>
@@ -23,6 +27,14 @@
 {% schema %}
 {
   "name": "t:sections.rich-text-sidebar.name",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enlarge_text",
+      "label": "t:sections.rich-text-sidebar.blocks.text.settings.enlarge_text.label",
+      "default": true
+    }
+  ],
   "blocks": [
     {
       "type": "heading",
