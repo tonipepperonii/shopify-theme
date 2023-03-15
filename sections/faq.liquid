@@ -62,9 +62,11 @@
                 aria-controls="FAQ-content-{{ block.id }}">
                 <span class="collapsible-trigger__layout">
                   <span>
+                    {%- render 'collapsible-icons' -%}
                     <span>{{ block.settings.title }}</span>
+                    
                   </span>
-                  {%- render 'collapsible-icons' -%}
+                  
                 </span>
               </button>
               <div id="FAQ-content-{{ block.id }}" class="collapsible-content collapsible-content--all">
