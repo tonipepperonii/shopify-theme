@@ -9,6 +9,11 @@
       </h2>
     </header>
   {%- endif -%}
+  {%- if section.settings.description != blank -%}
+      <p>
+        {{ section.settings.description | escape }}
+      </p>
+  {%- endif -%}
 
   {%- if section.blocks.size > 0 -%}
 
