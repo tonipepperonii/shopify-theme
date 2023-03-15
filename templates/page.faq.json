@@ -13,7 +13,7 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<h1>Fragen und Antworten<\/h1>",
+            "title": "<h1>FAQ<\/h1>",
             "title_size": 70,
             "subheading": "",
             "link": "",
@@ -22,6 +22,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/faq-banner.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -32,39 +33,11 @@
       ],
       "settings": {
         "full_width": true,
-        "desktop_size": -40,
-        "mobile_size": 0,
+        "desktop_size": 10,
+        "mobile_size": 20,
         "style": "arrows",
         "autoplay": true,
         "autoplay_speed": 7
-      }
-    },
-    "3c7f59d0-aa81-4e78-b021-f13d8b912b9b": {
-      "type": "rich-text",
-      "blocks": {
-        "template--18204113535280__3c7f59d0-aa81-4e78-b021-f13d8b912b9b-167783245720b5ce44-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Häufig gestellte Fragen"
-          }
-        },
-        "template--18204113535280__3c7f59d0-aa81-4e78-b021-f13d8b912b9b-167783245720b5ce44-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p>Sie haben Fragen? Wir haben Antworten: Deshalb finden Sie hier eine Übersicht der am häufigsten gestellten Fragen. Sollte Ihre nicht dabei sein, zögern Sie nicht, uns zu kontaktieren.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18204113535280__3c7f59d0-aa81-4e78-b021-f13d8b912b9b-167783245720b5ce44-0",
-        "template--18204113535280__3c7f59d0-aa81-4e78-b021-f13d8b912b9b-167783245720b5ce44-1"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": false,
-        "color_scheme": "1",
-        "divider": false
       }
     },
     "2c8e42b0-832c-4781-aa09-12189e2f91fb": {
@@ -210,7 +183,6 @@
   "order": [
     "main",
     "16f81cd6-1a19-4f18-9be3-f81d86f752c5",
-    "3c7f59d0-aa81-4e78-b021-f13d8b912b9b",
     "2c8e42b0-832c-4781-aa09-12189e2f91fb"
   ]
 }
