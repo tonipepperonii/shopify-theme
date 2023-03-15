@@ -39,55 +39,8 @@
   data-section-type="collection-template"
   data-collection-template="true"
 >
-  <div id="CollectionAjaxContent">
-    <div class="page-width">
-      {%- liquid
-        assign paginate_by = 40
 
-        assign current_filter_size = 0
-        for filter in collection.filters
-          assign current_filter_size = current_filter_size | plus: filter.active_values.size
-        endfor
-      -%}
-
-      
-      <div class="tabs">
-        <ul class="tabs-nav">
-          <li><a href="#tab-1">Features</a></li>
-          <li><a href="#tab-2">Details</a></li>
-        </ul>
-        <div class="tabs-stage">
-          <div id="tab-1">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec neque nisi, dictum aliquet lectus.</p>
-          </div>
-          <div id="tab-2">
-            <p>Phasellus pharetra aliquet viverra. Donec scelerisque tincidunt diam, eu fringilla urna auctor at.</p>
-          </div>
-        </div>
-      </div>
-
-      
-
-      <div class="vz_tabs">
-        <nav>
-          <ul>
-            <li><a href="#tab-1">Features</a></li>
-            <li><a href="#tab-2">Details</a></li>
-          </ul>
-        </nav>
-        <div class="vz_content-wrap">
-          <section id="tab-1" class="vz_content-current">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec neque nisi, dictum aliquet lectus.</p>
-          </section>
-          <section id="tab-2">
-            <p>Phasellus pharetra aliquet viverra. Donec scelerisque tincidunt diam, eu fringilla urna auctor at.</p>
-          </section>
-        </div>
-      </div>
-
-      <script src="file:///cdn.shopify.com/s/files/1/0729/7653/1760/t/7/assets/visionz.js%3Fv=12198002557135085691678719573"></script>
-      
-      <!-- vz edit -->
+  <!-- vz edit -->
    
   <div
     data-section-id="{{ section.id }}"
@@ -197,6 +150,56 @@
   </div>
 
         <!-- vz edit -->
+                
+  <div id="CollectionAjaxContent">
+    <div class="page-width">
+      {%- liquid
+        assign paginate_by = 40
+
+        assign current_filter_size = 0
+        for filter in collection.filters
+          assign current_filter_size = current_filter_size | plus: filter.active_values.size
+        endfor
+      -%}
+
+      
+      <div class="tabs">
+        <ul class="tabs-nav">
+          <li><a href="#tab-1">Features</a></li>
+          <li><a href="#tab-2">Details</a></li>
+        </ul>
+        <div class="tabs-stage">
+          <div id="tab-1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec neque nisi, dictum aliquet lectus.</p>
+          </div>
+          <div id="tab-2">
+            <p>Phasellus pharetra aliquet viverra. Donec scelerisque tincidunt diam, eu fringilla urna auctor at.</p>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div class="vz_tabs">
+        <nav>
+          <ul>
+            <li><a href="#tab-1">Features</a></li>
+            <li><a href="#tab-2">Details</a></li>
+          </ul>
+        </nav>
+        <div class="vz_content-wrap">
+          <section id="tab-1" class="vz_content-current">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec neque nisi, dictum aliquet lectus.</p>
+          </section>
+          <section id="tab-2">
+            <p>Phasellus pharetra aliquet viverra. Donec scelerisque tincidunt diam, eu fringilla urna auctor at.</p>
+          </section>
+        </div>
+      </div>
+
+      <script src="file:///cdn.shopify.com/s/files/1/0729/7653/1760/t/7/assets/visionz.js%3Fv=12198002557135085691678719573"></script>
+      
+      
         
      
 
