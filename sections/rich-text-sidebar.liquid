@@ -4,12 +4,12 @@
 
         {% when "title" %}
             {%- if block.settings.title != blank -%}
-                <h2>{{ block.settings.title | escape }}</h2>
+                <h2>{{ block.settings.title }}</h2>
                 {%- else -%}
                 {{ 'home_page.onboarding.no_content' | t }}
             {%- endif -%}
         {% when "image" %}
-            <img src="{{ block.settings.image | img_url:'master' }}" height=50 width=50/>
+            <img src="{{ block.settings.image | img_url:'master' }}" height=100 width=100/>
             {%- when 'text' -%}
                 <div class="rte">
                   {%- if block.settings.text != blank -%}
