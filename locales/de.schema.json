@@ -1884,14 +1884,6 @@
     "rich-text-sidebar": {
       "name": "Rich Text mit Sidebar",
       "blocks": {
-        "heading": {
-          "name": "Überschrift",
-          "settings": {
-            "title": {
-              "label": "Überschrift"
-            }
-          }
-        },
         "image_picker": {
           "name": "Bild",
           "settings": {

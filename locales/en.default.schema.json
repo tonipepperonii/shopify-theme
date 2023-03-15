@@ -1884,14 +1884,6 @@
     "rich-text-sidebar": {
       "name": "Rich Text Sidebar",
       "blocks": {
-        "heading": {
-          "name": "Heading",
-          "settings": {
-            "title": {
-              "label": "Heading"
-            }
-          }
-        },
         "image_picker": {
           "name": "Image",
           "settings": {
