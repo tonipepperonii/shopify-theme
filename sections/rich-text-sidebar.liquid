@@ -1,4 +1,5 @@
 <div class="page-width">
+    <div class="rich-text-sidebar-container">
 {% for block in section.blocks %}
     {% case block.type %}
         {% when "image" %}
@@ -13,8 +14,10 @@
                     {{ 'home_page.onboarding.no_content' | t }}
                   {%- endif -%}
                 </div>
+            
     {% endcase %}
 {% endfor %}
+</div>
 </div>
 
 {% schema %}
@@ -44,6 +47,12 @@
       "type": "text",
       "name": "t:sections.rich-text-sidebar.blocks.text.name",
       "settings": [
+        {
+          "type":"checkbox",
+          "id":"text_color",
+          "label": "t:sections.rich-text-sidebar.blocks.text.settings.checkbox.label",
+          "default": false
+        },
         {
           "id": "text",
           "type": "richtext",
