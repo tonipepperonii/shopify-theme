@@ -11,6 +11,11 @@
   });
 */
 
+
+
+window.theme = window.theme || {};
+window.Shopify = window.Shopify || {};
+
 ;( function( window ) {
 	
 	'use strict';
@@ -75,9 +80,6 @@
 	window.CBPFWTabs = CBPFWTabs;
 
 })( window );
-
-window.theme = window.theme || {};
-window.Shopify = window.Shopify || {};
 
 theme.config = {
   bpSmall: false,
