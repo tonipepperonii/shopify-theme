@@ -1,35 +1,10 @@
 {%- liquid
-  unless thumbnail_position
-    assign thumbnail_position = 'beside'
-  endunless
-
-  assign product_zoom_size = '1800x1800'
-
-  assign enableHistory = true
-  if isModal or isAjax
-    assign enableHistory = false
-  endif
-
-  case image_container_width
-    when 'small'
-      assign product_image_width = 'medium-up--two-fifths'
-      assign product_description_width = 'medium-up--three-fifths'
-    when 'medium'
-      assign product_image_width = 'medium-up--one-half'
-      assign product_description_width = 'medium-up--one-half'
-    when 'large'
-      assign product_image_width = 'medium-up--three-fifths'
-      assign product_description_width = 'medium-up--two-fifths'
-  endcase
-   
   assign show_sidebar = true
   assign total_tags = 0
 
   if section.settings.enable_sidebar == false or collection.filters.size == 0
     assign show_sidebar = false
   endif
-
-  
 -%}
 
 <div
@@ -51,17 +26,11 @@
       -%}
 
       <p>hallo</p>
-      <p>{{ collection.metafields.custom.kategoriebilder.value.size }}</p>
+      <p>{{ collection.metafields.custom.kategoriebilder.type }}</p>
       
-      {%- for media in collection.metafields.custom.kategoriebilder.value -%}
-        <p>{{ media }}</p>
-
-        {%- render 'media',
-              media: media,
-              featured_media: media
-            -%}
+      {%- for file_reference in collection.metafields.custom.kategoriebilder -%}
+        <p>{{ file_reference }}</p>
         
-      {%- else -%} nix drin hier
       {%- endfor -%}
           
       {%- render 'collection-images',
@@ -69,7 +38,7 @@
               collection: collection,
               isModal: isModal,
               image_position: image_position,
-              image_size: "1800x1800",
+              image_size: image_size,
               product_zoom_enable: product_zoom_enable,
               product_zoom_size: product_zoom_size,
               thumbnail_arrows: thumbnail_arrows,
