@@ -164,10 +164,8 @@
         "blog": "news",
         "blog_show_tags": true,
         "blog_show_excerpt": true,
-        "blog_show_image": true,
         "blog_show_date": false,
-        "divider": false,
-        "blog_image_size": "wide"
+        "divider": false
       }
     },
     "c5e4a292-5547-4722-8908-f8e44d7f0a72": {
@@ -177,10 +175,8 @@
         "blog": "ideen",
         "blog_show_tags": true,
         "blog_show_excerpt": true,
-        "blog_show_image": true,
         "blog_show_date": true,
-        "divider": false,
-        "blog_image_size": "wide"
+        "divider": false
       }
     },
     "61a6d63d-1e52-498b-b291-23b56f504820": {
