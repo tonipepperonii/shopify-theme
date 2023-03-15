@@ -1901,7 +1901,12 @@
           }
         },
         "image_picker": {
-          "name": "Image"
+          "name": "Image",
+          "settings": {
+            "image": {
+              "label": "Image"
+            }
+          }
         }
       }
     },
