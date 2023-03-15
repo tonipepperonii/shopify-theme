@@ -5,6 +5,7 @@
     {% case block.type %}
         {% when "image" %}
             <img src="{{ block.settings.image | img_url:'master' }}" height=100 width=100/>
+            <div class="testimonail-image testimonail-image--round">
         {%- when 'text' -%}
                 <div class="rte">
                   {%- if block.settings.text != blank -%}
