@@ -1884,7 +1884,7 @@
     "rich-text-sidebar": {
       "name": "Rich Text mit Sidebar",
       "blocks": {
-        "image_picker": {
+        "image": {
           "name": "Bild",
           "settings": {
             "image": {
