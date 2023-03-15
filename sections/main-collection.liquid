@@ -154,11 +154,6 @@
 
                 <div class="hero__image-wrapper">
 
-                  {%- if section.settings.parallax -%}
-                    <div class="parallax-container">
-                      <div class="parallax-image">
-                  {%- endif -%}
-
                     {%- if media != blank -%}
                       {%- assign img_url = media | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
@@ -178,10 +173,7 @@
                       {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
                     {%- endif -%}
 
-                  {%- if section.settings.parallax -%}
-                      </div>
-                    </div>
-                  {%- endif -%}
+                  
                 </div>
 
                 
