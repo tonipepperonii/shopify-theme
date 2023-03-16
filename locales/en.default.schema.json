@@ -1883,6 +1883,11 @@
     },
     "rich-text-sidebar": {
       "name": "Rich Text Sidebar",
+      "settings": {
+        "enlarge_text": {
+          "label": "Text size"
+        }
+      },
       "blocks": {
         "image": {
           "name": "Image",
