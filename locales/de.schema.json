@@ -1893,12 +1893,7 @@
           }
         },
         "text": {
-          "name": "Text",
-          "settings": {
-            "text": {
-              "label": "Text"
-            }
-          }
+          "name": "Rich Text"
         },
         "presets": {
           "rich_text_sidebar": {

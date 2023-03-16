@@ -1896,9 +1896,15 @@
           "name": "Text",
           "settings": {
             "text": {
-              "label": "Text"
+              "label": "Text für sidebar"
+            },
+            "text_color": {
+              "label": "Text color"
             }
           }
+        },
+        "text2": {
+          "name": "Text2"
         },
         "presets": {
           "rich_text_sidebar": {
