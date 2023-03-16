@@ -1909,7 +1909,12 @@
           }
         },
         "text2": {
-          "name": "Text2"
+          "name": "Text2",
+          "settings": {
+            "text2": {
+              "label": "Rich Text"
+            }
+          }
         },
         "presets": {
           "rich_text_sidebar": {
