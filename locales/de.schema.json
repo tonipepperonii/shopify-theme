@@ -1881,6 +1881,46 @@
         }
       }
     },
+    "sidebar-rich-text": {
+      "name": "Sidebar Rich Text",
+      "settings": {
+        "title": {
+          "label": "Überschrift"
+        }
+      },
+      "blocks": {
+        "richtext": {
+          "name": "Main Rich Text",
+          "settings": {
+            "richtext": {
+              "label": "Rich Text Main"
+            }
+          }
+        },
+        "sidebar": {
+          "name": "Sidebar",
+          "settings": {
+            "richtext_sidebar": {
+              "label": "Richtext Sidebar Kontakt"
+            },
+            "image_sidebar": {
+              "label": "Kontakt Bild"
+            }
+          }
+        },
+        "sidebar2": {
+          "name": "Sidebar 2",
+          "settings": {
+            "richtext_sidebar2": {
+              "label": "Richtext Sidebar Information"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Sidebar mit Rich Text"
+      }
+    },
     "rich-text-sidebar": {
       "name": "Rich Text mit Sidebar",
       "settings": {
