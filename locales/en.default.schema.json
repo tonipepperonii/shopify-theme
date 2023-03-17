@@ -1884,11 +1884,14 @@
     "sidebar-rich-text": {
       "name": "Sidebar Rich Text",
       "settings": {
-        "side-richtext": {
-          "label": "Side Richtext"
+        "side-title": {
+          "label": "Heading"
         },
         "image": {
           "label": "Image"
+        },
+        "side-richtext": {
+          "label": "Side Richtext"
         }
       },
       "blocks": {

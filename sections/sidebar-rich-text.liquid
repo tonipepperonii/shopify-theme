@@ -1,7 +1,8 @@
 <div class="page-width">
 <div class="rich-text-sidebar-container">
-  {{ section.settings.side-richtext }}
+  {{ section.settings.side-title }}
   <img src="{{ section.settings.image | img_url:'master' }}" height=100 width=100 loading="lazy"/>
+  {{ section.settings.side-richtext }}
 </div>
   {% for block in section.blocks %}
 
@@ -15,15 +16,20 @@
   "name": "t:sections.sidebar-rich-text.name",
   "settings": [
     {
-      "type": "richtext",
-      "id": "side-richtext",
-      "label": "t:sections.sidebar-rich-text.settings.side-richtext.label"
+      "type":"text",
+      "id":"side-title",
+      "label":"t:sections.sidebar-rich-text.settings.side-title.label"
     },
     {
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.sidebar-rich-text.settings.image.label"
-    }
+    },
+    {
+      "type": "richtext",
+      "id": "side-richtext",
+      "label": "t:sections.sidebar-rich-text.settings.side-richtext.label"
+    } 
   ],
   "blocks": [
     {

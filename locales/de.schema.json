@@ -1884,11 +1884,14 @@
     "sidebar-rich-text": {
       "name": "Rich Text mit Seitenleiste",
       "settings": {
-        "side-richtext": {
-          "label": "Seitlicher Richtext"
+        "side-title": {
+          "label": "Überschrift"
         },
         "image": {
           "label": "Bild"
+        },
+        "side-richtext": {
+          "label": "Seitlicher Richtext"
         }
       },
       "blocks": {
