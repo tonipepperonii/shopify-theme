@@ -1910,48 +1910,6 @@
         }
       }
     },
-    "rich-text-sidebar": {
-      "name": "Rich Text Sidebar",
-      "settings": {
-        "enlarge_text": {
-          "label": "Text size"
-        }
-      },
-      "blocks": {
-        "image": {
-          "name": "Image",
-          "settings": {
-            "image_picker": {
-              "label": "Image"
-            }
-          }
-        },
-        "text": {
-          "name": "Text",
-          "settings": {
-            "text": {
-              "label": "Text für sidebar"
-            },
-            "text_color": {
-              "label": "Text color"
-            }
-          }
-        },
-        "text2": {
-          "name": "Text2",
-          "settings": {
-            "text2": {
-              "label": "Rich Text"
-            }
-          }
-        },
-        "presets": {
-          "rich_text_sidebar": {
-            "name": "Rich Text mit Sidebar"
-          }
-        }
-      }
-    },
     "slideshow-image": {
       "name": "Image (optional slides)",
       "settings": {

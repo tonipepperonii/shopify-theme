@@ -1,14 +1,18 @@
-<div class="page-width">
-<div class="rich-text-sidebar-container">
-  {{ section.settings.side-title }}
+<div class="rich-text-with-sidebar-card">
+  {% for block in section.blocks %}
+    {% case block.type %}
+      {% when "text"%}
+        <div class="rich-text-with-sidebar-main-container">
+      {{ block.settings.main_richtext }}
+        </div>
+    {% endcase %}
+{% endfor %}
+<div class="rich-text-with-sidebar-sidebar-container">
+  <b style="color:#f39200, text-align:center, font-size:16px">{{ section.settings.side-title }}</b><br>
   <img src="{{ section.settings.image | img_url:'master' }}" height=100 width=100 loading="lazy"/>
   {{ section.settings.side-richtext }}
 </div>
-  {% for block in section.blocks %}
-
-      {% case block.type %}
-      {% endcase %}
-  {% endfor %}
+  
 </div>
 
 {% schema %}
@@ -16,9 +20,9 @@
   "name": "t:sections.sidebar-rich-text.name",
   "settings": [
     {
-      "type":"text",
-      "id":"side-title",
-      "label":"t:sections.sidebar-rich-text.settings.side-title.label"
+      "type": "text",
+      "id": "side-title",
+      "label": "t:sections.sidebar-rich-text.settings.side-title.label"
     },
     {
       "type": "image_picker",
@@ -29,7 +33,7 @@
       "type": "richtext",
       "id": "side-richtext",
       "label": "t:sections.sidebar-rich-text.settings.side-richtext.label"
-    } 
+    }
   ],
   "blocks": [
     {

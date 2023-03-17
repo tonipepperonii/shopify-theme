@@ -8659,16 +8659,31 @@ html[dir=rtl] .background-media-text__text{
   bottom:0;
 }
 
-.rich-text-sidebar-container{
-  margin-left: auto; 
-  margin-right: 0;
-  margin-bottom:10px
-  padding: 10px 10px 10px 10px;
+.rich-text-with-sidebar-card {
+  max-width:1500px;
+  margin-top:20px !important;
+  margin-bottom:20px !important;
+  padding:0 40px;
+  padding:0 var(--pageWidthPadding);
+  margin:0 auto;
+  display: grid; 
+  grid-template-columns: 3fr 1fr; 
+  gap: 30px 30px; 
+}
+
+.rich-text-with-sidebar-sidebar-container{
+  position: -webkit-sticky;
+  position: sticky !important;
   box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
   border-radius:5px;
+  padding-top:25px !important;
+  padding-bottom:27px !important;
   text-align:center;
-  width:300px;
 }
+.rich-text-with-sidebar-main-container{
+
+}
+
 
 .announcement-bar{
   position:relative;
