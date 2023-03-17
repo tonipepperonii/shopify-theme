@@ -1884,35 +1884,19 @@
     "sidebar-rich-text": {
       "name": "Sidebar Rich Text",
       "settings": {
-        "title": {
-          "label": "Heading"
+        "side-richtext": {
+          "label": "Side Richtext"
+        },
+        "image": {
+          "label": "Image"
         }
       },
       "blocks": {
-        "richtext": {
-          "name": "Main Rich Text",
+        "main_text": {
+          "name": "Main Text",
           "settings": {
-            "richtext": {
+            "main_richtext": {
               "label": "Rich Text Main"
-            }
-          }
-        },
-        "sidebar": {
-          "name": "Sidebar",
-          "settings": {
-            "richtext_sidebar": {
-              "label": "Richtext Sidebar Contact"
-            },
-            "image_sidebar": {
-              "label": "Contact Image"
-            }
-          }
-        },
-        "sidebar2": {
-          "name": "Sidebar 2",
-          "settings": {
-            "richtext_sidebar2": {
-              "label": "Richtext Sidebar Information"
             }
           }
         }

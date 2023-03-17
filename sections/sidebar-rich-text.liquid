@@ -1,0 +1,51 @@
+<div class="page-width">
+
+  {{ section.settings.side-richtext }}
+
+  {% for block in section.blocks %}
+
+      {% case block.type %}
+      {% endcase %}
+  {% endfor %}
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.sidebar-rich-text.name",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "side-richtext",
+      "label": "t:sections.sidebar-rich-text.settings.side-richtext.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.sidebar-rich-text.settings.image.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "t:sections.sidebar-rich-text.blocks.main_text.name",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "main_richtext",
+          "label": "t:sections.sidebar-rich-text.blocks.main_text.settings.main_richtext.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.sidebar-rich-text.presets:sidebar_rich_text.name",
+      "blocks": [
+        {
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
