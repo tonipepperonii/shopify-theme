@@ -1,7 +1,8 @@
 <div class="page-width">
-
+<div class="rich-text-sidebar-container">
   {{ section.settings.side-richtext }}
-
+  <img src="{{ section.settings.image | img_url:'master' }}" height=100 width=100 loading="lazy"/>
+</div>
   {% for block in section.blocks %}
 
       {% case block.type %}
@@ -32,14 +33,15 @@
         {
           "type": "richtext",
           "id": "main_richtext",
-          "label": "t:sections.sidebar-rich-text.blocks.main_text.settings.main_richtext.label"
+          "label": "t:sections.sidebar-rich-text.blocks.main_text.settings.main_richtext.label",
+          "default": "<h1>Hier steht ein Beispiel</h1> <p>So könnte es aussehen</p>"
         }
       ]
     }
   ],
   "presets": [
     {
-      "name": "t:sections.sidebar-rich-text.presets:sidebar_rich_text.name",
+      "name": "t:sections.sidebar-rich-text.presets.rich_text_with_sidebar.name",
       "blocks": [
         {
           "type": "text"

@@ -1882,28 +1882,28 @@
       }
     },
     "sidebar-rich-text": {
-      "name": "Sidebar Rich Text",
+      "name": "Rich Text mit Seitenleiste",
       "settings": {
         "side-richtext": {
-          "label": "Side Richtext"
+          "label": "Seitlicher Richtext"
         },
         "image": {
-          "label": "Image"
+          "label": "Bild"
         }
       },
       "blocks": {
         "main_text": {
-          "name": "Main Text",
+          "name": "Rich Text",
           "settings": {
             "main_richtext": {
-              "label": "Rich Text Main"
+              "label": "Rich Text"
             }
           }
         }
       },
       "presets": {
         "rich_text_with_sidebar": {
-          "name": "Side bar Rich text"
+          "name": "Rich Text mit Seitenleiste"
         }
       }
     },
