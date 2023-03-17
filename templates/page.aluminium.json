@@ -20,7 +20,7 @@
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#fff",
+            "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
             "overlay_opacity": 0,
             "focal_point": "center center"
@@ -48,6 +48,25 @@
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
+      }
+    },
+    "83ac5290-4cf8-4459-b5c3-28d073549bf9": {
+      "type": "sidebar-rich-text",
+      "blocks": {
+        "template--18273042759984__83ac5290-4cf8-4459-b5c3-28d073549bf9-167904782083436462-0": {
+          "type": "text",
+          "settings": {
+            "main_richtext": "<h1>Hier steht ein Beispiel<\/h1> <p>So könnte es aussehen<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18273042759984__83ac5290-4cf8-4459-b5c3-28d073549bf9-167904782083436462-0"
+      ],
+      "settings": {
+        "side-title": "test",
+        "image": "shopify:\/\/shop_images\/avatar.png",
+        "side-richtext": "<p>ssss<\/p>"
       }
     },
     "823cf8be-d4a2-4a67-ae19-6b5b3d78b085": {
@@ -88,6 +107,7 @@
     "main",
     "5e82f5e4-ca58-4c76-8bd5-0427bd62a866",
     "61317d98-83de-4f4d-8345-077f3e07320f",
+    "83ac5290-4cf8-4459-b5c3-28d073549bf9",
     "823cf8be-d4a2-4a67-ae19-6b5b3d78b085"
   ]
 }
