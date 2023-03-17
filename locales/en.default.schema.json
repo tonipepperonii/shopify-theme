@@ -1902,7 +1902,9 @@
         }
       },
       "presets": {
-        "name": "Rich Text with Sidebar"
+        "rich_text_with_sidebar": {
+          "name": "Rich Text With Sidebar"
+        }
       }
     },
     "rich-text-sidebar": {
