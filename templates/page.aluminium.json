@@ -56,7 +56,7 @@
         "template--18273042759984__83ac5290-4cf8-4459-b5c3-28d073549bf9-167904782083436462-0": {
           "type": "text",
           "settings": {
-            "main_richtext": "<h1>Hier steht ein Beispiel<\/h1> <p>So könnte es aussehen<\/p>"
+            "main_richtext": "<h2>Aluminiumplatten nach Wunschmaß<\/h2><p>Man unterscheidet im Regelfall zwischen Aluminiumblechen und Aluminiumplatten. Von Alu Blechen spricht man im Regelfall <strong>bei Dicken bis ca. 8 mm. <\/strong>Aluminiumplatten hingegen sind die dickeren Platten, die auch in verschiedenen Verfahren hergestellt werden. <strong>So gibt es gewalzte Platten und gegossene Platten.<\/strong> Der Hauptunterschied zwischen diesen beiden Verfahren ist, dass die Gussplatten eine deutlich geringere Eigenspannung aufweisen und somit bei der weiterführenden Verarbeitung zum Beispiel durch das CNC Fräsen ihren klaren Vorteil gegenüber den Walzplatten ausspielen können. Daher werden auch im Bereich des Werkzeugbaus vorwiegende Gussplatten eingesetzt. <strong>Bei den Gussplatten gibt es nochmals zwei Hauptunterschiede.<\/strong><\/p><p>Zum einen die normalen Alu-Platten und zum anderen die Alu-Platten mit gefräster Oberfläche. Hierfür werden die rohen Gussplatten beidseitig feinstgefräst, wodurch man eine sehr plane Oberfläche erhält, die nur geringste Abweichungen in Bezug auf die gleichbleibende durchgehende Dickentoleranz und Oberflächenrauhigkeit aufweist. Nach dem Fräsen werden diese Alu-Platten noch beidseitig mit einer Schutzfolie versehen, damit diese bei Einlagerung und Handling vor Kratzern oder ähnlichem geschützt wird. Die Schutzfolie hat eine so hohe Adhäsion, dass sie so gut an den Aluminium-Gussplatten haftet, dass diese trotz der Folie problemlos mittels unseren Vakuumsaugern transportiert und für die Zuschnitte beschädigungsfrei auf unsere <strong>Plattensägen<\/strong> gelegt werden können. So ist jederzeit gewährleistet, dass nicht durch Staplerzinken die Oberfläche doch noch beschädigt werden kann.<\/p><p><\/p>"
           }
         }
       },
@@ -64,9 +64,9 @@
         "template--18273042759984__83ac5290-4cf8-4459-b5c3-28d073549bf9-167904782083436462-0"
       ],
       "settings": {
-        "side-title": "test",
+        "side-title": "Wir sind für Sie da:",
         "image": "shopify:\/\/shop_images\/avatar.png",
-        "side-richtext": "<p>ssss<\/p>"
+        "side-richtext": "<h3>Eduard Bratkowski<\/h3><p><strong>Kundenberater<\/strong><\/p><p><a href=\"tel:051216763562\"> 05121 6763562<\/a><a href=\"mailto:verkauf@alu-verkauf.de\"> <\/a><\/p><p><a href=\"mailto:verkauf@alu-verkauf.de\">verkauf@alu-verkauf.de<\/a><\/p>"
       }
     },
     "823cf8be-d4a2-4a67-ae19-6b5b3d78b085": {
