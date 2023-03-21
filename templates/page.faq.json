@@ -36,7 +36,7 @@
         "desktop_size": 0,
         "mobile_size": 20,
         "style": "arrows",
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_speed": 7
       }
     },
