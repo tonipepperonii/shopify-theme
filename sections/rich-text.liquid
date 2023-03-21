@@ -11,6 +11,7 @@
         {%- case block.type -%}
           {%- when 'heading' -%}
             <h2>{{ block.settings.title | escape }}</h2>
+            {%- if block.settings.show_line -%}<div class="vz-title-line"></div>{%- endif -%}
           {%- when 'page' -%}
             <div class="rte">
               {%- if block.settings.page_text != blank -%}
@@ -114,6 +115,11 @@
           "id": "title",
           "label": "t:sections.rich-text.blocks.heading.settings.title.label",
           "default": "Rich text"
+        }, {
+          "type": "checkbox",
+          "id": "show_line",
+          "label": "Überschrift Linie anzeigen",
+          "default": true
         }
       ]
     },
