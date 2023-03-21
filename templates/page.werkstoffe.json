@@ -22,7 +22,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/BARTELS_Fotografie-9154.jpg",
+            "image": "shopify:\/\/shop_images\/alu-verkauf-banner.jpg",
             "overlay_opacity": 50,
             "focal_point": "center center"
           }
@@ -33,8 +33,8 @@
       ],
       "settings": {
         "full_width": true,
-        "desktop_size": -40,
-        "mobile_size": 0,
+        "desktop_size": 0,
+        "mobile_size": 20,
         "style": "arrows",
         "autoplay": true,
         "autoplay_speed": 7
