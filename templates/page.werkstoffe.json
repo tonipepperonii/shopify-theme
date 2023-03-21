@@ -46,7 +46,8 @@
         "template--18204608954672__2bcb0b91-7c44-4198-96e9-16d6053e6160-167783245720b5ce44-0": {
           "type": "heading",
           "settings": {
-            "title": "Womit wir arbeiten"
+            "title": "Womit wir arbeiten",
+            "show_line": true
           }
         },
         "template--18204608954672__2bcb0b91-7c44-4198-96e9-16d6053e6160-167783245720b5ce44-1": {
