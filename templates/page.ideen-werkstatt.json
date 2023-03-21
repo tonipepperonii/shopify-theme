@@ -69,7 +69,7 @@
         "blog_show_tags": true,
         "blog_show_excerpt": true,
         "blog_show_image": true,
-        "blog_show_date": true,
+        "blog_show_date": false,
         "divider": false,
         "blog_image_size": "wide"
       }
