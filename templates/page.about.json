@@ -12,7 +12,18 @@
         "slideshow-0": {
           "type": "hero",
           "settings": {
-            "link_text": ""
+            "top_subheading": "",
+            "title": "<p>Overlaid Hero Slide<\/p>",
+            "title_size": 70,
+            "subheading": "And optional subtext",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#fff",
+            "text_align": "vertical-bottom horizontal-left",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
           }
         }
       },
@@ -20,6 +31,12 @@
         "slideshow-0"
       ],
       "settings": {
+        "full_width": true,
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
       }
     },
     "rich-text": {
@@ -28,11 +45,15 @@
         "heading": {
           "type": "heading",
           "settings": {
+            "title": "Rich text",
+            "show_line": false
           }
         },
         "text": {
           "type": "text",
           "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         }
       },
@@ -41,12 +62,10 @@
         "text"
       ],
       "settings": {
-        "color_scheme": "none"
-      }
-    },
-    "map": {
-      "type": "map",
-      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "none",
+        "divider": false
       }
     },
     "text-columns": {
@@ -55,16 +74,34 @@
         "column1": {
           "type": "text_block",
           "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
           }
         },
         "column2": {
           "type": "text_block",
           "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
           }
         },
         "column3": {
           "type": "text_block",
           "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
           }
         }
       },
@@ -74,17 +111,75 @@
         "column3"
       ],
       "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none"
+      }
+    },
+    "map": {
+      "type": "map",
+      "settings": {
+        "map_title": "Our retail store",
+        "address": "<p>301 Front St W<br>Toronto, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br>Saturday, 8:30am - 10:30pm<br>Sunday, 8:30am - 10:30pm<\/p>",
+        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
+        "api_key": "",
+        "show_button": true,
+        "background_image_position": "center center"
       }
     },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
       }
     },
     "form": {
       "type": "contact-form",
       "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true,
         "color_scheme": "none"
+      }
+    },
+    "cb6246e8-1e18-414d-b84a-9e2ccd65d423": {
+      "type": "vz-tabs",
+      "blocks": {
+        "template--18300172173616__cb6246e8-1e18-414d-b84a-9e2ccd65d423-16794846939f4eb2d6-0": {
+          "type": "text_block",
+          "settings": {
+            "title": "Beispiel title",
+            "text": "<p>Beispiel Text.<\/p>"
+          }
+        },
+        "template--18300172173616__cb6246e8-1e18-414d-b84a-9e2ccd65d423-16794846939f4eb2d6-1": {
+          "type": "text_block",
+          "settings": {
+            "title": "Beispiel title",
+            "text": "<p>Beispiel Text.<\/p>"
+          }
+        },
+        "template--18300172173616__cb6246e8-1e18-414d-b84a-9e2ccd65d423-16794846939f4eb2d6-2": {
+          "type": "text_block",
+          "settings": {
+            "title": "Beispiel title",
+            "text": "<p>Beispiel Text.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18300172173616__cb6246e8-1e18-414d-b84a-9e2ccd65d423-16794846939f4eb2d6-0",
+        "template--18300172173616__cb6246e8-1e18-414d-b84a-9e2ccd65d423-16794846939f4eb2d6-1",
+        "template--18300172173616__cb6246e8-1e18-414d-b84a-9e2ccd65d423-16794846939f4eb2d6-2"
+      ],
+      "settings": {
       }
     }
   },
@@ -95,6 +190,7 @@
     "text-columns",
     "map",
     "featured-collection",
-    "form"
+    "form",
+    "cb6246e8-1e18-414d-b84a-9e2ccd65d423"
   ]
 }

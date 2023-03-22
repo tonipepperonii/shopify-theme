@@ -325,6 +325,39 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "d4771e19-d282-4f71-bda9-b462fa39ebad": {
+      "type": "vz-tabs",
+      "blocks": {
+        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-0": {
+          "type": "text_block",
+          "settings": {
+            "title": "Beispiel title",
+            "text": "<p>Beispiel Text.<\/p>"
+          }
+        },
+        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-1": {
+          "type": "text_block",
+          "settings": {
+            "title": "Beispiel title",
+            "text": "<p>Beispiel Text.<\/p>"
+          }
+        },
+        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-2": {
+          "type": "text_block",
+          "settings": {
+            "title": "Beispiel title",
+            "text": "<p>Beispiel Text.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-0",
+        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-1",
+        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-2"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -337,6 +370,7 @@
     "ebdb93bb-6fe5-4b7a-97ea-54bbfb750ff7",
     "fccfe36a-d69f-423c-bc05-c083fea20d5b",
     "f2c4e170-0333-4fff-a0af-c4fa5648fa2e",
-    "ab825160-c211-4836-b641-fb9eb15ebdc3"
+    "ab825160-c211-4836-b641-fb9eb15ebdc3",
+    "d4771e19-d282-4f71-bda9-b462fa39ebad"
   ]
 }
