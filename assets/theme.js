@@ -11,8 +11,6 @@
   });
 */
 
-
-
 window.theme = window.theme || {};
 window.Shopify = window.Shopify || {};
 
