@@ -1895,6 +1895,9 @@
         },
         "versand-richtext": {
           "label": "Versand Richtext"
+        },
+        "checkbox": {
+          "label": "Trusted Shops Checkbox"
         }
       },
       "blocks": {
