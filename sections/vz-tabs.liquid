@@ -7,7 +7,6 @@
   </ul>
   <div class="tabs-stage">
     {%- for block in section.blocks -%}
-    <li><a href="#tab-{{ block.id }}">{{ block.settings.title }}</a></li>
     <div id="tab-{{ block.id }}">
       {{ block.settings.text }}
     </div>
