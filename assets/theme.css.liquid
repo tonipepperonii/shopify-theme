@@ -129,65 +129,6 @@
           }
         }
   }
-  .desc_hr {
-      border: 0;
-      margin: 25px 0;
-        @include media-query($medium-up) {
-          display: none;
-        }
-  }
-  
-  
-  .tech_table {
-      border-top: 1px solid #d9d9d9;
-      border-left: 1px solid #d9d9d9;
-        margin-bottom: 0;
-      th, td {
-            width: 100%;
-            display: block;
-            background: #fff;
-            border: 0;
-            border-right: solid 1px #d9d9d9;
-          border-bottom: solid 1px #d9d9d9;
-      }
-    th {
-      font-weight: bold; 
-    }
-    @include media-query($medium-up) {
-        th, td {
-            display: table-cell;
-            background: none;
-      }  
-      th {
-          width: 30%;
-      }
-      td {
-          width: 70%;  
-      }
-    }
-  }
-  
-  .inner_table {
-    * {
-      border: none !important;
-      padding: 0;
-      text-align: center;
-    }
-    /*img {
-      margin-bottom: 0 !important;
-      width: 225px;
-    }*/
-    margin: 0;
-      @include media-query($small) {
-      td {
-          width: 50%;
-          display: inline-block;
-        &:first-child {
-          border-right: 1px solid #d9d9d9 !important;
-        }
-      }
-    }
-  }
   
   
   
@@ -261,11 +202,9 @@
   border-top-right-radius: 6px;
 }
 
-.tab-active a {
-  background: #fff;
-  border-bottom-color: transparent;
-  color: #2db34a;
-  cursor: default;
+.tab-active {
+  font-color: black;
+  font-size: 24px;
 }
 .tabs-stage > div {
   
