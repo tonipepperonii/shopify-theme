@@ -348,6 +348,55 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "b5e73ae9-bd85-4682-a303-70c23cb7fec5": {
+      "type": "vz-timeline",
+      "blocks": {
+        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-0": {
+          "type": "text_block",
+          "settings": {
+            "year": "2021",
+            "text": "<p>Die <strong>InvestVision GmbH<\/strong> mit Investor Kai Greten als Eigentümer übernimmt die Firma<\/p>"
+          }
+        },
+        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-1": {
+          "type": "text_block",
+          "settings": {
+            "year": "2018",
+            "text": "<p>Anschaffung einer neuen Plattensäge (bis 100mm Dicke)<\/p>"
+          }
+        },
+        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-2": {
+          "type": "text_block",
+          "settings": {
+            "year": "2015",
+            "text": "<p>Verdreifachung der Lagerfäche auf 1.500 m2.<\/p>"
+          }
+        },
+        "5378b8c1-f70a-4e4b-b295-7bda80d15360": {
+          "type": "text_block",
+          "settings": {
+            "year": "2015",
+            "text": "<p>Umzug an den heutigen Firmensitz in der Hafenstraße 16 in Hildesheim<\/p>"
+          }
+        },
+        "ee7218cf-5ab7-4b0b-8c5f-6486f46b2e4f": {
+          "type": "text_block",
+          "settings": {
+            "year": "2001",
+            "text": "<p>Gründung der Firma Alu Verkauf von Herrn Tim Winter<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-0",
+        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-1",
+        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-2",
+        "5378b8c1-f70a-4e4b-b295-7bda80d15360",
+        "ee7218cf-5ab7-4b0b-8c5f-6486f46b2e4f"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -361,6 +410,7 @@
     "ebdb93bb-6fe5-4b7a-97ea-54bbfb750ff7",
     "fccfe36a-d69f-423c-bc05-c083fea20d5b",
     "f2c4e170-0333-4fff-a0af-c4fa5648fa2e",
-    "f44ad67b-23a8-4a02-a1bd-51f4b272f847"
+    "f44ad67b-23a8-4a02-a1bd-51f4b272f847",
+    "b5e73ae9-bd85-4682-a303-70c23cb7fec5"
   ]
 }
