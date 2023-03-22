@@ -164,8 +164,58 @@
         "autoplay_speed": 7
       }
     },
+    "b5e73ae9-bd85-4682-a303-70c23cb7fec5": {
+      "type": "vz-timeline",
+      "blocks": {
+        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-0": {
+          "type": "text_block",
+          "settings": {
+            "year": "2021",
+            "text": "<p>Die <strong>InvestVision GmbH<\/strong> mit Investor Kai Greten als Eigentümer übernimmt die Firma<\/p>"
+          }
+        },
+        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-1": {
+          "type": "text_block",
+          "settings": {
+            "year": "2018",
+            "text": "<p>Anschaffung einer neuen Plattensäge (bis 100mm Dicke)<\/p>"
+          }
+        },
+        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-2": {
+          "type": "text_block",
+          "settings": {
+            "year": "2015",
+            "text": "<p>Verdreifachung der Lagerfäche auf 1.500 m2.<\/p>"
+          }
+        },
+        "5378b8c1-f70a-4e4b-b295-7bda80d15360": {
+          "type": "text_block",
+          "settings": {
+            "year": "2015",
+            "text": "<p>Umzug an den heutigen Firmensitz in der Hafenstraße 16 in Hildesheim<\/p>"
+          }
+        },
+        "ee7218cf-5ab7-4b0b-8c5f-6486f46b2e4f": {
+          "type": "text_block",
+          "settings": {
+            "year": "2001",
+            "text": "<p>Gründung der Firma Alu Verkauf von Herrn Tim Winter<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-0",
+        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-1",
+        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-2",
+        "5378b8c1-f70a-4e4b-b295-7bda80d15360",
+        "ee7218cf-5ab7-4b0b-8c5f-6486f46b2e4f"
+      ],
+      "settings": {
+      }
+    },
     "ebdb93bb-6fe5-4b7a-97ea-54bbfb750ff7": {
       "type": "text-columns",
+      "disabled": true,
       "blocks": {
         "template--18204567109936__ebdb93bb-6fe5-4b7a-97ea-54bbfb750ff7-1677833703217347a4-0": {
           "type": "text_block",
@@ -328,75 +378,6 @@
         "round_images": true,
         "color_scheme": "none"
       }
-    },
-    "f44ad67b-23a8-4a02-a1bd-51f4b272f847": {
-      "type": "advanced-content",
-      "blocks": {
-        "template--18300171878704__f44ad67b-23a8-4a02-a1bd-51f4b272f847-16794899302a97960c-1": {
-          "type": "liquid",
-          "settings": {
-            "code": "<link href='https:\/\/fonts.googleapis.com\/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text\/css'>\n  \n<!-- The Timeline -->\n\n<ul class=\"timeline\">\n\n\t<!-- Item 2 -->\n\t<li>\n\t\t<div class=\"direction-l\">\n\t\t\t<div class=\"flag-wrapper\">\n\t\t\t\t<span class=\"flag\">2021<\/span><\/span>\n\t\t\t<\/div>\n\t\t\t<div class=\"desc\">Die InvestVision GmbH mit Investor Kai Greten als Eigentümer übernimmt die Firma<\/div>\n\t\t<\/div>\n\t<\/li>\n  \n\t<!-- Item 2 -->\n\t<li>\n\t\t<div class=\"direction-r\">\n\t\t\t<div class=\"flag-wrapper\">\n\t\t\t\t<span class=\"flag\">2021<\/span><\/span>\n\t\t\t<\/div>\n\t\t\t<div class=\"desc\">Die InvestVision GmbH mit Investor Kai Greten als Eigentümer übernimmt die Firma<\/div>\n\t\t<\/div>\n\t<\/li>\n\n\t<!-- Item 2 -->\n\t<li>\n\t\t<div class=\"direction-l\">\n\t\t\t<div class=\"flag-wrapper\">\n\t\t\t\t<span class=\"flag\">2021<\/span><\/span>\n\t\t\t<\/div>\n\t\t\t<div class=\"desc\">Die InvestVision GmbH mit Investor Kai Greten als Eigentümer übernimmt die Firma<\/div>\n\t\t<\/div>\n\t<\/li>\n\n<!-- Item 2 -->\n\t<li>\n\t\t<div class=\"direction-r\">\n\t\t\t<div class=\"flag-wrapper\">\n\t\t\t\t<span class=\"flag\">2021<\/span><\/span>\n\t\t\t<\/div>\n\t\t\t<div class=\"desc\">Die InvestVision GmbH mit Investor Kai Greten als Eigentümer übernimmt die Firma<\/div>\n\t\t<\/div>\n\t<\/li>\n  \n<\/ul>",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--18300171878704__f44ad67b-23a8-4a02-a1bd-51f4b272f847-16794899302a97960c-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
-    },
-    "b5e73ae9-bd85-4682-a303-70c23cb7fec5": {
-      "type": "vz-timeline",
-      "blocks": {
-        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-0": {
-          "type": "text_block",
-          "settings": {
-            "year": "2021",
-            "text": "<p>Die <strong>InvestVision GmbH<\/strong> mit Investor Kai Greten als Eigentümer übernimmt die Firma<\/p>"
-          }
-        },
-        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-1": {
-          "type": "text_block",
-          "settings": {
-            "year": "2018",
-            "text": "<p>Anschaffung einer neuen Plattensäge (bis 100mm Dicke)<\/p>"
-          }
-        },
-        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-2": {
-          "type": "text_block",
-          "settings": {
-            "year": "2015",
-            "text": "<p>Verdreifachung der Lagerfäche auf 1.500 m2.<\/p>"
-          }
-        },
-        "5378b8c1-f70a-4e4b-b295-7bda80d15360": {
-          "type": "text_block",
-          "settings": {
-            "year": "2015",
-            "text": "<p>Umzug an den heutigen Firmensitz in der Hafenstraße 16 in Hildesheim<\/p>"
-          }
-        },
-        "ee7218cf-5ab7-4b0b-8c5f-6486f46b2e4f": {
-          "type": "text_block",
-          "settings": {
-            "year": "2001",
-            "text": "<p>Gründung der Firma Alu Verkauf von Herrn Tim Winter<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-0",
-        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-1",
-        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-2",
-        "5378b8c1-f70a-4e4b-b295-7bda80d15360",
-        "ee7218cf-5ab7-4b0b-8c5f-6486f46b2e4f"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
@@ -407,10 +388,9 @@
     "d4771e19-d282-4f71-bda9-b462fa39ebad",
     "d0c06e0b-b96b-4951-bfaf-6ccffc252756",
     "0d3d3a96-7c68-4a61-b566-0d66639e6e99",
+    "b5e73ae9-bd85-4682-a303-70c23cb7fec5",
     "ebdb93bb-6fe5-4b7a-97ea-54bbfb750ff7",
     "fccfe36a-d69f-423c-bc05-c083fea20d5b",
-    "f2c4e170-0333-4fff-a0af-c4fa5648fa2e",
-    "f44ad67b-23a8-4a02-a1bd-51f4b272f847",
-    "b5e73ae9-bd85-4682-a303-70c23cb7fec5"
+    "f2c4e170-0333-4fff-a0af-c4fa5648fa2e"
   ]
 }
