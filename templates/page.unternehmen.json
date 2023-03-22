@@ -90,6 +90,39 @@
         "autoplay_speed": 7
       }
     },
+    "d4771e19-d282-4f71-bda9-b462fa39ebad": {
+      "type": "vz-tabs",
+      "blocks": {
+        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-0": {
+          "type": "text_block",
+          "settings": {
+            "title": "Unsere Mission",
+            "text": "<h3>Wir unterstützen die schnelle Umsetzung Ihrer Projekte und Ideen mit passend zugeschnittenen Bauteilen.<\/h3><p>Ob Privatperson, Handwerksbetrieb oder Industrie – bei uns finden Sie Materialien und Werkstoffe passend zu Ihren Bedürfnissen und Wünschen. Dabei spielt die Bestellmenge keine Rolle: Von Kleinstmengen bis zu Großbestellungen sind wir Ihr Ansprechpartner. Unsere umfangreiche Auswahl von Profilen, Rohren, Stangen und Platten wartet auf Sie.<\/p>"
+          }
+        },
+        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-1": {
+          "type": "text_block",
+          "settings": {
+            "title": "Unsere Vision",
+            "text": "<h3>Durch kurzfristige Lieferung von Aluminiumzuschnitten ermöglichen wir die Realisierung Ihrer Projekte und Vorhaben bei gleichzeitig ressourcenschonender Nutzung der Rohmaterialien.<\/h3><p>Wir denken groß und möchten alle Bedürfnisse unserer Kunden erfüllen: Deshalb bieten wir eine breite Auswahl, die nach Kundenwunsch zugeschnitten werden kann und die in unserem 1.500 m2 großen Lager auf darauf wartet, von Ihnen genutzt zu werden. Mit unseren 4 Zuschnitt-Maschinen bearbeiten wir die Produkte exakt nach Ihren Vorgaben passend zu Ihrem Projekt. Im Sinne der Nachhaltigkeit finden Sie gleichzeitig auch Restposten, die z. B. bei Zuschnitten anfallen, in unserem Web-Shop.<\/p>"
+          }
+        },
+        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-2": {
+          "type": "text_block",
+          "settings": {
+            "title": "Unsere Wert",
+            "text": "<h3>Wir gewinnen miteinander – das ist unser Unternehmensmotto und gleichzeitig die Basis für unseren nachhaltigen Unternehmenserfolg.<\/h3><p>Dabei steht das “wir” nicht nur für unser Team vor Ort, sondern für die gesamte Wertschöpfungskette: von Lieferanten über unsere Dienstleister bis hin zum Kunden. Gemeinsam bringen wir Projekte und Ideen zum Erfolg. Im Vordergrund steht dabei stets die transparente und ehrliche Kommunikation – sowohl im internen Team als auch gegenüber unseren Kunden. Schließlich sind Sie es, die unser Motor für die kontinuierliche Weiterentwicklung und Verbesserung unserer Produkte und Performance sind.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-0",
+        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-1",
+        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-2"
+      ],
+      "settings": {
+      }
+    },
     "d0c06e0b-b96b-4951-bfaf-6ccffc252756": {
       "type": "advanced-content",
       "blocks": {
@@ -295,39 +328,6 @@
         "round_images": true,
         "color_scheme": "none"
       }
-    },
-    "d4771e19-d282-4f71-bda9-b462fa39ebad": {
-      "type": "vz-tabs",
-      "blocks": {
-        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-0": {
-          "type": "text_block",
-          "settings": {
-            "title": "Unsere Mission",
-            "text": "<h3>Wir unterstützen die schnelle Umsetzung Ihrer Projekte und Ideen mit passend zugeschnittenen Bauteilen.<\/h3><p>Ob Privatperson, Handwerksbetrieb oder Industrie – bei uns finden Sie Materialien und Werkstoffe passend zu Ihren Bedürfnissen und Wünschen. Dabei spielt die Bestellmenge keine Rolle: Von Kleinstmengen bis zu Großbestellungen sind wir Ihr Ansprechpartner. Unsere umfangreiche Auswahl von Profilen, Rohren, Stangen und Platten wartet auf Sie.<\/p>"
-          }
-        },
-        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-1": {
-          "type": "text_block",
-          "settings": {
-            "title": "Unsere Vision",
-            "text": "<h3>Durch kurzfristige Lieferung von Aluminiumzuschnitten ermöglichen wir die Realisierung Ihrer Projekte und Vorhaben bei gleichzeitig ressourcenschonender Nutzung der Rohmaterialien.<\/h3><p>Wir denken groß und möchten alle Bedürfnisse unserer Kunden erfüllen: Deshalb bieten wir eine breite Auswahl, die nach Kundenwunsch zugeschnitten werden kann und die in unserem 1.500 m2 großen Lager auf darauf wartet, von Ihnen genutzt zu werden. Mit unseren 4 Zuschnitt-Maschinen bearbeiten wir die Produkte exakt nach Ihren Vorgaben passend zu Ihrem Projekt. Im Sinne der Nachhaltigkeit finden Sie gleichzeitig auch Restposten, die z. B. bei Zuschnitten anfallen, in unserem Web-Shop.<\/p>"
-          }
-        },
-        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-2": {
-          "type": "text_block",
-          "settings": {
-            "title": "Unsere Wert",
-            "text": "<h3>Wir gewinnen miteinander – das ist unser Unternehmensmotto und gleichzeitig die Basis für unseren nachhaltigen Unternehmenserfolg.<\/h3><p>Dabei steht das “wir” nicht nur für unser Team vor Ort, sondern für die gesamte Wertschöpfungskette: von Lieferanten über unsere Dienstleister bis hin zum Kunden. Gemeinsam bringen wir Projekte und Ideen zum Erfolg. Im Vordergrund steht dabei stets die transparente und ehrliche Kommunikation – sowohl im internen Team als auch gegenüber unseren Kunden. Schließlich sind Sie es, die unser Motor für die kontinuierliche Weiterentwicklung und Verbesserung unserer Produkte und Performance sind.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-0",
-        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-1",
-        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-2"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
@@ -335,11 +335,11 @@
     "e30bd66a-4d8c-4c6e-931b-2ee6ddcefbdb",
     "8f3cb221-72eb-49e7-bc26-1a9fa525ef77",
     "e92fb747-e50f-428c-ac27-00d81c3b05d1",
+    "d4771e19-d282-4f71-bda9-b462fa39ebad",
     "d0c06e0b-b96b-4951-bfaf-6ccffc252756",
     "0d3d3a96-7c68-4a61-b566-0d66639e6e99",
     "ebdb93bb-6fe5-4b7a-97ea-54bbfb750ff7",
     "fccfe36a-d69f-423c-bc05-c083fea20d5b",
-    "f2c4e170-0333-4fff-a0af-c4fa5648fa2e",
-    "d4771e19-d282-4f71-bda9-b462fa39ebad"
+    "f2c4e170-0333-4fff-a0af-c4fa5648fa2e"
   ]
 }
