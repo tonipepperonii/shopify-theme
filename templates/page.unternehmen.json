@@ -328,6 +328,26 @@
         "round_images": true,
         "color_scheme": "none"
       }
+    },
+    "f44ad67b-23a8-4a02-a1bd-51f4b272f847": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--18300171878704__f44ad67b-23a8-4a02-a1bd-51f4b272f847-16794899302a97960c-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<link href='https:\/\/fonts.googleapis.com\/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text\/css'>\n  \n<!-- The Timeline -->\n\n<ul class=\"timeline\">\n\n\t<!-- Item 1 -->\n\t<li>\n\t\t<div class=\"direction-r\">\n\t\t\t<div class=\"flag-wrapper\">\n\t\t\t\t<span class=\"flag\">Freelancer<\/span>\n\t\t\t\t<span class=\"time-wrapper\"><span class=\"time\">2013 - present<\/span><\/span>\n\t\t\t<\/div>\n\t\t\t<div class=\"desc\">My current employment. Way better than the position before!<\/div>\n\t\t<\/div>\n\t<\/li>\n  \n\t<!-- Item 2 -->\n\t<li>\n\t\t<div class=\"direction-l\">\n\t\t\t<div class=\"flag-wrapper\">\n\t\t\t\t<span class=\"flag\">Apple Inc.<\/span>\n\t\t\t\t<span class=\"time-wrapper\"><span class=\"time\">2011 - 2013<\/span><\/span>\n\t\t\t<\/div>\n\t\t\t<div class=\"desc\">My first employer. All the stuff I've learned and projects I've been working on.<\/div>\n\t\t<\/div>\n\t<\/li>\n\n\t<!-- Item 3 -->\n\t<li>\n\t\t<div class=\"direction-r\">\n\t\t\t<div class=\"flag-wrapper\">\n\t\t\t\t<span class=\"flag\">Harvard University<\/span>\n\t\t\t\t<span class=\"time-wrapper\"><span class=\"time\">2008 - 2011<\/span><\/span>\n\t\t\t<\/div>\n\t\t\t<div class=\"desc\">A description of all the lectures and courses I have taken and my final degree?<\/div>\n\t\t<\/div>\n\t<\/li>\n  \n<\/ul>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18300171878704__f44ad67b-23a8-4a02-a1bd-51f4b272f847-16794899302a97960c-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
@@ -340,6 +360,7 @@
     "0d3d3a96-7c68-4a61-b566-0d66639e6e99",
     "ebdb93bb-6fe5-4b7a-97ea-54bbfb750ff7",
     "fccfe36a-d69f-423c-bc05-c083fea20d5b",
-    "f2c4e170-0333-4fff-a0af-c4fa5648fa2e"
+    "f2c4e170-0333-4fff-a0af-c4fa5648fa2e",
+    "f44ad67b-23a8-4a02-a1bd-51f4b272f847"
   ]
 }
