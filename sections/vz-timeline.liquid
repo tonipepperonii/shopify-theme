@@ -6,7 +6,8 @@
   
   {%- for block in section.blocks -%}
     <li>
-		<div class="{% if forloop.index == 1 %}direction-r{% else %}direction-l{% endif %} }">
+    
+		<div class="direction-{{ forloop.index | modulo: 2 | replace: '0', 'l' | replace: '1', 'r' }}">
 			<div class="flag-wrapper">
 				<span class="flag">{{ block.settings.year }}</span></span>
 			</div>
