@@ -296,36 +296,6 @@
         "color_scheme": "none"
       }
     },
-    "ab825160-c211-4836-b641-fb9eb15ebdc3": {
-      "type": "advanced-content",
-      "blocks": {
-        "template--18300171878704__ab825160-c211-4836-b641-fb9eb15ebdc3-16794793472828a5aa-1": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "code": "<!-- tab-div-->\n\t<div class=\"tab-about\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"about-topimg\">\n\t\t\t\t<img src=\"\/themes\/classicalu\/assets\/img\/aboutone.png\">\n\t\t\t<\/div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<!-- tab-left-->\n\t\t\t\t<div class=\"col-sm-3\">\n\t\t\t\t\t<div class=\"aboutab-left\">\t\t\t\t\t\t\n\t\t\t\t\t\t<ul class=\"nav nav-tabs\" role=\"tablist\"> \n\t\t\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t\t  <a class=\"nav-link active\" data-toggle=\"tab\" href=\"#home\" role=\"tab\">Unsere Mission<\/a>\n\t\t\t\t\t\t\t<\/li>\n\t\t\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t\t  <a class=\"nav-link\" data-toggle=\"tab\" href=\"#profile\" role=\"tab\">Unsere Vision<\/a>\n\t\t\t\t\t\t\t<\/li>\n\t\t\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t\t  <a class=\"nav-link\" data-toggle=\"tab\" href=\"#messages\" role=\"tab\">Unsere Werte<\/a>\n\t\t\t\t\t\t\t<\/li> \n\t\t\t\t\t\t<\/ul>\t\t\t\t\t\t\t\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<!-- tab-left-->\n\t\t\t\t<!-- tab-right-->\n\t\t\t\t<div class=\"col-sm-9\">\n\t\t\t\t\t<div class=\"aboutab-right\">\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t <div class=\"tab-content\">\n\t\t\t\t\t\t<div class=\"tab-pane p-2 active\" id=\"home\" role=\"tabpanel\">\n\t\t\t\t\t\t\t<div class=\"about-card\">\n\t\t\t\t\t\t\t\t<h1>Wir unterstützen die schnelle Umsetzung Ihrer Projekte und Ideen mit passend zugeschnittenen Bauteilen.<\/h1>\n\t\t\t\t\t\t\t\t<p>Ob Privatperson, Handwerksbetrieb oder Industrie – bei uns finden Sie Materialien und Werkstoffe passend zu Ihren Bedürfnissen und Wünschen. Dabei spielt die Bestellmenge keine Rolle: Von Kleinstmengen bis zu Großbestellungen sind wir Ihr Ansprechpartner. Unsere umfangreiche Auswahl von Profilen, Rohren, Stangen und Platten wartet auf Sie.<\/p>\n\t\t\t\t\t\t\t<\/div>\n\t\t\t\t\t\t<\/div>\n\t\t\t\t\t\t<div class=\"tab-pane p-2\" id=\"profile\" role=\"tabpanel\">\n\t\t\t\t\t\t\t<div class=\"about-card\">\n\t\t\t\t\t\t\t\t<h1>Durch kurzfristige Lieferung von Aluminiumzuschnitten ermöglichen wir die Realisierung Ihrer Projekte und Vorhaben bei gleichzeitig ressourcenschonender Nutzung der Rohmaterialien.<\/h1>\n\t\t\t\t\t\t\t\t<p>Wir denken groß und möchten alle Bedürfnisse unserer Kunden erfüllen: Deshalb bieten wir eine breite Auswahl, die nach Kundenwunsch zugeschnitten werden kann und die in unserem 1.500 m2 großen Lager auf darauf wartet, von Ihnen genutzt zu werden. Mit unseren 4 Zuschnitt-Maschinen bearbeiten wir die Produkte exakt nach Ihren Vorgaben passend zu Ihrem Projekt. Im Sinne der Nachhaltigkeit finden Sie gleichzeitig auch Restposten, die z. B. bei Zuschnitten anfallen, in unserem Web-Shop. <\/p>\n\t\t\t\t\t\t\t<\/div>\n\t\t\t\t\t\t<\/div>\n\t\t\t\t\t\t<div class=\"tab-pane p-2\" id=\"messages\" role=\"tabpanel\">\n\t\t\t\t\t\t\t<div class=\"about-card\">\n\t\t\t\t\t\t\t\t<h1>Wir gewinnen miteinander – das ist unser Unternehmensmotto und gleichzeitig die Basis für unseren nachhaltigen Unternehmenserfolg.<\/h1>\n\t\t\t\t\t\t\t\t<p>Dabei steht das “wir” nicht nur für unser Team vor Ort, sondern für die gesamte Wertschöpfungskette: von Lieferanten über unsere Dienstleister bis hin zum Kunden. Gemeinsam bringen wir Projekte und Ideen zum Erfolg. Im Vordergrund steht dabei stets die transparente und ehrliche Kommunikation – sowohl im internen Team als auch gegenüber unseren Kunden. Schließlich sind Sie es, die unser Motor für die kontinuierliche Weiterentwicklung und Verbesserung unserer Produkte und Performance sind.<\/p>\n\t\t\t\t\t\t\t<\/div>\n\t\t\t\t\t\t<\/div> \n\t\t\t\t\t  <\/div>\n  \n  \n  \n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<!-- tab-right-->\n\t\t\t<\/div>\n\t\t<\/div>\n\t<\/div>\n\t<!-- tab-div-->",
-            "width": "100%",
-            "alignment": "center"
-          }
-        },
-        "b69f75df-f33b-49a9-9e5d-537f6f0d860d": {
-          "type": "liquid",
-          "settings": {
-            "code": "<div class=\"tabs\">\n  <ul class=\"tabs-nav\">\n    <li><a href=\"#tab-1\">Features<\/a><\/li>\n    <li><a href=\"#tab-2\">Details<\/a><\/li>\n  <\/ul>\n  <div class=\"tabs-stage\">\n    <div id=\"tab-1\">\n      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec neque nisi, dictum aliquet lectus.<\/p>\n    <\/div>\n    <div id=\"tab-2\">\n      <p>Phasellus pharetra aliquet viverra. Donec scelerisque tincidunt diam, eu fringilla urna auctor at.<\/p>\n    <\/div>\n  <\/div>\n<\/div>\n\n\n<script>\n\/\/ Show the first tab by default\n$('.tabs-stage div').hide();\n$('.tabs-stage div:first').show();\n$('.tabs-nav li:first').addClass('tab-active');\n\n\/\/ Change tab class and display content\n$('.tabs-nav a').on('click', function(event){\n  event.preventDefault();\n  $('.tabs-nav li').removeClass('tab-active');\n  $(this).parent().addClass('tab-active');\n  $('.tabs-stage div').hide();\n  $($(this).attr('href')).show();\n});\n<\/script>",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--18300171878704__ab825160-c211-4836-b641-fb9eb15ebdc3-16794793472828a5aa-1",
-        "b69f75df-f33b-49a9-9e5d-537f6f0d860d"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
-    },
     "d4771e19-d282-4f71-bda9-b462fa39ebad": {
       "type": "vz-tabs",
       "blocks": {
@@ -370,7 +340,6 @@
     "ebdb93bb-6fe5-4b7a-97ea-54bbfb750ff7",
     "fccfe36a-d69f-423c-bc05-c083fea20d5b",
     "f2c4e170-0333-4fff-a0af-c4fa5648fa2e",
-    "ab825160-c211-4836-b641-fb9eb15ebdc3",
     "d4771e19-d282-4f71-bda9-b462fa39ebad"
   ]
 }
