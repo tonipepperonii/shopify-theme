@@ -1,12 +1,61 @@
+
+<!-- The Timeline -->
+
+<ul class="timeline">
+  
+  {%- for block in section.blocks -%}
+    <li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">{{ block.settings.year }}</span></span>
+			</div>
+			<div class="desc">{{ block.settings.text }}</div>
+		</div>
+	</li>
+  {%- endfor -%}
+  
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "VZ Timeline",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "text_block",
+        "name": "Ereignis",
+        "settings": [
+          {
+            "type": "text",
+            "id": "year",
+            "label": "Jahr",
+            "default": "2024"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Beispiel Text.</p>"
+          }
+        ]
+      }
+    ],
+  "presets": [
+    {
+      "name": "VZ Timeline",
+      "blocks": [
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        }
+      ]
+    }
+  ]
   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
