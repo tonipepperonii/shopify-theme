@@ -1892,6 +1892,9 @@
         },
         "side-richtext": {
           "label": "Seitlicher Richtext"
+        },
+        "versand-richtext": {
+          "label": "Versand Richtext"
         }
       },
       "blocks": {
