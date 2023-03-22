@@ -2,16 +2,18 @@
 <!-- The Timeline -->
 
 <ul class="timeline">
+
   
   {%- for block in section.blocks -%}
     <li>
-		<div class="direction-l">
+		<div class="{% if forloop.index == 1 %}direction-r{% else %}direction-l{% endif %} }">
 			<div class="flag-wrapper">
 				<span class="flag">{{ block.settings.year }}</span></span>
 			</div>
 			<div class="desc">{{ block.settings.text }}</div>
 		</div>
 	</li>
+  
   {%- endfor -%}
   
 
