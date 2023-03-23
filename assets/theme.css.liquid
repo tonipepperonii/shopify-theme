@@ -8672,10 +8672,12 @@ html[dir=rtl] .background-media-text__text{
   grid-template-columns: 3fr 1fr; 
   gap: 30px 30px; 
 }
+
+
 .rich-text-with-sidebar-sidebar{
   position: -webkit-sticky;
   position: sticky !important;
-  top: 90px !important;
+  top: 85px !important;
   padding-top:15px !important;
   align-self:start
 }
@@ -8700,8 +8702,23 @@ html[dir=rtl] .background-media-text__text{
   padding-left:15px !important;
   margin-top:15px;
 }
-.rich-text-with-sidebar-main-container.h1.h2.h3.h4.h5{
-  color:orange;
+
+@media only screen and (max-width:769px){
+
+  .rich-text-with-sidebar-card{
+        display:contents;
+    }
+  .rich-text-with-sidebar-main-container{
+    padding-left:15px;
+    padding-right:15px;
+  }
+  .rich-text-with-sidebar-sidebar{
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left:15px;
+    padding-right:15px;
+    position:static !important;
+  }
 }
 
 
