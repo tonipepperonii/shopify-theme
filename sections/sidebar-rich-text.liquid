@@ -7,7 +7,7 @@
         </div>
     {% endcase %}
 {% endfor %}
-<div>
+<div class= "rich-text-with-sidebar-sidebar"> 
 <div class="rich-text-with-sidebar-sidebar-container">
   <b style="color:#f39200, text-align:center, font-size:16px">{{ section.settings.side-title }}</b><br><br>
   <img src="{{ section.settings.image | img_url:'master' }}" height=100 width=100 loading="lazy"/>
@@ -16,6 +16,10 @@
 <div class="rich-text-with-sidebar-versand-container">
   {{ section.settings.versand-richtext }}
 </div>
+
+{% if section.settings.checkbox %}
+  <img src="https://cdn.shopify.com/s/files/1/0729/7653/1760/files/kategorie-alu-final_1.png?v=1679496799" loading="lazy">
+{% endif %}
 </div>
 
 {% schema %}
@@ -38,9 +42,15 @@
       "label": "t:sections.sidebar-rich-text.settings.side-richtext.label"
     },
     {
-    "type":"richtext",
-    "id":"versand-richtext",
-    "label":"t:sections.sidebar-rich-text.settings.versand-richtext.label"
+      "type": "richtext",
+      "id": "versand-richtext",
+      "label": "t:sections.sidebar-rich-text.settings.versand-richtext.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "checkbox",
+      "label": "t:sections.sidebar-rich-text.settings.checkbox.label",
+      "default": true
     }
   ],
   "blocks": [
