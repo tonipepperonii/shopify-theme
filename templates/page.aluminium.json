@@ -66,7 +66,7 @@
       "settings": {
         "side-title": "Wir sind für Sie da:",
         "image": "shopify:\/\/shop_images\/avatar.png",
-        "side-richtext": "<h3>Eduard Bratkowski<\/h3><p><strong>Kundenberater<\/strong><\/p><p><a href=\"tel:051216763562\"> 05121 6763562<\/a><a href=\"mailto:verkauf@alu-verkauf.de\"> <\/a><\/p><p><a href=\"mailto:verkauf@alu-verkauf.de\">verkauf@alu-verkauf.de<\/a><\/p>",
+        "side-richtext": "<h4>Eduard Bratkowski<\/h4><p><strong>Kundenberater<\/strong><\/p><p><a href=\"tel:051216763562\"> 05121 6763562<\/a><a href=\"mailto:verkauf@alu-verkauf.de\"> <\/a><\/p><p><a href=\"mailto:verkauf@alu-verkauf.de\">verkauf@alu-verkauf.de<\/a><\/p>",
         "versand-richtext": "<p><strong>Schneller versand<\/strong><\/p><ul><li> Keine Mindestmengen<\/li><li> Individueller Zuschnitt<\/li><li> Schneller Versand<\/li><li> Großes Alu-Sortiment<\/li><li> Sondergrößen auf Anfrage<\/li><li> Abholung Vor-Ort<\/li><\/ul>",
         "checkbox": true
       }
