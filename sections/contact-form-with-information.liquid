@@ -3,18 +3,7 @@
     {%- render 'color-scheme-texture', color_scheme: section.settings.color_scheme -%}
   {%- endif -%}
   <div class="page-width">
-    {%- if section.settings.title != blank or section.settings.text != blank -%}
-      <div class="section-header text-center">
-        {%- if section.settings.title != blank -%}
-          <h2 class="section-header__title">
-            {{ section.settings.title }}
-          </h2>
-        {%- endif -%}
-        {%- if section.settings.text != blank -%}
-          <div class="rte section-header__rte">{{ section.settings.text }}</div>
-        {%- endif -%}
-      </div>
-    {% endif %}
+    
 
     <div class="form-vertical">
       {%- assign form_id = 'contact-' | append: section.id -%}
@@ -54,6 +43,18 @@
           {%- endform -%}
           </div>
         <div class="contact-form-with-information-contact">
+          {%- if section.settings.title != blank or section.settings.text != blank -%}
+            <div class="section-header">
+              {%- if section.settings.title != blank -%}
+                <h2>
+                  {{ section.settings.title }}
+                </h2>
+              {%- endif -%}
+              {%- if section.settings.text != blank -%}
+                <p>{{ section.settings.text }}</p>
+              {%- endif -%}
+            </div>
+          {% endif %}
           <div class="contact-form-with-information-contact-cards">
           <h4>Rufen Sie uns an:</h4>
           {{ section.settings.telephone }}
