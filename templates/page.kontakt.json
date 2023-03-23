@@ -20,7 +20,7 @@
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#fff",
+            "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/BARTELS_Fotografie-9158.jpg",
             "overlay_opacity": 50,
@@ -40,96 +40,20 @@
         "autoplay_speed": 7
       }
     },
-    "0babff2f-c197-4d8f-bfbc-8aafc2bac555": {
-      "type": "rich-text",
-      "blocks": {
-        "template--18204580512048__0babff2f-c197-4d8f-bfbc-8aafc2bac555-167783245720b5ce44-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Nehmen Sie Kontakt auf"
-          }
-        },
-        "template--18204580512048__0babff2f-c197-4d8f-bfbc-8aafc2bac555-167783245720b5ce44-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p>Sie haben Fragen bezüglich unserer Produkte oder eines Angebots? Wir stehen Ihnen gern jederzeit telefonisch, per Kontaktformular oder per E-Mail zur Verfügung – kontaktieren Sie uns und wir kümmern uns um Ihr Anliegen.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18204580512048__0babff2f-c197-4d8f-bfbc-8aafc2bac555-167783245720b5ce44-0",
-        "template--18204580512048__0babff2f-c197-4d8f-bfbc-8aafc2bac555-167783245720b5ce44-1"
-      ],
+    "2c140cf1-e556-4f58-9f0e-10d54cbb9785": {
+      "type": "contact-form-with-information",
       "settings": {
-        "align_text": "center",
-        "narrow_column": false,
-        "color_scheme": "1",
-        "divider": false
-      }
-    },
-    "91ffc6b6-1f03-4f3c-9103-f2994983a5ca": {
-      "type": "text-with-icons",
-      "blocks": {
-        "template--18204580512048__91ffc6b6-1f03-4f3c-9103-f2994983a5ca-16778371151afb24b3-0": {
-          "type": "text_block",
-          "settings": {
-            "icon": "phone",
-            "title": "Rufen Sie uns an",
-            "text": "<p><a href=\"tel:051216763613\">05121 6763613<\/a><\/p>"
-          }
-        },
-        "template--18204580512048__91ffc6b6-1f03-4f3c-9103-f2994983a5ca-16778371151afb24b3-1": {
-          "type": "text_block",
-          "settings": {
-            "icon": "envelope",
-            "title": "E-Mail",
-            "text": "<p><a href=\"mailto:verkauf@alu-verkauf.de\">verkauf@alu-verkauf.de<\/a><\/p>"
-          }
-        },
-        "template--18204580512048__91ffc6b6-1f03-4f3c-9103-f2994983a5ca-16778371151afb24b3-2": {
-          "type": "text_block",
-          "settings": {
-            "icon": "store",
-            "title": "Adresse",
-            "text": "<p>Alu-Verkauf GmbH<br\/>Hafenstraße 16<br\/>31137 Hildesheim<br\/>Deutschland<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18204580512048__91ffc6b6-1f03-4f3c-9103-f2994983a5ca-16778371151afb24b3-0",
-        "template--18204580512048__91ffc6b6-1f03-4f3c-9103-f2994983a5ca-16778371151afb24b3-1",
-        "template--18204580512048__91ffc6b6-1f03-4f3c-9103-f2994983a5ca-16778371151afb24b3-2"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "desktop_columns_per_row": 3,
-        "icon_color": "#000",
-        "button_label": "",
-        "button_link": "",
-        "divider": false
-      }
-    },
-    "c503950f-d810-4cb0-80fc-fc566b6e6808": {
-      "type": "contact-form",
-      "custom_css": [
-        ".btn {background-color: #F39200; border-radius:4px;}"
-      ],
-      "settings": {
-        "title": "",
-        "text": "",
-        "show_phone": false,
-        "narrow_column": true,
-        "color_scheme": "1"
+        "title": "Nehmen Sie Kontakt auf",
+        "text": "<p>Sie haben Fragen bezüglich unserer Produkte oder eines Angebots? Wir stehen Ihnen gern jederzeit telefonisch, per Kontaktformular oder per E-Mail zur Verfügung – kontaktieren Sie uns und wir kümmern uns um Ihr Anliegen.<\/p>",
+        "telephone": "05121 6763599",
+        "email": "verkauf@alu-verkauf.de",
+        "adress": "<p>Alu-Verkauf GmbH<br\/>Hafenstraße 16<br\/>31137 Hildesheim<br\/>Deutschland<\/p>"
       }
     }
   },
   "order": [
     "main",
     "d23aa98c-a863-43d6-88ef-840b9daca8d1",
-    "0babff2f-c197-4d8f-bfbc-8aafc2bac555",
-    "91ffc6b6-1f03-4f3c-9103-f2994983a5ca",
-    "c503950f-d810-4cb0-80fc-fc566b6e6808"
+    "2c140cf1-e556-4f58-9f0e-10d54cbb9785"
   ]
 }
