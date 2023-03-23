@@ -20,7 +20,7 @@
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#ffffff",
+            "color_accent": "#fff",
             "text_align": "vertical-center horizontal-center",
             "overlay_opacity": 0,
             "focal_point": "center center"
@@ -37,6 +37,56 @@
         "style": "arrows",
         "autoplay": true,
         "autoplay_speed": 7
+      }
+    },
+    "99917277-232f-4416-81c6-06feeef38f6a": {
+      "type": "text-columns",
+      "blocks": {
+        "277eb335-de9a-4c6f-be28-0fbba8cb1d23": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--18214900302128__99917277-232f-4416-81c6-06feeef38f6a-16778438775e284b18-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/avatar.png",
+            "image_width": 100,
+            "title": "Eduard Bratkowski",
+            "text": "<p>Kundenberater<\/p><p><a href=\"tel:051216763613\"> 05121 6763613<\/a><a href=\"mailto:verkauf@alu-verkauf.de\"> <\/a><\/p><p><a href=\"mailto:verkauf@alu-verkauf.de\">verkauf@alu-verkauf.de<\/a><\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "a00c8c44-be31-4e01-8dd4-1c7726112855": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "277eb335-de9a-4c6f-be28-0fbba8cb1d23",
+        "template--18214900302128__99917277-232f-4416-81c6-06feeef38f6a-16778438775e284b18-0",
+        "a00c8c44-be31-4e01-8dd4-1c7726112855"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false,
+        "color_scheme": "none"
       }
     },
     "e497af2b-22bf-41dd-96ee-0cd33a10d64f": {
@@ -70,32 +120,37 @@
         "divider": false
       }
     },
-    "b52c152d-213d-4fd9-b0d1-506fdc0e07df": {
-      "type": "sidebar-rich-text",
+    "9c5b1c5a-0879-4ac2-902f-8812698d880d": {
+      "type": "rich-text",
       "blocks": {
-        "template--18273043874096__b52c152d-213d-4fd9-b0d1-506fdc0e07df-1679562926a9e6ac11-0": {
+        "template--18214900302128__9c5b1c5a-0879-4ac2-902f-8812698d880d-16778416329c1aa01d-1": {
           "type": "text",
           "settings": {
-            "main_richtext": "<h1>Kupferplatten in großer Auswahl für diverse Einsatzgebiete kaufen<\/h1><p>Unser Sortiment umfasst neben Aluminium auch Platten aus Kupfer. Materialstärken von 1,0 mm – 6,0 mm bieten wir in der Legierung <strong>SF-Cu \/ Cu-DHP<\/strong> an. Bei Dicken ab 8,0 mm werden die Platten in <strong>SE-Cu \/ Cu-HCP<\/strong> geliefert.<\/p><h3>SF-Cu<\/h3><p>Bei der Legierung SF-Cu (nach alter DIN) handelt es sich es um den Werkstoff CW024A. Dieses desoxidierte, sauerstofffreies Kupfer lässt sich hervorragend schweißen, löten, umformen und findet seinen Einsatzzweck häufig im Bauwesen (Rohrleitungen, Dach- und Wandbekleidungen) wie auch im Apparatebau.<\/p><h3>SE-Cu<\/h3><p>Hochreines Kupfer in Legierung SE-Cu (nach alter DIN) trägt Werkstoffnummer CW021A. Bei diesem Material handelt es sich ebenfalls um desoxidiertes Kupfer mit sehr guten Eigenschaften im Bereich der elektrischen Leitfähigkeit. Gängiges Schweißen und Löten, sowie warm umformen möglich. Häufig eingesetzt als Bauteil in der Elektrotechnik. Beide Kupfervarianten weisen einen Kupferanteil von mindestens 99,90 % auf und sind damit auch hervorragende Wärmeleiter. Ihr Wunschartikel nicht aufgelistet? Sprechen Sie uns gerne an! Wir prüfen unsere Beschaffungsmöglichkeiten und erstellen Ihnen gerne ein persönliches Angebot.<\/p><p><\/p><h3>Allgemeine Informationen, was ist Kupfer?<\/h3><p>Kupfer gehört zu den relativ weichen Metallen und ist im Periodensystem der Elemente als Cu gelistet. Zusammen mit Gold und Silber ist Kupfer eines der ersten von Menschen verwendeten Metallen der Geschichte. Dies liegt unter anderem auch daran, da sich das Metall sehr gut verarbeiten ließ. Der Einsatz von Kupfer erstreckt sich über viele Bereiche, ob zu dekorativen oder technischen Zwecken. Das weiche Metall besitzt eine typisch rötlich-orange Färbung und fühlt sich kühl an. Aufgrund des edlen Aussehens findet das Halbedelmetall einen Platz als Dekoration im privaten Haushalt und wird von der Industrie wegen seiner hervorragenden Eigenschaften als Strom- und Wärmeleiter geschätzt. Durch den geringen inneren Widerstand wird Kupfer bevorzugt in Stromkabeln verwendet und zur Abführung von Wärme in technischen Geräten und Bauten wie Wärmetauschern oder Lamellen-Kühlern in PC-Systemen genutzt.<\/p><p><\/p><h3>Was ist Kupfer und wofür wird es gebraucht?<\/h3><p>Kupfer wird weltweit in Kupferbergwerken gewonnen und gehört zu den häufig auf der Erde vertretenen Elementen. Der größte Kupferproduzent ist Chile, gefolgt von Peru und China. Das zuvor erwähnte rötliche Metall ist als Rohstoff sehr beliebt.<\/p><p>Kupfer zeichnet sich durch eine gute Wärmeleitfähigkeit und elektrische Leitfähigkeit aus. Ebenso ist es witterungsbeständig und lässt sich durch die Kupfer-verarbeitende Industrie in viele verschiedene Formen herstellen. Auf die verschiedenen Einsatzzwecke in der Elektrik und Elektronik sind wir bereits weiter oben eingegangen. Auch zur Dekoration erfreuen sich Kupferobjekte großer Beliebtheit. Zudem lassen sich aus Kupfer Gebrauchsgegenstände, wie Geschirr, Tassen, Becher, Vasen u.v.a.m. herstellen.<\/p><p>Nicht unerwähnt bleiben soll, dass Kupfer zwar sehr witterungsbeständig ist, jedoch eine Korrosion nicht ausgeschlossen ist. Eine Kupferkorrosion ist an ihrer grünlichen Ablagerung auf der Kupferoberfläche erkennbar. Dies sieht zwar nicht mehr ganz so schön aus, weil der kupferfarbene Ton verschwindet, jedoch die Korrosion nicht weiter fortschreitet. Die auf der Oberfläche entstehende Kupferkorrosion dient als Schutzschicht und macht zum Beispiel eine Kupferplatte gegen weitere Witterungseinflüsse absolut unempfindlich.<\/p><p><\/p><h3>Die richtigen Abmessungen Ihrer Kupferplatte<\/h3><p>Wenn Sie bei uns eine Kupferplatte kaufen möchten, können Sie zunächst zwischen den beiden Legierungen SE-Cu und SF-Cu wählen. Kupferplatten bieten wir Ihnen nicht vorab in festen Größen an. Sie können Ihre gewünschte Kupferplatte in der Bestellübersicht auf Maß in Millimeter eingeben. Geben Sie hierzu einfach die Länge und Breite ein. Schließlich können Sie bei uns eine Kupferplatte in einer Stärke von 1 mm bis 30 mm bestellen. Damit lassen sich stabile und individuelle Konstruktionen herstellen.<\/p><p><\/p><h3>Pflege<\/h3><p>Wer Gegenstände aus Kupfer sein Eigen nennt, dem ist der Begriff Grünspan sicherlich bekannt. Durch Oxidation mit Sauerstoff läuft Kupfer mit der Zeit dunkel an und verfärbt sich grünlich, was jedoch völlig normal ist und in der Natur von Kupfer liegt. Schon mit einfachen Hausmitteln lässt sich Kupfer mit wenig Aufwand wieder auf Hochglanz polieren. Der schimmernde Glanz kann so über lange Zeit erhalten bleiben. Andere Werkstoffe, welche mit Kupfer legiert wurden, sind außerdem gegen Rost geschützt.<\/p><p><\/p><h3>Pflege von Kupfer<\/h3><p>Möchten Sie eine angelaufene, leicht korrodierte Kupferplatte säubern, können Sie hierzu eine Essigessenz mit Wasser und etwas Salz anmischen. Mit einem Tuch wird dieser Reiniger auf die betroffene Kupferstelle aufgetragen. Nach kurzer Einwirkzeit spülen Sie Ihre Kupferplatte unter warmen Wasser ab.<\/p><p>Hartnäckige Verschmutzungen lassen sich direkt mit Essig und Salz entfernen. Hierzu eignet sich eine alte Zahnbürste besonders gut. Abschließen wird die Oberfläche mit einem weichen Tuch abgerieben und poliert. Ihre Kupferplatte erstrahlt dann wieder im frischen Glanz. Diese Reinigung ist auch bei anderen Dekorationsstücken möglich.<\/p><p><\/p><h3>Einsatzmöglichkeiten von Computer bis Vase<\/h3><ul><li>Maschinenbau<\/li><li>Möbelbau<\/li><li>Elektrotechnik<\/li><li>Infrastrukturausbau<\/li><li>Bauwesen<\/li><li>Medizin<\/li><li>Kunstschaffung<\/li><li>Haushalt \/ Dekoration<\/li><\/ul><p>Die Einsatzmöglichkeiten sind vielfältig. Bei weiteren Fragen zum Thema Kupfer stehen wir Ihnen jederzeit gerne telefonisch, wie auch schriftlich per Mail zur Verfügung und beraten Sie gerne bei Ihrem Vorhaben.<\/p><h3><\/h3><h3>Der Einsatz von Kupferplatten<\/h3><p>Eine Kupferplatte wird schon seit Generationen zum Abdecken von Hausdächern eingesetzt. Viel Kirchtürme haben ein kupfernes Dach. Durch natürliche Korrosion bildet sich auf der Kupferoberfläche eine grüne Patina, welche dem Kupfer eine lange Haltbarkeit und Lebensdauer verspricht.<\/p><p>Hier im Shop können Sie Kupferbleche in verschiedenen Größen bestellen. Vielleicht möchten Sie im Innen- und Außenbereich schmale Kupferverblendungen einsetzen. So können Sie beispielsweise einen Holzbalken nachträglich mit einer Kupferplatte abdecken, um die Konstruktion wind- und wasserfest zu machen.<\/p><p>Mit einer Kupferplatte lassen sich auch im Innenbereich dekorative Abdeckungen herstellen. Sie dienen zum Teil als Kantenschutz. Hobbyelektroniker verwenden eine Kupferplatte zum Beispiel als Kühlkörper. Hier kommt wieder die gute Wärmeleitfähigkeit zum Tragen. Mit einer Kupferplatte können auch größere elektrische Kontakte hergestellt werden.<\/p><p>Kupfer lässt sich mit richtiger Temperatur und Lötzinn zuverlässig zusammenlöten. Auch das Bohren und Sägen bereitet keine großen Schwierigkeiten. Sie benötigen lediglich einen Metallbohrer bzw. eine Metallsäge. Einer Kupferplatte lässt sich durch Erhitzen in verschiedene Formen biegen. Aber auch das Kaltbiegen von Kupfer ist in Abhängigkeit der Stärke des Materials möglich.<\/p>"
+            "enlarge_text": false,
+            "text": "<h1>Kupferplatten in großer Auswahl für diverse Einsatzgebiete kaufen<\/h1><p>Unser Sortiment umfasst neben Aluminium auch Platten aus Kupfer. Materialstärken von 1,0 mm – 6,0 mm bieten wir in der Legierung <strong>SF-Cu \/ Cu-DHP<\/strong> an. Bei Dicken ab 8,0 mm werden die Platten in <strong>SE-Cu \/ Cu-HCP<\/strong> geliefert.<\/p><h3>SF-Cu<\/h3><p>Bei der Legierung SF-Cu (nach alter DIN) handelt es sich es um den Werkstoff CW024A. Dieses desoxidierte, sauerstofffreies Kupfer lässt sich hervorragend schweißen, löten, umformen und findet seinen Einsatzzweck häufig im Bauwesen (Rohrleitungen, Dach- und Wandbekleidungen) wie auch im Apparatebau.<\/p><h3>SE-Cu<\/h3><p>Hochreines Kupfer in Legierung SE-Cu (nach alter DIN) trägt Werkstoffnummer CW021A. Bei diesem Material handelt es sich ebenfalls um desoxidiertes Kupfer mit sehr guten Eigenschaften im Bereich der elektrischen Leitfähigkeit. Gängiges Schweißen und Löten, sowie warm umformen möglich. Häufig eingesetzt als Bauteil in der Elektrotechnik. Beide Kupfervarianten weisen einen Kupferanteil von mindestens 99,90 % auf und sind damit auch hervorragende Wärmeleiter. Ihr Wunschartikel nicht aufgelistet? Sprechen Sie uns gerne an! Wir prüfen unsere Beschaffungsmöglichkeiten und erstellen Ihnen gerne ein persönliches Angebot.<\/p><p><\/p><h3>Allgemeine Informationen, was ist Kupfer?<\/h3><p>Kupfer gehört zu den relativ weichen Metallen und ist im Periodensystem der Elemente als Cu gelistet. Zusammen mit Gold und Silber ist Kupfer eines der ersten von Menschen verwendeten Metallen der Geschichte. Dies liegt unter anderem auch daran, da sich das Metall sehr gut verarbeiten ließ. Der Einsatz von Kupfer erstreckt sich über viele Bereiche, ob zu dekorativen oder technischen Zwecken. Das weiche Metall besitzt eine typisch rötlich-orange Färbung und fühlt sich kühl an. Aufgrund des edlen Aussehens findet das Halbedelmetall einen Platz als Dekoration im privaten Haushalt und wird von der Industrie wegen seiner hervorragenden Eigenschaften als Strom- und Wärmeleiter geschätzt. Durch den geringen inneren Widerstand wird Kupfer bevorzugt in Stromkabeln verwendet und zur Abführung von Wärme in technischen Geräten und Bauten wie Wärmetauschern oder Lamellen-Kühlern in PC-Systemen genutzt.<\/p><p><\/p><h3>Was ist Kupfer und wofür wird es gebraucht?<\/h3><p>Kupfer wird weltweit in Kupferbergwerken gewonnen und gehört zu den häufig auf der Erde vertretenen Elementen. Der größte Kupferproduzent ist Chile, gefolgt von Peru und China. Das zuvor erwähnte rötliche Metall ist als Rohstoff sehr beliebt.<\/p><p>Kupfer zeichnet sich durch eine gute Wärmeleitfähigkeit und elektrische Leitfähigkeit aus. Ebenso ist es witterungsbeständig und lässt sich durch die Kupfer-verarbeitende Industrie in viele verschiedene Formen herstellen. Auf die verschiedenen Einsatzzwecke in der Elektrik und Elektronik sind wir bereits weiter oben eingegangen. Auch zur Dekoration erfreuen sich Kupferobjekte großer Beliebtheit. Zudem lassen sich aus Kupfer Gebrauchsgegenstände, wie Geschirr, Tassen, Becher, Vasen u.v.a.m. herstellen.<\/p><p>Nicht unerwähnt bleiben soll, dass Kupfer zwar sehr witterungsbeständig ist, jedoch eine Korrosion nicht ausgeschlossen ist. Eine Kupferkorrosion ist an ihrer grünlichen Ablagerung auf der Kupferoberfläche erkennbar. Dies sieht zwar nicht mehr ganz so schön aus, weil der kupferfarbene Ton verschwindet, jedoch die Korrosion nicht weiter fortschreitet. Die auf der Oberfläche entstehende Kupferkorrosion dient als Schutzschicht und macht zum Beispiel eine Kupferplatte gegen weitere Witterungseinflüsse absolut unempfindlich.<\/p><p><\/p><h3>Die richtigen Abmessungen Ihrer Kupferplatte<\/h3><p>Wenn Sie bei uns eine Kupferplatte kaufen möchten, können Sie zunächst zwischen den beiden Legierungen SE-Cu und SF-Cu wählen. Kupferplatten bieten wir Ihnen nicht vorab in festen Größen an. Sie können Ihre gewünschte Kupferplatte in der Bestellübersicht auf Maß in Millimeter eingeben. Geben Sie hierzu einfach die Länge und Breite ein. Schließlich können Sie bei uns eine Kupferplatte in einer Stärke von 1 mm bis 30 mm bestellen. Damit lassen sich stabile und individuelle Konstruktionen herstellen.<\/p><p><\/p><h3>Pflege<\/h3><p>Wer Gegenstände aus Kupfer sein Eigen nennt, dem ist der Begriff Grünspan sicherlich bekannt. Durch Oxidation mit Sauerstoff läuft Kupfer mit der Zeit dunkel an und verfärbt sich grünlich, was jedoch völlig normal ist und in der Natur von Kupfer liegt. Schon mit einfachen Hausmitteln lässt sich Kupfer mit wenig Aufwand wieder auf Hochglanz polieren. Der schimmernde Glanz kann so über lange Zeit erhalten bleiben. Andere Werkstoffe, welche mit Kupfer legiert wurden, sind außerdem gegen Rost geschützt.<\/p><p><\/p><h3>Pflege von Kupfer<\/h3><p>Möchten Sie eine angelaufene, leicht korrodierte Kupferplatte säubern, können Sie hierzu eine Essigessenz mit Wasser und etwas Salz anmischen. Mit einem Tuch wird dieser Reiniger auf die betroffene Kupferstelle aufgetragen. Nach kurzer Einwirkzeit spülen Sie Ihre Kupferplatte unter warmen Wasser ab.<\/p><p>Hartnäckige Verschmutzungen lassen sich direkt mit Essig und Salz entfernen. Hierzu eignet sich eine alte Zahnbürste besonders gut. Abschließen wird die Oberfläche mit einem weichen Tuch abgerieben und poliert. Ihre Kupferplatte erstrahlt dann wieder im frischen Glanz. Diese Reinigung ist auch bei anderen Dekorationsstücken möglich.<\/p><p><\/p><h3>Einsatzmöglichkeiten von Computer bis Vase<\/h3><ul><li>Maschinenbau<\/li><li>Möbelbau<\/li><li>Elektrotechnik<\/li><li>Infrastrukturausbau<\/li><li>Bauwesen<\/li><li>Medizin<\/li><li>Kunstschaffung<\/li><li>Haushalt \/ Dekoration<\/li><\/ul><p>Die Einsatzmöglichkeiten sind vielfältig. Bei weiteren Fragen zum Thema Kupfer stehen wir Ihnen jederzeit gerne telefonisch, wie auch schriftlich per Mail zur Verfügung und beraten Sie gerne bei Ihrem Vorhaben.<\/p><h3><\/h3><h3>Der Einsatz von Kupferplatten<\/h3><p>Eine Kupferplatte wird schon seit Generationen zum Abdecken von Hausdächern eingesetzt. Viel Kirchtürme haben ein kupfernes Dach. Durch natürliche Korrosion bildet sich auf der Kupferoberfläche eine grüne Patina, welche dem Kupfer eine lange Haltbarkeit und Lebensdauer verspricht.<\/p><p>Hier im Shop können Sie Kupferbleche in verschiedenen Größen bestellen. Vielleicht möchten Sie im Innen- und Außenbereich schmale Kupferverblendungen einsetzen. So können Sie beispielsweise einen Holzbalken nachträglich mit einer Kupferplatte abdecken, um die Konstruktion wind- und wasserfest zu machen.<\/p><p>Mit einer Kupferplatte lassen sich auch im Innenbereich dekorative Abdeckungen herstellen. Sie dienen zum Teil als Kantenschutz. Hobbyelektroniker verwenden eine Kupferplatte zum Beispiel als Kühlkörper. Hier kommt wieder die gute Wärmeleitfähigkeit zum Tragen. Mit einer Kupferplatte können auch größere elektrische Kontakte hergestellt werden.<\/p><p>Kupfer lässt sich mit richtiger Temperatur und Lötzinn zuverlässig zusammenlöten. Auch das Bohren und Sägen bereitet keine großen Schwierigkeiten. Sie benötigen lediglich einen Metallbohrer bzw. eine Metallsäge. Einer Kupferplatte lässt sich durch Erhitzen in verschiedene Formen biegen. Aber auch das Kaltbiegen von Kupfer ist in Abhängigkeit der Stärke des Materials möglich.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--18273043874096__b52c152d-213d-4fd9-b0d1-506fdc0e07df-1679562926a9e6ac11-0"
+        "template--18214900302128__9c5b1c5a-0879-4ac2-902f-8812698d880d-16778416329c1aa01d-1"
+      ],
+      "custom_css": [
+        "h1 {color: #f39200;}",
+        "h3 {color: #f39200;}"
       ],
       "settings": {
-        "side-title": "Wir sind für Sie da",
-        "image": "shopify:\/\/shop_images\/avatar.png",
-        "side-richtext": "<h4>Eduard Bratkowski<\/h4><p><strong>Kundenberater<\/strong><\/p><p><a href=\"tel:051216763599\"> 05121 6763599<\/a><a href=\"mailto:verkauf@alu-verkauf.de\"> <\/a><\/p><p><a href=\"mailto:verkauf@alu-verkauf.de\">verkauf@alu-verkauf.de<\/a><\/p>",
-        "versand-richtext": "<p><strong>Schneller Versand<\/strong><\/p><ul><li> Keine Mindestmengen<\/li><li> Individueller Zuschnitt<\/li><li> Schneller Versand<\/li><li> Großes Alu-Sortiment<\/li><li> Sondergrößen auf Anfrage<\/li><li> Abholung Vor-Ort<\/li><\/ul>",
-        "checkbox": true
+        "align_text": "left",
+        "narrow_column": false,
+        "color_scheme": "1",
+        "divider": false
       }
     }
   },
   "order": [
     "main",
     "d38437cf-d8e2-4fbd-8519-bdc9ed069000",
+    "99917277-232f-4416-81c6-06feeef38f6a",
     "e497af2b-22bf-41dd-96ee-0cd33a10d64f",
-    "b52c152d-213d-4fd9-b0d1-506fdc0e07df"
+    "9c5b1c5a-0879-4ac2-902f-8812698d880d"
   ]
 }

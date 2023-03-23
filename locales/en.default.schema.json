@@ -3682,6 +3682,27 @@
         }
       }
     },
+    "contact_form_with_information": {
+      "name": "Contact form with information",
+      "settings": {
+        "content": "All submissions are sent to the customer email address of your store. [Learn more](https:\/\/help.shopify.com\/en\/manual\/using-themes\/change-the-layout\/add-contact-form#view-contact-form-submissions).",
+        "title": {
+          "label": "Heading"
+        },
+        "text": {
+          "label": "Text"
+        },
+        "telephone": {
+          "label": "Phone"
+        },
+        "email": {
+          "label": "E-Mail"
+        },
+        "adress": {
+          "label": "Adress"
+        }
+      }
+    },
     "html": {
       "name": "HTML",
       "settings": {

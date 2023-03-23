@@ -3678,6 +3678,27 @@
         }
       }
     },
+    "contact_form_with_information": {
+      "name": "Kontaktformular mit Informationen",
+      "settings": {
+        "content": "Alle Einsendungen werden an die Kunden-E-Mail-Adresse deines Shops gesendet. [Mehr erfahren](https:\/\/help.shopify.com\/en\/manual\/using-themes\/change-the-layout\/add-contact-form#view-contact-form-submissions).",
+        "title": {
+          "label": "Überschrift"
+        },
+        "text": {
+          "label": "Text"
+        },
+        "telephone": {
+          "label": "Telefon"
+        },
+        "email": {
+          "label": "E-Mail"
+        },
+        "adress": {
+          "label": "Standort"
+        }
+      }
+    },
     "html": {
       "name": "HTML",
       "settings": {
