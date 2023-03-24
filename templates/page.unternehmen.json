@@ -129,7 +129,7 @@
         "template--18204567109936__d0c06e0b-b96b-4951-bfaf-6ccffc252756-16778363187bae2563-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2 align=center>Bekannt aus:<\/h2>",
+            "code": "<h3 align=center>Bekannt aus:<\/h3>",
             "width": "100%",
             "alignment": "center"
           }
@@ -157,11 +157,79 @@
       "block_order": [
         "template--18204567109936__0d3d3a96-7c68-4a61-b566-0d66639e6e99-1677836090f4dd0209-0"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "full_width": false,
         "style": "arrows",
         "autoplay": true,
         "autoplay_speed": 7
+      }
+    },
+    "e5f7aa7f-da43-4116-91b4-39831d3c7c81": {
+      "type": "text-columns",
+      "blocks": {
+        "template--18300171878704__e5f7aa7f-da43-4116-91b4-39831d3c7c81-167966267590d9a939-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Bildschirm_foto_2023-03-24_um_13.58.40.png",
+            "image_width": 200,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--18300171878704__e5f7aa7f-da43-4116-91b4-39831d3c7c81-167966267590d9a939-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Bildschirm_foto_2023-03-24_um_13.58.45.png",
+            "image_width": 200,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--18300171878704__e5f7aa7f-da43-4116-91b4-39831d3c7c81-167966267590d9a939-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Bildschirm_foto_2023-03-24_um_13.58.55.png",
+            "image_width": 200,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "fca0828f-fab1-4d9d-9694-4299e5473c2e": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Bildschirm_foto_2023-03-24_um_13.58.50.png",
+            "image_width": 200,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18300171878704__e5f7aa7f-da43-4116-91b4-39831d3c7c81-167966267590d9a939-0",
+        "template--18300171878704__e5f7aa7f-da43-4116-91b4-39831d3c7c81-167966267590d9a939-1",
+        "template--18300171878704__e5f7aa7f-da43-4116-91b4-39831d3c7c81-167966267590d9a939-2",
+        "fca0828f-fab1-4d9d-9694-4299e5473c2e"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none"
       }
     },
     "b5e73ae9-bd85-4682-a303-70c23cb7fec5": {
@@ -282,6 +350,18 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "2512f2db-85d4-49c9-9e29-f662f0e42227": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/alu-verkaufde-logo-1585153075.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -290,7 +370,8 @@
         "0b7e2957-7605-4ff2-9465-62608331ae9e",
         "94418486-bad6-4a8c-a466-31e52e517816",
         "514eae7e-616e-40ad-b2e8-7ed4a10de202",
-        "ffe3a1a7-7379-41c2-bbfd-6ea702799e37"
+        "ffe3a1a7-7379-41c2-bbfd-6ea702799e37",
+        "2512f2db-85d4-49c9-9e29-f662f0e42227"
       ],
       "settings": {
         "title": "",
@@ -407,6 +488,59 @@
         "round_images": true,
         "color_scheme": "none"
       }
+    },
+    "56f24d04-68e8-4a37-8508-74fa4d0b6ee3": {
+      "type": "logo-list",
+      "blocks": {
+        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-0": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-1": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-2": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-3": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-4": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-5": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-0",
+        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-1",
+        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-2",
+        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-3",
+        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-4",
+        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-5"
+      ],
+      "settings": {
+        "title": "Our brands",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -417,10 +551,12 @@
     "d4771e19-d282-4f71-bda9-b462fa39ebad",
     "d0c06e0b-b96b-4951-bfaf-6ccffc252756",
     "0d3d3a96-7c68-4a61-b566-0d66639e6e99",
+    "e5f7aa7f-da43-4116-91b4-39831d3c7c81",
     "b5e73ae9-bd85-4682-a303-70c23cb7fec5",
     "ebdb93bb-6fe5-4b7a-97ea-54bbfb750ff7",
     "fccfe36a-d69f-423c-bc05-c083fea20d5b",
     "f1371e07-2d9f-4f0c-a194-9ec735209334",
-    "f2c4e170-0333-4fff-a0af-c4fa5648fa2e"
+    "f2c4e170-0333-4fff-a0af-c4fa5648fa2e",
+    "56f24d04-68e8-4a37-8508-74fa4d0b6ee3"
   ]
 }
