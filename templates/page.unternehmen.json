@@ -139,7 +139,7 @@
         "template--18204567109936__d0c06e0b-b96b-4951-bfaf-6ccffc252756-16778363187bae2563-1"
       ],
       "custom_css": [
-        "h3{margin-bottom: 0;}"
+        "h3 {margin-bottom: 0;}"
       ],
       "settings": {
         "full_width": false,
@@ -561,59 +561,6 @@
         "round_images": true,
         "color_scheme": "none"
       }
-    },
-    "56f24d04-68e8-4a37-8508-74fa4d0b6ee3": {
-      "type": "logo-list",
-      "blocks": {
-        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-0": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-1": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-2": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-3": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-4": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-5": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-0",
-        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-1",
-        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-2",
-        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-3",
-        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-4",
-        "template--18300171878704__56f24d04-68e8-4a37-8508-74fa4d0b6ee3-16796622792c1af6b4-5"
-      ],
-      "settings": {
-        "title": "Our brands",
-        "divider": false
-      }
     }
   },
   "order": [
@@ -630,7 +577,6 @@
     "ebdb93bb-6fe5-4b7a-97ea-54bbfb750ff7",
     "fccfe36a-d69f-423c-bc05-c083fea20d5b",
     "f1371e07-2d9f-4f0c-a194-9ec735209334",
-    "f2c4e170-0333-4fff-a0af-c4fa5648fa2e",
-    "56f24d04-68e8-4a37-8508-74fa4d0b6ee3"
+    "f2c4e170-0333-4fff-a0af-c4fa5648fa2e"
   ]
 }
