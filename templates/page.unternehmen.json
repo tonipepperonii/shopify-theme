@@ -322,15 +322,19 @@
         "template--18300171878704__f1371e07-2d9f-4f0c-a194-9ec735209334-16796583089177dacd-0": {
           "type": "team_block",
           "settings": {
-            "title": "Beispiel title",
-            "text": "<p>Beispiel Text.<\/p>"
+            "title": "Team Büro",
+            "text": "<p>Wir kümmern uns um alle administrativen Aufgaben rund um unsere Produkte und Ihre Bestellung. Für Fragen stehen wir Ihnen jederzeit über unsere <a href=\"\/pages\/kontakt\" title=\"Kontakt\"><strong>Kontaktmöglichkeiten<\/strong><\/a> zur Verfügung.<\/p>",
+            "image": "shopify:\/\/shop_images\/abouttwo.png",
+            "text-2": "<p>(von links nach rechts: Oliver K.; Michael B., Eduard B., Dagmar L.)<\/p>"
           }
         },
         "template--18300171878704__f1371e07-2d9f-4f0c-a194-9ec735209334-16796583089177dacd-1": {
           "type": "team_block",
           "settings": {
-            "title": "Beispiel title",
-            "text": "<p>Beispiel Text. 2<\/p>"
+            "title": "Team Werkstatt",
+            "text": "<p>Wir sorgen dafür, dass Sie die von Ihnen bestellten Werkstoffe passend zugeschnitten und so schnell wie möglich erhalten. Mit unserer langjährigen Fachexpertise stellen wir eine optimale Abwicklung sicher.<\/p>",
+            "image": "shopify:\/\/shop_images\/aboutfour.png",
+            "text-2": "<p>(von links nach rechts: Frank J., Oliver K., Rolf K., Thomas H.)<\/p>"
           }
         }
       },
