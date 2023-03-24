@@ -237,6 +237,8 @@
 
 }
 
+
+
 /* Team Tabs */
   .team-tabs {
       position: relative;
@@ -316,87 +318,10 @@
   .team-tabs nav a:focus {
       outline: none;
   }
-  /* Content */
-    
-  .team-content-wrap section.team-content-current {
-      display: block;
-  }
-    
-  .team-content-wrap {
-      position: relative;
-        
-  }
-  .team-content-wrap section {
-      display: none;
-      margin: 0 auto;
-      padding: 30px 0;
-      max-width: 1200px;
-      
-      ul li {
-        list-style-type: square;
-      }
-      ul li::marker {
-        color: #FEF3D9;
-      }
-      @include media-query($medium-up) {
-          padding: 50px;
-          background: #f8f8f8;
-          img {
-            margin-bottom: 30px;
-          }
-        }
-  }
   
-  /* Fallback */
-  .no-js .team-content-wrap section {
-      display: block;
-      padding-bottom: 2em;
-      border-bottom: 1px solid rgba(255,255,255,0.6);
-  }
-  .team-tabs-style-line nav ul {
-      max-width: none;
-      box-shadow: inset 0 -2px #d1d3d2;
-  }
-  .team-tabs-style-line nav a {
-      box-shadow: inset 0 -2px #d1d3d2;
-      color: #fff;
-      text-align: left;
-      font-weight: 700;
-      font-size: 0.8em;
-      -webkit-transition: color 0.3s, box-shadow 0.3s;
-      transition: color 0.3s, box-shadow 0.3s;
-  }
-  .team-tabs-style-line nav a:hover,
-  .team-tabs-style-line nav a:focus {
-      box-shadow: inset 0 -2px #fff;
-  }
-  .team-tabs-style-line nav li.team-tab-current a {
-      box-shadow: inset 0 -2px #FEF3D9;
-      color: #FEF3D9;
-      
-  }
-  
-  @media screen and (max-width: 58em) {
-      .team-tabs-style-line nav ul {
-          display: block;
-          box-shadow: none;
-      }
-      .team-tabs-style-line nav ul li {
-          display: block;
-          -webkit-flex: none;
-          flex: none;
-      }
-  }
-
-
-.team-tabs {
-  
-  display: flex;
-}
 
 .team-tabs-nav li {
-  float: left;
-  width: 100%;
+  margin: auto;
 }
 .team-tabs-nav li:first-child a {
   border-right: 0;
@@ -424,16 +349,7 @@
   min-height: 280px;
 }
 
-@media screen and (max-width: 58em) {
-  .team-tabs {
-    display: grid;
-  }
-  .team-tabs-stage {
-    width: 100%;
-  }
-  .team-tabs-nav {
-    width: 100%;
-  }
+
 
 }
 
