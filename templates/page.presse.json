@@ -318,6 +318,33 @@
             "author": "Author's name",
             "author_info": "Los Angeles, CA"
           }
+        },
+        "590fa886-ad1c-43dc-8579-6d90a8c825a4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Sehr gut: Individuelle Bestellung möglich, wird auch schnell zugeschnitten. Wer am Ort wohnt kann meist bereits nach ein paar Stunden die Ware abholen. Und: Längen größer 2m sind kein Problem. Die Preise sind ok, das Sortiment könnte größer sein. Insbesondere eloxierte Profile und VA sind kaum erhältlich.<\/p>",
+            "author": "Hase Coolz",
+            "author_info": ""
+          }
+        },
+        "bfacf5ee-377d-48b9-82d4-64e4acc429ea": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Bin total begeistert! Habe am 12.08.21 vormittags bei Alu-verkauf.de angerufen und nach dem Liefertermin für 4 kleine Alustangen gefragt. Wegen hohen Auftragsbestand und der Urlaubszeit wurde mir eine knappe Woche angegeben. Ich wurde aber darum gebeten im Textfeld des Auftrages an zu geben das es dringend sei. Was soll ich sagen, die 4 kleinen Teile waren schon am 13.08.21 bei mir. Toller Kontakt, super schnelle Lieferung, immer gerne wieder!!!<\/p>",
+            "author": "Andreas Scheelen",
+            "author_info": ""
+          }
+        },
+        "822774f4-c852-4670-ba34-15012a21e592": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Bestes Preis \/ Leistungsverhältnis bei schneller Lieferung, genau geschnitten. Sehr empfehlenswert.<\/p>",
+            "author": "Peter Klonk",
+            "author_info": ""
+          }
         }
       },
       "block_order": [
@@ -325,7 +352,10 @@
         "template--18273044037936__09bdfb72-99ec-4d9a-ae66-a057504ccc9a-1679655220622d0e17-1",
         "template--18273044037936__09bdfb72-99ec-4d9a-ae66-a057504ccc9a-1679655220622d0e17-2",
         "template--18273044037936__09bdfb72-99ec-4d9a-ae66-a057504ccc9a-1679655220622d0e17-3",
-        "template--18273044037936__09bdfb72-99ec-4d9a-ae66-a057504ccc9a-1679655220622d0e17-4"
+        "template--18273044037936__09bdfb72-99ec-4d9a-ae66-a057504ccc9a-1679655220622d0e17-4",
+        "590fa886-ad1c-43dc-8579-6d90a8c825a4",
+        "bfacf5ee-377d-48b9-82d4-64e4acc429ea",
+        "822774f4-c852-4670-ba34-15012a21e592"
       ],
       "settings": {
         "title": "Kundenstimmen",
