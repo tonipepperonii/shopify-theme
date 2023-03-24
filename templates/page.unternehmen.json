@@ -329,7 +329,7 @@
       ],
       "settings": {
         "title": "Kundenstimmen",
-        "align_text": "center",
+        "align_text": "left",
         "round_images": true,
         "color_scheme": "none"
       }
