@@ -9,6 +9,7 @@
     {%- for block in section.blocks -%}
     <div id="team-tab-{{ block.id }}">
       {{ block.settings.text }}
+      {{ block.settings.text-2 }}
     </div>
     {%- endfor -%}
     
@@ -52,6 +53,12 @@ $('.team-tabs-nav a').on('click', function(event){
             "id": "text",
             "label": "Text",
             "default": "<p>Beispiel Text.</p>"
+          },
+          {
+            "type": "richtext",
+            "id": "text-2",
+            "label": "Bildunterschrift",
+            "default": "<p>(von links nach rechts: A, B, C).</p>"
           }
         ]
       }
