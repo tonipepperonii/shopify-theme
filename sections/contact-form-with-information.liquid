@@ -17,6 +17,47 @@
 
         {{ form.errors | default_errors }}
         <div class="contact-form-with-information-grid-layout">
+          <div class="contact-form-with-information-contact">
+            {%- if section.settings.title != blank or section.settings.text != blank -%}
+              <div class="section-header">
+                {%- if section.settings.title != blank -%}
+                  <h2>
+                    {{ section.settings.title }}
+                  </h2>
+                {%- endif -%}
+                {%- if section.settings.text != blank -%}
+                  <p>{{ section.settings.text }}</p>
+                {%- endif -%}
+              </div>
+            {% endif %}
+            <div class="contact-form-with-information-contact-cards">
+              <div>
+              <img src="https://cdn.shopify.com/s/files/1/0729/7653/1760/files/telefon.png?v=1679568038" loading="lazy" height=35px style="padding-left:15px;">
+              </div><div>  
+              <h4>Rufen Sie uns an:</h4>
+                <p style="color:#f39200">{{ section.settings.telephone }}</p>
+            </div>
+            </div>
+            <div class="contact-form-with-information-contact-cards">
+              <div>
+              <img src="https://cdn.shopify.com/s/files/1/0729/7653/1760/files/email.png?v=1679568038" loading="lazy" height=35px style="padding-left:15px;">
+              </div>
+              <div>
+              <h4>E-Mail:</h4>
+              <p style="color:#f39200">{{ section.settings.email }}</p>
+              </div>
+            </div>
+            <div class="contact-form-with-information-contact-cards">
+              <div>
+              <img src="https://cdn.shopify.com/s/files/1/0729/7653/1760/files/adress.png?v=1679568038" loading="lazy" height=35px style="padding-left:15px;">
+              </div>
+              <div>
+              <h4 >Adresse:</h4>
+              <p>{{ section.settings.adress }}</p>
+              </div>
+            </div>
+          </div>
+
           <div class="contact-form-with-information-form">
 
             <label for="ContactFormName-{{ section.id }}">{{ 'contact.form.name' | t }}</label>
@@ -42,37 +83,6 @@
 
           {%- endform -%}
           </div>
-        <div class="contact-form-with-information-contact">
-          {%- if section.settings.title != blank or section.settings.text != blank -%}
-            <div class="section-header">
-              {%- if section.settings.title != blank -%}
-                <h2>
-                  {{ section.settings.title }}
-                </h2>
-              {%- endif -%}
-              {%- if section.settings.text != blank -%}
-                <p>{{ section.settings.text }}</p>
-              {%- endif -%}
-            </div>
-          {% endif %}
-          <div class="contact-form-with-information-contact-cards">
-            <div>
-            <img src="https://cdn.shopify.com/s/files/1/0729/7653/1760/files/telefon.png?v=1679568038" loading="lazy" height=50px width=50px >
-            </div>
-            <div>
-              <h4>Rufen Sie uns an:</h4>
-              <p style="color:#f39200">{{ section.settings.telephone }}</p>
-            </div>
-          </div>
-          <div class="contact-form-with-information-contact-cards">
-            <h4>E-Mail:</h4>
-            <p style="color:#f39200">{{ section.settings.email }}</p>
-          </div>
-          <div class="contact-form-with-information-contact-cards">
-            <h4>Adresse:</h4>
-            {{ section.settings.adress }}
-          </div>
-        </div>
     </div>
   </div>
 </div>

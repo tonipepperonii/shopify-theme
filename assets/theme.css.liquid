@@ -8740,6 +8740,11 @@ html[dir=rtl] .background-media-text__text{
   margin-top:10px;
   padding: 15px 15px !important;
   align-self:start;
+  display: flex; 
+  align-items: center;
+  grid-template-columns: 0.5fr 1.5fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 30px; 
 }
 
 .contact-form-with-information-form { 
@@ -8747,6 +8752,17 @@ html[dir=rtl] .background-media-text__text{
   box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
   border-radius:5px;
   padding: 15px 15px !important;
+}
+
+@media only screen and (max-width:769px){
+  .contact-form-with-information-grid-layout{
+    display:contents;
+  }
+
+  .contact-form-with-information-contact{
+    margin-bottom:40px;
+  }
+
 }
 
 
