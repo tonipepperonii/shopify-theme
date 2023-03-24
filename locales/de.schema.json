@@ -3678,7 +3678,7 @@
         }
       }
     },
-    "contact_form_with_information": {
+    "contact-form-with-information": {
       "name": "Kontaktformular mit Informationen",
       "settings": {
         "content": "Alle Einsendungen werden an die Kunden-E-Mail-Adresse deines Shops gesendet. [Mehr erfahren](https:\/\/help.shopify.com\/en\/manual\/using-themes\/change-the-layout\/add-contact-form#view-contact-form-submissions).",
@@ -3696,6 +3696,11 @@
         },
         "adress": {
           "label": "Standort"
+        }
+      },
+      "presets": {
+        "contact_form_with_information": {
+          "name": "Kontaktformular mit Zusatzinformationen"
         }
       }
     },

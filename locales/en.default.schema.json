@@ -3682,7 +3682,7 @@
         }
       }
     },
-    "contact_form_with_information": {
+    "contact-form-with-information": {
       "name": "Contact form with information",
       "settings": {
         "content": "All submissions are sent to the customer email address of your store. [Learn more](https:\/\/help.shopify.com\/en\/manual\/using-themes\/change-the-layout\/add-contact-form#view-contact-form-submissions).",
@@ -3700,6 +3700,11 @@
         },
         "adress": {
           "label": "Adress"
+        }
+      },
+      "presets": {
+        "contact_form_with_information": {
+          "name": "Contact Form with Information"
         }
       }
     },
