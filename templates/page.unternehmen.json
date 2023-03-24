@@ -330,7 +330,7 @@
           "type": "team_block",
           "settings": {
             "title": "Beispiel title",
-            "text": "<p>Beispiel Text.<\/p>"
+            "text": "<p>Beispiel Text. 2<\/p>"
           }
         }
       },
