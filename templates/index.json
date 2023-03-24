@@ -164,8 +164,10 @@
         "blog": "news",
         "blog_show_tags": true,
         "blog_show_excerpt": true,
+        "blog_show_image": true,
         "blog_show_date": false,
-        "divider": false
+        "divider": false,
+        "blog_image_size": "wide"
       }
     },
     "c5e4a292-5547-4722-8908-f8e44d7f0a72": {
@@ -175,8 +177,10 @@
         "blog": "ideen",
         "blog_show_tags": true,
         "blog_show_excerpt": true,
+        "blog_show_image": true,
         "blog_show_date": true,
-        "divider": false
+        "divider": false,
+        "blog_image_size": "wide"
       }
     },
     "61a6d63d-1e52-498b-b291-23b56f504820": {
@@ -249,45 +253,45 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
+            "testimonial": "<p>Von der Bestellung und der Lieferung vergingen nur 2 Tage. Die Ware war perfekt verpackt und kam ohne jegliche Beschädigungen an. Die Auswahl der verschiedenen Profilen ist reichhaltig und für jeden was dabei. Ich würde jederzeit wieder bestellen. Das Preis Leistungsverhältnis stimmt auch.<\/p>",
+            "author": "Philipp Dischinger",
+            "author_info": ""
           }
         },
         "template--18204113338672__c185c803-627b-44c4-bb29-cd2ef0e10fae-16777589798a362c9e-1": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
+            "testimonial": "<p>Bin sehr froh, solch eine hervorragende tolle Firma direkt am Wohnort zu haben, aber auch Versand wäre möglich. Große Auswahl und Möglichkeit selbst kleinste Mengen und Profilabschnitte zu bekommen ohne gleich ganze Meterenden kaufen und mühsam selbst sägen zu müssen. Ideal gerade für Hobbybastler und Konstrukteure! Sehr schneller und sehr freundlicher Service. Nur zu empfehlen!!<\/p>",
+            "author": "Joachim Diehl",
+            "author_info": ""
           }
         },
         "template--18204113338672__c185c803-627b-44c4-bb29-cd2ef0e10fae-16777589798a362c9e-2": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
+            "testimonial": "<p>Perfekter Service! Auf meine Bitte, die Artikel noch am selben Tag in den Versand zu geben, erhielt ich prompt die Bestätigung und den Versenderlink. So muss das sein, absolut empfehlenswert. Ware und Material sind ebenfalls qualitativ hochwertig!<\/p>",
+            "author": "Stephan Freeheeler",
+            "author_info": ""
           }
         },
         "template--18204113338672__c185c803-627b-44c4-bb29-cd2ef0e10fae-16777589798a362c9e-3": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
+            "testimonial": "<p>Ich schätze den schnellen Versand und den für mich vorbildlichen Kundenservice. Leider ging bei meiner letzten Lieferung bei der Zustellung was schief. Auf meine diesbezügliche Mail erfolgte sofort ein Rückruf und das Problem konnte zu meiner vollsten Zufriedenheit gelöst werden. Und hier trennt sich die Spreu vom Weizen. alu-verkauf.de ist und bleibt daher mein Favorit.<\/p>",
+            "author": "Michael 500EXTC",
+            "author_info": ""
           }
         },
         "template--18204113338672__c185c803-627b-44c4-bb29-cd2ef0e10fae-16777589798a362c9e-4": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
+            "testimonial": "<p>Sehr gut: Individuelle Bestellung möglich, wird auch schnell zugeschnitten. Wer am Ort wohnt kann meist bereits nach ein paar Stunden die Ware abholen. Und: Längen größer 2m sind kein Problem. Die Preise sind ok, das Sortiment könnte größer sein. Insbesondere eloxierte Profile und VA sind kaum erhältlich.<\/p>",
+            "author": "Hase Coolz",
+            "author_info": ""
           }
         }
       },
