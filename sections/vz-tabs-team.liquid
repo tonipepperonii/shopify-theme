@@ -10,7 +10,7 @@
     <div id="team-tab-{{ block.id }}">
       {{ block.settings.text }}
       {%- if block.settings.image != blank -%}
-        <div class="image-wrap text-spacing" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
+        <div class="team-image-wrap image-wrap text-spacing" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
           {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
           <img class="lazyload"
               data-src="{{ img_url }}"
