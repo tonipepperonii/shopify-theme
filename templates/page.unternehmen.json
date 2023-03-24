@@ -201,6 +201,9 @@
         "template--18300171878704__e8d0b467-99c9-4b82-9768-14bea180cf59-167966299586678164-2",
         "d210e416-c5c2-4466-bf05-755f88553f54"
       ],
+      "custom_css": [
+        ".index-section{padding-top: 0;}"
+      ],
       "settings": {
         "title": "",
         "align_text": "left",
