@@ -237,6 +237,206 @@
 
 }
 
+/* Team Tabs */
+  .team-tabs {
+      position: relative;
+      overflow: hidden;
+      margin: 0 auto;
+      width: 100%;
+    display: flex;
+  }
+  .team-tabs-nav {
+    flex: 0 0 auto;
+    width: 25%;
+    margin-top: 30px;
+    font-family:var(--typeHeaderPrimary),var(--typeHeaderFallback);
+    font-weight: 900;
+    font-size: 20px;
+    list-style: none;
+  }
+  .team-tabs-nav li a {
+    text-decoration: none !important;
+    color: #CECED7;
+  }
+  .team-tabs-nav li.team-tab-active a {
+    color: black;
+  }
+  .team-tabs nav {
+      text-align: center;
+      font-size: 1.25em;
+  }
+  .team-tabs nav ul {
+      position: relative;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: flex;
+      margin: 0 auto;
+      padding: 0;
+      max-width: 1200px;
+      list-style: none;
+      -ms-box-orient: horizontal;
+      -ms-box-pack: center;
+      -webkit-flex-flow: row wrap;
+      -moz-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      -ms-justify-content: center;
+      justify-content: center;
+  }
+  .team-tabs nav ul li {
+      position: relative;
+      z-index: 1;
+      display: block;
+      margin: 0;
+      text-align: center;
+      -webkit-flex: 1;
+      -moz-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+  }
+  .team-tabs nav a {
+      position: relative;
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      line-height: 2.5;
+      border: none !important;
+      text-decoration: none !important;
+      text-transform: uppercase;
+  }
+  .team-tabs nav a span {
+      vertical-align: middle;
+      font-size: 1em;
+  }
+  .team-tabs nav a:focus {
+      outline: none;
+  }
+  /* Content */
+    
+  .team-content-wrap section.team-content-current {
+      display: block;
+  }
+    
+  .team-content-wrap {
+      position: relative;
+        
+  }
+  .team-content-wrap section {
+      display: none;
+      margin: 0 auto;
+      padding: 30px 0;
+      max-width: 1200px;
+      
+      ul li {
+        list-style-type: square;
+      }
+      ul li::marker {
+        color: #FEF3D9;
+      }
+      @include media-query($medium-up) {
+          padding: 50px;
+          background: #f8f8f8;
+          img {
+            margin-bottom: 30px;
+          }
+        }
+  }
+  
+  /* Fallback */
+  .no-js .team-content-wrap section {
+      display: block;
+      padding-bottom: 2em;
+      border-bottom: 1px solid rgba(255,255,255,0.6);
+  }
+  .team-tabs-style-line nav ul {
+      max-width: none;
+      box-shadow: inset 0 -2px #d1d3d2;
+  }
+  .team-tabs-style-line nav a {
+      box-shadow: inset 0 -2px #d1d3d2;
+      color: #fff;
+      text-align: left;
+      font-weight: 700;
+      font-size: 0.8em;
+      -webkit-transition: color 0.3s, box-shadow 0.3s;
+      transition: color 0.3s, box-shadow 0.3s;
+  }
+  .team-tabs-style-line nav a:hover,
+  .team-tabs-style-line nav a:focus {
+      box-shadow: inset 0 -2px #fff;
+  }
+  .team-tabs-style-line nav li.team-tab-current a {
+      box-shadow: inset 0 -2px #FEF3D9;
+      color: #FEF3D9;
+      
+  }
+  
+  @media screen and (max-width: 58em) {
+      .team-tabs-style-line nav ul {
+          display: block;
+          box-shadow: none;
+      }
+      .team-tabs-style-line nav ul li {
+          display: block;
+          -webkit-flex: none;
+          flex: none;
+      }
+  }
+
+
+.team-tabs {
+  
+  display: flex;
+}
+
+.team-tabs-nav li {
+  float: left;
+  width: 100%;
+}
+.team-tabs-nav li:first-child a {
+  border-right: 0;
+  border-top-left-radius: 6px;
+}
+.team-tabs-nav li:last-child a {
+  border-top-right-radius: 6px;
+}
+
+.team-tab-active {
+  font-color: black;
+  font-size: 24px;
+}
+
+
+.team-tabs-stage div h3 {
+  color: #F39200;
+}
+
+.team-tabs-stage {
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 30px;
+  min-height: 280px;
+}
+
+@media screen and (max-width: 58em) {
+  .team-tabs {
+    display: grid;
+  }
+  .team-tabs-stage {
+    width: 100%;
+  }
+  .team-tabs-nav {
+    width: 100%;
+  }
+
+}
+
 /* ================ The Timeline ================ */
 
 .timeline {
