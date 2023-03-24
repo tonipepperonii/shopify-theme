@@ -33,7 +33,7 @@
         <div class="grid__item {{ column_width }} text-{{ section.settings.align_text }}" {{ block.shopify_attributes }}>
           <div class="grid__item_inner">
             {%- if block.settings.enable_image -%}
-              <div style="{% if section.settings.align_text == 'center' %}margin: 0 auto;{% endif %} max-width: {{ block.settings.image_width }}px;">
+              <div style="{% if section.settings.align_text == 'center' %}margin: 0 auto;{% endif %} max-width: {{ block.settings.image_width }}px; margin: auto;">
                 {%- if block.settings.button_link != blank -%}
                   <a href="{{ block.settings.button_link }}">
                 {%- endif -%}
