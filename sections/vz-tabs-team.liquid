@@ -1,12 +1,74 @@
+
+<div class="team-tabs page-width">
+  <ul class="team-tabs-nav">
+    {%- for block in section.blocks -%}
+    <li><a href="#team-tab-{{ block.id }}">{{ block.settings.title }}</a></li>
+    {%- endfor -%}
+  </ul>
+  <div class="team-tabs-stage">
+    {%- for block in section.blocks -%}
+    <div id="team-tab-{{ block.id }}">
+      {{ block.settings.text }}
+    </div>
+    {%- endfor -%}
+    
+  </div>
+</div>
+
+
+<script>
+// Show the first tab by default
+$('.team-tabs-stage div').hide();
+$('.team-tabs-stage div:first').show();
+$('.team-tabs-nav li:first').addClass('team-tab-active');
+
+// Change tab class and display content
+$('.team-tabs-nav a').on('click', function(event){
+  event.preventDefault();
+  $('.team-tabs-nav li').removeClass('team-tab-active');
+  $(this).parent().addClass('team-tab-active');
+  $('.team-tabs-stage div').hide();
+  $($(this).attr('href')).show();
+});
+</script>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "VZ Team Tabs",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "team_block",
+        "name": "Textblock",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Titel",
+            "default": "Beispiel title"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Beispiel Text.</p>"
+          }
+        ]
+      }
+    ],
+  "presets": [
+    {
+      "name": "VZ Team Tabs",
+      "blocks": [
+        {
+          "type": "team_block"
+        },
+        {
+          "type": "team_block"
+        }
+      ]
+    }
+  ]
   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
