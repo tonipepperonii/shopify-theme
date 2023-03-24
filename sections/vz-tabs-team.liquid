@@ -32,8 +32,8 @@
 
 <script>
 // Show the first tab by default
-$('.team-tabs-stage div').hide();
-$('.team-tabs-stage div:first').show();
+$('.team-tabs-stage > div').hide();
+$('.team-tabs-stage > div:first').show();
 $('.team-tabs-nav li:first').addClass('team-tab-active');
 
 // Change tab class and display content
@@ -41,7 +41,7 @@ $('.team-tabs-nav a').on('click', function(event){
   event.preventDefault();
   $('.team-tabs-nav li').removeClass('team-tab-active');
   $(this).parent().addClass('team-tab-active');
-  $('.team-tabs-stage div').hide();
+  $('.team-tabs-stage > div').hide();
   $($(this).attr('href')).show();
 });
 </script>
