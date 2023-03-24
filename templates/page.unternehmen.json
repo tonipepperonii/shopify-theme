@@ -316,6 +316,31 @@
         "divider": false
       }
     },
+    "f1371e07-2d9f-4f0c-a194-9ec735209334": {
+      "type": "vz-tabs-team",
+      "blocks": {
+        "template--18300171878704__f1371e07-2d9f-4f0c-a194-9ec735209334-16796583089177dacd-0": {
+          "type": "team_block",
+          "settings": {
+            "title": "Beispiel title",
+            "text": "<p>Beispiel Text.<\/p>"
+          }
+        },
+        "template--18300171878704__f1371e07-2d9f-4f0c-a194-9ec735209334-16796583089177dacd-1": {
+          "type": "team_block",
+          "settings": {
+            "title": "Beispiel title",
+            "text": "<p>Beispiel Text.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18300171878704__f1371e07-2d9f-4f0c-a194-9ec735209334-16796583089177dacd-0",
+        "template--18300171878704__f1371e07-2d9f-4f0c-a194-9ec735209334-16796583089177dacd-1"
+      ],
+      "settings": {
+      }
+    },
     "f2c4e170-0333-4fff-a0af-c4fa5648fa2e": {
       "type": "testimonials",
       "blocks": {
@@ -391,6 +416,7 @@
     "b5e73ae9-bd85-4682-a303-70c23cb7fec5",
     "ebdb93bb-6fe5-4b7a-97ea-54bbfb750ff7",
     "fccfe36a-d69f-423c-bc05-c083fea20d5b",
+    "f1371e07-2d9f-4f0c-a194-9ec735209334",
     "f2c4e170-0333-4fff-a0af-c4fa5648fa2e"
   ]
 }
