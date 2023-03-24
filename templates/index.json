@@ -293,6 +293,24 @@
             "author": "Hase Coolz",
             "author_info": ""
           }
+        },
+        "7c414513-4781-468f-9fa9-2644dedac223": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Bin total begeistert! Habe am 12.08.21 vormittags bei Alu-verkauf.de angerufen und nach dem Liefertermin für 4 kleine Alustangen gefragt. Wegen hohen Auftragsbestand und der Urlaubszeit wurde mir eine knappe Woche angegeben. Ich wurde aber darum gebeten im Textfeld des Auftrages an zu geben das es dringend sei. Was soll ich sagen, die 4 kleinen Teile waren schon am 13.08.21 bei mir. Toller Kontakt, super schnelle Lieferung, immer gerne wieder!!!<\/p>",
+            "author": "Andreas Scheelen",
+            "author_info": ""
+          }
+        },
+        "fe3d64fc-6679-4e4d-bcd4-d163835649b1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Bestes Preis \/ Leistungsverhältnis bei schneller Lieferung, genau geschnitten. Sehr empfehlenswert.<\/p>",
+            "author": "Peter Klonk",
+            "author_info": ""
+          }
         }
       },
       "block_order": [
@@ -300,7 +318,9 @@
         "template--18204113338672__c185c803-627b-44c4-bb29-cd2ef0e10fae-16777589798a362c9e-1",
         "template--18204113338672__c185c803-627b-44c4-bb29-cd2ef0e10fae-16777589798a362c9e-2",
         "template--18204113338672__c185c803-627b-44c4-bb29-cd2ef0e10fae-16777589798a362c9e-3",
-        "template--18204113338672__c185c803-627b-44c4-bb29-cd2ef0e10fae-16777589798a362c9e-4"
+        "template--18204113338672__c185c803-627b-44c4-bb29-cd2ef0e10fae-16777589798a362c9e-4",
+        "7c414513-4781-468f-9fa9-2644dedac223",
+        "fe3d64fc-6679-4e4d-bcd4-d163835649b1"
       ],
       "settings": {
         "title": "Kundenstimmen",
