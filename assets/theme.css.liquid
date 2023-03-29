@@ -4412,7 +4412,7 @@ form+.footer__social{
   }
 
 .is-light .site-nav__item:not(.site-nav--has-dropdown) .site-nav__link--underline:after{
-    border-bottom-color:#fff
+    border-bottom-color:#fff;
 }
 
 .site-nav--has-dropdown .site-nav__link--underline:after{
@@ -4496,19 +4496,27 @@ form+.footer__social{
   position:absolute;
   left:0;
   z-index:6;
+  color:red;
   background-color:{{ settings.color_body_bg | default: "#fff" }};
   background-color:var(--colorBody);
   min-width:100%;
   padding:10px 0 5px;
-  box-shadow:0px 10px 20px rgba(0, 0, 0, 0.09)
+  box-shadow:0px 10px 20px rgba(0, 0, 0, 0.09);
+
 }
 
 .is-focused>.site-nav__dropdown,.site-nav--has-dropdown:hover .site-nav__dropdown{
-    visibility:visible
+    visibility:visible;
 }
 
 .site-nav__dropdown-list{
   margin:0;
+}
+
+.arrow-down {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
 }
 
 .site-nav__dropdown-animate{

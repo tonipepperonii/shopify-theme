@@ -31,11 +31,18 @@
     -%}
 
     <li
-      class="site-nav__item site-nav__expanded-item{% if has_dropdown %} site-nav--has-dropdown{% endif %}{% if is_megamenu %} site-nav--is-megamenu{% endif %}"
-      {% if has_dropdown %}aria-haspopup="true"{% endif %}>
+      class="site-nav__item site-nav__expanded-item{% if has_dropdown %} site-nav--has-dropdown {% endif %}{% if is_megamenu %} site-nav--is-megamenu{% endif %}"
+      {% if has_dropdown %}
+        aria-haspopup="true"
+      {% endif %}>
 
-      <a href="{{ link.url }}" class="site-nav__link site-nav__link--underline{% if has_dropdown %} site-nav__link--has-dropdown{% endif %}">
-        {{ link.title }}
+      <a href="{{ link.url }}" class="site-nav__link site-nav__link--underline
+        {% if has_dropdown %} site-nav__link--has-dropdown" {% endif %}">
+        {{ link.title }} 
+        
+        {% if has_dropdown %}
+          <img src="https://cdn.shopify.com/s/files/1/0729/7653/1760/files/Design_ohne_Titel_10.png?v=1680076355" width=8px;>
+        {% endif %}
       </a>
       {%- if is_megamenu -%}
         {%- assign previous_column_type = '' -%}
@@ -100,7 +107,7 @@
         </div>
       {%- elsif has_dropdown -%}
         <div class="site-nav__dropdown">
-          <ul class="site-nav__dropdown-animate site-nav__dropdown-list text-left">
+          <ul class="site-nav__dropdown-animate site-nav__dropdown-list text-left">         
             {%- for childlink in link.links -%}
               {%- liquid
                 assign has_sub_dropdown = false
