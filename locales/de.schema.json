@@ -206,6 +206,9 @@
         "blog_show_excerpt": {
           "label": "Auszug anzeigen"
         },
+        "blog_show_image": {
+          "label": "Titelbild anzeigen"
+        },
         "blog_image_size": {
           "label": "Bildgröße erzwingen",
           "options": {
@@ -319,6 +322,9 @@
         "blog_show_excerpt": {
           "label": "Auszug anzeigen"
         },
+        "blog_show_image": {
+          "label": "Titelbild anzeigen"
+        },
         "blog_image_size": {
           "label": "Bildgröße erzwingen",
           "options": {
@@ -397,6 +403,32 @@
       "presets": {
         "contact_form": {
           "name": "Kontaktformular"
+        }
+      }
+    },
+    "contact-form-with-information": {
+      "name": "Kontaktformular mit Informationen",
+      "settings": {
+        "content": "Alle Einsendungen werden an die Kunden-E-Mail-Adresse deines Shops gesendet. [Mehr erfahren](https:\/\/help.shopify.com\/en\/manual\/using-themes\/change-the-layout\/add-contact-form#view-contact-form-submissions).",
+        "title": {
+          "label": "Überschrift"
+        },
+        "text": {
+          "label": "Text"
+        },
+        "telephone": {
+          "label": "Telefon"
+        },
+        "email": {
+          "label": "E-Mail"
+        },
+        "adress": {
+          "label": "Standort"
+        }
+      },
+      "presets": {
+        "contact_form_with_information": {
+          "name": "Kontaktformular mit Zusatzinformationen"
         }
       }
     },
@@ -1872,6 +1904,82 @@
       "presets": {
         "rich_text": {
           "name": "Rich Text"
+        }
+      }
+    },
+    "sidebar-rich-text": {
+      "name": "Rich Text mit Seitenleiste",
+      "settings": {
+        "side-title": {
+          "label": "Überschrift"
+        },
+        "image": {
+          "label": "Bild"
+        },
+        "side-richtext": {
+          "label": "Seitlicher Richtext"
+        },
+        "versand-richtext": {
+          "label": "Versand Richtext"
+        },
+        "checkbox": {
+          "label": "Trusted Shops Bild"
+        }
+      },
+      "blocks": {
+        "main_text": {
+          "name": "Rich Text",
+          "settings": {
+            "main_richtext": {
+              "label": "Rich Text"
+            }
+          }
+        }
+      },
+      "presets": {
+        "rich_text_with_sidebar": {
+          "name": "Rich Text mit Seitenleiste"
+        }
+      }
+    },
+    "job-offer": {
+      "name": "Stellenangebot",
+      "settings": {
+        "main_title": {
+          "label": "Überschrift"
+        },
+        "main_richtext": {
+          "label": "Richtext"
+        }
+      },
+      "blocks": {
+        "main_text": {
+          "name": "Stellenangebot",
+          "settings": {
+            "image": {
+              "label": "Bild"
+            },
+            "title": {
+              "label": "Überschrift"
+            },
+            "richtext": {
+              "label": "Richtext"
+            },
+            "adress": {
+              "label": "Adresse"
+            },
+            "time": {
+              "label": "Zeit"
+            },
+            "when": {
+              "label": "Wann"
+            }
+          }
+        }
+      },
+      "presets": {
+        "job_offer": {
+          "name": "Stellenangebot"
         }
       }
     },

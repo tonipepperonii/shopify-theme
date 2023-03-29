@@ -40,6 +40,7 @@
               show_comments: section.settings.blog_show_comments,
               show_excerpt: section.settings.blog_show_excerpt,
               show_author: section.settings.blog_show_author,
+              show_image: section.settings.blog_show_image,
               image_size: section.settings.blog_image_size -%}
           {%- endfor -%}
         {%- else -%}
@@ -52,6 +53,7 @@
             show_comments: section.settings.blog_show_comments,
             show_excerpt: section.settings.blog_show_excerpt,
             show_author: section.settings.blog_show_author,
+            show_image: section.settings.blog_show_image,
             image_size: 'landscape' -%}
         {%- endif -%}
       </div>
@@ -89,6 +91,12 @@
       "label": "t:sections.blog-posts.settings.blog_show_excerpt.label",
       "default": true
     },
+    { 
+      "type": "checkbox",
+      "id": "blog_show_image",
+      "label": "t:sections.blog-posts.settings.blog_show_image.label",
+      "default": true
+    },
     {
       "type": "checkbox",
       "id": "blog_show_date",
@@ -101,6 +109,34 @@
       "id": "divider",
       "label": "t:sections.blog-posts.settings.divider.label",
       "default": false
+    },
+    {
+      "type": "select",
+      "id": "blog_image_size",
+      "label": "t:sections.blog-posts.settings.blog_image_size.label",
+      "default": "wide",
+      "options": [
+        {
+          "value": "natural",
+          "label": "t:sections.blog-posts.settings.blog_image_size.options.natural.label"
+        },
+        {
+          "value": "square",
+          "label": "t:sections.blog-posts.settings.blog_image_size.options.square.label"
+        },
+        {
+          "value": "landscape",
+          "label": "t:sections.blog-posts.settings.blog_image_size.options.landscape.label"
+        },
+        {
+          "value": "portrait",
+          "label": "t:sections.blog-posts.settings.blog_image_size.options.portrait.label"
+        },
+        {
+          "value": "wide",
+          "label": "t:sections.blog-posts.settings.blog_image_size.options.wide.label"
+        }
+      ]
     }
   ],
   "presets": [

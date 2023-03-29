@@ -20,7 +20,7 @@
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#fff",
+            "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/BARTELS_Fotografie-9158.jpg",
             "overlay_opacity": 50,
@@ -40,96 +40,104 @@
         "autoplay_speed": 7
       }
     },
-    "0babff2f-c197-4d8f-bfbc-8aafc2bac555": {
-      "type": "rich-text",
+    "2c140cf1-e556-4f58-9f0e-10d54cbb9785": {
+      "type": "contact-form-with-information",
+      "settings": {
+        "title": "Nehmen Sie Kontakt auf",
+        "text": "<p>Sie haben Fragen bezüglich unserer Produkte oder eines Angebots? Wir stehen Ihnen gern jederzeit telefonisch, per Kontaktformular oder per E-Mail zur Verfügung – kontaktieren Sie uns und wir kümmern uns um Ihr Anliegen.<\/p>",
+        "telephone": "05121 6763599",
+        "email": "verkauf@alu-verkauf.de",
+        "adress": "<p>Alu-Verkauf GmbH<br\/>Hafenstraße 16<br\/>31137 Hildesheim<br\/>Deutschland<\/p>"
+      }
+    },
+    "8931804a-0855-4e1e-889f-761522e96c0b": {
+      "type": "testimonials",
       "blocks": {
-        "template--18204580512048__0babff2f-c197-4d8f-bfbc-8aafc2bac555-167783245720b5ce44-0": {
-          "type": "heading",
+        "template--18273043775792__8931804a-0855-4e1e-889f-761522e96c0b-1679655220622d0e17-0": {
+          "type": "testimonial",
           "settings": {
-            "title": "Nehmen Sie Kontakt auf"
+            "icon": "5-stars",
+            "testimonial": "<p>Von der Bestellung und der Lieferung vergingen nur 2 Tage. Die Ware war perfekt verpackt und kam ohne jegliche Beschädigungen an. Die Auswahl der verschiedenen Profilen ist reichhaltig und für jeden was dabei. Ich würde jederzeit wieder bestellen. Das Preis Leistungsverhältnis stimmt auch.<\/p>",
+            "author": "Philipp Dischinger",
+            "author_info": ""
           }
         },
-        "template--18204580512048__0babff2f-c197-4d8f-bfbc-8aafc2bac555-167783245720b5ce44-1": {
-          "type": "text",
+        "template--18273043775792__8931804a-0855-4e1e-889f-761522e96c0b-1679655220622d0e17-1": {
+          "type": "testimonial",
           "settings": {
-            "enlarge_text": false,
-            "text": "<p>Sie haben Fragen bezüglich unserer Produkte oder eines Angebots? Wir stehen Ihnen gern jederzeit telefonisch, per Kontaktformular oder per E-Mail zur Verfügung – kontaktieren Sie uns und wir kümmern uns um Ihr Anliegen.<\/p>"
+            "icon": "5-stars",
+            "testimonial": "<p>Bin sehr froh, solch eine hervorragende tolle Firma direkt am Wohnort zu haben, aber auch Versand wäre möglich. Große Auswahl und Möglichkeit selbst kleinste Mengen und Profilabschnitte zu bekommen ohne gleich ganze Meterenden kaufen und mühsam selbst sägen zu müssen. Ideal gerade für Hobbybastler und Konstrukteure! Sehr schneller und sehr freundlicher Service. Nur zu empfehlen!!<\/p>",
+            "author": "Joachim Diehl",
+            "author_info": ""
+          }
+        },
+        "template--18273043775792__8931804a-0855-4e1e-889f-761522e96c0b-1679655220622d0e17-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Perfekter Service! Auf meine Bitte, die Artikel noch am selben Tag in den Versand zu geben, erhielt ich prompt die Bestätigung und den Versenderlink. So muss das sein, absolut empfehlenswert. Ware und Material sind ebenfalls qualitativ hochwertig!<\/p>",
+            "author": "Stephan Freeheeler",
+            "author_info": ""
+          }
+        },
+        "template--18273043775792__8931804a-0855-4e1e-889f-761522e96c0b-1679655220622d0e17-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Ich schätze den schnellen Versand und den für mich vorbildlichen Kundenservice. Leider ging bei meiner letzten Lieferung bei der Zustellung was schief. Auf meine diesbezügliche Mail erfolgte sofort ein Rückruf und das Problem konnte zu meiner vollsten Zufriedenheit gelöst werden. Und hier trennt sich die Spreu vom Weizen. alu-verkauf.de ist und bleibt daher mein Favorit.<\/p>",
+            "author": "Michael 500EXTC",
+            "author_info": ""
+          }
+        },
+        "template--18273043775792__8931804a-0855-4e1e-889f-761522e96c0b-1679655220622d0e17-4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Sehr gut: Individuelle Bestellung möglich, wird auch schnell zugeschnitten. Wer am Ort wohnt kann meist bereits nach ein paar Stunden die Ware abholen. Und: Längen größer 2m sind kein Problem. Die Preise sind ok, das Sortiment könnte größer sein. Insbesondere eloxierte Profile und VA sind kaum erhältlich.<\/p>",
+            "author": "Hase Coolz",
+            "author_info": ""
+          }
+        },
+        "3faa0df6-dd04-4be5-a7ee-c18ae7686dcd": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Bin total begeistert! Habe am 12.08.21 vormittags bei Alu-verkauf.de angerufen und nach dem Liefertermin für 4 kleine Alustangen gefragt. Wegen hohen Auftragsbestand und der Urlaubszeit wurde mir eine knappe Woche angegeben. Ich wurde aber darum gebeten im Textfeld des Auftrages an zu geben das es dringend sei. Was soll ich sagen, die 4 kleinen Teile waren schon am 13.08.21 bei mir. Toller Kontakt, super schnelle Lieferung, immer gerne wieder!!!<\/p>",
+            "author": "Andreas Scheelen",
+            "author_info": ""
+          }
+        },
+        "173daf77-2678-4f81-9f63-8cc342ba454f": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Bestes Preis \/ Leistungsverhältnis bei schneller Lieferung, genau geschnitten. Sehr empfehlenswert.<\/p>",
+            "author": "Peter Klonk",
+            "author_info": ""
           }
         }
       },
       "block_order": [
-        "template--18204580512048__0babff2f-c197-4d8f-bfbc-8aafc2bac555-167783245720b5ce44-0",
-        "template--18204580512048__0babff2f-c197-4d8f-bfbc-8aafc2bac555-167783245720b5ce44-1"
+        "template--18273043775792__8931804a-0855-4e1e-889f-761522e96c0b-1679655220622d0e17-0",
+        "template--18273043775792__8931804a-0855-4e1e-889f-761522e96c0b-1679655220622d0e17-1",
+        "template--18273043775792__8931804a-0855-4e1e-889f-761522e96c0b-1679655220622d0e17-2",
+        "template--18273043775792__8931804a-0855-4e1e-889f-761522e96c0b-1679655220622d0e17-3",
+        "template--18273043775792__8931804a-0855-4e1e-889f-761522e96c0b-1679655220622d0e17-4",
+        "3faa0df6-dd04-4be5-a7ee-c18ae7686dcd",
+        "173daf77-2678-4f81-9f63-8cc342ba454f"
       ],
       "settings": {
-        "align_text": "center",
-        "narrow_column": false,
-        "color_scheme": "1",
-        "divider": false
-      }
-    },
-    "91ffc6b6-1f03-4f3c-9103-f2994983a5ca": {
-      "type": "text-with-icons",
-      "blocks": {
-        "template--18204580512048__91ffc6b6-1f03-4f3c-9103-f2994983a5ca-16778371151afb24b3-0": {
-          "type": "text_block",
-          "settings": {
-            "icon": "phone",
-            "title": "Rufen Sie uns an",
-            "text": "<p><a href=\"tel:051216763613\">05121 6763613<\/a><\/p>"
-          }
-        },
-        "template--18204580512048__91ffc6b6-1f03-4f3c-9103-f2994983a5ca-16778371151afb24b3-1": {
-          "type": "text_block",
-          "settings": {
-            "icon": "envelope",
-            "title": "E-Mail",
-            "text": "<p><a href=\"mailto:verkauf@alu-verkauf.de\">verkauf@alu-verkauf.de<\/a><\/p>"
-          }
-        },
-        "template--18204580512048__91ffc6b6-1f03-4f3c-9103-f2994983a5ca-16778371151afb24b3-2": {
-          "type": "text_block",
-          "settings": {
-            "icon": "store",
-            "title": "Adresse",
-            "text": "<p>Alu-Verkauf GmbH<br\/>Hafenstraße 16<br\/>31137 Hildesheim<br\/>Deutschland<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18204580512048__91ffc6b6-1f03-4f3c-9103-f2994983a5ca-16778371151afb24b3-0",
-        "template--18204580512048__91ffc6b6-1f03-4f3c-9103-f2994983a5ca-16778371151afb24b3-1",
-        "template--18204580512048__91ffc6b6-1f03-4f3c-9103-f2994983a5ca-16778371151afb24b3-2"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "desktop_columns_per_row": 3,
-        "icon_color": "#000",
-        "button_label": "",
-        "button_link": "",
-        "divider": false
-      }
-    },
-    "c503950f-d810-4cb0-80fc-fc566b6e6808": {
-      "type": "contact-form",
-      "custom_css": [
-        ".btn {background-color: #F39200; border-radius:4px;}"
-      ],
-      "settings": {
-        "title": "",
-        "text": "",
-        "show_phone": false,
-        "narrow_column": true,
-        "color_scheme": "1"
+        "title": "Kundenstimmen",
+        "align_text": "left",
+        "round_images": true,
+        "color_scheme": "none"
       }
     }
   },
   "order": [
     "main",
     "d23aa98c-a863-43d6-88ef-840b9daca8d1",
-    "0babff2f-c197-4d8f-bfbc-8aafc2bac555",
-    "91ffc6b6-1f03-4f3c-9103-f2994983a5ca",
-    "c503950f-d810-4cb0-80fc-fc566b6e6808"
+    "2c140cf1-e556-4f58-9f0e-10d54cbb9785",
+    "8931804a-0855-4e1e-889f-761522e96c0b"
   ]
 }

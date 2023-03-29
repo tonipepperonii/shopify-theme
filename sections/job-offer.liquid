@@ -1,0 +1,98 @@
+<div class="page-width">
+
+  <h3 style="text-align:center">{{ section.settings.main_title }}</h3>
+  <div class="rte" style="text-align:center">{{ section.settings.main_richtext }}</div>
+
+<div class="jobs-inner">
+  <div>
+{% for block in section.blocks %}
+  <div>
+  {% if block.settings.image != blank %} <img src="{{ block.settings.image | img_url:'master' }}" height=100 width=100 loading="lazy"/> {% endif %}
+  </div>
+  
+  {% if block.settings.title != blank %} <h4 style="color:#F39200">{{ block.settings.title }}</h4> {% endif %}
+  {% if block.settings.richtext != blank %} <p style="font-size:18px">{{ block.settings.richtext }}</p> {% endif %}
+  <div class="set-jobsbottom">
+
+  <div class="set-jobsbottom-item">
+  {% if block.settings.adress %} <img src="https://cdn.shopify.com/s/files/1/0729/7653/1760/files/adress.png?v=1679568038" width=20 height=20 loading=lazy><p>{{ block.settings.adress }}</p>{% endif %}
+  </div>  
+  {% if block.settings.time %} <img src="https://cdn.shopify.com/s/files/1/0729/7653/1760/files/date.png?v=1680077701" width=20 height=20 loading=lazy><p>{{ block.settings.time }}</p>{% endif %}
+  {% if block.settings.when %} <img src="https://cdn.shopify.com/s/files/1/0729/7653/1760/files/work.png?v=1680077701" width=20 height=20 loading=lazy><p>{{ block.settings.when }}</p>{% endif %}
+  </div>
+</div>
+{% endfor %}
+</div>
+</div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.job-offer.name",
+  "settings": [
+    {
+      "type": "text",
+      "id": "main_title",
+      "label": "t:sections.job-offer.settings.main_title.label"
+    },
+    {
+      "type": "richtext",
+      "id": "main_richtext",
+      "label": "t:sections.job-offer.settings.main_richtext.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "t:sections.job-offer.blocks.main_text.name",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.job-offer.blocks.main_text.settings.image.label"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.job-offer.blocks.main_text.settings.title.label",
+          "default": "Stellenangebot"
+        },
+        {
+          "type": "richtext",
+          "id": "richtext",
+          "label": "t:sections.job-offer.blocks.main_text.settings.richtext.label",
+          "default": "<p>Hier steht die Beschreibung</p>"
+        },
+        {
+          "type": "text",
+          "id": "adress",
+          "label": "t:sections.job-offer.blocks.main_text.settings.adress.label",
+          "default": "Hafenstraße 16, 31137 Hildesheim"
+        },
+        {
+          "type": "text",
+          "id": "time",
+          "label": "t:sections.job-offer.blocks.main_text.settings.time.label",
+          "default": "Voll-/Teilzeit"
+        },
+        {
+          "type": "text",
+          "id": "when",
+          "label": "t:sections.job-offer.blocks.main_text.settings.when.label",
+          "default": "ab sofort"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.job-offer.presets.job_offer.name",
+      "blocks": [
+        {
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

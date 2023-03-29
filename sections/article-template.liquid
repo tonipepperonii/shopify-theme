@@ -28,7 +28,7 @@
       </span>
     {%- endif -%}
     {%- if section.settings.blog_show_date -%}
-      <span class="article__sub-meta-date">{{ article.published_at | time_tag: format: 'day_month_year' }}</span>
+      <span class="article__sub-meta-date">{{ article.published_at | time_tag: format: 'month_day_year' }}</span>
     {%- endif -%}
     {%- if section.settings.blog_show_author -%}
       <span>by {{ article.author }}</span>
@@ -218,7 +218,7 @@
       "type": "checkbox",
       "id": "blog_show_comments",
       "label": "t:sections.article-template.settings.blog_show_comments.label",
-      "default": true
+      "default": false
     },
     {
       "type": "checkbox",

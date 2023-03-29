@@ -406,6 +406,73 @@
         }
       }
     },
+    "contact-form-with-information": {
+      "name": "Contact form with information",
+      "settings": {
+        "content": "All submissions are sent to the customer email address of your store. [Learn more](https:\/\/help.shopify.com\/en\/manual\/using-themes\/change-the-layout\/add-contact-form#view-contact-form-submissions).",
+        "title": {
+          "label": "Heading"
+        },
+        "text": {
+          "label": "Text"
+        },
+        "telephone": {
+          "label": "Phone"
+        },
+        "email": {
+          "label": "E-Mail"
+        },
+        "adress": {
+          "label": "Adress"
+        }
+      },
+      "presets": {
+        "contact_form_with_information": {
+          "name": "Contact Form with Information"
+        }
+      }
+    },
+    "job-offer": {
+      "name": "Job Offer",
+      "settings": {
+        "main_title": {
+          "label": "Heading"
+        },
+        "main_richtext": {
+          "label": "Richtext"
+        }
+      },
+      "blocks": {
+        "main_text": {
+          "name": "Job Offer",
+          "settings": {
+            "image": {
+              "label": "Image"
+            },
+            "title": {
+              "label": "Title"
+            },
+            "richtext": {
+              "label": "Richtext"
+            },
+            "adress": {
+              "label": "Adress"
+            },
+            "time": {
+              "label": "Time"
+            },
+            "when": {
+              "label": "When"
+            }
+          }
+        }
+      },
+      "presets": {
+        "job_offer": {
+          "name": "Job Offer"
+        }
+      }
+    },
     "faq": {
       "name": "FAQ",
       "settings": {
@@ -1878,6 +1945,41 @@
       "presets": {
         "rich_text": {
           "name": "Rich text"
+        }
+      }
+    },
+    "sidebar-rich-text": {
+      "name": "Sidebar Rich Text",
+      "settings": {
+        "side-title": {
+          "label": "Heading"
+        },
+        "image": {
+          "label": "Image"
+        },
+        "side-richtext": {
+          "label": "Side Richtext"
+        },
+        "versand-richtext": {
+          "label": "Delivery Richtext"
+        },
+        "checkbox": {
+          "label": "Trusted Shops Image"
+        }
+      },
+      "blocks": {
+        "main_text": {
+          "name": "Main Text",
+          "settings": {
+            "main_richtext": {
+              "label": "Rich Text Main"
+            }
+          }
+        }
+      },
+      "presets": {
+        "rich_text_with_sidebar": {
+          "name": "Rich Text With Sidebar"
         }
       }
     },

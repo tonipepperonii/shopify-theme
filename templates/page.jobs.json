@@ -4,9 +4,117 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "1f70e298-d711-41ec-baf0-4ea231cf184c": {
+      "type": "job-offer",
+      "blocks": {
+        "template--18273043644720__1f70e298-d711-41ec-baf0-4ea231cf184c-16800813696d17cfc7-0": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/aluverkauf_favicon.png",
+            "title": "Stellenangebot",
+            "richtext": "<p>Hier steht die Beschreibung<\/p>",
+            "adress": "Hafenstraße 16, 31137 Hildesheim",
+            "time": "Voll-\/Teilzeit",
+            "when": "ab sofort"
+          }
+        }
+      },
+      "block_order": [
+        "template--18273043644720__1f70e298-d711-41ec-baf0-4ea231cf184c-16800813696d17cfc7-0"
+      ],
+      "settings": {
+        "main_title": "",
+        "main_richtext": ""
+      }
+    },
+    "7d17c9f2-9396-4be3-86ca-4f04a6cc42e2": {
+      "type": "testimonials",
+      "blocks": {
+        "template--18273043644720__7d17c9f2-9396-4be3-86ca-4f04a6cc42e2-1679655220622d0e17-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Von der Bestellung und der Lieferung vergingen nur 2 Tage. Die Ware war perfekt verpackt und kam ohne jegliche Beschädigungen an. Die Auswahl der verschiedenen Profilen ist reichhaltig und für jeden was dabei. Ich würde jederzeit wieder bestellen. Das Preis Leistungsverhältnis stimmt auch.<\/p>",
+            "author": "Philipp Dischinger",
+            "author_info": ""
+          }
+        },
+        "template--18273043644720__7d17c9f2-9396-4be3-86ca-4f04a6cc42e2-1679655220622d0e17-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Bin sehr froh, solch eine hervorragende tolle Firma direkt am Wohnort zu haben, aber auch Versand wäre möglich. Große Auswahl und Möglichkeit selbst kleinste Mengen und Profilabschnitte zu bekommen ohne gleich ganze Meterenden kaufen und mühsam selbst sägen zu müssen. Ideal gerade für Hobbybastler und Konstrukteure! Sehr schneller und sehr freundlicher Service. Nur zu empfehlen!!<\/p>",
+            "author": "Joachim Diehl",
+            "author_info": ""
+          }
+        },
+        "template--18273043644720__7d17c9f2-9396-4be3-86ca-4f04a6cc42e2-1679655220622d0e17-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Perfekter Service! Auf meine Bitte, die Artikel noch am selben Tag in den Versand zu geben, erhielt ich prompt die Bestätigung und den Versenderlink. So muss das sein, absolut empfehlenswert. Ware und Material sind ebenfalls qualitativ hochwertig!<\/p>",
+            "author": "Stephan Freeheeler",
+            "author_info": ""
+          }
+        },
+        "template--18273043644720__7d17c9f2-9396-4be3-86ca-4f04a6cc42e2-1679655220622d0e17-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Ich schätze den schnellen Versand und den für mich vorbildlichen Kundenservice. Leider ging bei meiner letzten Lieferung bei der Zustellung was schief. Auf meine diesbezügliche Mail erfolgte sofort ein Rückruf und das Problem konnte zu meiner vollsten Zufriedenheit gelöst werden. Und hier trennt sich die Spreu vom Weizen. alu-verkauf.de ist und bleibt daher mein Favorit.<\/p>",
+            "author": "Michael 500EXTC",
+            "author_info": ""
+          }
+        },
+        "template--18273043644720__7d17c9f2-9396-4be3-86ca-4f04a6cc42e2-1679655220622d0e17-4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Sehr gut: Individuelle Bestellung möglich, wird auch schnell zugeschnitten. Wer am Ort wohnt kann meist bereits nach ein paar Stunden die Ware abholen. Und: Längen größer 2m sind kein Problem. Die Preise sind ok, das Sortiment könnte größer sein. Insbesondere eloxierte Profile und VA sind kaum erhältlich.<\/p>",
+            "author": "Hase Coolz",
+            "author_info": ""
+          }
+        },
+        "34a39c03-2542-46ac-b94a-57703dcced91": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Bin total begeistert! Habe am 12.08.21 vormittags bei Alu-verkauf.de angerufen und nach dem Liefertermin für 4 kleine Alustangen gefragt. Wegen hohen Auftragsbestand und der Urlaubszeit wurde mir eine knappe Woche angegeben. Ich wurde aber darum gebeten im Textfeld des Auftrages an zu geben das es dringend sei. Was soll ich sagen, die 4 kleinen Teile waren schon am 13.08.21 bei mir. Toller Kontakt, super schnelle Lieferung, immer gerne wieder!!!<\/p>",
+            "author": "Andreas Scheelen",
+            "author_info": ""
+          }
+        },
+        "ac15bca4-1b0b-4616-a1da-2f80d50598f4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Bestes Preis \/ Leistungsverhältnis bei schneller Lieferung, genau geschnitten. Sehr empfehlenswert.<\/p>",
+            "author": "Peter Klonk",
+            "author_info": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18273043644720__7d17c9f2-9396-4be3-86ca-4f04a6cc42e2-1679655220622d0e17-0",
+        "template--18273043644720__7d17c9f2-9396-4be3-86ca-4f04a6cc42e2-1679655220622d0e17-1",
+        "template--18273043644720__7d17c9f2-9396-4be3-86ca-4f04a6cc42e2-1679655220622d0e17-2",
+        "template--18273043644720__7d17c9f2-9396-4be3-86ca-4f04a6cc42e2-1679655220622d0e17-3",
+        "template--18273043644720__7d17c9f2-9396-4be3-86ca-4f04a6cc42e2-1679655220622d0e17-4",
+        "34a39c03-2542-46ac-b94a-57703dcced91",
+        "ac15bca4-1b0b-4616-a1da-2f80d50598f4"
+      ],
+      "settings": {
+        "title": "Kundenstimmen",
+        "align_text": "left",
+        "round_images": true,
+        "color_scheme": "none"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1f70e298-d711-41ec-baf0-4ea231cf184c",
+    "7d17c9f2-9396-4be3-86ca-4f04a6cc42e2"
   ]
 }
