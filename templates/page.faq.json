@@ -13,7 +13,7 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<h1>Fragen und Antworten<\/h1>",
+            "title": "<h1>FAQ<\/h1>",
             "title_size": 70,
             "subheading": "",
             "link": "",
@@ -22,6 +22,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/faq-banner.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -32,39 +33,11 @@
       ],
       "settings": {
         "full_width": true,
-        "desktop_size": -40,
-        "mobile_size": 0,
+        "desktop_size": 0,
+        "mobile_size": 20,
         "style": "arrows",
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_speed": 7
-      }
-    },
-    "3c7f59d0-aa81-4e78-b021-f13d8b912b9b": {
-      "type": "rich-text",
-      "blocks": {
-        "template--18204113535280__3c7f59d0-aa81-4e78-b021-f13d8b912b9b-167783245720b5ce44-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Häufig gestellte Fragen"
-          }
-        },
-        "template--18204113535280__3c7f59d0-aa81-4e78-b021-f13d8b912b9b-167783245720b5ce44-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p>Sie haben Fragen? Wir haben Antworten: Deshalb finden Sie hier eine Übersicht der am häufigsten gestellten Fragen. Sollte Ihre nicht dabei sein, zögern Sie nicht, uns zu kontaktieren.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18204113535280__3c7f59d0-aa81-4e78-b021-f13d8b912b9b-167783245720b5ce44-0",
-        "template--18204113535280__3c7f59d0-aa81-4e78-b021-f13d8b912b9b-167783245720b5ce44-1"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": false,
-        "color_scheme": "1",
-        "divider": false
       }
     },
     "2c8e42b0-832c-4781-aa09-12189e2f91fb": {
@@ -202,108 +175,14 @@
         "953380eb-d508-4b34-896d-46e792fa2945"
       ],
       "settings": {
-        "title": "FAQs"
-      }
-    },
-    "128fe002-a638-4d0f-bf0b-e1ed492ceb74": {
-      "type": "testimonials",
-      "blocks": {
-        "template--18273043087664__128fe002-a638-4d0f-bf0b-e1ed492ceb74-1679655220622d0e17-0": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Von der Bestellung und der Lieferung vergingen nur 2 Tage. Die Ware war perfekt verpackt und kam ohne jegliche Beschädigungen an. Die Auswahl der verschiedenen Profilen ist reichhaltig und für jeden was dabei. Ich würde jederzeit wieder bestellen. Das Preis Leistungsverhältnis stimmt auch.<\/p>",
-            "author": "Philipp Dischinger",
-            "author_info": "Los Angeles, CA"
-          }
-        },
-        "template--18273043087664__128fe002-a638-4d0f-bf0b-e1ed492ceb74-1679655220622d0e17-1": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Bin sehr froh, solch eine hervorragende tolle Firma direkt am Wohnort zu haben, aber auch Versand wäre möglich. Große Auswahl und Möglichkeit selbst kleinste Mengen und Profilabschnitte zu bekommen ohne gleich ganze Meterenden kaufen und mühsam selbst sägen zu müssen. Ideal gerade für Hobbybastler und Konstrukteure! Sehr schneller und sehr freundlicher Service. Nur zu empfehlen!!<\/p>",
-            "author": "Joachim Diehl",
-            "author_info": ""
-          }
-        },
-        "template--18273043087664__128fe002-a638-4d0f-bf0b-e1ed492ceb74-1679655220622d0e17-2": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Perfekter Service! Auf meine Bitte, die Artikel noch am selben Tag in den Versand zu geben, erhielt ich prompt die Bestätigung und den Versenderlink. So muss das sein, absolut empfehlenswert. Ware und Material sind ebenfalls qualitativ hochwertig!<\/p>",
-            "author": "Stephan Freeheeler",
-            "author_info": ""
-          }
-        },
-        "template--18273043087664__128fe002-a638-4d0f-bf0b-e1ed492ceb74-1679655220622d0e17-3": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Ich schätze den schnellen Versand und den für mich vorbildlichen Kundenservice. Leider ging bei meiner letzten Lieferung bei der Zustellung was schief. Auf meine diesbezügliche Mail erfolgte sofort ein Rückruf und das Problem konnte zu meiner vollsten Zufriedenheit gelöst werden. Und hier trennt sich die Spreu vom Weizen. alu-verkauf.de ist und bleibt daher mein Favorit.<\/p>",
-            "author": "Michael 500EXTC",
-            "author_info": ""
-          }
-        },
-        "template--18273043087664__128fe002-a638-4d0f-bf0b-e1ed492ceb74-1679655220622d0e17-4": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
-          }
-        },
-        "4eb6354d-ab32-49d1-b3e3-f9a84f5b23de": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Sehr gut: Individuelle Bestellung möglich, wird auch schnell zugeschnitten. Wer am Ort wohnt kann meist bereits nach ein paar Stunden die Ware abholen. Und: Längen größer 2m sind kein Problem. Die Preise sind ok, das Sortiment könnte größer sein. Insbesondere eloxierte Profile und VA sind kaum erhältlich.<\/p>",
-            "author": "Hase Coolz",
-            "author_info": ""
-          }
-        },
-        "50e662bf-8dfc-4de1-9117-ac91a5d8704a": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Bin total begeistert! Habe am 12.08.21 vormittags bei Alu-verkauf.de angerufen und nach dem Liefertermin für 4 kleine Alustangen gefragt. Wegen hohen Auftragsbestand und der Urlaubszeit wurde mir eine knappe Woche angegeben. Ich wurde aber darum gebeten im Textfeld des Auftrages an zu geben das es dringend sei. Was soll ich sagen, die 4 kleinen Teile waren schon am 13.08.21 bei mir. Toller Kontakt, super schnelle Lieferung, immer gerne wieder!!!<\/p>",
-            "author": "Andreas Scheelen",
-            "author_info": ""
-          }
-        },
-        "767bc188-ad20-4d2f-a097-44e663cde3ef": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Bestes Preis \/ Leistungsverhältnis bei schneller Lieferung, genau geschnitten. Sehr empfehlenswert.<\/p>",
-            "author": "Peter Klonk",
-            "author_info": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18273043087664__128fe002-a638-4d0f-bf0b-e1ed492ceb74-1679655220622d0e17-0",
-        "template--18273043087664__128fe002-a638-4d0f-bf0b-e1ed492ceb74-1679655220622d0e17-1",
-        "template--18273043087664__128fe002-a638-4d0f-bf0b-e1ed492ceb74-1679655220622d0e17-2",
-        "template--18273043087664__128fe002-a638-4d0f-bf0b-e1ed492ceb74-1679655220622d0e17-3",
-        "template--18273043087664__128fe002-a638-4d0f-bf0b-e1ed492ceb74-1679655220622d0e17-4",
-        "4eb6354d-ab32-49d1-b3e3-f9a84f5b23de",
-        "50e662bf-8dfc-4de1-9117-ac91a5d8704a",
-        "767bc188-ad20-4d2f-a097-44e663cde3ef"
-      ],
-      "settings": {
-        "title": "Kundenstimmen",
-        "align_text": "left",
-        "round_images": true,
-        "color_scheme": "none"
+        "title": "Häufig gestellte Fragen",
+        "description": "Sie haben Fragen? Wir haben Antworten: Deshalb finden Sie hier eine Übersicht der am häufigsten gestellten Fragen. Sollte Ihre nicht dabei sein, zögern Sie nicht, uns zu kontaktieren."
       }
     }
   },
   "order": [
     "main",
     "16f81cd6-1a19-4f18-9be3-f81d86f752c5",
-    "3c7f59d0-aa81-4e78-b021-f13d8b912b9b",
-    "2c8e42b0-832c-4781-aa09-12189e2f91fb",
-    "128fe002-a638-4d0f-bf0b-e1ed492ceb74"
+    "2c8e42b0-832c-4781-aa09-12189e2f91fb"
   ]
 }
