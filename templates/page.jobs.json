@@ -5,6 +5,28 @@
       "settings": {
       }
     },
+    "1f70e298-d711-41ec-baf0-4ea231cf184c": {
+      "type": "job-offer",
+      "blocks": {
+        "template--18273043644720__1f70e298-d711-41ec-baf0-4ea231cf184c-16800813696d17cfc7-0": {
+          "type": "text",
+          "settings": {
+            "title": "Stellenangebot",
+            "richtext": "<p>Hier steht die Beschreibung<\/p>",
+            "adress": "Hafenstraße 16, 31137 Hildesheim",
+            "time": "Voll-\/Teilzeit",
+            "when": "ab sofort"
+          }
+        }
+      },
+      "block_order": [
+        "template--18273043644720__1f70e298-d711-41ec-baf0-4ea231cf184c-16800813696d17cfc7-0"
+      ],
+      "settings": {
+        "main_title": "",
+        "main_richtext": ""
+      }
+    },
     "7d17c9f2-9396-4be3-86ca-4f04a6cc42e2": {
       "type": "testimonials",
       "blocks": {
@@ -91,6 +113,7 @@
   },
   "order": [
     "main",
+    "1f70e298-d711-41ec-baf0-4ea231cf184c",
     "7d17c9f2-9396-4be3-86ca-4f04a6cc42e2"
   ]
 }
