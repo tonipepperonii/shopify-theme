@@ -4360,6 +4360,7 @@ form+.footer__social{
 }
 
 .site-header--heading-style .site-nav__link{
+    color:black;
     font-family:var(--typeHeaderPrimary),var(--typeHeaderFallback);
     font-weight:var(--typeHeaderWeight);
     letter-spacing:var(--typeHeaderSpacing);
@@ -4496,7 +4497,6 @@ form+.footer__social{
   position:absolute;
   left:0;
   z-index:6;
-  color:red;
   background-color:{{ settings.color_body_bg | default: "#fff" }};
   background-color:var(--colorBody);
   min-width:100%;
@@ -4511,12 +4511,6 @@ form+.footer__social{
 
 .site-nav__dropdown-list{
   margin:0;
-}
-
-.arrow-down {
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 5px solid black;
 }
 
 .site-nav__dropdown-animate{
