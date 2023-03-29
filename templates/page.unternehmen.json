@@ -22,6 +22,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/aboutnew.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -32,8 +33,8 @@
       ],
       "settings": {
         "full_width": true,
-        "desktop_size": -40,
-        "mobile_size": 0,
+        "desktop_size": 0,
+        "mobile_size": 20,
         "style": "arrows",
         "autoplay": true,
         "autoplay_speed": 7
@@ -45,7 +46,8 @@
         "template--18204567109936__8f3cb221-72eb-49e7-bc26-1a9fa525ef77-167783245720b5ce44-0": {
           "type": "heading",
           "settings": {
-            "title": "Wir sind Alu-Verkauf.de"
+            "title": "Wir sind Alu-Verkauf.de",
+            "show_line": false
           }
         },
         "template--18204567109936__8f3cb221-72eb-49e7-bc26-1a9fa525ef77-167783245720b5ce44-1": {
@@ -88,13 +90,46 @@
         "autoplay_speed": 7
       }
     },
+    "d4771e19-d282-4f71-bda9-b462fa39ebad": {
+      "type": "vz-tabs",
+      "blocks": {
+        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-0": {
+          "type": "text_block",
+          "settings": {
+            "title": "Unsere Mission",
+            "text": "<h3>Wir unterstützen die schnelle Umsetzung Ihrer Projekte und Ideen mit passend zugeschnittenen Bauteilen.<\/h3><p>Ob Privatperson, Handwerksbetrieb oder Industrie – bei uns finden Sie Materialien und Werkstoffe passend zu Ihren Bedürfnissen und Wünschen. Dabei spielt die Bestellmenge keine Rolle: Von Kleinstmengen bis zu Großbestellungen sind wir Ihr Ansprechpartner. Unsere umfangreiche Auswahl von Profilen, Rohren, Stangen und Platten wartet auf Sie.<\/p>"
+          }
+        },
+        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-1": {
+          "type": "text_block",
+          "settings": {
+            "title": "Unsere Vision",
+            "text": "<h3>Durch kurzfristige Lieferung von Aluminiumzuschnitten ermöglichen wir die Realisierung Ihrer Projekte und Vorhaben bei gleichzeitig ressourcenschonender Nutzung der Rohmaterialien.<\/h3><p>Wir denken groß und möchten alle Bedürfnisse unserer Kunden erfüllen: Deshalb bieten wir eine breite Auswahl, die nach Kundenwunsch zugeschnitten werden kann und die in unserem 1.500 m2 großen Lager auf darauf wartet, von Ihnen genutzt zu werden. Mit unseren 4 Zuschnitt-Maschinen bearbeiten wir die Produkte exakt nach Ihren Vorgaben passend zu Ihrem Projekt. Im Sinne der Nachhaltigkeit finden Sie gleichzeitig auch Restposten, die z. B. bei Zuschnitten anfallen, in unserem Web-Shop.<\/p>"
+          }
+        },
+        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-2": {
+          "type": "text_block",
+          "settings": {
+            "title": "Unsere Wert",
+            "text": "<h3>Wir gewinnen miteinander – das ist unser Unternehmensmotto und gleichzeitig die Basis für unseren nachhaltigen Unternehmenserfolg.<\/h3><p>Dabei steht das “wir” nicht nur für unser Team vor Ort, sondern für die gesamte Wertschöpfungskette: von Lieferanten über unsere Dienstleister bis hin zum Kunden. Gemeinsam bringen wir Projekte und Ideen zum Erfolg. Im Vordergrund steht dabei stets die transparente und ehrliche Kommunikation – sowohl im internen Team als auch gegenüber unseren Kunden. Schließlich sind Sie es, die unser Motor für die kontinuierliche Weiterentwicklung und Verbesserung unserer Produkte und Performance sind.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-0",
+        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-1",
+        "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-2"
+      ],
+      "settings": {
+      }
+    },
     "d0c06e0b-b96b-4951-bfaf-6ccffc252756": {
       "type": "advanced-content",
       "blocks": {
         "template--18204567109936__d0c06e0b-b96b-4951-bfaf-6ccffc252756-16778363187bae2563-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2 align=center>Bekannt aus:<\/h2>",
+            "code": "<h3 align=center>Bekannt aus:<\/h3>",
             "width": "100%",
             "alignment": "center"
           }
@@ -103,13 +138,85 @@
       "block_order": [
         "template--18204567109936__d0c06e0b-b96b-4951-bfaf-6ccffc252756-16778363187bae2563-1"
       ],
+      "custom_css": [
+        "h3 {margin-bottom: 0;}"
+      ],
       "settings": {
         "full_width": false,
         "space_around": false
       }
     },
+    "e8d0b467-99c9-4b82-9768-14bea180cf59": {
+      "type": "vz-text-columns",
+      "blocks": {
+        "template--18300171878704__e8d0b467-99c9-4b82-9768-14bea180cf59-167966299586678164-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/handelsblatt.png",
+            "image_width": 250,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--18300171878704__e8d0b467-99c9-4b82-9768-14bea180cf59-167966299586678164-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/handwerkmagazin.png",
+            "image_width": 260,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--18300171878704__e8d0b467-99c9-4b82-9768-14bea180cf59-167966299586678164-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/haz.png",
+            "image_width": 250,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "d210e416-c5c2-4466-bf05-755f88553f54": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/alfelderzeitung.png",
+            "image_width": 250,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18300171878704__e8d0b467-99c9-4b82-9768-14bea180cf59-167966299586678164-0",
+        "template--18300171878704__e8d0b467-99c9-4b82-9768-14bea180cf59-167966299586678164-1",
+        "template--18300171878704__e8d0b467-99c9-4b82-9768-14bea180cf59-167966299586678164-2",
+        "d210e416-c5c2-4466-bf05-755f88553f54"
+      ],
+      "custom_css": [
+        ".index-section {padding-top: 0;}"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none"
+      }
+    },
     "0d3d3a96-7c68-4a61-b566-0d66639e6e99": {
       "type": "slideshow-image",
+      "disabled": true,
       "blocks": {
         "template--18204567109936__0d3d3a96-7c68-4a61-b566-0d66639e6e99-1677836090f4dd0209-0": {
           "type": "image",
@@ -122,6 +229,9 @@
       "block_order": [
         "template--18204567109936__0d3d3a96-7c68-4a61-b566-0d66639e6e99-1677836090f4dd0209-0"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "full_width": false,
         "style": "arrows",
@@ -129,8 +239,124 @@
         "autoplay_speed": 7
       }
     },
+    "e5f7aa7f-da43-4116-91b4-39831d3c7c81": {
+      "type": "text-columns",
+      "disabled": true,
+      "blocks": {
+        "template--18300171878704__e5f7aa7f-da43-4116-91b4-39831d3c7c81-167966267590d9a939-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Bildschirm_foto_2023-03-24_um_13.58.40.png",
+            "image_width": 200,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--18300171878704__e5f7aa7f-da43-4116-91b4-39831d3c7c81-167966267590d9a939-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Bildschirm_foto_2023-03-24_um_13.58.45.png",
+            "image_width": 200,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--18300171878704__e5f7aa7f-da43-4116-91b4-39831d3c7c81-167966267590d9a939-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Bildschirm_foto_2023-03-24_um_13.58.55.png",
+            "image_width": 200,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "fca0828f-fab1-4d9d-9694-4299e5473c2e": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Bildschirm_foto_2023-03-24_um_13.58.50.png",
+            "image_width": 200,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18300171878704__e5f7aa7f-da43-4116-91b4-39831d3c7c81-167966267590d9a939-0",
+        "template--18300171878704__e5f7aa7f-da43-4116-91b4-39831d3c7c81-167966267590d9a939-1",
+        "template--18300171878704__e5f7aa7f-da43-4116-91b4-39831d3c7c81-167966267590d9a939-2",
+        "fca0828f-fab1-4d9d-9694-4299e5473c2e"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none"
+      }
+    },
+    "b5e73ae9-bd85-4682-a303-70c23cb7fec5": {
+      "type": "vz-timeline",
+      "blocks": {
+        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-0": {
+          "type": "text_block",
+          "settings": {
+            "year": "2021",
+            "text": "<p>Die <strong>InvestVision GmbH<\/strong> mit Investor Kai Greten als Eigentümer übernimmt die Firma<\/p>"
+          }
+        },
+        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-1": {
+          "type": "text_block",
+          "settings": {
+            "year": "2018",
+            "text": "<p>Anschaffung einer neuen Plattensäge (bis 100mm Dicke)<\/p>"
+          }
+        },
+        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-2": {
+          "type": "text_block",
+          "settings": {
+            "year": "2015",
+            "text": "<p>Verdreifachung der Lagerfäche auf 1.500 m2.<\/p>"
+          }
+        },
+        "5378b8c1-f70a-4e4b-b295-7bda80d15360": {
+          "type": "text_block",
+          "settings": {
+            "year": "2015",
+            "text": "<p>Umzug an den heutigen Firmensitz in der Hafenstraße 16 in Hildesheim<\/p>"
+          }
+        },
+        "ee7218cf-5ab7-4b0b-8c5f-6486f46b2e4f": {
+          "type": "text_block",
+          "settings": {
+            "year": "2001",
+            "text": "<p>Gründung der Firma Alu Verkauf von Herrn Tim Winter<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-0",
+        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-1",
+        "template--18300171878704__b5e73ae9-bd85-4682-a303-70c23cb7fec5-1679494980a5f0153e-2",
+        "5378b8c1-f70a-4e4b-b295-7bda80d15360",
+        "ee7218cf-5ab7-4b0b-8c5f-6486f46b2e4f"
+      ],
+      "settings": {
+      }
+    },
     "ebdb93bb-6fe5-4b7a-97ea-54bbfb750ff7": {
       "type": "text-columns",
+      "disabled": true,
       "blocks": {
         "template--18204567109936__ebdb93bb-6fe5-4b7a-97ea-54bbfb750ff7-1677833703217347a4-0": {
           "type": "text_block",
@@ -197,6 +423,18 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "2512f2db-85d4-49c9-9e29-f662f0e42227": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/alu-verkaufde-logo-1585153075.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -205,7 +443,8 @@
         "0b7e2957-7605-4ff2-9465-62608331ae9e",
         "94418486-bad6-4a8c-a466-31e52e517816",
         "514eae7e-616e-40ad-b2e8-7ed4a10de202",
-        "ffe3a1a7-7379-41c2-bbfd-6ea702799e37"
+        "ffe3a1a7-7379-41c2-bbfd-6ea702799e37",
+        "2512f2db-85d4-49c9-9e29-f662f0e42227"
       ],
       "settings": {
         "title": "",
@@ -229,6 +468,35 @@
         "layout": "right",
         "color_scheme": "1",
         "divider": false
+      }
+    },
+    "f1371e07-2d9f-4f0c-a194-9ec735209334": {
+      "type": "vz-tabs-team",
+      "blocks": {
+        "template--18300171878704__f1371e07-2d9f-4f0c-a194-9ec735209334-16796583089177dacd-0": {
+          "type": "team_block",
+          "settings": {
+            "title": "Team Büro",
+            "text": "<p>Wir kümmern uns um alle administrativen Aufgaben rund um unsere Produkte und Ihre Bestellung. Für Fragen stehen wir Ihnen jederzeit über unsere <a href=\"\/pages\/kontakt\" title=\"Kontakt\"><strong>Kontaktmöglichkeiten<\/strong><\/a> zur Verfügung.<\/p>",
+            "image": "shopify:\/\/shop_images\/abouttwo.png",
+            "text-2": "<p>(von links nach rechts: Oliver K.; Michael B., Eduard B., Dagmar L.)<\/p>"
+          }
+        },
+        "template--18300171878704__f1371e07-2d9f-4f0c-a194-9ec735209334-16796583089177dacd-1": {
+          "type": "team_block",
+          "settings": {
+            "title": "Team Werkstatt",
+            "text": "<p>Wir sorgen dafür, dass Sie die von Ihnen bestellten Werkstoffe passend zugeschnitten und so schnell wie möglich erhalten. Mit unserer langjährigen Fachexpertise stellen wir eine optimale Abwicklung sicher.<\/p>",
+            "image": "shopify:\/\/shop_images\/aboutfour.png",
+            "text-2": "<p>(von links nach rechts: Frank J., Oliver K., Rolf K., Thomas H.)<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18300171878704__f1371e07-2d9f-4f0c-a194-9ec735209334-16796583089177dacd-0",
+        "template--18300171878704__f1371e07-2d9f-4f0c-a194-9ec735209334-16796583089177dacd-1"
+      ],
+      "settings": {
       }
     },
     "f2c4e170-0333-4fff-a0af-c4fa5648fa2e": {
@@ -340,10 +608,15 @@
     "e30bd66a-4d8c-4c6e-931b-2ee6ddcefbdb",
     "8f3cb221-72eb-49e7-bc26-1a9fa525ef77",
     "e92fb747-e50f-428c-ac27-00d81c3b05d1",
+    "d4771e19-d282-4f71-bda9-b462fa39ebad",
     "d0c06e0b-b96b-4951-bfaf-6ccffc252756",
+    "e8d0b467-99c9-4b82-9768-14bea180cf59",
     "0d3d3a96-7c68-4a61-b566-0d66639e6e99",
+    "e5f7aa7f-da43-4116-91b4-39831d3c7c81",
+    "b5e73ae9-bd85-4682-a303-70c23cb7fec5",
     "ebdb93bb-6fe5-4b7a-97ea-54bbfb750ff7",
     "fccfe36a-d69f-423c-bc05-c083fea20d5b",
+    "f1371e07-2d9f-4f0c-a194-9ec735209334",
     "f2c4e170-0333-4fff-a0af-c4fa5648fa2e"
   ]
 }

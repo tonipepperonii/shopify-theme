@@ -1,0 +1,77 @@
+
+<div class="tabs page-width" style="margin-bottom: 50px;">
+  <ul class="tabs-nav">
+    {%- for block in section.blocks -%}
+    <li><a href="#tab-{{ block.id }}">{{ block.settings.title }}</a></li>
+    {%- endfor -%}
+  </ul>
+  <div class="tabs-stage">
+    {%- for block in section.blocks -%}
+    <div id="tab-{{ block.id }}">
+      {{ block.settings.text }}
+    </div>
+    {%- endfor -%}
+    
+  </div>
+</div>
+
+
+<script>
+// Show the first tab by default
+$('.tabs-stage div').hide();
+$('.tabs-stage div:first').show();
+$('.tabs-nav li:first').addClass('tab-active');
+
+// Change tab class and display content
+$('.tabs-nav a').on('click', function(event){
+  event.preventDefault();
+  $('.tabs-nav li').removeClass('tab-active');
+  $(this).parent().addClass('tab-active');
+  $('.tabs-stage div').hide();
+  $($(this).attr('href')).show();
+});
+</script>
+
+{% schema %}
+  {
+    "name": "VZ Tabs",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "text_block",
+        "name": "Textblock",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Titel",
+            "default": "Beispiel title"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Beispiel Text.</p>"
+          }
+        ]
+      }
+    ],
+  "presets": [
+    {
+      "name": "VZ Tabs",
+      "blocks": [
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        }
+      ]
+    }
+  ]
+  }
+{% endschema %}
+

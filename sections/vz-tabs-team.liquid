@@ -1,0 +1,98 @@
+
+<div class="team-tabs page-width">
+  <ul class="team-tabs-nav">
+    {%- for block in section.blocks -%}
+    <li><a href="#team-tab-{{ block.id }}">{{ block.settings.title }}</a></li>
+    {%- endfor -%}
+  </ul>
+  <div class="team-tabs-stage">
+    {%- for block in section.blocks -%}
+    <div id="team-tab-{{ block.id }}">
+      {{ block.settings.text }}
+      {%- if block.settings.image != blank -%}
+        <div class="team-image-wrap image-wrap text-spacing" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
+          {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+          <img class="lazyload"
+              data-src="{{ img_url }}"
+              data-widths="[180, 360, 540, 720, 900, 1080]"
+              data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+              data-sizes="auto"
+              alt="{{ block.settings.image.alt }}">
+        </div>
+      {%- else -%}
+        <div class="image-wrap text-spacing">{{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder-svg--no-padding' }}</div>
+      {%- endif -%}
+      {{ block.settings.text-2 }}
+    </div>
+    {%- endfor -%}
+    
+  </div>
+</div>
+
+
+<script>
+// Show the first tab by default
+$('.team-tabs-stage > div').hide();
+$('.team-tabs-stage > div:first').show();
+$('.team-tabs-nav li:first').addClass('team-tab-active');
+
+// Change tab class and display content
+$('.team-tabs-nav a').on('click', function(event){
+  event.preventDefault();
+  $('.team-tabs-nav li').removeClass('team-tab-active');
+  $(this).parent().addClass('team-tab-active');
+  $('.team-tabs-stage > div').hide();
+  $($(this).attr('href')).show();
+});
+</script>
+
+{% schema %}
+  {
+    "name": "VZ Team Tabs",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "team_block",
+        "name": "Textblock",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Titel",
+            "default": "Beispiel title"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Beispiel Text.</p>"
+          },{
+            "type": "image_picker",
+            "id": "image",
+            "label": "Bild"
+          },
+          {
+            "type": "richtext",
+            "id": "text-2",
+            "label": "Bildunterschrift",
+            "default": "<p>(von links nach rechts: A, B, C).</p>"
+          }
+        ]
+      }
+    ],
+  "presets": [
+    {
+      "name": "VZ Team Tabs",
+      "blocks": [
+        {
+          "type": "team_block"
+        },
+        {
+          "type": "team_block"
+        }
+      ]
+    }
+  ]
+  }
+{% endschema %}
+

@@ -61,9 +61,11 @@
     "cart_terms_conditions_enable": false,
     "social_facebook_link": "https:\/\/www.facebook.com\/aluverkauf.de\/",
     "social_linkedin_link": "https:\/\/www.linkedin.com\/company\/alu-verkauf.de\/?viewAsMember=true",
+    "favicon": "shopify:\/\/shop_images\/aluverkauf_favicon.png",
     "show_breadcrumbs": false,
     "show_breadcrumbs_collection_link": true,
-    "checkout_logo_position": "left",
+    "checkout_logo_image": "shopify:\/\/shop_images\/alu-verkaufde-logo-1585153075.png",
+    "checkout_logo_position": "center",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",
     "checkout_input_background_color_mode": "white",
@@ -99,7 +101,7 @@
           "ac456cbf-2524-4b87-ab85-6f844576bf6d": {
             "type": "logo",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/Hennis_Orchideen_translations_Mar-02-2023.png",
+              "logo": "shopify:\/\/shop_images\/alu-verkaufde-logo-1585153075.png",
               "desktop_logo_width": 200,
               "mobile_logo_width": 140
             }

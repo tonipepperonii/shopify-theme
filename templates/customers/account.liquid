@@ -3,7 +3,7 @@
 <div class="page-width page-content">
   <header class="section-header section-header--with-link">
     <h1 class="section-header__title">{{ 'customer.account.title' | t }}</h1>
-    <a href="{{ routes.account_logout_url }}" class="section-header__link">{{ 'layout.customer.log_out'| t }}</a>
+    <a href="{{ routes.account_logout_url }}" class="btn">{{ 'layout.customer.log_out'| t }}</a>
   </header>
 
   <div class="grid">
@@ -21,6 +21,7 @@
               <th>{{ 'customer.orders.payment_status' | t }}</th>
               <th>{{ 'customer.orders.fulfillment_status' | t }}</th>
               <th>{{ 'customer.orders.total' | t }}</th>
+              <th>Rechnung</th>
             </tr>
           </thead>
           <tbody>
@@ -31,6 +32,7 @@
                 <td data-label="{{ 'customer.orders.payment_status' | t }}">{{ order.financial_status_label }}</td>
                 <td data-label="{{ 'customer.orders.fulfillment_status' | t }}">{{ order.fulfillment_status_label }}</td>
                 <td data-label="{{ 'customer.orders.total' | t }}">{{ order.total_price | money }}</td>
+                <td data-label="Rechnung"><p><a href="{{ order.metafields.custom.rechnung.value.url }}" class="text-link" target="_blank">PDF</a></p></td>
               </tr>
             {%- endfor -%}
           </tbody>

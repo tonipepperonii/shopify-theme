@@ -14,6 +14,8 @@
 window.theme = window.theme || {};
 window.Shopify = window.Shopify || {};
 
+
+
 theme.config = {
   bpSmall: false,
   hasSessionStorage: true,
@@ -32,9 +34,6 @@ if (theme.config.isTouch) {
   document.documentElement.className += ' supports-touch';
 }
 
-if (console && console.log) {
-  console.log('Expanse theme ('+theme.settings.themeVersion+') by ARCHΞTYPE | Learn more at https://archetypethemes.co');
-}
 
 window.lazySizesConfig = window.lazySizesConfig || {};
 lazySizesConfig.expFactor = 4;
@@ -6855,9 +6854,10 @@ lazySizesConfig.expFactor = 4;
   
       onTagClick: function(evt) {
         const el = evt.currentTarget;
-  
+    
         document.dispatchEvent(new Event('filter:selected'));
-  
+        console.log("onTagClick Methode");
+
         // Do not ajax-load collection links
         if (el.classList.contains('no-ajax')) {
           return;
@@ -6881,7 +6881,7 @@ lazySizesConfig.expFactor = 4;
   
       onFormSubmit: function(evt) {
         const el = evt.target;
-  
+        console.log("onFormSubmit Methode");
         document.dispatchEvent(new Event('filter:selected'));
   
         // Do not ajax-load collection links
@@ -6900,7 +6900,7 @@ lazySizesConfig.expFactor = 4;
         const formEl = el.closest('form');
         const formData = new FormData(formEl);
   
-        this.renderActiveTag(parent, el);
+        /*this.renderActiveTag(parent, el);*/
         this.updateScroll(true);
         this.startLoading();
         this.renderFromFormData(formData);
@@ -6908,7 +6908,7 @@ lazySizesConfig.expFactor = 4;
   
       onReplaceAjaxContent: function(newDom, section) {
         const openCollapsibleIds = this.fetchOpenCollasibleFilters();
-  
+        console.log("onReplaceAjaxContent Methode");
         openCollapsibleIds.forEach(selector => {
           newDom
             .querySelectorAll(`[data-collapsible-id=${selector}]`)
@@ -6935,11 +6935,13 @@ lazySizesConfig.expFactor = 4;
       },
   
       renderFromFormData: function(formData) {
+        console.log("renderFromFormData Methode");
         const searchParams = new URLSearchParams(formData);
         this.renderCollectionPage(searchParams);
       },
   
       renderCollectionPage: function(searchParams, updateURLHash = true) {
+        console.log("renderCollectionPage Methode");
         this.ajaxRenderer
           .renderPage(window.location.pathname, searchParams, updateURLHash)
           .then(() => {
@@ -6955,6 +6957,7 @@ lazySizesConfig.expFactor = 4;
       },
   
       updateScroll: function(animate) {
+        console.log("updateScroll Methode");
         var scrollTo = document.getElementById('CollectionAjaxContent').offsetTop;
   
         // Scroll below the sticky header
@@ -6975,6 +6978,7 @@ lazySizesConfig.expFactor = 4;
   
       bindBackButton: function() {
         // Ajax page on back button
+        console.log("bindBackButton Methode");
         window.off('popstate' + this.namespace);
         window.on('popstate' + this.namespace, function(state) {
           if (state) {
@@ -6985,6 +6989,7 @@ lazySizesConfig.expFactor = 4;
       },
   
       fetchOpenCollasibleFilters: function() {
+        console.log("fetchOpenCollasibleFilters Methode");
         const openDesktopCollapsible = Array.from(
           document.querySelectorAll(
             `${selectors.sidebar} ${selectors.trigger}.${classes.isOpen}`

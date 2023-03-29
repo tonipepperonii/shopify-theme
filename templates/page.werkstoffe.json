@@ -22,7 +22,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/BARTELS_Fotografie-9154.jpg",
+            "image": "shopify:\/\/shop_images\/alu-verkauf-banner.jpg",
             "overlay_opacity": 50,
             "focal_point": "center center"
           }
@@ -33,8 +33,8 @@
       ],
       "settings": {
         "full_width": true,
-        "desktop_size": -40,
-        "mobile_size": 0,
+        "desktop_size": 0,
+        "mobile_size": 20,
         "style": "arrows",
         "autoplay": true,
         "autoplay_speed": 7
@@ -46,7 +46,8 @@
         "template--18204608954672__2bcb0b91-7c44-4198-96e9-16d6053e6160-167783245720b5ce44-0": {
           "type": "heading",
           "settings": {
-            "title": "Womit wir arbeiten"
+            "title": "Womit wir arbeiten",
+            "show_line": true
           }
         },
         "template--18204608954672__2bcb0b91-7c44-4198-96e9-16d6053e6160-167783245720b5ce44-1": {
@@ -231,7 +232,7 @@
         "2125f4a7-9587-4a40-ba9c-f13f9e9fe04e"
       ],
       "custom_css": [
-
+        ".grid__item_inner {border: 1px solid #e3e3e2; margin: 5px; border-radius: 10px; padding: 20px;}"
       ],
       "settings": {
         "title": "",
