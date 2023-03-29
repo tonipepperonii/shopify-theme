@@ -1,3 +1,19 @@
+<div class="page-width">
+
+  <h3 style="text-align:center">{{ section.settings.main_title }}</h3>
+  <div class="rte" style="text-align:center">{{ section.settings.main_richtext }}</div>
+  
+<div class="jobs-inner">
+{% for block in section.blocks %}
+  {% if block.settings.title != blank %} <h4 style="color:#F39200">{{ block.settings.title }}</h4> {% endif %}
+  {% if block.settings.richtext != blank %} <p style="font-size:18px">{{ block.settings.richtext }}</p> {% endif %}
+  {% if block.settings.adress %} <p>{{ block.settings.adress }}</p>{% endif %}
+  {% if block.settings.time %} <p>{{ block.settings.time }}</p>{% endif %}
+  {% if block.settings.when %}<p>{{ block.settings.when }}</p>{% endif %}
+{% endfor %}
+</div>
+</div>
+
 {% schema %}
 {
   "name": "t:sections.job-offer.name",
@@ -27,31 +43,31 @@
           "type": "text",
           "id": "title",
           "label": "t:sections.job-offer.blocks.main_text.settings.title.label",
-          "default": "<h1>Hier steht ein Beispiel</h1> <p>So könnte es aussehen</p>"
+          "default": "Stellenangebot"
         },
         {
           "type": "richtext",
           "id": "richtext",
           "label": "t:sections.job-offer.blocks.main_text.settings.richtext.label",
-          "default": "<h1>Hier steht ein Beispiel</h1> <p>So könnte es aussehen</p>"
+          "default": "<p>Hier steht die Beschreibung</p>"
         },
         {
           "type": "text",
           "id": "adress",
           "label": "t:sections.job-offer.blocks.main_text.settings.adress.label",
-          "default": "<p>Hafenstraße 16, 31137 Hildesheim</p>"
+          "default": "Hafenstraße 16, 31137 Hildesheim"
         },
         {
           "type": "text",
           "id": "time",
           "label": "t:sections.job-offer.blocks.main_text.settings.time.label",
-          "default": "<p>Voll-/Teilzeit/p>"
+          "default": "Voll-/Teilzeit"
         },
         {
           "type": "text",
           "id": "when",
           "label": "t:sections.job-offer.blocks.main_text.settings.when.label",
-          "default": "<p>ab sofort</p>"
+          "default": "ab sofort"
         }
       ]
     }
