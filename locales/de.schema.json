@@ -1942,6 +1942,47 @@
         }
       }
     },
+    "job-offer": {
+      "name": "Stellenangebot",
+      "settings": {
+        "main_title": {
+          "label": "Überschrift"
+        },
+        "main_richtext": {
+          "label": "Richtext"
+        }
+      },
+      "blocks": {
+        "main_text": {
+          "name": "Stellenangebot",
+          "settings": {
+            "image": {
+              "label": "Bild"
+            },
+            "title": {
+              "label": "Überschrift"
+            },
+            "richtext": {
+              "label": "Richtext"
+            },
+            "adress": {
+              "label": "Adresse"
+            },
+            "time": {
+              "label": "Zeit"
+            },
+            "when": {
+              "label": "Wann"
+            }
+          }
+        }
+      },
+      "presets": {
+        "job_offer": {
+          "name": "Stellenangebot"
+        }
+      }
+    },
     "slideshow-image": {
       "name": "Bild (optionale Slides",
       "settings": {

@@ -1,0 +1,70 @@
+{% schema %}
+{
+  "name": "t:sections.job-offer.name",
+  "settings": [
+    {
+      "type": "text",
+      "id": "main_title",
+      "label": "t:sections.job-offer.settings.main_title.label"
+    },
+    {
+      "type": "richtext",
+      "id": "main_richtext",
+      "label": "t:sections.job-offer.settings.main_richtext.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "t:sections.job-offer.blocks.main_text.name",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.job-offer.blocks.main_text.settings.image.label"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.job-offer.blocks.main_text.settings.title.label",
+          "default": "<h1>Hier steht ein Beispiel</h1> <p>So könnte es aussehen</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "richtext",
+          "label": "t:sections.job-offer.blocks.main_text.settings.richtext.label",
+          "default": "<h1>Hier steht ein Beispiel</h1> <p>So könnte es aussehen</p>"
+        },
+        {
+          "type": "text",
+          "id": "adress",
+          "label": "t:sections.job-offer.blocks.main_text.settings.adress.label",
+          "default": "<p>Hafenstraße 16, 31137 Hildesheim</p>"
+        },
+        {
+          "type": "text",
+          "id": "time",
+          "label": "t:sections.job-offer.blocks.main_text.settings.time.label",
+          "default": "<p>Voll-/Teilzeit/p>"
+        },
+        {
+          "type": "text",
+          "id": "when",
+          "label": "t:sections.job-offer.blocks.main_text.settings.when.label",
+          "default": "<p>ab sofort</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.job-offer.presets.job_offer.name",
+      "blocks": [
+        {
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
