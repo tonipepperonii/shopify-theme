@@ -11,6 +11,7 @@
         "template--18273043644720__1f70e298-d711-41ec-baf0-4ea231cf184c-16800813696d17cfc7-0": {
           "type": "text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/aluverkauf_favicon.png",
             "title": "Stellenangebot",
             "richtext": "<p>Hier steht die Beschreibung<\/p>",
             "adress": "Hafenstraße 16, 31137 Hildesheim",
