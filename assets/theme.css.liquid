@@ -8659,8 +8659,6 @@ html[dir=rtl] .background-media-text__text{
   bottom:0;
 }
 
-
-
 .jobs-inner{
   display: flex;
   align-items: center;
@@ -8669,6 +8667,17 @@ html[dir=rtl] .background-media-text__text{
   border-radius: 10px;
   margin: 20px 0px;
 }
+
+.jobs-text{
+  padding-left:30px;
+}
+
+.jobs-img{
+  width:  100px;
+  height: 100px;
+  object-fit: cover;
+}
+
 .set-jobsbottom {
   display: flex;
 }
@@ -8676,6 +8685,26 @@ html[dir=rtl] .background-media-text__text{
 .set-jobsbottom-item{
   margin-right:15px;
   display:contents;
+}
+
+@media only screen and (max-width:769px){
+
+  .jobs-inner{
+    display: block;
+    align-items: center;
+  }
+  .set-jobsbottom {
+    display: contents;
+  }
+  .jobs-text{
+    padding-left:0px;
+  }
+  .set-jobsbottom-item{
+    margin-right:15px;
+    display:flex;
+    margin-bottom:10px;
+  }
+
 }
 
 .rich-text-with-sidebar-card {

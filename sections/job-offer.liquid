@@ -1,17 +1,17 @@
-<div class="page-width">
+<div class="page-width" style="margin-top:70px; margin-bottom:50px">
 
   <h3 style="text-align:center">{{ section.settings.main_title }}</h3>
-  <div class="rte" style="text-align:center">{{ section.settings.main_richtext }}</div>
+  <div class="rte" style="text-align:center; padding-bottom:40px">{{ section.settings.main_richtext }}</div>
 
 <div>
 {% for block in section.blocks %}
   
   <div class="jobs-inner">
-  <div>
-  {% if block.settings.image != blank %} <img src="{{ block.settings.image | img_url:'master' }}" height=100 width=100 loading="lazy"/> {% endif %}
-  </div>
+
+  {% if block.settings.image != blank %} <img class="jobs-img" src="{{ block.settings.image | img_url:'master' }}" height=100 width= 100 loading="lazy"/> {% endif %}
+
   
-  <div style="padding-left:30px;">
+  <div class="jobs-text">
   {% if block.settings.title != blank %} <h4 style="color:#F39200">{{ block.settings.title }}</h4> {% endif %}
 
   {% if block.settings.richtext != blank %} <p style="font-size:18px">{{ block.settings.richtext }}</p> {% endif %}
@@ -36,7 +36,6 @@
 </div>
 </div>
 {% endfor %}
-</div>
 
 {% schema %}
 {
