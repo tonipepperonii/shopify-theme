@@ -1,7 +1,42 @@
 {
   "sections": {
+    "50e717d8-287d-4df9-ab2f-37192b67acf2": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18273043644720__50e717d8-287d-4df9-ab2f-37192b67acf2-1680165243097f4a4d-0": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>Jobs<\/p>",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#fff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/news-heading.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18273043644720__50e717d8-287d-4df9-ab2f-37192b67acf2-1680165243097f4a4d-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
       }
     },
@@ -137,6 +172,7 @@
     }
   },
   "order": [
+    "50e717d8-287d-4df9-ab2f-37192b67acf2",
     "main",
     "1f70e298-d711-41ec-baf0-4ea231cf184c",
     "7d17c9f2-9396-4be3-86ca-4f04a6cc42e2"
