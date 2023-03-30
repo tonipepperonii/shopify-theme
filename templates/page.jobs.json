@@ -8,12 +8,23 @@
     "1f70e298-d711-41ec-baf0-4ea231cf184c": {
       "type": "job-offer",
       "blocks": {
+        "731d9e57-e1fe-4cab-a4be-a30538e8a73b": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jobs-logo.png",
+            "title": "Initiativbewerbungen",
+            "richtext": "<p>Sie haben nicht das Passende gefunden? Schicken Sie uns sehr gerne Ihre Initiativbewerbung!<\/p>",
+            "adress": "Hafenstraße 16, 31137 Hildesheim",
+            "time": "Voll-\/Teilzeit",
+            "when": "ab sofort"
+          }
+        },
         "template--18273043644720__1f70e298-d711-41ec-baf0-4ea231cf184c-16800813696d17cfc7-0": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/aluverkauf_favicon.png",
-            "title": "Stellenangebot",
-            "richtext": "<p>Hier steht die Beschreibung<\/p>",
+            "image": "shopify:\/\/shop_images\/jobs-logo.png",
+            "title": "Produktionsmitarbeiter in Voll- und Teilzeit",
+            "richtext": "<p>Sie wollen uns aktiv bei der Weiterverarbeitung und Verpackung unserer Aluminiumprofile unterstützen? Wir freuen uns auf Ihre Bewerbungsunterlagen!<\/p>",
             "adress": "Hafenstraße 16, 31137 Hildesheim",
             "time": "Voll-\/Teilzeit",
             "when": "ab sofort"
@@ -22,6 +33,7 @@
         "de9f3222-2f3a-419b-a933-039b4657d421": {
           "type": "text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/jobs-logo.png",
             "title": "Stellenangebot",
             "richtext": "<p>Hier steht die Beschreibung<\/p>",
             "adress": "Hafenstraße 16, 31137 Hildesheim",
@@ -31,6 +43,7 @@
         }
       },
       "block_order": [
+        "731d9e57-e1fe-4cab-a4be-a30538e8a73b",
         "template--18273043644720__1f70e298-d711-41ec-baf0-4ea231cf184c-16800813696d17cfc7-0",
         "de9f3222-2f3a-419b-a933-039b4657d421"
       ],
