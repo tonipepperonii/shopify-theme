@@ -4,21 +4,30 @@
   <div class="rte" style="text-align:center">{{ section.settings.main_richtext }}</div>
 
 <div class="jobs-inner">
-  <div>
 {% for block in section.blocks %}
   <div>
   {% if block.settings.image != blank %} <img src="{{ block.settings.image | img_url:'master' }}" height=100 width=100 loading="lazy"/> {% endif %}
   </div>
   
+  <div style="padding-left:30px;">
   {% if block.settings.title != blank %} <h4 style="color:#F39200">{{ block.settings.title }}</h4> {% endif %}
-  {% if block.settings.richtext != blank %} <p style="font-size:18px">{{ block.settings.richtext }}</p> {% endif %}
-  <div class="set-jobsbottom">
 
-  <div class="set-jobsbottom-item">
-  {% if block.settings.adress %} <img src="https://cdn.shopify.com/s/files/1/0729/7653/1760/files/adress.png?v=1679568038" width=20 height=20 loading=lazy><p>{{ block.settings.adress }}</p>{% endif %}
-  </div>  
-  {% if block.settings.time %} <img src="https://cdn.shopify.com/s/files/1/0729/7653/1760/files/date.png?v=1680077701" width=20 height=20 loading=lazy><p>{{ block.settings.time }}</p>{% endif %}
-  {% if block.settings.when %} <img src="https://cdn.shopify.com/s/files/1/0729/7653/1760/files/work.png?v=1680077701" width=20 height=20 loading=lazy><p>{{ block.settings.when }}</p>{% endif %}
+  {% if block.settings.richtext != blank %} <p style="font-size:18px">{{ block.settings.richtext }}</p> {% endif %}
+
+    <div class="set-jobsbottom">
+
+      <div class="set-jobsbottom-item">
+      {% if block.settings.adress %} <img src="https://cdn.shopify.com/s/files/1/0729/7653/1760/files/adress.png?v=1679568038" width=20 height=20 loading=lazy><p>&nbsp{{ block.settings.adress }} &nbsp&nbsp&nbsp&nbsp </p>{% endif %}
+      </div>
+
+      <div class="set-jobsbottom-item">
+      {% if block.settings.time %} <img src="https://cdn.shopify.com/s/files/1/0729/7653/1760/files/date.png?v=1680077701" width=20 height=20 loading=lazy> <p> &nbsp{{ block.settings.time }} &nbsp&nbsp&nbsp&nbsp </p> {% endif %}
+      </div>
+
+      <div class="set-jobsbottom-item">
+      {% if block.settings.when %} <img src="https://cdn.shopify.com/s/files/1/0729/7653/1760/files/work.png?v=1680077701" width=20 height=20 loading=lazy><p>&nbsp{{ block.settings.when }}</p>{% endif %}
+      <div>
+
   </div>
 </div>
 {% endfor %}
