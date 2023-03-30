@@ -3,8 +3,10 @@
   <h3 style="text-align:center">{{ section.settings.main_title }}</h3>
   <div class="rte" style="text-align:center">{{ section.settings.main_richtext }}</div>
 
-<div class="jobs-inner">
+<div>
 {% for block in section.blocks %}
+  
+  <div class="jobs-inner">
   <div>
   {% if block.settings.image != blank %} <img src="{{ block.settings.image | img_url:'master' }}" height=100 width=100 loading="lazy"/> {% endif %}
   </div>
@@ -30,9 +32,10 @@
 
   </div>
 </div>
+</div>
+</div>
+</div>
 {% endfor %}
-</div>
-</div>
 </div>
 
 {% schema %}
