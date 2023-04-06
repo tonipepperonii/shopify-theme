@@ -23,9 +23,10 @@
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#fff",
+            "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
-            "overlay_opacity": 0,
+            "image": "shopify:\/\/shop_images\/BARTELS_Fotografie-9165.jpg",
+            "overlay_opacity": 34,
             "focal_point": "center center"
           }
         }
@@ -35,7 +36,7 @@
       ],
       "settings": {
         "full_width": true,
-        "desktop_size": -40,
+        "desktop_size": -50,
         "mobile_size": 0,
         "style": "arrows",
         "autoplay": true,
