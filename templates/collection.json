@@ -3,6 +3,33 @@
     "collection-header": {
       "type": "collection-header",
       "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": false
+      }
+    },
+    "promo-grid": {
+      "type": "promo-grid",
+      "blocks": {
+        "banner": {
+          "type": "banner",
+          "settings": {
+            "heading": "Banner promotion",
+            "text": "Add the details of your promotion in smaller text",
+            "link": "",
+            "label": "Shop now",
+            "color_scheme": "1"
+          }
+        }
+      },
+      "block_order": [
+        "banner"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": false
       }
     },
     "main-collection": {
@@ -13,14 +40,15 @@
           "settings": {
           }
         },
-        "product_grid": {
-          "type": "product_grid",
-          "settings": {
-          }
-        },
         "subcollections": {
           "type": "subcollections",
           "settings": {
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "grid_style": "small"
           }
         }
       },
@@ -30,23 +58,10 @@
         "product_grid"
       ],
       "settings": {
-      }
-    },
-    "promo-grid": {
-      "type": "promo-grid",
-      "blocks": {
-        "banner": {
-          "type": "banner",
-          "settings": {
-            "color_scheme": "1"
-          }
-        }
-      },
-      "block_order": [
-        "banner"
-      ],
-      "settings": {
-        "space_below": false
+        "enable_sidebar": false,
+        "collapse_filters": false,
+        "enable_color_swatches": false,
+        "enable_sort": true
       }
     },
     "recently-viewed": {
