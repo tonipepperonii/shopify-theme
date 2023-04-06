@@ -6691,9 +6691,29 @@ input[type=image]{
 }
   }
 
+
+
 .collection-filter-restposten-container{
 display:flex;
 }  
+
+
+
+.collection-filter-tag{
+  font-size:19px;
+  font-weight:bold;
+}
+
+@media only screen and (max-width:768px){
+  .collection-filter-main-container{
+    margin-left:15px;
+    margin-bottom:20px;
+  }  
+  .collection-filter-restposten-container{
+    display:inline-block;
+  }  
+}
+
 
 .collection-filter-restposten-checkbox{
   display:none;
@@ -6711,7 +6731,7 @@ display:flex;
 
 }
 
-.collection-filter-restposten-items:checked{
+.collection-filter-restposten-items-active{
   background:#F39200;
   color:white;
 }
