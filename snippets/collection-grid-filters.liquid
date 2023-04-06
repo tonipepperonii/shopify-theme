@@ -60,7 +60,16 @@
         {%- if enable_sidebar -%}
           <form class="filter-form">
             {%- for filter in collection.filters -%}
-              {%- capture filter_id -%}filter-{{ filter.label | handleize }}{%- endcapture -%}
+
+              {% if filter.label == "Profile" %}
+                {% render 'collection-sidebar-filter-restposten' %}
+                {%- for filter_value in filter.values -%}
+                  {{ filter_value.value }}
+                {%- endfor -%}
+                
+              {% else %}
+
+              {%- capture filter_id -%}filter-{{ filter.label | handleize }} <p>ksjsjs</p>{%- endcapture -%}
               {%- assign filter_index = forloop.index -%}
               {%- assign collapsed_state = section.settings.collapse_filters -%}
               <div class="collection-sidebar__group--{{ filter_index }}">
@@ -200,6 +209,7 @@
                   </div>
                 </div>
               </div>
+              {% endif %}
             {%- endfor -%}
           </form>
         {%- endif -%}
