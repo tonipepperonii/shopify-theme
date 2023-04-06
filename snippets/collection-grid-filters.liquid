@@ -59,11 +59,13 @@
 
         {%- if enable_sidebar -%}
           <form class="filter-form">
+            
             {%- for filter in collection.filters -%}
 
               {% if filter.label == "Profile" %}
  
                 {%- for filter_value in filter.values -%}
+                  <h3>Profil</h3>
                   <div class="collection-filter-restposten-container">
                     <li>
                       <label class="collection-filter-restposten-items">
@@ -72,6 +74,7 @@
                           class="collection-filter-restposten-checkbox"
                           name="{{ filter_value.param_name }}"
                           value="{{ filter_value.value }}"
+                          checked=checked;
                           {% if filter_value.active -%}checked{% endif %}>
                           <span class="collection-filter-restposten-checkbox"></span>
                           <span>
