@@ -22,7 +22,7 @@
       <input type="text" name="customer[last_name]" id="LastName" class="input-full"{% if form.last_name %} value="{{ form.last_name }}"{% endif %} autocapitalize="words">
 
       <label for="Email">{{ 'customer.register.email' | t }}</label>
-      <input type="email" name="customer.facts.birth_date" id="Email" class="input-full{% if form.errors contains 'email' %} error{% endif %}"{% if form.email %} value="{{ form.email }}"{% endif %} autocorrect="off" autocapitalize="off">
+      <input type="email" name="customer[email]" id="Email" class="input-full{% if form.errors contains 'email' %} error{% endif %}"{% if form.email %} value="{{ form.email }}"{% endif %} autocorrect="off" autocapitalize="off">
 
       <label for="Birthday">{{ 'customer.register.birthday' | t }}</label>
       <input type="date" name="customer[metafields][facts][birth_date]" id="Birthday" class="input-full">
