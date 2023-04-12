@@ -16,18 +16,7 @@
       <input type="email" placeholder="{{ 'customer.login.email' | t }}" name="customer[email]" id="CustomerEmail" class="input-full{% if form.errors contains 'email' %} error{% endif %}" autocorrect="off" autocapitalize="off" autofocus>
 
       {%- if form.password_needed -%}
-        <div class="grid">
-          <div class="grid__item one-half">
-            <label for="CustomerPassword">{{ 'customer.login.password' | t }}</label>
-          </div>
-          <div class="grid__item one-half text-right">
-            <small class="label-info">
-              <a href="#recover" id="RecoverPassword">
-                {{ 'customer.login.forgot_password' | t }}
-              </a>
-            </small>
-          </div>
-        </div>
+        
         <input type="password" placeholder="{{ 'customer.login.password' | t }}" value="" name="customer[password]" id="CustomerPassword" class="input-full{% if form.errors contains 'password' %} error{% endif %}">
         <small class="label-info">
           <a href="#recover" id="RecoverPassword">
