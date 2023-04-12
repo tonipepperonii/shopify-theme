@@ -220,14 +220,14 @@
       "delete_confirm": "Sind Sie sicher, dass Sie diese Adresse löschen möchten?"
     },
     "login": {
-      "title": "Login",
+      "title": "Anmelden",
       "email": "E-Mail",
       "password": "Passwort",
       "forgot_password": "Passwort vergessen?",
       "sign_in": "Anmelden",
       "cancel": "Zurück zum Shop",
-      "guest_title": "Als Gast fortsetzen",
-      "guest_continue": "Fortsetzen"
+      "guest_title": "Als Gast fortfahren",
+      "guest_continue": "Fortfahren"
     },
     "orders": {
       "title": "Bestellungen",
