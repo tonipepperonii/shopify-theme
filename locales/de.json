@@ -223,7 +223,7 @@
       "title": "Login",
       "email": "E-Mail",
       "password": "Passwort",
-      "forgot_password": "Haben Sie Ihr Passwort vergessen?",
+      "forgot_password": "Passwort vergessen?",
       "sign_in": "Anmelden",
       "cancel": "Zurück zum Shop",
       "guest_title": "Als Gast fortsetzen",
@@ -330,7 +330,10 @@
     "product": {
       "description": "Beschreibung",
       "in_stock_label": "Auf Lager",
-      "stock_label": "{{ count }} auf Lager",
+      "stock_label": {
+        "one": "",
+        "other": ""
+      },
       "sold_out": "Ausverkauft",
       "unavailable": "Nicht verfügbar",
       "quantity": "Menge",
