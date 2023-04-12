@@ -275,6 +275,12 @@
     },
     "register": {
       "title": "Account erstellen",
+      "kunde": "Bitte wählen",
+      "privatkunde": "Privatkunde",
+      "gewerbe": "Gewerbe",
+      "oeffentlich": "Öffentliche Einrichtung",
+      "agb": "Ich akzeptiere die Allgemeinen Geschäftsbedingungen und die Datenschutzrichtlinie",
+      "birthday": "Geburtstag",
       "first_name": "Vorname",
       "last_name": "Nachname",
       "email": "E-Mail",
