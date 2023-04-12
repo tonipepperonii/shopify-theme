@@ -39,7 +39,7 @@
                 <td data-label="{{ 'customer.orders.payment_status' | t }}">{{ order.financial_status_label }}</td>
                 <td data-label="{{ 'customer.orders.fulfillment_status' | t }}">{{ order.fulfillment_status_label }}</td>
                 <td data-label="{{ 'customer.orders.total' | t }}">{{ order.total_price | money }}</td>
-                <td data-label="Rechnung"><p><a href="{{ order.metafields.custom.rechnung.value.url }}" class="text-link vz-pdf-link" target="_blank">PDF</a></p></td>
+                <td data-label="Rechnung"><p><a href="{{ order.metafields.custom.rechnung.value.url }}" class="text-link vz-pdf-link" target="_blank">PDF Download</a></p></td>
               </tr>
             {%- endfor -%}
           </tbody>
