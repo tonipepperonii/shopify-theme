@@ -8,7 +8,7 @@
     {{ 'customer.recover_password.success' | t }}
   </div>
 
-  <div id="CustomerLoginForm" class="form-vertical">
+  <div id="CustomerLoginForm" class="form-vertical vz-login-window">
     {%- form 'customer_login' -%}
 
       {{ form.errors | default_errors }}
@@ -40,7 +40,7 @@
     <div class="vz-title-line-login"></div>
   </header>
 
-  <div class="form-vertical">
+  <div class="form-vertical vz-login-window">
     {%- form 'create_customer' -%}
 
       {{ form.errors | default_errors }}
