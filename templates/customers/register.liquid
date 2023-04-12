@@ -30,8 +30,10 @@
       <label for="CreatePassword">{{ 'customer.register.password' | t }}</label>
       <input type="password" name="customer[password]" id="CreatePassword" class="input-full{% if form.errors contains 'password' %} error{% endif %}">
 
+      <div style="font-size:14px">
       <label for="agb">AGB</label>
-      <input type="checkbox" name="agb" required style="margin-bottom:0px">{{ 'customer.register.agb' | t }}
+      <input type="checkbox" name="agb" required style="margin-bottom:0px;">{{ 'customer.register.agb' | t }}
+      </div>
 
       <p style="margin-top:30px">
         <input type="submit" value="{{ 'customer.register.submit' | t }}" class="btn btn--full">
