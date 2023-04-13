@@ -6695,8 +6695,12 @@ input[type=image]{
   padding-right:30px;
   padding-bottom:15px;
   padding-top:20px;
-  border:1px solid lightgrey;
+  border:1px solid rgb(231, 228, 228);
   border-radius:5px;
+}
+
+.profile-col:hover{
+  box-shadow: 2px 3px 2px #fafafa;
 }
 
 .profil-full{
@@ -6705,6 +6709,9 @@ input[type=image]{
 
 .profile-container {
   display: grid; 
+  justify-items: baseline;
+  justify-content:space-evenly;
+  align-content:space-evenly;
   grid-template-columns: 2.5fr; 
   grid-template-rows: 2.5fr; 
   gap: 0px 10px; 
@@ -6712,6 +6719,9 @@ input[type=image]{
 }
 .profile-form {
   display: grid; 
+  justify-items: baseline;
+  justify-content:space-evenly;
+  align-content:space-evenly;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
   grid-template-rows: 1fr 1fr; 
   gap: 15px 10px;  
