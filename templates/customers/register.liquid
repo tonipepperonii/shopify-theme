@@ -9,10 +9,10 @@
       {{ form.errors | default_errors }}
 
       <label for="Kunde">{{ 'customer.register.kunde' | t }} </label>
-      <select name="Kunde" id="Kunde" class="input-full">  
-        <option value="privatkunde" id="privatkunde">{{ 'customer.register.privatkunde' | t }}</option>
-        <option value="gewerbe">{{ 'customer.register.gewerbe' | t }}</option>
-        <option value="oeffentlich">{{ 'customer.register.oeffentlich' | t }}</option>
+      <select name="customer[metafields][custom][kundengruppe]" id="Kunde" class="input-full">  
+        <option name="customer[metafields][custom][kundengruppe][value]['Privatkunde']" value="privatkunde">{{ 'customer.register.privatkunde' | t }}</option>
+        <option name="customer[metafields][custom][kundengruppe][value]['Gewerbe']" value="gewerbe">{{ 'customer.register.gewerbe' | t }}</option>
+        <option name="customer[metafields][custom][kundengruppe][value]['Öffentliche Einrichtung']" value="oeffentlich">{{ 'customer.register.oeffentlich' | t }}</option>
       </select>
 
       <label for="FirstName">{{ 'customer.register.first_name' | t }}</label>
