@@ -28,6 +28,14 @@
           assign isCollection = true
         endif
       endif
+
+      assign isProfileCollection = false
+        if link.url contains '/collections/'
+          assign lang_code_string = request.locale.iso_code | prepend: '/' | downcase
+          assign collection_handle = link.url | remove: '/collections/' | remove: lang_code_string
+          assign collection_drop = collections[collection_handle]
+          assign isProfileCollection = true
+        endif
     -%}
 
     <li
@@ -38,12 +46,46 @@
 
       <a href="{{ link.url }}" class="site-nav__link site-nav__link--underline
         {% if has_dropdown %} site-nav__link--has-dropdown" {% endif %}">
-        {{ link.title }} 
-        
+        {{ link.title }}     
         {% if has_dropdown %}
           <img src="https://cdn.shopify.com/s/files/1/0729/7653/1760/files/Design_ohne_Titel_10.png?v=1680076355" width=8px;>
         {% endif %}
       </a>
+
+
+        {% comment %}
+          Visionz Edit
+        {% endcomment %}
+   
+        {% if link.title == 'Aluminiumprofile' %} 
+        <div class="profil-full">
+        <div class="site-nav__dropdown megamenu text-center">
+          <div class="page-width">
+            <div class="site-nav__dropdown-animate megamenu__wrapper">
+              <div class="profile-container">
+                <div class="profile-form">
+              {% for childlink in link.links %}
+                {% assign collection = collections[childlink.title] %}
+                <div class="profile-col">
+                    <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">
+                      <img src="{{ collection.image.src | img_url }}" alt="{{ collection.title }}" width=100% height=100% />
+                      {{ childlink.title }}
+                    </a>
+                </div>
+              {% endfor %}
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+        {% else %}
+        {% comment %}
+          Visionz Edit
+        {% endcomment %}
+
+
+
       {%- if is_megamenu -%}
         {%- assign previous_column_type = '' -%}
         <div class="site-nav__dropdown megamenu text-left">
@@ -82,7 +124,7 @@
 
                     {%- for grandchildlink in childlink.links -%}
                       <a href="{{ grandchildlink.url }}" class="site-nav__dropdown-link">
-                        {{grandchildlink.title}}
+                        {{ grandchildlink.title }}
                       </a>
                     {%- endfor -%}
                   {%- endfor -%}
@@ -138,5 +180,7 @@
         </div>
       {%- endif -%}
     </li>
+  {% endif %}
   {%- endfor -%}
+
 </ul>
