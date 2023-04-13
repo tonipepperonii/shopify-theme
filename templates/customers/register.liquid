@@ -10,8 +10,11 @@
 
       <label for="Kunde">{{ 'customer.register.kunde' | t }} </label>
       <select name="customer[metafields][custom][kundengruppe]" id="Kunde" class="input-full">  
+
         <option name="customer[metafields][custom][kundengruppe]['Privatkunde']" value="privatkunde">{{ 'customer.register.privatkunde' | t }}</option>
+
         <option name="customer[metafields][custom][kundengruppe]['Gewerbe']" value="gewerbe">{{ 'customer.register.gewerbe' | t }}</option>
+
         <option name="customer[metafields][custom][kundengruppe]['Öffentliche Einrichtung']" value="oeffentlich">{{ 'customer.register.oeffentlich' | t }}</option>
       </select>
 
@@ -25,7 +28,7 @@
       <input type="email" name="customer[email]" id="Email" class="input-full{% if form.errors contains 'email' %} error{% endif %}"{% if form.email %} value="{{ form.email }}"{% endif %} autocorrect="off" autocapitalize="off">
 
       <label for="Birthday">{{ 'customer.register.birthday' | t }}</label>
-      <input type="date" name="customer.metafields.facts.birth_date.value" id="Birthday" class="input-full">
+      <input type="date" name="customer[metafields][facts][birth_date][value]" id="Birthday" class="input-full">
 
       <label for="CreatePassword">{{ 'customer.register.password' | t }}</label>
       <input type="password" name="customer[password]" id="CreatePassword" class="input-full{% if form.errors contains 'password' %} error{% endif %}">
