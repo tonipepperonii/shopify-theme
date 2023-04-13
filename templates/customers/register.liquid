@@ -28,7 +28,7 @@
       <input type="email" name="customer[email]" id="Email" class="input-full{% if form.errors contains 'email' %} error{% endif %}"{% if form.email %} value="{{ form.email }}"{% endif %} autocorrect="off" autocapitalize="off">
 
       <label for="Birthday">{{ 'customer.register.birthday' | t }}</label>
-      <input type="date" name="customer.metafields.facts.birth_date" value="{{ customer.metafields.facts.birth_date }}" id="Birthday" class="input-full">
+      <input type="date" name="customer[note][Birthday]" id="Birthday" class="input-full">
 
       <label for="CreatePassword">{{ 'customer.register.password' | t }}</label>
       <input type="password" name="customer[password]" id="CreatePassword" class="input-full{% if form.errors contains 'password' %} error{% endif %}">
