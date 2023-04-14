@@ -12,6 +12,9 @@
     {%- liquid
       assign has_dropdown = false
       assign is_megamenu = false
+      if link.title == 'Aluminiumprofile'
+        assign is_megamenu=  true
+      endif
       if link.levels > 0
         assign has_dropdown = true
         if link.levels > 1
@@ -57,10 +60,18 @@
           Visionz Edit
         {% endcomment %}
    
-        {% if link.title == 'Aluminiumprofile' %} 
-        <div class="profil-full">
+        {% if link.title == 'Aluminiumprofile' %}
         <div class="site-nav__dropdown megamenu text-center">
-          <h3 style="text-align:left; padding-left:40px; padding-bottom:10px">Aluminiumprofile</h3>  
+          
+          <div class="profile-header">
+            <div>
+              <h2 style="text-align:left;">Aluminiumprofile</h2>
+            </div>
+            <div>
+              <a href="/pages/aluminiumprofile" style="text-align:right; float:right; font-weight:bold"> Zur Kategorieseite 
+              <img src="https://cdn.shopify.com/s/files/1/0729/7653/1760/files/arrow.png?v=1681465100" width=8px;></a> 
+            </div>
+          </div>
           <div class="page-width">
 
             <div class="site-nav__dropdown-animate megamenu__wrapper">
@@ -69,7 +80,7 @@
               {% for childlink in link.links %}
                 {% assign collection = collections[childlink.title] %}
                 <div class="profile-col">
-                    <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level">
+                    <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level" style="padding-top:10px">
                       <img src="{{ collection.image.src | img_url }}" alt="{{ collection.title }}" width=100% height=100% loading=lazy style="width: 100px; height: 100px; object-fit: cover;"/>
                       {{ childlink.title }}
                     </a>
