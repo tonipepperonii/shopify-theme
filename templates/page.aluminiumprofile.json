@@ -146,6 +146,17 @@
         "divider": false
       }
     },
+    "59bc6d0f-dbac-4cdb-8569-0bd37992adfa": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Unsere beliebtesten Artikel",
+        "home_featured_products": "",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "6a955d8e-ea54-40aa-8cec-389be3f10064": {
       "type": "sidebar-rich-text",
       "blocks": {
@@ -255,6 +266,7 @@
     "main",
     "d38437cf-d8e2-4fbd-8519-bdc9ed069000",
     "8994524e-9bd0-4bad-a294-b0f962efa02e",
+    "59bc6d0f-dbac-4cdb-8569-0bd37992adfa",
     "6a955d8e-ea54-40aa-8cec-389be3f10064",
     "8db9983e-4067-445d-8f07-89a135799afd"
   ]
