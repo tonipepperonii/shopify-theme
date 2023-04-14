@@ -13,7 +13,7 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<h1>Kupfer Platten<\/h1>",
+            "title": "<h1>Aluminiumprofile<\/h1>",
             "title_size": 70,
             "subheading": "",
             "link": "",
@@ -37,6 +37,113 @@
         "style": "arrows",
         "autoplay": true,
         "autoplay_speed": 7
+      }
+    },
+    "8994524e-9bd0-4bad-a294-b0f962efa02e": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--18747190870320__8994524e-9bd0-4bad-a294-b0f962efa02e-16814551150d53bc46-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "flach",
+            "title": ""
+          }
+        },
+        "template--18747190870320__8994524e-9bd0-4bad-a294-b0f962efa02e-16814551150d53bc46-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "platten",
+            "title": ""
+          }
+        },
+        "template--18747190870320__8994524e-9bd0-4bad-a294-b0f962efa02e-16814551150d53bc46-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "pv-montage-profile",
+            "title": ""
+          }
+        },
+        "template--18747190870320__8994524e-9bd0-4bad-a294-b0f962efa02e-16814551150d53bc46-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "rund",
+            "title": ""
+          }
+        },
+        "template--18747190870320__8994524e-9bd0-4bad-a294-b0f962efa02e-16814551150d53bc46-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "rundrohr",
+            "title": ""
+          }
+        },
+        "template--18747190870320__8994524e-9bd0-4bad-a294-b0f962efa02e-16814551150d53bc46-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "sechskant",
+            "title": ""
+          }
+        },
+        "893c201b-56a3-4dae-a0da-47905ccb4aa1": {
+          "type": "collection",
+          "settings": {
+            "collection": "t-profile",
+            "title": ""
+          }
+        },
+        "f207b8c2-8310-4916-b729-d90e44b353b2": {
+          "type": "collection",
+          "settings": {
+            "collection": "u-profile",
+            "title": ""
+          }
+        },
+        "78d1b0bf-943b-441c-8760-f8cd08ad99f0": {
+          "type": "collection",
+          "settings": {
+            "collection": "vierkantprofile",
+            "title": ""
+          }
+        },
+        "233e3050-0400-417c-b8ec-0e1e60897d15": {
+          "type": "collection",
+          "settings": {
+            "collection": "vierkantrohr",
+            "title": ""
+          }
+        },
+        "3cfd472c-bcc0-4375-bef1-ff7c74304c1f": {
+          "type": "collection",
+          "settings": {
+            "collection": "winkel",
+            "title": ""
+          }
+        },
+        "469e774e-b118-4ea1-b02c-ae5e45effba3": {
+          "type": "collection",
+          "settings": {
+            "collection": "z-profile",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18747190870320__8994524e-9bd0-4bad-a294-b0f962efa02e-16814551150d53bc46-0",
+        "template--18747190870320__8994524e-9bd0-4bad-a294-b0f962efa02e-16814551150d53bc46-1",
+        "template--18747190870320__8994524e-9bd0-4bad-a294-b0f962efa02e-16814551150d53bc46-2",
+        "template--18747190870320__8994524e-9bd0-4bad-a294-b0f962efa02e-16814551150d53bc46-3",
+        "template--18747190870320__8994524e-9bd0-4bad-a294-b0f962efa02e-16814551150d53bc46-4",
+        "template--18747190870320__8994524e-9bd0-4bad-a294-b0f962efa02e-16814551150d53bc46-5",
+        "893c201b-56a3-4dae-a0da-47905ccb4aa1",
+        "f207b8c2-8310-4916-b729-d90e44b353b2",
+        "78d1b0bf-943b-441c-8760-f8cd08ad99f0",
+        "233e3050-0400-417c-b8ec-0e1e60897d15",
+        "3cfd472c-bcc0-4375-bef1-ff7c74304c1f",
+        "469e774e-b118-4ea1-b02c-ae5e45effba3"
+      ],
+      "settings": {
+        "title": "Unsere Aluminiumprofile",
+        "divider": false
       }
     },
     "6a955d8e-ea54-40aa-8cec-389be3f10064": {
@@ -147,6 +254,7 @@
   "order": [
     "main",
     "d38437cf-d8e2-4fbd-8519-bdc9ed069000",
+    "8994524e-9bd0-4bad-a294-b0f962efa02e",
     "6a955d8e-ea54-40aa-8cec-389be3f10064",
     "8db9983e-4067-445d-8f07-89a135799afd"
   ]
