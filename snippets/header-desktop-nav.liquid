@@ -79,7 +79,7 @@
                 <div class="profile-form">
               {% for childlink in link.links %}
                 {% assign collection = collections[childlink.title] %}
-                {% assign collectionpv = collections['pv-montage-profile'] %}
+                {% assign collectionpv = collections['PV Montage-Profile'] %}
                 {% if collection != collectionpv %}
                 <div class="profile-col">
                     <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level" style="padding-top:10px">
