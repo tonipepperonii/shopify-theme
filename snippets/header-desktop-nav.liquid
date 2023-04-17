@@ -92,12 +92,10 @@
               <div class="profile-col">
                 <a href="{{ collectionpv.handle }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level" style="padding-top:10px">
                   {% if collectionpv.image %}
-                    <p>ture</p>
-                  {% else %}
-                  <p>false</p>
+                    <img src="{{ collectionpv.image.src | img_url }}" alt="{{ collectionpv.title }}" width=100% height=100% loading=lazy style="width: 100px; height: 100px; object-fit: cover;"/>
                   {% endif %}
-                  <img src="{{ collectionpv.image.src | img_url }}" alt="{{ collectionpv.title }}" width=100% height=100% loading=lazy style="width: 100px; height: 100px; object-fit: cover;"/>
-                  {{ collectionpv.title }}
+                 {{ collectionpv.title }}
+                 {{ collectionpv.handle }}
                 </a>
             </div>
               {% endif %}
