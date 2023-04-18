@@ -6,95 +6,214 @@
       "settings": {
       }
     },
-    "slideshow": {
-      "type": "slideshow",
+    "b4603d4a-730e-4537-87dc-0f384c0cd5aa": {
+      "type": "featured-collections",
       "blocks": {
-        "slideshow-0": {
-          "type": "hero",
+        "template--18797277348144__b4603d4a-730e-4537-87dc-0f384c0cd5aa-1681809742a3484a5b-0": {
+          "type": "collection",
           "settings": {
-            "link_text": ""
+            "collection": "rund",
+            "title": ""
+          }
+        },
+        "template--18797277348144__b4603d4a-730e-4537-87dc-0f384c0cd5aa-1681809742a3484a5b-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "vierkantprofile",
+            "title": "Vierkant"
+          }
+        },
+        "template--18797277348144__b4603d4a-730e-4537-87dc-0f384c0cd5aa-1681809742a3484a5b-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "sechskant",
+            "title": ""
+          }
+        },
+        "template--18797277348144__b4603d4a-730e-4537-87dc-0f384c0cd5aa-1681809742a3484a5b-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "flach",
+            "title": ""
+          }
+        },
+        "template--18797277348144__b4603d4a-730e-4537-87dc-0f384c0cd5aa-1681809742a3484a5b-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "winkel",
+            "title": ""
+          }
+        },
+        "template--18797277348144__b4603d4a-730e-4537-87dc-0f384c0cd5aa-1681809742a3484a5b-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "u-profile",
+            "title": ""
+          }
+        },
+        "57f5a4ea-bf13-43c1-ae0f-fd8992e7dda7": {
+          "type": "collection",
+          "settings": {
+            "collection": "platten",
+            "title": ""
+          }
+        },
+        "244b4dfe-cb40-4d18-ba09-47aebf90ce79": {
+          "type": "collection",
+          "settings": {
+            "collection": "rundrohr",
+            "title": ""
+          }
+        },
+        "43c83339-aabf-4596-88c1-52ef23649931": {
+          "type": "collection",
+          "settings": {
+            "collection": "vierkantrohr",
+            "title": ""
+          }
+        },
+        "251e46c5-c7aa-43f2-8e6c-3d36ec6d6bfa": {
+          "type": "collection",
+          "settings": {
+            "collection": "t-profile",
+            "title": ""
+          }
+        },
+        "fe2bcae8-cdc4-411b-8593-faa0f49ec916": {
+          "type": "collection",
+          "settings": {
+            "collection": "z-profile",
+            "title": ""
+          }
+        },
+        "9ee304f0-e34c-4fe0-99e1-4216b86cc132": {
+          "type": "collection",
+          "settings": {
+            "collection": "pv-montage-profile",
+            "title": ""
           }
         }
       },
       "block_order": [
-        "slideshow-0"
+        "template--18797277348144__b4603d4a-730e-4537-87dc-0f384c0cd5aa-1681809742a3484a5b-0",
+        "template--18797277348144__b4603d4a-730e-4537-87dc-0f384c0cd5aa-1681809742a3484a5b-1",
+        "template--18797277348144__b4603d4a-730e-4537-87dc-0f384c0cd5aa-1681809742a3484a5b-2",
+        "template--18797277348144__b4603d4a-730e-4537-87dc-0f384c0cd5aa-1681809742a3484a5b-3",
+        "template--18797277348144__b4603d4a-730e-4537-87dc-0f384c0cd5aa-1681809742a3484a5b-4",
+        "template--18797277348144__b4603d4a-730e-4537-87dc-0f384c0cd5aa-1681809742a3484a5b-5",
+        "57f5a4ea-bf13-43c1-ae0f-fd8992e7dda7",
+        "244b4dfe-cb40-4d18-ba09-47aebf90ce79",
+        "43c83339-aabf-4596-88c1-52ef23649931",
+        "251e46c5-c7aa-43f2-8e6c-3d36ec6d6bfa",
+        "fe2bcae8-cdc4-411b-8593-faa0f49ec916",
+        "9ee304f0-e34c-4fe0-99e1-4216b86cc132"
       ],
       "settings": {
+        "title": "Unsere Aluminium Profile",
+        "divider": false
       }
     },
-    "rich-text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "color_scheme": "none"
-      }
-    },
-    "map": {
-      "type": "map",
-      "settings": {
-      }
-    },
-    "text-columns": {
-      "type": "text-columns",
-      "blocks": {
-        "column1": {
-          "type": "text_block",
-          "settings": {
-          }
-        },
-        "column2": {
-          "type": "text_block",
-          "settings": {
-          }
-        },
-        "column3": {
-          "type": "text_block",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-      }
-    },
-    "featured-collection": {
+    "88631434-6a19-47d1-883b-6aa9feb6674b": {
       "type": "featured-collection",
       "settings": {
+        "title": "Unsere beliebtesten Artikel",
+        "home_featured_products": "",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
       }
     },
-    "form": {
-      "type": "contact-form",
+    "35b1db5a-62a2-407f-b128-8ee3d1adb35a": {
+      "type": "sidebar-rich-text",
+      "blocks": {
+        "template--18797277348144__35b1db5a-62a2-407f-b128-8ee3d1adb35a-1681809946ab2afa1f-0": {
+          "type": "text",
+          "settings": {
+            "main_richtext": "<h1>Aluminium Profile – von rund bis Z-Profil<\/h1><p>Wir sind Ihr <strong>Händler für Aluminium Profile<\/strong> und seit 20 Jahren für unsere Kunden da. Entsprechend hoch qualifiziert sind unsere Mitarbeiter im Umgang mit Aluminium. Ob rechtwinklige Schnitte oder Gehrungsschnitte. Ob Aluprofilzuschnitte aus Stangen oder Zuschnitte von Alublechen oder Aluplatten. Unsere langjährigen Mitarbeiter wissen um jedes Detail der richtigen Bearbeitung.<\/p><p>Die Aluprofile erhalten Sie bei uns in allen gewünschten Zuschnittlängen und -größen.<\/p><p><\/p><h3>Alu-Verkauf.de – Ihr Aluprofile Onlineshop<\/h3><p><strong>Sie bestimmen, wie lang das Aluprofil sein soll, das wir für Sie sägen und Sie erhalten dieses genau auf Maß<\/strong> mit unseren bundesweit tätigen Partnern bis an die Haustür geliefert. Egal, welche Profillänge Sie benötigen (von 10 mm – 6000 mm)<\/p><p>Unser Aluminium längen wir auf modernen Hochgeschwindigkeitskreissägen, gradarm für Sie ab und versenden diese mit unseren Versandpartnern per Paketdienst und Spedition bundesweit zu günstigsten Versandkonditionen. Da wir dies bereits seit über 20 Jahren machen, sind die Versandkosten extrem gering. Unsere Partner befördern im Gegensatz zu anderen Händlern Längen bis 6 Meter zu preiswerten Konditionen (Bundesweit maximal 32,00 EUR netto (38,08 EUR inkl. MwSt.)<\/p><p>Zu den gewünschten <strong>Abmessungen für die Aluminium Profile<\/strong> klicken Sie einfach oben auf dem Bild auf das gesuchte Aluminiumprofil und Sie gelangen in die entsprechende Kategorie.<\/p><p><\/p><p><strong>Oder Sie klicken auf eines der Aluminium-Produkte in dieser Liste:<\/strong><\/p><ul><li><a href=\"https:\/\/www.alu-verkauf.de\/Aluminium-Aluminiumprofile\/Rund-Profile\" target=\"_blank\">Rundalu<\/a><\/li><li><a href=\"https:\/\/www.alu-verkauf.de\/Aluminium-Aluminiumprofile\/Vierkant-Profile\" target=\"_blank\">Vierkantalu<\/a><\/li><li><a href=\"https:\/\/www.alu-verkauf.de\/Aluminium-Aluminiumprofile\/Sechskant-Profile\" target=\"_blank\">Sechskantalu<\/a><\/li><li><a href=\"https:\/\/www.alu-verkauf.de\/Aluminium-Aluminiumprofile\/Flach-Profile\" target=\"_blank\">Flachalu<\/a><\/li><li><a href=\"https:\/\/www.alu-verkauf.de\/Aluminium-Aluminiumprofile\/Winkel-Profile\" target=\"_blank\">Aluwinkel<\/a><\/li><li><a href=\"https:\/\/www.alu-verkauf.de\/Aluminium-Aluminiumprofile\/U-Profile\" target=\"_blank\">U-Profile aus Alu<\/a><\/li><li><a href=\"https:\/\/www.alu-verkauf.de\/Aluminium-Aluminiumprofile\/Rundrohre\" target=\"_blank\">Alu Rundrohr<\/a><\/li><li><a href=\"https:\/\/www.alu-verkauf.de\/Aluminium-Aluminiumprofile\/Vierkantrohre\" target=\"_blank\">Alu Vierkantrohr<\/a><\/li><li><a href=\"https:\/\/www.alu-verkauf.de\/Aluminium-Aluminiumprofile\/T-Profile\" target=\"_blank\">Alu T-Profil<\/a><\/li><li><a href=\"https:\/\/www.alu-verkauf.de\/Aluminium-Aluminiumprofile\/Z-Profile\" target=\"_blank\">Alu Z-Profil<\/a><\/li><li><a href=\"https:\/\/www.alu-verkauf.de\/Aluminium-Aluminiumprofile\/Platten\" target=\"_blank\">Aluplatten + Alublech<\/a><\/li><\/ul><p><\/p><p>Stöbern Sie auch gerne etwas in unseren <a href=\"https:\/\/www.alu-verkauf.de\/Restposten\" target=\"_blank\">Restposten<\/a> und entdecken Sie günstige Aluminium-Rohr-Profile. Dort finden Sie auch eine Minuten-aktuelle Auflistung aller Aluminium-Restlängen unter 1 Meter sowie Sonderposten zu reduzierten Preisen.<\/p><p><\/p><h2>Aluminium – DER Werkstoff für die Zukunft<\/h2><p>Profile aus Aluminium haben sehr viele Vorteile. Aufgrund des geringen Gewichtes ist der Werkstoff sehr beliebt bei allem, was möglichst in Leichtbauweise hergestellt werden soll.<\/p><p>Dabei ist es vollkommen irrelevant ob Auto\/Bus\/Bahn oder Luft- und Raumfahrt.<\/p><p>Durch die vielen verschiedenen <strong>Aluminiumlegierungen<\/strong>, die an die jeweiligen Einsatzzwecke angepasst – bereits in relativ kleinen Mengen – hergestellt werden können ist Aluminium überall einsetzbar.<\/p><p>Auch im privaten Bereich erfreut sich dieser Werkstoff uneingeschränkter Beliebtheit.<\/p><p>Durch die hervorragende Bearbeitbarkeit von <strong>Aluminium Profilen<\/strong> (auch mit haushaltsüblichen Werkzeugen) kommt dieses Material fast überall zum Einsatz. Zum Beispiel als Hausverkleidung, Kantenschutzwinkel, Teppichleiste, Treppenschutzkante oder in der Küche, im Bad oder auch im Garten. Die Anwendungen für die von uns verkauften Produkte sind schier unerschöpflich.<\/p><p><\/p><p>Für Außenanwendungen führen wir in Teilbereichen auch eloxierte Profile, durch eine spezielle Oberflächenbehandlung unempfindlich gegen Nässe und Temperaturschwankungen sind und dabei noch ein optisch wunderschöne und homogene Oberfläche aufweisen.<\/p><p>Außer den bereits genannten Eigenschaften weist Aluminium von Natur aus – auch im rohen Zustand – eine hervorragende Korrosionsbeständigkeit auf. In unserem Lagerprogramm finden Sie über 1000 Aluprofile in verschiedenen Abmessungen und Legierungen. Im Gegenteil zu anderen Händlern, die auch Messing, Kunststoff oder Ähnliches im Programm haben, haben wir uns ausschließlich auf <strong>Aluminium Profile<\/strong> spezialisiert.<\/p><p>Hierdurch erhalten Sie für jede Anwendung das passende Profil. Selbst Maschinenbauprofile können durch Kombination von verschiedenen Aluprofilen teilweise ersetzt werden und stellen damit eine deutlich günstigere Alternative zu den recht hochpreisigen Baukasten Profilen aus Aluminium dar.<\/p><p><\/p><p><strong>Kleiner Tipp:<\/strong> Unsere Kategorien <a href=\"https:\/\/www.alu-verkauf.de\/Aluminium-Aluminiumprofile\/Vierkantrohre\" target=\"_blank\"><strong>Aluminium Vierkanntrohre<\/strong><\/a> und <strong>Aluminium Winkel<\/strong> sind unsere beliebtesten Kategorien in denen Sie sicher auch die von Ihnen benötigten Abmessungen finden.<\/p><p>Und sollte einmal etwas nicht gelistet sein, so schicken Sie uns gerne eine Anfrage per E-Mail und wir prüfen die Möglichkeit einer Beschaffung der gewünschten Artikel.<\/p><p><\/p><h2>Welche Aluminium Profile gibt es?<\/h2><p><strong>Aluminium Profile<\/strong> gibt es in zahlreichen Ausführungen, wobei es hier immer auf den passenden Zuschnitt dieser Aluminium-Leisten ankommt. Hier im Aluminium Profile Shop finden Sie zum Beispiel …<\/p><ul><li>Aluminium Rechteckrohre,<\/li><li>Aluminium Vierkantrohre,<\/li><li>Aluminium Sechskantrohre,<\/li><li>Aluminium Rundrohre,<\/li><li>gleichschenklige Aluminium Winkel,<\/li><li>ungleichschenklige Aluminium Winkel,<\/li><li>Aluminium U-Profile,<\/li><li>Flach-Aluminium Profile,<\/li><li>T-Aluminium-Profile,<\/li><li>Z-Aluminium-Profile sowie<\/li><li>vollständige Aluminiumbleche und -platten.<\/li><\/ul><p><\/p><p>Alu Systemprofile besitzen im Vergleich zu Stahl-, Eisen- und Messing-Produkten ein weitaus geringeres Gewicht. Profilleisten Aluminium besitzen in aller Regel ein größeres Volumen und können dennoch denselben Festigkeitswert aufweisen.<\/p><p>Sie können hier unterschiedliche Aluprofile kaufen. Aluprofile nach Maß bedeutet, dass wir Ihnen diese zum gewünschten Zuschnitt liefern können. Hier bei alu-verkauf.de können Sie Längen zwischen 10 mm bis 6.000 mm erhalten.<\/p><p>Für Konstruktionen werden meist Rechteck-, Vierkant- und Sechskant-Profile verwendet. Diese weisen eine ausreichend hohe Stabilität auf. Für Trägersysteme lassen sich auch Rund <strong>Aluminium Profile<\/strong> einsetzen. Diese eignen sich sogar als langlebige Kabelkanäle.<\/p><p>Wenn Sie Ihre Konstruktionen an den Ecken und Kanten gegen Stöße und andere Widrigkeiten schützen möchten, dann eignen sich die winkligen Aluprofile hervorragend. Sie umschließen die Kanten verschiedener Werkstoffe und bieten diesen einen ausreichenden Zusammenhalt.<\/p><p>Aluminium-Leisten stellen besondere Aluprofile dar. Diese Leisten können flexibel für die vielfältigsten Einsatzzwecke verwendet werden. Sie dienen als sichere Verbindung, als Stoßschutz anderer Werkstoffe, aber auch für die Konstruktion von Führungsschienen.<\/p><p>Im Gewerbe und in der Industrie lassen sich Aluminium Profile nahezu überall einsetzen.<\/p><p><\/p><h2>Wie schneidet man Aluminium Profile?<\/h2><p>Viele stellen sich die Frage, wie sie Aluminium Profile schneiden können. Wenn Sie bei uns einen genauen Zuschnitt wünschen, setzen wir unsere modernen Hochgeschwindigkeitskreissägen hierfür ein. Dies arbeiten so präzise, dass an den Schnittkanten sich keine größere Gratbildung abzeichnet.<\/p><p>Natürlich können auch Sie selbst Ihre <strong>Aluminium Profile<\/strong> auf die <strong>richtige Länge<\/strong> bringen.<\/p><p><\/p><h3>Darauf sollten Sie beim Sägen achten<\/h3><p><strong>Aluminium Profile<\/strong> weisen eine hohe Wärmeleitfähigkeit auf. Sie besitzen einen niedrigen Schmelzpunkt und bilden bei Kontakt zu Wasser und Luft eine feine Oxidschicht. Beim Sägen sollten Sie idealerweise eine Metallsäge oder eine Kappsäge mit Metall-Sägeblatt verwenden.<\/p><p>Achten Sie darauf, dass das Sägeblatt einen großen Spanwinkel besitzt und die Zähne gerade angeordnet sind. Verwenden Sie eine möglichst hohe Drehzahl. Verwenden Sie einen nicht zu starken Vorschub. Zum Sägen der Aluminium Profile wird zudem ein passendes Kühlmittel empfohlen. Im Handel gibt es zum Metallsägen eine spezielle Kühlmittel-Emulsion.<\/p><p>Wenn Sie <strong>Aluminium Profile<\/strong> während des Sägens kühlen und einen sanften Vorschub einstellen, können Sie zudem das typische Aufbacken der Aluprofile vermeiden.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18797277348144__35b1db5a-62a2-407f-b128-8ee3d1adb35a-1681809946ab2afa1f-0"
+      ],
       "settings": {
+        "side-title": "Wir sind für Sie da",
+        "image": "shopify:\/\/shop_images\/avatar.png",
+        "side-richtext": "<p><strong>Eduard Bratowski<br\/><\/strong>Kundenberater<\/p><p><a href=\"tel:051216763636\"> 05121 6763636<\/a><a href=\"mailto:verkauf@alu-verkauf.de\"> <\/a><br\/><a href=\"mailto:verkauf@alu-verkauf.de\">verkauf@alu-verkauf.de<\/a><\/p>",
+        "versand-richtext": "<h4>Schneller versand<\/h4><ul><li> Keine Mindestmengen<\/li><li> Individueller Zuschnitt<\/li><li> Schneller Versand<\/li><li> Großes Alu-Sortiment<\/li><li> Sondergrößen auf Anfrage<\/li><li> Abholung Vor-Ort<\/li><\/ul>",
+        "checkbox": true
+      }
+    },
+    "d28de3b5-ca45-4608-ae09-7b74692d8726": {
+      "type": "testimonials",
+      "blocks": {
+        "template--18797277348144__d28de3b5-ca45-4608-ae09-7b74692d8726-1681810387684fc854-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Von der Bestellung und der Lieferung vergingen nur 2 Tage. Die Ware war perfekt verpackt und kam ohne jegliche Beschädigungen an. Die Auswahl der verschiedenen Profilen ist reichhaltig und für jeden was dabei. Ich würde jederzeit wieder bestellen. Das Preis Leistungsverhältnis stimmt auch.<\/p>",
+            "author": "Philipp Dischinger",
+            "author_info": ""
+          }
+        },
+        "template--18797277348144__d28de3b5-ca45-4608-ae09-7b74692d8726-1681810387684fc854-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Bin sehr froh, solch eine hervorragende tolle Firma direkt am Wohnort zu haben, aber auch Versand wäre möglich. Große Auswahl und Möglichkeit selbst kleinste Mengen und Profilabschnitte zu bekommen ohne gleich ganze Meterenden kaufen und mühsam selbst sägen zu müssen. Ideal gerade für Hobbybastler und Konstrukteure! Sehr schneller und sehr freundlicher Service. Nur zu empfehlen!!<\/p>",
+            "author": "Joachim Diehl",
+            "author_info": ""
+          }
+        },
+        "template--18797277348144__d28de3b5-ca45-4608-ae09-7b74692d8726-1681810387684fc854-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Perfekter Service! Auf meine Bitte, die Artikel noch am selben Tag in den Versand zu geben, erhielt ich prompt die Bestätigung und den Versenderlink. So muss das sein, absolut empfehlenswert. Ware und Material sind ebenfalls qualitativ hochwertig!<\/p>",
+            "author": "Stephan Freeheeler",
+            "author_info": ""
+          }
+        },
+        "template--18797277348144__d28de3b5-ca45-4608-ae09-7b74692d8726-1681810387684fc854-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Ich schätze den schnellen Versand und den für mich vorbildlichen Kundenservice. Leider ging bei meiner letzten Lieferung bei der Zustellung was schief. Auf meine diesbezügliche Mail erfolgte sofort ein Rückruf und das Problem konnte zu meiner vollsten Zufriedenheit gelöst werden. Und hier trennt sich die Spreu vom Weizen. alu-verkauf.de ist und bleibt daher mein Favorit.<\/p>",
+            "author": "Michael 500EXTC",
+            "author_info": ""
+          }
+        },
+        "template--18797277348144__d28de3b5-ca45-4608-ae09-7b74692d8726-1681810387684fc854-4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Sehr gut: Individuelle Bestellung möglich, wird auch schnell zugeschnitten. Wer am Ort wohnt kann meist bereits nach ein paar Stunden die Ware abholen. Und: Längen größer 2m sind kein Problem. Die Preise sind ok, das Sortiment könnte größer sein. Insbesondere eloxierte Profile und VA sind kaum erhältlich.<\/p>",
+            "author": "Hase Coolz",
+            "author_info": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18797277348144__d28de3b5-ca45-4608-ae09-7b74692d8726-1681810387684fc854-0",
+        "template--18797277348144__d28de3b5-ca45-4608-ae09-7b74692d8726-1681810387684fc854-1",
+        "template--18797277348144__d28de3b5-ca45-4608-ae09-7b74692d8726-1681810387684fc854-2",
+        "template--18797277348144__d28de3b5-ca45-4608-ae09-7b74692d8726-1681810387684fc854-3",
+        "template--18797277348144__d28de3b5-ca45-4608-ae09-7b74692d8726-1681810387684fc854-4"
+      ],
+      "settings": {
+        "title": "From our customers",
+        "align_text": "center",
+        "round_images": true,
         "color_scheme": "none"
       }
     }
   },
   "order": [
     "main",
-    "slideshow",
-    "rich-text",
-    "text-columns",
-    "map",
-    "featured-collection",
-    "form"
+    "b4603d4a-730e-4537-87dc-0f384c0cd5aa",
+    "88631434-6a19-47d1-883b-6aa9feb6674b",
+    "35b1db5a-62a2-407f-b128-8ee3d1adb35a",
+    "d28de3b5-ca45-4608-ae09-7b74692d8726"
   ]
 }
