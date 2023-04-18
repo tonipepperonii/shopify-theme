@@ -1,5 +1,39 @@
 {
   "sections": {
+    "d859c991-befc-4ad0-b4bb-7cf091fbaed1": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18797277348144__d859c991-befc-4ad0-b4bb-7cf091fbaed1-1681810889b52a25c4-0": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<h1>Aluminium Profile<\/h1>",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#fff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/news-heading.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18797277348144__d859c991-befc-4ad0-b4bb-7cf091fbaed1-1681810889b52a25c4-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -230,6 +264,7 @@
     }
   },
   "order": [
+    "d859c991-befc-4ad0-b4bb-7cf091fbaed1",
     "main",
     "b4603d4a-730e-4537-87dc-0f384c0cd5aa",
     "88631434-6a19-47d1-883b-6aa9feb6674b",
