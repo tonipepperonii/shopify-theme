@@ -14,7 +14,7 @@
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#fff",
+            "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/news-heading.png",
             "overlay_opacity": 0,
@@ -256,8 +256,8 @@
         "60cc57e2-338f-4e52-9841-4e70df12722f"
       ],
       "settings": {
-        "title": "From our customers",
-        "align_text": "center",
+        "title": "Kundenstimmen",
+        "align_text": "left",
         "round_images": true,
         "color_scheme": "none"
       }
