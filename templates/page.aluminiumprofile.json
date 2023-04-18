@@ -201,6 +201,15 @@
             "author": "Andreas Scheelen",
             "author_info": ""
           }
+        },
+        "60cc57e2-338f-4e52-9841-4e70df12722f": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Bestes Preis \/ Leistungsverhältnis bei schneller Lieferung, genau geschnitten. Sehr empfehlenswert.<\/p>",
+            "author": "Peter Klonk",
+            "author_info": ""
+          }
         }
       },
       "block_order": [
@@ -209,7 +218,8 @@
         "template--18797277348144__d28de3b5-ca45-4608-ae09-7b74692d8726-1681810387684fc854-2",
         "template--18797277348144__d28de3b5-ca45-4608-ae09-7b74692d8726-1681810387684fc854-3",
         "template--18797277348144__d28de3b5-ca45-4608-ae09-7b74692d8726-1681810387684fc854-4",
-        "1e17af29-fba2-459a-b907-ddd6d9f6f718"
+        "1e17af29-fba2-459a-b907-ddd6d9f6f718",
+        "60cc57e2-338f-4e52-9841-4e70df12722f"
       ],
       "settings": {
         "title": "From our customers",
