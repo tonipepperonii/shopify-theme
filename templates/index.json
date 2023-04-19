@@ -28,7 +28,8 @@
       "custom_css": [
         ".slideshow-wrapper {max-height: 400px;}",
         "h1 {color: #f39200;}",
-        ".btn {color: white !important; border-radius: 4px;}"
+        ".btn {color: white !important; border-radius: 4px;}",
+        ".vertical-bottom {vertical-align: middle !important;}"
       ],
       "settings": {
         "full_width": true,
