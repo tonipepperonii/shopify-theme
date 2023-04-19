@@ -26,6 +26,7 @@
         "template--18204113338672__80218ac8-e737-45d5-9c66-8ea17e8498e8-1677757582fc6b7600-0"
       ],
       "custom_css": [
+        ".slideshow-wrapper {max-height: 450px;}",
         "h1 {color: #f39200;}",
         ".btn {color: white !important; border-radius: 4px;}"
       ],
