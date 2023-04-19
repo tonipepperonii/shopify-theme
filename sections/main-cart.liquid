@@ -3,7 +3,7 @@
   {%- render 'breadcrumbs' -%}
 
   <header class="section-header text-center{% if cart.item_count == 0 %} section-header--404{% endif %}">
-    <h1 class="section-header__title">{{ 'cart.general.title' | t }}</h1>
+    <!-- <h1 class="section-header__title">{{ 'cart.general.title' | t }}</h1> -->
     <div class="rte text-spacing">
       {%- if cart.item_count == 0 -%}
         <p>{{ 'cart.general.empty' | t }}</p>
@@ -27,7 +27,7 @@
 
           {%- render 'cart-recommendations', location: 'page' -%}
         </div>
-        <div class="cart__page-col">
+        <div class="cart__page-col vz-cart-overview">
           {% if settings.cart_notes_enable %}
             <div class="cart__item-row">
               <label for="CartNote" class="add-note">
@@ -90,15 +90,21 @@
             {% if additional_checkout_buttons and settings.cart_additional_buttons %}
               <div class="additional-checkout-buttons">{{ content_for_additional_checkout_buttons }}</div>
             {% endif %}
-
-            <a href="{{ routes.all_products_collection_url }}" class="btn btn--secondary cart__continue">
-              {{ 'cart.general.continue_shopping' | t }}
-            </a>
+            
+            
           </div>
 
           <div class="cart__item-row text-center">
             <small>{{ 'cart.general.shipping_at_checkout' | t }}</small>
           </div>
+
+          <ul class="vz-cart-vorteile" style="column-count: 2;">
+            <li>Keine Mindestmengen</li>
+            <li>Keine Mindestmengen</li>
+            <li>Keine Mindestmengen</li>
+            <li>Keine Mindestmengen</li>
+            <li>Keine Mindestmengen</li>
+          </ul>
         </div>
       </div>
     </form>

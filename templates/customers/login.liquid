@@ -1,72 +1,101 @@
-<div class="page-width page-width--tiny page-content">
-  <header class="section-header">
-    <h1 class="section-header__title">{{ 'customer.login.title' | t }}</h1>
-  </header>
-
-  <div class="note note--success hide" id="ResetSuccess">
-    {{ 'customer.recover_password.success' | t }}
-  </div>
-
-  <div id="CustomerLoginForm" class="form-vertical">
-    {%- form 'customer_login' -%}
-
-      {{ form.errors | default_errors }}
-
-      <label for="CustomerEmail">{{ 'customer.login.email' | t }}</label>
-      <input type="email" name="customer[email]" id="CustomerEmail" class="input-full{% if form.errors contains 'email' %} error{% endif %}" autocorrect="off" autocapitalize="off" autofocus>
-
-      {%- if form.password_needed -%}
-        <div class="grid">
-          <div class="grid__item one-half">
-            <label for="CustomerPassword">{{ 'customer.login.password' | t }}</label>
-          </div>
-          <div class="grid__item one-half text-right">
+<div class="page-width page-content">
+  <div class="grid">
+    <div class="grid__item medium-up--one-half">
+      <header class="section-header">
+        <h1 class="section-header__title vz-h1">{{ 'customer.login.title' | t }}</h1>
+        <div class="vz-title-line-login"></div>
+      </header>
+    
+      <div class="note note--success hide" id="ResetSuccess">
+        {{ 'customer.recover_password.success' | t }}
+      </div>
+    
+      <div id="CustomerLoginForm" class="form-vertical vz-login-window">
+        {%- form 'customer_login' -%}
+    
+          {{ form.errors | default_errors }}
+    
+          <input type="email" placeholder="{{ 'customer.login.email' | t }}" name="customer[email]" id="CustomerEmail" class="input-full{% if form.errors contains 'email' %} error{% endif %}" autocorrect="off" autocapitalize="off" autofocus>
+    
+          {%- if form.password_needed -%}
+            
+            <input type="password" placeholder="{{ 'customer.login.password' | t }}" value="" name="customer[password]" id="CustomerPassword" class="input-full{% if form.errors contains 'password' %} error{% endif %}">
             <small class="label-info">
               <a href="#recover" id="RecoverPassword">
                 {{ 'customer.login.forgot_password' | t }}
               </a>
             </small>
-          </div>
+          {%- endif -%}
+    
+          <p>
+            <button type="submit" class="btn btn--full">
+              {{ 'customer.login.sign_in' | t }}
+            </button>
+          </p>
+    
+        {%- endform -%}
+      </div>
+      
+      <div id="RecoverPasswordForm" class="hide">
+        <div class="form-vertical vz-login-window">
+          <h2>{{ 'customer.recover_password.title' | t }}</h2>
+          <p>{{ 'customer.recover_password.subtext' | t }}</p>
+    
+          {%- form 'recover_customer_password' -%}
+    
+            {{ form.errors | default_errors }}
+    
+            {%- if form.posted_successfully? -%}
+              <span class="hide reset-password-success"></span>
+            {%- endif -%}
+    
+            <label for="RecoverEmail">{{ 'customer.recover_password.email' | t }}</label>
+            <input type="email" value="" name="email" id="RecoverEmail" class="input-full" autocorrect="off" autocapitalize="off">
+    
+            <p>
+              <button type="submit" class="btn">
+                {{ 'customer.recover_password.submit' | t }}
+              </button>
+            </p>
+            <button type="button" id="HideRecoverPasswordLink">{{ 'customer.recover_password.cancel' | t }}</button>
+          {%- endform -%}
         </div>
-        <input type="password" value="" name="customer[password]" id="CustomerPassword" class="input-full{% if form.errors contains 'password' %} error{% endif %}">
-      {%- endif -%}
-
-      <p>
-        <button type="submit" class="btn btn--full">
-          {{ 'customer.login.sign_in' | t }}
-        </button>
-      </p>
-      <p>{{ 'layout.customer.create_account' | t | customer_register_link }}</p>
-
-    {%- endform -%}
-  </div>
-
-  <div id="RecoverPasswordForm" class="hide">
-    <div class="form-vertical">
-      <h2>{{ 'customer.recover_password.title' | t }}</h2>
-      <p>{{ 'customer.recover_password.subtext' | t }}</p>
-
-      {%- form 'recover_customer_password' -%}
-
-        {{ form.errors | default_errors }}
-
-        {%- if form.posted_successfully? -%}
-          <span class="hide reset-password-success"></span>
-        {%- endif -%}
-
-        <label for="RecoverEmail">{{ 'customer.recover_password.email' | t }}</label>
-        <input type="email" value="" name="email" id="RecoverEmail" class="input-full" autocorrect="off" autocapitalize="off">
-
-        <p>
-          <button type="submit" class="btn">
-            {{ 'customer.recover_password.submit' | t }}
-          </button>
-        </p>
-        <button type="button" id="HideRecoverPasswordLink">{{ 'customer.recover_password.cancel' | t }}</button>
-      {%- endform -%}
+    
+      </div>
     </div>
-
+    
+    <div class="grid__item medium-up--one-half">
+      <header class="section-header">
+        <h1 class="section-header__title vz-h1">{{ 'customer.register.title' | t }}</h1>
+        <div class="vz-title-line-login"></div>
+      </header>
+    
+      <div class="form-vertical vz-login-window">
+        {%- form 'create_customer' -%}
+    
+          {{ form.errors | default_errors }}
+    
+          <input type="text" placeholder="{{ 'customer.register.first_name' | t }}" name="customer[first_name]" id="FirstName" class="input-full"{% if form.first_name %} value="{{ form.first_name }}"{% endif %} autocapitalize="words" autofocus>
+    
+          <input type="text" placeholder="{{ 'customer.register.last_name' | t }}" name="customer[last_name]" id="LastName" class="input-full"{% if form.last_name %} value="{{ form.last_name }}"{% endif %} autocapitalize="words">
+    
+          <input type="email" placeholder="{{ 'customer.register.email' | t }}" name="customer[email]" id="Email" class="input-full{% if form.errors contains 'email' %} error{% endif %}"{% if form.email %} value="{{ form.email }}"{% endif %} autocorrect="off" autocapitalize="off">
+    
+          <input type="password" placeholder="{{ 'customer.register.password' | t }}" name="customer[password]" id="CreatePassword" class="input-full{% if form.errors contains 'password' %} error{% endif %}">
+    
+          <p>
+            <input type="submit" value="{{ 'customer.register.submit' | t }}" class="btn btn--full">
+          </p>
+    
+        {%- endform -%}
+      </div>
+    </div>
   </div>
+  
+
+  
+
+  
 
   {%- if shop.checkout.guest_login -%}
     <hr class="hr--clear">

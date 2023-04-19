@@ -16,7 +16,7 @@
             "link_text_2": "",
             "color_accent": "#f39200",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/BARTELS_Fotografie-9154.jpg",
+            "image": "shopify:\/\/shop_images\/aluverkauf_1.jpg",
             "overlay_opacity": 50,
             "focal_point": "center center"
           }
@@ -26,15 +26,17 @@
         "template--18204113338672__80218ac8-e737-45d5-9c66-8ea17e8498e8-1677757582fc6b7600-0"
       ],
       "custom_css": [
+        ".slideshow-wrapper {max-height: 400px;}",
         "h1 {color: #f39200;}",
-        ".btn {color: white !important; border-radius: 4px;}"
+        ".btn {color: white !important; border-radius: 4px;}",
+        ".vertical-bottom {vertical-align: middle !important;}"
       ],
       "settings": {
         "full_width": true,
-        "desktop_size": -40,
+        "desktop_size": 0,
         "mobile_size": 10,
         "style": "arrows",
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_speed": 7
       }
     },
