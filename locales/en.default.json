@@ -275,6 +275,12 @@
     },
     "register": {
       "title": "Create Account",
+      "kunde": "Please choose",
+      "privatkunde": "Private Customer",
+      "gewerbe": "Business",
+      "oeffentlich": "Public Institution",
+      "birthday": "Birthday",
+      "agb": "I accept the terms and conditions and the privacy policy",
       "first_name": "First Name",
       "last_name": "Last Name",
       "email": "Email",

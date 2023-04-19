@@ -21,18 +21,6 @@
   <div id="CollectionSidebar">
     <div class="collection-sidebar small--hide" id="CollectionSidebarFilterWrap">
       <div class="filter-wrapper">
-        <ul class="no-bullets tag-list tag-list--active-tags">
-          {%- for filter in collection.filters -%}
-            {%- for filter_value in filter.active_values -%}
-              <li class="tag tag--remove">
-                <a class="btn btn--small js-no-transition" href="{{ filter_value.url_to_remove }}">
-                  {{ filter_value.label | escape }}
-                </a>
-                <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:2px}</style></defs><path class="cls-1" d="M19 17.61l27.12 27.13m0-27.13L19 44.74"/></svg>
-              </li>
-            {%- endfor -%}
-          {%- endfor -%}
-        </ul>
 
         {%- liquid
           assign sort_title = 'collections.sorting.title' | t
@@ -41,25 +29,40 @@
         -%}
         <div class="collection-sidebar__group collection-sidebar__group--sort medium-up--hide">
           {%- render 'collection-sidebar-filter-trigger', location: location, title: sort_title, index: sort_id, collapsed_state: true -%}
-
-          <div
-            data-id="{{ location }}-{{ sort_id }}"
-            class="collapsible-content collapsible-content--all">
-            <div class="collapsible-content__inner">
-              <ul class="no-bullets tag-list">
-                {%- for option in collection.sort_options -%}
-                  <li class="tag{% if option.value == sort_by %} tag--active{% endif %}">
-                    <button type="button" data-value="{{ option.value }}" class="filter-sort">{{ option.name }}</button>
-                  </li>
-                {%- endfor -%}
-              </ul>
-            </div>
-          </div>
+          
         </div>
 
         {%- if enable_sidebar -%}
           <form class="filter-form">
+            
+            <div class="collection-filter-main-container">
             {%- for filter in collection.filters -%}
+
+              {% if filter.label == "Profile" %}
+                <p class="collection-filter-tag">Profil</p>
+                {%- for filter_value in filter.values -%}
+                  
+                  <div class="collection-filter-restposten-container">
+                    <li>
+                      <label class="collection-filter-restposten-items {% if filter_value.active %} collection-filter-restposten-items-active {% endif %}">
+                        <input
+                          type="checkbox"
+                          class="collection-filter-restposten-checkbox"
+                          name="{{ filter_value.param_name }}"
+                          value="{{ filter_value.value }}"
+                          {% if filter_value.active -%}checked{% endif %}>
+                          <span class="collection-filter-restposten-checkbox"></span>
+                          <span>
+                            <span class="tag__text">{{ filter_value.label | escape }}</span> ({{ filter_value.count }})
+                          </span>
+                      </label>
+                    </li>
+                  </div>
+                  {%- endfor -%}
+                </div>
+                
+              {% else %}
+
               {%- capture filter_id -%}filter-{{ filter.label | handleize }}{%- endcapture -%}
               {%- assign filter_index = forloop.index -%}
               {%- assign collapsed_state = section.settings.collapse_filters -%}
@@ -200,6 +203,7 @@
                   </div>
                 </div>
               </div>
+              {% endif %}
             {%- endfor -%}
           </form>
         {%- endif -%}

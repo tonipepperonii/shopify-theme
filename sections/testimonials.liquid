@@ -26,11 +26,26 @@
             class="testimonials-slide testimonials-slide--{{ block.id }}"
             data-index="{{ forloop.index0 }}"
             {{ block.shopify_attributes }}>
+            
             <blockquote class="testimonials-slider__text">
               {%- if block.settings.icon == 'quote' -%}
                 <span class="quote-icon"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-quote" viewBox="0 0 41 35"><path d="M10.208 17.711h6.124v16.332H0V21.684C0 8.184 5.444.956 16.332 0v6.125c-4.083 1.14-6.124 4.414-6.124 9.82v1.766zm24.498 0h6.124v16.332H24.498V21.684C24.498 8.184 29.942.956 40.83 0v6.125c-4.083 1.14-6.124 4.414-6.124 9.82v1.766z" fill="#000" fill-rule="evenodd"/></svg></span>
+              
               {%- elsif block.settings.icon == '5-stars' -%}
+              <div class="testimonial-container">
+              <div>
+              {%- if block.settings.author != blank -%}
+                <cite>{{ block.settings.author | escape }}</cite>
+              {%- endif -%}
+              {%- if block.settings.author_info != blank -%}
+                <div class="testimonials__info">{{ block.settings.author_info | escape }}</div>
+              {%- endif -%}
                 <span class="testimonial-stars">★★★★★</span>
+              </div>
+              <div>
+                <img class="testimonial-google" src="https://cdn.shopify.com/s/files/1/0729/7653/1760/files/google_b1b088a3-e494-4f72-98bb-8722e2128b9b.png?v=1680170247">
+              </div>
+              </div>
               {%- elsif block.settings.icon == '4-stars' -%}
                 <span class="testimonial-stars">★★★★</span>
               {%- elsif block.settings.icon == '3-stars' -%}
@@ -45,29 +60,7 @@
                 <div class="rte-setting text-spacing">{{ block.settings.testimonial }}</div>
               {%- endif -%}
 
-              {%- if block.settings.image != blank -%}
-                <div class="testimonail-image{% if section.settings.round_images %} testimonail-image--round{% endif %}">
-                  <div class="image-wrap text-spacing" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
-                    {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                    <img class="lazyload"
-                        data-src="{{ img_url }}"
-                        data-widths="[180, 360, 540, 720]"
-                        data-aspectratio="{{ block.settings.image.aspect_ratio }}"
-                        data-sizes="auto"
-                        alt="{{ block.settings.image.alt }}">
-                    <noscript>
-                      <img class="lazyloaded" src="{{ block.settings.image | img_url: '400x' }}" alt="{{ block.settings.image.alt }}">
-                    </noscript>
-                  </div>
-                </div>
-              {%- endif -%}
-
-              {%- if block.settings.author != blank -%}
-                <cite>{{ block.settings.author | escape }}</cite>
-              {%- endif -%}
-              {%- if block.settings.author_info != blank -%}
-                <div class="testimonials__info">{{ block.settings.author_info | escape }}</div>
-              {%- endif -%}
+              
             </blockquote>
           </div>
         {%- endfor -%}
