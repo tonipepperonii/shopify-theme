@@ -6,14 +6,21 @@
     <a href="{{ routes.account_logout_url }}" class="btn">{{ 'layout.customer.log_out'| t }}</a>
   </header>
 
-  <div class="grid">
+  <h3>{{ 'customer.account.details' | t }}</h3>
+  <div class="vz-login-window" style="display: inline-grid;">
+      <p class="h5">{{ customer.name }}</p>
 
-    <div class="grid__item medium-up--two-thirds">
-      <h2>{{ 'customer.orders.title' | t }}</h2>
+      {{ customer.default_address | format_address }}
+  </div>
+  <p style="padding: 20px 0;"><a href="{{ routes.account_addresses_url }}" class="text-link">{{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})</a></p>
+  
+
+
+  <h2>{{ 'customer.orders.title' | t }}</h2>
 
       {%- if customer.orders.size != 0 -%}
 
-        <table class="table--responsive table--small-text">
+        <table class="table--responsive table--small-text vz-orders-table">
           <thead>
             <tr>
               <th>{{ 'customer.orders.order_number' | t }}</th>
@@ -32,7 +39,7 @@
                 <td data-label="{{ 'customer.orders.payment_status' | t }}">{{ order.financial_status_label }}</td>
                 <td data-label="{{ 'customer.orders.fulfillment_status' | t }}">{{ order.fulfillment_status_label }}</td>
                 <td data-label="{{ 'customer.orders.total' | t }}">{{ order.total_price | money }}</td>
-                <td data-label="Rechnung"><p><a href="{{ order.metafields.custom.rechnung.value.url }}" class="text-link" target="_blank">PDF</a></p></td>
+                <td data-label="Rechnung"><p><a href="{{ order.metafields.custom.rechnung.value.url }}" class="text-link vz-pdf-link" target="_blank">PDF</a></p></td>
               </tr>
             {%- endfor -%}
           </tbody>
@@ -45,19 +52,8 @@
         <p>{{ 'customer.orders.none' | t }}</p>
 
       {%- endif -%}
-    </div>
 
-    <div class="grid__item medium-up--one-third">
-      <h3>{{ 'customer.account.details' | t }}</h3>
-
-      <p class="h5">{{ customer.name }}</p>
-      {{ customer.metafields.facts.birth_date }}
-      {{ customer.default_address | format_address }}
-
-      <p><a href="{{ routes.account_addresses_url }}" class="text-link">{{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})</a></p>
-    </div>
-
-  </div>
+  
 
   {%- liquid
     if paginate.pages > 1
