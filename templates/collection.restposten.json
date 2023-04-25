@@ -23,7 +23,7 @@
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#fff",
+            "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
             "overlay_opacity": 0,
             "focal_point": "center center"
@@ -71,7 +71,7 @@
         "enable_sidebar": true,
         "collapse_filters": true,
         "enable_color_swatches": false,
-        "enable_sort": true
+        "enable_sort": false
       }
     },
     "recently-viewed": {
