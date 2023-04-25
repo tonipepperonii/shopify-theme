@@ -13,14 +13,13 @@
       {{ customer.default_address | format_address }}
   </div>
 
-  <small class="label-info">
+  <small class="label-info" style="margin-top: 30px;">
     <a href="#recover" id="RecoverPassword">
-      {{ 'customer.login.forgot_password' | t }}
+      {{ 'customer.recover_password.title' | t }}
     </a>
   </small>
   <div id="RecoverPasswordForm" class="hide">
     <div class="form-vertical vz-login-window">
-      <h2>{{ 'customer.recover_password.title' | t }}</h2>
       <p>{{ 'customer.recover_password.subtext' | t }}</p>
 
       {%- form 'recover_customer_password' -%}
