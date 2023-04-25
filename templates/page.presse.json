@@ -22,7 +22,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/press1.png",
+            "image": "shopify:\/\/shop_images\/press-bg_d94cc66d-7212-46b3-9d50-78f92ac8b28a.png",
             "overlay_opacity": 54,
             "focal_point": "center center"
           }
@@ -33,8 +33,8 @@
       ],
       "settings": {
         "full_width": true,
-        "desktop_size": -40,
-        "mobile_size": 0,
+        "desktop_size": 0,
+        "mobile_size": 20,
         "style": "arrows",
         "autoplay": true,
         "autoplay_speed": 7
@@ -46,7 +46,8 @@
         "template--18204574187824__f7499798-01dd-4997-b1e3-f584b765673c-167783245720b5ce44-0": {
           "type": "heading",
           "settings": {
-            "title": "Willkommen im Pressebereich"
+            "title": "Willkommen im Pressebereich",
+            "show_line": false
           }
         },
         "template--18204574187824__f7499798-01dd-4997-b1e3-f584b765673c-167783245720b5ce44-1": {
@@ -198,7 +199,8 @@
         "template--18204574187824__b0d75604-2c4a-4a91-a66c-1b80bb9c5c96-167783245720b5ce44-0": {
           "type": "heading",
           "settings": {
-            "title": "Mediathek"
+            "title": "Mediathek",
+            "show_line": false
           }
         },
         "template--18204574187824__b0d75604-2c4a-4a91-a66c-1b80bb9c5c96-167783245720b5ce44-1": {
