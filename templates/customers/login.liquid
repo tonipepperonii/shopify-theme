@@ -90,6 +90,7 @@
     
           <input type="email" placeholder="{{ 'customer.register.email' | t }}" name="customer[email]" id="Email" class="input-full{% if form.errors contains 'email' %} error{% endif %}"{% if form.email %} value="{{ form.email }}"{% endif %} autocorrect="off" autocapitalize="off">
 
+          <label for="Birthday">{{ 'customer.register.birthday' | t }}</label>
           <input type="date" placeholder="{{ 'customer.register.birthday' | t }}" name="customer[note][Geburtstag]" id="Birthday" class="input-full">
           
           <input type="password" placeholder="{{ 'customer.register.password' | t }}" name="customer[password]" id="CreatePassword" class="input-full{% if form.errors contains 'password' %} error{% endif %}">
@@ -97,7 +98,7 @@
           <div style="font-size:14px">
             <input type="checkbox" name="agb" required style="margin-bottom:0px;">{{ 'customer.register.agb' | t }}
           </div>
-          <p>
+          <p style="margin-top:30px">
             <input type="submit" value="{{ 'customer.register.submit' | t }}" class="btn btn--full">
           </p>
     
