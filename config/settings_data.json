@@ -169,18 +169,34 @@
           "b302339d-e62c-4c7b-b33c-d8b3bd2176fb": {
             "type": "announcement",
             "settings": {
-              "richtext": "<p>Hier steht eine Ankündigung<\/p>",
+              "richtext": "<p>Keine Mindestmengen<\/p>",
+              "richtext_mobile": ""
+            }
+          },
+          "20680c1b-80cd-4fe8-acfc-facd352ad3f4": {
+            "type": "announcement",
+            "settings": {
+              "richtext": "<p>Individueller Zuschnitt<\/p>",
+              "richtext_mobile": ""
+            }
+          },
+          "28605901-1959-4d31-bda7-7b10e1063fde": {
+            "type": "announcement",
+            "settings": {
+              "richtext": "<p>Schneller Versand<\/p>",
               "richtext_mobile": ""
             }
           }
         },
         "block_order": [
-          "b302339d-e62c-4c7b-b33c-d8b3bd2176fb"
+          "b302339d-e62c-4c7b-b33c-d8b3bd2176fb",
+          "20680c1b-80cd-4fe8-acfc-facd352ad3f4",
+          "28605901-1959-4d31-bda7-7b10e1063fde"
         ],
         "settings": {
           "announcement_center": false,
-          "toolbar_social": false,
-          "show_locale_selector": false,
+          "toolbar_social": true,
+          "show_locale_selector": true,
           "show_currency_selector": false,
           "show_currency_flags": true
         }
