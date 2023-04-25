@@ -72,6 +72,37 @@
     
       <div class="form-vertical vz-login-window">
         {%- form 'create_customer' -%}
+    
+          {{ form.errors | default_errors }}
+
+          <select name="customer[note][Kundengruppe]" id="Kunde" class="input-full">  
+
+            <option value="Privatkunde">{{ 'customer.register.privatkunde' | t }}</option>
+    
+            <option value="Gewerbe">{{ 'customer.register.gewerbe' | t }}</option>
+    
+            <option value="Öffentliche Einrichtung">{{ 'customer.register.oeffentlich' | t }}</option>
+          </select>
+    
+          <input type="text" placeholder="{{ 'customer.register.first_name' | t }}" name="customer[first_name]" id="FirstName" class="input-full"{% if form.first_name %} value="{{ form.first_name }}"{% endif %} autocapitalize="words" autofocus>
+    
+          <input type="text" placeholder="{{ 'customer.register.last_name' | t }}" name="customer[last_name]" id="LastName" class="input-full"{% if form.last_name %} value="{{ form.last_name }}"{% endif %} autocapitalize="words">
+    
+          <input type="email" placeholder="{{ 'customer.register.email' | t }}" name="customer[email]" id="Email" class="input-full{% if form.errors contains 'email' %} error{% endif %}"{% if form.email %} value="{{ form.email }}"{% endif %} autocorrect="off" autocapitalize="off">
+
+          <input type="date" placeholder="{{ 'customer.register.birthday' | t }}" name="customer[note][Geburtstag]" id="Birthday" class="input-full">
+          
+          <input type="password" placeholder="{{ 'customer.register.password' | t }}" name="customer[password]" id="CreatePassword" class="input-full{% if form.errors contains 'password' %} error{% endif %}">
+
+          <div style="font-size:14px">
+            <input type="checkbox" name="agb" required style="margin-bottom:0px;">{{ 'customer.register.agb' | t }}
+          </div>
+          <p>
+            <input type="submit" value="{{ 'customer.register.submit' | t }}" class="btn btn--full">
+          </p>
+    
+        {%- endform -%}
+        {%- form 'create_customer' -%}
 
       {{ form.errors | default_errors }}
 
