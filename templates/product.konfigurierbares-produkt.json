@@ -84,6 +84,7 @@
     },
     "sub": {
       "type": "product-full-width",
+      "disabled": true,
       "blocks": {
         "description": {
           "type": "description",
@@ -118,27 +119,32 @@
     },
     "recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "product_recommendations_heading": "You may also like"
       }
     },
     "more-products-vendor": {
       "type": "more-products-vendor",
+      "disabled": true,
       "settings": {
       }
     },
     "more-products-collection": {
       "type": "more-products-collection",
+      "disabled": true,
       "settings": {
       }
     },
     "recently-viewed": {
       "type": "recently-viewed",
+      "disabled": true,
       "settings": {
       }
     },
     "collection-return": {
       "type": "collection-return",
+      "disabled": true,
       "settings": {
         "color_scheme": "2"
       }
