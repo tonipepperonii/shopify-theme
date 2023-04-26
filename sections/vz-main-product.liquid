@@ -10,12 +10,12 @@
   endif
 -%}
 
-<div class="team-tabs page-width">
-  <ul class="team-tabs-nav">
+<div class="product-tabs page-width">
+  <ul class="product-tabs-nav">
     <li><a href="#tab-produktansicht">Produktansicht</a></li>
     <li><a href="#tab-listenansicht">Listenansicht</a></li>
   </ul>
-  <div class="team-tabs-stage">
+  <div class="product-tabs-stage">
     <div id="tab-produktansicht">
       {%- render 'product-template',
         product: product,
@@ -46,16 +46,16 @@
 
 <script>
 // Show the first tab by default
-$('.team-tabs-stage > div').hide();
-$('.team-tabs-stage > div:first').show();
-$('.team-tabs-nav li:first').addClass('team-tab-active');
+$('.product-tabs-stage > div').hide();
+$('.product-tabs-stage > div:first').show();
+$('.product-tabs-nav li:first').addClass('product-tab-active');
 
 // Change tab class and display content
-$('.team-tabs-nav a').on('click', function(event){
+$('.product-tabs-nav a').on('click', function(event){
   event.preventDefault();
-  $('.team-tabs-nav li').removeClass('team-tab-active');
-  $(this).parent().addClass('team-tab-active');
-  $('.team-tabs-stage > div').hide();
+  $('.product-tabs-nav li').removeClass('product-tab-active');
+  $(this).parent().addClass('product-tab-active');
+  $('.product-tabs-stage > div').hide();
   $($(this).attr('href')).show();
 });
 </script>
