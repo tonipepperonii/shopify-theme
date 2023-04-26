@@ -10,6 +10,41 @@
   endif
 -%}
 
+<div class="team-tabs page-width">
+  <ul class="team-tabs-nav">
+    <li><a href="#tab-produktansicht">Produktansicht</a></li>
+    <li><a href="#tab-listenansicht">Listenansicht</a></li>
+  </ul>
+  <div class="team-tabs-stage">
+    <div id="tab-produktansicht">
+      {{ block.settings.text }}
+      <p>Hallo Produkansicht</p>
+    </div>
+    <div id="tab-listenansicht">
+      {{ block.settings.text }}
+      <p>Hallo Listenansicht</p>
+    </div>
+    
+  </div>
+</div>
+
+
+<script>
+// Show the first tab by default
+$('.team-tabs-stage > div').hide();
+$('.team-tabs-stage > div:first').show();
+$('.team-tabs-nav li:first').addClass('team-tab-active');
+
+// Change tab class and display content
+$('.team-tabs-nav a').on('click', function(event){
+  event.preventDefault();
+  $('.team-tabs-nav li').removeClass('team-tab-active');
+  $(this).parent().addClass('team-tab-active');
+  $('.team-tabs-stage > div').hide();
+  $($(this).attr('href')).show();
+});
+</script>
+
 {%- render 'product-template',
   product: product,
   section_id: section.id,
