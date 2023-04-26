@@ -17,11 +17,26 @@
   </ul>
   <div class="team-tabs-stage">
     <div id="tab-produktansicht">
-      {{ block.settings.text }}
-      <p>Hallo Produkansicht</p>
+      {%- render 'product-template',
+        product: product,
+        section_id: section.id,
+        blocks: section.blocks,
+      
+        image_position: section.settings.image_position,
+        image_container_width: section.settings.image_container_size,
+        image_size: section.settings.product_image_size,
+        product_zoom_enable: section.settings.product_zoom_enable,
+        sku_enable: section.settings.sku_enable,
+        isModal: isModal,
+        isAjax: isAjax,
+        thumbnail_position: section.settings.thumbnail_position,
+        thumbnail_arrows: section.settings.thumbnail_arrows,
+        mobile_layout: section.settings.mobile_layout,
+        video_looping: section.settings.enable_video_looping,
+        video_style: section.settings.product_video_style
+      -%}
     </div>
     <div id="tab-listenansicht">
-      {{ block.settings.text }}
       <p>Hallo Listenansicht</p>
     </div>
     
@@ -45,24 +60,7 @@ $('.team-tabs-nav a').on('click', function(event){
 });
 </script>
 
-{%- render 'product-template',
-  product: product,
-  section_id: section.id,
-  blocks: section.blocks,
 
-  image_position: section.settings.image_position,
-  image_container_width: section.settings.image_container_size,
-  image_size: section.settings.product_image_size,
-  product_zoom_enable: section.settings.product_zoom_enable,
-  sku_enable: section.settings.sku_enable,
-  isModal: isModal,
-  isAjax: isAjax,
-  thumbnail_position: section.settings.thumbnail_position,
-  thumbnail_arrows: section.settings.thumbnail_arrows,
-  mobile_layout: section.settings.mobile_layout,
-  video_looping: section.settings.enable_video_looping,
-  video_style: section.settings.product_video_style
--%}
 
 {% schema %}
 {
