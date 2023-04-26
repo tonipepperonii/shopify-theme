@@ -6,22 +6,23 @@
       {{ block.settings.main_richtext }}
         </div>
     {% endcase %}
-{% endfor %}
-</div>
-  
-<div class= "rich-text-with-sidebar-sidebar"> 
-<div class="rich-text-with-sidebar-sidebar-container">
-  <b style="color:#f39200, text-align:center, font-size:16px">{{ section.settings.side-title }}</b><br><br>
-  <img src="{{ section.settings.image | img_url:'master' }}" height=100 width=100 loading="lazy"/>
-  {{ section.settings.side-richtext }}
-</div>
-<div class="rich-text-with-sidebar-versand-container">
-  {{ section.settings.versand-richtext }}
-</div>
+  {% endfor %}
 
-{% if section.settings.checkbox %}
-  <img src="https://cdn.shopify.com/s/files/1/0729/7653/1760/files/kategorie-alu-final_1.png?v=1679496799" loading="lazy" width=100% height=100% style="padding-top:15px">
-{% endif %}
+  
+  <div class= "rich-text-with-sidebar-sidebar"> 
+  <div class="rich-text-with-sidebar-sidebar-container">
+    <b style="color:#f39200, text-align:center, font-size:16px">{{ section.settings.side-title }}</b><br><br>
+    <img src="{{ section.settings.image | img_url:'master' }}" height=100 width=100 loading="lazy"/>
+    {{ section.settings.side-richtext }}
+  </div>
+  <div class="rich-text-with-sidebar-versand-container">
+    {{ section.settings.versand-richtext }}
+  </div>
+  
+  {% if section.settings.checkbox %}
+    <img src="https://cdn.shopify.com/s/files/1/0729/7653/1760/files/kategorie-alu-final_1.png?v=1679496799" loading="lazy" width=100% height=100% style="padding-top:15px">
+  {% endif %}
+  </div>
 </div>
 
 {% schema %}
