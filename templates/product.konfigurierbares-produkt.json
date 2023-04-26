@@ -1,5 +1,39 @@
 {
   "sections": {
+    "5496d8f0-cbe1-4f56-b789-aad06ed907f2": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18896842195248__5496d8f0-cbe1-4f56-b789-aad06ed907f2-16825095512038de14-1": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<h2>{{ product.title }}<\/h2>",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#fff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/cat-banner.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18896842195248__5496d8f0-cbe1-4f56-b789-aad06ed907f2-16825095512038de14-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": 0,
+        "mobile_size": 20,
+        "style": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
     "main": {
       "type": "vz-main-product",
       "blocks": {
@@ -18,6 +52,7 @@
         },
         "sales_point": {
           "type": "sales_point",
+          "disabled": true,
           "settings": {
             "icon": "globe",
             "text": "Free worldwide shipping"
@@ -25,6 +60,7 @@
         },
         "sales_point2": {
           "type": "sales_point",
+          "disabled": true,
           "settings": {
             "icon": "truck",
             "text": "Free returns"
@@ -32,6 +68,7 @@
         },
         "sales_point3": {
           "type": "sales_point",
+          "disabled": true,
           "settings": {
             "icon": "leaf",
             "text": "Carbon neutral"
@@ -39,6 +76,7 @@
         },
         "sales_point4": {
           "type": "sales_point",
+          "disabled": true,
           "settings": {
             "icon": "lock",
             "text": "Secure payments"
@@ -46,6 +84,7 @@
         },
         "inventory_status": {
           "type": "inventory_status",
+          "disabled": true,
           "settings": {
             "inventory_threshold": 10,
             "inventory_transfers_enable": true
@@ -151,6 +190,7 @@
     }
   },
   "order": [
+    "5496d8f0-cbe1-4f56-b789-aad06ed907f2",
     "main",
     "sub",
     "recommendations",
