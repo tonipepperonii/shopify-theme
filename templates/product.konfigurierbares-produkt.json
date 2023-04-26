@@ -121,6 +121,27 @@
         "product_video_style": "muted"
       }
     },
+    "c1ac324a-eaf3-4b54-96f2-fe1b250705f5": {
+      "type": "sidebar-rich-text",
+      "blocks": {
+        "template--18896842195248__c1ac324a-eaf3-4b54-96f2-fe1b250705f5-1682509798c3998345-0": {
+          "type": "text",
+          "settings": {
+            "main_richtext": "<h1>Hier steht ein Beispiel<\/h1> <p>So könnte es aussehen<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18896842195248__c1ac324a-eaf3-4b54-96f2-fe1b250705f5-1682509798c3998345-0"
+      ],
+      "settings": {
+        "side-title": "Wir sind für Sie da:",
+        "image": "shopify:\/\/shop_images\/avatar.png",
+        "side-richtext": "<p>Eduard Bratkowski<\/p>",
+        "versand-richtext": "",
+        "checkbox": true
+      }
+    },
     "sub": {
       "type": "product-full-width",
       "disabled": true,
@@ -192,6 +213,7 @@
   "order": [
     "5496d8f0-cbe1-4f56-b789-aad06ed907f2",
     "main",
+    "c1ac324a-eaf3-4b54-96f2-fe1b250705f5",
     "sub",
     "recommendations",
     "more-products-vendor",
