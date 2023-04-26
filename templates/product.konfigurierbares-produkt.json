@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "main-product",
+      "type": "vz-main-product",
       "blocks": {
         "variant_picker": {
           "type": "variant_picker",
