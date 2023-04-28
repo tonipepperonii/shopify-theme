@@ -39,13 +39,11 @@
             {%- for filter in collection.filters -%}
 
               {% if filter.label == "Profile" or filter.label == "Restposten Maße" %}
-                {%- capture filter_id -%}filter-{{ filter.label | handleize }}{%- endcapture -%}
-                {%- assign filter_index = forloop.index -%}
                 <p class="collection-filter-tag">{{ filter.label }}</p>
                 
                 {%- for filter_value in filter.values -%}
                   
-                  <div class="collection-filter-restposten-container collection-sidebar__group--{{ filter_index }}">
+                  <div class="collection-filter-restposten-container">
                     <li>
                       <label class="collection-filter-restposten-items {% if filter_value.active %} collection-filter-restposten-items-active {% endif %}">
                         <input
