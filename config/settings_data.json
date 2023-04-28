@@ -69,7 +69,7 @@
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",
     "checkout_input_background_color_mode": "white",
-    "checkout_sidebar_background_color": "#ba4444",
+    "checkout_sidebar_background_color": "#fafaff",
     "checkout_accent_color": "#f39200",
     "checkout_button_color": "#f39200",
     "checkout_error_color": "#ff6d6d",
