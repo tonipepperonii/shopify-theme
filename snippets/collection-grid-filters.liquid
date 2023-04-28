@@ -38,7 +38,7 @@
             <div class="collection-filter-main-container">
             {%- for filter in collection.filters -%}
 
-              {% if filter.label == "Profile" or filter.label == "Restposten Maße" %}
+              {% if filter.label == "Profile" or filter.label == "Restposten Mase" %}
                 {%- capture filter_id -%}filter-{{ filter.label | handleize }}{%- endcapture -%}
                 {%- assign filter_index = forloop.index -%}
                 <p class="collection-filter-tag">{{ filter.label }}</p>
