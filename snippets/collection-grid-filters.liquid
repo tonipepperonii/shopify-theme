@@ -38,8 +38,8 @@
             <div class="collection-filter-main-container">
             {%- for filter in collection.filters -%}
 
-              {% if filter.label == "Profile" %}
-                <p class="collection-filter-tag">Profil</p>
+              {% if filter.label == "Profil" or filter.label == "Länge" %}
+                <p class="collection-filter-tag">{{ filter.label }}</p>
                 {%- for filter_value in filter.values -%}
                   
                   <div class="collection-filter-restposten-container">
