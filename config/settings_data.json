@@ -235,13 +235,23 @@
               "menu": "versand",
               "enable_account_link": false
             }
+          },
+          "00967a57-36d6-4d2c-b575-c71e803d1112": {
+            "type": "payment",
+            "settings": {
+              "show_payment_icons": true,
+              "show_locale_selector": true,
+              "show_currency_selector": true,
+              "show_currency_flags": true
+            }
           }
         },
         "block_order": [
           "a545cf33-374e-4bc5-8621-99ec41b59c33",
           "064d22f9-1450-45de-928b-eec0738458d6",
           "1314e146-3db8-4132-b5d0-dc78013c06a5",
-          "445e1b0c-0f20-4cc2-8c69-ce7f813910ee"
+          "445e1b0c-0f20-4cc2-8c69-ce7f813910ee",
+          "00967a57-36d6-4d2c-b575-c71e803d1112"
         ],
         "custom_css": [
           ".footer__section {background-color: #f39200; color: white;}",
