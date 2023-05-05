@@ -23,10 +23,10 @@
     <img src="{{ section.settings.image | img_url:'master' }}" height=100 width=100 loading="lazy"/>
     {{ section.settings.side-richtext }}
     {%- unless section.settings.phone.blank -%}
-      <i class="fa fa-phone" style="color: #f39200; padding-right: 10px;"></i>{{ section.settings.phone }}
+      <div><i class="fa fa-phone" style="color: #f39200; padding-right: 10px;"></i>{{ section.settings.phone }}</div>
     {%- endunless -%}
     {%- unless section.settings.mail.blank -%}
-      <i class="fa fa-envelope" style="color: #f39200; padding-right: 10px;"></i>{{ section.settings.mail }}
+      <div><i class="fa fa-envelope" style="color: #f39200; padding-right: 10px;"></i>{{ section.settings.mail }}</div>
     {%- endunless -%}
   </div>
   <div class="rich-text-with-sidebar-versand-container">
