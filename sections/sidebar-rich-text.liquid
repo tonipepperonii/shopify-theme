@@ -25,7 +25,7 @@
     {%- unless section.settings.phone.blank -%}
       <div><i class="fa fa-phone" style="color: #f39200; padding-right: 10px;"></i>{{ section.settings.phone }}</div>
     {%- endunless -%}
-    {%- unless section.settings.mail.blank -%}
+    {%- unless section.settings.mail == blank -%}
       <div><i class="fa fa-envelope" style="color: #f39200; padding-right: 10px;"></i>{{ section.settings.mail }}</div>
     {%- endunless -%}
   </div>
