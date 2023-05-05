@@ -22,7 +22,7 @@
     <b style="color:#f39200, text-align:center, font-size:16px">{{ section.settings.side-title }}</b><br><br>
     <img src="{{ section.settings.image | img_url:'master' }}" height=100 width=100 loading="lazy"/>
     {{ section.settings.side-richtext }}
-    {%- if section.settings.phone.empty == false -%}
+    {%- if section.settings.phone.blank == false -%}
       <i class="fa fa-phone" style="color: #f39200; padding-right: 10px;"></i>{{ section.settings.phone }}
     {%- endif -%}
   </div>
