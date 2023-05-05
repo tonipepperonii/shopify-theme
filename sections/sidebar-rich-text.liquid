@@ -25,6 +25,9 @@
     {%- unless section.settings.phone.blank -%}
       <i class="fa fa-phone" style="color: #f39200; padding-right: 10px;"></i>{{ section.settings.phone }}
     {%- endunless -%}
+    {%- unless section.settings.mail.blank -%}
+      <i class="fa fa-mail" style="color: #f39200; padding-right: 10px;"></i>{{ section.settings.mail }}
+    {%- endunless -%}
   </div>
   <div class="rich-text-with-sidebar-versand-container">
     <div class="ul-libottom" >
@@ -72,6 +75,11 @@
       "type": "text",
       "id": "phone",
       "label": "Telefon"
+    },
+    {
+      "type": "text",
+      "id": "mail",
+      "label": "E-Mail"
     },
     {
       "type": "richtext",
