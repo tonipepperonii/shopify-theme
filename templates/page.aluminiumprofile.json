@@ -174,8 +174,9 @@
       "settings": {
         "side-title": "Wir sind für Sie da",
         "image": "shopify:\/\/shop_images\/avatar.png",
-        "side-richtext": "<p><strong>Eduard Bratowski<br\/><\/strong>Kundenberater<\/p><p><a href=\"tel:051216763636\"> 05121 6763636<\/a><a href=\"mailto:verkauf@alu-verkauf.de\"> <\/a><br\/><a href=\"mailto:verkauf@alu-verkauf.de\">verkauf@alu-verkauf.de<\/a><\/p>",
-        "versand-richtext": "<h4>Schneller versand<\/h4><ul><li> Keine Mindestmengen<\/li><li> Individueller Zuschnitt<\/li><li> Schneller Versand<\/li><li> Großes Alu-Sortiment<\/li><li> Sondergrößen auf Anfrage<\/li><li> Abholung Vor-Ort<\/li><\/ul>",
+        "side-richtext": "<p>Eduard Bratowski<br\/><em>Kundenberater<\/em><\/p>",
+        "phone": "05121 6763636 ",
+        "mail": "verkauf@alu-verkauf.de",
         "checkbox": true
       }
     },
