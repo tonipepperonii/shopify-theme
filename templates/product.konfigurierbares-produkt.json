@@ -14,7 +14,7 @@
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#fff",
+            "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/cat-banner.png",
             "overlay_opacity": 0,
@@ -127,7 +127,7 @@
         "template--18896842195248__c1ac324a-eaf3-4b54-96f2-fe1b250705f5-1682509798c3998345-0": {
           "type": "text",
           "settings": {
-            "main_richtext": "<h1>Hier steht ein Beispiel<\/h1> <p>So könnte es aussehen<\/p>"
+            "main_richtext": "<h1>Hier steht ein Beispiel<\/h1><p>So könnte es aussehen<\/p>"
           }
         }
       },
@@ -137,8 +137,8 @@
       "settings": {
         "side-title": "Wir sind für Sie da:",
         "image": "shopify:\/\/shop_images\/avatar.png",
-        "side-richtext": "<p>Eduard Bratkowski<\/p>",
-        "versand-richtext": "",
+        "side-richtext": "<p>Eduard Bratkowski<br\/><em>Kundenberater<\/em><\/p>",
+        "versand-richtext": "<ul><li>Keine Mindestmengen<\/li><li>Individueller Zuschnitt<\/li><li>Schneller Versand<\/li><li>Großes Alu-Sortiment<\/li><li>Sondergrößen auf Anfrage<\/li><li>Abholung Vor-Ort<\/li><\/ul>",
         "checkbox": true
       }
     },
