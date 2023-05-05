@@ -151,7 +151,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Rohrverbinder & Rohrstopfen",
-        "home_featured_products": "",
+        "home_featured_products": "sechskant",
         "count": 5,
         "mobile_scrollable": true,
         "view_all": true,
