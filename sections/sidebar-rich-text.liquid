@@ -5,11 +5,12 @@
       
         <div class="rich-text-with-sidebar-main-container">
           {%- if request.page_type == 'product' -%}
-            {{ block.settings.main_richtext }}
-          {%- else -%}
             <div class="rte">
               {{ product.description }}
             </div>
+          {%- else -%}
+            {{ block.settings.main_richtext }}
+            
           {%- endif -%}
       
         </div>
