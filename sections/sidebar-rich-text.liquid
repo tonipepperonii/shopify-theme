@@ -7,7 +7,9 @@
           {%- if product.empty? -%}
             {{ block.settings.main_richtext }}
           {%- else -%}
-            {{ product.description }}
+            <div class="rte">
+              {{ product.description }}
+            </div>
           {%- endif -%}
       
         </div>
