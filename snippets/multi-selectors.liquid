@@ -1,7 +1,39 @@
 {%- assign formId = 'localization_form-' | append: location -%}
 {%- assign formClass = 'multi-selectors multi-selectors--' | append: location -%}
+
+
+
+{% comment %}
 {%- form 'localization', id: formId, class: formClass, data-disclosure-form: '' -%}
+
+#'endform' löschen, wenn code auskommentiert wird.
+{% endform %}
+{% endcomment %}
+
+
+
+{% form 'localization', id:'localization_form_tag', class:'random'%}
   {%- if locale_selector -%}
+
+  <div style="margin-top:2px; margin-bottom:-1px;">
+    {% for locale in shop.published_locales %}
+       <a href="#" id="localeItem" lang="{{ locale.iso_code }}">
+        {% if locale.endonym_name == 'Deutsch' %}
+           <img src="https://cdn.shopify.com/s/files/1/0564/4825/4104/files/deutsch.png?v=1683098482" width=30 height=30>
+       </a>
+      {% else locale.endonym_name == 'English' %}
+          <img src="https://cdn.shopify.com/s/files/1/0564/4825/4104/files/english.png?v=1683100255" width=30 height=30>
+      </a>
+    {% endif %}
+    {% endfor %}
+  </div>
+    <input type="hidden" name="locale_code" value="{{ form.current_locale.iso_code }}" id="localeCode"/>
+
+
+
+    
+    {% comment %}
+    {% section 'language-switcher-visionz'%}
     <div class="multi-selectors__item">
       {%- if location == 'footer' -%}
         <div class="footer__title" id="LangHeading-{{ location }}">
@@ -35,6 +67,12 @@
       </div>
     </div>
   {%- endif -%}
+  {% endcomment %}
+
+
+
+    
+    {% endif %}
 
   {%- if currency_selector -%}
     <div class="multi-selectors__item">
@@ -50,30 +88,33 @@
 
       <div class="disclosure" data-disclosure-currency>
         <button type="button" class="faux-select disclosure__toggle" aria-expanded="false" aria-controls="CurrencyList-{{ location }}" aria-describedby="CurrencyHeading-{{ location }}" data-disclosure-toggle>
-          {%- if show_currency_flags -%}
-            <span class="currency-flag currency-flag--small currency-flag--{{ localization.country.iso_code | downcase }}" data-flag="{{ localization.country.currency.iso_code }}" aria-hidden="true"></span>
-          {%- endif -%}
           <span class="disclosure-list__label">
-            {{ localization.country.name }} ({{ localization.country.currency.iso_code }} {{ localization.country.currency.symbol }})
+            {{ form.current_currency.iso_code }} {%- if form.current_currency.symbol -%}{{ form.current_currency.symbol }}{%- endif -%}
           </span>
           <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon--wide icon-chevron-down" viewBox="0 0 28 16"><path d="M1.57 1.59l12.76 12.77L27.1 1.59" stroke-width="2" stroke="#000" fill="none" fill-rule="evenodd"/></svg>
         </button>
         <ul id="CurrencyList-{{ location }}" class="disclosure-list{% if location == 'toolbar' %} disclosure-list--down disclosure-list--left{% endif %}" data-disclosure-list>
-          {%- for country in localization.available_countries -%}
-            <li class="disclosure-list__item{% if country.iso_code == localization.country.iso_code %} disclosure-list__item--current{% endif %}">
-              <a class="disclosure-list__option" href="#"{% if country.iso_code == localization.country.iso_code %} aria-current="true"{% endif %} data-value="{{ country.iso_code }}" data-disclosure-option>
-                {%- if show_currency_flags -%}
-                  <span class="currency-flag currency-flag--{{ country.iso_code | downcase }}" data-flag="{{ country.currency.iso_code }}" aria-hidden="true"></span>
-                {%- endif -%}
+          {%- for currency in form.available_currencies -%}
+            <li class="disclosure-list__item{% if currency.iso_code == form.current_currency.iso_code %} disclosure-list__item--current{% endif %}">
+              <a class="disclosure-list__option" href="#"{% if currency.iso_code == form.current_currency.iso_code %} aria-current="true"{% endif %} data-value="{{ currency.iso_code }}" data-disclosure-option>
                 <span class="disclosure-list__label">
-                  {{ country.name }} ({{ country.currency.iso_code }} {{ country.currency.symbol }})
+                  {{ currency.iso_code }} {%- if currency.symbol -%}{{ currency.symbol }}{%- endif -%}
                 </span>
               </a>
             </li>
           {%- endfor -%}
         </ul>
-        <input type="hidden" name="country_code" value="{{ localization.country.iso_code }}" data-disclosure-input>
+        <input type="hidden" name="currency_code" value="{{ form.current_currency.iso_code }}" data-disclosure-input>
       </div>
     </div>
   {%- endif -%}
 {%- endform -%}
+
+  <script>
+  document.querySelectorAll("#localeItem").forEach(item => {
+    item.addEventListener("click", event => {
+      document.getElementById("localeCode").value=item.getAttribute("lang");
+      document.getElementById("localization_form_tag").submit();
+    });
+  });
+  </script>
