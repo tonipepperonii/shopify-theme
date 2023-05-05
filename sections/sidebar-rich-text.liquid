@@ -2,8 +2,14 @@
   {% for block in section.blocks %}
     {% case block.type %}
       {% when "text"%}
+      
         <div class="rich-text-with-sidebar-main-container">
-      {{ block.settings.main_richtext }}
+          {%- if product.empty? -%}
+            {{ block.settings.main_richtext }}
+          {%- else -%}
+            {{ product.description }}
+          {%- endif -%}
+      
         </div>
     {% endcase %}
   {% endfor %}
