@@ -19,10 +19,10 @@
     {% for locale in shop.published_locales %}
        <a href="#" id="localeItem" lang="{{ locale.iso_code }}">
         {% if locale.endonym_name == 'Deutsch' %}
-           <img src="https://cdn.shopify.com/s/files/1/0564/4825/4104/files/deutsch.png?v=1683098482" width=30 height=30>
+           <img src="https://cdn.shopify.com/s/files/1/0564/4825/4104/files/deutsch.png?v=1683098482" width=25>
        </a>
       {% else locale.endonym_name == 'English' %}
-          <img src="https://cdn.shopify.com/s/files/1/0564/4825/4104/files/english.png?v=1683100255" width=30 height=30>
+          <img src="https://cdn.shopify.com/s/files/1/0564/4825/4104/files/english.png?v=1683100255" width=25>
       </a>
     {% endif %}
     {% endfor %}
