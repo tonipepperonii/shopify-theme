@@ -4,7 +4,7 @@
       {% when "text"%}
       
         <div class="rich-text-with-sidebar-main-container">
-          {%- if product.empty? -%}
+          {%- if product -%}
             {{ block.settings.main_richtext }}
           {%- else -%}
             <div class="rte">
