@@ -14,6 +14,7 @@
   </div>
 {%- endif -%}
 
+
 {% comment %}
   Main navigation is copied here with JS for mobile users
 {% endcomment %}
@@ -38,6 +39,8 @@
                   render 'footer-payments', block: block, show_currency_flags: show_currency_flags
                 when 'contact'
                   render 'footer-contact', block: block
+                when 'vorteile'
+                render 'footer-vorteile', block: block
               endcase
             -%}
           </div>
@@ -62,7 +65,7 @@
             <a href="{{ link.url }}">{{ link.title }}</a>
           {%- endfor -%}
         {%- endif -%}
-
+          
         {{ powered_by_link }}
       </div>
     </div>
@@ -153,6 +156,17 @@
       ]
     },
     {
+      "type": "vorteile",
+      "name": "t:sections.footer.blocks.vorteile.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Titel"
+        }
+      ]
+      },
+    {
       "type": "menu",
       "name": "t:sections.footer.blocks.navigation.name",
       "settings": [
@@ -176,6 +190,7 @@
         }
       ]
     },
+
     {
       "type": "contact",
       "name": "t:sections.footer.blocks.contact_and_social.name",
