@@ -28,8 +28,11 @@
           </div>
         {%- endif -%}
 
+        
         {%- if show_selectors -%}
+          {%comment%}
           <div class="toolbar__item small--hide">
+            {%endcomment%}
             {%- render 'multi-selectors',
               locale_selector: locale_selector,
               currency_selector: currency_selector,
