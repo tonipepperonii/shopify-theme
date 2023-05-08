@@ -796,6 +796,9 @@
         }
       },
       "blocks": {
+        "vorteile": {
+          "name": "Vorteile"
+        },
         "payments_and_localization": {
           "name": "Payments and localization",
           "settings": {
