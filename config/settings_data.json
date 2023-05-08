@@ -220,12 +220,10 @@
               "enable_account_link": false
             }
           },
-          "1314e146-3db8-4132-b5d0-dc78013c06a5": {
-            "type": "menu",
+          "902e9938-41c2-45a1-a471-4de92590ce37": {
+            "type": "vorteile",
             "settings": {
-              "title": "",
-              "menu": "vorteile",
-              "enable_account_link": false
+              "title": "Vorteile"
             }
           },
           "445e1b0c-0f20-4cc2-8c69-ce7f813910ee": {
@@ -249,7 +247,7 @@
         "block_order": [
           "a545cf33-374e-4bc5-8621-99ec41b59c33",
           "064d22f9-1450-45de-928b-eec0738458d6",
-          "1314e146-3db8-4132-b5d0-dc78013c06a5",
+          "902e9938-41c2-45a1-a471-4de92590ce37",
           "445e1b0c-0f20-4cc2-8c69-ce7f813910ee",
           "00967a57-36d6-4d2c-b575-c71e803d1112"
         ],
