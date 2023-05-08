@@ -16,6 +16,62 @@
         endif
       -%}
 
+      {%- comment -%} vz edit{%- endcomment -%}
+      {% if link.title == "Aluminiumprofile"%}
+        <li class="slide-nav__item">
+          <button type="button"
+            class="slide-nav__button js-toggle-submenu"
+            data-target="tier-2-{{ child_list_handle }}"
+            {% if link.active or link.child_active %}data-active="true"{% endif %}>
+            <span class="slide-nav__link">
+            <span>{{ link.title }}</span>
+            <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-right" viewBox="0 0 284.49 498.98"><path d="M35 498.98a35 35 0 0 1-24.75-59.75l189.74-189.74L10.25 59.75a35.002 35.002 0 0 1 49.5-49.5l214.49 214.49a35 35 0 0 1 0 49.5L59.75 488.73A34.89 34.89 0 0 1 35 498.98z"/></svg>
+            <span class="icon__fallback-text">{{ 'general.drawers.expand_submenu' | t }}</span>
+            </span>
+          </button>
+        </li>
+        <ul
+          class="slide-nav__dropdown"
+          data-parent="tier-2-{{ child_list_handle }}"
+          data-level="2">
+          <li class="slide-nav__item">
+            <button type="button"
+              class="slide-nav__button js-toggle-submenu">
+              <span class="slide-nav__link slide-nav__link--back">
+                <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-left" viewBox="0 0 284.49 498.98"><path d="M249.49 0a35 35 0 0 1 24.75 59.75L84.49 249.49l189.75 189.74a35.002 35.002 0 1 1-49.5 49.5L10.25 274.24a35 35 0 0 1 0-49.5L224.74 10.25A34.89 34.89 0 0 1 249.49 0z"/></svg>
+                <span>{{ link.title }}</span>
+
+              </span>
+            </button>
+          </li>
+          <div class="profile-container-mobile">
+          {%- for childlink in link.links -%}
+            {% assign collection = collections[childlink.title] %}
+            {% assign collectionpv = collections['PV Montage-Profile'] %}
+              <div class="profile-form-mobile">
+
+                  <div class="profile-col-mobile">
+                    {% if collection != collectionpv %}
+                    <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level" style="padding-top:10px">
+                      <div><img src="{{ collection.image.src | img_url }}" alt="{{ collection.title }}" width=100% height=100% loading=lazy style="width: 100px; height: 100px; object-fit: cover;"/></div>
+                      <div>{{ childlink.title }}</div>
+                    </a>
+                    {% elsif collection == collectionpv %}
+                    <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level" style="padding-top:10px">
+                      <div><img src="https://cdn.shopify.com/s/files/1/0729/7653/1760/collections/leichtbau_2400x.png?v=1681743557" alt="{{ collection.title }}" width=100% height=100% loading=lazy style="width: 100px; height: 100px; object-fit: cover;"/></div>
+                      <div>{{ childlink.title }}</div>
+                    </a>
+                  {% endif %}
+                </div>
+            </div>
+
+            {%- endfor -%}
+          </div>
+          </ul>
+        {% else %}
+        {%- comment -%} vz edit{%- endcomment -%}
+
+
       {%- if have_image -%}
         {%- capture collection_image -%}
           <div class="slide-nav__image">
@@ -29,6 +85,8 @@
           <button type="button"
             class="slide-nav__button js-toggle-submenu"
             data-target="tier-2-{{ child_list_handle }}"
+
+
             {% if link.active or link.child_active %}data-active="true"{% endif %}>
             <span class="slide-nav__link">
               {%- if have_image -%}
@@ -39,6 +97,7 @@
               <span class="icon__fallback-text">{{ 'general.drawers.expand_submenu' | t }}</span>
             </span>
           </button>
+         
 
           <ul
             class="slide-nav__dropdown"
@@ -50,6 +109,7 @@
                 <span class="slide-nav__link slide-nav__link--back">
                   <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-left" viewBox="0 0 284.49 498.98"><path d="M249.49 0a35 35 0 0 1 24.75 59.75L84.49 249.49l189.75 189.74a35.002 35.002 0 1 1-49.5 49.5L10.25 274.24a35 35 0 0 1 0-49.5L224.74 10.25A34.89 34.89 0 0 1 249.49 0z"/></svg>
                   <span>{{ link.title }}</span>
+
                 </span>
               </button>
             </li>
@@ -65,13 +125,14 @@
                 </a>
               </li>
             {%- endif -%}
+            
+
 
             {%- for childlink in link.links -%}
               {%- liquid
                 assign grand_child_list_handle = childlink.title | handleize
                 assign grand_child_link_id = grand_child_list_handle | append: link_index
               -%}
-
               <li class="slide-nav__item">
                 {%- if childlink.levels > 0 -%}
                   <button type="button"
@@ -80,10 +141,12 @@
                     {% if link.active or link.child_active %}data-active="true"{% endif %}>
                     <span class="slide-nav__link slide-nav__sublist-link">
                       <span>{{ childlink.title }}</span>
+
                       <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-right" viewBox="0 0 284.49 498.98"><path d="M35 498.98a35 35 0 0 1-24.75-59.75l189.74-189.74L10.25 59.75a35.002 35.002 0 0 1 49.5-49.5l214.49 214.49a35 35 0 0 1 0 49.5L59.75 488.73A34.89 34.89 0 0 1 35 498.98z"/></svg>
                       <span class="icon__fallback-text">{{ 'general.drawers.expand_submenu' | t }}</span>
                     </span>
                   </button>
+
                   <ul class="slide-nav__dropdown"
                     data-parent="tier-3-{{ grand_child_link_id }}"
                     data-level="3">
@@ -97,6 +160,8 @@
                         </span>
                       </button>
                     </li>
+
+
 
                     {% comment %}
                       If a collection, automatically add 'view all' link
@@ -139,6 +204,7 @@
           </a>
         {%- endif -%}
       </li>
+    {% endif%}
     {%- endfor -%}
   </ul>
 </div>
