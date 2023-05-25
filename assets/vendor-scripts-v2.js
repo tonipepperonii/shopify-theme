@@ -1,13 +1,13 @@
 /*
 @license
-Expanse by Archetype Themes (https://archetypethemes.co)
+Visionz by Visionz Themes (https://visionz.de)
 
 Plugins:
 JavaScript Cookie       2.2.0
-Flickity                2.3.0 with customizations by Archetype
-Flickity Fade           1.0.0 with customizations by Archetype
+Flickity                2.3.0 with customizations by Visionz
+Flickity Fade           1.0.0 with customizations by Visionz
 Photoswipe              4.1.3
-Photoswipe UI           4.1.2 with customizations by Archetype
+Photoswipe UI           4.1.2 with customizations by Visionz
 noUiSlider              15.2.0
 
 Lazysizes for image loading:
