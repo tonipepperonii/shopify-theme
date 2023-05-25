@@ -1,11 +1,11 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Expanse",
-    "theme_author": "Archetype Themes",
+    "theme_name": "Visionz",
+    "theme_author": "Visionz Themes",
     "theme_version": "3.0.0",
-    "theme_documentation_url": "https:\/\/archetypethemes.co\/blogs\/expanse",
-    "theme_support_url": "https:\/\/archetypethemes.co\/pages\/support#expanse"
+    "theme_documentation_url": "https:\/\/visionz.de",
+    "theme_support_url": "https:\/\/visionz.de"
   },
   {
     "name": "t:settings_schema.colors.name",
