@@ -1,10 +1,9 @@
 /*
 @license
-  Expanse by Archetype Themes (https://archetypethemes.co)
+  Visionz by Visionz Themes (https://visionz.de)
   Access unminified JS in assets/theme.js
 
   Use this event listener to run your own JS outside of this file.
-  Documentation - https://archetypethemes.co/blogs/expanse/javascript-events-for-developers
 
   document.addEventListener('page:loaded', function() {
     // Page has loaded and theme assets are ready
