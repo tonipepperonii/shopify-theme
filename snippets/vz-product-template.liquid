@@ -70,13 +70,16 @@
         {{ product.title }}
       </p>
     {%- else -%}
-      <h1 class="h2 product-single__title">
+      <div class="product__title">
+        <h2 class="h2 product-single__title ">
         {%- unless product.empty? -%}
           {{ product.title }}
         {%- else -%}
           {{ 'home_page.onboarding.product_title' | t }}
         {%- endunless -%}
-      </h1>
+      </h2>
+      </div>
+      
     {%- endif -%}
 
     {%- if settings.vendor_enable or sku_enable -%}
@@ -145,7 +148,9 @@
               {%- for block in blocks -%}
                 {%- case block.type -%}
                   {%- when '@app' -%}
-                    {% render block %}
+                    {%- unless block == blocks.last -%}
+                      {% render block %}
+                    {%- endunless -%}
                   {%- when 'separator' -%}
                     <div class="product-block" {{ block.shopify_attributes }}><hr></div>
                   {%- when 'text' -%}
