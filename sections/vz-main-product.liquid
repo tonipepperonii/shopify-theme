@@ -9,63 +9,64 @@
     assign isAjax = true
   endif
 -%}
-<div style="border-bottom: #eee 2px solid;
+<div
+  style="
+    border-bottom: #eee 2px solid;
     padding-bottom: 50px;
-    margin-bottom: 70px;"> 
-<div class="product-tabs page-width">
-  <ul class="product-tabs-nav">
-    <li><a href="#tab-produktansicht">Produktansicht</a></li>
-    <li><a href="#tab-listenansicht">Listenansicht</a></li>
-  </ul>
-  <div class="product-tabs-stage">
-    <div id="tab-produktansicht">
-      {%- render 'vz-product-template',
-        product: product,
-        section_id: section.id,
-        blocks: section.blocks,
-      
-        image_position: section.settings.image_position,
-        image_container_width: section.settings.image_container_size,
-        image_size: section.settings.product_image_size,
-        product_zoom_enable: section.settings.product_zoom_enable,
-        sku_enable: section.settings.sku_enable,
-        hinweistext: section.settings.hinweis-richtext,
-        isModal: isModal,
-        isAjax: isAjax,
-        thumbnail_position: section.settings.thumbnail_position,
-        thumbnail_arrows: section.settings.thumbnail_arrows,
-        mobile_layout: section.settings.mobile_layout,
-        video_looping: section.settings.enable_video_looping,
-        video_style: section.settings.product_video_style
-      -%}
-      
+    margin-bottom: 70px;
+  "
+>
+  <div class="product-tabs page-width">
+    <ul class="product-tabs-nav">
+      <li><a href="#tab-produktansicht">Produktansicht</a></li>
+      <li><a href="#tab-listenansicht">Listenansicht</a></li>
+    </ul>
+    <div class="product-tabs-stage">
+      <div id="tab-produktansicht">
+        {%- render 'vz-product-template',
+          product: product,
+          section_id: section.id,
+          blocks: section.blocks,
+          image_position: section.settings.image_position,
+          image_container_width: section.settings.image_container_size,
+          image_size: section.settings.product_image_size,
+          product_zoom_enable: section.settings.product_zoom_enable,
+          sku_enable: section.settings.sku_enable,
+          hinweistext: section.settings['hinweis-richtext'],
+          isModal: isModal,
+          isAjax: isAjax,
+          thumbnail_position: section.settings.thumbnail_position,
+          thumbnail_arrows: section.settings.thumbnail_arrows,
+          mobile_layout: section.settings.mobile_layout,
+          video_looping: section.settings.enable_video_looping,
+          video_style: section.settings.product_video_style
+        -%}
+      </div>
+      <div id="tab-listenansicht">
+        <p>Hallo Listenansicht 2</p>
+        {% assign block = section.blocks.last %}
+        {% render block %}
+      </div>
     </div>
-    <div id="tab-listenansicht">
-      <p>Hallo Listenansicht</p>
-    </div>
-    
   </div>
 </div>
-</div>
-
 
 <script>
-// Show the first tab by default
-$('.product-tabs-stage > div').hide();
-$('.product-tabs-stage > div:first').show();
-$('.product-tabs-nav li:first').addClass('product-tab-active');
-
-// Change tab class and display content
-$('.product-tabs-nav a').on('click', function(event){
-  event.preventDefault();
-  $('.product-tabs-nav li').removeClass('product-tab-active');
-  $(this).parent().addClass('product-tab-active');
+  console.log("Starting custom tabs script");
+  // Show the first tab by default
   $('.product-tabs-stage > div').hide();
-  $($(this).attr('href')).show();
-});
+  $('.product-tabs-stage > div:first').show();
+  $('.product-tabs-nav li:first').addClass('product-tab-active');
+
+  // Change tab class and display content
+  $('.product-tabs-nav a').on('click', function(event){
+    event.preventDefault();
+    $('.product-tabs-nav li').removeClass('product-tab-active');
+    $(this).parent().addClass('product-tab-active');
+    $('.product-tabs-stage > div').hide();
+    $($(this).attr('href')).show();
+  });
 </script>
-
-
 
 {% schema %}
 {
