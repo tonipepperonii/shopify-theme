@@ -18,8 +18,8 @@
             "inventory_transfers_enable": true
           }
         },
-        "5ea6f0ae-19e9-4541-83b6-d9f65528d4a8": {
-          "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-plate\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+        "41304694-2c4d-46c7-885a-f69be7f740bb": {
+          "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe-connector\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
           "settings": {
           }
         }
@@ -27,7 +27,7 @@
       "block_order": [
         "variant_picker",
         "inventory_status",
-        "5ea6f0ae-19e9-4541-83b6-d9f65528d4a8"
+        "41304694-2c4d-46c7-885a-f69be7f740bb"
       ],
       "settings": {
         "sku_enable": false,
