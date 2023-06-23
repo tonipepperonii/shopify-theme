@@ -37,20 +37,20 @@
     "main": {
       "type": "vz-main-product",
       "blocks": {
-        "329a1f5b-36f3-42cf-b87b-ab1850515c6d": {
-          "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe-plug\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+        "494310b2-b5d8-4688-ba71-6136ee5a5f55": {
+          "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe-connector\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
           "settings": {
           }
         },
-        "9243a053-8fb3-4984-bee5-c0203ae3612e": {
-          "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe-plug-list\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+        "404608ad-ad3a-4b05-be52-ea3ccedb7df6": {
+          "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe-connector-list\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
           "settings": {
           }
         }
       },
       "block_order": [
-        "329a1f5b-36f3-42cf-b87b-ab1850515c6d",
-        "9243a053-8fb3-4984-bee5-c0203ae3612e"
+        "494310b2-b5d8-4688-ba71-6136ee5a5f55",
+        "404608ad-ad3a-4b05-be52-ea3ccedb7df6"
       ],
       "settings": {
         "sku_enable": false,
