@@ -11,63 +11,15 @@
             "color_swatches": false
           }
         },
-        "price": {
-          "type": "price",
+        "30f0f01e-90bc-433f-9e52-a2b145d515ec": {
+          "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
           "settings": {
-          }
-        },
-        "sales_point": {
-          "type": "sales_point",
-          "settings": {
-            "icon": "globe",
-            "text": "Free worldwide shipping"
-          }
-        },
-        "sales_point2": {
-          "type": "sales_point",
-          "settings": {
-            "icon": "truck",
-            "text": "Free returns"
-          }
-        },
-        "sales_point3": {
-          "type": "sales_point",
-          "settings": {
-            "icon": "leaf",
-            "text": "Carbon neutral"
-          }
-        },
-        "sales_point4": {
-          "type": "sales_point",
-          "settings": {
-            "icon": "lock",
-            "text": "Secure payments"
-          }
-        },
-        "inventory_status": {
-          "type": "inventory_status",
-          "settings": {
-            "inventory_threshold": 10,
-            "inventory_transfers_enable": true
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "surface_pickup_enable": true
           }
         }
       },
       "block_order": [
         "variant_picker",
-        "price",
-        "sales_point",
-        "sales_point2",
-        "sales_point3",
-        "sales_point4",
-        "inventory_status",
-        "buy_buttons"
+        "30f0f01e-90bc-433f-9e52-a2b145d515ec"
       ],
       "settings": {
         "sku_enable": false,
