@@ -37,91 +37,20 @@
     "main": {
       "type": "vz-main-product",
       "blocks": {
-        "variant_picker": {
-          "type": "variant_picker",
-          "disabled": true,
-          "settings": {
-            "variant_labels": true,
-            "picker_type": "button",
-            "color_swatches": false
-          }
-        },
-        "price": {
-          "type": "price",
-          "disabled": true,
+        "329a1f5b-36f3-42cf-b87b-ab1850515c6d": {
+          "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe-plug\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
           "settings": {
           }
         },
-        "sales_point": {
-          "type": "sales_point",
-          "disabled": true,
-          "settings": {
-            "icon": "globe",
-            "text": "Free worldwide shipping"
-          }
-        },
-        "sales_point2": {
-          "type": "sales_point",
-          "disabled": true,
-          "settings": {
-            "icon": "truck",
-            "text": "Free returns"
-          }
-        },
-        "sales_point3": {
-          "type": "sales_point",
-          "disabled": true,
-          "settings": {
-            "icon": "leaf",
-            "text": "Carbon neutral"
-          }
-        },
-        "sales_point4": {
-          "type": "sales_point",
-          "disabled": true,
-          "settings": {
-            "icon": "lock",
-            "text": "Secure payments"
-          }
-        },
-        "inventory_status": {
-          "type": "inventory_status",
-          "disabled": true,
-          "settings": {
-            "inventory_threshold": 10,
-            "inventory_transfers_enable": true
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "disabled": true,
-          "settings": {
-            "show_dynamic_checkout": true,
-            "surface_pickup_enable": true
-          }
-        },
-        "7e6e9b5c-6a3a-48c5-9988-e1ff90c7327a": {
-          "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
-          "settings": {
-          }
-        },
-        "91833444-2bda-44e1-be36-11af2c8d98a7": {
-          "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe-list\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+        "9243a053-8fb3-4984-bee5-c0203ae3612e": {
+          "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe-plug-list\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
           "settings": {
           }
         }
       },
       "block_order": [
-        "variant_picker",
-        "price",
-        "sales_point",
-        "sales_point2",
-        "sales_point3",
-        "sales_point4",
-        "inventory_status",
-        "buy_buttons",
-        "7e6e9b5c-6a3a-48c5-9988-e1ff90c7327a",
-        "91833444-2bda-44e1-be36-11af2c8d98a7"
+        "329a1f5b-36f3-42cf-b87b-ab1850515c6d",
+        "9243a053-8fb3-4984-bee5-c0203ae3612e"
       ],
       "settings": {
         "sku_enable": false,
