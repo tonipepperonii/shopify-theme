@@ -39,6 +39,7 @@
       "blocks": {
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "variant_labels": true,
             "picker_type": "button",
@@ -47,6 +48,7 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
           }
         },
@@ -92,9 +94,20 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": true,
             "surface_pickup_enable": true
+          }
+        },
+        "7e6e9b5c-6a3a-48c5-9988-e1ff90c7327a": {
+          "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+          "settings": {
+          }
+        },
+        "91833444-2bda-44e1-be36-11af2c8d98a7": {
+          "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe-list\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+          "settings": {
           }
         }
       },
@@ -106,7 +119,9 @@
         "sales_point3",
         "sales_point4",
         "inventory_status",
-        "buy_buttons"
+        "buy_buttons",
+        "7e6e9b5c-6a3a-48c5-9988-e1ff90c7327a",
+        "91833444-2bda-44e1-be36-11af2c8d98a7"
       ],
       "settings": {
         "sku_enable": false,
@@ -141,7 +156,6 @@
         "side-richtext": "<p>Eduard Bratkowski<br\/><em>Kundenberater<\/em><\/p>",
         "phone": "05121 \/ 28 290-0",
         "mail": "verkauf@alu-verkauf.de",
-        "versand-richtext": "",
         "checkbox": true
       }
     },
