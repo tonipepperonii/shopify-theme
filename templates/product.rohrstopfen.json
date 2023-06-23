@@ -1,0 +1,241 @@
+{
+  "sections": {
+    "5496d8f0-cbe1-4f56-b789-aad06ed907f2": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18896842195248__5496d8f0-cbe1-4f56-b789-aad06ed907f2-16825095512038de14-1": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<h2>{{ product.title }}<\/h2>",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/cat-banner.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18896842195248__5496d8f0-cbe1-4f56-b789-aad06ed907f2-16825095512038de14-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": 0,
+        "mobile_size": 20,
+        "style": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "main": {
+      "type": "vz-main-product",
+      "blocks": {
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "disabled": true,
+          "settings": {
+            "icon": "globe",
+            "text": "Free worldwide shipping"
+          }
+        },
+        "sales_point2": {
+          "type": "sales_point",
+          "disabled": true,
+          "settings": {
+            "icon": "truck",
+            "text": "Free returns"
+          }
+        },
+        "sales_point3": {
+          "type": "sales_point",
+          "disabled": true,
+          "settings": {
+            "icon": "leaf",
+            "text": "Carbon neutral"
+          }
+        },
+        "sales_point4": {
+          "type": "sales_point",
+          "disabled": true,
+          "settings": {
+            "icon": "lock",
+            "text": "Secure payments"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "disabled": true,
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        },
+        "7e6e9b5c-6a3a-48c5-9988-e1ff90c7327a": {
+          "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+          "settings": {
+          }
+        },
+        "91833444-2bda-44e1-be36-11af2c8d98a7": {
+          "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe-list\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "variant_picker",
+        "price",
+        "sales_point",
+        "sales_point2",
+        "sales_point3",
+        "sales_point4",
+        "inventory_status",
+        "buy_buttons",
+        "7e6e9b5c-6a3a-48c5-9988-e1ff90c7327a",
+        "91833444-2bda-44e1-be36-11af2c8d98a7"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "hinweis-richtext": "<p>Die angegebenen Preise verstehen sich als <strong>Bruttopreise inkl. MwSt.<\/strong>, zzgl. Versandkosten. Gerne prüfen wir, ob Profile und Abmessungen, die hier nicht aufgeführt werden, für Sie beschaffbar sind. Schicken Sie uns hierzu gerne eine Anfrage per Kontaktformular und wir werden Ihnen schnellstmöglich eine Rückmeldung zukommen lassen.<\/p>",
+        "image_position": "left",
+        "image_container_size": "medium",
+        "product_image_size": "square",
+        "product_zoom_enable": true,
+        "thumbnail_position": "below",
+        "thumbnail_arrows": true,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "c1ac324a-eaf3-4b54-96f2-fe1b250705f5": {
+      "type": "sidebar-rich-text",
+      "blocks": {
+        "template--18896842195248__c1ac324a-eaf3-4b54-96f2-fe1b250705f5-1682509798c3998345-0": {
+          "type": "text",
+          "settings": {
+            "main_richtext": "<h1>Hier steht ein Beispiel<\/h1><p>So könnte es aussehen<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18896842195248__c1ac324a-eaf3-4b54-96f2-fe1b250705f5-1682509798c3998345-0"
+      ],
+      "settings": {
+        "side-title": "Wir sind für Sie da:",
+        "image": "shopify:\/\/shop_images\/avatar.png",
+        "side-richtext": "<p>Eduard Bratkowski<br\/><em>Kundenberater<\/em><\/p>",
+        "phone": "05121 \/ 28 290-0",
+        "mail": "verkauf@alu-verkauf.de",
+        "checkbox": true
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": true
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping information",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "contact": {
+          "type": "contact",
+          "settings": {
+            "title": "Ask a question",
+            "phone": false
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "tab",
+        "contact"
+      ],
+      "settings": {
+        "max_width": true
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "more-products-vendor": {
+      "type": "more-products-vendor",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "more-products-collection": {
+      "type": "more-products-collection",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "2"
+      }
+    }
+  },
+  "order": [
+    "5496d8f0-cbe1-4f56-b789-aad06ed907f2",
+    "main",
+    "c1ac324a-eaf3-4b54-96f2-fe1b250705f5",
+    "sub",
+    "recommendations",
+    "more-products-vendor",
+    "more-products-collection",
+    "recently-viewed",
+    "collection-return"
+  ]
+}
