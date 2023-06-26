@@ -92,7 +92,13 @@
       "pause_slideshow": "Pause slideshow"
     },
     "sidebar": {
-      "fast_shipping": "Fast shipping"
+      "fast_shipping": "Fast shipping",
+      "no_minimum": "No minimum quantity",
+      "large_selection": "Large selection",
+      "individual_cuts": "Individual cuts",
+      "special_sizes": "Special sizes on request",
+      "20_years": "20 years of expertise",
+      "pick_up": "Local pickup possible"
     }
   },
   "blogs": {
