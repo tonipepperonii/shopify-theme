@@ -100,6 +100,10 @@
       "20_years": "20 years of expertise",
       "pick_up": "Local pickup possible",
       "trusted_shops": "Trusted Shops buyer protection"
+    },
+    "product_tabs": {
+      "product_view": "product view",
+      "list_view": "list view"
     }
   },
   "blogs": {
