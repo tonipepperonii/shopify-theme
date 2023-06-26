@@ -90,6 +90,9 @@
     "slideshow": {
       "play_slideshow": "Play slideshow",
       "pause_slideshow": "Pause slideshow"
+    },
+    "sidebar": {
+      "fast_shipping": "Fast shipping"
     }
   },
   "blogs": {
