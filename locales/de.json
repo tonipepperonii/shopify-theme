@@ -90,6 +90,15 @@
     "slideshow": {
       "play_slideshow": "Diashow abspielen",
       "pause_slideshow": "Pause Diashow"
+    },
+    "sidebar": {
+      "fast_shipping": "Schneller Versand",
+      "no_minimum": "Keine Mindestabnahme",
+      "large_selection": "Große Produktauswahl",
+      "individual_cuts": "Individueller Zuschnitt",
+      "special_sizes": "Sondergrößen auf Anfrage",
+      "20_years": "20 Jahre Expertise",
+      "pick_up": "Abholung vor Ort möglich"
     }
   },
   "blogs": {
