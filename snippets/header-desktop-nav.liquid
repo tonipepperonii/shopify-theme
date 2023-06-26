@@ -12,7 +12,7 @@
     {%- liquid
       assign has_dropdown = false
       assign is_megamenu = false
-      if link.title == 'Aluminiumprofile'
+      if link.title == 'Aluminiumprofile' or link.title == "aluminum profiles"
         assign is_megamenu=  true
       endif
       if link.levels > 0
