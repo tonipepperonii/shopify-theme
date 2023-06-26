@@ -79,8 +79,11 @@
                 <div class="profile-form">
               {% for childlink in link.links %}
                 {% assign collection = collections[childlink.title] %}
+                {% assign product = all_products[childlink.url] %}
+                <script>console.log({{ product }});</script>
                 {% assign collectionpv = collections['PV Montage-Profile'] %}
                 {% if collection != collectionpv %}
+                  
                 <div class="profile-col">
                     <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level" style="padding-top:10px">
                       <div><img src="{{ collection.image.src | img_url }}" alt="{{ collection.title }}" width=100% height=100% loading=lazy style="width: 100px; height: 100px; object-fit: cover;"/></div>
