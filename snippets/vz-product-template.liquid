@@ -65,22 +65,7 @@
       {%- render 'breadcrumbs' -%}
     {%- endif -%}
 
-    {%- if isModal -%}
-      <p class="h2 product-single__title">
-        {{ product.title }}
-      </p>
-    {%- else -%}
-      <div class="product__title">
-        <h2 class="h2 product-single__title ">
-        {%- unless product.empty? -%}
-          {{ product.title }}
-        {%- else -%}
-          {{ 'home_page.onboarding.product_title' | t }}
-        {%- endunless -%}
-      </h2>
-      </div>
-      
-    {%- endif -%}
+    
 
     {%- if settings.vendor_enable or sku_enable -%}
       <div class="product-single__vendor-sku">
