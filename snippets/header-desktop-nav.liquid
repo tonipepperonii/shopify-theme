@@ -80,7 +80,7 @@
               {% for childlink in link.links %}
                 {% assign collection = collections[childlink.title] %}
                 {% assign product = all_products[childlink.url] %}
-                <p>{{ childlink.url }}</p>
+                <p>{{ product }}</p>
                 {% assign collectionpv = collections['PV Montage-Profile'] %}
                 {% if collection != collectionpv %}
                   
