@@ -80,6 +80,7 @@
               {% for childlink in link.links %}
                 {% assign collection = collections[childlink.title] %}
                 {% assign product = all_products[childlink.handle] %}
+                {% assign product_handle = childlink.url | split: "/" | last %}
                 
                 {% assign collectionpv = collections['PV Montage-Profile'] %}
                 {% if collection != collectionpv %}
