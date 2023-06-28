@@ -83,7 +83,7 @@
                 {% assign product_handle = childlink.url | split: "/" | last %}
                 {% assign product = all_products[product_handle] %}
                 
-                {% if product %}
+                {% if product.metafields.custom.men_icon %}
                   
                 <div class="profile-col">
                     <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level" style="padding-top:10px">
