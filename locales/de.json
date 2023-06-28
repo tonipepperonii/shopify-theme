@@ -104,6 +104,10 @@
     "product_tabs": {
       "product_view": "Produktansicht",
       "list_view": "Listenansicht"
+    },
+    "navbar": {
+      "aluminum_profiles": "Aluminiumprofile",
+      "to_category": "Zur Kategorieseite"
     }
   },
   "blogs": {
