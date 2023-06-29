@@ -100,12 +100,12 @@
             "surface_pickup_enable": true
           }
         },
-        "7e6e9b5c-6a3a-48c5-9988-e1ff90c7327a": {
+        "e562f406-0f85-46c3-8b16-7f6a61c5600e": {
           "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
           "settings": {
           }
         },
-        "91833444-2bda-44e1-be36-11af2c8d98a7": {
+        "70299334-0d50-4f98-af87-8dce95a7d423": {
           "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe-list\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
           "settings": {
           }
@@ -120,8 +120,8 @@
         "sales_point4",
         "inventory_status",
         "buy_buttons",
-        "7e6e9b5c-6a3a-48c5-9988-e1ff90c7327a",
-        "91833444-2bda-44e1-be36-11af2c8d98a7"
+        "e562f406-0f85-46c3-8b16-7f6a61c5600e",
+        "70299334-0d50-4f98-af87-8dce95a7d423"
       ],
       "settings": {
         "sku_enable": false,
