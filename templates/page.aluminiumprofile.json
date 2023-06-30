@@ -40,8 +40,52 @@
       "settings": {
       }
     },
+    "e16a573e-937d-49d6-8f31-54f01ac766f1": {
+      "type": "vz-featured-products",
+      "blocks": {
+        "0584671b-efce-47e8-b147-bc0daf4fe780": {
+          "type": "product",
+          "settings": {
+            "product": "rund",
+            "title": ""
+          }
+        },
+        "79871be1-6e72-4808-9508-5d711a99df29": {
+          "type": "product",
+          "settings": {
+            "product": "vierkantprofile",
+            "title": ""
+          }
+        },
+        "cf276639-69fd-40ae-9720-a7384486aa2f": {
+          "type": "product",
+          "settings": {
+            "product": "sechskant-testprodukt",
+            "title": ""
+          }
+        },
+        "6342bf14-3c2b-4136-8381-1ab928bf8d8a": {
+          "type": "product",
+          "settings": {
+            "product": "flach",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "0584671b-efce-47e8-b147-bc0daf4fe780",
+        "79871be1-6e72-4808-9508-5d711a99df29",
+        "cf276639-69fd-40ae-9720-a7384486aa2f",
+        "6342bf14-3c2b-4136-8381-1ab928bf8d8a"
+      ],
+      "settings": {
+        "title": "Aluminium Profile & Platten",
+        "divider": false
+      }
+    },
     "b4603d4a-730e-4537-87dc-0f384c0cd5aa": {
       "type": "featured-collections",
+      "disabled": true,
       "blocks": {
         "template--18797277348144__b4603d4a-730e-4537-87dc-0f384c0cd5aa-1681809742a3484a5b-0": {
           "type": "collection",
@@ -149,6 +193,7 @@
     },
     "88631434-6a19-47d1-883b-6aa9feb6674b": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Unsere beliebtesten Artikel",
         "home_featured_products": "",
@@ -267,6 +312,7 @@
   "order": [
     "d859c991-befc-4ad0-b4bb-7cf091fbaed1",
     "main",
+    "e16a573e-937d-49d6-8f31-54f01ac766f1",
     "b4603d4a-730e-4537-87dc-0f384c0cd5aa",
     "88631434-6a19-47d1-883b-6aa9feb6674b",
     "35b1db5a-62a2-407f-b128-8ee3d1adb35a",
