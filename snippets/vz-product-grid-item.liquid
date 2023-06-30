@@ -19,7 +19,7 @@
     <div class="collection-image-wrap collection-image--{{ settings.collection_grid_shape }}">
       
         <div class="collection-image{% if using_collection_image %} collection-image--is-collection{% endif %} image-wrap">
-          {%- assign img_url = collection_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+          {%- assign img_url = product_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
           <img
             class="lazyload"
             src=""
