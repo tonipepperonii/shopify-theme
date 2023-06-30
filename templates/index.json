@@ -330,6 +330,33 @@
         "round_images": true,
         "color_scheme": "none"
       }
+    },
+    "5e1a0983-8595-49d8-8b40-c9e179334460": {
+      "type": "vz-featured-products",
+      "blocks": {
+        "89dd63e3-91b6-4143-afbe-c2a413fb2042": {
+          "type": "product",
+          "settings": {
+            "product": "aluminium-platten",
+            "title": ""
+          }
+        },
+        "23835af5-7909-48f2-ad2a-610d7e1850e8": {
+          "type": "product",
+          "settings": {
+            "product": "flach-rp",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "89dd63e3-91b6-4143-afbe-c2a413fb2042",
+        "23835af5-7909-48f2-ad2a-610d7e1850e8"
+      ],
+      "settings": {
+        "title": "Popular categories",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -340,6 +367,7 @@
     "c5e4a292-5547-4722-8908-f8e44d7f0a72",
     "61a6d63d-1e52-498b-b291-23b56f504820",
     "21febce1-97b9-4f8a-a452-d41a6bc2c875",
-    "c185c803-627b-44c4-bb29-cd2ef0e10fae"
+    "c185c803-627b-44c4-bb29-cd2ef0e10fae",
+    "5e1a0983-8595-49d8-8b40-c9e179334460"
   ]
 }
