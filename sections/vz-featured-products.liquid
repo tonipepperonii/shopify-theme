@@ -17,8 +17,8 @@
 
     {%- for block in section.blocks -%}
       {%- liquid
-        assign collection = collections[block.settings.collection]
-        render 'vz-product-grid-item', collection: collection, block: block
+        assign product = all_products[block.settings.product]
+        render 'vz-product-grid-item', product: product, block: block
       -%}
     {%- endfor -%}
 
