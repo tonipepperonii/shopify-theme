@@ -14,15 +14,7 @@
 <div class="grid-item" {{ block.shopify_attributes }}>
   <a href="{{ product_link }}" class="collection-item">
 
-    {%- liquid
-      if settings.collection_grid_image == 'collection' and collection.image
-        assign collection_image = product.featured_image
-        assign using_collection_image = true
-      else
-        assign collection_image = product.featured_image
-        assign using_collection_image = false
-      endif
-    -%}
+    {%- assign product_image = product.featured_image -%}
 
     <div class="collection-image-wrap collection-image--{{ settings.collection_grid_shape }}">
       
@@ -32,15 +24,15 @@
             class="lazyload"
             src=""
             data-src="{{ img_url }}"
-            data-aspectratio="{{ collection_image.aspect_ratio }}"
+            data-aspectratio="{{ product_image.aspect_ratio }}"
             data-widths="[720, 900, 1080]"
             data-sizes="auto"
-            alt="{{ collection_image.alt | escape }}">
+            alt="{{ product_image.alt | escape }}">
 
           <noscript>
             <img class="lazyloaded"
-              src="{{ collection_image | img_url: '400x' }}"
-              alt="{{ collection_image.alt | escape }}">
+              src="{{ product_image | img_url: '400x' }}"
+              alt="{{ product_image.alt | escape }}">
           </noscript>
         </div>
 
