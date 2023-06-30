@@ -43,24 +43,104 @@
     "5e1a0983-8595-49d8-8b40-c9e179334460": {
       "type": "vz-featured-products",
       "blocks": {
-        "89dd63e3-91b6-4143-afbe-c2a413fb2042": {
+        "dc65b194-9a37-41e8-9a6b-ff0893a28c38": {
+          "type": "product",
+          "settings": {
+            "product": "rund",
+            "title": ""
+          }
+        },
+        "70231f02-f5a1-4f7c-b842-1212bca76056": {
+          "type": "product",
+          "settings": {
+            "product": "rundrohr",
+            "title": ""
+          }
+        },
+        "7aa1ef67-7c41-40f9-9ebf-2d94974654f8": {
+          "type": "product",
+          "settings": {
+            "product": "flach",
+            "title": ""
+          }
+        },
+        "90ce5161-4053-4ad7-a9bb-071a59c8854e": {
+          "type": "product",
+          "settings": {
+            "product": "pv-montage-profile",
+            "title": ""
+          }
+        },
+        "5aff7c2d-1884-4ded-b380-c03ac4792b84": {
+          "type": "product",
+          "settings": {
+            "product": "sechskant-testprodukt",
+            "title": "Sechskant"
+          }
+        },
+        "889fddfb-b017-437b-adf9-62b287fcdc26": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "title": ""
+          }
+        },
+        "a543b05c-cc3d-4834-93a2-dfbb8d7bfa6c": {
           "type": "product",
           "settings": {
             "product": "aluminium-platten",
             "title": ""
           }
         },
-        "23835af5-7909-48f2-ad2a-610d7e1850e8": {
+        "3f53f4f5-1eb9-4e4a-9b9a-2488225006e9": {
           "type": "product",
           "settings": {
-            "product": "flach-rp",
+            "product": "u-profile",
+            "title": ""
+          }
+        },
+        "1519a42e-6dae-4af1-b11d-e6e2a554939a": {
+          "type": "product",
+          "settings": {
+            "product": "vierkantprofile",
+            "title": ""
+          }
+        },
+        "894c4af4-6114-4e96-aead-76d207d7d4cd": {
+          "type": "product",
+          "settings": {
+            "product": "vierkantrohe",
+            "title": ""
+          }
+        },
+        "106f6901-bcab-46cf-bf82-1ad7debdc3fa": {
+          "type": "product",
+          "settings": {
+            "product": "winkel",
+            "title": ""
+          }
+        },
+        "929b5161-228b-4c74-8e2d-2ac040f86d68": {
+          "type": "product",
+          "settings": {
+            "product": "z-profile",
             "title": ""
           }
         }
       },
       "block_order": [
-        "89dd63e3-91b6-4143-afbe-c2a413fb2042",
-        "23835af5-7909-48f2-ad2a-610d7e1850e8"
+        "dc65b194-9a37-41e8-9a6b-ff0893a28c38",
+        "70231f02-f5a1-4f7c-b842-1212bca76056",
+        "7aa1ef67-7c41-40f9-9ebf-2d94974654f8",
+        "90ce5161-4053-4ad7-a9bb-071a59c8854e",
+        "5aff7c2d-1884-4ded-b380-c03ac4792b84",
+        "889fddfb-b017-437b-adf9-62b287fcdc26",
+        "a543b05c-cc3d-4834-93a2-dfbb8d7bfa6c",
+        "3f53f4f5-1eb9-4e4a-9b9a-2488225006e9",
+        "1519a42e-6dae-4af1-b11d-e6e2a554939a",
+        "894c4af4-6114-4e96-aead-76d207d7d4cd",
+        "106f6901-bcab-46cf-bf82-1ad7debdc3fa",
+        "929b5161-228b-4c74-8e2d-2ac040f86d68"
       ],
       "settings": {
         "title": "Aluminium Profile & Platten",
@@ -69,6 +149,7 @@
     },
     "c708ac76-1f3e-42a5-beca-0213c4adf84a": {
       "type": "featured-collections",
+      "disabled": true,
       "blocks": {
         "template--18204113338672__c708ac76-1f3e-42a5-beca-0213c4adf84a-167775803850ecaa14-0": {
           "type": "collection",
