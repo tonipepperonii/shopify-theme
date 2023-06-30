@@ -14,7 +14,7 @@
 <div class="grid-item" {{ block.shopify_attributes }}>
   <a href="{{ product_link }}" class="collection-item">
 
-    {%- assign product_image = product.featured_image -%}
+    {%- assign product_image = product.metafields.custom.men_icon -%}
 
     <div class="collection-image-wrap collection-image--{{ settings.collection_grid_shape }}">
       
