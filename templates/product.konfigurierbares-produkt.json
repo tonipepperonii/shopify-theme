@@ -105,7 +105,7 @@
           "settings": {
           }
         },
-        "70299334-0d50-4f98-af87-8dce95a7d423": {
+        "9ba5d853-d88c-4e72-8352-a05c7b222d4c": {
           "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe-list\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
           "settings": {
           }
@@ -121,7 +121,7 @@
         "inventory_status",
         "buy_buttons",
         "e562f406-0f85-46c3-8b16-7f6a61c5600e",
-        "70299334-0d50-4f98-af87-8dce95a7d423"
+        "9ba5d853-d88c-4e72-8352-a05c7b222d4c"
       ],
       "settings": {
         "sku_enable": false,
