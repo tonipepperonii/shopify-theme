@@ -60,7 +60,7 @@
         "7aa1ef67-7c41-40f9-9ebf-2d94974654f8": {
           "type": "product",
           "settings": {
-            "product": "flach",
+            "product": "aluminium-profile-flach-1",
             "title": ""
           }
         },
@@ -74,49 +74,49 @@
         "5aff7c2d-1884-4ded-b380-c03ac4792b84": {
           "type": "product",
           "settings": {
-            "product": "sechskant-testprodukt",
+            "product": "aluminium-profile-6-kant",
             "title": "Sechskant"
           }
         },
         "889fddfb-b017-437b-adf9-62b287fcdc26": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "aluminium-profile-u-profile",
             "title": ""
           }
         },
         "a543b05c-cc3d-4834-93a2-dfbb8d7bfa6c": {
           "type": "product",
           "settings": {
-            "product": "aluminium-platten",
+            "product": "aluminium-platten-1",
             "title": ""
           }
         },
         "3f53f4f5-1eb9-4e4a-9b9a-2488225006e9": {
           "type": "product",
           "settings": {
-            "product": "u-profile",
+            "product": "aluminium-profile-4-kant",
             "title": ""
           }
         },
         "1519a42e-6dae-4af1-b11d-e6e2a554939a": {
           "type": "product",
           "settings": {
-            "product": "vierkantprofile",
+            "product": "aluminium-profile-4-kantrohr",
             "title": ""
           }
         },
         "894c4af4-6114-4e96-aead-76d207d7d4cd": {
           "type": "product",
           "settings": {
-            "product": "vierkantrohe",
+            "product": "aluminium-profile-winkel",
             "title": ""
           }
         },
         "106f6901-bcab-46cf-bf82-1ad7debdc3fa": {
           "type": "product",
           "settings": {
-            "product": "winkel",
+            "product": "aluminium-profile-z-profile",
             "title": ""
           }
         },
