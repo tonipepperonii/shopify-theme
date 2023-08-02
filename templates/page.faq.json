@@ -13,7 +13,7 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<h1>FAQ<\/h1>",
+            "title": "<h1>Fragen und Antworten<\/h1>",
             "title_size": 70,
             "subheading": "",
             "link": "",
@@ -54,13 +54,13 @@
           "type": "question",
           "settings": {
             "title": "Sind die Profile eloxiert?",
-            "text": "<p>Nein – die Oberfläche ist unbehandelt, es sei denn bei Legierung steht \"eloxiert\". Sollten Sie eloxiertes Material benötigen, senden Sie uns bitte Ihre konkrete Anfrage mit der gewünschten Abmessung, der Stückzahl und den gewünschten Längen. Kleinmengen können wir kostengünstig für einen Aufpreis ab 40,- EUR netto zzgl. MwSt. silber eloxiert anbieten.<\/p>"
+            "text": "<p>Nein – die Oberfläche ist unbehandelt, es sei denn bei Legierung steht \"eloxiert\". Sollten Sie eloxiertes Material benötigen, senden Sie uns bitte Ihre konkrete Anfrage mit der gewünschten Abmessung, der Stückzahl und den gewünschten Längen. Kleinmengen können wir kostengünstig für einen Aufpreis ab 45,- EUR netto zzgl. MwSt. silber eloxiert anbieten.<\/p>"
           }
         },
         "01866210-a736-42c9-a387-fe583151e8b0": {
           "type": "question",
           "settings": {
-            "title": "Was kostet das eloxieren?",
+            "title": "Was kostet das Eloxieren?",
             "text": "<p>Kleinmengen, können für pauschal 40,- EUR netto zzgl. MwSt. silber eloxiert werden.<\/p>"
           }
         },
@@ -175,7 +175,7 @@
         "953380eb-d508-4b34-896d-46e792fa2945"
       ],
       "settings": {
-        "title": "Häufig gestellte Fragen",
+        "title": "",
         "description": "Sie haben Fragen? Wir haben Antworten: Deshalb finden Sie hier eine Übersicht der am häufigsten gestellten Fragen. Sollte Ihre nicht dabei sein, zögern Sie nicht, uns zu kontaktieren."
       }
     }
