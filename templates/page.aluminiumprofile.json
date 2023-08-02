@@ -46,29 +46,85 @@
         "0584671b-efce-47e8-b147-bc0daf4fe780": {
           "type": "product",
           "settings": {
-            "product": "rund",
-            "title": ""
+            "product": "aluminium-profile-flach-1",
+            "title": "Flach"
           }
         },
         "79871be1-6e72-4808-9508-5d711a99df29": {
           "type": "product",
           "settings": {
-            "product": "vierkantprofile",
-            "title": ""
+            "product": "aluminium-platten-1",
+            "title": "Platten"
           }
         },
         "cf276639-69fd-40ae-9720-a7384486aa2f": {
           "type": "product",
           "settings": {
-            "product": "sechskant-testprodukt",
-            "title": ""
+            "product": "leichtbauprofile",
+            "title": "PV Montage-Profile"
           }
         },
         "6342bf14-3c2b-4136-8381-1ab928bf8d8a": {
           "type": "product",
           "settings": {
-            "product": "flach",
-            "title": ""
+            "product": "aluminium-profile-rund",
+            "title": "Rund"
+          }
+        },
+        "44656916-6ff7-4e93-9741-33f98116efec": {
+          "type": "product",
+          "settings": {
+            "product": "aluminium-profile-rundrohr",
+            "title": "Rundrohr"
+          }
+        },
+        "221d34bf-5c72-497d-b799-5d970083bb1c": {
+          "type": "product",
+          "settings": {
+            "product": "aluminium-profile-6-kant",
+            "title": "Sechskant"
+          }
+        },
+        "9ed845c4-e20c-434d-a727-95c9f8bfb218": {
+          "type": "product",
+          "settings": {
+            "product": "aluminium-profile-t-profile",
+            "title": "T-Profile"
+          }
+        },
+        "5e39648e-5d5f-483e-a48e-a4f9c3c8a274": {
+          "type": "product",
+          "settings": {
+            "product": "aluminium-profile-u-profile",
+            "title": "U-Profile"
+          }
+        },
+        "eb3e0b09-19c4-4ed4-844a-30f01ead1b68": {
+          "type": "product",
+          "settings": {
+            "product": "aluminium-profile-4-kant",
+            "title": "Vierkantprofile"
+          }
+        },
+        "79db83d5-8691-4403-83b8-95b32b50544c": {
+          "type": "product",
+          "settings": {
+            "product": "aluminium-profile-4-kantrohr",
+            "title": "Vierkantrohr"
+          }
+        },
+        "1db6c38a-a68b-4451-a732-3b08f2f11f6c": {
+          "type": "product",
+          "settings": {
+            "product": "aluminium-profile-winkel",
+            "title": "Winkel"
+          }
+        },
+        "87811292-ee77-422c-9d35-5b06f52089cb": {
+          "type": "product",
+          "settings": {
+            "product": "aluminium-profile-z-profile",
+            "title": "Z-Profile"
           }
         }
       },
@@ -76,7 +132,15 @@
         "0584671b-efce-47e8-b147-bc0daf4fe780",
         "79871be1-6e72-4808-9508-5d711a99df29",
         "cf276639-69fd-40ae-9720-a7384486aa2f",
-        "6342bf14-3c2b-4136-8381-1ab928bf8d8a"
+        "6342bf14-3c2b-4136-8381-1ab928bf8d8a",
+        "44656916-6ff7-4e93-9741-33f98116efec",
+        "221d34bf-5c72-497d-b799-5d970083bb1c",
+        "9ed845c4-e20c-434d-a727-95c9f8bfb218",
+        "5e39648e-5d5f-483e-a48e-a4f9c3c8a274",
+        "eb3e0b09-19c4-4ed4-844a-30f01ead1b68",
+        "79db83d5-8691-4403-83b8-95b32b50544c",
+        "1db6c38a-a68b-4451-a732-3b08f2f11f6c",
+        "87811292-ee77-422c-9d35-5b06f52089cb"
       ],
       "settings": {
         "title": "Aluminium Profile & Platten",
