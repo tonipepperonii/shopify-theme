@@ -43,32 +43,39 @@
     "5e1a0983-8595-49d8-8b40-c9e179334460": {
       "type": "vz-featured-products",
       "blocks": {
+        "7aa1ef67-7c41-40f9-9ebf-2d94974654f8": {
+          "type": "product",
+          "settings": {
+            "product": "aluminium-profile-flach-1",
+            "title": "Flach"
+          }
+        },
+        "a543b05c-cc3d-4834-93a2-dfbb8d7bfa6c": {
+          "type": "product",
+          "settings": {
+            "product": "aluminium-platten-1",
+            "title": "Platten"
+          }
+        },
+        "90ce5161-4053-4ad7-a9bb-071a59c8854e": {
+          "type": "product",
+          "settings": {
+            "product": "leichtbauprofile",
+            "title": "Pv Montage-Profile"
+          }
+        },
         "dc65b194-9a37-41e8-9a6b-ff0893a28c38": {
           "type": "product",
           "settings": {
             "product": "aluminium-profile-rund",
-            "title": ""
+            "title": "Rund"
           }
         },
         "70231f02-f5a1-4f7c-b842-1212bca76056": {
           "type": "product",
           "settings": {
             "product": "aluminium-profile-rundrohr",
-            "title": ""
-          }
-        },
-        "7aa1ef67-7c41-40f9-9ebf-2d94974654f8": {
-          "type": "product",
-          "settings": {
-            "product": "aluminium-profile-flach-1",
-            "title": ""
-          }
-        },
-        "90ce5161-4053-4ad7-a9bb-071a59c8854e": {
-          "type": "product",
-          "settings": {
-            "product": "pv-montage-profile",
-            "title": ""
+            "title": "Rundrohr"
           }
         },
         "5aff7c2d-1884-4ded-b380-c03ac4792b84": {
@@ -78,69 +85,62 @@
             "title": "Sechskant"
           }
         },
+        "929b5161-228b-4c74-8e2d-2ac040f86d68": {
+          "type": "product",
+          "settings": {
+            "product": "aluminium-profile-t-profile",
+            "title": "T-Profile"
+          }
+        },
         "889fddfb-b017-437b-adf9-62b287fcdc26": {
           "type": "product",
           "settings": {
             "product": "aluminium-profile-u-profile",
-            "title": ""
-          }
-        },
-        "a543b05c-cc3d-4834-93a2-dfbb8d7bfa6c": {
-          "type": "product",
-          "settings": {
-            "product": "aluminium-platten-1",
-            "title": ""
+            "title": "U-Profile"
           }
         },
         "3f53f4f5-1eb9-4e4a-9b9a-2488225006e9": {
           "type": "product",
           "settings": {
             "product": "aluminium-profile-4-kant",
-            "title": ""
+            "title": "Vierkantprofile"
           }
         },
         "1519a42e-6dae-4af1-b11d-e6e2a554939a": {
           "type": "product",
           "settings": {
             "product": "aluminium-profile-4-kantrohr",
-            "title": ""
+            "title": "Vierkantrohr"
           }
         },
         "894c4af4-6114-4e96-aead-76d207d7d4cd": {
           "type": "product",
           "settings": {
             "product": "aluminium-profile-winkel",
-            "title": ""
+            "title": "Winkel"
           }
         },
         "106f6901-bcab-46cf-bf82-1ad7debdc3fa": {
           "type": "product",
           "settings": {
             "product": "aluminium-profile-z-profile",
-            "title": ""
-          }
-        },
-        "929b5161-228b-4c74-8e2d-2ac040f86d68": {
-          "type": "product",
-          "settings": {
-            "product": "z-profile",
-            "title": ""
+            "title": "Z-Profile"
           }
         }
       },
       "block_order": [
+        "7aa1ef67-7c41-40f9-9ebf-2d94974654f8",
+        "a543b05c-cc3d-4834-93a2-dfbb8d7bfa6c",
+        "90ce5161-4053-4ad7-a9bb-071a59c8854e",
         "dc65b194-9a37-41e8-9a6b-ff0893a28c38",
         "70231f02-f5a1-4f7c-b842-1212bca76056",
-        "7aa1ef67-7c41-40f9-9ebf-2d94974654f8",
-        "90ce5161-4053-4ad7-a9bb-071a59c8854e",
         "5aff7c2d-1884-4ded-b380-c03ac4792b84",
+        "929b5161-228b-4c74-8e2d-2ac040f86d68",
         "889fddfb-b017-437b-adf9-62b287fcdc26",
-        "a543b05c-cc3d-4834-93a2-dfbb8d7bfa6c",
         "3f53f4f5-1eb9-4e4a-9b9a-2488225006e9",
         "1519a42e-6dae-4af1-b11d-e6e2a554939a",
         "894c4af4-6114-4e96-aead-76d207d7d4cd",
-        "106f6901-bcab-46cf-bf82-1ad7debdc3fa",
-        "929b5161-228b-4c74-8e2d-2ac040f86d68"
+        "106f6901-bcab-46cf-bf82-1ad7debdc3fa"
       ],
       "settings": {
         "title": "Aluminium Profile & Platten",
