@@ -455,6 +455,7 @@
     },
     "fccfe36a-d69f-423c-bc05-c083fea20d5b": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/aboutthree.png",
         "image_width": 490,
@@ -472,6 +473,7 @@
     },
     "f1371e07-2d9f-4f0c-a194-9ec735209334": {
       "type": "vz-tabs-team",
+      "disabled": true,
       "blocks": {
         "template--18300171878704__f1371e07-2d9f-4f0c-a194-9ec735209334-16796583089177dacd-0": {
           "type": "team_block",
