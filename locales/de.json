@@ -397,5 +397,10 @@
   },
   "date_formats": {
     "month_day_year": "%B %d, %Y"
+  },
+  "shopify": {
+    "links": {
+      "powered_by_shopify": " "
+    }
   }
 }
