@@ -40,6 +40,8 @@
                   render 'footer-contact', block: block
                 when 'vorteile'
                   render 'footer-vorteile'
+                when 'versand'
+                  render 'footer-versand'
               endcase
             -%}
           </div>
@@ -212,6 +214,10 @@
           "default": true
         }
       ]
+    },
+    {
+      "type": "versand",
+      "name": "Footer Versand"
     },
     {
       "type": "vorteile",
