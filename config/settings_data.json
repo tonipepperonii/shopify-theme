@@ -222,6 +222,7 @@
           },
           "1314e146-3db8-4132-b5d0-dc78013c06a5": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "",
               "menu": "vorteile",
@@ -230,6 +231,7 @@
           },
           "445e1b0c-0f20-4cc2-8c69-ce7f813910ee": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "",
               "menu": "versand",
@@ -244,6 +246,11 @@
               "show_currency_selector": false,
               "show_currency_flags": false
             }
+          },
+          "e3b1a6e3-3830-49d9-b1fb-4fdc7045879d": {
+            "type": "vorteile",
+            "settings": {
+            }
           }
         },
         "block_order": [
@@ -251,7 +258,8 @@
           "064d22f9-1450-45de-928b-eec0738458d6",
           "1314e146-3db8-4132-b5d0-dc78013c06a5",
           "445e1b0c-0f20-4cc2-8c69-ce7f813910ee",
-          "00967a57-36d6-4d2c-b575-c71e803d1112"
+          "00967a57-36d6-4d2c-b575-c71e803d1112",
+          "e3b1a6e3-3830-49d9-b1fb-4fdc7045879d"
         ],
         "custom_css": [
           ".footer__section {background-color: #f39200; color: white;}",
