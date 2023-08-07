@@ -1,10 +1,64 @@
 {
   "sections": {
+    "11d26c36-a631-42d5-892c-ed8bfd22fef4": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18300171813168__11d26c36-a631-42d5-892c-ed8bfd22fef4-hero-1": {
+          "type": "hero",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>Overlaid Hero Slide<\/p>",
+            "title_size": 70,
+            "subheading": "Perfect for rich lifestyle photography.",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#fff",
+            "text_align": "vertical-bottom horizontal-left",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "template--18300171813168__11d26c36-a631-42d5-892c-ed8bfd22fef4-hero-2": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>{{ product.title }}<\/p>",
+            "title_size": 50,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#fff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/alu-verkauf-banner.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18300171813168__11d26c36-a631-42d5-892c-ed8bfd22fef4-hero-1",
+        "template--18300171813168__11d26c36-a631-42d5-892c-ed8bfd22fef4-hero-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "variant_labels": true,
             "picker_type": "button",
@@ -13,11 +67,13 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
           }
         },
         "sales_point": {
           "type": "sales_point",
+          "disabled": true,
           "settings": {
             "icon": "globe",
             "text": "Free worldwide shipping"
@@ -25,6 +81,7 @@
         },
         "sales_point2": {
           "type": "sales_point",
+          "disabled": true,
           "settings": {
             "icon": "truck",
             "text": "Free returns"
@@ -32,6 +89,7 @@
         },
         "sales_point3": {
           "type": "sales_point",
+          "disabled": true,
           "settings": {
             "icon": "leaf",
             "text": "Carbon neutral"
@@ -39,6 +97,7 @@
         },
         "sales_point4": {
           "type": "sales_point",
+          "disabled": true,
           "settings": {
             "icon": "lock",
             "text": "Secure payments"
@@ -46,6 +105,7 @@
         },
         "inventory_status": {
           "type": "inventory_status",
+          "disabled": true,
           "settings": {
             "inventory_threshold": 10,
             "inventory_transfers_enable": true
@@ -145,6 +205,7 @@
     }
   },
   "order": [
+    "11d26c36-a631-42d5-892c-ed8bfd22fef4",
     "main",
     "sub",
     "recommendations",
