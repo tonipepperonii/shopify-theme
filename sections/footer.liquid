@@ -38,6 +38,8 @@
                   render 'footer-payments', block: block, show_currency_flags: show_currency_flags
                 when 'contact'
                   render 'footer-contact', block: block
+                when 'vorteile'
+                  render 'footer-vorteile'
               endcase
             -%}
           </div>
@@ -210,6 +212,10 @@
           "default": true
         }
       ]
+    },
+    {
+      "type": "vorteile",
+      "name": "Footer Vorteile"
     }
   ],
   "default": {
