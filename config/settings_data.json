@@ -233,13 +233,19 @@
             "type": "vorteile",
             "settings": {
             }
+          },
+          "39d87681-b826-4ca0-9a7c-7fd249d5283a": {
+            "type": "versand",
+            "settings": {
+            }
           }
         },
         "block_order": [
           "a545cf33-374e-4bc5-8621-99ec41b59c33",
           "064d22f9-1450-45de-928b-eec0738458d6",
           "00967a57-36d6-4d2c-b575-c71e803d1112",
-          "e3b1a6e3-3830-49d9-b1fb-4fdc7045879d"
+          "e3b1a6e3-3830-49d9-b1fb-4fdc7045879d",
+          "39d87681-b826-4ca0-9a7c-7fd249d5283a"
         ],
         "custom_css": [
           ".footer__section {background-color: #f39200; color: white;}",
