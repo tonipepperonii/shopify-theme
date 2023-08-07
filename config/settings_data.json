@@ -62,6 +62,7 @@
     "social_facebook_link": "https:\/\/www.facebook.com\/aluverkauf.de\/",
     "social_linkedin_link": "https:\/\/www.linkedin.com\/company\/alu-verkauf.de\/?viewAsMember=true",
     "favicon": "shopify:\/\/shop_images\/aluverkauf_favicon.png",
+    "predictive_search_enabled": false,
     "show_breadcrumbs": false,
     "show_breadcrumbs_collection_link": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/alu-verkaufde-logo-1585153075.png",
