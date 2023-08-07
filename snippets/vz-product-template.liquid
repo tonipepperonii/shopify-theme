@@ -101,19 +101,39 @@
       <div class="product-grid__container grid{% unless image_position == 'left' %} grid--product-images-right{% endunless %}{% if mobile_layout == 'partial' %} grid--product-images--partial{% endif %}">
         {%- if image_position == 'left' -%}
           <div class="grid__item {{ product_image_width }} product-single__sticky">
-            {%- render 'product-images',
-              section_id: section_id,
-              product: product,
-              isModal: isModal,
-              image_position: image_position,
-              image_size: image_size,
-              product_zoom_enable: product_zoom_enable,
-              product_zoom_size: product_zoom_size,
-              thumbnail_arrows: thumbnail_arrows,
-              thumbnail_position: thumbnail_position,
-              video_looping: video_looping,
-              video_style: video_style
-            -%}
+            {% comment %}magictoolbox code begins{% endcomment %}
+                          {% capture mzp %}{% render 'magiczoomplus' %}{% endcapture %}
+                          {% if mzp contains 'Liquid error' %}
+                              {% comment %}magictoolbox replace code begins{% endcomment %}
+                              {%- render 'product-images',
+                section_id: section_id,
+                product: product,
+                isModal: isModal,
+                image_position: image_position,
+                image_size: image_size,
+                product_zoom_size: product_zoom_size,
+                thumbnail_arrows: thumbnail_arrows,
+                thumbnail_position: thumbnail_position,
+                video_looping: video_looping,
+                video_style: video_style
+              -%}
+                              {% comment %}magictoolbox replace code ends{% endcomment %}
+                          {% else %}
+                              <div  style="display:none">{%- render 'product-images',
+                section_id: section_id,
+                product: product,
+                isModal: isModal,
+                image_position: image_position,
+                image_size: image_size,
+                product_zoom_size: product_zoom_size,
+                thumbnail_arrows: thumbnail_arrows,
+                thumbnail_position: thumbnail_position,
+                video_looping: video_looping,
+                video_style: video_style
+              -%}</div>
+                              {{ mzp }}
+                          {% endif %}
+                          {% comment %}magictoolbox code ends{% endcomment %}
           <div style="padding-top: 20px;">
             {{ hinweistext }}
           </div>
@@ -425,19 +445,39 @@
 
         {%- unless image_position == 'left' -%}
           <div class="grid__item {{ product_image_width }} product-single__sticky">
-            {%- render 'product-images',
-              section_id: section_id,
-              product: product,
-              isModal: isModal,
-              image_position: image_position,
-              image_size: image_size,
-              product_zoom_size: product_zoom_size,
-              thumbnail_arrows: thumbnail_arrows,
-              thumbnail_position: thumbnail_position,
-              video_looping: video_looping,
-              video_style: video_style
-            -%}
-          </div>
+            {% comment %}magictoolbox code begins{% endcomment %}
+                          {% capture mzp %}{% render 'magiczoomplus' %}{% endcapture %}
+                          {% if mzp contains 'Liquid error' %}
+                              {% comment %}magictoolbox replace code begins{% endcomment %}
+                              {%- render 'product-images',
+                section_id: section_id,
+                product: product,
+                isModal: isModal,
+                image_position: image_position,
+                image_size: image_size,
+                product_zoom_size: product_zoom_size,
+                thumbnail_arrows: thumbnail_arrows,
+                thumbnail_position: thumbnail_position,
+                video_looping: video_looping,
+                video_style: video_style
+              -%}
+                              {% comment %}magictoolbox replace code ends{% endcomment %}
+                          {% else %}
+                              <div  style="display:none">{%- render 'product-images',
+                section_id: section_id,
+                product: product,
+                isModal: isModal,
+                image_position: image_position,
+                image_size: image_size,
+                product_zoom_size: product_zoom_size,
+                thumbnail_arrows: thumbnail_arrows,
+                thumbnail_position: thumbnail_position,
+                video_looping: video_looping,
+                video_style: video_style
+              -%}</div>
+                              {{ mzp }}
+                          {% endif %}
+                          {% comment %}magictoolbox code ends{% endcomment %}
         {%- endunless -%}
       </div>
     </div>
