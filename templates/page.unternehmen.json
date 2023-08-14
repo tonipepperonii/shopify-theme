@@ -110,7 +110,7 @@
         "template--18300171878704__d4771e19-d282-4f71-bda9-b462fa39ebad-1679484631341545a9-2": {
           "type": "text_block",
           "settings": {
-            "title": "Unsere Wert",
+            "title": "Unsere Werte",
             "text": "<h3>Wir gewinnen miteinander – das ist unser Unternehmensmotto und gleichzeitig die Basis für unseren nachhaltigen Unternehmenserfolg.<\/h3><p>Dabei steht das “wir” nicht nur für unser Team vor Ort, sondern für die gesamte Wertschöpfungskette: von Lieferanten über unsere Dienstleister bis hin zum Kunden. Gemeinsam bringen wir Projekte und Ideen zum Erfolg. Im Vordergrund steht dabei stets die transparente und ehrliche Kommunikation – sowohl im internen Team als auch gegenüber unseren Kunden. Schließlich sind Sie es, die unser Motor für die kontinuierliche Weiterentwicklung und Verbesserung unserer Produkte und Performance sind.<\/p>"
           }
         }
@@ -216,7 +216,6 @@
     },
     "0d3d3a96-7c68-4a61-b566-0d66639e6e99": {
       "type": "slideshow-image",
-      "disabled": true,
       "blocks": {
         "template--18204567109936__0d3d3a96-7c68-4a61-b566-0d66639e6e99-1677836090f4dd0209-0": {
           "type": "image",
@@ -229,6 +228,7 @@
       "block_order": [
         "template--18204567109936__0d3d3a96-7c68-4a61-b566-0d66639e6e99-1677836090f4dd0209-0"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -241,7 +241,6 @@
     },
     "e5f7aa7f-da43-4116-91b4-39831d3c7c81": {
       "type": "text-columns",
-      "disabled": true,
       "blocks": {
         "template--18300171878704__e5f7aa7f-da43-4116-91b4-39831d3c7c81-167966267590d9a939-0": {
           "type": "text_block",
@@ -298,6 +297,7 @@
         "template--18300171878704__e5f7aa7f-da43-4116-91b4-39831d3c7c81-167966267590d9a939-2",
         "fca0828f-fab1-4d9d-9694-4299e5473c2e"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "align_text": "left",
@@ -356,7 +356,6 @@
     },
     "ebdb93bb-6fe5-4b7a-97ea-54bbfb750ff7": {
       "type": "text-columns",
-      "disabled": true,
       "blocks": {
         "template--18204567109936__ebdb93bb-6fe5-4b7a-97ea-54bbfb750ff7-1677833703217347a4-0": {
           "type": "text_block",
@@ -446,6 +445,7 @@
         "ffe3a1a7-7379-41c2-bbfd-6ea702799e37",
         "2512f2db-85d4-49c9-9e29-f662f0e42227"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "align_text": "left",
@@ -473,7 +473,6 @@
     },
     "f1371e07-2d9f-4f0c-a194-9ec735209334": {
       "type": "vz-tabs-team",
-      "disabled": true,
       "blocks": {
         "template--18300171878704__f1371e07-2d9f-4f0c-a194-9ec735209334-16796583089177dacd-0": {
           "type": "team_block",
@@ -498,6 +497,7 @@
         "template--18300171878704__f1371e07-2d9f-4f0c-a194-9ec735209334-16796583089177dacd-0",
         "template--18300171878704__f1371e07-2d9f-4f0c-a194-9ec735209334-16796583089177dacd-1"
       ],
+      "disabled": true,
       "settings": {
       }
     },
