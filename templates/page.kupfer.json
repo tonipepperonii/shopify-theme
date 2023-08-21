@@ -22,6 +22,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/cat-banner.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -32,11 +33,49 @@
       ],
       "settings": {
         "full_width": true,
-        "desktop_size": -40,
-        "mobile_size": 0,
+        "desktop_size": 0,
+        "mobile_size": 20,
         "style": "arrows",
         "autoplay": true,
         "autoplay_speed": 7
+      }
+    },
+    "0a8c9c81-e01d-4a59-a54d-9a2948d69eaa": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18300172108080__0a8c9c81-e01d-4a59-a54d-9a2948d69eaa-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "show_line": false
+          }
+        },
+        "template--18300172108080__0a8c9c81-e01d-4a59-a54d-9a2948d69eaa-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Gerne bieten wir Ihnen Kupfer-Zuschnitte auf Anfrage an.<\/p>"
+          }
+        },
+        "67d02067-0ea9-4167-9e59-bc1d8761b5f0": {
+          "type": "button",
+          "settings": {
+            "link": "shopify:\/\/pages\/kontakt",
+            "link_text": "Kontakt aufnehmen"
+          }
+        }
+      },
+      "block_order": [
+        "template--18300172108080__0a8c9c81-e01d-4a59-a54d-9a2948d69eaa-heading-1",
+        "template--18300172108080__0a8c9c81-e01d-4a59-a54d-9a2948d69eaa-text-1",
+        "67d02067-0ea9-4167-9e59-bc1d8761b5f0"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "1",
+        "divider": false
       }
     },
     "6a955d8e-ea54-40aa-8cec-389be3f10064": {
@@ -56,7 +95,8 @@
         "side-title": "Wir sind für Sie da:",
         "image": "shopify:\/\/shop_images\/avatar.png",
         "side-richtext": "<h4>Eduard Bratkowski<\/h4><p><strong>Kundenberater<\/strong><\/p><p><a href=\"tel:051216763642\"> 05121 6763642<\/a><a href=\"mailto:verkauf@alu-verkauf.de\"> <\/a><\/p><p><a href=\"mailto:verkauf@alu-verkauf.de\">verkauf@alu-verkauf.de<\/a><\/p>",
-        "versand-richtext": "<h4>Schneller versand<\/h4><ul><li> Keine Mindestmengen<\/li><li> Individueller Zuschnitt<\/li><li> Schneller Versand<\/li><li> Großes Alu-Sortiment<\/li><li> Sondergrößen auf Anfrage<\/li><li> Abholung Vor-Ort<\/li><\/ul>",
+        "phone": "",
+        "mail": "",
         "checkbox": true
       }
     },
@@ -147,6 +187,7 @@
   "order": [
     "main",
     "d38437cf-d8e2-4fbd-8519-bdc9ed069000",
+    "0a8c9c81-e01d-4a59-a54d-9a2948d69eaa",
     "6a955d8e-ea54-40aa-8cec-389be3f10064",
     "8db9983e-4067-445d-8f07-89a135799afd"
   ]
