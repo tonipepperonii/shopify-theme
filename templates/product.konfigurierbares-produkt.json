@@ -37,7 +37,7 @@
     "main": {
       "type": "vz-main-product",
       "blocks": {
-        "49dfe39e-78a4-441d-b8d9-55efac65ef38": {
+        "4dee32ac-6eeb-4b68-ac6b-8e770416d148": {
           "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
           "settings": {
           }
@@ -49,7 +49,7 @@
         }
       },
       "block_order": [
-        "49dfe39e-78a4-441d-b8d9-55efac65ef38",
+        "4dee32ac-6eeb-4b68-ac6b-8e770416d148",
         "3dd15e01-98c2-41e8-89c4-43c738426b5d"
       ],
       "settings": {
