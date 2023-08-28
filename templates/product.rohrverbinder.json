@@ -82,7 +82,7 @@
       "settings": {
         "side-title": "Wir sind für Sie da:",
         "image": "shopify:\/\/shop_images\/avatar.png",
-        "side-richtext": "<p>Eduard Bratkowski<br\/><em>Kundenberater<\/em><\/p>",
+        "side-richtext": "<p>Nils Vespermann<br\/><em>Kundenberater<\/em><\/p>",
         "phone": "05121 \/ 28 290-0",
         "mail": "verkauf@alu-verkauf.de",
         "checkbox": true
@@ -90,7 +90,6 @@
     },
     "sub": {
       "type": "product-full-width",
-      "disabled": true,
       "blocks": {
         "description": {
           "type": "description",
@@ -119,6 +118,7 @@
         "tab",
         "contact"
       ],
+      "disabled": true,
       "settings": {
         "max_width": true
       }
