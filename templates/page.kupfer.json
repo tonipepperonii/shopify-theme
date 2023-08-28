@@ -94,9 +94,9 @@
       "settings": {
         "side-title": "Wir sind für Sie da:",
         "image": "shopify:\/\/shop_images\/avatar.png",
-        "side-richtext": "<h4>Eduard Bratkowski<\/h4><p><strong>Kundenberater<\/strong><\/p><p><a href=\"tel:051216763642\"> 05121 6763642<\/a><a href=\"mailto:verkauf@alu-verkauf.de\"> <\/a><\/p><p><a href=\"mailto:verkauf@alu-verkauf.de\">verkauf@alu-verkauf.de<\/a><\/p>",
-        "phone": "",
-        "mail": "",
+        "side-richtext": "<p>Nils Vespermann<br\/><em>Kundenberater<\/em><\/p>",
+        "phone": "05121 \/ 28 290-0",
+        "mail": "verkauf@alu-verkauf.de",
         "checkbox": true
       }
     },
