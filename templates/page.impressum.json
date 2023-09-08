@@ -45,7 +45,7 @@
         "template--18300171190576__3e8068a3-4d95-41c0-8070-d3cb5df41fc9-hero-2"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "desktop_size": 0,
         "mobile_size": 0,
         "style": "arrows",
@@ -57,10 +57,94 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "0d320bad-cbf4-4489-9530-9540a7c0440a": {
+      "type": "testimonials",
+      "blocks": {
+        "template--18300171190576__0d320bad-cbf4-4489-9530-9540a7c0440a-testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Von der Bestellung und der Lieferung vergingen nur 2 Tage. Die Ware war perfekt verpackt und kam ohne jegliche Beschädigungen an. Die Auswahl der verschiedenen Profilen ist reichhaltig und für jeden was dabei. Ich würde jederzeit wieder bestellen. Das Preis Leistungsverhältnis stimmt auch.<\/p>",
+            "author": "Philipp Dischinger",
+            "author_info": ""
+          }
+        },
+        "template--18300171190576__0d320bad-cbf4-4489-9530-9540a7c0440a-testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Bin sehr froh, solch eine hervorragende tolle Firma direkt am Wohnort zu haben, aber auch Versand wäre möglich. Große Auswahl und Möglichkeit selbst kleinste Mengen und Profilabschnitte zu bekommen ohne gleich ganze Meterenden kaufen und mühsam selbst sägen zu müssen. Ideal gerade für Hobbybastler und Konstrukteure! Sehr schneller und sehr freundlicher Service. Nur zu empfehlen!!<\/p>",
+            "author": "Joachim Diehl",
+            "author_info": ""
+          }
+        },
+        "template--18300171190576__0d320bad-cbf4-4489-9530-9540a7c0440a-testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Perfekter Service! Auf meine Bitte, die Artikel noch am selben Tag in den Versand zu geben, erhielt ich prompt die Bestätigung und den Versenderlink. So muss das sein, absolut empfehlenswert. Ware und Material sind ebenfalls qualitativ hochwertig!<\/p>",
+            "author": "Stephan Freeheeler",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "template--18300171190576__0d320bad-cbf4-4489-9530-9540a7c0440a-testimonial-4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Ich schätze den schnellen Versand und den für mich vorbildlichen Kundenservice. Leider ging bei meiner letzten Lieferung bei der Zustellung was schief. Auf meine diesbezügliche Mail erfolgte sofort ein Rückruf und das Problem konnte zu meiner vollsten Zufriedenheit gelöst werden. Und hier trennt sich die Spreu vom Weizen. alu-verkauf.de ist und bleibt daher mein Favorit.<\/p>",
+            "author": "Michael 500EXTC",
+            "author_info": ""
+          }
+        },
+        "template--18300171190576__0d320bad-cbf4-4489-9530-9540a7c0440a-testimonial-5": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Sehr gut: Individuelle Bestellung möglich, wird auch schnell zugeschnitten. Wer am Ort wohnt kann meist bereits nach ein paar Stunden die Ware abholen. Und: Längen größer 2m sind kein Problem. Die Preise sind ok, das Sortiment könnte größer sein. Insbesondere eloxierte Profile und VA sind kaum erhältlich.<\/p>",
+            "author": "Hase Coolz",
+            "author_info": ""
+          }
+        },
+        "4b512ce6-5cc4-4145-94d6-65c19aec26bd": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Bin total begeistert! Habe am 12.08.21 vormittags bei Alu-verkauf.de angerufen und nach dem Liefertermin für 4 kleine Alustangen gefragt. Wegen hohen Auftragsbestand und der Urlaubszeit wurde mir eine knappe Woche angegeben. Ich wurde aber darum gebeten im Textfeld des Auftrages an zu geben das es dringend sei. Was soll ich sagen, die 4 kleinen Teile waren schon am 13.08.21 bei mir. Toller Kontakt, super schnelle Lieferung, immer gerne wieder!!!<\/p>",
+            "author": "Andreas Scheelen",
+            "author_info": ""
+          }
+        },
+        "bad04114-09ab-401c-aa46-686e8b0efc49": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Bestes Preis \/ Leistungsverhältnis bei schneller Lieferung, genau geschnitten. Sehr empfehlenswert.<\/p>",
+            "author": "Peter Klonk",
+            "author_info": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18300171190576__0d320bad-cbf4-4489-9530-9540a7c0440a-testimonial-1",
+        "template--18300171190576__0d320bad-cbf4-4489-9530-9540a7c0440a-testimonial-2",
+        "template--18300171190576__0d320bad-cbf4-4489-9530-9540a7c0440a-testimonial-3",
+        "template--18300171190576__0d320bad-cbf4-4489-9530-9540a7c0440a-testimonial-4",
+        "template--18300171190576__0d320bad-cbf4-4489-9530-9540a7c0440a-testimonial-5",
+        "4b512ce6-5cc4-4145-94d6-65c19aec26bd",
+        "bad04114-09ab-401c-aa46-686e8b0efc49"
+      ],
+      "settings": {
+        "title": "Kundenstimmen",
+        "align_text": "center",
+        "round_images": true,
+        "color_scheme": "none"
+      }
     }
   },
   "order": [
     "3e8068a3-4d95-41c0-8070-d3cb5df41fc9",
-    "main"
+    "main",
+    "0d320bad-cbf4-4489-9530-9540a7c0440a"
   ]
 }
