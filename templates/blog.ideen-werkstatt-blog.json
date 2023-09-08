@@ -5,6 +5,8 @@
       "settings": {
         "blog_show_rss": false,
         "blog_show_tags": true,
+        "blog_show_image": true,
+        "blog_image_size": "wide",
         "blog_show_excerpt": true,
         "blog_show_date": true
       }
@@ -21,6 +23,7 @@
       "block_order": [
         "tags"
       ],
+      "disabled": true,
       "settings": {
       }
     }
