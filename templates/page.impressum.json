@@ -1,5 +1,58 @@
 {
   "sections": {
+    "3e8068a3-4d95-41c0-8070-d3cb5df41fc9": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18300171190576__3e8068a3-4d95-41c0-8070-d3cb5df41fc9-hero-1": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>Impressum<\/p>",
+            "title_size": 40,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#fff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/news-heading.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "template--18300171190576__3e8068a3-4d95-41c0-8070-d3cb5df41fc9-hero-2": {
+          "type": "hero",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>Make an Impact<\/p>",
+            "title_size": 70,
+            "subheading": "Supports multiple text alignments and mobile-specific images.",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#fff",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18300171190576__3e8068a3-4d95-41c0-8070-d3cb5df41fc9-hero-1",
+        "template--18300171190576__3e8068a3-4d95-41c0-8070-d3cb5df41fc9-hero-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -7,6 +60,7 @@
     }
   },
   "order": [
+    "3e8068a3-4d95-41c0-8070-d3cb5df41fc9",
     "main"
   ]
 }
