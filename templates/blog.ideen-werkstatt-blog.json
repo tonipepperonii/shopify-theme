@@ -1,0 +1,33 @@
+{
+  "sections": {
+    "main": {
+      "type": "blog-template",
+      "settings": {
+        "blog_show_rss": false,
+        "blog_show_tags": true,
+        "blog_show_excerpt": true,
+        "blog_show_date": true
+      }
+    },
+    "sidebar": {
+      "type": "blog-sidebar",
+      "blocks": {
+        "tags": {
+          "type": "tags",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "tags"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sidebar"
+  ],
+  "wrapper": "div.page-width.page-content.blog-layout"
+}
