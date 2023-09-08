@@ -603,6 +603,26 @@
         "round_images": true,
         "color_scheme": "none"
       }
+    },
+    "cb7d42cd-665a-488f-98f2-2fe0a3dedf47": {
+      "type": "text-and-image",
+      "custom_css": [
+        "img {border-radius: 10px; box-shadow: rgb(149 157 165 \/ 20%) 0px 8px 24px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Anfahrtskizze_9127c03c-14c4-41e6-8463-1748bd8622db.jpg",
+        "image_width": 520,
+        "subtitle": "Anfahrt",
+        "title": "Hier finden Sie uns",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "1",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -619,6 +639,7 @@
     "ebdb93bb-6fe5-4b7a-97ea-54bbfb750ff7",
     "fccfe36a-d69f-423c-bc05-c083fea20d5b",
     "f1371e07-2d9f-4f0c-a194-9ec735209334",
-    "f2c4e170-0333-4fff-a0af-c4fa5648fa2e"
+    "f2c4e170-0333-4fff-a0af-c4fa5648fa2e",
+    "cb7d42cd-665a-488f-98f2-2fe0a3dedf47"
   ]
 }
