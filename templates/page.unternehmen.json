@@ -126,7 +126,7 @@
     "cb7d42cd-665a-488f-98f2-2fe0a3dedf47": {
       "type": "text-and-image",
       "custom_css": [
-        "img {border-radius: 10px; box-shadow: rgb(149 157 165 \/ 20%) 0px 8px 24px;}"
+        ".image-wrap {border-radius: 10px; box-shadow: rgb(149 157 165 \/ 20%) 0px 8px 24px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Anfahrtskizze_9127c03c-14c4-41e6-8463-1748bd8622db.jpg",
@@ -139,7 +139,7 @@
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
-        "color_scheme": "1",
+        "color_scheme": "2",
         "divider": false
       }
     },
@@ -149,7 +149,7 @@
         "template--18204567109936__d0c06e0b-b96b-4951-bfaf-6ccffc252756-16778363187bae2563-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h3 align=center>Bekannt aus:<\/h3>",
+            "code": "<h3 align=center style=\"padding-top: 40px;\">Bekannt aus:<\/h3>",
             "width": "100%",
             "alignment": "center"
           }
