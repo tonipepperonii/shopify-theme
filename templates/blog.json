@@ -14,7 +14,7 @@
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#fff",
+            "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/news-heading.png",
             "overlay_opacity": 0,
@@ -25,6 +25,7 @@
       "block_order": [
         "666e558a-8d43-4502-b6e2-09db0e991fb5"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "desktop_size": 0,
@@ -57,6 +58,7 @@
         "template--18300171321648__33aefcfc-225f-470b-a5c2-d1686b9e3556-heading-1",
         "template--18300171321648__33aefcfc-225f-470b-a5c2-d1686b9e3556-text-1"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": false,
@@ -167,6 +169,7 @@
         "928f1dd2-2b55-4a2f-882b-3a4bd2fecbbd",
         "74a470ca-e096-425c-a3f5-6d2abe7a520e"
       ],
+      "disabled": true,
       "settings": {
         "title": "Kundenstimmen",
         "align_text": "center",
