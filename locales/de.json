@@ -407,6 +407,11 @@
       "shipping": {
         "no_rates_for_cart_or_destination_notice": "Für die gewählte Lieferadresse ist keine automatische Versandberechnung für Bestellungen mit einem Gewicht über 50 kg oder einer Länge über 2000 mm möglich. Bitte nehmen Sie bitte Kontakt mit uns auf.",
         "no_rates_for_country_notice": "Für die gewählte Lieferadresse ist keine automatische Versandberechnung für Bestellungen mit einem Gewicht über 50 kg oder einer Länge über 2000 mm möglich. Bitte nehmen Sie bitte Kontakt mit uns auf."
+      },
+      "shipping_errors": {
+        "shipping_method_not_available_generic": {
+          "one": "Für die gewählte Lieferadresse ist keine automatische Versandberechnung für Bestellungen mit einem Gewicht über 50 kg oder einer Länge über 2000 mm möglich. Bitte nehmen Sie bitte Kontakt mit uns auf."
+        }
       }
     }
   }
