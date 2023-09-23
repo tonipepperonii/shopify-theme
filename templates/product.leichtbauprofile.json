@@ -38,19 +38,19 @@
       "type": "vz-main-product",
       "blocks": {
         "f646bcde-109b-4df0-b9a0-8b22ebdd8680": {
-          "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe-lightweight\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+          "type": "shopify:\/\/apps\/alu-verkauf-konfigurator\/blocks\/app-block-pipe-lightweight\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
           "settings": {
           }
         },
-        "99d3d967-bfe2-4ae2-adcd-103417474e6a": {
-          "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe-list\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+        "2cd60b3b-de6a-4a8b-b72f-4517afac577e": {
+          "type": "shopify:\/\/apps\/alu-verkauf-konfigurator\/blocks\/app-block-pipe-lightweight-list\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
           "settings": {
           }
         }
       },
       "block_order": [
         "f646bcde-109b-4df0-b9a0-8b22ebdd8680",
-        "99d3d967-bfe2-4ae2-adcd-103417474e6a"
+        "2cd60b3b-de6a-4a8b-b72f-4517afac577e"
       ],
       "settings": {
         "sku_enable": false,
