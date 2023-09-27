@@ -123,13 +123,24 @@
       },
       "newsletter-popup": {
         "type": "newsletter-popup",
+        "blocks": {
+          "a286abaf-1061-4456-97b8-3d6426543e1a": {
+            "type": "header",
+            "settings": {
+              "reminder_label": "Get 10% off CODE: RELAUNCH2023"
+            }
+          }
+        },
+        "block_order": [
+          "a286abaf-1061-4456-97b8-3d6426543e1a"
+        ],
         "settings": {
           "mode": false,
           "disable_for_account_holders": true,
           "popup_seconds": 60,
           "popup_days": 30,
           "popup_title": "Get 10% off your first purchase.",
-          "popup_text": "<p>Sign up today and we&#x27;ll send you a 10% discount code towards your first purchase. Some restrictions apply.<\/p>",
+          "popup_text": "<p>Sign up today and we'll send you a 10% discount code towards your first purchase. Some restrictions apply.<\/p>",
           "image_position": "left",
           "color_scheme": "2",
           "show_social_icons": false,
