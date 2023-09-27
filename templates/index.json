@@ -46,14 +46,14 @@
         "7aa1ef67-7c41-40f9-9ebf-2d94974654f8": {
           "type": "product",
           "settings": {
-            "product": "aluminium-profile-flach-1",
+            "product": "aluminium-profile-flach",
             "title": "Flach"
           }
         },
         "a543b05c-cc3d-4834-93a2-dfbb8d7bfa6c": {
           "type": "product",
           "settings": {
-            "product": "aluminium-platten-1",
+            "product": "aluminium-platten",
             "title": "Platten"
           }
         },
