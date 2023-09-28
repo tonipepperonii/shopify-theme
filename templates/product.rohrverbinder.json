@@ -16,7 +16,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/cat-banner.png",
+            "image": "shopify:\/\/shop_images\/f99pty7e.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -38,12 +38,12 @@
       "type": "vz-main-product",
       "blocks": {
         "494310b2-b5d8-4688-ba71-6136ee5a5f55": {
-          "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe-connector\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+          "type": "shopify:\/\/apps\/alu-verkauf-konfigurator\/blocks\/app-block-pipe-connector\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
           "settings": {
           }
         },
         "404608ad-ad3a-4b05-be52-ea3ccedb7df6": {
-          "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe-connector-list\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+          "type": "shopify:\/\/apps\/alu-verkauf-konfigurator\/blocks\/app-block-pipe-connector-list\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
           "settings": {
           }
         }

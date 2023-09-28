@@ -33,17 +33,36 @@
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#fff",
+            "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Flach_0b4f63b1-cdb3-4622-b41a-8132e9dee423.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
+        },
+        "7b271277-e2bc-4e22-bc6d-3ddddce9ea90": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>{{ product.title }}<\/p>",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#fff",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/0mv47m4j.png",
+            "overlay_opacity": 0,
+            "focal_point": "20% 50%"
+          }
         }
       },
       "block_order": [
         "template--18896842195248__5496d8f0-cbe1-4f56-b789-aad06ed907f2-16825095512038de14-1",
-        "3eebbb1a-4963-4de2-8d7a-73d64eb9ab27"
+        "3eebbb1a-4963-4de2-8d7a-73d64eb9ab27",
+        "7b271277-e2bc-4e22-bc6d-3ddddce9ea90"
       ],
       "settings": {
         "full_width": true,
