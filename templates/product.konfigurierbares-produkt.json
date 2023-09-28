@@ -16,7 +16,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/RR.jpg",
+            "image": "shopify:\/\/shop_images\/dgsrtlin.png",
             "image_mobile": "shopify:\/\/shop_images\/RR.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
@@ -70,7 +70,7 @@
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#fff",
-            "text_align": "vertical-bottom horizontal-left",
+            "text_align": "vertical-center horizontal-left",
             "image": "shopify:\/\/shop_images\/VR.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
@@ -93,7 +93,7 @@
         "mobile_size": 20,
         "style": "arrows",
         "autoplay": false,
-        "autoplay_speed": 7
+        "autoplay_speed": 5
       }
     },
     "main": {
