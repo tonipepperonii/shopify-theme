@@ -46,14 +46,14 @@
         "0584671b-efce-47e8-b147-bc0daf4fe780": {
           "type": "product",
           "settings": {
-            "product": "aluminium-profile-flach-1",
+            "product": "aluminium-profile-flach",
             "title": "Flach"
           }
         },
         "79871be1-6e72-4808-9508-5d711a99df29": {
           "type": "product",
           "settings": {
-            "product": "aluminium-platten-1",
+            "product": "aluminium-platten",
             "title": "Platten"
           }
         },
@@ -149,7 +149,6 @@
     },
     "b4603d4a-730e-4537-87dc-0f384c0cd5aa": {
       "type": "featured-collections",
-      "disabled": true,
       "blocks": {
         "template--18797277348144__b4603d4a-730e-4537-87dc-0f384c0cd5aa-1681809742a3484a5b-0": {
           "type": "collection",
@@ -250,6 +249,7 @@
         "fe2bcae8-cdc4-411b-8593-faa0f49ec916",
         "9ee304f0-e34c-4fe0-99e1-4216b86cc132"
       ],
+      "disabled": true,
       "settings": {
         "title": "Unsere Aluminium Profile",
         "divider": false
@@ -282,8 +282,8 @@
       ],
       "settings": {
         "side-title": "Wir sind für Sie da",
-        "image": "shopify:\/\/shop_images\/avatar.png",
-        "side-richtext": "<p>Eduard Bratowski<br\/><em>Kundenberater<\/em><\/p>",
+        "image": "shopify:\/\/shop_images\/nils_vespermann_aluverkauf_0fc28916-31e9-4217-8d4e-d8d149e38b85.png",
+        "side-richtext": "<p>Nils Vespermann<br\/><em>Kundenberater<\/em><\/p>",
         "phone": "05121 6763636 ",
         "mail": "verkauf@alu-verkauf.de",
         "checkbox": true
