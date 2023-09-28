@@ -16,7 +16,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/cat-banner.png",
+            "image": "shopify:\/\/shop_images\/239sntzn.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -38,12 +38,12 @@
       "type": "vz-main-product",
       "blocks": {
         "4dee32ac-6eeb-4b68-ac6b-8e770416d148": {
-          "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+          "type": "shopify:\/\/apps\/alu-verkauf-konfigurator\/blocks\/app-block-pipe\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
           "settings": {
           }
         },
         "3dd15e01-98c2-41e8-89c4-43c738426b5d": {
-          "type": "shopify:\/\/apps\/fetch-test-app\/blocks\/app-block-pipe-list\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+          "type": "shopify:\/\/apps\/alu-verkauf-konfigurator\/blocks\/app-block-pipe-list\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
           "settings": {
           }
         }
