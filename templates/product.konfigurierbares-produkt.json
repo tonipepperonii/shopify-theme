@@ -85,12 +85,12 @@
       ],
       "custom_css": [
         ".slideshow-wrapper {max-height: 400px;}",
-        "h2 {font-size:32px}"
+        "h2 {font-size: 32px;}"
       ],
       "settings": {
         "full_width": true,
         "desktop_size": 0,
-        "mobile_size": 20,
+        "mobile_size": 40,
         "style": "arrows",
         "autoplay": false,
         "autoplay_speed": 7
