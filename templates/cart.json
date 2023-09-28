@@ -14,7 +14,7 @@
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#fff",
+            "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/news-heading.png",
             "overlay_opacity": 0,
@@ -41,6 +41,7 @@
     },
     "recently-viewed": {
       "type": "recently-viewed",
+      "disabled": true,
       "settings": {
       }
     }
