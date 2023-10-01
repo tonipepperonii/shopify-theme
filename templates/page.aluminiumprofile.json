@@ -20,29 +20,10 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
-        },
-        "04b8b25c-699d-44ec-86cc-91dcddc6fcc2": {
-          "type": "hero",
-          "settings": {
-            "top_subheading": "",
-            "title": "<p>Overlaid Hero Slide<\/p>",
-            "title_size": 70,
-            "subheading": "And optional subtext",
-            "link": "",
-            "link_text": "Optional button",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#fff",
-            "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/Flach.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
         }
       },
       "block_order": [
-        "template--18797277348144__d859c991-befc-4ad0-b4bb-7cf091fbaed1-1681810889b52a25c4-0",
-        "04b8b25c-699d-44ec-86cc-91dcddc6fcc2"
+        "template--18797277348144__d859c991-befc-4ad0-b4bb-7cf091fbaed1-1681810889b52a25c4-0"
       ],
       "settings": {
         "full_width": true,
