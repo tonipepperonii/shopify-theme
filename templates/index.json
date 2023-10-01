@@ -25,16 +25,16 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<h2>Neue Plattform, neue Möglichkeiten! <\/h2>",
+            "title": "<h1>Neue Plattform, neue Möglichkeiten! <\/h1>",
             "title_size": 40,
-            "subheading": "Entdecken Sie unseren Online-Shop und profitieren Sie von 10% Rabatt auf Ihre erste Bestellung. Code: Relaunch2023",
+            "subheading": "Entdecken Sie unseren neuen Online-Shop und profitieren Sie von 10% Rabatt auf Ihre erste Bestellung. Code: Relaunch2023",
             "link": "https:\/\/alu-verkauf.shop\/account\/login?return_url=%2Faccount",
             "link_text": "Hier Konto reaktivieren",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#f39200",
-            "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/Flach_39f5dd82-04ca-43f5-bbd8-b0153c3fecec.jpg",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/BARTELS_Fotografie-9165.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
