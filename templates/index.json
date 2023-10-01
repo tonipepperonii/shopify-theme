@@ -3,6 +3,24 @@
     "80218ac8-e737-45d5-9c66-8ea17e8498e8": {
       "type": "slideshow",
       "blocks": {
+        "71488688-6e3c-473c-bc38-6f22697cf4c5": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<h1>Neue Plattform, neue Möglichkeiten! <\/h1>",
+            "title_size": 40,
+            "subheading": "Entdecken Sie unseren neuen Online-Shop und profitieren Sie von 10% Rabatt auf Ihre erste Bestellung. Code: Relaunch2023",
+            "link": "https:\/\/alu-verkauf.shop\/account\/login?return_url=%2Faccount#recover",
+            "link_text": "Hier Konto reaktivieren",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#f39200",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/BARTELS_Fotografie-9165.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
         "template--18204113338672__80218ac8-e737-45d5-9c66-8ea17e8498e8-1677757582fc6b7600-0": {
           "type": "hero",
           "settings": {
@@ -20,29 +38,11 @@
             "overlay_opacity": 50,
             "focal_point": "center center"
           }
-        },
-        "71488688-6e3c-473c-bc38-6f22697cf4c5": {
-          "type": "hero",
-          "settings": {
-            "top_subheading": "",
-            "title": "<h1>Neue Plattform, neue Möglichkeiten! <\/h1>",
-            "title_size": 40,
-            "subheading": "Entdecken Sie unseren neuen Online-Shop und profitieren Sie von 10% Rabatt auf Ihre erste Bestellung. Code: Relaunch2023",
-            "link": "https:\/\/alu-verkauf.shop\/account\/login?return_url=%2Faccount",
-            "link_text": "Hier Konto reaktivieren",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#f39200",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/BARTELS_Fotografie-9165.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
         }
       },
       "block_order": [
-        "template--18204113338672__80218ac8-e737-45d5-9c66-8ea17e8498e8-1677757582fc6b7600-0",
-        "71488688-6e3c-473c-bc38-6f22697cf4c5"
+        "71488688-6e3c-473c-bc38-6f22697cf4c5",
+        "template--18204113338672__80218ac8-e737-45d5-9c66-8ea17e8498e8-1677757582fc6b7600-0"
       ],
       "custom_css": [
         ".slideshow-wrapper {max-height: 400px;}",
