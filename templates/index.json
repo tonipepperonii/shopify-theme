@@ -20,10 +20,29 @@
             "overlay_opacity": 50,
             "focal_point": "center center"
           }
+        },
+        "71488688-6e3c-473c-bc38-6f22697cf4c5": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<h2>Neue Plattform, neue Möglichkeiten! <\/h2>",
+            "title_size": 40,
+            "subheading": "Entdecken Sie unseren Online-Shop und profitieren Sie von 10% Rabatt auf Ihre erste Bestellung. Code: Relaunch2023",
+            "link": "https:\/\/alu-verkauf.shop\/account\/login?return_url=%2Faccount",
+            "link_text": "Hier Konto reaktivieren",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#f39200",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/Flach_39f5dd82-04ca-43f5-bbd8-b0153c3fecec.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
-        "template--18204113338672__80218ac8-e737-45d5-9c66-8ea17e8498e8-1677757582fc6b7600-0"
+        "template--18204113338672__80218ac8-e737-45d5-9c66-8ea17e8498e8-1677757582fc6b7600-0",
+        "71488688-6e3c-473c-bc38-6f22697cf4c5"
       ],
       "custom_css": [
         ".slideshow-wrapper {max-height: 400px;}",
