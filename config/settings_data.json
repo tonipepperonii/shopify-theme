@@ -192,19 +192,11 @@
               "richtext": "<p>Achtung: Die Kundenkonten wurden zurückgesetzt. Bitte aktivieren Sie ihr Konto neu. Vielen Dank<\/p>",
               "richtext_mobile": ""
             }
-          },
-          "9f80c1f3-427c-4bec-83e0-b807afaf5e8b": {
-            "type": "announcement",
-            "settings": {
-              "richtext": "<p>Wir nutzen den Brückentag zur Erholung! Abholung vor Ort wieder ab dem 4.10.2023!<\/p>",
-              "richtext_mobile": ""
-            }
           }
         },
         "block_order": [
           "20680c1b-80cd-4fe8-acfc-facd352ad3f4",
-          "28605901-1959-4d31-bda7-7b10e1063fde",
-          "9f80c1f3-427c-4bec-83e0-b807afaf5e8b"
+          "28605901-1959-4d31-bda7-7b10e1063fde"
         ],
         "settings": {
           "announcement_center": false,
