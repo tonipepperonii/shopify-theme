@@ -142,7 +142,7 @@
     "general": {
       "title": "Einkaufswagen",
       "remove": "Entfernen",
-      "note": "Besondere Hinweise an den Verkäufer",
+      "note": "Ihre Bestellreferenz (falls vorhanden)",
       "subtotal": "Zwischensumme",
       "discounts": "Rabatte",
       "savings_html": "{{ saved_amount }} günstiger",
