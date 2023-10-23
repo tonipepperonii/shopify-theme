@@ -328,9 +328,9 @@
         "template--18204113338672__61a6d63d-1e52-498b-b291-23b56f504820-16777585994b7819c5-1"
       ],
       "custom_css": [
-        "h1 {color: #f39200;}",
-        "h2 {color: #f39200;}",
-        "h3 {color: #f39200;}"
+        "h1 {color: #FF7F00;}",
+        "h2 {color: #FF7F00;}",
+        "h3 {color: #FF7F00;}"
       ],
       "settings": {
         "align_text": "left",
