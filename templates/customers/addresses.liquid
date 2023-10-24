@@ -179,6 +179,10 @@
 
   {%- endfor -%}
 
+     <div>
+      <a href="/account" class="btn">Zurück</a>
+    </div>
+      
   {%- liquid
     if paginate.pages > 1
       render 'pagination', paginate: paginate
