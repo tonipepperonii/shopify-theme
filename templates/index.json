@@ -10,8 +10,8 @@
             "title": "<h1>Neue Plattform, neue Möglichkeiten! <\/h1>",
             "title_size": 40,
             "subheading": "Entdecken Sie unseren neuen Online-Shop und profitieren Sie von 10% Rabatt auf Ihre erste Bestellung. Code: Relaunch2023",
-            "link": "https:\/\/alu-verkauf.shop\/account\/login?return_url=%2Faccount#recover",
-            "link_text": "Hier Konto reaktivieren",
+            "link": "",
+            "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#f39200",
@@ -328,9 +328,9 @@
         "template--18204113338672__61a6d63d-1e52-498b-b291-23b56f504820-16777585994b7819c5-1"
       ],
       "custom_css": [
-        "h1 {color: #FF7F00;}",
-        "h2 {color: #FF7F00;}",
-        "h3 {color: #FF7F00;}"
+        "h1 {color: #ff7f00;}",
+        "h2 {color: #ff7f00;}",
+        "h3 {color: #ff7f00;}"
       ],
       "settings": {
         "align_text": "left",
