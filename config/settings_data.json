@@ -186,26 +186,10 @@
               "richtext": "<p>10% Relaunch Rabatt mit CODE: Relaunch2023<\/p>",
               "richtext_mobile": ""
             }
-          },
-          "28605901-1959-4d31-bda7-7b10e1063fde": {
-            "type": "announcement",
-            "settings": {
-              "richtext": "<p>Achtung: Die Kundenkonten wurden zurückgesetzt. Bitte aktivieren Sie ihr Konto neu. Vielen Dank<\/p>",
-              "richtext_mobile": ""
-            }
-          },
-          "9230b9ba-1565-446e-a854-dd43458e4325": {
-            "type": "announcement",
-            "settings": {
-              "richtext": "<p>Keine Schnittkosten - im Oktober!<\/p>",
-              "richtext_mobile": ""
-            }
           }
         },
         "block_order": [
-          "20680c1b-80cd-4fe8-acfc-facd352ad3f4",
-          "28605901-1959-4d31-bda7-7b10e1063fde",
-          "9230b9ba-1565-446e-a854-dd43458e4325"
+          "20680c1b-80cd-4fe8-acfc-facd352ad3f4"
         ],
         "settings": {
           "announcement_center": false,
