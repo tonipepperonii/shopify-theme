@@ -5,6 +5,7 @@
       "blocks": {
         "71488688-6e3c-473c-bc38-6f22697cf4c5": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<h1>Neue Plattform, neue Möglichkeiten! <\/h1>",
@@ -23,6 +24,7 @@
         },
         "template--18204113338672__80218ac8-e737-45d5-9c66-8ea17e8498e8-1677757582fc6b7600-0": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<h1>Aluprofile auch in Kleinstmengen zum Festpreis<\/h1>",
