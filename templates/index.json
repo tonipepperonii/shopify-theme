@@ -63,10 +63,10 @@
         "6dcce43e-2ea4-447e-b023-5ba356e257b4": {
           "type": "hero",
           "settings": {
-            "top_subheading": "",
+            "top_subheading": "Riffelblech Duett + Quintett",
             "title": "<p>Neu!<\/p>",
             "title_size": 70,
-            "subheading": "Riffelblech Duett + Quintett",
+            "subheading": "",
             "link": "",
             "link_text": "",
             "link_2": "",
@@ -88,6 +88,7 @@
       "custom_css": [
         ".slideshow-wrapper {max-height: 400px;}",
         "h1 {color: #f39200;}",
+        "h2 {color: #f39200;}",
         ".btn {color: white !important; border-radius: 4px;}",
         ".vertical-bottom {vertical-align: middle !important;}"
       ],
