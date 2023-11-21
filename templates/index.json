@@ -98,7 +98,7 @@
         "desktop_size": 10,
         "mobile_size": 60,
         "style": "arrows",
-        "autoplay": false,
+        "autoplay": true,
         "autoplay_speed": 5
       }
     },
