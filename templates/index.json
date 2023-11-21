@@ -89,6 +89,7 @@
         ".slideshow-wrapper {max-height: 400px;}",
         "h1 {color: #f39200;}",
         "h2 {color: #f39200;}",
+        "h3 {color: #f39200;}",
         ".btn {color: white !important; border-radius: 4px;}",
         ".vertical-bottom {vertical-align: middle !important;}"
       ],
