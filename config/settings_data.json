@@ -187,10 +187,18 @@
               "richtext": "<p>November Deal - ab einem Bestellwert von 111 € - Rabattcode: Nov11% einlösen!<\/p>",
               "richtext_mobile": ""
             }
+          },
+          "46d1e579-4f99-4d2a-b718-543e55ccc0cb": {
+            "type": "announcement",
+            "settings": {
+              "richtext": "<p>BlackFriday 2023: Restposten - Code: Rest30%<\/p>",
+              "richtext_mobile": ""
+            }
           }
         },
         "block_order": [
-          "20680c1b-80cd-4fe8-acfc-facd352ad3f4"
+          "20680c1b-80cd-4fe8-acfc-facd352ad3f4",
+          "46d1e579-4f99-4d2a-b718-543e55ccc0cb"
         ],
         "settings": {
           "announcement_center": false,
