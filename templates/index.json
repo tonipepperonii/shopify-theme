@@ -44,15 +44,15 @@
         "6dcce43e-2ea4-447e-b023-5ba356e257b4": {
           "type": "hero",
           "settings": {
-            "top_subheading": "Riffelblech Duett + Quintett",
+            "top_subheading": "",
             "title": "<p>Neu!<\/p>",
             "title_size": 70,
             "subheading": "",
-            "link": "",
-            "link_text": "",
+            "link": "shopify:\/\/products\/riffelblech-duett-und-quintett-standardzuschnitte",
+            "link_text": "Riffelblech Duett + Quintett",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#ffffff",
+            "color_accent": "#f89230",
             "text_align": "vertical-bottom horizontal-left",
             "image": "shopify:\/\/shop_images\/Titel_Shop_Riffel_5fc85785-8b07-4eb2-a616-3538181f6fa5.png",
             "overlay_opacity": 0,
@@ -87,9 +87,9 @@
       ],
       "custom_css": [
         ".slideshow-wrapper {max-height: 400px;}",
-        "h1 {color: #f39200;}",
-        "h2 {color: #f39200;}",
-        "h3 {color: #f39200;}",
+        "h1 {color: #F89230;}",
+        "h2 {color: #F89230;}",
+        "h3 {color: #F89230;}",
         ".btn {color: white !important; border-radius: 4px;}",
         ".vertical-bottom {vertical-align: middle !important;}"
       ],
