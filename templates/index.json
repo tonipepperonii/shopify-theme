@@ -77,19 +77,38 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
+        },
+        "ee59b1af-cf7a-4559-8cc9-191cfe39b9c5": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>Restposten<\/p>",
+            "title_size": 70,
+            "subheading": "30 % reduziert!",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#fff",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/Restposten.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
         "71488688-6e3c-473c-bc38-6f22697cf4c5",
         "template--18204113338672__80218ac8-e737-45d5-9c66-8ea17e8498e8-1677757582fc6b7600-0",
         "6dcce43e-2ea4-447e-b023-5ba356e257b4",
-        "5c1e6fb2-4dfb-4eb0-8310-ef3d5dec3b1f"
+        "5c1e6fb2-4dfb-4eb0-8310-ef3d5dec3b1f",
+        "ee59b1af-cf7a-4559-8cc9-191cfe39b9c5"
       ],
       "custom_css": [
         ".slideshow-wrapper {max-height: 400px;}",
-        "h1 {color: #F89230;}",
-        "h2 {color: #F89230;}",
-        "h3 {color: #F89230;}",
+        "h1 {color: #f89230;}",
+        "h2 {color: #f89230;}",
+        "h3 {color: #f89230;}",
         ".btn {color: white !important; border-radius: 4px;}",
         ".vertical-bottom {vertical-align: middle !important;}"
       ],
