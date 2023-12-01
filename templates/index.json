@@ -3,25 +3,6 @@
     "80218ac8-e737-45d5-9c66-8ea17e8498e8": {
       "type": "slideshow",
       "blocks": {
-        "71488688-6e3c-473c-bc38-6f22697cf4c5": {
-          "type": "hero",
-          "disabled": true,
-          "settings": {
-            "top_subheading": "",
-            "title": "<h1>Neue Plattform, neue Möglichkeiten! <\/h1>",
-            "title_size": 40,
-            "subheading": "Entdecken Sie unseren neuen Online-Shop und profitieren Sie von 10% Rabatt auf Ihre erste Bestellung. Code: Relaunch2023",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#f39200",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/poster_klein.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
         "template--18204113338672__80218ac8-e737-45d5-9c66-8ea17e8498e8-1677757582fc6b7600-0": {
           "type": "hero",
           "disabled": true,
@@ -89,20 +70,38 @@
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#fff",
+            "color_accent": "#ffffff",
             "text_align": "vertical-bottom horizontal-left",
             "image": "shopify:\/\/shop_images\/Restposten.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "25038ab1-dee6-461b-84c1-13bcd1463d70": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>Willkommen bei alu-verkauf<\/p>",
+            "title_size": 60,
+            "subheading": "Wir wünschen eine besinnliche Adventszeit!",
+            "link": "shopify:\/\/collections\/restposten",
+            "link_text": "Restposten durchstöbern",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#f89230",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/Dezember_Titelbild_Shop_877bb852-f5b9-4323-94da-97ba653dad9e.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
         }
       },
       "block_order": [
-        "71488688-6e3c-473c-bc38-6f22697cf4c5",
         "template--18204113338672__80218ac8-e737-45d5-9c66-8ea17e8498e8-1677757582fc6b7600-0",
         "6dcce43e-2ea4-447e-b023-5ba356e257b4",
         "5c1e6fb2-4dfb-4eb0-8310-ef3d5dec3b1f",
-        "ee59b1af-cf7a-4559-8cc9-191cfe39b9c5"
+        "ee59b1af-cf7a-4559-8cc9-191cfe39b9c5",
+        "25038ab1-dee6-461b-84c1-13bcd1463d70"
       ],
       "custom_css": [
         ".slideshow-wrapper {max-height: 400px;}",
