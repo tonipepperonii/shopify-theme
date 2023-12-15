@@ -40,20 +40,20 @@
             "focal_point": "center center"
           }
         },
-        "6dcce43e-2ea4-447e-b023-5ba356e257b4": {
+        "f25a7994-8514-4467-8436-515f3f04c18b": {
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<p>Neu!<\/p>",
-            "title_size": 70,
-            "subheading": "",
-            "link": "shopify:\/\/products\/riffelblech-duett-und-quintett-standardzuschnitte",
-            "link_text": "Riffelblech Duett + Quintett",
+            "title": "<p>WIR sagen DANKE!<\/p>",
+            "title_size": 54,
+            "subheading": "Liebe Kunden, unser Onlineshop bleibt über die Feiertage geöffnet. Somit können Sie bequem und stressfrei rund um die Uhr bestellen. Die letzte Versendung wird am 22.12.2023 erfolgen und die erste Versendung am 02.01.2024.",
+            "link": "",
+            "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#f89230",
+            "color_accent": "#fff",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/Titel_Shop_Riffel_5fc85785-8b07-4eb2-a616-3538181f6fa5.png",
+            "image": "shopify:\/\/shop_images\/AUTO_1_2.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -100,7 +100,7 @@
       "block_order": [
         "template--18204113338672__80218ac8-e737-45d5-9c66-8ea17e8498e8-1677757582fc6b7600-0",
         "25038ab1-dee6-461b-84c1-13bcd1463d70",
-        "6dcce43e-2ea4-447e-b023-5ba356e257b4",
+        "f25a7994-8514-4467-8436-515f3f04c18b",
         "ee59b1af-cf7a-4559-8cc9-191cfe39b9c5",
         "5c1e6fb2-4dfb-4eb0-8310-ef3d5dec3b1f"
       ],
