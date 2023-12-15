@@ -188,13 +188,6 @@
               "richtext_mobile": ""
             }
           },
-          "20680c1b-80cd-4fe8-acfc-facd352ad3f4": {
-            "type": "announcement",
-            "settings": {
-              "richtext": "<p>November Deal - ab einem Bestellwert von 111 € - Rabattcode: Nov11% einlösen!<\/p>",
-              "richtext_mobile": ""
-            }
-          },
           "110e6406-4a11-4764-ad37-00dd9c438d60": {
             "type": "announcement",
             "settings": {
@@ -205,7 +198,6 @@
         },
         "block_order": [
           "46d1e579-4f99-4d2a-b718-543e55ccc0cb",
-          "20680c1b-80cd-4fe8-acfc-facd352ad3f4",
           "110e6406-4a11-4764-ad37-00dd9c438d60"
         ],
         "settings": {
