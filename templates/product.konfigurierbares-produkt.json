@@ -51,7 +51,7 @@
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#fff",
+            "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-left",
             "image": "shopify:\/\/shop_images\/0mv47m4j.png",
             "overlay_opacity": 0,
@@ -69,7 +69,7 @@
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#fff",
+            "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-left",
             "image": "shopify:\/\/shop_images\/VR.jpg",
             "overlay_opacity": 0,
@@ -143,8 +143,8 @@
       ],
       "settings": {
         "side-title": "Wir sind für Sie da:",
-        "image": "shopify:\/\/shop_images\/nils_vespermann_aluverkauf.png",
-        "side-richtext": "<p>Nils Vespermann<br\/><em>Kundenberater<\/em><\/p>",
+        "image": "shopify:\/\/shop_images\/DSC_1210k_65beac15-1f30-437c-8cad-b0ebcd0e5817.jpg",
+        "side-richtext": "<p>Nils Vespermann & Mike Janke<\/p>",
         "phone": "05121 \/ 28 290-0",
         "mail": "verkauf@alu-verkauf.de",
         "checkbox": true
