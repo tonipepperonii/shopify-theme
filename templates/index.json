@@ -40,24 +40,6 @@
             "focal_point": "center center"
           }
         },
-        "25038ab1-dee6-461b-84c1-13bcd1463d70": {
-          "type": "hero",
-          "settings": {
-            "top_subheading": "",
-            "title": "<p>HO HO HO 🎄<\/p>",
-            "title_size": 60,
-            "subheading": "Wir wünschen eine besinnliche Adventszeit! Bestellungen ab 150 € belohnen wir mit einer kleinen Überraschung 🎁",
-            "link": "shopify:\/\/collections\/restposten",
-            "link_text": "Restposten durchstöbern",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#f89230",
-            "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/Dezember_Titelbild_Shop_877bb852-f5b9-4323-94da-97ba653dad9e.png",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
         "ee59b1af-cf7a-4559-8cc9-191cfe39b9c5": {
           "type": "hero",
           "settings": {
@@ -95,14 +77,32 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
+        },
+        "1ce9e498-6e18-4fb9-a35d-d7ff74d530bf": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#fff",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/2024_shop.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
         "template--18204113338672__80218ac8-e737-45d5-9c66-8ea17e8498e8-1677757582fc6b7600-0",
         "f25a7994-8514-4467-8436-515f3f04c18b",
-        "25038ab1-dee6-461b-84c1-13bcd1463d70",
         "ee59b1af-cf7a-4559-8cc9-191cfe39b9c5",
-        "5c1e6fb2-4dfb-4eb0-8310-ef3d5dec3b1f"
+        "5c1e6fb2-4dfb-4eb0-8310-ef3d5dec3b1f",
+        "1ce9e498-6e18-4fb9-a35d-d7ff74d530bf"
       ],
       "custom_css": [
         ".slideshow-wrapper {max-height: 400px;}",

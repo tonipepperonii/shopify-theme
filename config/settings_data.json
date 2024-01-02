@@ -187,18 +187,10 @@
               "richtext": "<p>Restposten - 30 % reduziert!<\/p>",
               "richtext_mobile": ""
             }
-          },
-          "110e6406-4a11-4764-ad37-00dd9c438d60": {
-            "type": "announcement",
-            "settings": {
-              "richtext": "<p>HO HO HO 🎄 Ab einem Bestellwert von 150 € erhalten Sie ein kleines Geschenk 🎁!<\/p>",
-              "richtext_mobile": ""
-            }
           }
         },
         "block_order": [
-          "46d1e579-4f99-4d2a-b718-543e55ccc0cb",
-          "110e6406-4a11-4764-ad37-00dd9c438d60"
+          "46d1e579-4f99-4d2a-b718-543e55ccc0cb"
         ],
         "settings": {
           "announcement_center": false,
