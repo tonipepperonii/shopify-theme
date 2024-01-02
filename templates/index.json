@@ -24,6 +24,7 @@
         },
         "f25a7994-8514-4467-8436-515f3f04c18b": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>WIR sagen DANKE!<\/p>",
