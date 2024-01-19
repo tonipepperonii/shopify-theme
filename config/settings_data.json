@@ -129,6 +129,7 @@
         "blocks": {
           "a286abaf-1061-4456-97b8-3d6426543e1a": {
             "type": "header",
+            "disabled": true,
             "settings": {
               "reminder_label": "Get 10% OFF: RELAUNCH2023"
             }
@@ -148,7 +149,7 @@
           "color_scheme": "2",
           "show_social_icons": false,
           "enable_newsletter": true,
-          "button_label": "Optional button",
+          "button_label": "",
           "button_link": ""
         }
       },
