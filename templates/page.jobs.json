@@ -14,7 +14,7 @@
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#fff",
+            "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/news-heading.png",
             "overlay_opacity": 0,
@@ -56,6 +56,7 @@
         },
         "template--18273043644720__1f70e298-d711-41ec-baf0-4ea231cf184c-16800813696d17cfc7-0": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/jobs-logo.png",
             "title": "Produktionsmitarbeiter in Voll- und Teilzeit",
