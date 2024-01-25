@@ -3,20 +3,20 @@
     "80218ac8-e737-45d5-9c66-8ea17e8498e8": {
       "type": "slideshow",
       "blocks": {
-        "1ce9e498-6e18-4fb9-a35d-d7ff74d530bf": {
+        "hero_tA3crh": {
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "",
-            "title_size": 70,
-            "subheading": "",
+            "title": "<p>Aluprofile auch in Kleinstmengen zum Festpreis<\/p>",
+            "title_size": 40,
+            "subheading": "Für Privat- und Gewerbekunden. Schnell und einfach online ihr individuelles Produkt auswahlen, bestellen, abholen oder bequem liefern lassen.",
             "link": "",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#ffffff",
+            "color_accent": "#fff",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/2024_shop1.png",
+            "image": "shopify:\/\/shop_images\/Titelbild_Startseite_72c907ca-4005-43e8-933b-04b9bf1143bc.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -38,51 +38,11 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
-        },
-        "5c1e6fb2-4dfb-4eb0-8310-ef3d5dec3b1f": {
-          "type": "hero",
-          "disabled": true,
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 70,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/November_11a.png",
-            "image_mobile": "shopify:\/\/shop_images\/November11b.png",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
-        "hero_tA3crh": {
-          "type": "hero",
-          "settings": {
-            "top_subheading": "",
-            "title": "<p>Aluprofile auch in Kleinstmengen zum Festpreis<\/p>",
-            "title_size": 40,
-            "subheading": "Für Privat- und Gewerbekunden. Schnell und einfach online ihr individuelles Produkt auswahlen, bestellen, abholen oder bequem liefern lassen.",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#fff",
-            "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/Titelbild_Startseite_72c907ca-4005-43e8-933b-04b9bf1143bc.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
         }
       },
       "block_order": [
-        "1ce9e498-6e18-4fb9-a35d-d7ff74d530bf",
-        "ee59b1af-cf7a-4559-8cc9-191cfe39b9c5",
-        "5c1e6fb2-4dfb-4eb0-8310-ef3d5dec3b1f",
-        "hero_tA3crh"
+        "hero_tA3crh",
+        "ee59b1af-cf7a-4559-8cc9-191cfe39b9c5"
       ],
       "custom_css": [
         ".slideshow-wrapper {max-height: 400px;}",
