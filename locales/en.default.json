@@ -398,5 +398,12 @@
   },
   "date_formats": {
     "month_day_year": "%b %d, %Y"
+  },
+  "shopify": {
+    "checkout": {
+      "review": {
+        "review_notice_html": "By clicking the “Pay now” button, I agree to the terms and conditions and the data protection declaration and confirm that I have read the cancellation policy.<br><br> In addition to processing the contract, we use your email address to inform you by email about our own similar goods\/services. You can object to the use of your email address at any time. Simply let us know by email to the following address: verkauf@alu-verkauf.de or click on the link at the end of a newsletter email."
+      }
+    }
   }
 }
