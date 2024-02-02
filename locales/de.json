@@ -356,8 +356,8 @@
       "description": "Beschreibung",
       "in_stock_label": "Auf Lager",
       "stock_label": {
-        "one": "",
-        "other": ""
+        "one": "Nur noch 1 Artikel verfügbar.",
+        "other": "Verfügbar ab Lager."
       },
       "sold_out": "Ausverkauft",
       "unavailable": "Nicht verfügbar",
