@@ -38,11 +38,31 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
+        },
+        "hero_PUBHJJ": {
+          "type": "hero",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>Auf alle Winkel- und Vierkantprofile<\/p>",
+            "title_size": 54,
+            "subheading": "15 % Rabatt",
+            "link": "",
+            "link_text": "Code: Winkel2024",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#f89230",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/Header_02_2024_1.png",
+            "overlay_opacity": 20,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
         "hero_tA3crh",
-        "ee59b1af-cf7a-4559-8cc9-191cfe39b9c5"
+        "ee59b1af-cf7a-4559-8cc9-191cfe39b9c5",
+        "hero_PUBHJJ"
       ],
       "custom_css": [
         ".slideshow-wrapper {max-height: 400px;}",
