@@ -254,7 +254,7 @@
         "title": "Platten",
         "align_text": "left",
         "divider": false,
-        "color_scheme": "2"
+        "color_scheme": "1"
       }
     },
     "rich_text_YrMfbM": {
@@ -282,7 +282,7 @@
       "settings": {
         "align_text": "left",
         "narrow_column": true,
-        "color_scheme": "1",
+        "color_scheme": "2",
         "divider": false
       }
     },
