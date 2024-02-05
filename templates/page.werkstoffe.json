@@ -73,7 +73,7 @@
       "settings": {
         "align_text": "center",
         "narrow_column": false,
-        "color_scheme": "1",
+        "color_scheme": "2",
         "divider": false
       }
     },
@@ -166,7 +166,7 @@
         "title": "Vollmaterial - Rund \/ Flach \/ Vierkant  \/ Sechskant",
         "align_text": "left",
         "divider": false,
-        "color_scheme": "none"
+        "color_scheme": "2"
       }
     },
     "text_columns_E8XqTq": {
@@ -254,7 +254,7 @@
         "title": "Platten",
         "align_text": "left",
         "divider": false,
-        "color_scheme": "none"
+        "color_scheme": "2"
       }
     },
     "rich_text_YrMfbM": {
@@ -282,7 +282,7 @@
       "settings": {
         "align_text": "left",
         "narrow_column": true,
-        "color_scheme": "2",
+        "color_scheme": "1",
         "divider": false
       }
     },
