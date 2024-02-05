@@ -43,24 +43,32 @@
     "2bcb0b91-7c44-4198-96e9-16d6053e6160": {
       "type": "rich-text",
       "blocks": {
-        "template--18204608954672__2bcb0b91-7c44-4198-96e9-16d6053e6160-167783245720b5ce44-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Womit wir arbeiten",
-            "show_line": true
-          }
-        },
         "template--18204608954672__2bcb0b91-7c44-4198-96e9-16d6053e6160-167783245720b5ce44-1": {
           "type": "text",
           "settings": {
+            "enlarge_text": true,
+            "text": "<p>Entdecke die unglaubliche Vielseitigkeit von Aluminiumlegierungen!<\/p>"
+          }
+        },
+        "text_Mm6X66": {
+          "type": "text",
+          "settings": {
             "enlarge_text": false,
-            "text": "<p>Wer sich noch nicht so sehr mit den verschiedenen von uns angebotenen Werkstoffen auskennt, für den möchten wir hier einen kleinen Überblick über die Eigenschaften der angebotenen Legierungen bieten.<\/p><p><strong>Angaben ohnen Gewähr auf Vollständigkeit\/Richtigkeit<\/strong><\/p>"
+            "text": "<p>Aluminium ist in seiner reinen Form bereits ein vielfältig einsetzbares Material. Es ist gut formbar, hat eine optisch ansprechende Oberfläche und ist vergleichsweise leicht.<\/p><p><\/p><p>Als Legierung zusammen mit anderen Elementen können die Einsatzgebiete vielfältig erweitert werden. Magnesium (Mg), Silicium (Si), Kupfer (Cu), Mangan (Mn) und Zink (Zn) sind hierbei die wichtigsten Legierungselemente.<\/p>"
+          }
+        },
+        "text_3XRWtU": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Angaben ohne Gewähr auf Vollständigkeit\/Richtigkeit<\/p>"
           }
         }
       },
       "block_order": [
-        "template--18204608954672__2bcb0b91-7c44-4198-96e9-16d6053e6160-167783245720b5ce44-0",
-        "template--18204608954672__2bcb0b91-7c44-4198-96e9-16d6053e6160-167783245720b5ce44-1"
+        "template--18204608954672__2bcb0b91-7c44-4198-96e9-16d6053e6160-167783245720b5ce44-1",
+        "text_Mm6X66",
+        "text_3XRWtU"
       ],
       "settings": {
         "align_text": "center",
@@ -77,8 +85,8 @@
           "settings": {
             "enable_image": false,
             "image_width": 650,
-            "title": "AlCuMgPb (Aluminiumlegierung)",
-            "text": "<p>AlCuMgPb (3.1645)<br\/>EN AW 2007<br\/>(haupts. Rund und Flach)<\/p><p><strong>Zusammensetzung: in Gew.-%<br\/><\/strong>Cu 3,3 - 4,6<br\/>Mn 0,5 - 1,0<br\/>Mg 0,4 - 1,8<br\/>Pb 0,8 - 1,5<\/p><p><strong>Werte für Durchmesser bis ca. 60 mm<br\/><\/strong>Zugfestigkeit 370 - 470 N\/qmm<br\/>Streckgrenze 250 - 325 N\/qmm<br\/>Härte 100 - 140 Brinell<br\/>Wärmeleitfähigkeit 1,3 - 1,5 W\/cm °C<\/p><p><strong>(Bohr- und Drehqualität)<\/strong><\/p><p> Sehr gut zerspanbar<\/p>",
+            "title": "AlMgSi0,5 \/ EN AW 6060",
+            "text": "<p>DIN Werkstoff Nr. 3.3206<\/p><p><strong>Anwendungsbereiche:<br\/><\/strong>Fenster, Türen, Metallbau, Dekoration, Schrauben, Textilindustrie<\/p><p>Eloxieren - sehr gut<br\/>Zerspanbarkeit - sehr gut<br\/>Schweißen - gut<br\/>Beständigkeit gegen Witterung\/Seewasser -sehr gut\/gut<\/p><p><strong>Werte für mittlere Querschnitte:<br\/><\/strong>Zugfestigkeit 215 - 260 N\/qmm<br\/>Streckgrenze 160 - 230 N\/qmm<br\/>Härte 70 - 80 Brinell<br\/>Wärmeleitfähigkeit ca. 1,86 W\/cm °C <\/p><p><\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -88,129 +96,8 @@
           "settings": {
             "enable_image": false,
             "image_width": 650,
-            "title": "AlCuBiPb (Aluminiumlegierung)",
-            "text": "<p>AlCuBiPb (3.1655)<br\/>EN AW 2011<br\/>(haupts. Rund)<\/p><p><strong>Zusammensetzung: in Gew.-%<br\/><\/strong>Cu 5,0 - 6,0<br\/>Bi 0,2- 0,6<br\/>Pb 0,2 - 0,6<\/p><p><strong>Werte für Durchmesser bis ca. 60 mm<br\/><\/strong>Zugfestigkeit 370 - 410 N\/qmm<br\/>Streckgrenze 270 - 315 N\/qmm<br\/>Härte 110 - 130 Brinell<br\/>Wärmeleitfähigkeit 1,4 - 1,6 W\/cm °C<\/p><p><strong>(Bohr- und Drehqualität)<\/strong><\/p><p> Sehr gut zerspanbar<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "12c81e46-83a2-4841-957e-8fe938feca61": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "AlMgSiPb (Aluminiumlegierung)",
-            "text": "<p>AlMgSiPb (3.0615)<br\/>EN AW 6012<br\/>(haupts. Rund)<\/p><p><strong>Zusammensetzung: in Gew.-%<br\/><\/strong>Si 0,6 - 1,4<br\/>Mn 0,4 - 1,0<br\/>Mg 0,6 - 1,2<br\/>Pb 0,4 - 2,0<\/p><p><strong>Werte für Durchmesser bis ca. 60 mm<\/strong><\/p><p>Zugfestigkeit 370 - 410 N\/qmm<br\/>Streckgrenze 270 - 315 N\/qmm<br\/>Härte 110 - 130 Brinell<br\/>Wärmeleitfähigkeit 1,4 - 1,6 W\/cm °C<\/p><p> Sehr gut zerspanbar<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "6b4448dd-54d9-47d4-a730-4923d59848b1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "AlMgSi0,5 (Aluminiumlegierung)",
-            "text": "<p>AlMgSi0,5 (3.3206)<br\/>EN AW 6060<br\/>(haupts. Rund, Flach, Wkl, Rohr)<\/p><p><strong>Zusammensetzung: in Gew.-%<br\/><\/strong>Si 0,3 - 0,6<br\/>Mg 0,35 - 0,6<\/p><p><strong>Werte für mittlere Querschnitte:<br\/><\/strong>Zugfestigkeit 215 - 260 N\/qmm<br\/>Streckgrenze 160 - 230 N\/qmm<br\/>Härte 70 - 80 Brinell<br\/>Wärmeleitfähigkeit ca. 1,86 W\/cm °C<\/p><p> Sehr gut zerspanbar<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "fd5d74b3-141e-491c-aefa-ba26444a223f": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "AlMgSi1 (Aluminiumlegierung)",
-            "text": "<p>AlMgSi1 (3.2315)<br\/>EN AW 6082<br\/>(haupts. Rund und Vierkant)<\/p><p><strong>Zusammensetzung: in Gew.-%<br\/><\/strong>Si 0,7 - 1,3<br\/>Mg 0,6 - 1,2<br\/>Mn 0,4 - 1,0<\/p><p><strong>Werte für Durchmesser bis ca. 60 mm<br\/><\/strong>Zugfestigkeit 300 - 350 N\/qmm<br\/>Streckgrenze 240 - 320 N\/qmm<br\/>Härte 95 - 105 Brinell<br\/>Wärmeleitfähigkeit 1,5 - 1,9 W\/cm °C<\/p><p> Sehr gut zerspanbar<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "c7635ba7-88ad-4f9c-a1be-e1e3e277531d": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "Al99,5 (Reinaluminium)",
-            "text": "<p>Al99,5 (3.0255)<br\/>EN AW 1050<br\/>(haupts. Blech)<\/p><p><strong>Zusammensetzung: in Gew.-%<br\/><\/strong>Si 0,3 - 0,6<br\/>Mg 0,35 - 0,6<\/p><p><strong>Werte für Dicken ab ca. 6 mm<br\/><\/strong>Zugfestigkeit 75 - 110 N\/qmm<br\/>Streckgrenze 20 - 60 N\/qmm<br\/>Härte 22 - 35 Brinell<br\/>Wärmeleitfähigkeit ca. 2,2 W\/cm °C<\/p><p> Sehr gut verformbar und schweißbar. Bedingt eloxierbar<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "21f17b83-c1a4-4d86-ac69-77be958c3301": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "AlMg3 (Aluminiumlegierung)",
-            "text": "<p>AlMg3 (3.3535)<br\/>EN AW 5754<br\/>(haupts. Blech)<\/p><p><strong>Zusammensetzung: in Gew.-%<br\/><\/strong>Mg 2,6 - 3,6<br\/>Werte für Dicken ab ca. 6 mm<br\/>Zugfestigkeit 190 - 250 N\/qmm<br\/>Streckgrenze 80 - 140 N\/qmm<br\/>Härte 50 - 80 Brinell<br\/>Wärmeleitfähigkeit ca. 1,5 W\/cm °C<\/p><p>Meerwasserbeständig eloxierbar<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "8ead015a-24cd-4ec0-ab01-9599481fb148": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "AlMgSi1 (Aluminiumlegierung)",
-            "text": "<p>AlMg1 (3.3315)<br\/>EN AW 5005<br\/>(haupts. Blech)<\/p><p><strong>Zusammensetzung: in Gew.-%<br\/><\/strong>Mg 0.7 - 1,1<br\/>Werte für Dicken bis ca. 10 mm<br\/>Zugfestigkeit 145 - 185 N\/qmm<br\/>Streckgrenze 80 - 120 N\/qmm<br\/>Härte ca. 47 Brinell<\/p><p> Gut lackier- und eloxierbar. Gutverformbar<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "382026be-8439-4c59-89a8-6007fd3de826": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "AlMg4,5Mn (Aluminiumlegierung )",
-            "text": "<p>AlMg4,5Mn (3.3547)<br\/>EN AW 5083<br\/>(Blech)<\/p><p><strong>Zusammensetzung: in Gew.-%<br\/><\/strong>Mn 0,4 - 1,0<br\/>Mg 4,0 - 4,9<\/p><p><strong>Werte für Dicken ab ca. 6 mm<br\/><\/strong>Zugfestigkeit 275 - 315 N\/qmm<br\/>Streckgrenze 125 - 180 N\/qmm<br\/>Härte 70 - 100 Brinell<br\/>Wärmeleitfähigkeit ca. 1,1 W\/cm °C<\/p><p> Gut schweiß- und spanbar. Meerwasserbeständig<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "7d39172f-be29-47b8-8eca-f0d26d33afad": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "AlCuMg1 (Aluminiumlegierung )",
-            "text": "<p>AlCuMg1 (3.1325)<br\/>EN AW 2017<br\/>(haupts. Blech)<\/p><p><strong>Zusammensetzung: in Gew.-%<br\/><\/strong>Si 0,2 - 0,8<br\/>Cu 3,4 - 4,5<br\/>Mn 0,4 - 1,0<\/p><p><strong>Werte für Dicken bis ca. 50 mm<br\/><\/strong>Zugfestigkeit 385 - 460 N\/qmm<br\/>Streckgrenze 245 - 340 N\/qmm<br\/>Härte 95 - 130 Brinell<br\/>Wärmeleitfähigkeit 1,3 - 1,7 W\/cm °C<br\/>(Bohr- und Fräsqualität)<\/p><p> Sehr gut zerspanbar<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "e4fd5a9d-31e3-4e7f-a320-8b3f0ddb6fd5": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "AlZnMgCu1,5 (Hartaluminiumlegierung )",
-            "text": "<p>AlZnMgCu1,5 (3.4365)<br\/>EN AW 7075<br\/>(Blech + Rund)<\/p><p><strong>Zusammensetzung: in Gew.-%<br\/><\/strong>Mn 0,3<br\/>Cu 1,2 - 2,0<br\/>Mg 2,1 - 2,9<br\/>Zn 5,1 - 6,1<\/p><p><strong>Werte für Dicken von ca. 12 - 50 mm<br\/><\/strong>Zugfestigkeit mind. 550 N\/qmm<br\/>Streckgrenze ca. 450 N\/qmm<br\/>Härte ca. 140 Brinell<\/p><p> Hohe Festigkeiten<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "416affc0-c2ea-486c-ab60-9634a3a9cfc8": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "E-Cu (Kupfer)",
-            "text": "<p>E-Cu (2.0065)<br\/>EN AW 7021<br\/>(Blech + Rund)<\/p><p><strong>Zusammensetzung:<br\/><\/strong>Cu mind. 99,9 %<br\/>O2 0,005 - 0,04%<br\/>Mg 2,1 - 2,9<br\/>Zn 5,1 - 6,1<\/p><p><strong>Werte für Dicken von ca. 12 - 50 mm<br\/><\/strong>Zugfestigkeit 220-250 N\/qmm<br\/>Streckgrenze 40-120 N\/qmm<br\/>Härte 40-60 HV<br\/>Wärmeleitfähigkeit ca. 3,9 W\/cm °C<\/p><p> Sehr gute elektr. Leitfähigkeit, sehr gute Leitfähigkeit<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "2125f4a7-9587-4a40-ba9c-f13f9e9fe04e": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "AlZn5,5Mg1,5 (Aluminiumlegierung)",
-            "text": "<p>AlZn5,5Mg1,5<br\/>EN AW 7021<br\/>(als plangefräste Gussplatten)<\/p><p><strong>Zusammensetzung in Gew.-%: (max. Werte)<br\/><\/strong>Si 0,25<br\/>Fe 0,40<br\/>Cu 0,25<br\/>Mn 0,10<br\/>Ti 0,10<br\/>Mg 1,20-1,80<br\/>Zr 0,08-0,18<br\/>Zn 5,00-6,00<\/p><p><strong>Werte<br\/><\/strong>Zugfestigkeit 320 - 380 N\/qmm<br\/>Streckgrenze 290 - 340 N\/qmm<br\/>Härte 110 - 120 Brinell<br\/>Wärmeleitfähigkeit 1,25 - 1,55 W\/cm °C<\/p><p> Sehr gut zerspanbar, extreme Spannungsarmut, sehr gute Ebenheit, hohe Festigkeit<\/p>",
+            "title": "AlMgSi1 \/ EN AW 6082",
+            "text": "<p>DIN Werkstoff Nr. 3.2315<\/p><p><\/p><p><strong>Anwendungsbereiche:<br\/><\/strong>Chemische Industrie, Nahrungsmittelindustrie, Architektur<\/p><p>Eloxieren - sehr gut<br\/>Zerspanbarkeit - befriedigend<br\/>Schweißen - gut<br\/>Beständigkeit gegen Witterung\/Seewasser -sehr gut\/gut<\/p><p><strong>Werte für Durchmesser bis ca. 60 mm<br\/><\/strong>Zugfestigkeit 300 - 350 N\/qmm<br\/>Streckgrenze 240 - 320 N\/qmm<br\/>Härte 95 - 105 Brinell<br\/>Wärmeleitfähigkeit 1,5 - 1,9 W\/cm °C<\/p><p><\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -218,27 +105,179 @@
       },
       "block_order": [
         "template--18204608954672__ddbd1fda-dafb-4470-9ae5-f590f192ac92-1677833703217347a4-0",
-        "2f400c67-094b-4510-a41e-530998d66496",
-        "12c81e46-83a2-4841-957e-8fe938feca61",
-        "6b4448dd-54d9-47d4-a730-4923d59848b1",
-        "fd5d74b3-141e-491c-aefa-ba26444a223f",
-        "c7635ba7-88ad-4f9c-a1be-e1e3e277531d",
-        "21f17b83-c1a4-4d86-ac69-77be958c3301",
-        "8ead015a-24cd-4ec0-ab01-9599481fb148",
-        "382026be-8439-4c59-89a8-6007fd3de826",
-        "7d39172f-be29-47b8-8eca-f0d26d33afad",
-        "e4fd5a9d-31e3-4e7f-a320-8b3f0ddb6fd5",
-        "416affc0-c2ea-486c-ab60-9634a3a9cfc8",
-        "2125f4a7-9587-4a40-ba9c-f13f9e9fe04e"
+        "2f400c67-094b-4510-a41e-530998d66496"
       ],
       "custom_css": [
         ".grid__item_inner {border: 1px solid #e3e3e2; margin: 5px; border-radius: 10px; padding: 20px;}"
       ],
       "settings": {
-        "title": "",
+        "title": "Profile",
         "align_text": "left",
         "divider": false,
         "color_scheme": "none"
+      }
+    },
+    "text_columns_ETN3cJ": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_QBmAWU": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "AlCuMgPb = EN AW 2007",
+            "text": "<p>DIN Werkstoff Nr. 3.1645<\/p><p><strong>Anwendungsbereiche:<br\/><\/strong>Bohr-, Dreh-, Fräsqualität<\/p><p>Eloxieren -<br\/>Zerspanbarkeit - sehr gut<br\/>Schweißen - nicht geeignet<br\/>Beständigkeit gg. Witterung\/Seewasser - schlecht\/schlecht<\/p><p><strong>Werte für Durchmesser bis ca. 60 mm<br\/><\/strong>Zugfestigkeit 370 - 470 N\/qmm<br\/>Streckgrenze 250 - 325 N\/qmm<br\/>Härte 100 - 140 Brinell<br\/>Wärmeleitfähigkeit 1,3 - 1,5 W\/cm °C<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_nJkG9w": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "AlCuBiPb \/ EN AW 2011",
+            "text": "<p>DIN Werkstoff Nr. 3.1655<\/p><p><strong>Anwendungsbereiche:<br\/><\/strong>Bohr-, Dreh-, Fräsqualität<\/p><p>Eloxieren -<br\/>Zerspanbarkeit - sehr gut<br\/>Schweißen - nicht geeignet<br\/>Beständigkeit gg. Witterung\/Seewasser - ausreichend\/schlecht<\/p><p><strong>Werte für Durchmesser bis ca. 60 mm<br\/><\/strong>Zugfestigkeit 370 - 410 N\/qmm<br\/>Streckgrenze 270 - 315 N\/qmm<br\/>Härte 110 - 130 Brinell<br\/>Wärmeleitfähigkeit 1,4 - 1,6 W\/cm °C<\/p><p><\/p><p><\/p><p><\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_8L3QGF": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "AlMgSi0,5 = EN AW 6060",
+            "text": "<p>DIN Werkstoff Nr. 3.3206<\/p><p><\/p><p><strong>Anwendungsbereiche:<br\/><\/strong>Fenster, Türen, Metallbau, Dekoration, Schrauben, Textilindustrie<\/p><p>Eloxieren - sehr gut<br\/>Zerspanbarkeit - sehr gut<br\/>Schweißen - gut<br\/>Beständigkeit gg. Witterung\/Seewasser -          sehr gut\/gut<\/p><p><strong>Werte für mittlere Querschnitte:<br\/><\/strong>Zugfestigkeit 215 - 260 N\/qmm<br\/>Streckgrenze 160 - 230 N\/qmm<br\/>Härte 70 - 80 Brinell<br\/>Wärmeleitfähigkeit ca. 1,86 W\/cm °C<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_QBmAWU",
+        "text_block_nJkG9w",
+        "text_block_8L3QGF"
+      ],
+      "settings": {
+        "title": "Vollmaterial - Rund \/ Flach \/ Vierkant  \/ Sechskant",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none"
+      }
+    },
+    "text_columns_E8XqTq": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_xzEghx": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "AlCuMg1 = EN AW 2017",
+            "text": "<p>DIN Werkstoff Nr. 3.1325<\/p><p><strong>Anwendungsbereiche:<br\/><\/strong>Luftfahrt, Transport, Verkehr, Schmiedestücke<\/p><p>Eloxieren - nicht geeignet<br\/>Zerspanbarkeit - gut<br\/>Schweißen - nicht geeignet<br\/>Beständigkeit gegen Witterung\/Seewasser -ausreichend\/schlecht<\/p><p><strong>Werte für Dicken bis ca. 50 mm<br\/><\/strong>Zugfestigkeit 385 - 460 N\/qmm<br\/>Streckgrenze 245 - 340 N\/qmm<br\/>Härte 95 - 130 Brinell<br\/>Wärmeleitfähigkeit 1,3 - 1,7 W\/cm °C<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_f4JB7w": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "AlMg4,5Mn = EN AW 5083",
+            "text": "<p>DIN Werkstoff Nr. 3.3547<\/p><p><strong>Anwendungsbereiche:<br\/><\/strong>Luftfahrt, Transport, Verkehr, Schmiedestücke<\/p><p>Eloxieren - ausreichend<br\/>Zerspanbarkeit - gut<br\/>Schweißen - gut<br\/>Beständigkeit gegen Witterung\/Seewasser -sehr gut \/ gut<\/p><p><strong>Werte für Dicken ab ca. 6 mm<br\/><\/strong>Zugfestigkeit 275 - 315 N\/qmm<br\/>Streckgrenze 125 - 180 N\/qmm<br\/>Härte 70 - 100 Brinell<br\/>Wärmeleitfähigkeit ca. 1,1 W\/cm °C<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_9q7bPt": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "AlMg3 = EN AW 5754",
+            "text": "<p>DIN Werkstoff Nr. 3.3535<\/p><p><strong>Anwendungsbereiche:<br\/><\/strong>Metall- und Behälterbau, Fahrzeug- und Schiffbau, <a href=\"https:\/\/alu-verkauf.de\/products\/riffelblech-duett-und-quintett-standardzuschnitte\" title=\"https:\/\/alu-verkauf.de\/products\/riffelblech-duett-und-quintett-standardzuschnitte\"><strong>Riffelblech<\/strong><\/a><\/p><p>Eloxieren - gut<br\/>Zerspanbarkeit - ausreichend<br\/>Schweißen - gut<br\/>Beständigkeit gegen Witterung\/Seewasser -sehr gut\/gut<\/p><p><strong>Werte für Dicken ab ca. 6 mm<\/strong><br\/>Zugfestigkeit 190 - 250 N\/qmm<br\/>Streckgrenze 80 - 140 N\/qmm<br\/>Härte 50 - 80 Brinell<br\/>Wärmeleitfähigkeit ca. 1,5 W\/cm °C<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_n3338k": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "AlMgSi0,5 = EN AW 6060",
+            "text": "<p>DIN Werkstoff Nr. 3.3206<\/p><p><\/p><p><strong>Anwendungsbereiche:<br\/><\/strong>Fenster, Türen, Metallbau, Dekoration, Schrauben, Textilindustrie<\/p><p>Eloxieren - sehr gut<br\/>Zerspanbarkeit - sehr gut<br\/>Schweißen - gut<br\/>Beständigkeit gegen Witterung\/Seewasser -sehr gut\/gut<\/p><p><strong>Werte für mittlere Querschnitte:<br\/><\/strong>Zugfestigkeit 215 - 260 N\/qmm<br\/>Streckgrenze 160 - 230 N\/qmm<br\/>Härte 70 - 80 Brinell<br\/>Wärmeleitfähigkeit ca. 1,86 W\/cm °C<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_nqq86T": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "AlZn5,5Mg1,5 = EN AW 7021",
+            "text": "<p>AlZn5,5Mg1,5 - als plangefräste Gussplatten<\/p><p><strong>Anwendungsbereiche:<br\/><\/strong>Werkzeugbau, Druckindustrie<\/p><p>Beidseitig foliert<\/p><p><strong>Werte<br\/><\/strong>Zugfestigkeit 320 - 380 N\/qmm<br\/>Streckgrenze 290 - 340 N\/qmm<br\/>Härte 110 - 120 Brinell<br\/>Wärmeleitfähigkeit 1,25 - 1,55 W\/cm °C<strong><br\/><\/strong><\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_QjdBAz": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "AlZnMgCu1,5 = EN AW 7075",
+            "text": "<p>DIN Werkstoff Nr. 3.4365<\/p><p><strong>Anwendungsbereiche:<br\/><\/strong>Luftfahrt, Maschinenbau<\/p><p>Eloxieren - nicht geeignet<br\/>Zerspanbarkeit - sehr gut<br\/>Schweißen - nicht geeignet<br\/>Beständigkeit gegen Witterung\/Seewasser -schlecht\/schlecht<\/p><p><strong>Werte für Dicken von ca. 12 - 50 mm<br\/><\/strong>Zugfestigkeit mind. 550 N\/qmm<br\/>Streckgrenze ca. 450 N\/qmm<br\/>Härte ca. 140 Brinell<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_xzEghx",
+        "text_block_f4JB7w",
+        "text_block_9q7bPt",
+        "text_block_n3338k",
+        "text_block_nqq86T",
+        "text_block_QjdBAz"
+      ],
+      "settings": {
+        "title": "Platten",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none"
+      }
+    },
+    "rich_text_YrMfbM": {
+      "type": "rich-text",
+      "blocks": {
+        "text_zR7Ath": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Durch eine Europanorm werden die verschiedenen Legierungen unter einer       4-stelligen Zahlenkombination zu Gruppen\/Klassen mit ähnlichen Eigenschaften zusammengefasst.<\/p>"
+          }
+        },
+        "text_aXzUiX": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p><strong>1000 Gruppe<\/strong> - <strong>Reinaluminium<\/strong> mind. 99% Al - nicht aushärtbar , beste physikalische Eigenschaft hinsichtlich elektrischer Wärmeleitfähigkeit, am besten umformbar<\/p><p><strong>Verwendung<\/strong>: Aluminiumfolie, chemische Tanks und Rohre<\/p><p><strong>2000 Gruppe<\/strong> - <strong>Kupfer<\/strong> - aushärtbar - weist eine hohe Festigkeit auf und sind schwierig kaltumformbar, wird überwiegend zur Zerspannung eingesetzt, mäßig korrosionsbeständig und sind bedingt schweißbar<\/p><p><strong>Verwendung<\/strong>: Flugzeugbau und Raumfahrt<\/p><p><strong>3000 Gruppe<\/strong> - <strong>Mangan<\/strong> besitzt nur eine leichte höhere Festigkeit als Reinaluminium, ist nicht aushärtbar<\/p><p><strong>Verwendung<\/strong>: Kochtöpfen über Kühler in Fahrzeugen bis zum Kraftwerksbau<\/p><p><strong>4000 Gruppe<\/strong> - <strong>Silicium<\/strong> aushärtbare und nicht aushärtbare Legierungen, senkt den Schmelzpunkt<\/p><p><strong>Verwendung:<\/strong> ideal für Schweiß- und Lötzusätze<\/p><p><strong>5000 Gruppe<\/strong> - <strong>Magnesium<\/strong>, nicht aushärtbar, werden sehr oft zum Kaltumformen von Blechen verwendet und bieten eine besondere Festigkeit<\/p><p><strong>Verwendung:<\/strong> Schiffsbau, Transport, Druckkessel, Brücken und Gebäuden als AA5024 (AlMgSc) auch für den Luftfahrteinsatz<\/p><p><strong>6000 Gruppe<\/strong> - <strong>Magnesium, Silicium<\/strong> sind  aushärtbar und haben eine hohe Festigkeit. Die 7000er enthalten Kupfer und haben die höchste Festigkeitswerte<\/p><p><strong>Verwendung:<\/strong> vorwiegend als Stangpressprofile<\/p><p><strong>7000 Gruppe<\/strong> - <strong>Zink<\/strong> sind aushärtbar und haben eine hohe Festigkeit. Die 7000er enthalten Kupfer und haben die höchste Festigkeitswerte<\/p><p><strong>8000 Gruppe<\/strong> - andere Elemente sind Sonderlegierungen, die großtechnisch nicht hergestellt werden und marktüblich vertreten sind.<\/p><p><strong>Verwendung:<\/strong> Flugzeugbau, Raumfahrt, Sportgeräte, Gehäuse von Mobiltelefonen<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_zR7Ath",
+        "text_aXzUiX"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "1",
+        "divider": false
       }
     },
     "e8047a0e-2e60-411b-8829-9065b3604eb3": {
@@ -330,6 +369,9 @@
     "b37da04b-c409-40bf-89e1-352e11985fcd",
     "2bcb0b91-7c44-4198-96e9-16d6053e6160",
     "ddbd1fda-dafb-4470-9ae5-f590f192ac92",
+    "text_columns_ETN3cJ",
+    "text_columns_E8XqTq",
+    "rich_text_YrMfbM",
     "e8047a0e-2e60-411b-8829-9065b3604eb3"
   ]
 }
