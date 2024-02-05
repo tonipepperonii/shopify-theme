@@ -159,6 +159,9 @@
         "text_block_nJkG9w",
         "text_block_8L3QGF"
       ],
+      "custom_css": [
+        ".grid__item_inner {border: 1px solid #e3e3e2; margin: 5px; border-radius: 10px; padding: 20px;}"
+      ],
       "settings": {
         "title": "Vollmaterial - Rund \/ Flach \/ Vierkant  \/ Sechskant",
         "align_text": "left",
@@ -243,6 +246,9 @@
         "text_block_n3338k",
         "text_block_nqq86T",
         "text_block_QjdBAz"
+      ],
+      "custom_css": [
+        ".grid__item_inner {border: 1px solid #e3e3e2; margin: 5px; border-radius: 10px; padding: 20px;}"
       ],
       "settings": {
         "title": "Platten",
