@@ -41,6 +41,7 @@
         },
         "hero_PUBHJJ": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>Der Frühling kommt! <\/p><p>Auf alle Winkel- und Vierkantrohre:<\/p>",

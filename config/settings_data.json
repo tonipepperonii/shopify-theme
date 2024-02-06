@@ -188,10 +188,19 @@
               "richtext": "<p>Restposten - 30 % reduziert!<\/p>",
               "richtext_mobile": ""
             }
+          },
+          "announcement_NLhgXy": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "richtext": "<p>15 % Rabatt - alle Winkel- und Vierkantprofile<\/p>",
+              "richtext_mobile": "<p>15 % Rabatt - alle Winkel- und Vierkantprofile<\/p>"
+            }
           }
         },
         "block_order": [
-          "46d1e579-4f99-4d2a-b718-543e55ccc0cb"
+          "46d1e579-4f99-4d2a-b718-543e55ccc0cb",
+          "announcement_NLhgXy"
         ],
         "settings": {
           "announcement_center": false,
