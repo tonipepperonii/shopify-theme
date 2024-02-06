@@ -41,11 +41,10 @@
         },
         "hero_PUBHJJ": {
           "type": "hero",
-          "disabled": true,
           "settings": {
             "top_subheading": "",
-            "title": "<p>Auf alle Winkel- und Vierkantprofile<\/p>",
-            "title_size": 54,
+            "title": "<p>Der Frühling kommt! <\/p><p>Auf alle Winkel- und Vierkantrohre:<\/p>",
+            "title_size": 41,
             "subheading": "15 % Rabatt",
             "link": "",
             "link_text": "Code: Winkel2024",
@@ -53,8 +52,8 @@
             "link_text_2": "",
             "color_accent": "#f89230",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/Header_02_2024_1.png",
-            "overlay_opacity": 20,
+            "image": "shopify:\/\/shop_images\/2b.jpg",
+            "overlay_opacity": 16,
             "focal_point": "center center"
           }
         }
