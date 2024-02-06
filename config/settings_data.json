@@ -193,8 +193,8 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "richtext": "<p>15 % Rabatt - alle Winkel- und Vierkantprofile<\/p>",
-              "richtext_mobile": "<p>15 % Rabatt - alle Winkel- und Vierkantprofile<\/p>"
+              "richtext": "<p>Alle Winkel- und Vierkantprofile - 15 % Rabatt<\/p>",
+              "richtext_mobile": "<p>Alle Winkel- und Vierkantprofile - 15 % Rabatt<\/p>"
             }
           }
         },
