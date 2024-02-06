@@ -186,7 +186,7 @@
             "type": "announcement",
             "settings": {
               "richtext": "<p>Restposten - 30 % reduziert!<\/p>",
-              "richtext_mobile": ""
+              "richtext_mobile": "<p>Restposten - 30 % reduziert!<\/p>"
             }
           },
           "announcement_NLhgXy": {
