@@ -54,7 +54,7 @@
       ],
       "settings": {
         "sku_enable": false,
-        "hinweis-richtext": "<p>Die angegebenen Preise verstehen sich als <strong>Bruttopreise inkl. MwSt.<\/strong>, zzgl. Versandkosten. Gerne prüfen wir, ob Abmessungen, die hier nicht aufgeführt werden, für Sie beschaffbar sind. Schicken Sie uns hierzu gerne eine Anfrage per Kontaktformular und wir werden Ihnen schnellstmöglich eine Rückmeldung zukommen lassen.<\/p>",
+        "hinweis-richtext": "<p>Die angegebenen Preise verstehen sich als <strong>Bruttopreise inkl. MwSt.<\/strong>, zzgl. Versandkosten. Für <strong>individuelle Größen<\/strong> nutzen sie gerne unseren <a href=\"https:\/\/alu-verkauf.de\/products\/aluminium-platten\">Aluminium Platten – Konfigurator<\/a>.<\/p><p><span style=\"text-decoration:underline\"><em>Hinweis zum Konfigurator:<\/em><\/span><br\/>Plattendicke 2,5 mm oder 3,5 mm und Legierung AlMg3_Riffel_Duett oder AlMg3_Riffel_Quintett auswählen.<\/p>",
         "image_position": "left",
         "image_container_size": "medium",
         "product_image_size": "square",
