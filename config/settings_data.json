@@ -191,6 +191,7 @@
           },
           "announcement_NLhgXy": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "richtext": "<p>Alle Winkel und Vierkantprofile - 15 % Rabatt Code: Winkel2024<\/p>",
               "richtext_mobile": "<p>Alle Winkel und Vierkantprofile - 15 % Rabatt Code: Winkel2024<\/p>"
