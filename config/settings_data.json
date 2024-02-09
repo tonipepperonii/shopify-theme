@@ -182,25 +182,24 @@
       "toolbar": {
         "type": "toolbar",
         "blocks": {
+          "announcement_NLhgXy": {
+            "type": "announcement",
+            "settings": {
+              "richtext": "<p>Alle Winkel und Vierkantprofile - 15 % Rabatt Code: Winkel2024<\/p>",
+              "richtext_mobile": "<p>Alle Winkel und Vierkantprofile - 15 % Rabatt Code: Winkel2024<\/p>"
+            }
+          },
           "46d1e579-4f99-4d2a-b718-543e55ccc0cb": {
             "type": "announcement",
             "settings": {
               "richtext": "<p>Restposten - 30 % reduziert!<\/p>",
               "richtext_mobile": "<p>Restposten - 30 % reduziert!<\/p>"
             }
-          },
-          "announcement_NLhgXy": {
-            "type": "announcement",
-            "disabled": true,
-            "settings": {
-              "richtext": "<p>Alle Winkel und Vierkantprofile - 15 % Rabatt Code: Winkel2024<\/p>",
-              "richtext_mobile": "<p>Alle Winkel und Vierkantprofile - 15 % Rabatt Code: Winkel2024<\/p>"
-            }
           }
         },
         "block_order": [
-          "46d1e579-4f99-4d2a-b718-543e55ccc0cb",
-          "announcement_NLhgXy"
+          "announcement_NLhgXy",
+          "46d1e579-4f99-4d2a-b718-543e55ccc0cb"
         ],
         "settings": {
           "announcement_center": false,
