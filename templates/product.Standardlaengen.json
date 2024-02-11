@@ -64,6 +64,11 @@
             "color_swatches": false
           }
         },
+        "quantity_selector_WiAaBA": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -85,6 +90,7 @@
       },
       "block_order": [
         "variant_picker",
+        "quantity_selector_WiAaBA",
         "price",
         "0b529514-2cd6-442b-91f6-cd9726c87e30",
         "buy_buttons"
@@ -103,6 +109,28 @@
         "mobile_layout": "partial",
         "enable_video_looping": true,
         "product_video_style": "muted"
+      }
+    },
+    "sidebar_rich_text_GQwyxe": {
+      "type": "sidebar-rich-text",
+      "blocks": {
+        "text_Hx7QfG": {
+          "type": "text",
+          "settings": {
+            "main_richtext": "<h1>Hier steht ein Beispiel<\/h1> <p>So könnte es aussehen<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_Hx7QfG"
+      ],
+      "settings": {
+        "side-title": "Wir sind für Sie da:",
+        "image": "shopify:\/\/shop_images\/DSC_1210k_65beac15-1f30-437c-8cad-b0ebcd0e5817.jpg",
+        "side-richtext": "<p>Nils Vespermann & Mike Janke<\/p>",
+        "phone": "05121 \/ 28 290 - 0",
+        "mail": "verkauf@alu-verkauf.de",
+        "checkbox": true
       }
     },
     "sub": {
@@ -198,6 +226,7 @@
   "order": [
     "11d26c36-a631-42d5-892c-ed8bfd22fef4",
     "main",
+    "sidebar_rich_text_GQwyxe",
     "sub",
     "recommendations",
     "more-products-vendor",
