@@ -74,12 +74,6 @@
           "settings": {
           }
         },
-        "0b529514-2cd6-442b-91f6-cd9726c87e30": {
-          "type": "description",
-          "settings": {
-            "is_tab": false
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -92,7 +86,6 @@
         "variant_picker",
         "quantity_selector_WiAaBA",
         "price",
-        "0b529514-2cd6-442b-91f6-cd9726c87e30",
         "buy_buttons"
       ],
       "custom_css": [
