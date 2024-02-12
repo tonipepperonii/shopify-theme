@@ -1,6 +1,118 @@
+<div class="rich-text-with-sidebar-card">
+  {% for block in section.blocks %}
+    {% case block.type %}
+      {% when "text"%}
+      
+        <div class="rich-text-with-sidebar-main-container">
+          {%- if request.page_type == 'product' -%}
+            <div class="rte">
+              {{ product.description }}
+            </div>
+            
+          {%- else -%}
+            {{ block.settings.main_richtext }}
+          {%- endif -%}
+      
+        </div>
+    {% endcase %}
+  {% endfor %}
+
+  
+  <div class= "rich-text-with-sidebar-sidebar"> 
+  <div class="rich-text-with-sidebar-sidebar-container">
+    <b style="color:#f39200, text-align:center, font-size:16px">{{ section.settings.side-title }}</b><br><br>
+    <img src="{{ section.settings.image | img_url:'master' }}" height=100 width=100 loading="lazy"/>
+    {{ section.settings.side-richtext }}
+    {%- unless section.settings.phone == blank -%}
+      <div><i class="fa fa-phone" style="color: #f39200; padding-right: 10px;"></i>{{ section.settings.phone }}</div>
+    {%- endunless -%}
+    {%- unless section.settings.mail == blank -%}
+      <div><i class="fa fa-envelope" style="color: #f39200; padding-right: 10px;"></i>{{ section.settings.mail }}</div>
+    {%- endunless -%}
+  </div>
+  <div class="rich-text-with-sidebar-versand-container">
+    <div class="ul-libottom" >
+      <ul style="margin: 0; padding: 0 10px;" >
+        <li style="width: 100%;"><i class="fa fa-check"></i> {{ 'sections.sidebar.fast_shipping' | t }}</li>
+        <li style="width: 100%;"><i class="fa fa-check"></i> {{ 'sections.sidebar.no_minimum' | t }}</li>
+        <li style="width: 100%;"><i class="fa fa-check"></i> {{ 'sections.sidebar.large_selection' | t }}</li>
+        <li style="width: 100%;"><i class="fa fa-check"></i> {{ 'sections.sidebar.individual_cuts' | t }}</li>
+        <li style="width: 100%;"><i class="fa fa-check"></i> {{ 'sections.sidebar.special_sizes' | t }}</li>
+        <li style="width: 100%;"><i class="fa fa-check"></i> {{ 'sections.sidebar.20_years' | t }}</li>
+        <li style="width: 100%;"><i class="fa fa-check"></i> {{ 'sections.sidebar.pick_up' | t }}</li>
+      </ul>
+    </div>
+  </div>
+  
+  {% if section.settings.checkbox %}
+  <div class="last-desbox">
+    <img src="{{ 'trructed-detail.webp' | asset_url }}">
+    <span>{{ 'sections.sidebar.trusted_shops' | t }}</span>
+  </div>
+  {% endif %}
+  </div>
+</div>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "t:sections.sidebar-rich-text.name",
+  "settings": [
+    {
+      "type": "text",
+      "id": "side-title",
+      "label": "t:sections.sidebar-rich-text.settings.side-title.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.sidebar-rich-text.settings.image.label"
+    },
+    {
+      "type": "richtext",
+      "id": "side-richtext",
+      "label": "t:sections.sidebar-rich-text.settings.side-richtext.label"
+    },
+    {
+      "type": "text",
+      "id": "phone",
+      "label": "Telefon"
+    },
+    {
+      "type": "text",
+      "id": "mail",
+      "label": "E-Mail"
+    },
+    {
+      "type": "checkbox",
+      "id": "checkbox",
+      "label": "t:sections.sidebar-rich-text.settings.checkbox.label",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "t:sections.sidebar-rich-text.blocks.main_text.name",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "main_richtext",
+          "label": "t:sections.sidebar-rich-text.blocks.main_text.settings.main_richtext.label",
+          "default": "<h1>Hier steht ein Beispiel</h1> <p>So könnte es aussehen</p>",
+          "info": "Auf Produktseiten wird dieser Text automatisch mit der Produktbeschreibung überschrieben."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.sidebar-rich-text.presets.rich_text_with_sidebar.name",
+      "blocks": [
+        {
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
