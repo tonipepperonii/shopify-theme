@@ -79,10 +79,10 @@
         "text_block_BrANAy"
       ],
       "settings": {
-        "title": "",
+        "title": "Deinen persönlichen Ansprechpartner:",
         "align_text": "left",
         "divider": false,
-        "color_scheme": "none"
+        "color_scheme": "1"
       }
     }
   },
