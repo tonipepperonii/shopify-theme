@@ -55,7 +55,7 @@
     "collection_grid_shape": "square",
     "collection_grid_image": "collection",
     "collection_grid_image_margin": 17,
-    "cart_type": "dropdown",
+    "cart_type": "page",
     "cart_additional_buttons": false,
     "cart_notes_enable": true,
     "cart_terms_conditions_enable": false,
