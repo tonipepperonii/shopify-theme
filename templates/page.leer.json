@@ -11,7 +11,7 @@
         "heading_wkHwJX": {
           "type": "heading",
           "settings": {
-            "title": "Willkommen beim Blog der alu-verkauf GmbH!",
+            "title": "Willkommen bei der alu-verkauf GmbH!",
             "show_line": false
           }
         },
@@ -56,7 +56,7 @@
             "image": "shopify:\/\/shop_images\/Kai.jpg",
             "image_width": 650,
             "title": "Kai Greten",
-            "text": "<p>Seit 2021 führt Kai das Unternehmen alu-verkauf.de<\/p><p>Neue Ideen...<\/p>",
+            "text": "<p>Seit 2021 führt Kai das Unternehmen alu-verkauf.de<\/p><p>Zeit für Veränderungen!<\/p><p>Neue Ideen...<\/p>",
             "button_label": "",
             "button_link": ""
           }
