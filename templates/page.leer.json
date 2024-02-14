@@ -5,6 +5,27 @@
       "settings": {
       }
     },
+    "slideshow_image_7zFqdU": {
+      "type": "slideshow-image",
+      "blocks": {
+        "image_fErGBk": {
+          "type": "image",
+          "settings": {
+            "link": "https:\/\/www.alu-verkauf.de",
+            "image": "shopify:\/\/shop_images\/auswahl.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_fErGBk"
+      ],
+      "settings": {
+        "full_width": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
     "rich_text_MzXfww": {
       "type": "rich-text",
       "blocks": {
@@ -88,6 +109,7 @@
   },
   "order": [
     "main",
+    "slideshow_image_7zFqdU",
     "rich_text_MzXfww",
     "text_columns_C6RPQA"
   ]
