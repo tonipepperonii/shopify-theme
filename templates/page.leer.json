@@ -55,9 +55,9 @@
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/Kai.jpg",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions.<\/p>",
-            "button_label": "Optional button",
+            "title": "Kai Greten",
+            "text": "<p>Seit 2021 führt Kai das Unternehmen alu-verkauf.de<\/p><p>Neue Ideen...<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         },
