@@ -41,7 +41,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/DSC_1158a_39ab9bde-2f4f-4e6c-9a87-7d6b2852911a.jpg",
+            "image": "shopify:\/\/shop_images\/Mike1_efdb1a36-f6c5-4028-9564-38f1e663e49d.jpg",
             "image_width": 650,
             "title": "Mike Janke",
             "text": "<p>Als Ansprechpartner für unsere Kunden und Lieferanten ist Mike durch sein sympathisches Auftreten und seine Verlässlichkeit, ein fester Bestandteil des Teams alu-verkauf.de geworden.<\/p>",
@@ -53,6 +53,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Kai.jpg",
             "image_width": 650,
             "title": "Example title",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions.<\/p>",
