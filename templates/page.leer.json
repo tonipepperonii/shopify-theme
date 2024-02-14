@@ -55,6 +55,19 @@
         "divider": false
       }
     },
+    "blog_posts_EahUc4": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "Thema des Monats:",
+        "blog": "news",
+        "blog_show_tags": true,
+        "blog_show_excerpt": true,
+        "blog_show_image": true,
+        "blog_show_date": true,
+        "divider": false,
+        "blog_image_size": "wide"
+      }
+    },
     "text_columns_C6RPQA": {
       "type": "text-columns",
       "blocks": {
@@ -111,6 +124,7 @@
     "main",
     "slideshow_image_7zFqdU",
     "rich_text_MzXfww",
+    "blog_posts_EahUc4",
     "text_columns_C6RPQA"
   ]
 }
