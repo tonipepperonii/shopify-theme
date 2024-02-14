@@ -68,6 +68,7 @@
         },
         "de9f3222-2f3a-419b-a933-039b4657d421": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/jobs-logo.png",
             "title": "Studentisches Praktikum Online Marketing",
