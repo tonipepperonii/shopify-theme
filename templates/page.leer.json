@@ -66,9 +66,9 @@
           "settings": {
             "enable_image": true,
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions.<\/p>",
-            "button_label": "Optional button",
+            "title": "Nils Vespermann",
+            "text": "<p>Nils...<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         }
