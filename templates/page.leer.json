@@ -4,9 +4,39 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "rich_text_MzXfww": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wkHwJX": {
+          "type": "heading",
+          "settings": {
+            "title": "Willkommen beim Blog der alu-verkauf GmbH!",
+            "show_line": false
+          }
+        },
+        "text_ffTUDV": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Hier wollen wir mit Euch als unsere Kunden und Aluminium-Interessenten in den näheren Kontakt treten. <\/p><p>Wir möchten rund um das Thema Aluminium, Alu-Profile und ihre Anwendungsbereiche diskutieren und berichten. <\/p><p>Auch erzählen wir ein wenig über uns als Firma, und bieten Euch einen Einblick in unser Unternehmen. <\/p><p>Aluminiumprofile sind sehr vielseitig einsetzbar: In diesem Blog hoffen wir, Euch neue Konstruktionsideen liefern zu können und Eure Kreativität zu unterstützen. aluverkauf hilft Euch bei möglichen Fragen und entsprechenden potenziellen Lösungswegen. <\/p><p>Schaut Euch in unserem Blog um! <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wkHwJX",
+        "text_ffTUDV"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "color_scheme": "1",
+        "divider": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_MzXfww"
   ]
 }
