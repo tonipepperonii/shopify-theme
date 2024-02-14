@@ -33,10 +33,61 @@
         "color_scheme": "1",
         "divider": false
       }
+    },
+    "text_columns_C6RPQA": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_w89mpz": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DSC_1158a_39ab9bde-2f4f-4e6c-9a87-7d6b2852911a.jpg",
+            "image_width": 650,
+            "title": "Mike Janke",
+            "text": "<p>Als Ansprechpartner für unsere Kunden und Lieferanten ist Mike durch sein sympathisches Auftreten und seine Verlässlichkeit, ein fester Bestandteil des Teams alu-verkauf.de geworden.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_ekKp7W": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_BrANAy": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_w89mpz",
+        "text_block_ekKp7W",
+        "text_block_BrANAy"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none"
+      }
     }
   },
   "order": [
     "main",
-    "rich_text_MzXfww"
+    "rich_text_MzXfww",
+    "text_columns_C6RPQA"
   ]
 }
