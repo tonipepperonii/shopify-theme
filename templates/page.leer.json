@@ -29,25 +29,16 @@
     "advanced_content_yQjN7A": {
       "type": "advanced-content",
       "blocks": {
-        "image_TgUkjA": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "width": "50%",
-            "alignment": "center"
-          }
-        },
         "liquid_gn9T3Q": {
           "type": "liquid",
           "settings": {
-            "code": "<div>\n<!-- Begin eTrusted widget tag -->\n<etrusted-widget data-etrusted-widget-id=\"wdg-8ccd04ca-2380-4aa9-9140-7f877db4aa88\"><\/etrusted-widget>\n<!-- End eTrusted widget tag -->\ntrusted shops><\/div>",
-            "width": "50%",
+            "code": "<div>\n<!-- Begin eTrusted widget tag -->\n<etrusted-widget data-etrusted-widget-id=\"wdg-8ccd04ca-2380-4aa9-9140-7f877db4aa88\"><\/etrusted-widget>\n<!-- End eTrusted widget tag -->\ntrusted shops<\/div>",
+            "width": "100%",
             "alignment": "center"
           }
         }
       },
       "block_order": [
-        "image_TgUkjA",
         "liquid_gn9T3Q"
       ],
       "settings": {
