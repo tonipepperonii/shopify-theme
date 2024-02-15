@@ -122,25 +122,16 @@
     "advanced_content_d38idK": {
       "type": "advanced-content",
       "blocks": {
-        "image_9MeheA": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "width": "50%",
-            "alignment": "center"
-          }
-        },
         "liquid_i7wL6U": {
           "type": "liquid",
           "settings": {
             "code": "<!-- Begin eTrusted widget tag -->\n<etrusted-widget data-etrusted-widget-id=\"wdg-8ccd04ca-2380-4aa9-9140-7f877db4aa88\"><\/etrusted-widget>\n<!-- End eTrusted widget tag -->",
-            "width": "50%",
+            "width": "100%",
             "alignment": "center"
           }
         }
       },
       "block_order": [
-        "image_9MeheA",
         "liquid_i7wL6U"
       ],
       "settings": {
