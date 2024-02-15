@@ -26,26 +26,6 @@
         "autoplay_speed": 7
       }
     },
-    "advanced_content_yQjN7A": {
-      "type": "advanced-content",
-      "blocks": {
-        "liquid_gn9T3Q": {
-          "type": "liquid",
-          "settings": {
-            "code": "<etrusted-widget data-etrusted-widget-id=\"wdg-06f1a150-a851-46f5-bc75-c9860b885eee\"><\/etrusted-widget>\n<!-- End eTrusted widget tag -->",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "liquid_gn9T3Q"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
-    },
     "rich_text_MzXfww": {
       "type": "rich-text",
       "blocks": {
@@ -139,20 +119,20 @@
         "color_scheme": "1"
       }
     },
-    "advanced_content_d38idK": {
+    "advanced_content_yQjN7A": {
       "type": "advanced-content",
       "blocks": {
-        "liquid_i7wL6U": {
+        "liquid_gn9T3Q": {
           "type": "liquid",
           "settings": {
-            "code": "<!-- Begin eTrusted widget tag -->\n<etrusted-widget data-etrusted-widget-id=\"wdg-8ccd04ca-2380-4aa9-9140-7f877db4aa88\"><\/etrusted-widget>\n<!-- End eTrusted widget tag -->",
+            "code": "<etrusted-widget data-etrusted-widget-id=\"wdg-06f1a150-a851-46f5-bc75-c9860b885eee\"><\/etrusted-widget>\n<!-- End eTrusted widget tag -->",
             "width": "100%",
             "alignment": "center"
           }
         }
       },
       "block_order": [
-        "liquid_i7wL6U"
+        "liquid_gn9T3Q"
       ],
       "settings": {
         "full_width": false,
@@ -163,10 +143,9 @@
   "order": [
     "main",
     "slideshow_image_7zFqdU",
-    "advanced_content_yQjN7A",
     "rich_text_MzXfww",
     "blog_posts_EahUc4",
     "text_columns_C6RPQA",
-    "advanced_content_d38idK"
+    "advanced_content_yQjN7A"
   ]
 }
