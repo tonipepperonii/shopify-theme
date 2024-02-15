@@ -6,7 +6,15 @@
         <div class="rich-text-with-sidebar-main-container">
           {%- if request.page_type == 'product' -%}
             <div class="rte">
-              {{ product.collections.first.description }}
+            {% assign product_name = product.title %}
+
+            {% for collection in product.collections %}
+              {% if collection.title == product_name %}
+                <div>{{ collection.description }}</div>
+                {% break %}
+              {% endif %}
+            {% endfor %}
+              
             </div>
             
           {%- else -%}
