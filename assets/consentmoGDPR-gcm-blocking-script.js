@@ -37,7 +37,7 @@ window.isenseRules.initializeGcm = function (rules) {
 
 // Google Consent Mode - initialization start
 window.isenseRules.initializeGcm({
-  "id": "GTM-1234568",
+  "id": "GTM-KSKGXRR",
   "analyticsId": "",
   "isActive": true,
   "customEvent": true,
