@@ -44,7 +44,7 @@ window.isenseRules.initializeGcm({
   "securityStorageCategory": 0,
   "redactData": true,
   "urlPassthrough": true,
-  "initialState": 7
+  "initialState": 1
 })
 
 /*
