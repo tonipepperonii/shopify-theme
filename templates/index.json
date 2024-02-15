@@ -481,6 +481,27 @@
         "color_scheme": "none"
       }
     },
+    "rich_text_iXmjdM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_J4CmwM": {
+          "type": "heading",
+          "settings": {
+            "title": "Kundenstimmen",
+            "show_line": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_J4CmwM"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "2",
+        "divider": false
+      }
+    },
     "advanced_content_CgfHXA": {
       "type": "advanced-content",
       "blocks": {
@@ -512,6 +533,7 @@
     "61a6d63d-1e52-498b-b291-23b56f504820",
     "21febce1-97b9-4f8a-a452-d41a6bc2c875",
     "c185c803-627b-44c4-bb29-cd2ef0e10fae",
+    "rich_text_iXmjdM",
     "advanced_content_CgfHXA"
   ]
 }
