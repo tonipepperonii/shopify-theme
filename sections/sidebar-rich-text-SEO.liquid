@@ -6,7 +6,7 @@
         <div class="rich-text-with-sidebar-main-container">
           {%- if request.page_type == 'product' -%}
             <div class="rte">
-              {{ product.price }}
+              {{ product.collections.first.description }}
             </div>
             
           {%- else -%}
