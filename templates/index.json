@@ -473,11 +473,32 @@
         "7c414513-4781-468f-9fa9-2644dedac223",
         "fe3d64fc-6679-4e4d-bcd4-d163835649b1"
       ],
+      "disabled": true,
       "settings": {
         "title": "Kundenstimmen",
         "align_text": "left",
         "round_images": true,
         "color_scheme": "none"
+      }
+    },
+    "advanced_content_CgfHXA": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_fPdyfR": {
+          "type": "liquid",
+          "settings": {
+            "code": "<etrusted-widget data-etrusted-widget-id=\"wdg-06f1a150-a851-46f5-bc75-c9860b885eee\"><\/etrusted-widget>\n<!-- End eTrusted widget tag -->",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_fPdyfR"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
       }
     }
   },
@@ -490,6 +511,7 @@
     "c5e4a292-5547-4722-8908-f8e44d7f0a72",
     "61a6d63d-1e52-498b-b291-23b56f504820",
     "21febce1-97b9-4f8a-a452-d41a6bc2c875",
-    "c185c803-627b-44c4-bb29-cd2ef0e10fae"
+    "c185c803-627b-44c4-bb29-cd2ef0e10fae",
+    "advanced_content_CgfHXA"
   ]
 }
