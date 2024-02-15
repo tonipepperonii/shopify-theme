@@ -32,7 +32,7 @@
         "liquid_gn9T3Q": {
           "type": "liquid",
           "settings": {
-            "code": "<div>\n<!-- Begin eTrusted widget tag -->\n<etrusted-widget data-etrusted-widget-id=\"wdg-8ccd04ca-2380-4aa9-9140-7f877db4aa88\"><\/etrusted-widget>\n<!-- End eTrusted widget tag -->\ntrusted shops<\/div>Wie Sie das Widget in Ihrer Webseite integrieren\n\nUm das Widget zu integrieren, fügen Sie bitte das folgende HTML an die passenden Stellen in Ihrer Webseite ein.\n\nInitialisierung\n\nFügen Sie den folgenden Code in den Head-Abschnitt Ihrer Webseite ein:\n\n<!-- Begin eTrusted bootstrap tag -->\n<script src=\"https:\/\/integrations.etrusted.com\/applications\/widget.js\/v2\" async defer><\/script>\n<!-- End eTrusted bootstrap tag -->\n\nWidget einbinden\n\nKopieren Sie den folgenden Code und fügen Sie ihn in den Body Ihrer Webseite an der Stelle ein, wo das Widget dargestellt werden soll.\n\n<!-- Begin eTrusted widget tag -->\n<etrusted-widget data-etrusted-widget-id=\"wdg-06f1a150-a851-46f5-bc75-c9860b885eee\"><\/etrusted-widget>\n<!-- End eTrusted widget tag -->",
+            "code": "<etrusted-widget data-etrusted-widget-id=\"wdg-8ccd04ca-2380-4aa9-9140-7f877db4aa88\"><\/etrusted-widget>\n\n<etrusted-widget data-etrusted-widget-id=\"wdg-06f1a150-a851-46f5-bc75-c9860b885eee\"><\/etrusted-widget>\n<!-- End eTrusted widget tag -->",
             "width": "100%",
             "alignment": "center"
           }
