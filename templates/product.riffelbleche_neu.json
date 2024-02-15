@@ -128,6 +128,27 @@
         "product_video_style": "muted"
       }
     },
+    "sidebar_rich_text_seo_QQdMRK": {
+      "type": "sidebar-rich-text-SEO",
+      "blocks": {
+        "text_qKRtwY": {
+          "type": "text",
+          "settings": {
+            "main_richtext": "<h1>Hier steht ein Beispiel<\/h1> <p>So könnte es aussehen<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_qKRtwY"
+      ],
+      "settings": {
+        "side-title": "",
+        "side-richtext": "",
+        "phone": "",
+        "mail": "",
+        "checkbox": true
+      }
+    },
     "c1ac324a-eaf3-4b54-96f2-fe1b250705f5": {
       "type": "sidebar-rich-text",
       "blocks": {
@@ -221,6 +242,7 @@
   "order": [
     "5496d8f0-cbe1-4f56-b789-aad06ed907f2",
     "main",
+    "sidebar_rich_text_seo_QQdMRK",
     "c1ac324a-eaf3-4b54-96f2-fe1b250705f5",
     "sub",
     "recommendations",
