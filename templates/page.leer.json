@@ -116,7 +116,7 @@
         "title": "Deine persönlichen Ansprechpartner:",
         "align_text": "left",
         "divider": false,
-        "color_scheme": "1"
+        "color_scheme": "2"
       }
     },
     "advanced_content_yQjN7A": {
@@ -136,7 +136,7 @@
       ],
       "settings": {
         "full_width": false,
-        "space_around": true
+        "space_around": false
       }
     }
   },
