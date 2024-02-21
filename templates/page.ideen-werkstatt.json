@@ -150,6 +150,7 @@
         "d607d541-ac0b-4cea-b75a-aff449c2a765",
         "587e3213-beec-4643-bdb9-885c1e595107"
       ],
+      "disabled": true,
       "settings": {
         "title": "Kundenstimmen",
         "align_text": "center",
