@@ -94,6 +94,7 @@
       "blocks": {
         "template--18273043644720__7d17c9f2-9396-4be3-86ca-4f04a6cc42e2-1679655220622d0e17-0": {
           "type": "testimonial",
+          "disabled": true,
           "settings": {
             "icon": "5-stars",
             "testimonial": "<p>Von der Bestellung und der Lieferung vergingen nur 2 Tage. Die Ware war perfekt verpackt und kam ohne jegliche Beschädigungen an. Die Auswahl der verschiedenen Profilen ist reichhaltig und für jeden was dabei. Ich würde jederzeit wieder bestellen. Das Preis Leistungsverhältnis stimmt auch.<\/p>",
@@ -181,24 +182,36 @@
             "title": "Kundenstimmen",
             "show_line": false
           }
-        },
-        "text_UcyNFY": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
         }
       },
       "block_order": [
-        "heading_8HFnbc",
-        "text_UcyNFY"
+        "heading_8HFnbc"
       ],
       "settings": {
         "align_text": "center",
         "narrow_column": true,
         "color_scheme": "1",
         "divider": false
+      }
+    },
+    "advanced_content_9rjDmx": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_X7jEnj": {
+          "type": "liquid",
+          "settings": {
+            "code": "<etrusted-widget data-etrusted-widget-id=\"wdg-06f1a150-a851-46f5-bc75-c9860b885eee\"><\/etrusted-widget>\n<!-- End eTrusted widget tag -->",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_X7jEnj"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
       }
     }
   },
@@ -207,6 +220,7 @@
     "main",
     "1f70e298-d711-41ec-baf0-4ea231cf184c",
     "7d17c9f2-9396-4be3-86ca-4f04a6cc42e2",
-    "rich_text_hiVq7c"
+    "rich_text_hiVq7c",
+    "advanced_content_9rjDmx"
   ]
 }
