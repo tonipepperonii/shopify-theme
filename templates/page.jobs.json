@@ -94,7 +94,6 @@
       "blocks": {
         "template--18273043644720__7d17c9f2-9396-4be3-86ca-4f04a6cc42e2-1679655220622d0e17-0": {
           "type": "testimonial",
-          "disabled": true,
           "settings": {
             "icon": "5-stars",
             "testimonial": "<p>Von der Bestellung und der Lieferung vergingen nur 2 Tage. Die Ware war perfekt verpackt und kam ohne jegliche Beschädigungen an. Die Auswahl der verschiedenen Profilen ist reichhaltig und für jeden was dabei. Ich würde jederzeit wieder bestellen. Das Preis Leistungsverhältnis stimmt auch.<\/p>",
@@ -166,6 +165,7 @@
         "34a39c03-2542-46ac-b94a-57703dcced91",
         "ac15bca4-1b0b-4616-a1da-2f80d50598f4"
       ],
+      "disabled": true,
       "settings": {
         "title": "Kundenstimmen",
         "align_text": "left",
