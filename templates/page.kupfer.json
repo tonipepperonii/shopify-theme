@@ -182,6 +182,47 @@
         "round_images": true,
         "color_scheme": "none"
       }
+    },
+    "rich_text_j6PNjK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_eVKkXt": {
+          "type": "heading",
+          "settings": {
+            "title": "Kundenstimmen",
+            "show_line": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_eVKkXt"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "advanced_content_NDGH7N": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_CtgYQr": {
+          "type": "liquid",
+          "settings": {
+            "code": "<etrusted-widget data-etrusted-widget-id=\"wdg-06f1a150-a851-46f5-bc75-c9860b885eee\"><\/etrusted-widget>\n<!-- End eTrusted widget tag -->",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_CtgYQr"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
@@ -189,6 +230,8 @@
     "d38437cf-d8e2-4fbd-8519-bdc9ed069000",
     "0a8c9c81-e01d-4a59-a54d-9a2948d69eaa",
     "6a955d8e-ea54-40aa-8cec-389be3f10064",
-    "8db9983e-4067-445d-8f07-89a135799afd"
+    "8db9983e-4067-445d-8f07-89a135799afd",
+    "rich_text_j6PNjK",
+    "advanced_content_NDGH7N"
   ]
 }
