@@ -132,12 +132,55 @@
         "round_images": true,
         "color_scheme": "none"
       }
+    },
+    "rich_text_8QDY9i": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_c6efQa": {
+          "type": "heading",
+          "settings": {
+            "title": "Kundenstimmen",
+            "show_line": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_c6efQa"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "advanced_content_difKzE": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_qPXCDa": {
+          "type": "liquid",
+          "settings": {
+            "code": "<etrusted-widget data-etrusted-widget-id=\"wdg-06f1a150-a851-46f5-bc75-c9860b885eee\"><\/etrusted-widget>\n<!-- End eTrusted widget tag -->",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_qPXCDa"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
     "main",
     "d23aa98c-a863-43d6-88ef-840b9daca8d1",
     "2c140cf1-e556-4f58-9f0e-10d54cbb9785",
-    "8931804a-0855-4e1e-889f-761522e96c0b"
+    "8931804a-0855-4e1e-889f-761522e96c0b",
+    "rich_text_8QDY9i",
+    "advanced_content_difKzE"
   ]
 }
