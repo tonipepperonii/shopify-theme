@@ -142,12 +142,20 @@
             "year": "2015",
             "text": "<p>Verdreifachung der Lagerfläche auf 1500 m²<\/p>"
           }
+        },
+        "text_block_iqHmcC": {
+          "type": "text_block",
+          "settings": {
+            "year": "2015",
+            "text": "<p>Umzug an den heutigen Firmensitz in der Hafenstraße 16 in Hildesheim<\/p>"
+          }
         }
       },
       "block_order": [
         "text_block_UMJDMG",
         "text_block_hmkYEm",
-        "text_block_hXAXAi"
+        "text_block_hXAXAi",
+        "text_block_iqHmcC"
       ],
       "settings": {
       }
