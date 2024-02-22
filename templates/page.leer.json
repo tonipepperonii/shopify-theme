@@ -149,13 +149,21 @@
             "year": "2015",
             "text": "<p>Umzug an den heutigen Firmensitz in der Hafenstraße 16 in Hildesheim<\/p>"
           }
+        },
+        "text_block_4fw6MX": {
+          "type": "text_block",
+          "settings": {
+            "year": "2001",
+            "text": "<p>Gründung der Firma Alu Verkauf von Herrn Tim Winter<\/p>"
+          }
         }
       },
       "block_order": [
         "text_block_UMJDMG",
         "text_block_hmkYEm",
         "text_block_hXAXAi",
-        "text_block_iqHmcC"
+        "text_block_iqHmcC",
+        "text_block_4fw6MX"
       ],
       "settings": {
       }
