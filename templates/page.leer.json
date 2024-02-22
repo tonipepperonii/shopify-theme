@@ -119,6 +119,39 @@
         "color_scheme": "2"
       }
     },
+    "vz_timeline_Nm47nx": {
+      "type": "vz-timeline",
+      "blocks": {
+        "text_block_UMJDMG": {
+          "type": "text_block",
+          "settings": {
+            "year": "2021",
+            "text": "<p>Die <strong>InvestVision GmbH<\/strong> mit Investor Kai Greten als Eigentümer übernimmt die Firma<\/p>"
+          }
+        },
+        "text_block_hmkYEm": {
+          "type": "text_block",
+          "settings": {
+            "year": "2024",
+            "text": "<p>Beispiel Text.<\/p>"
+          }
+        },
+        "text_block_hXAXAi": {
+          "type": "text_block",
+          "settings": {
+            "year": "2024",
+            "text": "<p>Beispiel Text.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_UMJDMG",
+        "text_block_hmkYEm",
+        "text_block_hXAXAi"
+      ],
+      "settings": {
+      }
+    },
     "advanced_content_yQjN7A": {
       "type": "advanced-content",
       "blocks": {
@@ -146,6 +179,7 @@
     "rich_text_MzXfww",
     "blog_posts_EahUc4",
     "text_columns_C6RPQA",
+    "vz_timeline_Nm47nx",
     "advanced_content_yQjN7A"
   ]
 }
