@@ -10,7 +10,7 @@
       {%- assign article_object = articles[block.settings.article] -%}
       <div class="theme-block" {{ block.shopify_attributes }}>
         {%- if block.settings.title != blank -%}
-          <h4>{{ block.settings.title }}</h4>
+          <p class="h4">{{ block.settings.title }}</p>
         {%- endif -%}
         {%- render 'article-grid-item',
           blog: blog,
@@ -25,7 +25,7 @@
     {%- when 'tags' -%}
       {%- if blog.all_tags.size > 0 -%}
         <div class="theme-block" {{ block.shopify_attributes }}>
-          <h4>{{ 'blogs.article.explore_more' | t }}</h4>
+          <p class=h4">{{ 'blogs.article.explore_more' | t }}</p>
           <ul class="no-bullets tag-list">
             {%- for tag in blog.all_tags -%}
               {% if tag contains "_" %}{%- assign tag_starts_with = tag | slice: 0 -%}{% if tag_starts_with == "_" %}{% if tag_count %}{%- assign tag_count = tag_count | minus: 1 | at_least: 0 -%}{% endif %}{% continue %}{% endif %}{% endif %}
@@ -40,14 +40,14 @@
       {%- assign product = all_products[block.settings.featured_product] -%}
       {%- unless product.empty? -%}
         <div class="theme-block" {{ block.shopify_attributes }}>
-          <h4>{{ 'blogs.article.featured_product' | t }}</h4>
+          <p class=h4">{{ 'blogs.article.featured_product' | t }}</p>
           {%- render 'product-grid-item', product: product, no_actions: true -%}
         </div>
       {%- endunless -%}
     {%- when 'share' -%}
       {%- if article -%}
         <div class="theme-block" {{ block.shopify_attributes }}>
-          <h4>{{ 'general.social.share_this' | t }}</h4>
+          <p class=h4">{{ 'general.social.share_this' | t }}</p>
           {%- render 'social-sharing',
             share_title: article.title,
             share_permalink: article.url,
