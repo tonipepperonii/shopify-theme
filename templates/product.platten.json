@@ -7,8 +7,8 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<h2>{{ product.title }}<\/h2>",
-            "title_size": 60,
+            "title": "<p>{{ product.title }}<\/p>",
+            "title_size": 40,
             "subheading": "",
             "link": "",
             "link_text": "",
