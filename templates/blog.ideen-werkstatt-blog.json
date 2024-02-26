@@ -177,11 +177,53 @@
         "47e5b6e0-97be-431a-8291-404ea7b0ad42",
         "5d0fcb4f-be1e-431a-bbca-ada9fb4ed156"
       ],
+      "disabled": true,
       "settings": {
         "title": "Kundenstimmen",
         "align_text": "center",
         "round_images": true,
         "color_scheme": "none"
+      }
+    },
+    "rich_text_TEaTkm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kfH3QG": {
+          "type": "heading",
+          "settings": {
+            "title": "Kundenstimmen",
+            "show_line": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_kfH3QG"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "advanced_content_KGfJRd": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_gFM4Qh": {
+          "type": "liquid",
+          "settings": {
+            "code": "<etrusted-widget data-etrusted-widget-id=\"wdg-06f1a150-a851-46f5-bc75-c9860b885eee\"><\/etrusted-widget>\n<!-- End eTrusted widget tag -->",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_gFM4Qh"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
       }
     }
   },
@@ -190,7 +232,9 @@
     "b293be96-0c21-4301-874c-00b37b657f97",
     "main",
     "sidebar",
-    "28955a2a-07c1-4d2c-ab9b-c6e0c63437fb"
+    "28955a2a-07c1-4d2c-ab9b-c6e0c63437fb",
+    "rich_text_TEaTkm",
+    "advanced_content_KGfJRd"
   ],
   "wrapper": "div"
 }
