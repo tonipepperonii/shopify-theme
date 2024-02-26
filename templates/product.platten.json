@@ -7,9 +7,9 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<p>{{ product.title }}<\/p>",
+            "title": "",
             "title_size": 40,
-            "subheading": "",
+            "subheading": "{{ product.title }}",
             "link": "",
             "link_text": "",
             "link_2": "",
@@ -24,6 +24,9 @@
       },
       "block_order": [
         "template--18896842195248__5496d8f0-cbe1-4f56-b789-aad06ed907f2-16825095512038de14-1"
+      ],
+      "custom_css": [
+        ".hero__subtitle {font-size: 34px; font-weight: 800;}"
       ],
       "settings": {
         "full_width": true,
