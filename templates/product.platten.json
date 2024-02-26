@@ -8,7 +8,7 @@
           "settings": {
             "top_subheading": "",
             "title": "<h2>{{ product.title }}<\/h2>",
-            "title_size": 70,
+            "title_size": 60,
             "subheading": "",
             "link": "",
             "link_text": "",
