@@ -1,0 +1,203 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "slideshow_image_7zFqdU": {
+      "type": "slideshow-image",
+      "blocks": {
+        "image_fErGBk": {
+          "type": "image",
+          "settings": {
+            "link": "https:\/\/www.alu-verkauf.de",
+            "image": "shopify:\/\/shop_images\/alu-verkauf.de.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_fErGBk"
+      ],
+      "settings": {
+        "full_width": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "rich_text_MzXfww": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wkHwJX": {
+          "type": "heading",
+          "settings": {
+            "title": "Willkommen bei unserem Online-Shop der alu-verkauf GmbH!",
+            "show_line": false
+          }
+        },
+        "text_ffTUDV": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Wir wollen hier mit Euch als unsere Kunden und Aluminium-Interessenten in den näheren Kontakt treten. <br\/><br\/>Themen wie Alu-Profile und ihre Anwendungsbereiche, Aluminium und verschiedenes Zubehör, Projekte laden zum diskutieren und berichten ein. <br\/>Auch erzählen wir ein wenig über uns als Firma, und bieten Euch einen Einblick in unser Unternehmen. <\/p><p>Aluminiumprofile sind sehr vielseitig einsetzbar:<br\/>Mit dieser Seite hoffen wir, Euch neue Konstruktionsideen liefern zu können und Eure Kreativität zu unterstützen. <br\/><br\/><strong>alu-verkauf - persönlich - pragmatisch - pünktlich<\/strong><\/p><p>Seid dabei! Schaut Euch auf unserer Seite um! <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wkHwJX",
+        "text_ffTUDV"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "blog_posts_EahUc4": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "Thema des Monats",
+        "blog": "news",
+        "blog_show_tags": true,
+        "blog_show_excerpt": true,
+        "blog_show_image": true,
+        "blog_show_date": true,
+        "divider": false,
+        "blog_image_size": "wide"
+      }
+    },
+    "text_columns_C6RPQA": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_BrANAy": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Nils_2024_k_c48cceab-1a59-4262-bae2-c252cbef9b04.jpg",
+            "image_width": 650,
+            "title": "Nils Vespermann",
+            "text": "<p>Motiviert, zielstrebig und voller Elan geht Nils seit Juli 2023 als  neuer Betriebsleiter bei alu-verkauf.de seinen Weg.<\/p><p>Ziele vor Augen, Dinge verändern und motivierend unterstützen. <\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_ekKp7W": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Kai.jpg",
+            "image_width": 650,
+            "title": "Kai Greten",
+            "text": "<p>Seit 2021 führt Kai das Unternehmen alu-verkauf.de <br\/>Seine Version von moderner Unternehmensführung: <br\/>Vertrauen - statt Kontrolle, gemeinsame Visionen, Zusammenarbeit auf Augenhöhe und Verantwortung - statt Anweisung.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_w89mpz": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Mike1_efdb1a36-f6c5-4028-9564-38f1e663e49d.jpg",
+            "image_width": 650,
+            "title": "Mike Janke",
+            "text": "<p>Mike legt großen Wert auf die Bedürfnisse der Kunden und ist bestrebt, ihnen den bestmöglichen Service zu bieten. <\/p><p>Zuverlässig, engagiert und sympathisch.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_BrANAy",
+        "text_block_ekKp7W",
+        "text_block_w89mpz"
+      ],
+      "settings": {
+        "title": "Deine persönlichen Ansprechpartner:",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "2"
+      }
+    },
+    "vz_timeline_Nm47nx": {
+      "type": "vz-timeline",
+      "blocks": {
+        "text_block_UMJDMG": {
+          "type": "text_block",
+          "settings": {
+            "year": "2021",
+            "text": "<p>Die <strong>InvestVision GmbH<\/strong> mit Investor Kai Greten als Eigentümer übernimmt die Firma<\/p>"
+          }
+        },
+        "text_block_hmkYEm": {
+          "type": "text_block",
+          "settings": {
+            "year": "2018",
+            "text": "<p>Anschaffung einer neuen Plattensäge<br\/>(bis 100 mm Dicke)<\/p>"
+          }
+        },
+        "text_block_hXAXAi": {
+          "type": "text_block",
+          "settings": {
+            "year": "2015",
+            "text": "<p>Verdreifachung der Lagerfläche auf 1500 m²<\/p>"
+          }
+        },
+        "text_block_iqHmcC": {
+          "type": "text_block",
+          "settings": {
+            "year": "2015",
+            "text": "<p>Umzug an den heutigen Firmensitz in der Hafenstraße 16 in Hildesheim<\/p>"
+          }
+        },
+        "text_block_4fw6MX": {
+          "type": "text_block",
+          "settings": {
+            "year": "2001",
+            "text": "<p>Gründung der Firma Alu Verkauf von Herrn Tim Winter<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_UMJDMG",
+        "text_block_hmkYEm",
+        "text_block_hXAXAi",
+        "text_block_iqHmcC",
+        "text_block_4fw6MX"
+      ],
+      "settings": {
+      }
+    },
+    "advanced_content_yQjN7A": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_gn9T3Q": {
+          "type": "liquid",
+          "settings": {
+            "code": "<etrusted-widget data-etrusted-widget-id=\"wdg-06f1a150-a851-46f5-bc75-c9860b885eee\"><\/etrusted-widget>\n<!-- End eTrusted widget tag -->",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_gn9T3Q"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_image_7zFqdU",
+    "rich_text_MzXfww",
+    "blog_posts_EahUc4",
+    "text_columns_C6RPQA",
+    "vz_timeline_Nm47nx",
+    "advanced_content_yQjN7A"
+  ]
+}
