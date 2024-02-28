@@ -23,6 +23,7 @@
         },
         "hero_bTFXTY": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>News<\/p>",
