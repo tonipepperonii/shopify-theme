@@ -146,7 +146,7 @@
           "type": "question",
           "settings": {
             "title": "Mehrwertsteuererstattung bei eigener Ausfuhr",
-            "text": "<p>Eine Erstattung der MwSt. ist erst ab einem MwSt-Betrag von mind. 100,- EUR möglich (nach Vorlage der erforderlichen Ausfuhrbescheinigung, die spätestens 3 Wochen nach Rechnungsdatum vorliegen muß)<\/p>"
+            "text": "<p>Eine Erstattung der MwSt. ist erst ab einem MwSt-Betrag von mind. 100,- EUR möglich (nach Vorlage der erforderlichen Ausfuhrbescheinigung, die spätestens 3 Wochen nach Rechnungsdatum vorliegen muss).<\/p>"
           }
         },
         "0eb8bac8-6e4d-45b2-a09f-2a2fae4ce350": {
