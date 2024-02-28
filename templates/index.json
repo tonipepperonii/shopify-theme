@@ -297,6 +297,9 @@
     },
     "8654ead3-a13f-4bcc-9889-5c72fca9d93a": {
       "type": "featured-collection",
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "Restposten",
         "home_featured_products": "restposten",
@@ -385,6 +388,7 @@
       "block_order": [
         "template--18204113338672__21febce1-97b9-4f8a-a452-d41a6bc2c875-1677757582fc6b7600-0"
       ],
+      "disabled": true,
       "custom_css": [
         ".btn {color: white !important; border-radius: 4px;}"
       ],
@@ -495,6 +499,7 @@
       "block_order": [
         "heading_J4CmwM"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -508,7 +513,7 @@
         "liquid_fPdyfR": {
           "type": "liquid",
           "settings": {
-            "code": "<etrusted-widget data-etrusted-widget-id=\"wdg-06f1a150-a851-46f5-bc75-c9860b885eee\"><\/etrusted-widget>\n<!-- End eTrusted widget tag -->",
+            "code": "<h2>Kundenstimmen<\/h2>\n<etrusted-widget data-etrusted-widget-id=\"wdg-06f1a150-a851-46f5-bc75-c9860b885eee\"><\/etrusted-widget>\n<!-- End eTrusted widget tag -->",
             "width": "100%",
             "alignment": "center"
           }
@@ -517,9 +522,25 @@
       "block_order": [
         "liquid_fPdyfR"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "full_width": false,
-        "space_around": true
+        "space_around": false
+      }
+    },
+    "blog_posts_cGm69B": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "News",
+        "blog": "news",
+        "blog_show_tags": true,
+        "blog_show_excerpt": true,
+        "blog_show_image": true,
+        "blog_show_date": true,
+        "divider": false,
+        "blog_image_size": "wide"
       }
     }
   },
@@ -534,6 +555,7 @@
     "21febce1-97b9-4f8a-a452-d41a6bc2c875",
     "c185c803-627b-44c4-bb29-cd2ef0e10fae",
     "rich_text_iXmjdM",
-    "advanced_content_CgfHXA"
+    "advanced_content_CgfHXA",
+    "blog_posts_cGm69B"
   ]
 }
