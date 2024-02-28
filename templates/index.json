@@ -56,12 +56,31 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
+        },
+        "hero_bTFXTY": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "News auf einem Blick",
+            "link_2": "https:\/\/alu-verkauf.de\/blogs\/news",
+            "link_text_2": "",
+            "color_accent": "#615e5e",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify:\/\/shop_images\/newsletter_1.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
         "hero_PUBHJJ",
         "hero_tA3crh",
-        "ee59b1af-cf7a-4559-8cc9-191cfe39b9c5"
+        "ee59b1af-cf7a-4559-8cc9-191cfe39b9c5",
+        "hero_bTFXTY"
       ],
       "custom_css": [
         ".slideshow-wrapper {max-height: 400px;}",
