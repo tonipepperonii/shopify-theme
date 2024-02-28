@@ -532,6 +532,7 @@
     },
     "blog_posts_cGm69B": {
       "type": "blog-posts",
+      "disabled": true,
       "settings": {
         "title": "News",
         "blog": "news",
