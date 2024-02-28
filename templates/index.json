@@ -23,7 +23,6 @@
         },
         "hero_bTFXTY": {
           "type": "hero",
-          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>News<\/p>",
@@ -31,7 +30,7 @@
             "subheading": "",
             "link": "",
             "link_text": "Neues entdecken!",
-            "link_2": "https:\/\/alu-verkauf.de\/blogs\/news",
+            "link_2": "",
             "link_text_2": "",
             "color_accent": "#242430",
             "text_align": "vertical-center horizontal-left",
