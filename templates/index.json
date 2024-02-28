@@ -331,7 +331,7 @@
     "blog-posts": {
       "type": "blog-posts",
       "settings": {
-        "title": "From the journal",
+        "title": "News",
         "blog": "news",
         "blog_show_tags": true,
         "blog_show_excerpt": true,
