@@ -21,6 +21,24 @@
             "focal_point": "center center"
           }
         },
+        "hero_bTFXTY": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>News<\/p>",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "Neues entdecken!",
+            "link_2": "https:\/\/alu-verkauf.de\/blogs\/news",
+            "link_text_2": "",
+            "color_accent": "#f89230",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_22.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
         "hero_tA3crh": {
           "type": "hero",
           "settings": {
@@ -56,31 +74,13 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
-        },
-        "hero_bTFXTY": {
-          "type": "hero",
-          "settings": {
-            "top_subheading": "",
-            "title": "<p>News<\/p>",
-            "title_size": 70,
-            "subheading": "",
-            "link": "",
-            "link_text": "Neues entdecken!",
-            "link_2": "https:\/\/alu-verkauf.de\/blogs\/news",
-            "link_text_2": "",
-            "color_accent": "#f89230",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/Design_ohne_Titel_22.png",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
         }
       },
       "block_order": [
         "hero_PUBHJJ",
+        "hero_bTFXTY",
         "hero_tA3crh",
-        "ee59b1af-cf7a-4559-8cc9-191cfe39b9c5",
-        "hero_bTFXTY"
+        "ee59b1af-cf7a-4559-8cc9-191cfe39b9c5"
       ],
       "custom_css": [
         ".slideshow-wrapper {max-height: 400px;}",
