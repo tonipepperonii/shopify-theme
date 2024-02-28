@@ -68,14 +68,14 @@
           "type": "question",
           "settings": {
             "title": "Wird auch an eine Packstation geliefert?",
-            "text": "<p>Lieferungen an Packstationen sind leider nicht möglich. Gern liefern wir aber z.B. an Ihre Arbeitsstelle als alternative Lieferanschrift.<\/p>"
+            "text": "<p>Lieferungen an Packstationen sind leider nicht möglich. Gern liefern wir aber z.B. an Deine Arbeitsstelle als alternative Lieferanschrift.<\/p>"
           }
         },
         "18b94e29-acba-4c39-ac6c-ddb54f1b7958": {
           "type": "question",
           "settings": {
             "title": "Kann ich die Ware auch abholen? Zu welchen Zeiten?",
-            "text": "<p>Abholungen sind möglich. Einfach im Bestellvorgang statt Lieferung \"Selbstabholer\" auswählen. Sobald das Material abholbereit ist, erhalten Sie eine Benachrichtigung per E-Mail. Bitte beachten Sie, dass Sie die Ware mit einem dafür geeigneten Fahrzeug abholen.<\/p><p>Selbstabholer können ihre Ware (nach vorheriger Shop-Bestellung) während der Öffnungszeiten von Mo. - Do. zwischen 07:30 Uhr und 16:00 Uhr und Fr. zwischen 07:30 Uhr und 15:30 Uhr abholen.<\/p>"
+            "text": "<p>Abholungen sind möglich. Einfach im Bestellvorgang statt Lieferung \"Selbstabholer\" auswählen. Sobald das Material abholbereit ist, erhälst Du eine Benachrichtigung per E-Mail. Bitte beachte, dass Du die Ware mit einem dafür geeigneten Fahrzeug abholst.<\/p><p>Selbstabholer können ihre Ware (nach vorheriger Shop-Bestellung) während der Öffnungszeiten von Mo. - Do. zwischen 07:30 Uhr und 16:00 Uhr und Fr. zwischen 07:30 Uhr und 15:30 Uhr abholen.<\/p>"
           }
         },
         "14541166-2257-468f-a3b9-cdd4a4713817": {
@@ -104,7 +104,7 @@
           "type": "question",
           "settings": {
             "title": "Kann ich jede gewünschte Länge bestellen?",
-            "text": "<p>Ja – Sie können in dem Feld \"Wunschlänge\" die benötigte Länge in mm eintragen und wir liefern diese dann.<\/p>"
+            "text": "<p>Ja – Du kannst in dem Feld \"Wunschlänge\" die benötigte Länge in mm eintragen und wir liefern diese dann.<\/p>"
           }
         },
         "7988de49-40f0-44a1-ac79-bff5b47ad99d": {
