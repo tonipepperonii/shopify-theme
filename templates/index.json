@@ -330,7 +330,6 @@
     },
     "blog-posts": {
       "type": "blog-posts",
-      "disabled": true,
       "settings": {
         "title": "From the journal",
         "blog": "news",
