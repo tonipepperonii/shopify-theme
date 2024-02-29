@@ -13,7 +13,7 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<h1>alu-verkauf <\/h1>",
+            "title": "<h1>alu-verkauf GmbH<\/h1>",
             "title_size": 70,
             "subheading": "",
             "link": "",
@@ -125,7 +125,7 @@
             "image": "shopify:\/\/shop_images\/BARTELS_Fotografie-kai_3bcf18c0-ea61-4dbd-869f-15a801e03ed0.jpg",
             "image_width": 650,
             "title": "Kai Greten",
-            "text": "<p>Seit 2021 führt Kai das Unternehmen alu-verkauf.de <br\/>Seine Version von moderner Unternehmensführung: <br\/>Vertrauen - statt Kontrolle, gemeinsame Visionen, Zusammenarbeit auf Augenhöhe und Verantwortung - statt Anweisung.<\/p>",
+            "text": "<p>Seit 2021 führt Kai das Unternehmen alu-verkauf GmbH.<br\/>Seine Version von moderner Unternehmensführung: <br\/>Vertrauen - statt Kontrolle, gemeinsame Visionen, Zusammenarbeit auf Augenhöhe und Verantwortung - statt Anweisung.<\/p>",
             "button_label": "Optional button",
             "button_link": ""
           }
