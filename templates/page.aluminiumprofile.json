@@ -7,8 +7,8 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<h1>Aluminium Profile<\/h1>",
-            "title_size": 70,
+            "title": "<p>Aluminium Profile<\/p>",
+            "title_size": 50,
             "subheading": "",
             "link": "",
             "link_text": "",
