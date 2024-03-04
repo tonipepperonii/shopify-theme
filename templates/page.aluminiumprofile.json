@@ -365,6 +365,7 @@
         "1e17af29-fba2-459a-b907-ddd6d9f6f718",
         "60cc57e2-338f-4e52-9841-4e70df12722f"
       ],
+      "disabled": true,
       "settings": {
         "title": "Kundenstimmen",
         "align_text": "left",
