@@ -1,0 +1,209 @@
+{
+  "sections": {
+    "11d26c36-a631-42d5-892c-ed8bfd22fef4": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18300171813168__11d26c36-a631-42d5-892c-ed8bfd22fef4-hero-1": {
+          "type": "hero",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>Overlaid Hero Slide<\/p>",
+            "title_size": 70,
+            "subheading": "Perfect for rich lifestyle photography.",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-left",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "template--18300171813168__11d26c36-a631-42d5-892c-ed8bfd22fef4-hero-2": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<h1>{{ product.title }}<\/h1>",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/R2RD_RQquer_77345e0e-0db8-4133-8cdc-087990e0189d.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18300171813168__11d26c36-a631-42d5-892c-ed8bfd22fef4-hero-1",
+        "template--18300171813168__11d26c36-a631-42d5-892c-ed8bfd22fef4-hero-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "0b529514-2cd6-442b-91f6-cd9726c87e30": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": true
+          }
+        }
+      },
+      "block_order": [
+        "variant_picker",
+        "price",
+        "0b529514-2cd6-442b-91f6-cd9726c87e30",
+        "buy_buttons"
+      ],
+      "custom_css": [
+        ".product-grid__container {padding: 50px 0;}"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_container_size": "medium",
+        "product_image_size": "square",
+        "product_zoom_enable": true,
+        "thumbnail_position": "below",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": true
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping information",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "contact": {
+          "type": "contact",
+          "settings": {
+            "title": "Ask a question",
+            "phone": false
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "tab",
+        "contact"
+      ],
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "more-products-vendor": {
+      "type": "more-products-vendor",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "more-products-collection": {
+      "type": "more-products-collection",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "2"
+      }
+    },
+    "6ae58654-665d-4d90-b481-aa002f3ca078": {
+      "type": "sidebar-rich-text",
+      "blocks": {
+        "template--18300171813168__6ae58654-665d-4d90-b481-aa002f3ca078-text-1": {
+          "type": "text",
+          "settings": {
+            "main_richtext": "<h1>Hier steht ein Beispiel<\/h1> <p>So könnte es aussehen<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18300171813168__6ae58654-665d-4d90-b481-aa002f3ca078-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "side-title": "",
+        "side-richtext": "",
+        "phone": "",
+        "mail": "",
+        "checkbox": true
+      }
+    }
+  },
+  "order": [
+    "11d26c36-a631-42d5-892c-ed8bfd22fef4",
+    "main",
+    "sub",
+    "recommendations",
+    "more-products-vendor",
+    "more-products-collection",
+    "recently-viewed",
+    "collection-return",
+    "6ae58654-665d-4d90-b481-aa002f3ca078"
+  ]
+}
