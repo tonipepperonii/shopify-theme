@@ -75,6 +75,11 @@
             "is_tab": false
           }
         },
+        "quantity_selector_BMGCz9": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -87,6 +92,7 @@
         "variant_picker",
         "price",
         "0b529514-2cd6-442b-91f6-cd9726c87e30",
+        "quantity_selector_BMGCz9",
         "buy_buttons"
       ],
       "custom_css": [
