@@ -1,39 +1,5 @@
 {
   "sections": {
-    "bd73f4c3-ccf1-46be-9959-6fbb5fddd4fa": {
-      "type": "slideshow",
-      "blocks": {
-        "template--18300172665136__bd73f4c3-ccf1-46be-9959-6fbb5fddd4fa-1683273959545d8c9c-1": {
-          "type": "hero",
-          "settings": {
-            "top_subheading": "",
-            "title": "<h2>{{ collection.title }}<\/h2>",
-            "title_size": 70,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/fwh1x249.png",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "template--18300172665136__bd73f4c3-ccf1-46be-9959-6fbb5fddd4fa-1683273959545d8c9c-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "desktop_size": 0,
-        "mobile_size": 20,
-        "style": "arrows",
-        "autoplay": true,
-        "autoplay_speed": 7
-      }
-    },
     "collection-header": {
       "type": "collection-header",
       "settings": {
@@ -83,15 +49,15 @@
     "sidebar_rich_text_MKrnCU": {
       "type": "sidebar-rich-text",
       "blocks": {
-        "text_qfr4XA": {
+        "text_MkyQkE": {
           "type": "text",
           "settings": {
-            "main_richtext": "<p>{{ collection.title }}<\/p>"
+            "main_richtext": "<h1>Hier steht ein Beispiel{{ shop.brand.slogan }}<\/h1><p>So könnte es aussehen{{ shop.brand.short_description }}<\/p>"
           }
         }
       },
       "block_order": [
-        "text_qfr4XA"
+        "text_MkyQkE"
       ],
       "settings": {
         "side-title": "",
@@ -103,7 +69,6 @@
     }
   },
   "order": [
-    "bd73f4c3-ccf1-46be-9959-6fbb5fddd4fa",
     "collection-header",
     "main-collection",
     "recently-viewed",
