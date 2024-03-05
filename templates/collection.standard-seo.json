@@ -79,12 +79,34 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "sidebar_rich_text_MKrnCU": {
+      "type": "sidebar-rich-text",
+      "blocks": {
+        "text_qfr4XA": {
+          "type": "text",
+          "settings": {
+            "main_richtext": "<p>{{ collection.title }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_qfr4XA"
+      ],
+      "settings": {
+        "side-title": "",
+        "side-richtext": "",
+        "phone": "",
+        "mail": "",
+        "checkbox": true
+      }
     }
   },
   "order": [
     "bd73f4c3-ccf1-46be-9959-6fbb5fddd4fa",
     "collection-header",
     "main-collection",
-    "recently-viewed"
+    "recently-viewed",
+    "sidebar_rich_text_MKrnCU"
   ]
 }
