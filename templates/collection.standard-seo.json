@@ -18,18 +18,10 @@
             "title": "Rohrverbinder: Praktischer Verbinder für Vierkantrohre",
             "show_line": false
           }
-        },
-        "text_DgWVXh": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<h1>Rohrverbinder: Praktischer Verbinder für Vierkantrohre<\/h1><p><strong>Rohrverbinder<\/strong> können bei einer Vielzahl von Projekten zur (dauerhaften) Verbindung von Rohren eingesetzt werden. Die Verbinder sind in <strong>verschiedenen Variationen<\/strong> und den Maßen 20 x 20 x 1,5 sowie 30 x 30 x 2,0 erhältlich, sodass für jedes Projekt das passende Modul dabei ist. Ohne zusätzliche mechanische Bearbeitungen (Schrauben, Schweißen oder Kleben) ist die Montage so ganz einfach. <\/p><p>Bei alu-verkauf.de bieten wir Ihnen qualitativ hochwertige und robuste Rohrverbinder an, die sich nicht nur für eine Vielzahl von Einsatzgebieten eignen, sondern Ihrem Projekt durch das ästhetische Design auch ein modernes Aussehen verleihen.<\/p><p>Die angegebenen Preise verstehen sich als <strong>Bruttopreise inkl. MwSt.<\/strong>, zzgl. Versandkosten. Gerne prüfen wir, ob Profile und Abmessungen, die hier nicht aufgeführt werden, für Sie beschaffbar sind. Schicken Sie uns hierzu gerne eine Anfrage per Kontaktformular und wir werden Ihnen schnellstmöglich eine Rückmeldung zukommen lassen.<\/p>"
-          }
         }
       },
       "block_order": [
-        "heading_eNj69F",
-        "text_DgWVXh"
+        "heading_eNj69F"
       ],
       "settings": {
         "align_text": "center",
@@ -100,6 +92,7 @@
     },
     "text_and_image_qAD3TN": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/vierkantverbinder-beispielbild_1.png",
         "image_width": 700,
@@ -129,6 +122,7 @@
       "block_order": [
         "text_BHytkj"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "left",
         "narrow_column": false,
