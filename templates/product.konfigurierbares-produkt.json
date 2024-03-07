@@ -83,6 +83,7 @@
         "7b271277-e2bc-4e22-bc6d-3ddddce9ea90",
         "0d295002-380c-45a2-a8b5-ab9aeb41e0bc"
       ],
+      "disabled": true,
       "custom_css": [
         ".slideshow-wrapper {max-height: 400px;}",
         "h2 {font-size: 32px;}"
