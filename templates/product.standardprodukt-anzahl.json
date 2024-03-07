@@ -44,6 +44,7 @@
         "template--18300171813168__11d26c36-a631-42d5-892c-ed8bfd22fef4-hero-1",
         "template--18300171813168__11d26c36-a631-42d5-892c-ed8bfd22fef4-hero-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "desktop_size": 0,
