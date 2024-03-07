@@ -5,7 +5,6 @@
       "blocks": {
         "template--18300172665136__bd73f4c3-ccf1-46be-9959-6fbb5fddd4fa-1683273959545d8c9c-1": {
           "type": "hero",
-          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<h2>{{ collection.title }}<\/h2>",
