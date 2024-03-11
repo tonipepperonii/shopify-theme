@@ -74,13 +74,32 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
+        },
+        "hero_mcNRE4": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "Der Frühling ist da und wir gehen in die Verlängerung.",
+            "title": "<p>Spare 15 % auf alle Winkel und Vierkantrohre bis Ostern!<\/p>",
+            "title_size": 44,
+            "subheading": "Rabatt Code: Winkel2024",
+            "link": "",
+            "link_text": "Vierkantrohre",
+            "link_2": "",
+            "link_text_2": "Winkel-Profile",
+            "color_accent": "#f89230",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/osterhase_1.png",
+            "overlay_opacity": 8,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
         "hero_PUBHJJ",
         "hero_bTFXTY",
         "hero_tA3crh",
-        "ee59b1af-cf7a-4559-8cc9-191cfe39b9c5"
+        "ee59b1af-cf7a-4559-8cc9-191cfe39b9c5",
+        "hero_mcNRE4"
       ],
       "custom_css": [
         ".slideshow-wrapper {max-height: 400px;}",
