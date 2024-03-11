@@ -77,6 +77,7 @@
         },
         "hero_mcNRE4": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "Der Frühling ist da und wir gehen in die Verlängerung.",
             "title": "<p>Spare 15 % auf alle Winkel und Vierkantrohre bis Ostern!<\/p>",
