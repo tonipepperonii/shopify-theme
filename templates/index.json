@@ -3,21 +3,21 @@
     "80218ac8-e737-45d5-9c66-8ea17e8498e8": {
       "type": "slideshow",
       "blocks": {
-        "hero_PUBHJJ": {
+        "hero_mcNRE4": {
           "type": "hero",
           "settings": {
-            "top_subheading": "Der Frühling kommt! - Die richtige Zeit Deine Ideen umzusetzen.",
-            "title": "<p>Spare 15% auf alle Winkel und Vierkantrohre bis Ende März<\/p>",
-            "title_size": 41,
+            "top_subheading": "Der Frühling ist da und wir gehen in die Verlängerung.",
+            "title": "<p>Spare 15 % auf alle Winkel und Vierkantrohre bis Ostern!<\/p>",
+            "title_size": 44,
             "subheading": "Rabatt Code: Winkel2024",
-            "link": "shopify:\/\/products\/aluminium-profile-4-kantrohr",
+            "link": "https:\/\/alu-verkauf.de\/products\/aluminium-profile-4-kantrohr",
             "link_text": "Vierkantrohre",
-            "link_2": "shopify:\/\/products\/aluminium-profile-winkel",
+            "link_2": "https:\/\/alu-verkauf.de\/products\/aluminium-profile-winkel",
             "link_text_2": "Winkel-Profile",
             "color_accent": "#f89230",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/2b.jpg",
-            "overlay_opacity": 16,
+            "image": "shopify:\/\/shop_images\/osterhase_2.png",
+            "overlay_opacity": 8,
             "focal_point": "center center"
           }
         },
@@ -75,31 +75,32 @@
             "focal_point": "center center"
           }
         },
-        "hero_mcNRE4": {
+        "hero_PUBHJJ": {
           "type": "hero",
+          "disabled": true,
           "settings": {
-            "top_subheading": "Der Frühling ist da und wir gehen in die Verlängerung.",
-            "title": "<p>Spare 15 % auf alle Winkel und Vierkantrohre bis Ostern!<\/p>",
-            "title_size": 44,
+            "top_subheading": "Der Frühling kommt! - Die richtige Zeit Deine Ideen umzusetzen.",
+            "title": "<p>Spare 15% auf alle Winkel und Vierkantrohre bis Ende März<\/p>",
+            "title_size": 41,
             "subheading": "Rabatt Code: Winkel2024",
-            "link": "https:\/\/alu-verkauf.de\/products\/aluminium-profile-4-kantrohr",
+            "link": "shopify:\/\/products\/aluminium-profile-4-kantrohr",
             "link_text": "Vierkantrohre",
-            "link_2": "https:\/\/alu-verkauf.de\/products\/aluminium-profile-winkel",
+            "link_2": "shopify:\/\/products\/aluminium-profile-winkel",
             "link_text_2": "Winkel-Profile",
             "color_accent": "#f89230",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/osterhase_2.png",
-            "overlay_opacity": 8,
+            "image": "shopify:\/\/shop_images\/2b.jpg",
+            "overlay_opacity": 16,
             "focal_point": "center center"
           }
         }
       },
       "block_order": [
-        "hero_PUBHJJ",
+        "hero_mcNRE4",
         "hero_bTFXTY",
         "hero_tA3crh",
         "ee59b1af-cf7a-4559-8cc9-191cfe39b9c5",
-        "hero_mcNRE4"
+        "hero_PUBHJJ"
       ],
       "custom_css": [
         ".slideshow-wrapper {max-height: 400px;}",
