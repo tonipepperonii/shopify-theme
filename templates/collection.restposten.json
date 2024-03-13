@@ -149,7 +149,7 @@
         "liquid_DF3EQB": {
           "type": "liquid",
           "settings": {
-            "code": "<h2>Top Auswahl und Beratung bei alu-verkauf.de<\/h2><p>20 Jahren Expertise und eine persönliche Beratung auch vor Ort! Kontaktiere uns einfach telefonisch unter 05121 28-290-0 oder schreibe uns eine Mail mit Deiner Frage an verkauf@alu-verkauf.de. Wir freuen uns, Dich bei Deinem Vorhaben zu unterstützen.<\/p>",
+            "code": "<h2><strong><span style=\"font-size:17pt;\">Top Auswahl und Beratung bei alu-verkauf.de<\/span><\/strong><\/h2>\n<p><strong><span style=\"font-size:11pt;\">20 Jahren Expertise und eine pers&ouml;nliche Beratung auch vor Ort!&nbsp;<\/span><\/strong><span style=\"font-size:11pt;\">Kontaktiere uns einfach telefonisch unter&nbsp;<\/span><u><span style=\"font-size:11pt;\">05121 28-290-0<\/span><\/u><span style=\"font-size:11pt;\">&nbsp;oder schreibe uns eine Mail mit Deiner Frage an verkauf@alu-verkauf.de. Wir freuen uns, Dich bei Deinem Vorhaben zu unterst&uuml;tzen.<\/span><\/p>",
             "width": "100%",
             "alignment": "center"
           }
@@ -160,9 +160,31 @@
         "liquid_AdHfwi",
         "liquid_DF3EQB"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "space_around": true
+      }
+    },
+    "rich_text_FigeyC": {
+      "type": "rich-text",
+      "blocks": {
+        "text_nbgcVc": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<h2><strong>Top Auswahl und Beratung bei alu-verkauf.de<\/strong><\/h2><p><strong>20 Jahren Expertise und eine persönliche Beratung auch vor Ort! <\/strong>Kontaktiere uns einfach telefonisch unter <span style=\"text-decoration:underline\">05121 28-290-0<\/span> oder schreibe uns eine Mail mit Deiner Frage an verkauf@alu-verkauf.de. Wir freuen uns, Dich bei Deinem Vorhaben zu unterstützen.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_nbgcVc"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "color_scheme": "1",
+        "divider": false
       }
     }
   },
@@ -173,6 +195,7 @@
     "main-collection",
     "recently-viewed",
     "rich_text_yKK7Li",
-    "advanced_content_DBgKax"
+    "advanced_content_DBgKax",
+    "rich_text_FigeyC"
   ]
 }
