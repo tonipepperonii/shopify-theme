@@ -125,6 +125,27 @@
         "divider": false
       }
     },
+    "advanced_content_Vmmhfa": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_Ytw8FK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alu-restposten-neu.jpg",
+            "link": "",
+            "width": "66%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_Ytw8FK"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
     "advanced_content_DBgKax": {
       "type": "advanced-content",
       "blocks": {
@@ -176,6 +197,7 @@
     "main-collection",
     "recently-viewed",
     "rich_text_yKK7Li",
+    "advanced_content_Vmmhfa",
     "advanced_content_DBgKax",
     "rich_text_FigeyC"
   ]
