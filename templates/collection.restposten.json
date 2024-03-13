@@ -173,7 +173,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<h2><strong>Top Auswahl und Beratung bei alu-verkauf.de<\/strong><\/h2><p><strong>20 Jahren Expertise und eine persönliche Beratung auch vor Ort! <\/strong>Kontaktiere uns einfach telefonisch unter <span style=\"text-decoration:underline\">05121 28-290-0<\/span> oder schreibe uns eine Mail mit Deiner Frage an verkauf@alu-verkauf.de. Wir freuen uns, Dich bei Deinem Vorhaben zu unterstützen.<\/p>"
+            "text": "<h2><strong>Top Auswahl und Beratung bei alu-verkauf.de<\/strong><\/h2><p><strong>20 Jahren Expertise und eine persönliche Beratung auch vor Ort! <\/strong>Kontaktiere uns einfach telefonisch unter<a href=\"tel:05121282900\"><span style=\"text-decoration:underline\"> 05121 28-290-0<\/span><\/a> oder schreibe uns eine Mail mit Deiner Frage an verkauf@alu-verkauf.de. Wir freuen uns, Dich bei Deinem Vorhaben zu unterstützen.<\/p>"
           }
         }
       },
