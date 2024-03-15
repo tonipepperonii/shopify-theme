@@ -19,6 +19,11 @@
     {% if isRestposten %}
       <meta name="robots" content="noindex" />
     {% endif %}
+    
+  {% endif %}
+
+  {% if template contains 'search' %}
+    <meta name="robots" content="noindex" />
   {% endif %}
 
   <script async src="{{ 'consentmoGDPR-gcm-blocking-script.js' | asset_url }}"></script>
