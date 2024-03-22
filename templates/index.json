@@ -75,22 +75,21 @@
             "focal_point": "center center"
           }
         },
-        "hero_PUBHJJ": {
+        "hero_qTNdfV": {
           "type": "hero",
-          "disabled": true,
           "settings": {
-            "top_subheading": "Der Frühling kommt! - Die richtige Zeit Deine Ideen umzusetzen.",
-            "title": "<p>Spare 15% auf alle Winkel und Vierkantrohre bis Ende März<\/p>",
-            "title_size": 41,
-            "subheading": "Rabatt Code: Winkel2024",
-            "link": "shopify:\/\/products\/aluminium-profile-4-kantrohr",
-            "link_text": "Vierkantrohre",
-            "link_2": "shopify:\/\/products\/aluminium-profile-winkel",
-            "link_text_2": "Winkel-Profile",
-            "color_accent": "#f89230",
-            "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/2b.jpg",
-            "overlay_opacity": 16,
+            "top_subheading": "",
+            "title": "<p>Frohe Ostern<\/p>",
+            "title_size": 83,
+            "subheading": "",
+            "link": "",
+            "link_text": "Unser Büro wird über die bevorstehenden Osterfeiertage nicht besetzt sein. Du kannst jedoch weiterhin rund um die Uhr in unserem Online-Shop einkaufen.",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#615e5e",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/Kopie_von_osterhase.png",
+            "overlay_opacity": 0,
             "focal_point": "center center"
           }
         }
@@ -100,7 +99,7 @@
         "hero_bTFXTY",
         "hero_tA3crh",
         "ee59b1af-cf7a-4559-8cc9-191cfe39b9c5",
-        "hero_PUBHJJ"
+        "hero_qTNdfV"
       ],
       "custom_css": [
         ".slideshow-wrapper {max-height: 400px;}",
