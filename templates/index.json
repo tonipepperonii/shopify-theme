@@ -77,13 +77,14 @@
         },
         "hero_qTNdfV": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>Frohe Ostern<\/p>",
             "title_size": 83,
             "subheading": "",
             "link": "",
-            "link_text": "Unser Büro wird über die bevorstehenden Osterfeiertage nicht besetzt sein. Du kannst jedoch weiterhin rund um die Uhr in unserem Online-Shop einkaufen.",
+            "link_text": "Unser Büro wird über die bevorstehenden Osterfeiertage nicht besetzt sein. In dieser Zeit findet auch kein Versand statt. Du kannst jedoch weiterhin rund um die Uhr in unserem Online-Shop einkaufen.",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#615e5e",
