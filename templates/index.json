@@ -5,6 +5,7 @@
       "blocks": {
         "hero_mcNRE4": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "Wir bieten auch das Zubehör zu unseren Produkten an.",
             "title": "<p>Welches Zubehör fehlt dir?<\/p>",
