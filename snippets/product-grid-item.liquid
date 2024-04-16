@@ -253,7 +253,8 @@
         </div>
         <div class="grid-item__meta-secondary">
           <div class="grid-product__price">
-            {%- if product.price_varies -%}
+            {% assign productCollections = product.collections | map: "handle" %}
+            {%- if product.price_varies or productCollections contains 'ruckenkissen' or productCollections contains 'bankauflagen' or productCollections contains 'sitzkissen' or productCollections contains 'alle-stoffe' -%}
               <span class="grid-product__price--current">
                 {%- render 'price-varies', price: product.price_min -%}
               </span>
