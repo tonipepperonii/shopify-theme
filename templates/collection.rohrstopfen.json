@@ -100,6 +100,7 @@
     },
     "text_and_image_qAD3TN": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/vierkantverbinder-beispielbild_1.png",
         "image_width": 700,
