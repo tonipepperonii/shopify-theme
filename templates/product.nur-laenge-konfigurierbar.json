@@ -100,7 +100,7 @@
     "main": {
       "type": "vz-main-product",
       "blocks": {
-        "alu_verkauf_konfigurator_app_block_onlylength_HLQacc": {
+        "alu_verkauf_konfigurator_app_block_onlylength_4FHtHi": {
           "type": "shopify:\/\/apps\/alu-verkauf-konfigurator\/blocks\/app-block-onlylength\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
           "settings": {
           }
@@ -112,7 +112,7 @@
         }
       },
       "block_order": [
-        "alu_verkauf_konfigurator_app_block_onlylength_HLQacc",
+        "alu_verkauf_konfigurator_app_block_onlylength_4FHtHi",
         "3dd15e01-98c2-41e8-89c4-43c738426b5d"
       ],
       "settings": {
