@@ -320,6 +320,12 @@
           "button_vertical_position": "lowest",
           "greeting_message": ""
         }
+      },
+      "12196260394306439754": {
+        "type": "shopify:\/\/apps\/adcell-tracking-remarketing\/blocks\/theme_extension\/578397e0-3e42-4c27-add7-dfc15023b09b",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
