@@ -3,7 +3,7 @@
     "collection-header": {
       "type": "collection-header",
       "custom_css": [
-        ".rte{margin-block-start: 100}"
+        ".rte {padding-top: 100;}"
       ],
       "settings": {
         "enable": true,
