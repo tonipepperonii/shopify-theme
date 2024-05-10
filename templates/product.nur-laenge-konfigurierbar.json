@@ -98,7 +98,7 @@
       }
     },
     "main": {
-      "type": "vz-main-product",
+      "type": "main-product",
       "blocks": {
         "alu_verkauf_konfigurator_app_block_onlylength_BcxEfb": {
           "type": "shopify:\/\/apps\/alu-verkauf-konfigurator\/blocks\/app-block-onlylength\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
@@ -117,7 +117,6 @@
       ],
       "settings": {
         "sku_enable": false,
-        "hinweis-richtext": "<p>Die angegebenen Preise verstehen sich als <strong>Bruttopreise inkl. MwSt.<\/strong>, zzgl. Versandkosten. Gerne überprüfen wir, ob Profile und Abmessungen, die hier nicht aufgeführt werden, für Dich beschaffbar sind. Sende uns hierzu gerne eine Anfrage per Kontaktformular und wir werden Dir schnellstmöglich eine Rückmeldung zukommen lassen.<\/p>",
         "image_position": "left",
         "image_container_size": "medium",
         "product_image_size": "square",
