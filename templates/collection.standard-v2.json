@@ -8,35 +8,6 @@
         "parallax": false
       }
     },
-    "rich_text_LceaTm": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_6XmD8F": {
-          "type": "heading",
-          "settings": {
-            "title": "{{ collection.metafields.custom.kategorie_seite_ueberschrift.value }}",
-            "show_line": false
-          }
-        },
-        "text_XNrwmr": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "{{ collection.metafields.custom.kurzbeschreibung | metafield_tag }}"
-          }
-        }
-      },
-      "block_order": [
-        "heading_6XmD8F",
-        "text_XNrwmr"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "color_scheme": "1",
-        "divider": false
-      }
-    },
     "main-collection": {
       "type": "main-collection",
       "blocks": {
@@ -154,7 +125,6 @@
   },
   "order": [
     "collection-header",
-    "rich_text_LceaTm",
     "main-collection",
     "recently-viewed",
     "text_and_image_qAD3TN",
