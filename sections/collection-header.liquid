@@ -74,6 +74,9 @@
             {{ collection.metafields.custom.kategorie_seite_ueberschrift }}
           {%- endif -%}
         </h1>
+        {%- unless collection.metafields.custom.kurzbeschreibung == blank -%}
+            {{ collection.metafields.custom.kurzbeschreibung }}
+        {% endunless %}
         <p class="medium-up--hide" data-collection-count>{{ 'collections.general.items_with_count' | t: count: collection.products_count }}</p>
       </header>
     </div>
