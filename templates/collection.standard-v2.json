@@ -1,0 +1,143 @@
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": false
+      }
+    },
+    "rich_text_K9GRMy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_eNj69F": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rohrverbinder: Praktischer Verbinder für Vierkantrohre",
+            "show_line": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_eNj69F"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {
+          }
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "settings": {
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "grid_style": "small"
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "subcollections",
+        "product_grid"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapse_filters": false,
+        "enable_color_swatches": false,
+        "enable_sort": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "sidebar_rich_text_MKrnCU": {
+      "type": "sidebar-rich-text",
+      "blocks": {
+        "text_MkyQkE": {
+          "type": "text",
+          "settings": {
+            "main_richtext": "<h1>Hier steht ein Beispiel{{ shop.brand.slogan }}<\/h1><p>So könnte es aussehen{{ shop.brand.short_description }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_MkyQkE"
+      ],
+      "disabled": true,
+      "settings": {
+        "side-title": "",
+        "side-richtext": "",
+        "phone": "",
+        "mail": "",
+        "checkbox": true
+      }
+    },
+    "text_and_image_qAD3TN": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/vierkantverbinder-beispielbild_1.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "",
+        "text": "<h2><strong>Rohrverbinder: Stabil und vielseitig einsetzbar<\/strong><\/h2><p>Rohrverbinder können bei einer<strong> Vielzahl verschiedener Projekte<\/strong> eingesetzt werden. So kommen die Verbinder für Vierkantrohre beispielsweise gerne in der <strong>Konstruktion von Möbeln wie Tischen, Stühlen oder Regalen<\/strong> zum Einsatz. Dank des robusten Materials (i.d.R. Aluminium, Edelstahl oder Kunststoff) können die Steckverbinder relativ <strong>viel Gewicht tragen<\/strong> und sind somit auch für die Verwendung bei größeren Konstruktionen geeignet.<\/p><p>Rohrverbinder sind zudem in <strong>verschiedenen Formen<\/strong> erhältlich, wodurch Sie die Möglichkeit haben, Rohre auf unterschiedliche Weise miteinander zu verbinden und so verschiedenste Konstruktionen zu erstellen. Dank des <strong>robusten Materials<\/strong> sind die Rohrverbinder zudem <strong>witterungsresistent<\/strong> und können auch im Außenbereich eingesetzt werden. Hier bieten sie sich u.a. für Projekte wie Zäune, Geländer, Terrassen oder für den Messebau an.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "rich_text_gigHt3": {
+      "type": "rich-text",
+      "blocks": {
+        "text_BHytkj": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<h2><strong>Große Auswahl an Rohrverbindern<\/strong><\/h2><p>Je nachdem, wofür Sie den Rohrverbinder nutzen möchten, brauchen Sie einen bestimmten Typ Verbinder. Bei alu-verkauf.de können Sie zwischen vielen gängigen Rohrverbindern wählen, sodass Sie in jedem Fall das passende Stück für Ihr Projekt finden.<\/p><p><strong>Wir bieten Ihnen Rohrverbinder in den folgenden Formen an:<\/strong><\/p><ul><li><a href=\"https:\/\/alu-verkauf.de\/products\/rohrverbinder?sku=STECK3D3V20K\"><span style=\"text-decoration:underline\">Winkel mit Abgang<\/span><\/a><\/li><li><a href=\"https:\/\/alu-verkauf.de\/products\/rohrverbinder?sku=STECK3D4V20K\"><span style=\"text-decoration:underline\">T-Stück mit Abgang<\/span><\/a><\/li><li><a href=\"https:\/\/alu-verkauf.de\/products\/rohrverbinder?sku=STECK1D2V20K\"><span style=\"text-decoration:underline\">Rohrverlängerung<\/span><\/a><\/li><li><a href=\"https:\/\/alu-verkauf.de\/products\/rohrverbinder?sku=STECK2D2V20K\"><span style=\"text-decoration:underline\">rechter Winkel (Eckverbinder)<\/span><\/a><\/li><li><a href=\"https:\/\/alu-verkauf.de\/products\/rohrverbinder?sku=STECK2D3V20K\"><span style=\"text-decoration:underline\">T-Stück<\/span><\/a><\/li><li><a href=\"https:\/\/alu-verkauf.de\/products\/rohrverbinder?sku=STECK2D4V20K\"><span style=\"text-decoration:underline\">Kreuz<\/span><\/a><\/li><\/ul><p>Zudem können Sie je nach Produkt die passenden Abmessungen (bzw. Wandstärke) wählen und entscheiden, ob Sie den Rohrverbinder in der Variation mit oder ohne Kern aus Stahl kaufen möchten.<\/p><h2><strong>Zubehör und Bausätze bei alu-verkauf.de<\/strong><\/h2><p>Egal, ob Sie Endverbraucher oder gewerblicher Kunde sind: Im<a href=\"https:\/\/alu-verkauf.de\/\"> <span style=\"text-decoration:underline\">Online-Shop<\/span><\/a> von alu-verkauf.de finden Sie neben Alu-Profilen auch eine große Auswahl an Zubehör und Bausätzen zu fairen Preisen.<\/p><p>Stöbern Sie gerne durch unsere Kategorie \"Zubehör und Bausätze\" und machen Sie sich ein Bild von unseren hochwertigen Produkten:<\/p><ul><li><a href=\"https:\/\/alu-verkauf.de\/products\/rohrstopfen\"><span style=\"text-decoration:underline\">Rohrstopfen<\/span><\/a><\/li><li><a href=\"https:\/\/alu-verkauf.de\/products\/pv-profile\"><span style=\"text-decoration:underline\">Leichtbauprofile<\/span><\/a><\/li><li><a href=\"https:\/\/alu-verkauf.de\/collections\/zubehor-leichtbau\"><span style=\"text-decoration:underline\">Zubehör für den Leichtbau<\/span><\/a><\/li><\/ul><h2><strong>Top Auswahl und Beratung bei alu-verkauf.de<\/strong><\/h2><p><strong>Gerne stehen wir Ihnen mit über 20 Jahren Expertise beratend zur Seite: <\/strong>Kontaktieren Sie uns einfach telefonisch unter <a href=\"tel:05121282900\"><span style=\"text-decoration:underline\">05121 28-290-0<\/span><\/a> oder schreiben Sie uns eine Mail mit Ihrer Frage an verkauf@alu-verkauf.de. Wir freuen uns, Sie bei Ihrem Vorhaben unterstützen zu dürfen.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_BHytkj"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "left",
+        "narrow_column": false,
+        "color_scheme": "1",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "rich_text_K9GRMy",
+    "main-collection",
+    "recently-viewed",
+    "sidebar_rich_text_MKrnCU",
+    "text_and_image_qAD3TN",
+    "rich_text_gigHt3"
+  ]
+}
