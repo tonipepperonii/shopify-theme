@@ -3,7 +3,7 @@
     "collection-header": {
       "type": "collection-header",
       "custom_css": [
-        "h1 {padding-top: 100;}"
+        "h1 {margin-bottom:10px}"
       ],
       "settings": {
         "enable": true,

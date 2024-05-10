@@ -2,7 +2,28 @@
   "sections": {
     "main": {
       "type": "list-collections-template",
+      "blocks": {
+        "collection_6xUJik": {
+          "type": "collection",
+          "settings": {
+            "collection": "systemprofile-30x30"
+          }
+        },
+        "collection_e38rY8": {
+          "type": "collection",
+          "settings": {
+            "collection": "systemprofile-nut-8-40x40"
+          }
+        }
+      },
+      "block_order": [
+        "collection_6xUJik",
+        "collection_e38rY8"
+      ],
       "settings": {
+        "title_enable": false,
+        "display_type": "selected",
+        "sort": "alphabetical"
       }
     },
     "logo-list": {
@@ -11,31 +32,37 @@
         "logo1": {
           "type": "logo_image",
           "settings": {
+            "link": ""
           }
         },
         "logo2": {
           "type": "logo_image",
           "settings": {
+            "link": ""
           }
         },
         "logo3": {
           "type": "logo_image",
           "settings": {
+            "link": ""
           }
         },
         "logo4": {
           "type": "logo_image",
           "settings": {
+            "link": ""
           }
         },
         "logo5": {
           "type": "logo_image",
           "settings": {
+            "link": ""
           }
         },
         "logo6": {
           "type": "logo_image",
           "settings": {
+            "link": ""
           }
         }
       },
@@ -48,7 +75,8 @@
         "logo6"
       ],
       "settings": {
-        "title": "Our brands"
+        "title": "Our brands",
+        "divider": false
       }
     }
   },
