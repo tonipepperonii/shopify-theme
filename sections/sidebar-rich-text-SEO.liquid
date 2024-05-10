@@ -41,18 +41,20 @@
     
     </b><br><br>
     <img src="{{ section.settings.image | img_url:'master' }}" height=100 width=100 loading="lazy"/>
+    
+    <img src="{{ section.settings.image | img_url:'master' }}" height=100 width=100 loading="lazy"/>
     {%- if section.settings.side-richtext == blank -%}
      Nils Vespermann & Mike Janke
     {%- else -%}
     {{ section.settings.side-richtext }}
     {%- endif -%}
     {%- if section.settings.phone == blank -%}
-      <div><i class="fa fa-phone" style="color: #f39200; padding-right: 10px;"></i>05121 282900</div>
+      <div><i class="fa fa-phone" style="color: #f39200; padding-right: 10px;"></i>{{ shop.phone }}</div>
       {%- else -%}
             <div><i class="fa fa-phone" style="color: #f39200; padding-right: 10px;"></i>{{ section.settings.phone }}</div>
       {%- endif -%}
     {%- if section.settings.mail == blank -%}
-      <div><i class="fa fa-envelope" style="color: #f39200; padding-right: 10px;"></i>verkauf@alu-verkauf.de</div>  
+      <div><i class="fa fa-envelope" style="color: #f39200; padding-right: 10px;"></i>{{ shop.email }}</div>  
     {%- else -%}
       <div><i class="fa fa-envelope" style="color: #f39200; padding-right: 10px;"></i>{{ section.settings.mail }}</div>
     {%- endif -%}
