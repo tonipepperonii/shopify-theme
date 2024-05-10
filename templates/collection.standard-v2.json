@@ -106,6 +106,69 @@
         "color_scheme": "1",
         "divider": false
       }
+    },
+    "sidebar_rich_text_seo_h9K9Wt": {
+      "type": "sidebar-rich-text-SEO",
+      "blocks": {
+        "text_j4EB6i": {
+          "type": "text",
+          "settings": {
+            "main_richtext": "<h1>Hier steht ein Beispiel<\/h1><p>So könnte es aussehen<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_j4EB6i"
+      ],
+      "settings": {
+        "side-title": "",
+        "side-richtext": "",
+        "phone": "",
+        "mail": "",
+        "checkbox": true
+      }
+    },
+    "sidebar_rich_text_MTR6EL": {
+      "type": "sidebar-rich-text",
+      "blocks": {
+        "text_XTaE3Q": {
+          "type": "text",
+          "settings": {
+            "main_richtext": "<h1>Hier steht ein Beispiel<\/h1> <p>So könnte es aussehen<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_XTaE3Q"
+      ],
+      "settings": {
+        "side-title": "",
+        "side-richtext": "",
+        "phone": "",
+        "mail": "",
+        "checkbox": true
+      }
+    },
+    "sidebar_rich_text_seo_zQkTnW": {
+      "type": "sidebar-rich-text-SEO",
+      "blocks": {
+        "text_3bpMPq": {
+          "type": "text",
+          "settings": {
+            "main_richtext": "<h1>Hier steht ein Beispiel<\/h1> <p>So könnte es aussehen<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_3bpMPq"
+      ],
+      "settings": {
+        "side-title": "",
+        "side-richtext": "",
+        "phone": "",
+        "mail": "",
+        "checkbox": true
+      }
     }
   },
   "order": [
@@ -114,6 +177,9 @@
     "recently-viewed",
     "sidebar_rich_text_MKrnCU",
     "text_and_image_qAD3TN",
-    "rich_text_gigHt3"
+    "rich_text_gigHt3",
+    "sidebar_rich_text_seo_h9K9Wt",
+    "sidebar_rich_text_MTR6EL",
+    "sidebar_rich_text_seo_zQkTnW"
   ]
 }
