@@ -184,6 +184,13 @@
       "toolbar": {
         "type": "toolbar",
         "blocks": {
+          "announcement_dBhCtN": {
+            "type": "announcement",
+            "settings": {
+              "richtext": "<p>Wichtige Information: Aufgrund des Feiertags ist unser <em>Büro <\/em>am Donnerstag, 09.05.2024 und Freitag 10.05.2024 <em>nicht besetzt<\/em>. - Es ist keine Abholung möglich.<\/p>",
+              "richtext_mobile": ""
+            }
+          },
           "announcement_NLhgXy": {
             "type": "announcement",
             "disabled": true,
@@ -198,19 +205,12 @@
               "richtext": "<p>Restposten - 30 % reduziert!<\/p>",
               "richtext_mobile": "<p>Restposten - 30 % reduziert!<\/p>"
             }
-          },
-          "announcement_dBhCtN": {
-            "type": "announcement",
-            "settings": {
-              "richtext": "<p>Wichtige Information: Aufgrund des Feiertags Christi <em>Himmelfahrt <\/em>ist unser <em>Büro <\/em>am Donnerstag, 09.05.2024 und Freitag 10.05.2024 <em>nicht besetzt<\/em>.<\/p>",
-              "richtext_mobile": ""
-            }
           }
         },
         "block_order": [
+          "announcement_dBhCtN",
           "announcement_NLhgXy",
-          "46d1e579-4f99-4d2a-b718-543e55ccc0cb",
-          "announcement_dBhCtN"
+          "46d1e579-4f99-4d2a-b718-543e55ccc0cb"
         ],
         "settings": {
           "announcement_center": false,
