@@ -117,6 +117,7 @@
       "blocks": {
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "is_tab": true
           }
@@ -174,7 +175,6 @@
     },
     "collection-return": {
       "type": "collection-return",
-      "disabled": true,
       "settings": {
         "color_scheme": "2"
       }
