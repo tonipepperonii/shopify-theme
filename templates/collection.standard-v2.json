@@ -13,7 +13,6 @@
       "blocks": {
         "subcollections": {
           "type": "subcollections",
-          "disabled": true,
           "settings": {
           }
         },
@@ -60,7 +59,6 @@
       "block_order": [
         "text_MkyQkE"
       ],
-      "disabled": true,
       "settings": {
         "side-title": "",
         "side-richtext": "",

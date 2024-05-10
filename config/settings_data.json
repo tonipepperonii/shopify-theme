@@ -329,6 +329,12 @@
           "button_vertical_position": "lowest",
           "greeting_message": ""
         }
+      },
+      "13615385223509461694": {
+        "type": "shopify:\/\/apps\/magic-zoom-plus\/blocks\/magiczoomplus\/893db416-6d9e-4ad6-b769-71d9cdd734fe",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
