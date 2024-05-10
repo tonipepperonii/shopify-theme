@@ -1,13 +1,5 @@
 {
   "sections": {
-    "collection-header": {
-      "type": "collection-header",
-      "settings": {
-        "enable": true,
-        "collection_image_enable": true,
-        "parallax": false
-      }
-    },
     "rich_text_K9GRMy": {
       "type": "rich-text",
       "blocks": {
@@ -139,7 +131,6 @@
     }
   },
   "order": [
-    "collection-header",
     "rich_text_K9GRMy",
     "main-collection",
     "recently-viewed",
