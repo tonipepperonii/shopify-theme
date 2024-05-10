@@ -198,11 +198,19 @@
               "richtext": "<p>Restposten - 30 % reduziert!<\/p>",
               "richtext_mobile": "<p>Restposten - 30 % reduziert!<\/p>"
             }
+          },
+          "announcement_dBhCtN": {
+            "type": "announcement",
+            "settings": {
+              "richtext": "<p>Wichtige Information: Aufgrund des Feiertags Christi <em>Himmelfahrt <\/em>ist unser <em>Büro <\/em>am Donnerstag, 09.05.2024 und Freitag 10.05.2024 <em>nicht besetzt<\/em>.<\/p>",
+              "richtext_mobile": ""
+            }
           }
         },
         "block_order": [
           "announcement_NLhgXy",
-          "46d1e579-4f99-4d2a-b718-543e55ccc0cb"
+          "46d1e579-4f99-4d2a-b718-543e55ccc0cb",
+          "announcement_dBhCtN"
         ],
         "settings": {
           "announcement_center": false,
@@ -319,12 +327,6 @@
           "button_horizontal_position": "bottom_left",
           "button_vertical_position": "lowest",
           "greeting_message": ""
-        }
-      },
-      "12196260394306439754": {
-        "type": "shopify:\/\/apps\/adcell-tracking-remarketing\/blocks\/theme_extension\/578397e0-3e42-4c27-add7-dfc15023b09b",
-        "disabled": false,
-        "settings": {
         }
       }
     }
