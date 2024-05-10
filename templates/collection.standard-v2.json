@@ -21,17 +21,11 @@
           "settings": {
             "grid_style": "list"
           }
-        },
-        "collection_description": {
-          "type": "collection_description",
-          "settings": {
-          }
         }
       },
       "block_order": [
         "subcollections",
-        "product_grid",
-        "collection_description"
+        "product_grid"
       ],
       "settings": {
         "enable_sidebar": true,
@@ -44,27 +38,6 @@
       "type": "recently-viewed",
       "disabled": true,
       "settings": {
-      }
-    },
-    "sidebar_rich_text_MKrnCU": {
-      "type": "sidebar-rich-text",
-      "blocks": {
-        "text_MkyQkE": {
-          "type": "text",
-          "settings": {
-            "main_richtext": "<h1>Hier steht ein Beispiel{{ shop.brand.slogan }}<\/h1><p>So könnte es aussehen{{ shop.brand.short_description }}<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_MkyQkE"
-      ],
-      "settings": {
-        "side-title": "",
-        "side-richtext": "",
-        "phone": "",
-        "mail": "",
-        "checkbox": true
       }
     },
     "text_and_image_qAD3TN": {
@@ -128,27 +101,6 @@
         "checkbox": true
       }
     },
-    "sidebar_rich_text_MTR6EL": {
-      "type": "sidebar-rich-text",
-      "blocks": {
-        "text_XTaE3Q": {
-          "type": "text",
-          "settings": {
-            "main_richtext": "<h1>Hier steht ein Beispiel<\/h1> <p>So könnte es aussehen<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_XTaE3Q"
-      ],
-      "settings": {
-        "side-title": "",
-        "side-richtext": "",
-        "phone": "",
-        "mail": "",
-        "checkbox": true
-      }
-    },
     "sidebar_rich_text_seo_zQkTnW": {
       "type": "sidebar-rich-text-SEO",
       "blocks": {
@@ -175,11 +127,9 @@
     "collection-header",
     "main-collection",
     "recently-viewed",
-    "sidebar_rich_text_MKrnCU",
     "text_and_image_qAD3TN",
     "rich_text_gigHt3",
     "sidebar_rich_text_seo_h9K9Wt",
-    "sidebar_rich_text_MTR6EL",
     "sidebar_rich_text_seo_zQkTnW"
   ]
 }
