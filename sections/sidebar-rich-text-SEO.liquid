@@ -39,10 +39,11 @@
       {%- else -%}
             <div><i class="fa fa-phone" style="color: #f39200; padding-right: 10px;"></i>{{ section.settings.phone }}</div>
       {%- endif -%}
-      
-    {%- unless section.settings.mail == blank -%}
+    {%- if section.settings.mail == blank -%}
+      <div><i class="fa fa-envelope" style="color: #f39200; padding-right: 10px;"></i>verkauf@alu-verkauf.de</div>  
+    {%- else -%}
       <div><i class="fa fa-envelope" style="color: #f39200; padding-right: 10px;"></i>{{ section.settings.mail }}</div>
-    {%- endunless -%}
+    {%- endif -%}
   </div>
   <div class="rich-text-with-sidebar-versand-container">
     <div class="ul-libottom" >
