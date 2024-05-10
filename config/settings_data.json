@@ -201,6 +201,7 @@
           },
           "46d1e579-4f99-4d2a-b718-543e55ccc0cb": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "richtext": "<p>Restposten - 30 % reduziert!<\/p>",
               "richtext_mobile": "<p>Restposten - 30 % reduziert!<\/p>"
