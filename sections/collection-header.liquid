@@ -49,8 +49,11 @@
             <header class="section-header section-header--flush">
               {%- render 'breadcrumbs' -%}
               <h1 class="section-header__title">
-                {{ collection.title}} test
-                {{ collection.metafields.custom.kategorie_seite_ueberschrift }}
+          {%- if collection.metafields.custom.kategorie_seite_ueberschrift == blank -%}
+            {{ collection.title }}
+          {%- else -%}
+            {{ collection.metafields.custom.kategorie_seite_ueberschrift }}
+          {%- endif -%}
               </h1>
             </header>
           </div>
