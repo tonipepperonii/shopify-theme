@@ -186,6 +186,7 @@
         "blocks": {
           "announcement_dBhCtN": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "richtext": "<p>Wichtige Information: Aufgrund des Feiertags ist unser <em>Büro <\/em>am Donnerstag, 09.05.2024 und Freitag 10.05.2024 <em>nicht besetzt<\/em>. - Es ist keine Abholung möglich.<\/p>",
               "richtext_mobile": ""
