@@ -1,0 +1,229 @@
+{
+  "sections": {
+    "5496d8f0-cbe1-4f56-b789-aad06ed907f2": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18896842195248__5496d8f0-cbe1-4f56-b789-aad06ed907f2-16825095512038de14-1": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<h2>{{ product.title }}<\/h2>",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/dgsrtlin.png",
+            "image_mobile": "shopify:\/\/shop_images\/RR.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "3eebbb1a-4963-4de2-8d7a-73d64eb9ab27": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<h2>{{ product.title }}<\/h2>",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/Flach_0b4f63b1-cdb3-4622-b41a-8132e9dee423.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "7b271277-e2bc-4e22-bc6d-3ddddce9ea90": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>{{ product.title }}<\/p>",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/0mv47m4j.png",
+            "overlay_opacity": 0,
+            "focal_point": "20% 50%"
+          }
+        },
+        "0d295002-380c-45a2-a8b5-ab9aeb41e0bc": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>{{ product.title }}<\/p>",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/VR.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18896842195248__5496d8f0-cbe1-4f56-b789-aad06ed907f2-16825095512038de14-1",
+        "3eebbb1a-4963-4de2-8d7a-73d64eb9ab27",
+        "7b271277-e2bc-4e22-bc6d-3ddddce9ea90",
+        "0d295002-380c-45a2-a8b5-ab9aeb41e0bc"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".slideshow-wrapper {max-height: 400px;}",
+        "h2 {font-size: 32px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": 10,
+        "mobile_size": 20,
+        "style": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 5
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "alu_verkauf_konfigurator_app_block_onlylength_BcxEfb": {
+          "type": "shopify:\/\/apps\/alu-verkauf-konfigurator\/blocks\/app-block-onlylength\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "alu_verkauf_konfigurator_app_block_onlylength_BcxEfb"
+      ],
+      "custom_css": [
+        ".product-grid__container {padding-top: 40px; padding-bottom: 20px;}"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_container_size": "medium",
+        "product_image_size": "square",
+        "product_zoom_enable": false,
+        "thumbnail_position": "below",
+        "thumbnail_arrows": true,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "c1ac324a-eaf3-4b54-96f2-fe1b250705f5": {
+      "type": "sidebar-rich-text",
+      "blocks": {
+        "template--18896842195248__c1ac324a-eaf3-4b54-96f2-fe1b250705f5-1682509798c3998345-0": {
+          "type": "text",
+          "settings": {
+            "main_richtext": "<h1>Hier steht ein Beispiel<\/h1><p>So könnte es aussehen<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18896842195248__c1ac324a-eaf3-4b54-96f2-fe1b250705f5-1682509798c3998345-0"
+      ],
+      "settings": {
+        "side-title": "Wir sind für Sie da:",
+        "image": "shopify:\/\/shop_images\/DSC_1210k_65beac15-1f30-437c-8cad-b0ebcd0e5817.jpg",
+        "side-richtext": "<p>Nils Vespermann & Mike Janke<\/p>",
+        "phone": "05121 \/ 28 290-0",
+        "mail": "verkauf@alu-verkauf.de",
+        "checkbox": true
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": true
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping information",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "contact": {
+          "type": "contact",
+          "settings": {
+            "title": "Ask a question",
+            "phone": false
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "tab",
+        "contact"
+      ],
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "more-products-vendor": {
+      "type": "more-products-vendor",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "more-products-collection": {
+      "type": "more-products-collection",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "2"
+      }
+    }
+  },
+  "order": [
+    "5496d8f0-cbe1-4f56-b789-aad06ed907f2",
+    "main",
+    "c1ac324a-eaf3-4b54-96f2-fe1b250705f5",
+    "sub",
+    "recommendations",
+    "more-products-vendor",
+    "more-products-collection",
+    "recently-viewed",
+    "collection-return"
+  ]
+}
