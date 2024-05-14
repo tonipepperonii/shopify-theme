@@ -100,14 +100,14 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "alu_verkauf_konfigurator_app_block_onlylength_BcxEfb": {
-          "type": "shopify:\/\/apps\/alu-verkauf-konfigurator\/blocks\/app-block-onlylength\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+        "alu_verkauf_konfigurator_app_block_onlylengthwidth_nKqRia": {
+          "type": "shopify:\/\/apps\/alu-verkauf-konfigurator\/blocks\/app-block-onlylengthwidth\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
           "settings": {
           }
         }
       },
       "block_order": [
-        "alu_verkauf_konfigurator_app_block_onlylength_BcxEfb"
+        "alu_verkauf_konfigurator_app_block_onlylengthwidth_nKqRia"
       ],
       "custom_css": [
         ".product-grid__container {padding-top: 40px; padding-bottom: 20px;}"
