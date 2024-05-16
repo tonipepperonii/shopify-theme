@@ -184,14 +184,6 @@
       "toolbar": {
         "type": "toolbar",
         "blocks": {
-          "announcement_dBhCtN": {
-            "type": "announcement",
-            "disabled": true,
-            "settings": {
-              "richtext": "<p>Wichtige Information: Aufgrund des Feiertags ist unser <em>Büro <\/em>am Donnerstag, 09.05.2024 und Freitag 10.05.2024 <em>nicht besetzt<\/em>. - Es ist keine Abholung möglich.<\/p>",
-              "richtext_mobile": ""
-            }
-          },
           "announcement_NLhgXy": {
             "type": "announcement",
             "disabled": true,
@@ -206,12 +198,19 @@
               "richtext": "<p>Restposten - 30 % reduziert!<\/p>",
               "richtext_mobile": "<p>Restposten - 30 % reduziert!<\/p>"
             }
+          },
+          "announcement_cN4FLB": {
+            "type": "announcement",
+            "settings": {
+              "richtext": "<p>Neu im Zubehör! Aluminium-Minutenkleber und Montagekleber.<\/p>",
+              "richtext_mobile": ""
+            }
           }
         },
         "block_order": [
-          "announcement_dBhCtN",
           "announcement_NLhgXy",
-          "46d1e579-4f99-4d2a-b718-543e55ccc0cb"
+          "46d1e579-4f99-4d2a-b718-543e55ccc0cb",
+          "announcement_cN4FLB"
         ],
         "settings": {
           "announcement_center": false,
