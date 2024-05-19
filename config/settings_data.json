@@ -67,7 +67,7 @@
     "search_top_collection": "restposten",
     "predictive_search_enabled": true,
     "predictive_image_size": "square",
-    "show_breadcrumbs": false,
+    "show_breadcrumbs": true,
     "show_breadcrumbs_collection_link": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/LOGO_NEU_RGB.png",
     "checkout_logo_position": "center",
