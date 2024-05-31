@@ -311,13 +311,6 @@
             "collection": "z-profile",
             "title": ""
           }
-        },
-        "collection_7DD9GF": {
-          "type": "collection",
-          "settings": {
-            "collection": "alu-systemprofile",
-            "title": "Systemprofile"
-          }
         }
       },
       "block_order": [
@@ -332,8 +325,7 @@
         "9c6cdbba-2d13-41dc-92dd-c1f70f6f66e5",
         "5c3995b3-951e-45ec-b28f-2ab0dfec5ef5",
         "5b820297-d91f-4094-948c-c336736fe5d1",
-        "b461c015-2736-4e75-b784-568bfc6285d4",
-        "collection_7DD9GF"
+        "b461c015-2736-4e75-b784-568bfc6285d4"
       ],
       "disabled": true,
       "settings": {
