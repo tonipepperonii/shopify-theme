@@ -255,13 +255,29 @@
             "collection": "pv-bausatze",
             "title": ""
           }
+        },
+        "collection_gXxhY9": {
+          "type": "collection",
+          "settings": {
+            "collection": "zubehor",
+            "title": ""
+          }
+        },
+        "collection_J7D3Rz": {
+          "type": "collection",
+          "settings": {
+            "collection": "restposten",
+            "title": ""
+          }
         }
       },
       "block_order": [
         "template--18204113338672__c708ac76-1f3e-42a5-beca-0213c4adf84a-167775803850ecaa14-0",
         "template--18204113338672__c708ac76-1f3e-42a5-beca-0213c4adf84a-167775803850ecaa14-3",
         "collection_BVzD6G",
-        "collection_wVcrFX"
+        "collection_wVcrFX",
+        "collection_gXxhY9",
+        "collection_J7D3Rz"
       ],
       "settings": {
         "title": "",
