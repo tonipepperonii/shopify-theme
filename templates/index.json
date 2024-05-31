@@ -232,14 +232,14 @@
           "type": "collection",
           "settings": {
             "collection": "alu-systemprofile",
-            "title": ""
+            "title": "Systemprofile"
           }
         },
         "template--18204113338672__c708ac76-1f3e-42a5-beca-0213c4adf84a-167775803850ecaa14-3": {
           "type": "collection",
           "settings": {
             "collection": "zubehor-systemprofile",
-            "title": ""
+            "title": "Zubehör Systemprofile"
           }
         },
         "collection_BVzD6G": {
@@ -253,14 +253,14 @@
           "type": "collection",
           "settings": {
             "collection": "pv-bausatze",
-            "title": ""
+            "title": "PV-Montagesets"
           }
         },
         "collection_gXxhY9": {
           "type": "collection",
           "settings": {
             "collection": "zubehor",
-            "title": ""
+            "title": "Aluminium Bearbeitung"
           }
         },
         "collection_J7D3Rz": {
