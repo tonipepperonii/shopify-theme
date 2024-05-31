@@ -22,7 +22,7 @@
       ],
       "settings": {
         "title_enable": false,
-        "display_type": "selected",
+        "display_type": "all",
         "sort": "alphabetical"
       }
     },
@@ -74,6 +74,7 @@
         "logo5",
         "logo6"
       ],
+      "disabled": true,
       "settings": {
         "title": "Our brands",
         "divider": false
