@@ -78,29 +78,52 @@
               <div class="profile-container">
                 <div class="profile-form">
               {% for childlink in link.links %}
-                {% assign collection = collections[childlink.title] %}
-                
                 {% assign product_handle = childlink.url | split: "/" | last %}
                 {% assign product = all_products[product_handle] %}
+                {% assign collection = collections[childlink.title] %}
                 
-                {% if product.metafields.custom.men_icon %}
-                  
-                <div class="profile-col">
+                {% if product %}
+                  {% if product.metafields.custom.men_icon %}
+                    <div class="profile-col">
+                      <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level" style="padding-top:10px">
+                        <div><img src="{{ product.metafields.custom.men_icon | img_url }}" alt="{{ childlink.title }}" width=100% height=100% loading=lazy style="width: 100px; height: 100px; object-fit: cover;"/></div>
+                        <div>{{ childlink.title }}</div>
+                      </a>
+                    </div>
+                  {% else %}
+                    <div class="profile-col">
+                      <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level" style="padding-top:10px">
+                        <div><img src="{{ 'menu-placeholder.png' | asset_img_url }}" alt="{{ childlink.title }}" width=100% height=100% loading=lazy style="width: 100px; height: 100px; object-fit: cover;"/></div>
+                        <div>{{ childlink.title }}</div>
+                      </a>
+                    </div>
+                  {% endif %}
+                {% elsif collection %}
+                  {% if collection.image %}
+                    <div class="profile-col">
+                      <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level" style="padding-top:10px">
+                        <div><img src="{{ collection.image | img_url }}" alt="{{ childlink.title }}" width=100% height=100% loading=lazy style="width: 100px; height: 100px; object-fit: cover;"/></div>
+                        <div>{{ childlink.title }}</div>
+                      </a>
+                    </div>
+                  {% else %}
+                    <div class="profile-col">
+                      <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level" style="padding-top:10px">
+                        <div><img src="{{ 'menu-placeholder.png' | asset_img_url }}" alt="{{ childlink.title }}" width=100% height=100% loading=lazy style="width: 100px; height: 100px; object-fit: cover;"/></div>
+                        <div>{{ childlink.title }}</div>
+                      </a>
+                    </div>
+                  {% endif %}
+                {% else %}
+                  <div class="profile-col">
                     <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level" style="padding-top:10px">
-                      <div><img src="{{ product.metafields.custom.men_icon | img_url }}" alt="{{ childlink.title }}" width=100% height=100% loading=lazy style="width: 100px; height: 100px; object-fit: cover;"/></div>
+                      <div><img src="{{ 'menu-placeholder.png' | asset_img_url }}" alt="{{ childlink.title }}" width=100% height=100% loading=lazy style="width: 100px; height: 100px; object-fit: cover;"/></div>
                       <div>{{ childlink.title }}</div>
                     </a>
-                </div>
-                
-              {% else %}
-              <div class="profile-col">
-                <a href="{{ childlink.url }}" class="site-nav__dropdown-link site-nav__dropdown-link--top-level" style="padding-top:10px">
-                  <div><img src="{{ 'menu-placeholder.png' | asset_img_url }}" alt="{{ childlink.title }}" width=100% height=100% loading=lazy style="width: 100px; height: 100px; object-fit: cover;"/></div>
-                  <div>{{ childlink.title }}</div>
-                </a>
-            </div>
-              {% endif %}
+                  </div>
+                {% endif %}
               {% endfor %}
+
             </div>
             </div>
           </div>
