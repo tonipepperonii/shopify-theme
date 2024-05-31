@@ -188,8 +188,8 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "richtext": "<p>Alle Winkel und Vierkantprofile - 20% Rabatt! Code: WVR20%<\/p>",
-              "richtext_mobile": "<p>Alle Winkel und Vierkantprofile - 20% Rabatt! Code: WVR20%<\/p>"
+              "richtext": "<p>Winkel und Vierkantprofile - 20% Rabatt! Code: WVR20%<\/p>",
+              "richtext_mobile": "<p>Winkel und Vierkantprofile - 20% Rabatt! Code: WVR20%<\/p>"
             }
           },
           "46d1e579-4f99-4d2a-b718-543e55ccc0cb": {
