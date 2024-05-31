@@ -14,15 +14,36 @@
           "settings": {
             "collection": "systemprofile-nut-8-40x40"
           }
+        },
+        "collection_RWYbTN": {
+          "type": "collection",
+          "settings": {
+            "collection": "zubehor-systemprofile"
+          }
+        },
+        "collection_jwwaWp": {
+          "type": "collection",
+          "settings": {
+            "collection": "pv-montage"
+          }
+        },
+        "collection_dGaTqk": {
+          "type": "collection",
+          "settings": {
+            "collection": "pv-bausatze"
+          }
         }
       },
       "block_order": [
         "collection_6xUJik",
-        "collection_e38rY8"
+        "collection_e38rY8",
+        "collection_RWYbTN",
+        "collection_jwwaWp",
+        "collection_dGaTqk"
       ],
       "settings": {
         "title_enable": false,
-        "display_type": "all",
+        "display_type": "selected",
         "sort": "alphabetical"
       }
     },
