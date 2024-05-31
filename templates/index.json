@@ -231,105 +231,24 @@
         "template--18204113338672__c708ac76-1f3e-42a5-beca-0213c4adf84a-167775803850ecaa14-0": {
           "type": "collection",
           "settings": {
-            "collection": "rund",
-            "title": ""
-          }
-        },
-        "template--18204113338672__c708ac76-1f3e-42a5-beca-0213c4adf84a-167775803850ecaa14-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "rundrohr",
-            "title": ""
-          }
-        },
-        "template--18204113338672__c708ac76-1f3e-42a5-beca-0213c4adf84a-167775803850ecaa14-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "flach",
+            "collection": "alu-systemprofile",
             "title": ""
           }
         },
         "template--18204113338672__c708ac76-1f3e-42a5-beca-0213c4adf84a-167775803850ecaa14-3": {
           "type": "collection",
           "settings": {
-            "collection": "pv-montage-profile",
-            "title": ""
-          }
-        },
-        "template--18204113338672__c708ac76-1f3e-42a5-beca-0213c4adf84a-167775803850ecaa14-4": {
-          "type": "collection",
-          "settings": {
-            "collection": "sechskant",
-            "title": ""
-          }
-        },
-        "template--18204113338672__c708ac76-1f3e-42a5-beca-0213c4adf84a-167775803850ecaa14-5": {
-          "type": "collection",
-          "settings": {
-            "collection": "t-profile",
-            "title": ""
-          }
-        },
-        "e782113f-c8ca-4992-afca-830306597151": {
-          "type": "collection",
-          "settings": {
-            "collection": "platten",
-            "title": ""
-          }
-        },
-        "505dd143-b72f-4f72-bec1-576abb87ca95": {
-          "type": "collection",
-          "settings": {
-            "collection": "u-profile",
-            "title": ""
-          }
-        },
-        "9c6cdbba-2d13-41dc-92dd-c1f70f6f66e5": {
-          "type": "collection",
-          "settings": {
-            "collection": "vierkantprofile",
-            "title": ""
-          }
-        },
-        "5c3995b3-951e-45ec-b28f-2ab0dfec5ef5": {
-          "type": "collection",
-          "settings": {
-            "collection": "vierkantrohr",
-            "title": ""
-          }
-        },
-        "5b820297-d91f-4094-948c-c336736fe5d1": {
-          "type": "collection",
-          "settings": {
-            "collection": "winkel",
-            "title": ""
-          }
-        },
-        "b461c015-2736-4e75-b784-568bfc6285d4": {
-          "type": "collection",
-          "settings": {
-            "collection": "z-profile",
+            "collection": "zubehor-systemprofile",
             "title": ""
           }
         }
       },
       "block_order": [
         "template--18204113338672__c708ac76-1f3e-42a5-beca-0213c4adf84a-167775803850ecaa14-0",
-        "template--18204113338672__c708ac76-1f3e-42a5-beca-0213c4adf84a-167775803850ecaa14-1",
-        "template--18204113338672__c708ac76-1f3e-42a5-beca-0213c4adf84a-167775803850ecaa14-2",
-        "template--18204113338672__c708ac76-1f3e-42a5-beca-0213c4adf84a-167775803850ecaa14-3",
-        "template--18204113338672__c708ac76-1f3e-42a5-beca-0213c4adf84a-167775803850ecaa14-4",
-        "template--18204113338672__c708ac76-1f3e-42a5-beca-0213c4adf84a-167775803850ecaa14-5",
-        "e782113f-c8ca-4992-afca-830306597151",
-        "505dd143-b72f-4f72-bec1-576abb87ca95",
-        "9c6cdbba-2d13-41dc-92dd-c1f70f6f66e5",
-        "5c3995b3-951e-45ec-b28f-2ab0dfec5ef5",
-        "5b820297-d91f-4094-948c-c336736fe5d1",
-        "b461c015-2736-4e75-b784-568bfc6285d4"
+        "template--18204113338672__c708ac76-1f3e-42a5-beca-0213c4adf84a-167775803850ecaa14-3"
       ],
-      "disabled": true,
       "settings": {
-        "title": "Aluminium: Profile & Platten",
+        "title": "",
         "divider": false
       }
     },
