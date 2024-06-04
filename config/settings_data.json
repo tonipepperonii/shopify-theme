@@ -198,10 +198,10 @@
               "richtext_mobile": "<p>Restposten - 30 % reduziert!<\/p>"
             }
           },
-          "announcement_cN4FLB": {
+          "announcement_HXhmw9": {
             "type": "announcement",
             "settings": {
-              "richtext": "<p>Neu im Zubehör! Aluminium-Minutenkleber und Montagekleber.<\/p>",
+              "richtext": "<p>Am Donnerstag, 06.06.2024, wird eine Teamschulung durchgeführt. Daher ist unsere persönliche Erreichbarkeit an diesem Tag eingeschränkt.<\/p>",
               "richtext_mobile": ""
             }
           }
@@ -209,7 +209,7 @@
         "block_order": [
           "announcement_NLhgXy",
           "46d1e579-4f99-4d2a-b718-543e55ccc0cb",
-          "announcement_cN4FLB"
+          "announcement_HXhmw9"
         ],
         "settings": {
           "announcement_center": false,
