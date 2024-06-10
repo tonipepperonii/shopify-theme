@@ -197,19 +197,11 @@
               "richtext": "<p>Restposten - 30 % reduziert!<\/p>",
               "richtext_mobile": "<p>Restposten - 30 % reduziert!<\/p>"
             }
-          },
-          "announcement_HXhmw9": {
-            "type": "announcement",
-            "settings": {
-              "richtext": "<p>Am Donnerstag, 06.06.2024, wird eine Teamschulung durchgeführt. Daher ist unsere persönliche Erreichbarkeit an diesem Tag eingeschränkt.<\/p>",
-              "richtext_mobile": ""
-            }
           }
         },
         "block_order": [
           "announcement_NLhgXy",
-          "46d1e579-4f99-4d2a-b718-543e55ccc0cb",
-          "announcement_HXhmw9"
+          "46d1e579-4f99-4d2a-b718-543e55ccc0cb"
         ],
         "settings": {
           "announcement_center": false,
