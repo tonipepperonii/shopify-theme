@@ -217,18 +217,6 @@
             "button_link": ""
           }
         },
-        "text_block_n3338k": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "AlMgSi0,5 = EN AW 6060",
-            "text": "<p>DIN Werkstoff Nr. 3.3206<\/p><p><\/p><p><strong>Anwendungsbereiche:<br\/><\/strong>Fenster, Türen, Metallbau, Dekoration, Schrauben, Textilindustrie<\/p><p>Eloxieren - sehr gut<br\/>Zerspanbarkeit - sehr gut<br\/>Schweißen - gut<br\/>Beständigkeit gegen Witterung\/Seewasser -sehr gut\/gut<\/p><p><strong>Werte für mittlere Querschnitte:<br\/><\/strong>Zugfestigkeit 215 - 260 N\/qmm<br\/>Streckgrenze 160 - 230 N\/qmm<br\/>Härte 70 - 80 Brinell<br\/>Wärmeleitfähigkeit ca. 1,86 W\/cm °C<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "text_block_nqq86T": {
           "type": "text_block",
           "settings": {
@@ -256,7 +244,6 @@
         "text_block_xzEghx",
         "text_block_f4JB7w",
         "text_block_9q7bPt",
-        "text_block_n3338k",
         "text_block_nqq86T",
         "text_block_QjdBAz"
       ],
