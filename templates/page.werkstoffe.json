@@ -152,12 +152,24 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "text_block_PdVNBV": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "AlZnMgCu1,5 = EN AW 7075",
+            "text": "<p>DIN Werkstoff Nr. 3.4365<\/p><p><strong>Anwendungsbereiche:<br\/><\/strong>Luftfahrt, Maschinenbau<\/p><p>Eloxieren - nicht geeignet<br\/>Zerspanbarkeit - sehr gut<br\/>Schweißen - nicht geeignet<br\/>Beständigkeit gegen Witterung\/Seewasser -schlecht\/schlecht<\/p><p><strong>Werte für Dicken von ca. 12 - 50 mm<br\/><\/strong>Zugfestigkeit mind. 550 N\/qmm<br\/>Streckgrenze ca. 450 N\/qmm<br\/>Härte ca. 140 Brinell<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "text_block_QBmAWU",
         "text_block_nJkG9w",
-        "text_block_8L3QGF"
+        "text_block_8L3QGF",
+        "text_block_PdVNBV"
       ],
       "custom_css": [
         ".grid__item_inner {border: 1px solid #e3e3e2; margin: 5px; border-radius: 10px; padding: 20px;}"
@@ -207,6 +219,7 @@
         },
         "text_block_n3338k": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": false,
             "image_width": 650,
