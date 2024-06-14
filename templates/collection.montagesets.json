@@ -23,6 +23,7 @@
       "block_order": [
         "heading_eNj69F"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": false,
@@ -150,6 +151,27 @@
         "color_scheme": "1",
         "divider": false
       }
+    },
+    "slideshow_image_WQjkyg": {
+      "type": "slideshow-image",
+      "blocks": {
+        "image_XViaCQ": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "image": "shopify:\/\/shop_images\/solaranlage-steildach.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_XViaCQ"
+      ],
+      "settings": {
+        "full_width": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
     }
   },
   "order": [
@@ -160,6 +182,7 @@
     "sidebar_rich_text_MKrnCU",
     "text_and_image_qAD3TN",
     "rich_text_gigHt3",
-    "rich_text_G4GyR4"
+    "rich_text_G4GyR4",
+    "slideshow_image_WQjkyg"
   ]
 }
