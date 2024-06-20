@@ -20,13 +20,31 @@
             "title_size": 59,
             "subheading": "30x30mm und 40x40mm",
             "link": "https:\/\/alu-verkauf.de\/collections\/alu-systemprofile",
-            "link_text": "Systemprofilen",
+            "link_text": "Systemprofile",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#615e5e",
             "text_align": "vertical-bottom horizontal-left",
             "image": "shopify:\/\/shop_images\/15k.jpg",
             "overlay_opacity": 32,
+            "focal_point": "center center"
+          }
+        },
+        "hero_tA3crh": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>Aluprofile auch in Kleinstmengen zum Festpreis<\/p>",
+            "title_size": 43,
+            "subheading": "Für Privat- und Gewerbekunden. Schnell und einfach online ihr individuelles Produkt auswahlen, bestellen, abholen oder bequem liefern lassen.",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify:\/\/shop_images\/Titelbild_Startseite_72c907ca-4005-43e8-933b-04b9bf1143bc.jpg",
+            "overlay_opacity": 10,
             "focal_point": "center center"
           }
         },
@@ -66,24 +84,6 @@
             "focal_point": "center center"
           }
         },
-        "hero_tA3crh": {
-          "type": "hero",
-          "settings": {
-            "top_subheading": "",
-            "title": "<p>Aluprofile auch in Kleinstmengen zum Festpreis<\/p>",
-            "title_size": 43,
-            "subheading": "Für Privat- und Gewerbekunden. Schnell und einfach online ihr individuelles Produkt auswahlen, bestellen, abholen oder bequem liefern lassen.",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-center horizontal-right",
-            "image": "shopify:\/\/shop_images\/Titelbild_Startseite_72c907ca-4005-43e8-933b-04b9bf1143bc.jpg",
-            "overlay_opacity": 10,
-            "focal_point": "center center"
-          }
-        },
         "hero_bTFXTY": {
           "type": "hero",
           "settings": {
@@ -105,9 +105,9 @@
       },
       "block_order": [
         "hero_tBrDR4",
+        "hero_tA3crh",
         "hero_qTNdfV",
         "hero_mcNRE4",
-        "hero_tA3crh",
         "hero_bTFXTY"
       ],
       "custom_css": [
