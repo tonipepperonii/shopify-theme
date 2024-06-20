@@ -89,7 +89,7 @@
           "settings": {
             "top_subheading": "",
             "title": "<p>NEU - Systemprofile<\/p>",
-            "title_size": 70,
+            "title_size": 59,
             "subheading": "30x30mm und 40x40mm",
             "link": "https:\/\/alu-verkauf.de\/collections\/alu-systemprofile",
             "link_text": "Systemprofile",
@@ -97,7 +97,8 @@
             "link_text_2": "",
             "color_accent": "#615e5e",
             "text_align": "vertical-bottom horizontal-left",
-            "overlay_opacity": 0,
+            "image": "shopify:\/\/shop_images\/15k.jpg",
+            "overlay_opacity": 32,
             "focal_point": "center center"
           }
         }
