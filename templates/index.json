@@ -86,7 +86,6 @@
         },
         "hero_tBrDR4": {
           "type": "hero",
-          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>NEU - Systemprofile<\/p>",
@@ -96,7 +95,7 @@
             "link_text": "Systemprofile",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#fff",
+            "color_accent": "#615e5e",
             "text_align": "vertical-bottom horizontal-left",
             "overlay_opacity": 0,
             "focal_point": "center center"
