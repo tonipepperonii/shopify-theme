@@ -200,25 +200,25 @@
               "richtext_mobile": "<p>Winkel und Vierkantprofile - 20% Rabatt! Code: WVR20%<\/p>"
             }
           },
-          "46d1e579-4f99-4d2a-b718-543e55ccc0cb": {
-            "type": "announcement",
-            "settings": {
-              "richtext": "<p>Restposten - 30 % reduziert!<\/p>",
-              "richtext_mobile": "<p>Restposten - 30 % reduziert!<\/p>"
-            }
-          },
           "announcement_DXpnD9": {
             "type": "announcement",
             "settings": {
               "richtext": "<p>NEU im Shop - Systemprofile<\/p>",
               "richtext_mobile": "<p>NEU im Shop - Systemprofile<\/p>"
             }
+          },
+          "46d1e579-4f99-4d2a-b718-543e55ccc0cb": {
+            "type": "announcement",
+            "settings": {
+              "richtext": "<p>Restposten - 30 % reduziert!<\/p>",
+              "richtext_mobile": "<p>Restposten - 30 % reduziert!<\/p>"
+            }
           }
         },
         "block_order": [
           "announcement_NLhgXy",
-          "46d1e579-4f99-4d2a-b718-543e55ccc0cb",
-          "announcement_DXpnD9"
+          "announcement_DXpnD9",
+          "46d1e579-4f99-4d2a-b718-543e55ccc0cb"
         ],
         "settings": {
           "announcement_center": false,
