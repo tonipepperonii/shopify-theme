@@ -12,6 +12,24 @@
     "80218ac8-e737-45d5-9c66-8ea17e8498e8": {
       "type": "slideshow",
       "blocks": {
+        "hero_tBrDR4": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>NEU - Systemprofile<\/p>",
+            "title_size": 59,
+            "subheading": "30x30mm und 40x40mm",
+            "link": "https:\/\/alu-verkauf.de\/collections\/alu-systemprofile",
+            "link_text": "Systemprofilen",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#615e5e",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/15k.jpg",
+            "overlay_opacity": 32,
+            "focal_point": "center center"
+          }
+        },
         "hero_qTNdfV": {
           "type": "hero",
           "settings": {
@@ -83,32 +101,14 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
-        },
-        "hero_tBrDR4": {
-          "type": "hero",
-          "settings": {
-            "top_subheading": "",
-            "title": "<p>NEU - Systemprofile<\/p>",
-            "title_size": 59,
-            "subheading": "30x30mm und 40x40mm",
-            "link": "https:\/\/alu-verkauf.de\/collections\/alu-systemprofile",
-            "link_text": "Systemprofile",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#615e5e",
-            "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/15k.jpg",
-            "overlay_opacity": 32,
-            "focal_point": "center center"
-          }
         }
       },
       "block_order": [
+        "hero_tBrDR4",
         "hero_qTNdfV",
         "hero_mcNRE4",
         "hero_tA3crh",
-        "hero_bTFXTY",
-        "hero_tBrDR4"
+        "hero_bTFXTY"
       ],
       "custom_css": [
         ".slideshow-wrapper {max-height: 400px;}",
