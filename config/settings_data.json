@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "color_body_bg": "#ffffff",
@@ -197,11 +206,19 @@
               "richtext": "<p>Restposten - 30 % reduziert!<\/p>",
               "richtext_mobile": "<p>Restposten - 30 % reduziert!<\/p>"
             }
+          },
+          "announcement_DXpnD9": {
+            "type": "announcement",
+            "settings": {
+              "richtext": "<p>NEU im Shop - Systemprofile<\/p>",
+              "richtext_mobile": "<p>NEU im Shop - Systemprofile<\/p>"
+            }
           }
         },
         "block_order": [
           "announcement_NLhgXy",
-          "46d1e579-4f99-4d2a-b718-543e55ccc0cb"
+          "46d1e579-4f99-4d2a-b718-543e55ccc0cb",
+          "announcement_DXpnD9"
         ],
         "settings": {
           "announcement_center": false,
