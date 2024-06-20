@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "80218ac8-e737-45d5-9c66-8ea17e8498e8": {
@@ -57,24 +66,6 @@
             "focal_point": "center center"
           }
         },
-        "ee59b1af-cf7a-4559-8cc9-191cfe39b9c5": {
-          "type": "hero",
-          "settings": {
-            "top_subheading": "",
-            "title": "<p>Restposten<\/p>",
-            "title_size": 70,
-            "subheading": "30 % reduziert!",
-            "link": "",
-            "link_text": "Restposten durchstöbern",
-            "link_2": "https:\/\/alu-verkauf.de\/collections\/restposten",
-            "link_text_2": "",
-            "color_accent": "#f89230",
-            "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/Rest.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
         "hero_bTFXTY": {
           "type": "hero",
           "settings": {
@@ -92,14 +83,32 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
+        },
+        "hero_tBrDR4": {
+          "type": "hero",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>NEU - Systemprofile<\/p>",
+            "title_size": 70,
+            "subheading": "30x30mm und 40x40mm",
+            "link": "https:\/\/alu-verkauf.de\/collections\/alu-systemprofile",
+            "link_text": "Systemprofile",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#fff",
+            "text_align": "vertical-bottom horizontal-left",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
         "hero_qTNdfV",
         "hero_mcNRE4",
         "hero_tA3crh",
-        "ee59b1af-cf7a-4559-8cc9-191cfe39b9c5",
-        "hero_bTFXTY"
+        "hero_bTFXTY",
+        "hero_tBrDR4"
       ],
       "custom_css": [
         ".slideshow-wrapper {max-height: 400px;}",
