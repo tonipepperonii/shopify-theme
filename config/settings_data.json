@@ -193,6 +193,13 @@
       "toolbar": {
         "type": "toolbar",
         "blocks": {
+          "announcement_qMGPqJ": {
+            "type": "announcement",
+            "settings": {
+              "richtext": "<p>Liebe KundenInnen, Aufgrund von unvorgesehenen Krankheitsfällen  verzögert sich leider die Auslieferung Deiner Bestellung.  Wir arbeiten mit Hochdruck daran, die Situation so schnell wie möglich zu lösen und die Lieferungen wieder auf den gewohnten Zeitplan zu bringen. Wir bitten um Verständnis! Danke<\/p>",
+              "richtext_mobile": ""
+            }
+          },
           "announcement_NLhgXy": {
             "type": "announcement",
             "settings": {
@@ -206,19 +213,12 @@
               "richtext": "<p>NEU im Shop - Systemprofile<\/p>",
               "richtext_mobile": "<p>NEU im Shop - Systemprofile<\/p>"
             }
-          },
-          "announcement_qMGPqJ": {
-            "type": "announcement",
-            "settings": {
-              "richtext": "<p>Liebe KundenInnen, Aufgrund von unvorgesehenen Krankheitsfällen  verzögert sich leider die Auslieferung Deiner Bestellung.  Wir arbeiten mit Hochdruck daran, die Situation so schnell wie möglich zu lösen und die Lieferungen wieder auf den gewohnten Zeitplan zu bringen. Wir bitten um Verständnis! Danke<\/p>",
-              "richtext_mobile": ""
-            }
           }
         },
         "block_order": [
+          "announcement_qMGPqJ",
           "announcement_NLhgXy",
-          "announcement_DXpnD9",
-          "announcement_qMGPqJ"
+          "announcement_DXpnD9"
         ],
         "settings": {
           "announcement_center": false,
