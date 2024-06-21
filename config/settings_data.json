@@ -200,25 +200,25 @@
               "richtext_mobile": ""
             }
           },
+          "announcement_zYemnF": {
+            "type": "announcement",
+            "settings": {
+              "richtext": "<p>möglich zu lösen und die Lieferungen wieder auf den gewohnten Zeitplan zu bringen. Wir bitten um Verständnis! Danke<\/p>",
+              "richtext_mobile": ""
+            }
+          },
           "announcement_NLhgXy": {
             "type": "announcement",
             "settings": {
               "richtext": "<p>Winkel und Vierkantprofile - 20% Rabatt! Code: WVR20%<\/p>",
               "richtext_mobile": "<p>Winkel und Vierkantprofile - 20% Rabatt! Code: WVR20%<\/p>"
             }
-          },
-          "announcement_DXpnD9": {
-            "type": "announcement",
-            "settings": {
-              "richtext": "<p>NEU im Shop - Systemprofile<\/p>",
-              "richtext_mobile": "<p>NEU im Shop - Systemprofile<\/p>"
-            }
           }
         },
         "block_order": [
           "announcement_qMGPqJ",
-          "announcement_NLhgXy",
-          "announcement_DXpnD9"
+          "announcement_zYemnF",
+          "announcement_NLhgXy"
         ],
         "settings": {
           "announcement_center": false,
