@@ -72,12 +72,48 @@
         "color_scheme": "1",
         "divider": false
       }
+    },
+    "text_and_image_BnYhc7": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/spiegelart_Logo.jpg",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Spiegelart",
+        "text": "<p>Spiegelart ist ein ostdeutsches, familiengeführtes Unternehmen das sich auf Spiegel und Gläser spezialisiert hat.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "text_and_image_6MCfHk": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/spiegelart_Logo.jpg",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Spiegelart",
+        "text": "<p>Spiegelart ist ein ostdeutsches, familiengeführtes Unternehmen das sich auf Spiegel und Gläser spezialisiert hat.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "1",
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
     "featured-collection",
     "rich_text_gh4gUa",
-    "text_and_image_xnBWmV"
+    "text_and_image_xnBWmV",
+    "text_and_image_BnYhc7",
+    "text_and_image_6MCfHk"
   ]
 }
