@@ -1,7 +1,17 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
       "type": "main-404",
+      "disabled": true,
       "settings": {
       }
     },
@@ -16,10 +26,58 @@
         "view_all": true,
         "divider": false
       }
+    },
+    "rich_text_gh4gUa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nzc4Gh": {
+          "type": "heading",
+          "settings": {
+            "title": "Unsere Partner",
+            "show_line": false
+          }
+        },
+        "text_XhCz9w": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Ein stabiles Netz ist für den Erfolg eines Unternehmens von entscheidender Bedeutung. Wir wissen, wie wichtig Zuverlässigkeit und Vertrauen für unsere und deine Arbeit sind. Deshalb pflegen wir langfristige Kooperationen mit zuverlässigen Unternehmen.<br\/><br\/>Wir möchten uns bei unseren bewährten Partnern für die hervorragende Zusammenarbeit bedanken. Wir freuen uns darauf, gemeinsam an weiteren spannenden Projekten zu arbeiten und unseren gemeinsamen Erfolg voranzutreiben.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nzc4Gh",
+        "text_XhCz9w"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "text_and_image_xnBWmV": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/spiegelart_Logo.jpg",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Spiegelart",
+        "text": "<p>Spiegelart ist ein ostdeutsches, familiengeführtes Unternehmen das sich auf Spiegel und Gläser spezialisiert hat.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "1",
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
-    "featured-collection"
+    "featured-collection",
+    "rich_text_gh4gUa",
+    "text_and_image_xnBWmV"
   ]
 }
