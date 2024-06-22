@@ -210,7 +210,6 @@
           },
           "announcement_NLhgXy": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "richtext": "<p>Winkel und Vierkantprofile - 20% Rabatt! Code: WVR20%<\/p>",
               "richtext_mobile": "<p>Winkel und Vierkantprofile - 20% Rabatt! Code: WVR20%<\/p>"
