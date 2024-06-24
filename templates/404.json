@@ -77,7 +77,7 @@
       "type": "text-and-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/uncle-phil.png",
-        "image_width": 550,
+        "image_width": 220,
         "subtitle": "",
         "title": "Uncle Phil",
         "text": "<p>Uncle Phil<\/p>",
