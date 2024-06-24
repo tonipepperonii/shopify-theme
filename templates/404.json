@@ -106,6 +106,23 @@
         "color_scheme": "1",
         "divider": false
       }
+    },
+    "text_and_image_FJghjn": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/uncle-phil.png",
+        "image_width": 220,
+        "subtitle": "",
+        "title": "Uncle Phil",
+        "text": "<p>Uncle Phil<\/p>",
+        "button_label": "Weiter zu Uncle Phil",
+        "button_link": "https:\/\/www.unclephil.de\/volksfr%C3%A4se-vf1\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "1",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -114,6 +131,7 @@
     "rich_text_gh4gUa",
     "text_and_image_BnYhc7",
     "text_and_image_xnBWmV",
-    "text_and_image_6MCfHk"
+    "text_and_image_6MCfHk",
+    "text_and_image_FJghjn"
   ]
 }
