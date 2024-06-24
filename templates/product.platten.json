@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "5496d8f0-cbe1-4f56-b789-aad06ed907f2": {
@@ -57,7 +66,7 @@
       ],
       "settings": {
         "sku_enable": false,
-        "hinweis-richtext": "<p>Die angegebenen Preise verstehen sich als <strong>Bruttopreise inkl. MwSt.<\/strong>, zzgl. Versandkosten. Gerne prüfen wir, ob Profile und Abmessungen, die hier nicht aufgeführt werden, für Sie beschaffbar sind. Schicken Sie uns hierzu gerne eine Anfrage per Kontaktformular und wir werden Ihnen schnellstmöglich eine Rückmeldung zukommen lassen.<\/p>",
+        "hinweis-richtext": "<p><strong>Aluminium-Platten<\/strong> können sowohl im gewerblichen als auch im privaten Bereich vielseitig eingesetzt werden: Aufgrund des geringen Gewichts des Materials und der hohen Flexibilität beim Zuschneiden der Maße sind die Verwendungsmöglichkeiten für die Platten aus Aluminium beinahe unzählbar. In unserem Online-Shop können Sie über den Produktkonfigurator ganz bequem Platten in Ihrem Wunschmaß bestellen.<\/p><h2><strong>Produktinformationen<\/strong><\/h2><ul><li><strong>Maße <\/strong>= Dicke (in mm); Breite und Länge individuell eingebbar (in mm)<\/li><li><strong>Bearbeitungszeit: <\/strong>bei geringen bis mittleren Bestellmengen i.d.R. zwischen 1-3 Tagen<\/li><li>Einige<strong> Legierungen <\/strong>können <strong>auf Wunsch silber-eloxiert<\/strong> werden.<\/li><\/ul><p>Die angegebenen Preise verstehen sich als <strong>Bruttopreise inkl. MwSt.<\/strong>, zzgl. Versandkosten. Gerne prüfen wir, ob Profile und Abmessungen, die hier nicht aufgeführt werden, für Sie beschaffbar sind. Schicken Sie uns hierzu gerne eine Anfrage per Kontaktformular und wir werden Ihnen schnellstmöglich eine Rückmeldung zukommen lassen.<\/p>",
         "image_position": "left",
         "image_container_size": "medium",
         "product_image_size": "square",
