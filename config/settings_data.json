@@ -193,14 +193,6 @@
       "toolbar": {
         "type": "toolbar",
         "blocks": {
-          "announcement_qMGPqJ": {
-            "type": "announcement",
-            "disabled": true,
-            "settings": {
-              "richtext": "<p>Liebe KundenInnen, Aufgrund von unvorgesehenen Krankheitsfällen  verzögert sich leider die Auslieferung Deiner Bestellung.  Wir arbeiten mit Hochdruck daran, die Situation so schnell wie möglich zu lösen und die Lieferungen wieder auf den gewohnten Zeitplan zu bringen. Wir bitten um Verständnis! Danke<\/p>",
-              "richtext_mobile": ""
-            }
-          },
           "announcement_zYemnF": {
             "type": "announcement",
             "settings": {
@@ -214,12 +206,19 @@
               "richtext": "<p><strong>Spare 20%<\/strong> bei Winkel- und Vierkantprofile Code: <strong>WVR20%<\/strong><\/p>",
               "richtext_mobile": "<p>Winkel und Vierkantprofile - 20% Rabatt! Code: WVR20%<\/p>"
             }
+          },
+          "announcement_qMGPqJ": {
+            "type": "announcement",
+            "settings": {
+              "richtext": "<p>Liebe KundenInnen, Aufgrund von unvorgesehenen Krankheitsfällen  verzögert sich leider die Auslieferung Deiner Bestellung.  Wir arbeiten mit Hochdruck daran, die Situation so schnell wie möglich zu lösen und die Lieferungen wieder auf den gewohnten Zeitplan zu bringen. Wir bitten um Verständnis! Danke<\/p>",
+              "richtext_mobile": ""
+            }
           }
         },
         "block_order": [
-          "announcement_qMGPqJ",
           "announcement_zYemnF",
-          "announcement_NLhgXy"
+          "announcement_NLhgXy",
+          "announcement_qMGPqJ"
         ],
         "settings": {
           "announcement_center": false,
