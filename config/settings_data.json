@@ -209,6 +209,7 @@
           },
           "announcement_qMGPqJ": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "richtext": "<p>Liebe KundenInnen, Aufgrund von unvorgesehenen Krankheitsfällen  verzögert sich leider die Auslieferung Deiner Bestellung.  Wir arbeiten mit Hochdruck daran, die Situation so schnell wie möglich zu lösen und die Lieferungen wieder auf den gewohnten Zeitplan zu bringen. Wir bitten um Verständnis! Danke<\/p>",
               "richtext_mobile": ""
