@@ -51,18 +51,18 @@
         "hero_qTNdfV": {
           "type": "hero",
           "settings": {
-            "top_subheading": "",
-            "title": "<p>PV-Profile <br\/>schwarz eloxiert<\/p>",
+            "top_subheading": "Die attraktive Kombination aus ästhetischen, funktionalen und langlebigen Eigenschaften",
+            "title": "<p>Schwarz eloxierte PV-Profile <br\/><\/p>",
             "title_size": 57,
             "subheading": "",
-            "link": "\/products\/pv-profile?sku=LB040X040-6063-C35",
-            "link_text": "schwarze PV-Profile",
+            "link": "https:\/\/alu-verkauf.de\/products\/pv-profile",
+            "link_text": "zu unseren PV-Profilen",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#615e5e",
             "text_align": "vertical-center horizontal-right",
             "image": "shopify:\/\/shop_images\/Bildschirm_foto_2024-04-12_um_08.53.54.png",
-            "overlay_opacity": 0,
+            "overlay_opacity": 42,
             "focal_point": "center center"
           }
         },
