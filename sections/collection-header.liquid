@@ -80,7 +80,7 @@
         {%- unless collection.metafields.custom.kurzbeschreibung == blank -%}
            <div class="rte">
                 {{ collection.metafields.custom.kurzbeschreibung.value.children[0].children[0].value }}
-                 {{ collection.metafields.custom.kurzbeschreibung | rtf_to_html }}
+                 {{ collection.metafields.custom.kurzbeschreibung  | rtf_to_html }}
            </div>
         {% endunless %}
         <p class="medium-up--hide" data-collection-count>{{ 'collections.general.items_with_count' | t: count: collection.products_count }}</p>
