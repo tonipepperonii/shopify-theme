@@ -1,3 +1,5 @@
+{% render 'rapid-search-foc-wrapper-condition' %}
+ 
 
  
 {%- liquid
@@ -200,3 +202,9 @@
 }
 {% endschema %}
 
+
+
+{% if  focIsEnabled == true %}
+  <!-- rps-generated-div --></div>
+{% endif %}
+  
