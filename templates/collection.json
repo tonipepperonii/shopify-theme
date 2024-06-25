@@ -77,7 +77,6 @@
         "subcollections",
         "product_grid"
       ],
-      "disabled": true,
       "settings": {
         "enable_sidebar": true,
         "collapse_filters": false,
@@ -96,6 +95,7 @@
       "blocks": {
         "a982a0a1-7768-4f12-ba47-f2d0eae54e3d": {
           "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/filter-product-list-ssr\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "disabled": true,
           "settings": {
           }
         }
@@ -104,6 +104,8 @@
         "a982a0a1-7768-4f12-ba47-f2d0eae54e3d"
       ],
       "settings": {
+        "full_width": false,
+        "space_around": true
       }
     }
   },
