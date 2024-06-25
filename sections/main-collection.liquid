@@ -1,3 +1,5 @@
+{% render 'rapid-search-foc-wrapper-condition' %}
+ 
 {%- liquid
   assign show_sidebar = true
   assign total_tags = 0
@@ -197,3 +199,9 @@
   ]
 }
 {% endschema %}
+
+
+{% if  focIsEnabled == true %}
+  <!-- rps-generated-div --></div>
+{% endif %}
+  
