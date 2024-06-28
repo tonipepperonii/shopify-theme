@@ -77,7 +77,7 @@
                     class="collapsible-content collapsible-content--all{% unless collapsed_state %} is-open{% endunless %}"
                     {% unless collapsed_state %}style="height: auto;"{% endunless %}>
                     <div class="collapsible-content__inner">
-                      {% if filter_label == 'Länge' %}
+                      {% if filter.label == 'Länge' %}
                         <div class="length-filter">
                             <label for="length-range">Length Range:</label>
                             //<input type="range" id="length-min" name="length-min" min="0" max="1000" value="0" step="10" oninput="updateLengthRange()">
