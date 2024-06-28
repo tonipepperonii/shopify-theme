@@ -96,6 +96,8 @@
                               </div>
                             {% endfor %}
                           </div>
+                      {%- else -%}
+                        <div>filter.label</div>
                       {%- endif -%}
                       {%- case filter.type -%}
                         {%- when 'list' -%}
