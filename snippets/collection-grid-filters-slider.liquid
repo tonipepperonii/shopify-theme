@@ -87,16 +87,6 @@
                             <button onclick="filterProductsByLength()">Apply Filter</button>
                           </div>
                           
-                          <div id="product-grid">
-                            {% for product in collection.products %}
-                              <div class="product-item" data-length="{{ product.metafields.custom.l_nge }}">
-                                <!-- Produktinformationen hier -->
-                                <h2>{{ product.title }}</h2>
-                                <p>{{ product.price | money }}</p>
-                                <p>Length: {{ product.metafields.custom.l_nge }} cm</p>
-                              </div>
-                            {% endfor %}
-                          </div>
                       {%- else -%}
                         <div>{{ filter.label }}</div>
                       
