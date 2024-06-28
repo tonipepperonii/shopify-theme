@@ -78,7 +78,7 @@
                     {% unless collapsed_state %}style="height: auto;"{% endunless %}>
                     <div class="collapsible-content__inner">
                       {% if filter.label == 'Länge' %}
-                        <div>Test true</div>
+                        <div>{{ filter.label }}</div>
                         <div class="length-filter">
                             <label for="length-range">Length Range:</label>
                             //<input type="range" id="length-min" name="length-min" min="0" max="1000" value="0" step="10" oninput="updateLengthRange()">
@@ -98,8 +98,8 @@
                             {% endfor %}
                           </div>
                       {%- else -%}
-                        <div>Test filter.label</div>
-                      {%- endif -%}
+                        <div>{{ filter.label }}</div>
+                      
                       {%- case filter.type -%}
                         {%- when 'list' -%}
 
@@ -154,6 +154,7 @@
                                   {%- endif -%}
                                 </label>
                               </li>
+                              
                             {%- endfor -%}
                           </ul>
 
@@ -219,6 +220,7 @@
                               readonly>
                           </div>
                       {%- endcase -%}
+                      {%- endif -%}
                     </div>
                   </div>
                 </div>
