@@ -86,9 +86,35 @@
                             <span id="length-range-display"></span>
                             <button onclick="filterProductsByLength()">Apply Filter</button>
                           </div>
+                        <div
+                            class="price-range"
+                            data-min-value="{{ filter_min_value }}"
+                            data-min-name="{{ filter.min_value.param_name }}"
+                            data-min="{{ filter_range_min }}"
+                            data-max-value="{{ filter_max_value }}"
+                            data-max-name="{{ filter.max_value.param_name }}"
+                            data-max="{{ filter_range_max }}">
+                            <div class="price-range__display-wrapper">
+                              <span class="price-range__display-min">{{ filter_min_value }}</span>
+                              <span class="price-range__display-max">{{ filter_max_value }}</span>
+                            </div>
+                            <div class="price-range__slider-wrapper">
+                              <div class="price-range__slider"></div>
+                            </div>
+                            <input
+                              class="price-range__input price-range__input-min"
+                              name="{{ filter.min_value.param_name }}"
+                              value="{{ filter_min_value }}"
+                              readonly>
+                            <input
+                              class="price-range__input price-range__input-max"
+                              name="{{ filter.max_value.param_name }}"
+                              value="{{ filter_max_value }}"
+                              readonly>
+                          </div>
                           
                       {%- else -%}
-                        <div>{{ filter.label }}</div>
+                        
                       
                       {%- case filter.type -%}
                         {%- when 'list' -%}
