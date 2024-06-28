@@ -34,7 +34,7 @@
       {%- paginate collection.products by paginate_by -%}
       <div class="grid">
         <div class="grid__item medium-up--one-fifth grid__item--sidebar">
-          {%- render 'collection-grid-filters',
+          {%- render 'collection-grid-filters-slider',
             collection: collection,
             enable_sidebar: section.settings.enable_sidebar,
             enable_color_swatches: section.settings.enable_color_swatches,
