@@ -343,13 +343,6 @@
         "disabled": true,
         "settings": {
         }
-      },
-      "3980574c-e250-49c6-9c86-6524802f0d45": {
-        "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/boost-sd-ssr\/7fc998ae-a150-4367-bab8-505d8a4503f7",
-        "disabled": true,
-        "settings": {
-          "templateId": "N1ZFC5R0A6"
-        }
       }
     }
   },

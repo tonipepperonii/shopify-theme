@@ -24,9 +24,9 @@
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#615e5e",
-            "text_align": "vertical-center horizontal-right",
-            "image": "shopify:\/\/shop_images\/15k.jpg",
-            "overlay_opacity": 46,
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/13ka.jpg",
+            "overlay_opacity": 30,
             "focal_point": "center center"
           }
         },
