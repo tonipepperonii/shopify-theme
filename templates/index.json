@@ -26,7 +26,7 @@
             "color_accent": "#615e5e",
             "text_align": "vertical-center horizontal-left",
             "image": "shopify:\/\/shop_images\/13ka.jpg",
-            "overlay_opacity": 30,
+            "overlay_opacity": 40,
             "focal_point": "center center"
           }
         },
