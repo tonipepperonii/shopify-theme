@@ -144,13 +144,13 @@
     "text_and_image_pAVQky": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/pirate-vans-25_3.png",
+        "image": "shopify:\/\/shop_images\/kothe-logo-01.png",
         "image_width": 290,
         "subtitle": "",
-        "title": "Pirate Vans",
-        "text": "<p>Pirate Vans entwickelt und vertreibt Camping-Module, mit denen Ihr Eure Fahrzeuge der VW-Bus-Klasse innerhalb von 15 Minuten zu vollwertigen Campern umrüsten könnt.<\/p>",
+        "title": "Kothe Galvanik",
+        "text": "<p>Kothe Galvanik bietet eine breite Palette von Leistungen an, um die<br\/>Oberflächen von Metallteilen zu veredeln und ihre Haltbarkeit und Ästhetik zu verbessern.<\/p>",
         "button_label": "Weiter zu Pirate Vans",
-        "button_link": "https:\/\/www.pirate-vans.com\/",
+        "button_link": "https:\/\/kothe-galvanik.de\/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
