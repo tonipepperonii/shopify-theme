@@ -178,13 +178,13 @@
     "text_and_image_7wVxQk": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/kothe-logo-01.png",
+        "image": "shopify:\/\/shop_images\/sino-bikeports_logo.svg",
         "image_width": 290,
         "subtitle": "",
-        "title": "Kothe Galvanik",
-        "text": "<p>Kothe Galvanik bietet eine breite Palette von Leistungen an, um die<br\/>Oberflächen von Metallteilen zu veredeln und ihre Haltbarkeit und Ästhetik zu verbessern.<\/p>",
-        "button_label": "Weiter zu Kothe Galvanik",
-        "button_link": "https:\/\/kothe-galvanik.de\/",
+        "title": "SinoMak Bikeports",
+        "text": "<p>SinoMak Bikeports bieten individuelle Fahrradgaragen und Unterstände für deinen Bedarf an.<\/p>",
+        "button_label": "Weiter zu SinoMak Bikeports",
+        "button_link": "https:\/\/www.bikeports.com\/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
