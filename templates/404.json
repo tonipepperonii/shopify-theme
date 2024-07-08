@@ -157,6 +157,40 @@
         "color_scheme": "1",
         "divider": false
       }
+    },
+    "text_and_image_jCNdnk": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/gebu-technik-logo.png",
+        "image_width": 290,
+        "subtitle": "",
+        "title": "GEBU tec",
+        "text": "<p>GEBU tec bietet ein großes Spektrum an Leistungen im CNC-Bereich, der Bauteilfertigung oder der Weiterverarbeitung an. Wobei sie besonderen Wert auf höchsten Qualitätsstandard und Flexibilität legen.<\/p>",
+        "button_label": "Weiter zu Kothe Galvanik",
+        "button_link": "https:\/\/kothe-galvanik.de\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "text_and_image_7wVxQk": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kothe-logo-01.png",
+        "image_width": 290,
+        "subtitle": "",
+        "title": "Kothe Galvanik",
+        "text": "<p>Kothe Galvanik bietet eine breite Palette von Leistungen an, um die<br\/>Oberflächen von Metallteilen zu veredeln und ihre Haltbarkeit und Ästhetik zu verbessern.<\/p>",
+        "button_label": "Weiter zu Kothe Galvanik",
+        "button_link": "https:\/\/kothe-galvanik.de\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "1",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -168,6 +202,8 @@
     "text_and_image_6MCfHk",
     "text_and_image_xnBWmV",
     "text_and_image_VmBNtg",
-    "text_and_image_pAVQky"
+    "text_and_image_pAVQky",
+    "text_and_image_jCNdnk",
+    "text_and_image_7wVxQk"
   ]
 }
