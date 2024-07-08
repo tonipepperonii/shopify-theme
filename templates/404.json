@@ -245,6 +245,7 @@
     },
     "text_and_image_YnBidz": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Logo-LichtKlang-LTM-800x314.png",
         "image_width": 290,
