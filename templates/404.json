@@ -212,13 +212,47 @@
     "text_and_image_AMfP3G": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/sino-bikeports_logo.svg",
+        "image": "shopify:\/\/shop_images\/Logo-LichtKlang-LTM-800x314.png",
         "image_width": 290,
         "subtitle": "",
         "title": "LichtKlang",
         "text": "<p>SinoMak Bikeports bieten individuelle Fahrradgaragen und Unterstände für deinen Bedarf an.<\/p>",
         "button_label": "Weiter zu LichtKlang",
-        "button_link": "https:\/\/www.bikeports.com\/",
+        "button_link": "https:\/\/lichtklang-hannover.de\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "text_and_image_kNiE3n": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Logo-LichtKlang-LTM-800x314.png",
+        "image_width": 290,
+        "subtitle": "",
+        "title": "LichtKlang",
+        "text": "<p>LichtKlang ist ein Full-Service-Dienstleister der eure Events mit der erforderlichen Veranstaltungstechnik ausstattet.<br\/>Licht-, Ton- und Medientechnik sind ihre Berufung.<\/p>",
+        "button_label": "Weiter zu LichtKlang",
+        "button_link": "https:\/\/lichtklang-hannover.de\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "text_and_image_YnBidz": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Logo-LichtKlang-LTM-800x314.png",
+        "image_width": 290,
+        "subtitle": "",
+        "title": "LichtKlang",
+        "text": "<p>SinoMak Bikeports bieten individuelle Fahrradgaragen und Unterstände für deinen Bedarf an.<\/p>",
+        "button_label": "Weiter zu LichtKlang",
+        "button_link": "https:\/\/lichtklang-hannover.de\/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
@@ -240,6 +274,8 @@
     "text_and_image_jCNdnk",
     "text_and_image_7wVxQk",
     "text_and_image_p46hnN",
-    "text_and_image_AMfP3G"
+    "text_and_image_AMfP3G",
+    "text_and_image_kNiE3n",
+    "text_and_image_YnBidz"
   ]
 }
