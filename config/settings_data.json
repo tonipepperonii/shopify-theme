@@ -196,7 +196,7 @@
           "announcement_zYemnF": {
             "type": "announcement",
             "settings": {
-              "richtext": "<p><a href=\"\/collections\/alu-systemprofile\" title=\"Alu Systemprofile\">NEU - Systemprofile<\/a><\/p>",
+              "richtext": "<p><a href=\"\/collections\/alu-systemprofile\" title=\"Alu Systemprofile\">NEU - Systemprofile <br\/><\/a>Code: ALUneuSP = 10% Rabatt<\/p>",
               "richtext_mobile": ""
             }
           },
