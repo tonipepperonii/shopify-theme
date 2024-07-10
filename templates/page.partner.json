@@ -73,6 +73,211 @@
         "divider": false
       }
     },
+    "text_and_image_BnYhc7": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/spiegelart_Logo.jpg",
+        "image_width": 350,
+        "subtitle": "",
+        "title": "Spiegelart",
+        "text": "<p>Spiegelart ist ein ostdeutsches, familiengeführtes Unternehmen das sich auf Spiegel und Gläser spezialisiert hat.<\/p>",
+        "button_label": "Weiter zu Spiegelart",
+        "button_link": "https:\/\/www.spiegelart.com\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "text_and_image_FJghjn": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/uncle-phil.png",
+        "image_width": 220,
+        "subtitle": "",
+        "title": "Uncle Phil",
+        "text": "<p>Uncle Phil bietet euch open-source mäßig Baupläne und Zeichnungen für die CNC-Fräse, 3D-Drucker und alles umzu an.<\/p>",
+        "button_label": "Weiter zu Uncle Phil",
+        "button_link": "https:\/\/www.unclephil.de\/volksfr%C3%A4se-vf1\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "text_and_image_6MCfHk": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Jaster_wei-blau_grau.webp",
+        "image_width": 520,
+        "subtitle": "",
+        "title": "Jaster CNC Technik",
+        "text": "<p>Jaster bietet euch alles rund um die CNC-Fräse.<\/p>",
+        "button_label": "Weiter zu Jaster",
+        "button_link": "https:\/\/jaster-cnc.de\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "text_and_image_xnBWmV": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pirate-vans-25_4.png",
+        "image_width": 290,
+        "subtitle": "",
+        "title": "Pirate Vans",
+        "text": "<p>Pirate Vans entwickelt und vertreibt Camping-Module, mit denen Ihr Eure Fahrzeuge der VW-Bus-Klasse innerhalb von 15 Minuten zu vollwertigen Campern umrüsten könnt.<\/p>",
+        "button_label": "Weiter zu Pirate Vans",
+        "button_link": "https:\/\/www.pirate-vans.com\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "text_and_image_VmBNtg": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/logo-metallbau-genath.jpg",
+        "image_width": 520,
+        "subtitle": "",
+        "title": "Michael Genath - Metallbau und Schlosserei",
+        "text": "<p>Genath Metallbau ist ein mittelständiger Handwerksbetrieb, der Bauelemente in Aluminium nach Maßanfertigung und nach Ihren individuellen Wünschen fertigt.<\/p>",
+        "button_label": "Weiter zu Metallbau Genath",
+        "button_link": "https:\/\/metallbaugenath.de\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "text_and_image_pAVQky": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kothe-logo-02.png",
+        "image_width": 290,
+        "subtitle": "",
+        "title": "Kothe Galvanik",
+        "text": "<p>Kothe Galvanik bietet eine breite Palette von Leistungen an, um die<br\/>Oberflächen von Metallteilen zu veredeln und ihre Haltbarkeit und Ästhetik zu verbessern.<\/p>",
+        "button_label": "Weiter zu Kothe Galvanik",
+        "button_link": "https:\/\/kothe-galvanik.de\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "text_and_image_jCNdnk": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/gebu-technik-logo.png",
+        "image_width": 290,
+        "subtitle": "",
+        "title": "GEBU tec",
+        "text": "<p>GEBU tec bietet ein großes Spektrum an Leistungen im CNC-Bereich, der Bauteilfertigung oder der Weiterverarbeitung an. Wobei sie besonderen Wert auf höchsten Qualitätsstandard und Flexibilität legen.<\/p>",
+        "button_label": "Weiter zu GEBU TEC",
+        "button_link": "https:\/\/www.gebu-tec.de\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "text_and_image_7wVxQk": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sino-bikeports_logo.svg",
+        "image_width": 290,
+        "subtitle": "",
+        "title": "SinoMak Bikeports",
+        "text": "<p>SinoMak Bikeports bieten individuelle Fahrradgaragen und Unterstände für deinen Bedarf an.<\/p>",
+        "button_label": "Weiter zu SinoMak Bikeports",
+        "button_link": "https:\/\/www.bikeports.com\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "text_and_image_p46hnN": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/gentemann_metallbau_Logo_mit_grau.png",
+        "image_width": 290,
+        "subtitle": "",
+        "title": "Gentemann Metallbau",
+        "text": "<p>Gentemann Metallbau ist euer Experte für individuelle Schweißkonstruktionen aus Aluminium<\/p>",
+        "button_label": "Weiter zu Gentemann Metallbau",
+        "button_link": "https:\/\/www.gentemann-metallbau.de\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "text_and_image_kNiE3n": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Logo-LichtKlang-LTM-800x314.png",
+        "image_width": 290,
+        "subtitle": "",
+        "title": "LichtKlang",
+        "text": "<p>LichtKlang ist ein Full-Service-Dienstleister der eure Events mit der erforderlichen Veranstaltungstechnik ausstattet. Licht-, Ton- und Medientechnik sind ihre Berufung.<\/p>",
+        "button_label": "Weiter zu LichtKlang",
+        "button_link": "https:\/\/lichtklang-hannover.de\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "text_and_image_AMfP3G": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/varie-vestimentum_logo.png",
+        "image_width": 290,
+        "subtitle": "",
+        "title": "VARIE VESTIMENTUM",
+        "text": "<p>VARIE VESTIMENTUM ist unser kompetenter und zuverlässiger Partner für individuelle Textilveredelung und wirkungsvolle Werbetechnik.<\/p>",
+        "button_label": "Weiter zu VARIE VESTIMENTUM",
+        "button_link": "https:\/\/varie-vestimentum.de\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "text_and_image_YnBidz": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Logo-LichtKlang-LTM-800x314.png",
+        "image_width": 290,
+        "subtitle": "",
+        "title": "LichtKlang",
+        "text": "<p>SinoMak Bikeports bieten individuelle Fahrradgaragen und Unterstände für deinen Bedarf an.<\/p>",
+        "button_label": "Weiter zu LichtKlang",
+        "button_link": "https:\/\/lichtklang-hannover.de\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
     "blog_posts_AYEpea": {
       "type": "blog-posts",
       "settings": {
@@ -193,6 +398,18 @@
     "main",
     "rich_text_GEt6tL",
     "rich_text_gh4gUa",
+    "text_and_image_BnYhc7",
+    "text_and_image_FJghjn",
+    "text_and_image_6MCfHk",
+    "text_and_image_xnBWmV",
+    "text_and_image_VmBNtg",
+    "text_and_image_pAVQky",
+    "text_and_image_jCNdnk",
+    "text_and_image_7wVxQk",
+    "text_and_image_p46hnN",
+    "text_and_image_kNiE3n",
+    "text_and_image_AMfP3G",
+    "text_and_image_YnBidz",
     "blog_posts_AYEpea",
     "logo_list_wMYcgE",
     "vz_text_columns_DXwfxn"
