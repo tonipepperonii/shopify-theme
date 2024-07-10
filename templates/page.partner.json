@@ -15,35 +15,6 @@
       "settings": {
       }
     },
-    "rich_text_GEt6tL": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_CkKQH3": {
-          "type": "heading",
-          "settings": {
-            "title": "Beispiel Titel",
-            "show_line": false
-          }
-        },
-        "text_EEikVy": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_CkKQH3",
-        "text_EEikVy"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "color_scheme": "1",
-        "divider": false
-      }
-    },
     "rich_text_gh4gUa": {
       "type": "rich-text",
       "blocks": {
@@ -277,126 +248,10 @@
         "color_scheme": "1",
         "divider": false
       }
-    },
-    "blog_posts_AYEpea": {
-      "type": "blog-posts",
-      "settings": {
-        "title": "From the blog",
-        "blog": "news",
-        "blog_show_tags": true,
-        "blog_show_excerpt": true,
-        "blog_show_image": true,
-        "blog_show_date": true,
-        "divider": false,
-        "blog_image_size": "wide"
-      }
-    },
-    "logo_list_wMYcgE": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_image_KV9UmA": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "logo_image_VAVzza": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "logo_image_xUbFdy": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "logo_image_VhXDUW": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "logo_image_XNYDqK": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "logo_image_hdYGRy": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_image_KV9UmA",
-        "logo_image_VAVzza",
-        "logo_image_xUbFdy",
-        "logo_image_VhXDUW",
-        "logo_image_XNYDqK",
-        "logo_image_hdYGRy"
-      ],
-      "settings": {
-        "title": "Our brands",
-        "divider": false
-      }
-    },
-    "vz_text_columns_DXwfxn": {
-      "type": "vz-text-columns",
-      "blocks": {
-        "text_block_QALL6r": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions.<\/p>",
-            "button_label": "Optional button",
-            "button_link": ""
-          }
-        },
-        "text_block_AEp7KW": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions.<\/p>",
-            "button_label": "Optional button",
-            "button_link": ""
-          }
-        },
-        "text_block_cfRjYk": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions.<\/p>",
-            "button_label": "Optional button",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_QALL6r",
-        "text_block_AEp7KW",
-        "text_block_cfRjYk"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "left",
-        "divider": false,
-        "color_scheme": "none"
-      }
     }
   },
   "order": [
     "main",
-    "rich_text_GEt6tL",
     "rich_text_gh4gUa",
     "text_and_image_BnYhc7",
     "text_and_image_FJghjn",
@@ -409,9 +264,6 @@
     "text_and_image_p46hnN",
     "text_and_image_kNiE3n",
     "text_and_image_AMfP3G",
-    "text_and_image_YnBidz",
-    "blog_posts_AYEpea",
-    "logo_list_wMYcgE",
-    "vz_text_columns_DXwfxn"
+    "text_and_image_YnBidz"
   ]
 }
