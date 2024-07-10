@@ -44,6 +44,35 @@
         "divider": false
       }
     },
+    "rich_text_gh4gUa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nzc4Gh": {
+          "type": "heading",
+          "settings": {
+            "title": "Unsere Partner",
+            "show_line": false
+          }
+        },
+        "text_XhCz9w": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Ein stabiles Netz ist für den Erfolg eines Unternehmens von entscheidender Bedeutung. Wir wissen, wie wichtig Zuverlässigkeit und Vertrauen für unsere und deine Arbeit sind. Deshalb pflegen wir langfristige Kooperationen mit zuverlässigen Unternehmen.<br\/><br\/>Wir möchten uns bei unseren bewährten Partnern für die hervorragende Zusammenarbeit bedanken. Wir freuen uns darauf, gemeinsam an weiteren spannenden Projekten zu arbeiten und unseren gemeinsamen Erfolg voranzutreiben.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nzc4Gh",
+        "text_XhCz9w"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
     "blog_posts_AYEpea": {
       "type": "blog-posts",
       "settings": {
@@ -163,6 +192,7 @@
   "order": [
     "main",
     "rich_text_GEt6tL",
+    "rich_text_gh4gUa",
     "blog_posts_AYEpea",
     "logo_list_wMYcgE",
     "vz_text_columns_DXwfxn"
