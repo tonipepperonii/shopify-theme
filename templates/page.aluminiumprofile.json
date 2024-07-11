@@ -389,6 +389,27 @@
         "round_images": true,
         "color_scheme": "none"
       }
+    },
+    "slideshow_image_jmW8TE": {
+      "type": "slideshow-image",
+      "blocks": {
+        "image_GbjVPD": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "image": "shopify:\/\/shop_images\/Alu_Profile-beispielbilder.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_GbjVPD"
+      ],
+      "settings": {
+        "full_width": false,
+        "style": "minimal",
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
     }
   },
   "order": [
@@ -398,6 +419,7 @@
     "b4603d4a-730e-4537-87dc-0f384c0cd5aa",
     "88631434-6a19-47d1-883b-6aa9feb6674b",
     "35b1db5a-62a2-407f-b128-8ee3d1adb35a",
-    "d28de3b5-ca45-4608-ae09-7b74692d8726"
+    "d28de3b5-ca45-4608-ae09-7b74692d8726",
+    "slideshow_image_jmW8TE"
   ]
 }
