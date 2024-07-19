@@ -5823,7 +5823,8 @@ form+.footer__social{
   background-color:{{ settings.color_body_bg | default: "#fff" }};
   background-color:var(--colorBody);
   color:{{ settings.color_body_text | default: "#1c1d1d" }};
-  color:var(--colorTextBody)
+  color:var(--colorTextBody);
+  margin-top: 10px;
 }
 
 .js-qty__wrapper.is-loading{
@@ -10697,10 +10698,11 @@ html[dir=rtl] .background-media-text__text{
 .cart__remove a{
     display:inline-block;
     margin-top:10px;
+    text-decoration: underline;
   }
 
 .cart__drawer-form .cart__remove{
-    display:none
+    /* vz edit display:none*/
 }
 
 .cart__checkout,.cart__continue{
