@@ -93,14 +93,14 @@
     "171887684916155a9b": {
       "type": "apps",
       "blocks": {
-        "alu_verkauf_konfigurator_collection_list_pipes_AxAKjF": {
-          "type": "shopify:\/\/apps\/alu-verkauf-konfigurator\/blocks\/collection-list-pipes\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+        "alu_verkauf_konfigurator_collection_list_noconfig_gbQdUN": {
+          "type": "shopify:\/\/apps\/alu-verkauf-konfigurator\/blocks\/collection-list-noconfig\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
           "settings": {
           }
         }
       },
       "block_order": [
-        "alu_verkauf_konfigurator_collection_list_pipes_AxAKjF"
+        "alu_verkauf_konfigurator_collection_list_noconfig_gbQdUN"
       ],
       "settings": {
         "full_width": false,
