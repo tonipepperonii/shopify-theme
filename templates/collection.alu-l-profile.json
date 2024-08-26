@@ -137,6 +137,27 @@
         "color_scheme": "1",
         "divider": false
       }
+    },
+    "slideshow_image_z8mKWH": {
+      "type": "slideshow-image",
+      "blocks": {
+        "image_TpNLcR": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "image": "shopify:\/\/shop_images\/L-Profil.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_TpNLcR"
+      ],
+      "settings": {
+        "full_width": true,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
     }
   },
   "order": [
@@ -145,6 +166,7 @@
     "recently-viewed",
     "sidebar_rich_text_MKrnCU",
     "text_and_image_qAD3TN",
-    "rich_text_gigHt3"
+    "rich_text_gigHt3",
+    "slideshow_image_z8mKWH"
   ]
 }
