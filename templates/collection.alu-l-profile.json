@@ -1,0 +1,150 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "rich_text_K9GRMy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_eNj69F": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rohrverbinder: Praktischer Verbinder für Vierkantrohre",
+            "show_line": false
+          }
+        },
+        "text_DgWVXh": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<h1>Alu Eckprofile<\/h1><p><strong>Alu Eckprofile <\/strong>(auch: Alu Winkelprofile oder Alu L-Profile) sind sehr robust und können durch ihre praktische L-Form vielseitig eingesetzt werden. Bei Eckprofilen unterscheidet man zwischen Profilen mit zwei gleich hohen Schenkeln (gleichschenklig) und Profilen mit zwei unterschiedlich hohen Schenkeln (ungleichschenklig).<\/p><p><\/p><p>Die angegebenen Preise verstehen sich als <strong>Bruttopreise inkl. MwSt.<\/strong>, zzgl. Versandkosten. Gerne prüfen wir, ob Profile und Abmessungen, die hier nicht aufgeführt werden, im Markt für Dich beschaffbar sind. Schicke uns hierzu gerne eine Anfrage per Kontaktformular oder E-Mail an <a href=\"mailto:verkauf@alu-verkauf.de\"><span style=\"text-decoration:underline\">verkauf@alu-verkauf.de<\/span><\/a> und wir werden Dir schnellstmöglich eine Rückmeldung zukommen lassen (Lieferzeit nach Verefügbarkeit).<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eNj69F",
+        "text_DgWVXh"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "subcollections": {
+          "type": "subcollections",
+          "settings": {
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "grid_style": "small"
+          }
+        },
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "subcollections",
+        "product_grid",
+        "collection_description"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapse_filters": false,
+        "enable_color_swatches": false,
+        "enable_sort": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "sidebar_rich_text_MKrnCU": {
+      "type": "sidebar-rich-text",
+      "blocks": {
+        "text_MkyQkE": {
+          "type": "text",
+          "settings": {
+            "main_richtext": "<h1>Hier steht ein Beispiel{{ shop.brand.slogan }}<\/h1><p>So könnte es aussehen{{ shop.brand.short_description }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_MkyQkE"
+      ],
+      "disabled": true,
+      "settings": {
+        "side-title": "",
+        "side-richtext": "",
+        "phone": "",
+        "mail": "",
+        "checkbox": true
+      }
+    },
+    "text_and_image_qAD3TN": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/vierkantverbinder-beispielbild_1.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "",
+        "text": "<h2><strong>Rohrverbinder: Stabil und vielseitig einsetzbar<\/strong><\/h2><p>Rohrverbinder können bei einer<strong> Vielzahl verschiedener Projekte<\/strong> eingesetzt werden. So kommen die Verbinder für Vierkantrohre beispielsweise gerne in der <strong>Konstruktion von Möbeln wie Tischen, Stühlen oder Regalen<\/strong> zum Einsatz. Dank des robusten Materials (i.d.R. Aluminium, Edelstahl oder Kunststoff) können die Steckverbinder relativ <strong>viel Gewicht tragen<\/strong> und sind somit auch für die Verwendung bei größeren Konstruktionen geeignet.<\/p><p>Rohrverbinder sind zudem in <strong>verschiedenen Formen<\/strong> erhältlich, wodurch Sie die Möglichkeit haben, Rohre auf unterschiedliche Weise miteinander zu verbinden und so verschiedenste Konstruktionen zu erstellen. Dank des <strong>robusten Materials<\/strong> sind die Rohrverbinder zudem <strong>witterungsresistent<\/strong> und können auch im Außenbereich eingesetzt werden. Hier bieten sie sich u.a. für Projekte wie Zäune, Geländer, Terrassen oder für den Messebau an.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "rich_text_gigHt3": {
+      "type": "rich-text",
+      "blocks": {
+        "text_BHytkj": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<h2>Wichtige Informationen zu unseren Eckprofilen<\/h2><ul><li><strong>Maße<\/strong> = Außenmaße (Schenkel a x Schenkel b) x Dicke<\/li><li><strong>Es handelt sich immer um<\/strong> <strong>90 Grad Winkel<\/strong>, die sowohl innen als auch außen annähernd scharfkantig sind.<\/li><li><strong>Oberfläche, wenn nicht anders angegeben in pressblank<\/strong>. Lieferungen sind ab einer Länge von 20 mm im Zuschnitt ohne Restübernahme möglich. Maximal bestellbare Länge 6 Meter.<\/li><li><strong>Die Legierung AlMgSi0,5<\/strong> kann <strong>auf Wunsch silber-eloxiert<\/strong> werden.<\/li><li>Einige Winkel führen wir sogar schon <strong>lagermäßig als silber-eloxierte Profile<\/strong> (E6\/EV1)<\/li><\/ul><p>Alle Alu-Eckprofile sind gemäß DIN-EN-Norm 573\/755-9 gefertigt; die chemische Zusammensetzung von Aluminium entspricht der DIN-EN 573-3.<\/p><h2>Das Alu Eckprofil: Ein Profil mit vielen Vorteilen!<\/h2><p>Die Verwendung von Profilen aus Aluminium birgt eine ganze Reihe von Vorteilen, von denen Sie sowohl im privaten Bereich als auch bei einem Einsatz in der Industrie profitieren. Einige der wichtigsten Vorteile von Aluminium Eckprofilen möchten wir Ihnen gerne im Folgenden vorstellen:<\/p><h3>Vorteil 1: Flexibel und vielseitig einsetzbar!<\/h3><p>Aluminium Eckprofile sind im Vergleich zu Profilen aus alternativen Materialien deutlich leichter, wodurch sie sich für den Einsatz in verschiedenen Projekten eignen. So eignen sich Aluminiumprofile beispielsweise für Projekte in großen Höhen - wie für die Anfertigung einer neuen Bedachung, da die Profile dank Ihres <strong>geringen Gewichts<\/strong> ganz einfach auf das Dach gehoben werden können.<\/p><p>Zudem ist Aluminium ein sehr <strong>flexibles Material <\/strong>und lässt sich daher sehr gut weiterverarbeiten. Dadurch setzen bereits heute viele Experten im Bereich des Innenbaus auf Eckprofile aus Aluminium und setzen diese für verschiedene Rahmenkonstruktionen, als Kantenschutz oder als Rahmenprofil für Gläser, Platten oder Spiegel sowie in der Küche vielseitig ein. <\/p><h3>Vorteil 2: Robustes und langlebiges Material!<\/h3><p>Aluminium ist nicht nur ein leichtes und flexibles Material, sondern auch besonders <strong>robust und langlebig<\/strong>. Dadurch sind unsere hochwertigen Alu Eckprofile vor Verschleiß geschützt, rosten nicht und können entsprechend auch trotz Wind und Wetter bedenkenlos im Außenbereich eingesetzt werden. Hier profitierst Du von einer <strong>guten Wetterbeständigkeit<\/strong> und einem<strong> hohen Korrosionsschutz.<\/strong><\/p><p>Die Aluminium Eckprofile eignen sich ideal für den Einsatz im Garten, beim Hausbau oder bei Renovierungen. <\/p><h3>Vorteil 3: Einfache Montage!<\/h3><p>Da Aluminium sehr flexibel und handlich ist, sind die Eckprofile besonders <strong>leicht zu montieren<\/strong>. Die Montage der Profile kann bequem mit herkömmlichen Werkzeugen vorgenommen werden, was die Anschaffung spezieller und teurer Spezialwerkzeuge vermeidet. Je nachdem, was für ein Projekt Du planst, kannst Du das Aluprofil kürzen, ausklinken oder auf Gehrung sägen.<\/p><h2>Alu Eckprofile nach Maß<\/h2><p>Unser Produktkonfigurator ermöglicht es Dir, bei <a href=\"http:\/\/alu-verkauf.de\">alu-verkauf.de<\/a> Aluminium Eckprofile nach Maß zu bestellen: So erhältst Du bei uns eine große Auswahl an Alu Eckprofilen <strong>bis zu einer Länge von 6 Metern<\/strong> und kannst zudem in der Bestellübersicht auch Eckprofile mit Deinen Wunschmaßen<strong> (ab 10 mm)<\/strong> bestellen. Indem Du uns direkt die gewünschte Länge Deiner Eckprofile mitteilst, kannst Du Dir ein aufwendiges nachträgliches Kürzen des Profils sparen und Du bezahlst nur das Material, das Du auch wirklich benötigst.<\/p><p>Unsere kleinsten Eckprofile besitzen die Abmessungen von 10 x 10 x 2 mm, die größten Profile messen hingegen 150 x 100 x 5 mm. Dazwischen können Sie aus einer Vielzahl von Maßen wählen.<\/p><p>Unsere Eckprofile kannst Du standardmäßig in der <strong>Legierung AlMgSi0,5<\/strong> (EN AW 6060) in pressblanker Ausführung bestellen. Wesentlich attraktiver sieht ein Aluwinkel jedoch <strong>eloxiert<\/strong> aus. In diesem Fall erstrahlt das Eckprofil in einem glänzenden Silber, was sich insbesondere für den Einsatz in sichtbaren Bereichen empfiehlt.<\/p><p>Für Eigenschaften sowie für die Werkstoffnummer der jeweiligen Legierungen schau bitte unter <a href=\"https:\/\/www.alu-verkauf.de\/content\/Werkstoffe-Aluminiumlegierungen\"><span style=\"text-decoration:underline\">Werkstoffe<\/span><\/a> nach!<\/p><h2><strong>Weitere Alu-Profile bei <\/strong><a href=\"http:\/\/alu-verkauf.de\"><strong>alu-verkauf.de<\/strong><\/a><\/h2><p>Egal, ob Du gewerblicher Kunde oder Endverbraucher bist. Im Online-Shop von <a href=\"http:\/\/alu-verkauf.de\">alu-verkauf.de<\/a> findest Du eine sehr große Auswahl an Aluminiumprofilen und dem dazugehörigen Zubehör zu fairen Preisen. Suchst Du zum Beispiel Vierkant- oder Rundprofile, findest Du auch diese Produkte in unserem<a href=\"https:\/\/www.alu-verkauf.de\/\"><span style=\"text-decoration:underline\"> Aluminium-Online-Shop<\/span><\/a>.<\/p><p>Stöbere gerne durch unsere Kategorien und mach Dir ein Bild von unseren hochwertigen Produkten:<\/p><ul><li><a href=\"https:\/\/alu-verkauf.de\/products\/aluminium-profile-4-kant\"><span style=\"text-decoration:underline\">Vierkantprofile<\/span><\/a><\/li><li><a href=\"https:\/\/alu-verkauf.de\/products\/aluminium-profile-rund\"><span style=\"text-decoration:underline\">Rundprofile<\/span><\/a><\/li><li><a href=\"https:\/\/alu-verkauf.de\/products\/aluminium-profile-flach\"><span style=\"text-decoration:underline\">Flachprofile<\/span><\/a><\/li><li><a href=\"https:\/\/alu-verkauf.de\/products\/aluminium-profile-6-kant\"><span style=\"text-decoration:underline\">Sechskantprofile<\/span><\/a><\/li><li><a href=\"https:\/\/alu-verkauf.de\/products\/aluminium-profile-t-profile\"><span style=\"text-decoration:underline\">T-Profile<\/span><\/a><\/li><li><a href=\"https:\/\/alu-verkauf.de\/products\/aluminium-profile-u-profile\"><span style=\"text-decoration:underline\">U-Profile<\/span><\/a><\/li><li><a href=\"https:\/\/alu-verkauf.de\/products\/aluminium-profile-z-profile\"><span style=\"text-decoration:underline\">Z-Profile<\/span><\/a><\/li><\/ul><h2><strong>Top Auswahl und Beratung bei <\/strong><a href=\"http:\/\/alu-verkauf.de\"><strong>alu-verkauf.de<\/strong><\/a><\/h2><p><strong>Wir stehen Dir gerne mit über 20 Jahren Expertise zur Seite: <\/strong>Kontaktiere uns einfach telefonisch unter <a href=\"tel:05121282900\"><span style=\"text-decoration:underline\">05121 28-290-0<\/span><\/a> oder schreibe uns eine Mail mit Deiner Frage an <a href=\"mailto:verkauf@alu-verkauf.de\">verkauf@alu-verkauf.de<\/a>. Wir freuen uns auf Dich und stehen Dir gerne als Partner für alle Fragen in Sachen Aluminiumprofilen zur Verfügung.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_BHytkj"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": false,
+        "color_scheme": "1",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "rich_text_K9GRMy",
+    "main-collection",
+    "recently-viewed",
+    "sidebar_rich_text_MKrnCU",
+    "text_and_image_qAD3TN",
+    "rich_text_gigHt3"
+  ]
+}
