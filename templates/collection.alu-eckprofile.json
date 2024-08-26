@@ -39,6 +39,23 @@
         "divider": false
       }
     },
+    "1724680390549f10ab": {
+      "type": "apps",
+      "blocks": {
+        "alu_verkauf_konfigurator_collection_list_pipes_eHhRxG": {
+          "type": "shopify:\/\/apps\/alu-verkauf-konfigurator\/blocks\/collection-list-pipes\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "alu_verkauf_konfigurator_collection_list_pipes_eHhRxG"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
     "main-collection": {
       "type": "main-collection",
       "blocks": {
@@ -64,6 +81,7 @@
         "product_grid",
         "collection_description"
       ],
+      "disabled": true,
       "settings": {
         "enable_sidebar": true,
         "collapse_filters": false,
@@ -162,6 +180,7 @@
   },
   "order": [
     "rich_text_K9GRMy",
+    "1724680390549f10ab",
     "main-collection",
     "recently-viewed",
     "sidebar_rich_text_MKrnCU",
