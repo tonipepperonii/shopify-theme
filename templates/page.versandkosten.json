@@ -63,7 +63,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Der Versand erfolgt per Paketdienst, gemäß folgender Preistabelle.<br\/>(Alle Preise wenn nicht anders angegeben <strong>inkl. Mehrwertsteuer<\/strong>, gültig für Versand in die ausgewiesenen Länder -ausgenommen Inseln-)<\/p><p><\/p><p>Im Regelfall versenden wir mittels Standardpaket (Laufzeit ca. 2 Tage)<\/p><p><strong>Express-Pakete<\/strong> werden, soweit Material am Lager, noch <strong>am Bestelltag versendet<\/strong>  und am nächsten Tag (Mo-Fr) zugestellt. Diese erfordern jedoch zwingend eine <strong>telefonische Absprache<\/strong>  und sind nur bei Bestellungen bis 13.00 Uhr möglich.<\/p>"
+            "text": "<p>Der Versand erfolgt per Paketdienst, gemäß folgender Preistabelle.<br\/>(Alle Preise wenn nicht anders angegeben <strong>inkl. Mehrwertsteuer<\/strong>, gültig für Versand in die ausgewiesenen Länder -ausgenommen Inseln-)<\/p><p><\/p><p>Im Regelfall versenden wir mittels Standardpaket (Laufzeit ca. 2 Tage)<\/p><p><strong>Express-Pakete<\/strong> werden, soweit Material am Lager, noch <strong>am Bestelltag versendet<\/strong>  und am nächsten Tag (Mo-Fr) zugestellt. Diese erfordern jedoch zwingend eine <strong>telefonische Absprache<\/strong>  und sind nur bei Bestellungen <strong>bis 13.00 Uhr<\/strong> möglich.<\/p>"
           }
         }
       },
