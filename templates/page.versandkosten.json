@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -46,7 +55,8 @@
         "template--18215882654000__ca0a667c-8482-44c9-9ea5-91513365d76a-16778416329c1aa01d-0": {
           "type": "heading",
           "settings": {
-            "title": "Versandkosten"
+            "title": "Versandkosten",
+            "show_line": false
           }
         },
         "template--18215882654000__ca0a667c-8482-44c9-9ea5-91513365d76a-16778416329c1aa01d-1": {
@@ -104,7 +114,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Höchstmaße für den Versand als \"normales\" Paket 115 x 60 x 60 cm. Längen über 1,15 mtr. zuzgl. 8,50 EUR für Überlänge.<\/p><p>Ab 2,00 mtr. erfolgt der Versand per Spedition. Längen bis 3,00 mtr. werden mit 41,65 EUR inkl. MwSt. berechnet.<\/p><p>Längen über 3,00 mtr. - je nach Empfangsort zwischen ca. 65,45 und 77,35 EUR inkl. MwSt. (bis 500 kg) (Deutschland).<br\/>Für Lieferungen unter 23,80,- EUR Warenwert berechnen wir eine Verpackungskostenpauschale von 4,50 €.<\/p><p>Auslandspakete max. 2 mtr. Längen per Paketdienst, Versand ins Ausland über 2 mtr. Längen bitte anfragen.<\/p><p>Versandkosten in andere Länder als oben angeführt, bitten wir anzufragen.<\/p>"
+            "text": "<p>Höchstmaße für den Versand als \"normales\" Paket 115 x 60 x 60 cm. Längen über 1,15 mtr. zuzgl. 8,50 EUR für Überlänge.<\/p><p>Ab 2,00 mtr. erfolgt der Versand per Spedition. Längen bis 3,00 mtr. werden mit 41,65 EUR inkl. MwSt. berechnet.<\/p><p>Längen über 3,00 mtr. - je nach Empfangsort zwischen ca. 65,45 und 77,35 EUR inkl. MwSt. (bis 500 kg) (Deutschland).<br\/><\/p><p>Auslandspakete max. 2 mtr. Längen per Paketdienst, Versand ins Ausland über 2 mtr. Längen bitte anfragen.<\/p><p>Versandkosten in andere Länder als oben angeführt, bitten wir anzufragen.<\/p>"
           }
         }
       },
