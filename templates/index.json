@@ -151,13 +151,6 @@
             "title": "Pv Montage-Profile"
           }
         },
-        "product_eztmUN": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "title": ""
-          }
-        },
         "dc65b194-9a37-41e8-9a6b-ff0893a28c38": {
           "type": "product",
           "settings": {
@@ -226,7 +219,6 @@
         "7aa1ef67-7c41-40f9-9ebf-2d94974654f8",
         "a543b05c-cc3d-4834-93a2-dfbb8d7bfa6c",
         "90ce5161-4053-4ad7-a9bb-071a59c8854e",
-        "product_eztmUN",
         "dc65b194-9a37-41e8-9a6b-ff0893a28c38",
         "70231f02-f5a1-4f7c-b842-1212bca76056",
         "5aff7c2d-1884-4ded-b380-c03ac4792b84",
