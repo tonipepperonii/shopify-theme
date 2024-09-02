@@ -195,6 +195,7 @@
         "blocks": {
           "announcement_zYemnF": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "richtext": "<p><a href=\"\/collections\/alu-systemprofile\" title=\"Alu Systemprofile\">NEU - Systemprofile <br\/><\/a>Code: ALUneuSP = 10% Rabatt<\/p>",
               "richtext_mobile": ""
