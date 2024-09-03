@@ -209,19 +209,18 @@
               "richtext_mobile": "<p>Winkel und Vierkantprofile - 20% Rabatt! Code: WVR20%<\/p>"
             }
           },
-          "announcement_qMGPqJ": {
+          "announcement_Li6Pcz": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "richtext": "<p>Liebe KundenInnen, Aufgrund von unvorgesehenen Krankheitsfällen  verzögert sich leider die Auslieferung Deiner Bestellung.  Wir arbeiten mit Hochdruck daran, die Situation so schnell wie möglich zu lösen und die Lieferungen wieder auf den gewohnten Zeitplan zu bringen. Wir bitten um Verständnis! Danke<\/p>",
-              "richtext_mobile": ""
+              "richtext": "<h4>Produktionsmitarbeiter ab sofort in Voll-und Teilzeit gesucht. Bewerbung an verkauf@alu-verkauf.de<br\/>Wir freuen uns auf dich.<\/h4>",
+              "richtext_mobile": "<h4>Produktionsmitarbeiter ab sofort in Voll-und Teilzeit gesucht. Bewerbung an verkauf@alu-verkauf.de<br\/>Wir freuen uns auf dich.<\/h4>"
             }
           }
         },
         "block_order": [
           "announcement_zYemnF",
           "announcement_NLhgXy",
-          "announcement_qMGPqJ"
+          "announcement_Li6Pcz"
         ],
         "settings": {
           "announcement_center": false,
