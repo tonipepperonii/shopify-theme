@@ -257,7 +257,6 @@
     },
     "text_and_image_9jmptp": {
       "type": "text-and-image",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Logo_EQOH_Weiss_Gelb_120x_2x_5b2a1757-6e5a-499a-9a16-dc9b335f5318.png",
         "image_width": 290,
@@ -280,7 +279,7 @@
         "image_width": 440,
         "subtitle": "",
         "title": "Jendrossek Autoteile GmbH",
-        "text": "<p>Jendrossek kümmert sich um dein Auto und ist zudem spezialisiert auf den Innenausbau von kleinen und großen Transportern.<\/p>",
+        "text": "<p>Jendrossek kümmert sich um Dein Auto und ist zudem spezialisiert auf den Innenausbau von kleinen und großen Transportern.<\/p>",
         "button_label": "Weiter zu Jendrossek",
         "button_link": "https:\/\/www.jendrossek.de\/index.php",
         "button_style": "primary",
