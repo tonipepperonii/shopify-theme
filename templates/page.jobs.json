@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "50e717d8-287d-4df9-ab2f-37192b67acf2": {
@@ -59,8 +68,8 @@
           "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/jobs-logo.png",
-            "title": "Produktionsmitarbeiter in Voll- und Teilzeit",
-            "richtext": "<p>Sie wollen uns aktiv bei der Weiterverarbeitung und Verpackung unserer Aluminiumprofile unterstützen? Wir freuen uns auf Ihre Bewerbungsunterlagen!<\/p>",
+            "title": "Produktionsmitarbeiter ab sofort in Voll- und Teilzeit",
+            "richtext": "<p>Möchtest Du aktiv bei der Weiterverarbeitung und Verpackung unserer hochwertigen Aluminiumprofile mitwirken? Wir suchen ab sofort engagierte und zuverlässige Mitarbeiter für diesen Bereich.<\/p><p>Du fühlst Dich angesprochen? Wir freuen uns auf Deine Bewerbungsunterlagen!<\/p>",
             "adress": "Hafenstraße 16, 31137 Hildesheim",
             "time": "Voll-\/Teilzeit",
             "when": "ab sofort"
