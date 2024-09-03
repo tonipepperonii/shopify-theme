@@ -63,7 +63,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Der Versand erfolgt per Paketdienst, gemäß folgender Preistabelle.<br\/>(Alle Preise wenn nicht anders angegeben <strong>inkl. Mehrwertsteuer<\/strong>, gültig für Versand in die ausgewiesenen Länder -ausgenommen Inseln-)<\/p><p><\/p><p>Im Regelfall versenden wir mittels Standardpaket (Laufzeit ca. 2 Tage)<\/p><p><strong>Express-Pakete<\/strong> werden, soweit Material am Lager, noch <strong>am Bestelltag versendet<\/strong>  und am nächsten Tag (Mo-Fr) zugestellt. Diese erfordern jedoch zwingend eine <strong>telefonische Absprache<\/strong>  und sind nur bei Bestellungen <strong>bis 13.00 Uhr<\/strong> möglich.<\/p>"
+            "text": "<p>Der Versand erfolgt per Paketdienst, gemäß folgender Preistabelle.<br\/>(Alle Preise wenn nicht anders angegeben <strong>inkl. Mehrwertsteuer<\/strong>, gültig für Versand in die ausgewiesenen Länder -ausgenommen Inseln-)<\/p><p><\/p><p>Im Regelfall versenden wir mittels Standardpaket (Laufzeit ca. 2 Tage)<\/p><p><strong>Express-Pakete<\/strong> werden, soweit Material am Lager, noch <strong>am Bestelltag versendet<\/strong>  und am nächsten Tag (Mo-Fr) zugestellt - <strong>wichtig ist nur, dass deine Bestellung bis 13 Uhr bei uns eingeht.<\/strong><\/p>"
           }
         }
       },
@@ -114,7 +114,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Höchstmaße für den Versand als \"normales\" Paket 115 x 60 x 60 cm. Längen über 1,15 mtr. zuzgl. 8,50 EUR für Überlänge.<\/p><p>Ab 2,00 mtr. erfolgt der Versand per Spedition. Längen bis 3,00 mtr. werden mit 41,65 EUR inkl. MwSt. berechnet.<\/p><p>Längen über 3,00 mtr. - je nach Empfangsort zwischen ca. 65,45 und 77,35 EUR inkl. MwSt. (bis 500 kg) (Deutschland).<br\/><\/p><p>Auslandspakete max. 2 mtr. Längen per Paketdienst, Versand ins Ausland über 2 mtr. Längen bitte anfragen.<\/p><p>Versandkosten in andere Länder als oben angeführt, bitten wir anzufragen.<\/p>"
+            "text": "<p>Ab 2,00 mtr. erfolgt der Versand per Spedition. Längen bis 3,00 mtr. werden mit 50,15 EUR inkl. MwSt. berechnet.<\/p><p>Längen über 3,00 mtr. - je nach Empfangsort  85,85 EUR inkl. MwSt. (bis 500 kg) (Deutschland).<br\/><\/p><p>Auslandspakete max. 2 mtr. Längen per Paketdienst, Versand ins Ausland über 2 mtr. Längen bitte anfragen.<\/p><p>Versandkosten in andere Länder als oben angeführt, bitten wir anzufragen.<\/p>"
           }
         }
       },
