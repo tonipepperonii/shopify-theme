@@ -44,16 +44,16 @@
         "divider": false
       }
     },
-    "text_and_image_BnYhc7": {
+    "text_and_image_ARdina": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/spiegelart_Logo.jpg",
-        "image_width": 350,
+        "image": "shopify:\/\/shop_images\/Logo_MoWa_GmbH.png",
+        "image_width": 520,
         "subtitle": "",
-        "title": "Spiegelart",
-        "text": "<p>Spiegelart ist ein ostdeutsches, familiengeführtes Unternehmen das sich auf Spiegel und Gläser spezialisiert hat.<\/p>",
-        "button_label": "Weiter zu Spiegelart",
-        "button_link": "https:\/\/www.spiegelart.com\/",
+        "title": "MoWa Pulverbeschichtung GmbH",
+        "text": "<p>MoWa berät und kümmert sich um Ihre Projekte rund um die Themen Pulverbeschichtung und Sandstrahlen.<\/p>",
+        "button_label": "Weiter zu MoWa Pulverbeschichtung GmbH",
+        "button_link": "https:\/\/www.mowa-pulvertechnik.de\/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "left",
@@ -290,16 +290,16 @@
         "divider": false
       }
     },
-    "text_and_image_ARdina": {
+    "text_and_image_BnYhc7": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Logo_MoWa_GmbH.png",
-        "image_width": 520,
+        "image": "shopify:\/\/shop_images\/spiegelart_Logo.jpg",
+        "image_width": 350,
         "subtitle": "",
-        "title": "MoWa Pulverbeschichtung GmbH",
-        "text": "<p>MoWa berät und kümmert sich um Ihre Projekte rund um die Themen Pulverbeschichtung und Sandstrahlen.<\/p>",
-        "button_label": "Weiter zu MoWa Pulverbeschichtung GmbH",
-        "button_link": "https:\/\/www.mowa-pulvertechnik.de\/",
+        "title": "Spiegelart",
+        "text": "<p>Spiegelart ist ein ostdeutsches, familiengeführtes Unternehmen das sich auf Spiegel und Gläser spezialisiert hat.<\/p>",
+        "button_label": "Weiter zu Spiegelart",
+        "button_link": "https:\/\/www.spiegelart.com\/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "left",
@@ -311,7 +311,7 @@
   "order": [
     "main",
     "rich_text_gh4gUa",
-    "text_and_image_BnYhc7",
+    "text_and_image_ARdina",
     "text_and_image_FJghjn",
     "text_and_image_6MCfHk",
     "text_and_image_xnBWmV",
@@ -325,6 +325,6 @@
     "text_and_image_YnBidz",
     "text_and_image_9jmptp",
     "text_and_image_NVbVzJ",
-    "text_and_image_ARdina"
+    "text_and_image_BnYhc7"
   ]
 }
