@@ -44,6 +44,23 @@
         "divider": false
       }
     },
+    "text_and_image_9jmptp": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Logo_EQOH_Weiss_Gelb_120x_2x_5b2a1757-6e5a-499a-9a16-dc9b335f5318.png",
+        "image_width": 290,
+        "subtitle": "",
+        "title": "EQOH GmbH",
+        "text": "<p>EQOH GmbH ist unser Partner für Balkonkraftwerke mit intelligenten Speichern.<\/p>",
+        "button_label": "Weiter zu EQOH GmbH",
+        "button_link": "https:\/\/www.eqoh.de\/?tw_source=google&tw_adid=669591395961&tw_campaign=20415379382&tw_source=google&tw_adid=669591395961&tw_campaign=20415379382&utm_term=eqoh&utm_content=eqoh&utm_campaign=DE_|_Brand&utm_source=google&utm_medium=cpc&gad_source=1&gclid=Cj0KCQjwq_G1BhCSARIsACc7Nxrk6N0Y1AFnGEs2PbZdt8ssbg8VNWTBkVmOVvxEb9KPuUriVTztum4aAt3IEALw_wcB",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
     "text_and_image_ARdina": {
       "type": "text-and-image",
       "settings": {
@@ -255,23 +272,6 @@
         "divider": false
       }
     },
-    "text_and_image_9jmptp": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Logo_EQOH_Weiss_Gelb_120x_2x_5b2a1757-6e5a-499a-9a16-dc9b335f5318.png",
-        "image_width": 290,
-        "subtitle": "",
-        "title": "EQOH GmbH",
-        "text": "<p>EQOH GmbH ist unser Partner für Balkonkraftwerke mit intelligenten Speichern.<\/p>",
-        "button_label": "Weiter zu EQOH GmbH",
-        "button_link": "https:\/\/www.eqoh.de\/?tw_source=google&tw_adid=669591395961&tw_campaign=20415379382&tw_source=google&tw_adid=669591395961&tw_campaign=20415379382&utm_term=eqoh&utm_content=eqoh&utm_campaign=DE_|_Brand&utm_source=google&utm_medium=cpc&gad_source=1&gclid=Cj0KCQjwq_G1BhCSARIsACc7Nxrk6N0Y1AFnGEs2PbZdt8ssbg8VNWTBkVmOVvxEb9KPuUriVTztum4aAt3IEALw_wcB",
-        "button_style": "primary",
-        "align_text": "left",
-        "layout": "right",
-        "color_scheme": "1",
-        "divider": false
-      }
-    },
     "text_and_image_NVbVzJ": {
       "type": "text-and-image",
       "settings": {
@@ -310,6 +310,7 @@
   "order": [
     "main",
     "rich_text_gh4gUa",
+    "text_and_image_9jmptp",
     "text_and_image_ARdina",
     "text_and_image_FJghjn",
     "text_and_image_6MCfHk",
@@ -322,7 +323,6 @@
     "text_and_image_kNiE3n",
     "text_and_image_AMfP3G",
     "text_and_image_YnBidz",
-    "text_and_image_9jmptp",
     "text_and_image_NVbVzJ",
     "text_and_image_BnYhc7"
   ]
