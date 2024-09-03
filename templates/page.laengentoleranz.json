@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -47,7 +56,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Bei <strong>Vorratslängen\/Restposten <\/strong>betragen die Längenabweichungen ca. +\/- 15 mm.<br\/>Bei längen von von 1000 mm \/ 2000 mm \/ 3000 mm kann die Abweichung bis zu -5 mm auf Grund des Sägeblattverlustes aufweisen.<\/p>"
+            "text": "<p>Bei <strong>Materialvorräten oder Restposten <\/strong>betragen die Längenabweichungen etwa +\/- 15 mm. Bei Längen von 1000 mm, 2000 mm oder 3000 mm kann die Abweichung aufgrund des Materialverlusts <strong>durch das Sägen<\/strong> bis zu -5 mm betragen.<\/p>"
           }
         }
       },
