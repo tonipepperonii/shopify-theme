@@ -46,7 +46,6 @@
     },
     "text_and_image_BnYhc7": {
       "type": "text-and-image",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/spiegelart_Logo.jpg",
         "image_width": 350,
@@ -223,7 +222,6 @@
     },
     "text_and_image_AMfP3G": {
       "type": "text-and-image",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/varie-vestimentum_logo.png",
         "image_width": 290,
@@ -275,23 +273,6 @@
         "divider": false
       }
     },
-    "text_and_image_ARdina": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Logo_MoWa_GmbH.png",
-        "image_width": 520,
-        "subtitle": "",
-        "title": "MoWa Pulverbeschichtung GmbH",
-        "text": "<p>MoWa berät und kümmert sich um Ihre Projekte rund um die Themen Pulverbeschichtung und Sandstrahlen.<\/p>",
-        "button_label": "Weiter zu MoWa Pulverbeschichtung GmbH",
-        "button_link": "https:\/\/www.mowa-pulvertechnik.de\/",
-        "button_style": "primary",
-        "align_text": "left",
-        "layout": "left",
-        "color_scheme": "1",
-        "divider": false
-      }
-    },
     "text_and_image_NVbVzJ": {
       "type": "text-and-image",
       "settings": {
@@ -305,6 +286,23 @@
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
+    "text_and_image_ARdina": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Logo_MoWa_GmbH.png",
+        "image_width": 520,
+        "subtitle": "",
+        "title": "MoWa Pulverbeschichtung GmbH",
+        "text": "<p>MoWa berät und kümmert sich um Ihre Projekte rund um die Themen Pulverbeschichtung und Sandstrahlen.<\/p>",
+        "button_label": "Weiter zu MoWa Pulverbeschichtung GmbH",
+        "button_link": "https:\/\/www.mowa-pulvertechnik.de\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
         "color_scheme": "1",
         "divider": false
       }
@@ -326,7 +324,7 @@
     "text_and_image_AMfP3G",
     "text_and_image_YnBidz",
     "text_and_image_9jmptp",
-    "text_and_image_ARdina",
-    "text_and_image_NVbVzJ"
+    "text_and_image_NVbVzJ",
+    "text_and_image_ARdina"
   ]
 }
