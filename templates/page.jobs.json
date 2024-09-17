@@ -52,22 +52,11 @@
     "1f70e298-d711-41ec-baf0-4ea231cf184c": {
       "type": "job-offer",
       "blocks": {
-        "731d9e57-e1fe-4cab-a4be-a30538e8a73b": {
-          "type": "text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/jobs-logo.png",
-            "title": "Initiativbewerbungen",
-            "richtext": "<p>Du hast nicht das Passende gefunden? Schick uns sehr gerne Deine Initiativbewerbung!<\/p>",
-            "adress": "Hafenstraße 16, 31137 Hildesheim",
-            "time": "Voll-\/Teilzeit",
-            "when": "ab sofort"
-          }
-        },
         "template--18273043644720__1f70e298-d711-41ec-baf0-4ea231cf184c-16800813696d17cfc7-0": {
           "type": "text",
           "settings": {
             "image": "shopify:\/\/shop_images\/jobs-logo.png",
-            "title": "Produktionsmitarbeiter ab sofort in Voll- und Teilzeit",
+            "title": "Lagermitarbeiter ab sofort in Voll- und Teilzeit",
             "richtext": "<p>Möchtest Du aktiv bei der Weiterverarbeitung und Verpackung unserer hochwertigen Aluminiumprofile mitwirken? Wir suchen ab sofort engagierte und zuverlässige Mitarbeiter für diesen Bereich.<\/p><p>Du fühlst Dich angesprochen? Wir freuen uns auf Deine Bewerbungsunterlagen!<\/p>",
             "adress": "Hafenstraße 16, 31137 Hildesheim",
             "time": "Voll-\/Teilzeit",
@@ -85,12 +74,23 @@
             "time": "Voll-\/Teilzeit",
             "when": "ab sofort"
           }
+        },
+        "731d9e57-e1fe-4cab-a4be-a30538e8a73b": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jobs-logo.png",
+            "title": "Initiativbewerbungen",
+            "richtext": "<p>Du hast nicht das Passende gefunden? Schick uns sehr gerne Deine Initiativbewerbung!<\/p>",
+            "adress": "Hafenstraße 16, 31137 Hildesheim",
+            "time": "Voll-\/Teilzeit",
+            "when": "ab sofort"
+          }
         }
       },
       "block_order": [
-        "731d9e57-e1fe-4cab-a4be-a30538e8a73b",
         "template--18273043644720__1f70e298-d711-41ec-baf0-4ea231cf184c-16800813696d17cfc7-0",
-        "de9f3222-2f3a-419b-a933-039b4657d421"
+        "de9f3222-2f3a-419b-a933-039b4657d421",
+        "731d9e57-e1fe-4cab-a4be-a30538e8a73b"
       ],
       "settings": {
         "main_title": "Unsere Stellenangebote",
