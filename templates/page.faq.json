@@ -104,8 +104,8 @@
         "ca2a4091-acd9-4fbd-bcd8-0e9aaa7ff885": {
           "type": "question",
           "settings": {
-            "title": "Welche Legierung nehme ich zum Drehen und Fräsen?",
-            "text": "<p>Hierfür eignet sich z.B. AlCuMgPb (Bohr- und Fräsqualität) oder AlZnMgCu1,5 (hochfest). Bei Platten wäre AlCuMg1 oder AlMg4,5Mn die günstigste Variante der Bohr- und Fräsqualität.<\/p>"
+            "title": "Was ist der Unterschied zwischen eloxiertem und pulverbeschichtetem Material?",
+            "text": "<p>Eloxieren erzeugt eine harte, matte Schutzschicht auf dem Aluminium, die vor Korrosion schützt und das natürliche Aussehen bewahrt. Pulverbeschichten biete eine dickere, farbige Schutzschicht mit hoher Widerstandsfähigkeit gegen Abnutzung und Kratzer. Beide Verfahren schützen das Material, unterscheiden sich jedoch in der Optik und Farbauswahl.<\/p><p>Eine ausführlichen Blogbeitrag worin die Unterschiede sowie die Vor- und Nachteile beschrieben sind, findest Du <a href=\"https:\/\/alu-verkauf.de\/blogs\/news\/pulverbeschichtung-eloxieren\">hier.<\/a><br\/><\/p>"
           }
         },
         "406dbb07-c649-4211-90d3-6964a4114fd3": {
