@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -43,6 +52,14 @@
     "2c8e42b0-832c-4781-aa09-12189e2f91fb": {
       "type": "faq",
       "blocks": {
+        "14541166-2257-468f-a3b9-cdd4a4713817": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "Wie sind die Öffnungszeiten bei alu-verkauf.de?",
+            "text": "<p>Online sind wir für Euchrund um die Uhr erreichbar.<\/p><p>Persönlich zu folgenden Zeiten:<\/p><p>Montag - Donnerstag 7:30-16:00 Uhr<br\/>Freitag - 15:30 Uhr<br\/>Samstag - Sonntag geschlossen<\/p>"
+          }
+        },
         "template--18204113535280__2c8e42b0-832c-4781-aa09-12189e2f91fb-167783250408c00792-0": {
           "type": "question",
           "settings": {
@@ -76,14 +93,6 @@
           "settings": {
             "title": "Kann ich die Ware auch abholen? Zu welchen Zeiten?",
             "text": "<p>Abholungen sind möglich. Einfach im Bestellvorgang statt Lieferung \"Selbstabholer\" auswählen. Sobald das Material abholbereit ist, erhälst Du eine Benachrichtigung per E-Mail. Bitte beachte, dass Du die Ware mit einem dafür geeigneten Fahrzeug abholst.<\/p><p>Selbstabholer können ihre Ware (nach vorheriger Shop-Bestellung) während der Öffnungszeiten von Mo. - Do. zwischen 07:30 Uhr und 16:00 Uhr und Fr. zwischen 07:30 Uhr und 15:30 Uhr abholen.<\/p>"
-          }
-        },
-        "14541166-2257-468f-a3b9-cdd4a4713817": {
-          "type": "question",
-          "disabled": true,
-          "settings": {
-            "title": "Zu welchen Zeiten kann die Ware abgeholt werden?",
-            "text": "<p>Selbstabholer können ihre Ware (nach vorheriger Shop-Bestellung) während der Öffnungszeiten von Mo. - Do. zwischen 07:30 Uhr und 16:00 Uhr und Fr. zwischen 07:30 Uhr und 15:30 Uhr abholen.<\/p>"
           }
         },
         "2b61b529-38f5-4df3-9f78-7930579032f0": {
@@ -158,12 +167,12 @@
         }
       },
       "block_order": [
+        "14541166-2257-468f-a3b9-cdd4a4713817",
         "template--18204113535280__2c8e42b0-832c-4781-aa09-12189e2f91fb-167783250408c00792-0",
         "template--18204113535280__2c8e42b0-832c-4781-aa09-12189e2f91fb-167783250408c00792-1",
         "01866210-a736-42c9-a387-fe583151e8b0",
         "2973d61f-8a92-42a3-bc6f-d1e5dac3c462",
         "18b94e29-acba-4c39-ac6c-ddb54f1b7958",
-        "14541166-2257-468f-a3b9-cdd4a4713817",
         "2b61b529-38f5-4df3-9f78-7930579032f0",
         "ca2a4091-acd9-4fbd-bcd8-0e9aaa7ff885",
         "406dbb07-c649-4211-90d3-6964a4114fd3",
