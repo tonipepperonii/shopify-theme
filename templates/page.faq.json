@@ -54,10 +54,9 @@
       "blocks": {
         "14541166-2257-468f-a3b9-cdd4a4713817": {
           "type": "question",
-          "disabled": true,
           "settings": {
             "title": "Wie sind die Öffnungszeiten bei alu-verkauf.de?",
-            "text": "<p>Online sind wir für Euchrund um die Uhr erreichbar.<\/p><p>Persönlich zu folgenden Zeiten:<\/p><p>Montag - Donnerstag 7:30-16:00 Uhr<br\/>Freitag - 15:30 Uhr<br\/>Samstag - Sonntag geschlossen<\/p>"
+            "text": "<p>Online sind wir für Euch rund um die Uhr erreichbar.<\/p><p>Persönlich zu folgenden Zeiten:<\/p><p>Montag - Donnerstag 7:30-16:00 Uhr<br\/>Freitag - 15:30 Uhr<br\/>Samstag - Sonntag geschlossen<\/p>"
           }
         },
         "template--18204113535280__2c8e42b0-832c-4781-aa09-12189e2f91fb-167783250408c00792-0": {
