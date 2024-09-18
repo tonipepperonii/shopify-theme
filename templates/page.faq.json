@@ -145,6 +145,7 @@
         },
         "6bbb26ba-5b1c-431c-8d80-2619a925e50a": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "Können wir als öffentliche Einrichtung auf Rechnung kaufen?",
             "text": "<p>Öffentliche Einrichtungen werden auch bei Erstaufträgen auf Rechnung beliefert. Für die Vorgehensweise setze Dich bitte einfach telefonisch mit uns in Verbindung.<\/p>"
@@ -152,6 +153,7 @@
         },
         "953380eb-d508-4b34-896d-46e792fa2945": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "Mehrwertsteuererstattung bei eigener Ausfuhr",
             "text": "<p>Eine Erstattung der MwSt. ist erst ab einem MwSt-Betrag von mind. 100,- EUR möglich (nach Vorlage der erforderlichen Ausfuhrbescheinigung, die spätestens 3 Wochen nach Rechnungsdatum vorliegen muss).<\/p>"
@@ -159,6 +161,7 @@
         },
         "0eb8bac8-6e4d-45b2-a09f-2a2fae4ce350": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "Was bedeutet die Abkürzung \"SK\/St\" in der Preistabelle?",
             "text": "<p>\"SK\/St\" sind die Sägekosten pro Stück als Nettopreis.<\/p>"
