@@ -68,17 +68,17 @@
     "cart_additional_buttons": false,
     "cart_notes_enable": true,
     "cart_terms_conditions_enable": false,
-    "social_facebook_link": "https:\/\/facebook.com\/aluverkauf",
-    "social_pinterest_link": "https:\/\/www.pinterest.de\/Aluverkauf",
-    "social_instagram_link": "https:\/\/www.instagram.com\/aluverkauf",
-    "social_linkedin_link": "https:\/\/www.linkedin.com\/company\/alu-verkauf.de\/?viewAsMember=true",
-    "favicon": "shopify:\/\/shop_images\/aluverkauf_favicon.png",
+    "social_facebook_link": "https://facebook.com/aluverkauf",
+    "social_pinterest_link": "https://www.pinterest.de/Aluverkauf",
+    "social_instagram_link": "https://www.instagram.com/aluverkauf",
+    "social_linkedin_link": "https://www.linkedin.com/company/alu-verkauf.de/?viewAsMember=true",
+    "favicon": "shopify://shop_images/aluverkauf_favicon.png",
     "search_top_collection": "restposten",
     "predictive_search_enabled": true,
     "predictive_image_size": "square",
     "show_breadcrumbs": true,
     "show_breadcrumbs_collection_link": true,
-    "checkout_logo_image": "shopify:\/\/shop_images\/LOGO_NEU_RGB.png",
+    "checkout_logo_image": "shopify://shop_images/LOGO_NEU_RGB.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",
@@ -115,8 +115,8 @@
           "ac456cbf-2524-4b87-ab85-6f844576bf6d": {
             "type": "logo",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/LOGO_NEU_RGB.png",
-              "logo-inverted": "shopify:\/\/shop_images\/LOGO_NEU_weiss.png",
+              "logo": "shopify://shop_images/LOGO_NEU_RGB.png",
+              "logo-inverted": "shopify://shop_images/LOGO_NEU_weiss.png",
               "desktop_logo_width": 180,
               "mobile_logo_width": 140
             }
@@ -155,7 +155,7 @@
           "popup_seconds": 60,
           "popup_days": 30,
           "popup_title": "Get 10% off your first purchase.",
-          "popup_text": "<p>Sign up today and we'll send you a 10% discount code towards your first purchase. Some restrictions apply.<\/p>",
+          "popup_text": "<p>Sign up today and we'll send you a 10% discount code towards your first purchase. Some restrictions apply.</p>",
           "image_position": "left",
           "color_scheme": "2",
           "show_social_icons": false,
@@ -193,34 +193,33 @@
       "toolbar": {
         "type": "toolbar",
         "blocks": {
-          "announcement_zYemnF": {
-            "type": "announcement",
-            "disabled": true,
-            "settings": {
-              "richtext": "<p><a href=\"\/collections\/alu-systemprofile\" title=\"Alu Systemprofile\">NEU - Systemprofile <br\/><\/a>Code: ALUneuSP = 10% Rabatt<\/p>",
-              "richtext_mobile": ""
-            }
-          },
           "announcement_NLhgXy": {
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "richtext": "<p><strong>Spare 20%<\/strong> bei Winkel- und Vierkantprofile Code: <strong>WVR20%<\/strong><\/p>",
-              "richtext_mobile": "<p>Winkel und Vierkantprofile - 20% Rabatt! Code: WVR20%<\/p>"
+              "richtext": "<p><strong>Spare 20%</strong> bei Winkel- und Vierkantprofile Code: <strong>WVR20%</strong></p>",
+              "richtext_mobile": "<p>Winkel und Vierkantprofile - 20% Rabatt! Code: WVR20%</p>"
             }
           },
           "announcement_Li6Pcz": {
             "type": "announcement",
             "settings": {
-              "richtext": "<h4><\/h4><h4><a href=\"\/pages\/jobs\" title=\"Jobs\">Lagermitarbeiter ab sofort in Voll-und Teilzeit gesucht. <\/a>Bewerbung an verkauf@alu-verkauf.de<br\/>Wir freuen uns auf dich.<\/h4>",
-              "richtext_mobile": "<h4><a href=\"\/pages\/jobs\" title=\"Jobs\">Produktionsmitarbeiter ab sofort in Voll-und Teilzeit gesucht. <\/a>Bewerbung an verkauf@alu-verkauf.de<br\/>Wir freuen uns auf dich.<\/h4>"
+              "richtext": "<h4></h4><h4><a href=\"/pages/jobs\" title=\"Jobs\">Lagermitarbeiter ab sofort in Voll-und Teilzeit gesucht. </a>Bewerbung an verkauf@alu-verkauf.de<br/>Wir freuen uns auf dich.</h4>",
+              "richtext_mobile": "<h4><a href=\"/pages/jobs\" title=\"Jobs\">Produktionsmitarbeiter ab sofort in Voll-und Teilzeit gesucht. </a>Bewerbung an verkauf@alu-verkauf.de<br/>Wir freuen uns auf dich.</h4>"
+            }
+          },
+          "announcement_QH6xcf": {
+            "type": "announcement",
+            "settings": {
+              "richtext": "<h3>Wichtig - Am 04.10.2024 sind wir nur bis 14 Uhr für Dich erreichbar. </h3>",
+              "richtext_mobile": ""
             }
           }
         },
         "block_order": [
-          "announcement_zYemnF",
           "announcement_NLhgXy",
-          "announcement_Li6Pcz"
+          "announcement_Li6Pcz",
+          "announcement_QH6xcf"
         ],
         "settings": {
           "announcement_center": false,
@@ -314,19 +313,19 @@
     ],
     "blocks": {
       "2153490007123654574": {
-        "type": "shopify:\/\/apps\/consentmo-gdpr\/blocks\/gdpr_cookie_consent\/4fbe573f-a377-4fea-9801-3ee0858cae41",
+        "type": "shopify://apps/consentmo-gdpr/blocks/gdpr_cookie_consent/4fbe573f-a377-4fea-9801-3ee0858cae41",
         "disabled": false,
         "settings": {
         }
       },
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
           "button_color": "#e7e7e7",
@@ -340,7 +339,7 @@
         }
       },
       "13615385223509461694": {
-        "type": "shopify:\/\/apps\/magic-zoom-plus\/blocks\/magiczoomplus\/893db416-6d9e-4ad6-b769-71d9cdd734fe",
+        "type": "shopify://apps/magic-zoom-plus/blocks/magiczoomplus/893db416-6d9e-4ad6-b769-71d9cdd734fe",
         "disabled": true,
         "settings": {
         }
@@ -468,7 +467,7 @@
             "popup_seconds": 5,
             "popup_days": 30,
             "popup_title": "Save 10% off your first purchase",
-            "popup_text": "<p>Sign up today and we&#x27;ll send you a 10% discount code towards your first purchase.<\/p>",
+            "popup_text": "<p>Sign up today and we&#x27;ll send you a 10% discount code towards your first purchase.</p>",
             "color_scheme": "3",
             "enable_newsletter": true,
             "button_label": "Optional button"
@@ -582,7 +581,7 @@
           ],
           "settings": {
             "show_newsletter": true,
-            "newsletter_richtext": "<p>Subscribe today and get 10% off your first purchase<\/p>",
+            "newsletter_richtext": "<p>Subscribe today and get 10% off your first purchase</p>",
             "show_copyright": true,
             "copyright_text": "",
             "policies_menu": "policies"
@@ -719,7 +718,7 @@
             "popup_seconds": 20,
             "popup_days": 30,
             "popup_title": "Get 10% off your first purchase.",
-            "popup_text": "<p>Sign up today and we&#x27;ll send you a 10% discount code towards your first purchase. Some restrictions apply.<\/p>",
+            "popup_text": "<p>Sign up today and we&#x27;ll send you a 10% discount code towards your first purchase. Some restrictions apply.</p>",
             "color_scheme": "2",
             "enable_newsletter": true,
             "button_label": "Optional button"
@@ -819,7 +818,7 @@
           ],
           "settings": {
             "show_newsletter": true,
-            "newsletter_richtext": "<p>Subscribe today and get 10% off your first purchase<\/p>",
+            "newsletter_richtext": "<p>Subscribe today and get 10% off your first purchase</p>",
             "show_copyright": true,
             "copyright_text": "",
             "policies_menu": "policies"
@@ -954,7 +953,7 @@
             "popup_seconds": 20,
             "popup_days": 30,
             "popup_title": "Sign up and save",
-            "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
+            "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.</p>",
             "color_scheme": "3",
             "enable_newsletter": true,
             "button_label": "Optional button"
@@ -1055,7 +1054,7 @@
           ],
           "settings": {
             "show_newsletter": true,
-            "newsletter_richtext": "<p>Subscribe today and get 10% off your first purchase<\/p>",
+            "newsletter_richtext": "<p>Subscribe today and get 10% off your first purchase</p>",
             "show_copyright": true
           }
         },
