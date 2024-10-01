@@ -211,7 +211,7 @@
           "announcement_QH6xcf": {
             "type": "announcement",
             "settings": {
-              "richtext": "<h3>Wichtig - Am 04.10.2024 sind wir nur bis 14 Uhr für Dich erreichbar. </h3>",
+              "richtext": "<h4>Bitte beachten: Am 03.10. sind wir nicht persönlich erreichbar, jedoch steht unser Online-Shop wie gewohnt zur Verfügung. Am 04.10. sind wir bis 14 Uhr erreichbar, an diesem Tag findet jedoch kein Versand statt.</h4>",
               "richtext_mobile": ""
             }
           }
