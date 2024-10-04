@@ -16,7 +16,7 @@
       {% endif %}
     {% endfor %}
     
-    {% if isRestposten %}
+    {% if isRestposten or product.tags contains 'konfiguriert' %}
       <meta name="robots" content="noindex" />
     {% endif %}
     
