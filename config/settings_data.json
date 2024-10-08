@@ -195,9 +195,8 @@
         "blocks": {
           "announcement_NLhgXy": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "richtext": "<p>Schnäppchen-Alarm! 30 % Rabatt auf Restposten – bevor sie weg sind.</p>",
+              "richtext": "<h3>Schnäppchen-Alarm! 30 % Rabatt auf Restposten – bevor sie weg sind.</h3>",
               "richtext_mobile": "<p>Schnäppchen-Alarm! 30 % Rabatt auf Restposten – bevor sie weg sind.</p>"
             }
           },
