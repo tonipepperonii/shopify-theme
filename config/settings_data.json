@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "color_body_bg": "#ffffff",
@@ -196,8 +196,8 @@
           "announcement_NLhgXy": {
             "type": "announcement",
             "settings": {
-              "richtext": "<h3><br/>Schnäppchen-Alarm! 30 % Rabatt auf Restposten – bevor sie weg sind.</h3>",
-              "richtext_mobile": "<p>Schnäppchen-Alarm! 30 % Rabatt auf Restposten – bevor sie weg sind.</p>"
+              "richtext": "<h3><a href=\"/collections/restposten\" title=\"Restposten\"><strong>Schnäppchen-Alarm! 30 % Rabatt auf Restposten – bevor sie weg sind.</strong></a></h3>",
+              "richtext_mobile": "<p><a href=\"/collections/restposten\" title=\"Restposten\">Schnäppchen-Alarm! 30 % Rabatt auf Restposten – bevor sie weg sind.</a></p>"
             }
           },
           "announcement_Li6Pcz": {
