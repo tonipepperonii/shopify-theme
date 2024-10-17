@@ -96,8 +96,8 @@
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#000000",
-            "text_align": "vertical-center horizontal-right",
-            "image": "shopify://shop_images/Header_d3ce71f1-2701-4ce1-8648-8f6e3d517fee.jpg",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify://shop_images/Header_5714f9bc-56cc-46b2-8483-bd486c60d48b.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
