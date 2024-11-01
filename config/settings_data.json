@@ -193,6 +193,13 @@
       "toolbar": {
         "type": "toolbar",
         "blocks": {
+          "announcement_3yqLnq": {
+            "type": "announcement",
+            "settings": {
+              "richtext": "<h3>Gruselig schön - 20 % auf Winkel und Vierkantrohre - Code: WVR20%</h3>",
+              "richtext_mobile": "<h3>Gruselig schön - 20 % auf Winkel und Vierkantrohre - Code: WVR20%</h3>"
+            }
+          },
           "announcement_NLhgXy": {
             "type": "announcement",
             "settings": {
@@ -207,19 +214,12 @@
               "richtext": "<h4></h4><h4><a href=\"/pages/jobs\" title=\"Jobs\">Lagermitarbeiter ab sofort in Voll-und Teilzeit gesucht. </a>Bewerbung an verkauf@alu-verkauf.de<br/>Wir freuen uns auf dich.</h4>",
               "richtext_mobile": "<h4><a href=\"/pages/jobs\" title=\"Jobs\">Produktionsmitarbeiter ab sofort in Voll-und Teilzeit gesucht. </a>Bewerbung an verkauf@alu-verkauf.de<br/>Wir freuen uns auf dich.</h4>"
             }
-          },
-          "announcement_3yqLnq": {
-            "type": "announcement",
-            "settings": {
-              "richtext": "<h3>Gruselig schön - 20 % auf Winkel und Vierkantrohre - Code: WVR20%</h3>",
-              "richtext_mobile": "<h3>Gruselig schön - 20 % auf Winkel und Vierkantrohre - Code: WVR20%</h3>"
-            }
           }
         },
         "block_order": [
+          "announcement_3yqLnq",
           "announcement_NLhgXy",
-          "announcement_Li6Pcz",
-          "announcement_3yqLnq"
+          "announcement_Li6Pcz"
         ],
         "settings": {
           "announcement_center": false,
