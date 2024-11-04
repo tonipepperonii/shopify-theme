@@ -196,8 +196,8 @@
           "announcement_3yqLnq": {
             "type": "announcement",
             "settings": {
-              "richtext": "<h3>Gruselig schön - 20 % auf Winkel und Vierkantrohre - Code: WVR20%</h3>",
-              "richtext_mobile": "<h3>Gruselig schön - 20 % auf Winkel und Vierkantrohre - Code: WVR20%</h3>"
+              "richtext": "<h3>20 % auf Winkel und Vierkantrohre - Code: WVR20%</h3>",
+              "richtext_mobile": "<h3>20 % auf Winkel und Vierkantrohre - Code: WVR20%</h3>"
             }
           },
           "announcement_NLhgXy": {
