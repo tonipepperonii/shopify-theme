@@ -84,20 +84,20 @@
             "focal_point": "center center"
           }
         },
-        "hero_bTFXTY": {
+        "hero_a3Ayhw": {
           "type": "hero",
           "settings": {
-            "top_subheading": "",
-            "title": "<p>News</p>",
+            "top_subheading": "Code: B9H3CV3F",
+            "title": "",
             "title_size": 70,
             "subheading": "",
-            "link": "https://alu-verkauf.de/blogs/news",
-            "link_text": "Neues entdecken!",
+            "link": "",
+            "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#000000",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify://shop_images/Header_5714f9bc-56cc-46b2-8483-bd486c60d48b.jpg",
+            "color_accent": "#ff9900",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Black_Friday_Sale_4.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -108,7 +108,7 @@
         "hero_tA3crh",
         "hero_qTNdfV",
         "hero_mcNRE4",
-        "hero_bTFXTY"
+        "hero_a3Ayhw"
       ],
       "custom_css": [
         ".slideshow-wrapper {max-height: 400px;}",
@@ -295,9 +295,7 @@
     },
     "8654ead3-a13f-4bcc-9889-5c72fca9d93a": {
       "type": "featured-collection",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Restposten",
         "home_featured_products": "restposten",
@@ -322,9 +320,7 @@
       "block_order": [
         "liquid_fPdyfR"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "full_width": false,
         "space_around": false
