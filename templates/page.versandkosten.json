@@ -83,7 +83,7 @@
         "liquid_6rAtgD": {
           "type": "liquid",
           "settings": {
-            "code": "<h3>GLS / UPS</h3><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.</p>",
+            "code": "<h3>GLS / UPS</h3><p>Ab einer Länge von 1,00 m bei UPS und ab einer Länge von 1,15 m bei GLS wird ein Überlängenzuschlag von 6 € berechnet.</p>",
             "width": "100%",
             "alignment": "center"
           }
@@ -91,7 +91,7 @@
         "template--18215882654000__c82253ad-fcd0-40e0-a47d-d19487a9ceb5-1677841455170e0e06-1": {
           "type": "liquid",
           "settings": {
-            "code": "<table>\n  <tr>\n    <th>Paket</th>\n    <th>Deutschland (standard)</th>\n    <th>Deutschland (express)</th>\n<th>Österreich</th>\n<th>Schweiz (ohne MwSt.)</th>\n  </tr>\n  <tr>\n    <td>bis 5 kg</td>\n    <td>7,14 €</td>\n    <td>26,18 €</td>\n<td>13,09 €</td>\n<td>33,00 €</td>\n  </tr>\n  <tr>\n    <td>5 bis 10 kg</td>\n    <td>9,52 €</td>\n    <td>28,56 €</td>\n<td>15,47 €</td>\n<td>35,00 €</td>\n  </tr>\n  <tr>\n    <td>10 bis 20 kg</td>\n    <td>11,90 €</td>\n    <td>32,13 €</td>\n<td>\t21,42 €</td>\n    <td>39,00 €</td>\n  </tr>\n  <tr>\n    <td>20 bis 50 kg</td>\n    <td>21,42 €</td>\n    <td>39,27 €</td>\n<td>34,51 €</td>\n<td>63,00 €</td>\n  </tr>\n<tr>\n<td>Paket über 50 kg</td>\n<td>28,56 €</td>\n\n</tr>\n</table>",
+            "code": "<table>\n  <tr>\n    <th>Paket</th>\n    <th>Deutschland (standard)</th>\n    <th>Deutschland (express)</th>\n<th>Österreich</th>\n<th>Schweiz (ohne MwSt.)</th>\n  </tr>\n  <tr>\n    <td>bis 5 kg</td>\n    <td>6,95 €</td>\n    <td>26,18 €</td>\n<td>13,09 €</td>\n<td>33,00 €</td>\n  </tr>\n  <tr>\n    <td>5 bis 10 kg</td>\n    <td>9,45 €</td>\n    <td>28,56 €</td>\n<td>15,47 €</td>\n<td>35,00 €</td>\n  </tr>\n  <tr>\n    <td>10 bis 20 kg</td>\n    <td>11,95 €</td>\n    <td>32,13 €</td>\n<td>\t21,42 €</td>\n    <td>39,00 €</td>\n  </tr>\n  <tr>\n    <td>20 bis 50 kg</td>\n    <td>21,45 €</td>\n    <td>39,27 €</td>\n<td>34,51 €</td>\n<td>63,00 €</td>\n  </tr>\n<tr>\n<td>Paket über 50 kg</td>\n<td>35 €</td>\n\n</tr>\n</table>",
             "width": "100%",
             "alignment": "center"
           }
