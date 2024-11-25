@@ -91,7 +91,7 @@
         "template--18215882654000__c82253ad-fcd0-40e0-a47d-d19487a9ceb5-1677841455170e0e06-1": {
           "type": "liquid",
           "settings": {
-            "code": "<table>\n  <tr>\n    <th>Paket</th>\n    <th>Deutschland (standard)</th>\n    <th>Deutschland (express)</th>\n<th>Österreich</th>\n<th>Schweiz (ohne MwSt.)</th>\n  </tr>\n  <tr>\n    <td>bis 5 kg</td>\n    <td>6,95 €</td>\n    <td>26,18 €</td>\n<td>13,09 €</td>\n<td>33,00 €</td>\n  </tr>\n  <tr>\n    <td>5 bis 10 kg</td>\n    <td>9,45 €</td>\n    <td>28,56 €</td>\n<td>15,47 €</td>\n<td>35,00 €</td>\n  </tr>\n  <tr>\n    <td>10 bis 20 kg</td>\n    <td>11,95 €</td>\n    <td>32,13 €</td>\n<td>\t21,42 €</td>\n    <td>39,00 €</td>\n  </tr>\n  <tr>\n    <td>20 bis 50 kg</td>\n    <td>21,45 €</td>\n    <td>39,27 €</td>\n<td>34,51 €</td>\n<td>63,00 €</td>\n  </tr>\n<tr>\n<td>Paket über 50 kg</td>\n<td>35 €</td>\n\n</tr>\n</table>",
+            "code": "<table>\n  <tr>\n    <th>Paket</th>\n    <th>Deutschland (standard)</th>\n    <th>Deutschland (express)</th>\n<th>Österreich</th>\n<th>Schweiz (ohne MwSt.)</th>\n  </tr>\n  <tr>\n    <td>bis 5 kg</td>\n    <td>6,95 €</td>\n    <td>25,95 €</td>\n<td>13,09 €</td>\n<td>33,00 €</td>\n  </tr>\n  <tr>\n    <td>5 bis 10 kg</td>\n    <td>9,45 €</td>\n    <td>28,45 €</td>\n<td>15,47 €</td>\n<td>35,00 €</td>\n  </tr>\n  <tr>\n    <td>10 bis 20 kg</td>\n    <td>11,95 €</td>\n    <td>30,95 €</td>\n<td>\t21,42 €</td>\n    <td>39,00 €</td>\n  </tr>\n  <tr>\n    <td>20 bis 50 kg</td>\n    <td>21,45 €</td>\n    <td>40,45 €</td>\n<td>34,51 €</td>\n<td>63,00 €</td>\n  </tr>\n<tr>\n<td>Paket über 50 kg</td>\n<td>35 €</td>\n\n</tr>\n</table>",
             "width": "100%",
             "alignment": "center"
           }
@@ -99,7 +99,7 @@
         "93e2d718-cb7a-4652-af82-81bee29fbf38": {
           "type": "liquid",
           "settings": {
-            "code": "<table>\n  <tr>\n    <th>Paket</th>\n    <th>Frankreich</th>\n    <th>Schweden</th>\n<th>Belgien / Niederlande\nLuxemburg / Dänemark</th>\n  </tr>\n  <tr>\n    <td>bis 5 kg</td>\n    <td>19,04 €</td>\n    <td>27,37 €</td>\n<td>13,09 €</td>\n  </tr>\n  <tr>\n    <td>5 bis 10 kg</td>\n    <td>21,42 €</td>\n    <td>33,32 €</td>\n<td>15,47 €</td>\n  </tr>\n  <tr>\n    <td>10 bis 20 kg</td>\n    <td>27,37 €</td>\n    <td>40,46 €</td>\n<td>\t21,42 €</td>\n  </tr>\n  <tr>\n    <td>20 bis 50 kg</td>\n    <td>45,22 €</td>\n    <td>71,40 €</td>\n<td>34,51 €</td>\n  </tr>\n</table>",
+            "code": "<table>\n  <tr>\n    <th>Paket</th>\n    <th>Frankreich</th>\n    <th>Schweden</th>\n<th>Belgien / Niederlande\nLuxemburg / Dänemark</th>\n  </tr>\n  <tr>\n    <td>bis 5 kg</td>\n    <td>19,50 €</td>\n    <td>27,50 €</td>\n<td>13,09 €</td>\n  </tr>\n  <tr>\n    <td>5 bis 10 kg</td>\n    <td>21,50 €</td>\n    <td>33,40 €</td>\n<td>15,47 €</td>\n  </tr>\n  <tr>\n    <td>10 bis 20 kg</td>\n    <td>27,40 €</td>\n    <td>40,50 €</td>\n<td>\t21,42 €</td>\n  </tr>\n  <tr>\n    <td>20 bis 50 kg</td>\n    <td>45,30 €</td>\n    <td>71,50 €</td>\n<td>34,51 €</td>\n  </tr>\n</table>",
             "width": "100%",
             "alignment": "center"
           }
