@@ -1,19 +1,18 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "16f81cd6-1a19-4f18-9be3-f81d86f752c5": {
       "type": "slideshow",
@@ -22,7 +21,7 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<h1>Längentoleranz<\/h1>",
+            "title": "<h1>Längentoleranz</h1>",
             "title_size": 70,
             "subheading": "",
             "link": "",
@@ -31,7 +30,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/BARTELS_Fotografie-9154.jpg",
+            "image": "shopify://shop_images/BARTELS_Fotografie-9154.jpg",
             "overlay_opacity": 38,
             "focal_point": "center center"
           }
@@ -56,7 +55,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Bei <strong>Materialvorräten oder Restposten <\/strong>betragen die Längenabweichungen etwa +\/- 15 mm. Bei Längen von 1000 mm, 2000 mm oder 3000 mm kann die Abweichung aufgrund des Materialverlusts <strong>durch das Sägen<\/strong> bis zu -5 mm betragen.<\/p>"
+            "text": "<p>Bei Vorratslängen/Restposten betragen die Längenabweichungen ca. +/- 15 mm. Bei Längen von 1000 mm / 2000 mm / 3000 mm kann die Abweichung bis zu -5 mm auf Grund des Sägeblattverlustes aufweisen. </p><p>Benötigst Du Dein Profil auf den Millimeter genau, kontaktiere uns bitte per E-Mail unter verkauf@alu-verkauf.de oder telefonisch unter 05121 282900.</p>"
           }
         }
       },
@@ -76,7 +75,7 @@
         "template--18215876034864__66d41d1e-1e28-4fd0-a81e-c84dfaa35eb2-1677841455170e0e06-1": {
           "type": "liquid",
           "settings": {
-            "code": "<table>\n<tr>\n<th>Bestellte Länge\n<th>Toleranz\n<\/tr>\n<tr>\n<td>bis 100mm\n<td>max. +\/- 1,5mm\n<\/tr>\n<tr>\n<td>101 - 500 mm\n<td>max. +\/- 2,0mm\n<\/tr>\n<tr>\n<td>über 500 mm\n<td>max. +\/- 3,0mm\n<\/tr>\n<\/table>",
+            "code": "<table>\n<tr>\n<th>Bestellte Länge\n<th>Toleranz\n</tr>\n<tr>\n<td>bis 100mm\n<td>max. +/- 1,0mm\n</tr>\n<tr>\n<td>101 - 500 mm\n<td>max. +/- 1,0mm\n</tr>\n<tr>\n<td>über 500 mm\n<td>max. +/- 2,0mm\n</tr>\n</table>",
             "width": "100%",
             "alignment": "center"
           }
@@ -85,9 +84,7 @@
       "block_order": [
         "template--18215876034864__66d41d1e-1e28-4fd0-a81e-c84dfaa35eb2-1677841455170e0e06-1"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "full_width": false,
         "space_around": true
