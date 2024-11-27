@@ -83,6 +83,12 @@
             "is_tab": false
           }
         },
+        "text_Bh66QM": {
+          "type": "text",
+          "settings": {
+            "text": "Bei Materialvorräten oder Restposten betragen die Längenabweichungen etwa +/- 15 mm."
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -95,6 +101,7 @@
         "variant_picker",
         "price",
         "0b529514-2cd6-442b-91f6-cd9726c87e30",
+        "text_Bh66QM",
         "buy_buttons"
       ],
       "custom_css": [
