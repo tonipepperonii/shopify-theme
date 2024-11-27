@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "collection-header": {
@@ -16,7 +25,7 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<h1>Restposten<\/h1>",
+            "title": "<h1>Restposten</h1>",
             "title_size": 70,
             "subheading": "",
             "link": "",
@@ -25,7 +34,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/news-heading.png",
+            "image": "shopify://shop_images/news-heading.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -50,7 +59,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<h1><strong>Alu Restposten: Günstige Angebote in großer Auswahl<\/strong><\/h1><p><strong>Suchst Du nach günstigen Aluminium Restposten?<\/strong> Dann bist Du bei alu-verkauf.de genau richtig! Bei uns findest Du eine große Auswahl an Restposten aus Aluminium in verschiedenen Formen, Maßen und mit unterschiedlicher Legierung.<\/p><p>Die angegebenen Preise verstehen sich als <strong>Bruttopreise inkl. MwSt.<\/strong>, zzgl. Versandkosten. Wenn Du hier nicht fündig wirst, dann schau gerne bei unseren<a href=\"https:\/\/alu-verkauf.de\/pages\/aluminiumprofile\"> <span style=\"text-decoration:underline\">regulären Alu-Profilen nach Maß<\/span><\/a> vorbei oder sende uns eine Anfrage per Kontaktformular und wir werden Dir schnellstmöglich eine Rückmeldung zukommen lassen.<\/p><p><strong>Alle Restposten sind sofort verfügbar und können abgeholt oder bequem online bestellt werden. Viel Spaß beim Stöbern in unseren Alu Restposten!<\/strong><\/p>"
+            "text": "<h1><strong>Alu Restposten: Günstige Angebote in großer Auswahl</strong></h1><p><strong>Suchst Du nach günstigen Aluminium Restposten?</strong> Dann bist Du bei alu-verkauf.de genau richtig! Bei uns findest Du eine große Auswahl an Restposten aus Aluminium in verschiedenen Formen, Maßen und mit unterschiedlicher Legierung.</p><p>Die angegebenen Preise verstehen sich als <strong>Bruttopreise inkl. MwSt.</strong>, zzgl. Versandkosten. Wenn Du hier nicht fündig wirst, dann schau gerne bei unseren<a href=\"https://alu-verkauf.de/pages/aluminiumprofile\"> <span style=\"text-decoration:underline\">regulären Alu-Profilen nach Maß</span></a> vorbei oder sende uns eine Anfrage per Kontaktformular und wir werden Dir schnellstmöglich eine Rückmeldung zukommen lassen.</p><p><strong>Alle Restposten sind sofort verfügbar und können abgeholt oder bequem online bestellt werden. Viel Spaß beim Stöbern in unseren Alu Restposten!</strong></p><p>Bei<strong> </strong>Restposten<strong> </strong>beträgt die <strong>Längenabweichung</strong> etwa +/- 15 mm. Genaueres findest Du <a href=\"https://alu-verkauf.de/pages/langentoleranz\" title=\"Längentoleranz\">hier</a>.</p>"
           }
         }
       },
@@ -69,8 +78,7 @@
       "blocks": {
         "subcollections": {
           "type": "subcollections",
-          "settings": {
-          }
+          "settings": {}
         },
         "product_grid": {
           "type": "product_grid",
@@ -80,8 +88,7 @@
         },
         "2b4203a3-40ca-47f3-a2e4-ff4c076d6fca": {
           "type": "collection_description",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -98,8 +105,7 @@
     },
     "recently-viewed": {
       "type": "recently-viewed",
-      "settings": {
-      }
+      "settings": {}
     },
     "rich_text_yKK7Li": {
       "type": "rich-text",
@@ -108,16 +114,14 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<h2><strong>Unser Angebot<\/strong><\/h2><ul><li><strong>Alu Profile:<\/strong> Restposten von<a href=\"https:\/\/alu-verkauf.de\/collections\/restposten?filter.p.tag=Winkel+Restposten\"> <span style=\"text-decoration:underline\">Winkelprofile<\/span><\/a>,<a href=\"https:\/\/alu-verkauf.de\/collections\/restposten?filter.p.tag=U-Profile+Restposten\"> <span style=\"text-decoration:underline\">U-Profile<\/span><\/a>,<a href=\"https:\/\/alu-verkauf.de\/collections\/restposten?filter.p.tag=T-Profile+Restposten\"> <span style=\"text-decoration:underline\">T-Profile<\/span><\/a>,<a href=\"https:\/\/alu-verkauf.de\/collections\/restposten?filter.p.tag=4-Kant+Restposten\"> <span style=\"text-decoration:underline\">Vierkantprofile<\/span><\/a>, Vierkantrohre,<a href=\"https:\/\/alu-verkauf.de\/collections\/restposten?filter.p.tag=6-Kant+Restposten\"> <span style=\"text-decoration:underline\">Sechskantprofile<\/span><\/a>,<a href=\"https:\/\/alu-verkauf.de\/collections\/restposten?filter.p.tag=Rund+Restposten\"> <span style=\"text-decoration:underline\">Rundprofile<\/span><\/a>,<a href=\"https:\/\/alu-verkauf.de\/collections\/restposten?filter.p.tag=Rundrohr+Restposten\"> <span style=\"text-decoration:underline\">Rundrohre<\/span><\/a>,<a href=\"https:\/\/alu-verkauf.de\/collections\/restposten?filter.p.tag=Flach+Restposten\"> <span style=\"text-decoration:underline\">Flachprofile<\/span><\/a> und<a href=\"https:\/\/alu-verkauf.de\/collections\/restposten?filter.p.tag=Z-Profile+Restposten\"> <span style=\"text-decoration:underline\">Z-Profile<\/span><\/a>.<\/li><li><strong>Platten:<\/strong> Restposten von<a href=\"https:\/\/alu-verkauf.de\/collections\/restposten?filter.p.tag=Kupfer+Restposten\"> <span style=\"text-decoration:underline\">Kupfer-<\/span><\/a> und<a href=\"https:\/\/alu-verkauf.de\/collections\/restposten?filter.p.tag=Platten+Restposten\"> <span style=\"text-decoration:underline\">Aluplatten<\/span><\/a><\/li><li><strong>Riffelbleche:<\/strong> In<a href=\"https:\/\/alu-verkauf.de\/collections\/restposten?filter.p.tag=AlMg3_Riffel_Duett\"> <span style=\"text-decoration:underline\">Duett<\/span><\/a> und<a href=\"https:\/\/alu-verkauf.de\/collections\/restposten?filter.p.tag=AlMg3_Riffel_Quintett\"> <span style=\"text-decoration:underline\">Quintett<\/span><\/a><\/li><\/ul><h2><strong>Versand Deiner Alu Restposten<\/strong><\/h2><p><strong>Du hast die Wahl: <\/strong>Bestelle Deine <strong>Alu Restposten <\/strong>entweder bequem online und profitiere von unserer <strong>schnellen Lieferung<\/strong> (genaue Informationen zu Lieferzeit und Versandkosten der Reststücke erhältst Du im Checkout).<\/p><p>Oder Du holst Deine <strong>Restposten<\/strong> <strong>direkt bei uns in Hildesheim vom Lager<\/strong> ab. So sparst Du Versandkosten und kannst Dir die <strong>Aluminiumprofile<\/strong> vor dem Kauf direkt ansehen und kannst Dich von der Qualität überzeugen.<\/p><p><strong>So einfach geht's:<\/strong><\/p><ol><li>Stöbere in unserem <strong>Online-Shop<\/strong> und finde die Produkte, die Du benötigst.<\/li><li>Wähle die gewünschte Menge und lege die Artikel in Deinen Warenkorb.<\/li><li>Gehe zur Kasse und wähle Deine bevorzugte Versandart.<\/li><li>Bezahle Deine Bestellung sicher und bequem online.<\/li><li><strong>Bei Abholung:<\/strong> Wir benachrichtigen Dich per E-Mail, sobald Deine Bestellung abholbereit ist.<\/li><\/ol><p>Wenn Du Dir nicht sicher bist, welche <strong>Aluminium Reste<\/strong> Du benötigst, kannst Du uns jederzeit kontaktieren. Wir beraten Dich gerne und helfen Dir, die richtigen <strong>Restposten<\/strong> für Dein Projekt zu finden.<\/p>"
+            "text": "<h2><strong>Unser Angebot</strong></h2><ul><li><strong>Alu Profile:</strong> Restposten von<a href=\"https://alu-verkauf.de/collections/restposten?filter.p.tag=Winkel+Restposten\"> <span style=\"text-decoration:underline\">Winkelprofile</span></a>,<a href=\"https://alu-verkauf.de/collections/restposten?filter.p.tag=U-Profile+Restposten\"> <span style=\"text-decoration:underline\">U-Profile</span></a>,<a href=\"https://alu-verkauf.de/collections/restposten?filter.p.tag=T-Profile+Restposten\"> <span style=\"text-decoration:underline\">T-Profile</span></a>,<a href=\"https://alu-verkauf.de/collections/restposten?filter.p.tag=4-Kant+Restposten\"> <span style=\"text-decoration:underline\">Vierkantprofile</span></a>, Vierkantrohre,<a href=\"https://alu-verkauf.de/collections/restposten?filter.p.tag=6-Kant+Restposten\"> <span style=\"text-decoration:underline\">Sechskantprofile</span></a>,<a href=\"https://alu-verkauf.de/collections/restposten?filter.p.tag=Rund+Restposten\"> <span style=\"text-decoration:underline\">Rundprofile</span></a>,<a href=\"https://alu-verkauf.de/collections/restposten?filter.p.tag=Rundrohr+Restposten\"> <span style=\"text-decoration:underline\">Rundrohre</span></a>,<a href=\"https://alu-verkauf.de/collections/restposten?filter.p.tag=Flach+Restposten\"> <span style=\"text-decoration:underline\">Flachprofile</span></a> und<a href=\"https://alu-verkauf.de/collections/restposten?filter.p.tag=Z-Profile+Restposten\"> <span style=\"text-decoration:underline\">Z-Profile</span></a>.</li><li><strong>Platten:</strong> Restposten von<a href=\"https://alu-verkauf.de/collections/restposten?filter.p.tag=Kupfer+Restposten\"> <span style=\"text-decoration:underline\">Kupfer-</span></a> und<a href=\"https://alu-verkauf.de/collections/restposten?filter.p.tag=Platten+Restposten\"> <span style=\"text-decoration:underline\">Aluplatten</span></a></li><li><strong>Riffelbleche:</strong> In<a href=\"https://alu-verkauf.de/collections/restposten?filter.p.tag=AlMg3_Riffel_Duett\"> <span style=\"text-decoration:underline\">Duett</span></a> und<a href=\"https://alu-verkauf.de/collections/restposten?filter.p.tag=AlMg3_Riffel_Quintett\"> <span style=\"text-decoration:underline\">Quintett</span></a></li></ul><h2><strong>Versand Deiner Alu Restposten</strong></h2><p><strong>Du hast die Wahl: </strong>Bestelle Deine <strong>Alu Restposten </strong>entweder bequem online und profitiere von unserer <strong>schnellen Lieferung</strong> (genaue Informationen zu Lieferzeit und Versandkosten der Reststücke erhältst Du im Checkout).</p><p>Oder Du holst Deine <strong>Restposten</strong> <strong>direkt bei uns in Hildesheim vom Lager</strong> ab. So sparst Du Versandkosten und kannst Dir die <strong>Aluminiumprofile</strong> vor dem Kauf direkt ansehen und kannst Dich von der Qualität überzeugen.</p><p><strong>So einfach geht's:</strong></p><ol><li>Stöbere in unserem <strong>Online-Shop</strong> und finde die Produkte, die Du benötigst.</li><li>Wähle die gewünschte Menge und lege die Artikel in Deinen Warenkorb.</li><li>Gehe zur Kasse und wähle Deine bevorzugte Versandart.</li><li>Bezahle Deine Bestellung sicher und bequem online.</li><li><strong>Bei Abholung:</strong> Wir benachrichtigen Dich per E-Mail, sobald Deine Bestellung abholbereit ist.</li></ol><p>Wenn Du Dir nicht sicher bist, welche <strong>Aluminium Reste</strong> Du benötigst, kannst Du uns jederzeit kontaktieren. Wir beraten Dich gerne und helfen Dir, die richtigen <strong>Restposten</strong> für Dein Projekt zu finden.</p>"
           }
         }
       },
       "block_order": [
         "text_C9gVkn"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "align_text": "left",
         "narrow_column": false,
@@ -131,7 +135,7 @@
         "image_Ytw8FK": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/alu-restposten-neu.jpg",
+            "image": "shopify://shop_images/alu-restposten-neu.jpg",
             "link": "",
             "width": "66%",
             "alignment": "center"
@@ -152,7 +156,7 @@
         "image_Ug9XKr": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/alu-restposten-neu.jpg",
+            "image": "shopify://shop_images/alu-restposten-neu.jpg",
             "link": "",
             "width": "100%",
             "alignment": "center"
@@ -175,7 +179,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<h2><strong>Top Auswahl und Beratung bei alu-verkauf.de<\/strong><\/h2><p><strong>20 Jahren Expertise und eine persönliche Beratung auch vor Ort! <\/strong>Kontaktiere uns einfach telefonisch unter<a href=\"tel:05121282900\"><span style=\"text-decoration:underline\"> 05121 28-290-0<\/span><\/a> oder schreibe uns eine Mail mit Deiner Frage an verkauf@alu-verkauf.de. Wir freuen uns, Dich bei Deinem Vorhaben zu unterstützen.<\/p>"
+            "text": "<h2><strong>Top Auswahl und Beratung bei alu-verkauf.de</strong></h2><p><strong>20 Jahren Expertise und eine persönliche Beratung auch vor Ort! </strong>Kontaktiere uns einfach telefonisch unter<a href=\"tel:05121282900\"><span style=\"text-decoration:underline\"> 05121 28-290-0</span></a> oder schreibe uns eine Mail mit Deiner Frage an verkauf@alu-verkauf.de. Wir freuen uns, Dich bei Deinem Vorhaben zu unterstützen.</p>"
           }
         }
       },
