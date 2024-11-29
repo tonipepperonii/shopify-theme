@@ -210,9 +210,8 @@
           },
           "announcement_Li6Pcz": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "richtext": "<h4>BLACK FRIDAY SALE!!! 10 % auf deine Bestellung - Code B9H3CV3F</h4><h4></h4>",
+              "richtext": "<h4>BLACK FRIDAY SALE!!! *10 % auf deine Bestellung - *29.11.-02.12.2024 - Code B9H3CV3F </h4><h4></h4>",
               "richtext_mobile": "<h4>BLACK FRIDAY SALE!!! 10 % auf deine Bestellung - Code B9H3CV3F</h4>"
             }
           }

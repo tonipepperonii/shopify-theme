@@ -51,6 +51,7 @@
         },
         "hero_tA3crh": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>Aluprofile auch in Kleinstmengen zum Festpreis</p>",
@@ -87,6 +88,7 @@
         },
         "hero_mcNRE4": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "Wir bieten auch das Zubehör zu unseren Produkten an.",
             "title": "<p>Welches Zubehör fehlt dir?</p>",
