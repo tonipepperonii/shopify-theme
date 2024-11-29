@@ -187,14 +187,14 @@
       },
       "recently-viewed": {
         "type": "recently-viewed",
-        "settings": {
-        }
+        "settings": {}
       },
       "toolbar": {
         "type": "toolbar",
         "blocks": {
           "announcement_3yqLnq": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "richtext": "<h3>20 % auf Winkel und Vierkantrohre - Code: WVR20%</h3>",
               "richtext_mobile": "<h3>20 % auf Winkel und Vierkantrohre - Code: WVR20%</h3>"
@@ -202,6 +202,7 @@
           },
           "announcement_NLhgXy": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "richtext": "<h3><a href=\"/collections/restposten\" title=\"Restposten\"><strong>Schnäppchen-Alarm! 30 % Rabatt auf Restposten – bevor sie weg sind.</strong></a></h3>",
               "richtext_mobile": "<p><a href=\"/collections/restposten\" title=\"Restposten\">Schnäppchen-Alarm! 30 % Rabatt auf Restposten – bevor sie weg sind.</a></p>"
@@ -211,8 +212,8 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "richtext": "<h4></h4><h4><a href=\"/pages/jobs\" title=\"Jobs\">Lagermitarbeiter ab sofort in Voll-und Teilzeit gesucht. </a>Bewerbung an verkauf@alu-verkauf.de<br/>Wir freuen uns auf dich.</h4>",
-              "richtext_mobile": "<h4><a href=\"/pages/jobs\" title=\"Jobs\">Produktionsmitarbeiter ab sofort in Voll-und Teilzeit gesucht. </a>Bewerbung an verkauf@alu-verkauf.de<br/>Wir freuen uns auf dich.</h4>"
+              "richtext": "<h4>BLACK FRIDAY SALE!!! 10 % auf deine Bestellung - Code B9H3CV3F</h4><h4></h4>",
+              "richtext_mobile": "<h4>BLACK FRIDAY SALE!!! 10 % auf deine Bestellung - Code B9H3CV3F</h4>"
             }
           }
         },
@@ -259,13 +260,11 @@
           },
           "e3b1a6e3-3830-49d9-b1fb-4fdc7045879d": {
             "type": "vorteile",
-            "settings": {
-            }
+            "settings": {}
           },
           "39d87681-b826-4ca0-9a7c-7fd249d5283a": {
             "type": "versand",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -308,21 +307,17 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "2153490007123654574": {
         "type": "shopify://apps/consentmo-gdpr/blocks/gdpr_cookie_consent/4fbe573f-a377-4fea-9801-3ee0858cae41",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
@@ -341,8 +336,7 @@
       "13615385223509461694": {
         "type": "shopify://apps/magic-zoom-plus/blocks/magiczoomplus/893db416-6d9e-4ad6-b769-71d9cdd734fe",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -455,8 +449,7 @@
             "reminder-block": {
               "type": "header",
               "disabled": true,
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -524,29 +517,25 @@
         },
         "recently-viewed": {
           "type": "recently-viewed",
-          "settings": {
-          }
+          "settings": {}
         },
         "toolbar": {
           "type": "toolbar",
           "blocks": {
             "0b066516-effd-470b-ba3b-fc9f69d6c6ae": {
               "type": "announcement",
-              "settings": {
-              }
+              "settings": {}
             },
             "cff431d4-9a3a-4622-a731-bd2d4c67a45c": {
               "type": "announcement",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
             "0b066516-effd-470b-ba3b-fc9f69d6c6ae",
             "cff431d4-9a3a-4622-a731-bd2d4c67a45c"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "footer": {
           "type": "footer",
@@ -775,8 +764,7 @@
         },
         "recently-viewed": {
           "type": "recently-viewed",
-          "settings": {
-          }
+          "settings": {}
         },
         "toolbar": {
           "type": "toolbar",
@@ -1010,8 +998,7 @@
         },
         "recently-viewed": {
           "type": "recently-viewed",
-          "settings": {
-          }
+          "settings": {}
         },
         "toolbar": {
           "type": "toolbar",
