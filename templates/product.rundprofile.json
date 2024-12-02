@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "5496d8f0-cbe1-4f56-b789-aad06ed907f2": {
@@ -7,7 +16,7 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<h2>{{ product.title }}<\/h2>",
+            "title": "<h2>{{ product.title }}</h2>",
             "title_size": 70,
             "subheading": "",
             "link": "",
@@ -16,8 +25,8 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/dgsrtlin.png",
-            "image_mobile": "shopify:\/\/shop_images\/RR.jpg",
+            "image": "shopify://shop_images/dgsrtlin.png",
+            "image_mobile": "shopify://shop_images/RR.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -26,7 +35,7 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<h2>{{ product.title }}<\/h2>",
+            "title": "<h2>{{ product.title }}</h2>",
             "title_size": 70,
             "subheading": "",
             "link": "",
@@ -35,7 +44,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/Flach_0b4f63b1-cdb3-4622-b41a-8132e9dee423.jpg",
+            "image": "shopify://shop_images/Flach_0b4f63b1-cdb3-4622-b41a-8132e9dee423.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -44,7 +53,7 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<p>{{ product.title }}<\/p>",
+            "title": "<p>{{ product.title }}</p>",
             "title_size": 70,
             "subheading": "",
             "link": "",
@@ -53,7 +62,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/0mv47m4j.png",
+            "image": "shopify://shop_images/0mv47m4j.png",
             "overlay_opacity": 0,
             "focal_point": "20% 50%"
           }
@@ -62,7 +71,7 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<p>{{ product.title }}<\/p>",
+            "title": "<p>{{ product.title }}</p>",
             "title_size": 70,
             "subheading": "",
             "link": "",
@@ -71,7 +80,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/VR.jpg",
+            "image": "shopify://shop_images/VR.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -101,14 +110,12 @@
       "type": "vz-main-product",
       "blocks": {
         "4dee32ac-6eeb-4b68-ac6b-8e770416d148": {
-          "type": "shopify:\/\/apps\/alu-verkauf-konfigurator\/blocks\/app-block-pipe\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
-          "settings": {
-          }
+          "type": "shopify://apps/alu-verkauf-konfigurator/blocks/app-block-pipe/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+          "settings": {}
         },
         "3dd15e01-98c2-41e8-89c4-43c738426b5d": {
-          "type": "shopify:\/\/apps\/alu-verkauf-konfigurator\/blocks\/app-block-pipe-list\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
-          "settings": {
-          }
+          "type": "shopify://apps/alu-verkauf-konfigurator/blocks/app-block-pipe-list/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+          "settings": {}
         }
       },
       "block_order": [
@@ -117,7 +124,7 @@
       ],
       "settings": {
         "sku_enable": false,
-        "hinweis-richtext": "<h2><strong>Produktinformationen<\/strong><\/h2><p><strong>Aluminium-Rundprofile<\/strong> sind vielseitig einsetzbar und werden daher sowohl im privaten als auch im gewerblichen Bereich gerne für Reparaturen verwendet. Bei unseren Alu-Rundprofilen (auch: Alu-Rundmaterial) handelt es sich um massive Metallstangen aus Aluminium, die trotz ihres geringen Eigengewichts mit einer hohen Stabilität überzeugen.<\/p><ul><li><strong>Maße <\/strong>= Durchmesser <\/li><li><strong>Material<\/strong> in stranggepresster und teilweise in gezogener Ausführung.<\/li><li><strong>Oberfläche<\/strong>, wenn nicht anders angegeben in pressblank. Lieferungen sind ab einer Länge von 20 mm im Zuschnitt ohne Restübernahme möglich. Maximal bestellbare Länge 6 Meter (je nach Legierung).<\/li><li>Die<strong> Legierungen AlMgSi<\/strong> und <strong>AlSiMgMn <\/strong>können <strong>auf Wunsch silber-eloxiert<\/strong> werden.<\/li><\/ul><p>Die angegebenen Preise verstehen sich als <strong>Bruttopreise inkl. MwSt.<\/strong>, zzgl. Versandkosten. Gerne überprüfen wir, ob Profile und Abmessungen, die hier nicht aufgeführt werden, für Dich beschaffbar sind. Sende uns hierzu gerne eine Anfrage per Kontaktformular und wir werden Dir schnellstmöglich eine Rückmeldung zukommen lassen.<\/p>",
+        "hinweis-richtext": "<h2><strong>Produktinformationen</strong></h2><p><strong>Aluminium-Rundprofile</strong> sind vielseitig einsetzbar und werden daher sowohl im privaten als auch im gewerblichen Bereich gerne für Reparaturen verwendet. Bei unseren Alu-Rundprofilen (auch: Alu-Rundmaterial) handelt es sich um massive Metallstangen aus Aluminium, die trotz ihres geringen Eigengewichts mit einer hohen Stabilität überzeugen.</p><ul><li><strong>Maße </strong>= Durchmesser </li><li><strong>Material</strong> in stranggepresster und teilweise in gezogener Ausführung.</li><li><strong>Oberfläche</strong>, wenn nicht anders angegeben in pressblank. Lieferungen sind ab einer Länge von 20 mm im Zuschnitt ohne Restübernahme möglich. Maximal bestellbare Länge 6 Meter (je nach Legierung).</li><li>Die<strong> Legierungen AlMgSi</strong> und <strong>AlSiMgMn </strong>können <strong>auf Wunsch silber-eloxiert</strong> werden.</li><li><strong>Längentoleranz</strong>: Unsere Längentoleranz findest Du <a href=\"https://alu-verkauf.de/pages/langentoleranz\" title=\"Längentoleranz\"><strong>hier</strong>.</a></li></ul><p>Die angegebenen Preise verstehen sich als <strong>Bruttopreise inkl. MwSt.</strong>, zzgl. Versandkosten. Gerne überprüfen wir, ob Profile und Abmessungen, die hier nicht aufgeführt werden, für Dich beschaffbar sind. Sende uns hierzu gerne eine Anfrage per Kontaktformular und wir werden Dir schnellstmöglich eine Rückmeldung zukommen lassen.</p>",
         "image_position": "left",
         "image_container_size": "medium",
         "product_image_size": "square",
@@ -135,7 +142,7 @@
         "template--18896842195248__c1ac324a-eaf3-4b54-96f2-fe1b250705f5-1682509798c3998345-0": {
           "type": "text",
           "settings": {
-            "main_richtext": "<h1>Hier steht ein Beispiel<\/h1><p>So könnte es aussehen<\/p>"
+            "main_richtext": "<h1>Hier steht ein Beispiel</h1><p>So könnte es aussehen</p>"
           }
         }
       },
@@ -144,9 +151,9 @@
       ],
       "settings": {
         "side-title": "Wir sind für Sie da:",
-        "image": "shopify:\/\/shop_images\/DSC_1210k_65beac15-1f30-437c-8cad-b0ebcd0e5817.jpg",
-        "side-richtext": "<p>Nils Vespermann & Mike Janke<\/p>",
-        "phone": "05121 \/ 28 290-0",
+        "image": "shopify://shop_images/DSC_1210k_65beac15-1f30-437c-8cad-b0ebcd0e5817.jpg",
+        "side-richtext": "<p>Nils Vespermann & Mike Janke</p>",
+        "phone": "05121 / 28 290-0",
         "mail": "verkauf@alu-verkauf.de",
         "checkbox": true
       }
@@ -164,7 +171,7 @@
           "type": "tab",
           "settings": {
             "title": "Shipping information",
-            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
             "page": ""
           }
         },
@@ -196,20 +203,17 @@
     "more-products-vendor": {
       "type": "more-products-vendor",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "more-products-collection": {
       "type": "more-products-collection",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "recently-viewed": {
       "type": "recently-viewed",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "collection-return": {
       "type": "collection-return",

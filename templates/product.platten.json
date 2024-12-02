@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "5496d8f0-cbe1-4f56-b789-aad06ed907f2": {
@@ -25,7 +25,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/kf9o8qf7.png",
+            "image": "shopify://shop_images/kf9o8qf7.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -50,14 +50,12 @@
       "type": "vz-main-product",
       "blocks": {
         "73ae10fe-a7be-47c5-a6cf-7252c9e0b468": {
-          "type": "shopify:\/\/apps\/alu-verkauf-konfigurator\/blocks\/app-block-plate\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
-          "settings": {
-          }
+          "type": "shopify://apps/alu-verkauf-konfigurator/blocks/app-block-plate/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+          "settings": {}
         },
         "6d88032e-39d6-43ab-9225-fc43a656f03f": {
-          "type": "shopify:\/\/apps\/alu-verkauf-konfigurator\/blocks\/app-block-plate-list\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
-          "settings": {
-          }
+          "type": "shopify://apps/alu-verkauf-konfigurator/blocks/app-block-plate-list/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+          "settings": {}
         }
       },
       "block_order": [
@@ -66,7 +64,7 @@
       ],
       "settings": {
         "sku_enable": false,
-        "hinweis-richtext": "<p><strong>Aluminium-Platten<\/strong> können sowohl im gewerblichen als auch im privaten Bereich vielseitig eingesetzt werden: Aufgrund des geringen Gewichts des Materials und der hohen Flexibilität beim Zuschneiden der Maße sind die Verwendungsmöglichkeiten für die Platten aus Aluminium beinahe unzählbar. In unserem Online-Shop können Sie über den Produktkonfigurator ganz bequem Platten in Ihrem Wunschmaß bestellen.<\/p><h2><strong>Produktinformationen<\/strong><\/h2><ul><li><strong>Maße <\/strong>= Dicke (in mm); Breite und Länge individuell eingebbar (in mm)<\/li><li><strong>Bearbeitungszeit: <\/strong>bei geringen bis mittleren Bestellmengen i.d.R. zwischen 1-3 Tagen<\/li><li>Einige<strong> Legierungen <\/strong>können <strong>auf Wunsch silber-eloxiert<\/strong> werden.<\/li><\/ul><p>Die angegebenen Preise verstehen sich als <strong>Bruttopreise inkl. MwSt.<\/strong>, zzgl. Versandkosten. Gerne prüfen wir, ob Profile und Abmessungen, die hier nicht aufgeführt werden, für Sie beschaffbar sind. Schicken Sie uns hierzu gerne eine Anfrage per Kontaktformular und wir werden Ihnen schnellstmöglich eine Rückmeldung zukommen lassen.<\/p>",
+        "hinweis-richtext": "<p><strong>Aluminium-Platten</strong> können sowohl im gewerblichen als auch im privaten Bereich vielseitig eingesetzt werden: Aufgrund des geringen Gewichts des Materials und der hohen Flexibilität beim Zuschneiden der Maße sind die Verwendungsmöglichkeiten für die Platten aus Aluminium beinahe unzählbar. In unserem Online-Shop können Sie über den Produktkonfigurator ganz bequem Platten in Ihrem Wunschmaß bestellen.</p><h2><strong>Produktinformationen</strong></h2><ul><li><strong>Maße </strong>= Dicke (in mm); Breite und Länge individuell eingebbar (in mm)</li><li><strong>Bearbeitungszeit: </strong>bei geringen bis mittleren Bestellmengen i.d.R. zwischen 1-3 Tagen</li><li>Einige<strong> Legierungen </strong>können <strong>auf Wunsch silber-eloxiert</strong> werden.</li><li><strong>Längentoleranz</strong>: Unsere Längentoleranz findest Du <a href=\"https://alu-verkauf.de/pages/langentoleranz\" title=\"Längentoleranz\"><strong>hier</strong>.</a></li></ul><p>Die angegebenen Preise verstehen sich als <strong>Bruttopreise inkl. MwSt.</strong>, zzgl. Versandkosten. Gerne prüfen wir, ob Profile und Abmessungen, die hier nicht aufgeführt werden, für Sie beschaffbar sind. Schicken Sie uns hierzu gerne eine Anfrage per Kontaktformular und wir werden Ihnen schnellstmöglich eine Rückmeldung zukommen lassen.</p>",
         "image_position": "left",
         "image_container_size": "medium",
         "product_image_size": "square",
@@ -84,7 +82,7 @@
         "template--18896842195248__c1ac324a-eaf3-4b54-96f2-fe1b250705f5-1682509798c3998345-0": {
           "type": "text",
           "settings": {
-            "main_richtext": "<h1>Hier steht ein Beispiel<\/h1><p>So könnte es aussehen<\/p>"
+            "main_richtext": "<h1>Hier steht ein Beispiel</h1><p>So könnte es aussehen</p>"
           }
         }
       },
@@ -93,9 +91,9 @@
       ],
       "settings": {
         "side-title": "Wir sind für Sie da:",
-        "image": "shopify:\/\/shop_images\/DSC_1210k_65beac15-1f30-437c-8cad-b0ebcd0e5817.jpg",
-        "side-richtext": "<p>Nils Vespermann & Mike Janke<\/p>",
-        "phone": "05121 \/ 28 290-0",
+        "image": "shopify://shop_images/DSC_1210k_65beac15-1f30-437c-8cad-b0ebcd0e5817.jpg",
+        "side-richtext": "<p>Nils Vespermann & Mike Janke</p>",
+        "phone": "05121 / 28 290-0",
         "mail": "verkauf@alu-verkauf.de",
         "checkbox": true
       }
@@ -113,7 +111,7 @@
           "type": "tab",
           "settings": {
             "title": "Shipping information",
-            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
             "page": ""
           }
         },
@@ -145,20 +143,17 @@
     "more-products-vendor": {
       "type": "more-products-vendor",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "more-products-collection": {
       "type": "more-products-collection",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "recently-viewed": {
       "type": "recently-viewed",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "collection-return": {
       "type": "collection-return",
