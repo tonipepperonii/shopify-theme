@@ -12,8 +12,7 @@
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "d38437cf-d8e2-4fbd-8519-bdc9ed069000": {
       "type": "slideshow",
@@ -64,7 +63,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Gerne bieten wir Ihnen Kupfer-Zuschnitte auf Anfrage an.</p>"
+            "text": "<p>Gerne bieten wir Dir Kupfer-Zuschnitte auf Anfrage an.</p>"
           }
         },
         "67d02067-0ea9-4167-9e59-bc1d8761b5f0": {
