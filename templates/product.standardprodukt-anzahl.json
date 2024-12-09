@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "11d26c36-a631-42d5-892c-ed8bfd22fef4": {
@@ -8,7 +17,7 @@
           "disabled": true,
           "settings": {
             "top_subheading": "",
-            "title": "<p>Overlaid Hero Slide<\/p>",
+            "title": "<p>Overlaid Hero Slide</p>",
             "title_size": 70,
             "subheading": "Perfect for rich lifestyle photography.",
             "link": "",
@@ -25,7 +34,7 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<h1>{{ product.title }}<\/h1>",
+            "title": "<h2>{{ product.title }}</h2>",
             "title_size": 70,
             "subheading": "",
             "link": "",
@@ -34,7 +43,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/R2RD_RQquer_77345e0e-0db8-4133-8cdc-087990e0189d.jpg",
+            "image": "shopify://shop_images/R2RD_RQquer_77345e0e-0db8-4133-8cdc-087990e0189d.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -67,8 +76,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "0b529514-2cd6-442b-91f6-cd9726c87e30": {
           "type": "description",
@@ -78,8 +86,7 @@
         },
         "quantity_selector_BMGCz9": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -126,7 +133,7 @@
           "type": "tab",
           "settings": {
             "title": "Shipping information",
-            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
             "page": ""
           }
         },
@@ -158,20 +165,17 @@
     "more-products-vendor": {
       "type": "more-products-vendor",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "more-products-collection": {
       "type": "more-products-collection",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "recently-viewed": {
       "type": "recently-viewed",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "collection-return": {
       "type": "collection-return",
@@ -185,7 +189,7 @@
         "template--18300171813168__6ae58654-665d-4d90-b481-aa002f3ca078-text-1": {
           "type": "text",
           "settings": {
-            "main_richtext": "<h1>Hier steht ein Beispiel<\/h1> <p>So könnte es aussehen<\/p>"
+            "main_richtext": "<h1>Hier steht ein Beispiel</h1> <p>So könnte es aussehen</p>"
           }
         }
       },
