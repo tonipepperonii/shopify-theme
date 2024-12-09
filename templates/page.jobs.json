@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "50e717d8-287d-4df9-ab2f-37192b67acf2": {
@@ -16,7 +16,7 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<p>Jobs<\/p>",
+            "title": "<h1>Jobs</h1>",
             "title_size": 70,
             "subheading": "",
             "link": "",
@@ -25,7 +25,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/news-heading.png",
+            "image": "shopify://shop_images/news-heading.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -46,8 +46,7 @@
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "1f70e298-d711-41ec-baf0-4ea231cf184c": {
       "type": "job-offer",
@@ -55,11 +54,11 @@
         "template--18273043644720__1f70e298-d711-41ec-baf0-4ea231cf184c-16800813696d17cfc7-0": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/jobs-logo.png",
+            "image": "shopify://shop_images/jobs-logo.png",
             "title": "Lagermitarbeiter ab sofort in Voll- und Teilzeit",
-            "richtext": "<p>Möchtest Du aktiv bei der Weiterverarbeitung und Verpackung unserer hochwertigen Aluminiumprofile mitwirken? Wir suchen ab sofort engagierte und zuverlässige Mitarbeiter für diesen Bereich.<\/p><p>Du fühlst Dich angesprochen? Wir freuen uns auf Deine Bewerbungsunterlagen!<\/p>",
+            "richtext": "<p>Möchtest Du aktiv bei der Weiterverarbeitung und Verpackung unserer hochwertigen Aluminiumprofile mitwirken? Wir suchen ab sofort engagierte und zuverlässige Mitarbeiter für diesen Bereich.</p><p>Du fühlst Dich angesprochen? Wir freuen uns auf Deine Bewerbungsunterlagen!</p>",
             "adress": "Hafenstraße 16, 31137 Hildesheim",
-            "time": "Voll-\/Teilzeit",
+            "time": "Voll-/Teilzeit",
             "when": "ab sofort"
           }
         },
@@ -67,22 +66,22 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/jobs-logo.png",
+            "image": "shopify://shop_images/jobs-logo.png",
             "title": "Studentisches Praktikum Online Marketing",
-            "richtext": "<p>Sie möchten gerne Ihr erlerntes Wissen im Bereich Online Marketing in die Tat umsetzen? Schicken Sie uns sehr gerne Ihre Unterlagen!<\/p>",
+            "richtext": "<p>Sie möchten gerne Ihr erlerntes Wissen im Bereich Online Marketing in die Tat umsetzen? Schicken Sie uns sehr gerne Ihre Unterlagen!</p>",
             "adress": "Hafenstraße 16, 31137 Hildesheim",
-            "time": "Voll-\/Teilzeit",
+            "time": "Voll-/Teilzeit",
             "when": "ab sofort"
           }
         },
         "731d9e57-e1fe-4cab-a4be-a30538e8a73b": {
           "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/jobs-logo.png",
+            "image": "shopify://shop_images/jobs-logo.png",
             "title": "Initiativbewerbungen",
-            "richtext": "<p>Du hast nicht das Passende gefunden? Schick uns sehr gerne Deine Initiativbewerbung!<\/p>",
+            "richtext": "<p>Du hast nicht das Passende gefunden? Schick uns sehr gerne Deine Initiativbewerbung!</p>",
             "adress": "Hafenstraße 16, 31137 Hildesheim",
-            "time": "Voll-\/Teilzeit",
+            "time": "Voll-/Teilzeit",
             "when": "ab sofort"
           }
         }
@@ -94,7 +93,7 @@
       ],
       "settings": {
         "main_title": "Unsere Stellenangebote",
-        "main_richtext": "<p>Alle aktuellen Jobangebote in unserem Unternehmen findest du in der Übersicht.<\/p>"
+        "main_richtext": "<p>Alle aktuellen Jobangebote in unserem Unternehmen findest du in der Übersicht.</p>"
       }
     },
     "7d17c9f2-9396-4be3-86ca-4f04a6cc42e2": {
@@ -104,7 +103,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Von der Bestellung und der Lieferung vergingen nur 2 Tage. Die Ware war perfekt verpackt und kam ohne jegliche Beschädigungen an. Die Auswahl der verschiedenen Profilen ist reichhaltig und für jeden was dabei. Ich würde jederzeit wieder bestellen. Das Preis Leistungsverhältnis stimmt auch.<\/p>",
+            "testimonial": "<p>Von der Bestellung und der Lieferung vergingen nur 2 Tage. Die Ware war perfekt verpackt und kam ohne jegliche Beschädigungen an. Die Auswahl der verschiedenen Profilen ist reichhaltig und für jeden was dabei. Ich würde jederzeit wieder bestellen. Das Preis Leistungsverhältnis stimmt auch.</p>",
             "author": "Philipp Dischinger",
             "author_info": ""
           }
@@ -113,7 +112,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Bin sehr froh, solch eine hervorragende tolle Firma direkt am Wohnort zu haben, aber auch Versand wäre möglich. Große Auswahl und Möglichkeit selbst kleinste Mengen und Profilabschnitte zu bekommen ohne gleich ganze Meterenden kaufen und mühsam selbst sägen zu müssen. Ideal gerade für Hobbybastler und Konstrukteure! Sehr schneller und sehr freundlicher Service. Nur zu empfehlen!!<\/p>",
+            "testimonial": "<p>Bin sehr froh, solch eine hervorragende tolle Firma direkt am Wohnort zu haben, aber auch Versand wäre möglich. Große Auswahl und Möglichkeit selbst kleinste Mengen und Profilabschnitte zu bekommen ohne gleich ganze Meterenden kaufen und mühsam selbst sägen zu müssen. Ideal gerade für Hobbybastler und Konstrukteure! Sehr schneller und sehr freundlicher Service. Nur zu empfehlen!!</p>",
             "author": "Joachim Diehl",
             "author_info": ""
           }
@@ -122,7 +121,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Perfekter Service! Auf meine Bitte, die Artikel noch am selben Tag in den Versand zu geben, erhielt ich prompt die Bestätigung und den Versenderlink. So muss das sein, absolut empfehlenswert. Ware und Material sind ebenfalls qualitativ hochwertig!<\/p>",
+            "testimonial": "<p>Perfekter Service! Auf meine Bitte, die Artikel noch am selben Tag in den Versand zu geben, erhielt ich prompt die Bestätigung und den Versenderlink. So muss das sein, absolut empfehlenswert. Ware und Material sind ebenfalls qualitativ hochwertig!</p>",
             "author": "Stephan Freeheeler",
             "author_info": ""
           }
@@ -131,7 +130,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Ich schätze den schnellen Versand und den für mich vorbildlichen Kundenservice. Leider ging bei meiner letzten Lieferung bei der Zustellung was schief. Auf meine diesbezügliche Mail erfolgte sofort ein Rückruf und das Problem konnte zu meiner vollsten Zufriedenheit gelöst werden. Und hier trennt sich die Spreu vom Weizen. alu-verkauf.de ist und bleibt daher mein Favorit.<\/p>",
+            "testimonial": "<p>Ich schätze den schnellen Versand und den für mich vorbildlichen Kundenservice. Leider ging bei meiner letzten Lieferung bei der Zustellung was schief. Auf meine diesbezügliche Mail erfolgte sofort ein Rückruf und das Problem konnte zu meiner vollsten Zufriedenheit gelöst werden. Und hier trennt sich die Spreu vom Weizen. alu-verkauf.de ist und bleibt daher mein Favorit.</p>",
             "author": "Michael 500EXTC",
             "author_info": ""
           }
@@ -140,7 +139,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Sehr gut: Individuelle Bestellung möglich, wird auch schnell zugeschnitten. Wer am Ort wohnt kann meist bereits nach ein paar Stunden die Ware abholen. Und: Längen größer 2m sind kein Problem. Die Preise sind ok, das Sortiment könnte größer sein. Insbesondere eloxierte Profile und VA sind kaum erhältlich.<\/p>",
+            "testimonial": "<p>Sehr gut: Individuelle Bestellung möglich, wird auch schnell zugeschnitten. Wer am Ort wohnt kann meist bereits nach ein paar Stunden die Ware abholen. Und: Längen größer 2m sind kein Problem. Die Preise sind ok, das Sortiment könnte größer sein. Insbesondere eloxierte Profile und VA sind kaum erhältlich.</p>",
             "author": "Hase Coolz",
             "author_info": ""
           }
@@ -149,7 +148,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Bin total begeistert! Habe am 12.08.21 vormittags bei Alu-verkauf.de angerufen und nach dem Liefertermin für 4 kleine Alustangen gefragt. Wegen hohen Auftragsbestand und der Urlaubszeit wurde mir eine knappe Woche angegeben. Ich wurde aber darum gebeten im Textfeld des Auftrages an zu geben das es dringend sei. Was soll ich sagen, die 4 kleinen Teile waren schon am 13.08.21 bei mir. Toller Kontakt, super schnelle Lieferung, immer gerne wieder!!!<\/p>",
+            "testimonial": "<p>Bin total begeistert! Habe am 12.08.21 vormittags bei Alu-verkauf.de angerufen und nach dem Liefertermin für 4 kleine Alustangen gefragt. Wegen hohen Auftragsbestand und der Urlaubszeit wurde mir eine knappe Woche angegeben. Ich wurde aber darum gebeten im Textfeld des Auftrages an zu geben das es dringend sei. Was soll ich sagen, die 4 kleinen Teile waren schon am 13.08.21 bei mir. Toller Kontakt, super schnelle Lieferung, immer gerne wieder!!!</p>",
             "author": "Andreas Scheelen",
             "author_info": ""
           }
@@ -158,7 +157,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Bestes Preis \/ Leistungsverhältnis bei schneller Lieferung, genau geschnitten. Sehr empfehlenswert.<\/p>",
+            "testimonial": "<p>Bestes Preis / Leistungsverhältnis bei schneller Lieferung, genau geschnitten. Sehr empfehlenswert.</p>",
             "author": "Peter Klonk",
             "author_info": ""
           }
@@ -208,7 +207,7 @@
         "liquid_X7jEnj": {
           "type": "liquid",
           "settings": {
-            "code": "<etrusted-widget data-etrusted-widget-id=\"wdg-06f1a150-a851-46f5-bc75-c9860b885eee\"><\/etrusted-widget>\n<!-- End eTrusted widget tag -->",
+            "code": "<etrusted-widget data-etrusted-widget-id=\"wdg-06f1a150-a851-46f5-bc75-c9860b885eee\"></etrusted-widget>\n<!-- End eTrusted widget tag -->",
             "width": "100%",
             "alignment": "center"
           }
