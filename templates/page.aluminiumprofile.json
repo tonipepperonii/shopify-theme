@@ -16,7 +16,7 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<h1>Aluminium Profile und Platten</h1>",
+            "title": "<h2>Aluminium Profile und Platten</h2>",
             "title_size": 50,
             "subheading": "",
             "link": "",
@@ -46,8 +46,7 @@
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "e16a573e-937d-49d6-8f31-54f01ac766f1": {
       "type": "vz-featured-products",
