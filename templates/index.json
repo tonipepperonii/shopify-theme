@@ -12,6 +12,24 @@
     "80218ac8-e737-45d5-9c66-8ea17e8498e8": {
       "type": "slideshow",
       "blocks": {
+        "hero_ahQAiM": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#fff",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/Banner_Weihnachten.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
         "hero_tA3crh": {
           "type": "hero",
           "settings": {
@@ -27,25 +45,6 @@
             "text_align": "vertical-center horizontal-right",
             "image": "shopify://shop_images/Titelbild_Startseite_72c907ca-4005-43e8-933b-04b9bf1143bc.jpg",
             "overlay_opacity": 10,
-            "focal_point": "center center"
-          }
-        },
-        "hero_a3Ayhw": {
-          "type": "hero",
-          "disabled": true,
-          "settings": {
-            "top_subheading": "Code: B9H3CV3F",
-            "title": "",
-            "title_size": 70,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#ff9900",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/Black_Friday_Sale_4.png",
-            "overlay_opacity": 0,
             "focal_point": "center center"
           }
         },
@@ -105,8 +104,8 @@
         }
       },
       "block_order": [
+        "hero_ahQAiM",
         "hero_tA3crh",
-        "hero_a3Ayhw",
         "hero_tBrDR4",
         "hero_qTNdfV",
         "hero_mcNRE4"
