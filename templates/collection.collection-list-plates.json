@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "bd73f4c3-ccf1-46be-9959-6fbb5fddd4fa": {
@@ -16,7 +16,7 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<h2>{{ collection.title }}<\/h2>",
+            "title": "<h2>{{ collection.title }}</h2>",
             "title_size": 70,
             "subheading": "",
             "link": "",
@@ -25,7 +25,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/fwh1x249.png",
+            "image": "shopify://shop_images/fwh1x249.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -56,13 +56,11 @@
       "blocks": {
         "collection_description": {
           "type": "collection_description",
-          "settings": {
-          }
+          "settings": {}
         },
         "subcollections": {
           "type": "subcollections",
-          "settings": {
-          }
+          "settings": {}
         },
         "product_grid": {
           "type": "product_grid",
@@ -87,16 +85,14 @@
     "recently-viewed": {
       "type": "recently-viewed",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "171887684916155a9b": {
       "type": "apps",
       "blocks": {
         "alu_verkauf_konfigurator_collection_list_plates_6YjVTm": {
-          "type": "shopify:\/\/apps\/alu-verkauf-konfigurator\/blocks\/collection-list-plates\/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
-          "settings": {
-          }
+          "type": "shopify://apps/alu-verkauf-konfigurator/blocks/collection-list-plates/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
+          "settings": {}
         }
       },
       "block_order": [
@@ -113,7 +109,7 @@
         "text_nFUJkE": {
           "type": "text",
           "settings": {
-            "main_richtext": "<h1>Hier steht ein Beispiel<\/h1> <p>So könnte es aussehen<\/p>"
+            "main_richtext": "<h1>Hier steht ein Beispiel</h1> <p>So könnte es aussehen</p>"
           }
         }
       },
@@ -127,6 +123,17 @@
         "mail": "",
         "checkbox": true
       }
+    },
+    "featured_collection_9bFebR": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Weitere Produkte",
+        "home_featured_products": "konfigurierbare-produkte",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -135,6 +142,7 @@
     "main-collection",
     "recently-viewed",
     "171887684916155a9b",
-    "sidebar_rich_text_seo_NgHeqm"
+    "sidebar_rich_text_seo_NgHeqm",
+    "featured_collection_9bFebR"
   ]
 }

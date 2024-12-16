@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "collection-header": {
@@ -25,8 +25,7 @@
       "blocks": {
         "subcollections": {
           "type": "subcollections",
-          "settings": {
-          }
+          "settings": {}
         },
         "product_grid": {
           "type": "product_grid",
@@ -52,7 +51,7 @@
         "text_j4EB6i": {
           "type": "text",
           "settings": {
-            "main_richtext": "<h1>Hier steht ein Beispiel<\/h1><p>So könnte es aussehen<\/p>"
+            "main_richtext": "<h1>Hier steht ein Beispiel</h1><p>So könnte es aussehen</p>"
           }
         }
       },
@@ -70,7 +69,17 @@
     "recently-viewed": {
       "type": "recently-viewed",
       "disabled": true,
+      "settings": {}
+    },
+    "featured_collection_hM8PBH": {
+      "type": "featured-collection",
       "settings": {
+        "title": "Weitere Produkte",
+        "home_featured_products": "konfigurierbare-produkte",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
       }
     }
   },
@@ -78,6 +87,7 @@
     "collection-header",
     "main-collection",
     "sidebar_rich_text_seo_h9K9Wt",
-    "recently-viewed"
+    "recently-viewed",
+    "featured_collection_hM8PBH"
   ]
 }

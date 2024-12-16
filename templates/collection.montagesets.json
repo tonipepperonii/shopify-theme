@@ -178,6 +178,17 @@
         "autoplay": true,
         "autoplay_speed": 7
       }
+    },
+    "featured_collection_X7rbeW": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Weitere Produkte",
+        "home_featured_products": "konfigurierbare-produkte",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -189,6 +200,7 @@
     "text_and_image_qAD3TN",
     "rich_text_gigHt3",
     "rich_text_G4GyR4",
-    "slideshow_image_WQjkyg"
+    "slideshow_image_WQjkyg",
+    "featured_collection_X7rbeW"
   ]
 }

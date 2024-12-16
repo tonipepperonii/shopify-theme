@@ -221,6 +221,17 @@
       "settings": {
         "color_scheme": "2"
       }
+    },
+    "featured_collection_ePeqQj": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Weitere Produkte",
+        "home_featured_products": "konfigurierbare-produkte",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -232,6 +243,7 @@
     "more-products-vendor",
     "more-products-collection",
     "recently-viewed",
-    "collection-return"
+    "collection-return",
+    "featured_collection_ePeqQj"
   ]
 }

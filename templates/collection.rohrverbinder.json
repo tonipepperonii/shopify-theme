@@ -141,6 +141,17 @@
         "color_scheme": "1",
         "divider": false
       }
+    },
+    "featured_collection_NBJ7tz": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Weitere Produkte",
+        "home_featured_products": "konfigurierbare-produkte",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -150,6 +161,7 @@
     "recently-viewed",
     "sidebar_rich_text_MKrnCU",
     "text_and_image_qAD3TN",
-    "rich_text_gigHt3"
+    "rich_text_gigHt3",
+    "featured_collection_NBJ7tz"
   ]
 }
