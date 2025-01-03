@@ -12,21 +12,20 @@
     "80218ac8-e737-45d5-9c66-8ea17e8498e8": {
       "type": "slideshow",
       "blocks": {
-        "hero_ahQAiM": {
+        "hero_33fmRU": {
           "type": "hero",
-          "disabled": true,
           "settings": {
             "top_subheading": "",
-            "title": "",
+            "title": "<h2>Wichtige Information</h2>",
             "title_size": 70,
-            "subheading": "",
+            "subheading": "Aufgrund des derzeit hohen Bestellaufkommens kann es leider zu einer Verzögerung beim Versand Ihrer Bestellung kommen. Wir bitten um Ihr Verständnis und versichern Ihnen, dass wir alles daran setzen, Ihre Bestellung schnellstmöglich zu bearbeiten.",
             "link": "",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/Banner_Weihnachten_2.png",
+            "color_accent": "#fff",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify://shop_images/Design_ohne_Titel_3.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -105,7 +104,7 @@
         }
       },
       "block_order": [
-        "hero_ahQAiM",
+        "hero_33fmRU",
         "hero_tA3crh",
         "hero_tBrDR4",
         "hero_qTNdfV",
