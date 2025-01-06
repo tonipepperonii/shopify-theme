@@ -9,100 +9,34 @@
  */
 {
   "sections": {
-    "5496d8f0-cbe1-4f56-b789-aad06ed907f2": {
-      "type": "slideshow",
+    "rich_text_yzRgk6": {
+      "type": "rich-text",
       "blocks": {
-        "template--18896842195248__5496d8f0-cbe1-4f56-b789-aad06ed907f2-16825095512038de14-1": {
-          "type": "hero",
+        "heading_Lp9kfk": {
+          "type": "heading",
           "settings": {
-            "top_subheading": "",
-            "title": "<h2>{{ product.title }}</h2>",
-            "title_size": 70,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify://shop_images/dgsrtlin.png",
-            "image_mobile": "shopify://shop_images/RR.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "title": "Aluminium Profile Flach",
+            "show_line": false
           }
         },
-        "3eebbb1a-4963-4de2-8d7a-73d64eb9ab27": {
-          "type": "hero",
+        "text_FyiWUK": {
+          "type": "text",
+          "disabled": true,
           "settings": {
-            "top_subheading": "",
-            "title": "<h2>{{ product.title }}</h2>",
-            "title_size": 70,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify://shop_images/Flach_0b4f63b1-cdb3-4622-b41a-8132e9dee423.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
-        "7b271277-e2bc-4e22-bc6d-3ddddce9ea90": {
-          "type": "hero",
-          "settings": {
-            "top_subheading": "",
-            "title": "<p>{{ product.title }}</p>",
-            "title_size": 70,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify://shop_images/0mv47m4j.png",
-            "overlay_opacity": 0,
-            "focal_point": "20% 50%"
-          }
-        },
-        "0d295002-380c-45a2-a8b5-ab9aeb41e0bc": {
-          "type": "hero",
-          "settings": {
-            "top_subheading": "",
-            "title": "<p>{{ product.title }}</p>",
-            "title_size": 70,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify://shop_images/VR.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "enlarge_text": true,
+            "text": ""
           }
         }
       },
       "block_order": [
-        "template--18896842195248__5496d8f0-cbe1-4f56-b789-aad06ed907f2-16825095512038de14-1",
-        "3eebbb1a-4963-4de2-8d7a-73d64eb9ab27",
-        "7b271277-e2bc-4e22-bc6d-3ddddce9ea90",
-        "0d295002-380c-45a2-a8b5-ab9aeb41e0bc"
-      ],
-      "custom_css": [
-        ".slideshow-wrapper {max-height: 400px;}",
-        "h2 {font-size: 32px;}"
+        "heading_Lp9kfk",
+        "text_FyiWUK"
       ],
       "settings": {
-        "full_width": true,
-        "desktop_size": 10,
-        "mobile_size": 20,
-        "style": "arrows",
-        "autoplay": false,
-        "autoplay_speed": 5
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "1",
+        "divider": false
       }
     },
     "main": {
@@ -234,7 +168,7 @@
     }
   },
   "order": [
-    "5496d8f0-cbe1-4f56-b789-aad06ed907f2",
+    "rich_text_yzRgk6",
     "main",
     "c1ac324a-eaf3-4b54-96f2-fe1b250705f5",
     "sub",
