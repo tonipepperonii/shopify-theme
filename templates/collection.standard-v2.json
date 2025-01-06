@@ -9,8 +9,30 @@
  */
 {
   "sections": {
+    "rich_text_UinJdb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RkwHMJ": {
+          "type": "heading",
+          "settings": {
+            "title": "Alu-Profile 40x40: Vielseitige Aluminiumprofile Nut 8",
+            "show_line": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_RkwHMJ"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
     "collection-header": {
       "type": "collection-header",
+      "disabled": true,
       "custom_css": [
         "h1 {margin-bottom: 10px;}"
       ],
@@ -84,6 +106,7 @@
     }
   },
   "order": [
+    "rich_text_UinJdb",
     "collection-header",
     "main-collection",
     "sidebar_rich_text_seo_h9K9Wt",
