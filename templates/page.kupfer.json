@@ -39,6 +39,7 @@
       "block_order": [
         "template--18214900302128__d38437cf-d8e2-4fbd-8519-bdc9ed069000-1677843647135fb53e-0"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "desktop_size": 0,
@@ -46,6 +47,36 @@
         "style": "arrows",
         "autoplay": true,
         "autoplay_speed": 7
+      }
+    },
+    "rich_text_mVVELd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nhE6xz": {
+          "type": "heading",
+          "settings": {
+            "title": "Kupfer Platten",
+            "show_line": false
+          }
+        },
+        "text_xVDntx": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nhE6xz",
+        "text_xVDntx"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "1",
+        "divider": false
       }
     },
     "0a8c9c81-e01d-4a59-a54d-9a2948d69eaa": {
@@ -237,6 +268,7 @@
   "order": [
     "main",
     "d38437cf-d8e2-4fbd-8519-bdc9ed069000",
+    "rich_text_mVVELd",
     "0a8c9c81-e01d-4a59-a54d-9a2948d69eaa",
     "6a955d8e-ea54-40aa-8cec-389be3f10064",
     "8db9983e-4067-445d-8f07-89a135799afd",
