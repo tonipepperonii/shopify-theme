@@ -34,6 +34,7 @@
       "block_order": [
         "template--18896842195248__5496d8f0-cbe1-4f56-b789-aad06ed907f2-16825095512038de14-1"
       ],
+      "disabled": true,
       "custom_css": [
         ".hero__subtitle {font-size: 34px; font-weight: 800;}"
       ],
@@ -44,6 +45,36 @@
         "style": "arrows",
         "autoplay": false,
         "autoplay_speed": 7
+      }
+    },
+    "rich_text_dw4GCG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yFr7yX": {
+          "type": "heading",
+          "settings": {
+            "title": "Aluminium Platten",
+            "show_line": false
+          }
+        },
+        "text_eiQ4cP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yFr7yX",
+        "text_eiQ4cP"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "1",
+        "divider": false
       }
     },
     "main": {
@@ -165,6 +196,7 @@
   },
   "order": [
     "5496d8f0-cbe1-4f56-b789-aad06ed907f2",
+    "rich_text_dw4GCG",
     "main",
     "c1ac324a-eaf3-4b54-96f2-fe1b250705f5",
     "sub",
