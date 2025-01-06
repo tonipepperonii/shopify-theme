@@ -11,6 +11,7 @@
   "sections": {
     "collection-header": {
       "type": "collection-header",
+      "disabled": true,
       "settings": {
         "enable": true,
         "collection_image_enable": true,
@@ -28,6 +29,13 @@
             "show_line": false
           }
         },
+        "heading_gN7nHE": {
+          "type": "heading",
+          "settings": {
+            "title": "Rohrverbinder",
+            "show_line": false
+          }
+        },
         "text_DgWVXh": {
           "type": "text",
           "settings": {
@@ -38,6 +46,7 @@
       },
       "block_order": [
         "heading_eNj69F",
+        "heading_gN7nHE",
         "text_DgWVXh"
       ],
       "settings": {
