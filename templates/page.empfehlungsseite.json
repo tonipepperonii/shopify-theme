@@ -48,32 +48,32 @@
         "autoplay_speed": 7
       }
     },
-    "rich_text_MzXfww": {
+    "rich_text_34x4Xq": {
       "type": "rich-text",
       "blocks": {
-        "heading_wkHwJX": {
+        "heading_GVTMnK": {
           "type": "heading",
           "settings": {
             "title": "DEINE ERFAHRUNGEN MIT ALU-VERKAUF",
             "show_line": false
           }
         },
-        "text_ffTUDV": {
+        "text_JwMBmM": {
           "type": "text",
           "settings": {
-            "enlarge_text": false,
+            "enlarge_text": true,
             "text": "<p>Du möchtest mehr über die Erfahrungen mit uns erfahren? Dann bist Du hier genau richtig. Auf dieser Seite findest Du Servicebewertungen, die Dir sicher bei der Entscheidung helfen. <br/><br/><strong>alu-verkauf - persönlich - pragmatisch - pünktlich</strong></p><p>Für uns stehst Du im Mittelpunkt! Dein Vertrauen in unsere Arbeit ist das Fundament unseres Erfolgs.</p><p>Wir nehmen uns die Zeit, Deine <strong>individuellen Anforderungen</strong> an Aluminiumprodukte zu verstehen. Egal ob Standard- oder Speziallösungen – wir stehen Dir mit <strong>kompetenter Beratung</strong> und <strong>maßgeschneiderten Angeboten</strong> zur Seite.</p><p>Unsere Lösungen sind so gestaltet, dass sie Deinen Arbeitsalltag erleichtern. Mit einem <strong>breiten Sortiment</strong> an <strong>Aluminiumprofilen, Blechen und Zubehör</strong> bieten wir <strong>Qualität und Effizienz</strong>, die sich auszahlen.</p><p><strong>Zuverlässigkeit und termingerechte Lieferung</strong> sind entscheidend. Du kannst darauf vertrauen, dass Deine Bestellungen pünktlich und in <strong>einwandfreiem Zustand</strong> ankommt.</p><p></p>"
           }
         }
       },
       "block_order": [
-        "heading_wkHwJX",
-        "text_ffTUDV"
+        "heading_GVTMnK",
+        "text_JwMBmM"
       ],
       "settings": {
         "align_text": "center",
         "narrow_column": true,
-        "color_scheme": "none",
+        "color_scheme": "1",
         "divider": false
       }
     },
@@ -97,17 +97,17 @@
         "space_around": false
       }
     },
-    "rich_text_34x4Xq": {
+    "rich_text_NecbVj": {
       "type": "rich-text",
       "blocks": {
-        "heading_GVTMnK": {
+        "heading_KrNQz7": {
           "type": "heading",
           "settings": {
             "title": "Du hast Fragen an uns?",
             "show_line": false
           }
         },
-        "text_JwMBmM": {
+        "text_EdWgUG": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
@@ -116,8 +116,8 @@
         }
       },
       "block_order": [
-        "heading_GVTMnK",
-        "text_JwMBmM"
+        "heading_KrNQz7",
+        "text_EdWgUG"
       ],
       "settings": {
         "align_text": "center",
@@ -150,9 +150,9 @@
   "order": [
     "main",
     "slideshow_fbrjwN",
-    "rich_text_MzXfww",
-    "advanced_content_bjVPMA",
     "rich_text_34x4Xq",
+    "advanced_content_bjVPMA",
+    "rich_text_NecbVj",
     "advanced_content_ByqA64"
   ]
 }
