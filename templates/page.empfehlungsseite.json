@@ -9,6 +9,40 @@
  */
 {
   "sections": {
+    "slideshow_fbrjwN": {
+      "type": "slideshow",
+      "blocks": {
+        "hero_mwqdC6": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<h1>Empfehlungen</h1>",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#fff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Hero_Empfehlungsseite_1.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "hero_mwqdC6"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -114,6 +148,7 @@
     }
   },
   "order": [
+    "slideshow_fbrjwN",
     "main",
     "rich_text_MzXfww",
     "advanced_content_bjVPMA",
