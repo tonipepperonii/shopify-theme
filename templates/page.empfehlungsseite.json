@@ -30,8 +30,8 @@
             "link_text_2": "",
             "color_accent": "#fff",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/Hero_Empfehlungsseite_5.png",
-            "overlay_opacity": 0,
+            "image": "shopify://shop_images/Hero_Empfehlungsseite_2.png",
+            "overlay_opacity": 30,
             "focal_point": "center center"
           }
         }
@@ -41,7 +41,7 @@
       ],
       "settings": {
         "full_width": true,
-        "desktop_size": -10,
+        "desktop_size": 0,
         "mobile_size": 0,
         "style": "arrows",
         "autoplay": true,
