@@ -17,6 +17,12 @@
     "slideshow_image_7zFqdU": {
       "type": "slideshow-image",
       "blocks": {
+        "image_KppmC6": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
         "image_fErGBk": {
           "type": "image",
           "settings": {
@@ -26,6 +32,7 @@
         }
       },
       "block_order": [
+        "image_KppmC6",
         "image_fErGBk"
       ],
       "settings": {
@@ -41,7 +48,7 @@
         "heading_wkHwJX": {
           "type": "heading",
           "settings": {
-            "title": "Willkommen bei unserem Online-Shop der alu-verkauf GmbH!",
+            "title": "DEINE ERFAHRUNGEN MIT ALU-VERKAUF",
             "show_line": false
           }
         },
@@ -49,7 +56,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Wir wollen hier mit Euch als unsere Kunden und Aluminium-Interessenten in den näheren Kontakt treten. <br/><br/>Themen wie Alu-Profile und ihre Anwendungsbereiche, Aluminium und verschiedenes Zubehör, Projekte laden zum diskutieren und berichten ein. <br/>Auch erzählen wir ein wenig über uns als Firma, und bieten Euch einen Einblick in unser Unternehmen. </p><p>Aluminiumprofile sind sehr vielseitig einsetzbar:<br/>Mit dieser Seite hoffen wir, Euch neue Konstruktionsideen liefern zu können und Eure Kreativität zu unterstützen. <br/><br/><strong>alu-verkauf - persönlich - pragmatisch - pünktlich</strong></p><p>Seid dabei! Schaut Euch auf unserer Seite um! </p>"
+            "text": "<p>Du möchtest mehr über die Erfahrungen mit uns erfahren? Dann bist Du hier genau richtig. Auf dieser Seite wirst Du Servicebewertungen und Produktbewertungen finden, die Dir sicher bei der Entscheidung helfen. <br/><br/><strong>alu-verkauf - persönlich - pragmatisch - pünktlich</strong></p><p>Lass Dich jetzt überzeugen!</p>"
           }
         }
       },
@@ -58,124 +65,11 @@
         "text_ffTUDV"
       ],
       "settings": {
-        "align_text": "left",
+        "align_text": "center",
         "narrow_column": true,
         "color_scheme": "1",
         "divider": false
       }
-    },
-    "blog_posts_EahUc4": {
-      "type": "blog-posts",
-      "settings": {
-        "title": "Thema des Monats",
-        "blog": "news",
-        "blog_show_tags": true,
-        "blog_show_excerpt": true,
-        "blog_show_image": true,
-        "blog_show_date": true,
-        "divider": false,
-        "blog_image_size": "wide"
-      }
-    },
-    "text_columns_C6RPQA": {
-      "type": "text-columns",
-      "blocks": {
-        "text_block_BrANAy": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/Nils_2024_k_5f0a081d-7dd1-43bf-bf95-9736333129a9.jpg",
-            "image_width": 650,
-            "title": "Nils Vespermann",
-            "text": "<p>Motiviert, zielstrebig und voller Elan geht Nils seit Juli 2023 als  neuer Betriebsleiter bei alu-verkauf.de seinen Weg.</p><p>Ziele vor Augen, Dinge verändern und motivierend unterstützen. </p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_ekKp7W": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/BARTELS_Fotografie-kai_3bcf18c0-ea61-4dbd-869f-15a801e03ed0.jpg",
-            "image_width": 650,
-            "title": "Kai Greten",
-            "text": "<p>Seit 2021 führt Kai das Unternehmen alu-verkauf.de <br/>Seine Version von moderner Unternehmensführung: <br/>Vertrauen - statt Kontrolle, gemeinsame Visionen, Zusammenarbeit auf Augenhöhe und Verantwortung - statt Anweisung.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_w89mpz": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/Mike_2024_k_80998355-d6f3-4fdc-a9b8-7707f9716a65.jpg",
-            "image_width": 650,
-            "title": "Mike Janke",
-            "text": "<p>Mike legt großen Wert auf die Bedürfnisse unserer Kunden und ist bestrebt, Euch den bestmöglichen Service zu bieten. </p><p>Zuverlässig, engagiert und sympathisch.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_BrANAy",
-        "text_block_ekKp7W",
-        "text_block_w89mpz"
-      ],
-      "settings": {
-        "title": "Deine persönlichen Ansprechpartner:",
-        "align_text": "left",
-        "divider": false,
-        "color_scheme": "2"
-      }
-    },
-    "vz_timeline_Nm47nx": {
-      "type": "vz-timeline",
-      "blocks": {
-        "text_block_UMJDMG": {
-          "type": "text_block",
-          "settings": {
-            "year": "2021",
-            "text": "<p>Die <strong>InvestVision GmbH</strong> mit Investor Kai Greten als Eigentümer übernimmt die Firma</p>"
-          }
-        },
-        "text_block_hmkYEm": {
-          "type": "text_block",
-          "settings": {
-            "year": "2018",
-            "text": "<p>Anschaffung einer neuen Plattensäge<br/>(bis 100 mm Dicke)</p>"
-          }
-        },
-        "text_block_hXAXAi": {
-          "type": "text_block",
-          "settings": {
-            "year": "2015",
-            "text": "<p>Verdreifachung der Lagerfläche auf 1500 m²</p>"
-          }
-        },
-        "text_block_iqHmcC": {
-          "type": "text_block",
-          "settings": {
-            "year": "2015",
-            "text": "<p>Umzug an den heutigen Firmensitz in der Hafenstraße 16 in Hildesheim</p>"
-          }
-        },
-        "text_block_4fw6MX": {
-          "type": "text_block",
-          "settings": {
-            "year": "2001",
-            "text": "<p>Gründung der Firma Alu Verkauf von Herrn Tim Winter</p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_block_UMJDMG",
-        "text_block_hmkYEm",
-        "text_block_hXAXAi",
-        "text_block_iqHmcC",
-        "text_block_4fw6MX"
-      ],
-      "settings": {}
     },
     "advanced_content_yQjN7A": {
       "type": "advanced-content",
@@ -196,15 +90,42 @@
         "full_width": false,
         "space_around": false
       }
+    },
+    "rich_text_34x4Xq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GVTMnK": {
+          "type": "heading",
+          "settings": {
+            "title": "Du hast Fragen an uns?",
+            "show_line": false
+          }
+        },
+        "text_JwMBmM": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Du kannst Deine Fragen bezüglich unserer Produkte oder eines Angebots gern jederzeit telefonisch, per <a href=\"https://alu-verkauf.de/pages/kontakt\" title=\"Kontaktformular\">Kontaktformular </a>oder per E-Mail (verkauf@alu-verkauf.de) zukommen lassen – kontaktiere uns und wir kümmern uns um Dein Anliegen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GVTMnK",
+        "text_JwMBmM"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "1",
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
     "slideshow_image_7zFqdU",
     "rich_text_MzXfww",
-    "blog_posts_EahUc4",
-    "text_columns_C6RPQA",
-    "vz_timeline_Nm47nx",
-    "advanced_content_yQjN7A"
+    "advanced_content_yQjN7A",
+    "rich_text_34x4Xq"
   ]
 }
