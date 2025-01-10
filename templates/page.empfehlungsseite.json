@@ -14,27 +14,6 @@
       "disabled": true,
       "settings": {}
     },
-    "slideshow_image_7zFqdU": {
-      "type": "slideshow-image",
-      "blocks": {
-        "image_fErGBk": {
-          "type": "image",
-          "settings": {
-            "link": "https://www.alu-verkauf.de",
-            "image": "shopify://shop_images/alu-verkauf.de.png"
-          }
-        }
-      },
-      "block_order": [
-        "image_fErGBk"
-      ],
-      "settings": {
-        "full_width": false,
-        "style": "arrows",
-        "autoplay": true,
-        "autoplay_speed": 7
-      }
-    },
     "rich_text_MzXfww": {
       "type": "rich-text",
       "blocks": {
@@ -62,6 +41,26 @@
         "narrow_column": true,
         "color_scheme": "1",
         "divider": false
+      }
+    },
+    "advanced_content_bjVPMA": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_xQUfeN": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2><center>Erfahrungsberichte </center></h2>\n<etrusted-widget data-etrusted-widget-id=\"wdg-06f1a150-a851-46f5-bc75-c9860b885eee\"></etrusted-widget>\n<!-- End eTrusted widget tag -->",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_xQUfeN"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
       }
     },
     "rich_text_34x4Xq": {
@@ -112,29 +111,12 @@
         "full_width": false,
         "space_around": false
       }
-    },
-    "17364923401b1e1ee4": {
-      "type": "apps",
-      "blocks": {
-        "trusted_shops_easy_integration_review_carousel_JCK4Nk": {
-          "type": "shopify://apps/trusted-shops-easy-integration/blocks/review-carousel/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "trusted_shops_easy_integration_review_carousel_JCK4Nk"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
     }
   },
   "order": [
     "main",
-    "slideshow_image_7zFqdU",
     "rich_text_MzXfww",
-    "17364923401b1e1ee4",
+    "advanced_content_bjVPMA",
     "rich_text_34x4Xq",
     "advanced_content_ByqA64"
   ]
