@@ -17,12 +17,6 @@
     "slideshow_image_7zFqdU": {
       "type": "slideshow-image",
       "blocks": {
-        "image_KppmC6": {
-          "type": "image",
-          "settings": {
-            "link": ""
-          }
-        },
         "image_fErGBk": {
           "type": "image",
           "settings": {
@@ -32,7 +26,6 @@
         }
       },
       "block_order": [
-        "image_KppmC6",
         "image_fErGBk"
       ],
       "settings": {
@@ -71,26 +64,6 @@
         "divider": false
       }
     },
-    "advanced_content_yQjN7A": {
-      "type": "advanced-content",
-      "blocks": {
-        "liquid_gn9T3Q": {
-          "type": "liquid",
-          "settings": {
-            "code": "<etrusted-widget data-etrusted-widget-id=\"wdg-06f1a150-a851-46f5-bc75-c9860b885eee\"></etrusted-widget>\n<!-- End eTrusted widget tag -->",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "liquid_gn9T3Q"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": false
-      }
-    },
     "rich_text_34x4Xq": {
       "type": "rich-text",
       "blocks": {
@@ -119,13 +92,50 @@
         "color_scheme": "1",
         "divider": false
       }
+    },
+    "advanced_content_ByqA64": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_HitrEY": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2><center>Gesamtbewertung unserer Kunden – Wir sind stolz auf unsere Arbeit</center></h2>\n<etrusted-widget data-etrusted-widget-id=\"wdg-a43314a0-9d19-410b-9f6e-df1a434b5e0c\"></etrusted-widget>\n<!-- End eTrusted widget tag -->",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_HitrEY"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    },
+    "17364923401b1e1ee4": {
+      "type": "apps",
+      "blocks": {
+        "trusted_shops_easy_integration_review_carousel_JCK4Nk": {
+          "type": "shopify://apps/trusted-shops-easy-integration/blocks/review-carousel/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "trusted_shops_easy_integration_review_carousel_JCK4Nk"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
     "main",
     "slideshow_image_7zFqdU",
     "rich_text_MzXfww",
-    "advanced_content_yQjN7A",
-    "rich_text_34x4Xq"
+    "17364923401b1e1ee4",
+    "rich_text_34x4Xq",
+    "advanced_content_ByqA64"
   ]
 }
