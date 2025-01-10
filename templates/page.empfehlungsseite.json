@@ -30,8 +30,8 @@
             "link_text_2": "",
             "color_accent": "#fff",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/Hero_Empfehlungsseite_2.png",
-            "overlay_opacity": 50,
+            "image": "shopify://shop_images/Hero_Empfehlungsseite_neu.png",
+            "overlay_opacity": 30,
             "focal_point": "center center"
           }
         }
