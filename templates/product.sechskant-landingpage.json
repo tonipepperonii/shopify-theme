@@ -136,22 +136,20 @@
         "divider": false
       }
     },
+    "featured_collection_7w6dAK": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "systemprofile-nut-8-40x40",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "main": {
       "type": "vz-main-product",
-      "blocks": {
-        "4dee32ac-6eeb-4b68-ac6b-8e770416d148": {
-          "type": "shopify://apps/alu-verkauf-konfigurator/blocks/app-block-pipe/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
-          "settings": {}
-        },
-        "3dd15e01-98c2-41e8-89c4-43c738426b5d": {
-          "type": "shopify://apps/alu-verkauf-konfigurator/blocks/app-block-pipe-list/d0c5478c-8fee-4cbb-82b1-03b7b66290bb",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "4dee32ac-6eeb-4b68-ac6b-8e770416d148",
-        "3dd15e01-98c2-41e8-89c4-43c738426b5d"
-      ],
+      "disabled": true,
       "settings": {
         "sku_enable": false,
         "hinweis-richtext": "<h3><strong>Produktinformationen</strong></h3><p>Bei<strong> Aluminium Sechskantprofilen (auch: 6-Kant-Profil) </strong>handelt es sich um stranggepresstes bzw. gezogenes Aluminium, das zu einer Stange mit sechs Kanten geformt ist. In der Draufsicht erinnert die Form der Sechskantprofile an den Kopf einer Sechskantmutter. Unsere Aluminium-Sechskantprofile mit <strong>AlCuMgPb-Legierung</strong> können sowohl in der Industrie als auch in Privathaushalten vielseitig eingesetzt werden.</p><ul><li><strong>Maße </strong>= Schlüsselweite</li><li><strong>Material</strong> in stranggepresster bzw. gezogener Ausführung.</li><li><strong>Oberfläche</strong>, wenn nicht anders angegeben in pressblank. Lieferungen sind ab einer Länge von 20 mm im Zuschnitt möglich. Maximal bestellbare Länge 3 Meter.</li><li>Die Legierung kann nicht silber-eloxiert werden, Lackierungen oder Pulverbeschichtungen durch den Endverbraucher sind jedoch möglich.</li><li><strong>Längentoleranz</strong>: Unsere Längentoleranz findest Du <a href=\"https://alu-verkauf.de/pages/langentoleranz\" title=\"Längentoleranz\"><strong>hier</strong>.</a></li></ul><p>Die angegebenen Preise verstehen sich als <strong>Bruttopreise inkl. MwSt.</strong>, zzgl. Versandkosten. Gerne überprüfen wir, ob Profile und Abmessungen, die hier nicht aufgeführt werden, für Dich beschaffbar sind. Sende uns hierzu gerne eine Anfrage per Kontaktformular und wir werden Dir schnellstmöglich eine Rückmeldung zukommen lassen.</p>",
@@ -251,22 +249,12 @@
       "settings": {
         "color_scheme": "2"
       }
-    },
-    "featured_collection_7w6dAK": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Weitere Produkte",
-        "home_featured_products": "konfigurierbare-produkte",
-        "count": 5,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
     }
   },
   "order": [
     "5496d8f0-cbe1-4f56-b789-aad06ed907f2",
     "rich_text_PCB6Lr",
+    "featured_collection_7w6dAK",
     "main",
     "c1ac324a-eaf3-4b54-96f2-fe1b250705f5",
     "sub",
@@ -274,7 +262,6 @@
     "more-products-vendor",
     "more-products-collection",
     "recently-viewed",
-    "collection-return",
-    "featured_collection_7w6dAK"
+    "collection-return"
   ]
 }
