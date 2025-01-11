@@ -129,6 +129,7 @@
         "heading_V4MNd8",
         "text_TDnCVz"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -139,9 +140,9 @@
     "featured_collection_7w6dAK": {
       "type": "featured-collection",
       "settings": {
-        "title": ".",
+        "title": "Sechskantprofil Bestseller",
         "home_featured_products": "systemprofile-nut-8-40x40",
-        "count": 5,
+        "count": 10,
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
