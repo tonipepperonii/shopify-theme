@@ -139,7 +139,7 @@
     "featured_collection_7w6dAK": {
       "type": "featured-collection",
       "settings": {
-        "title": "",
+        "title": ".",
         "home_featured_products": "systemprofile-nut-8-40x40",
         "count": 5,
         "mobile_scrollable": true,
