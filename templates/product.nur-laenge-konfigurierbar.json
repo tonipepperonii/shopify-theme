@@ -190,9 +190,14 @@
         "max_width": true
       }
     },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+        "color_scheme": "2"
+      }
+    },
     "recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "product_recommendations_heading": "You may also like"
       }
@@ -211,20 +216,14 @@
       "type": "recently-viewed",
       "disabled": true,
       "settings": {}
-    },
-    "collection-return": {
-      "type": "collection-return",
-      "settings": {
-        "color_scheme": "2"
-      }
     }
   },
   "order": [
     "5496d8f0-cbe1-4f56-b789-aad06ed907f2",
-    "collection-return",
     "main",
     "c1ac324a-eaf3-4b54-96f2-fe1b250705f5",
     "sub",
+    "collection-return",
     "recommendations",
     "more-products-vendor",
     "more-products-collection",
