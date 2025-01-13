@@ -536,6 +536,35 @@
         "divider": false,
         "blog_image_size": "wide"
       }
+    },
+    "newsletter_H8b8xT": {
+      "type": "newsletter",
+      "blocks": {
+        "title_nnniFK": {
+          "type": "title",
+          "settings": {
+            "title": "Jetzt anmelden"
+          }
+        },
+        "text_kcxMCk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>✓ Exklusive Rabatte und Sonderaktionen<br/>✓ Inspirationen zu aktuellen Themen</p>"
+          }
+        },
+        "form_L3FdPr": {
+          "type": "form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_nnniFK",
+        "text_kcxMCk",
+        "form_L3FdPr"
+      ],
+      "settings": {
+        "color_scheme": "1"
+      }
     }
   },
   "order": [
@@ -550,6 +579,7 @@
     "c185c803-627b-44c4-bb29-cd2ef0e10fae",
     "rich_text_iXmjdM",
     "blog-posts",
-    "blog_posts_cGm69B"
+    "blog_posts_cGm69B",
+    "newsletter_H8b8xT"
   ]
 }
