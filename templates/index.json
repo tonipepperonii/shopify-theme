@@ -33,18 +33,18 @@
         "hero_qTNdfV": {
           "type": "hero",
           "settings": {
-            "top_subheading": "Ersetze Deinen nadelnden Weihnachtsbaum durch ein stylisches Regal und lass neue Aluminiumprofile einziehen.",
-            "title": "<p>Weihnachtsbaum raus – Platz für Aluminiumprofile</p>",
+            "top_subheading": "Sichere Dir jetzt günstige Restpostenangebote in großer Auswahl.",
+            "title": "<p>Sofort verfügbare Restposten</p>",
             "title_size": 43,
             "subheading": "",
-            "link": "https://alu-verkauf.de/pages/aluminiumprofile",
-            "link_text": "Jetzt Aluprofile entdecken",
+            "link": "https://alu-verkauf.de/collections/restposten",
+            "link_text": "Jetzt sichern",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#ff9900",
             "text_align": "vertical-center horizontal-right",
-            "image": "shopify://shop_images/baum_raus_-_aluprofile_rein.png",
-            "overlay_opacity": 42,
+            "image": "shopify://shop_images/Hero_Restposten.png",
+            "overlay_opacity": 40,
             "focal_point": "center center"
           }
         },
