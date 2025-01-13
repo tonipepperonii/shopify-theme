@@ -137,18 +137,6 @@
       },
       "newsletter-popup": {
         "type": "newsletter-popup",
-        "blocks": {
-          "a286abaf-1061-4456-97b8-3d6426543e1a": {
-            "type": "header",
-            "disabled": true,
-            "settings": {
-              "reminder_label": "Get 10% OFF: RELAUNCH2023"
-            }
-          }
-        },
-        "block_order": [
-          "a286abaf-1061-4456-97b8-3d6426543e1a"
-        ],
         "settings": {
           "mode": false,
           "disable_for_account_holders": true,
