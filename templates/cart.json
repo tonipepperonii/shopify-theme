@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "45b9430f-d44e-475f-8f34-4fbc1b77e2a2": {
@@ -7,7 +16,7 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<h1>Warenkorb<\/h1>",
+            "title": "<h1>Warenkorb</h1>",
             "title_size": 70,
             "subheading": "",
             "link": "",
@@ -16,7 +25,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/news-heading.png",
+            "image": "shopify://shop_images/news-heading.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -36,19 +45,51 @@
     },
     "main": {
       "type": "main-cart",
-      "settings": {
-      }
+      "settings": {}
     },
     "recently-viewed": {
       "type": "recently-viewed",
       "disabled": true,
+      "settings": {}
+    },
+    "1736955389cac7071a": {
+      "type": "apps",
+      "blocks": {
+        "quotify_button_8iNgqD": {
+          "type": "shopify://apps/quotify/blocks/button/e72a6125-4dd6-4154-a361-ca94e10e6d52",
+          "settings": {
+            "request_button": true,
+            "request_button_text": "Request Quote",
+            "request_product": "",
+            "request_button_class": "btn btn--primary button button--primary",
+            "request_button_css": "",
+            "request_button_width": 100,
+            "enable_quote_cart_button": false,
+            "enable_quote_cart_button_count": false,
+            "quote_cart_button_text": "Show Quote Cart",
+            "quote_cart_button_class": "btn btn--secondary button button--secondary",
+            "quote_cart_button_css": "",
+            "quote_cart_button_width": 100,
+            "button_positions": "side-by-side",
+            "button_horizontal_alignment": "center",
+            "button_gap": 15,
+            "block_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "quotify_button_8iNgqD"
+      ],
       "settings": {
+        "full_width": false,
+        "space_around": true
       }
     }
   },
   "order": [
     "45b9430f-d44e-475f-8f34-4fbc1b77e2a2",
     "main",
-    "recently-viewed"
+    "recently-viewed",
+    "1736955389cac7071a"
   ]
 }
