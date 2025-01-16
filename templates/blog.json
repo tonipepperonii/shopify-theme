@@ -43,18 +43,6 @@
         "autoplay_speed": 7
       }
     },
-    "main": {
-      "type": "blog-template",
-      "disabled": true,
-      "settings": {
-        "blog_show_rss": false,
-        "blog_show_tags": true,
-        "blog_show_image": true,
-        "blog_image_size": "wide",
-        "blog_show_excerpt": true,
-        "blog_show_date": true
-      }
-    },
     "33aefcfc-225f-470b-a5c2-d1686b9e3556": {
       "type": "rich-text",
       "blocks": {
@@ -107,6 +95,17 @@
       ],
       "disabled": true,
       "settings": {}
+    },
+    "main": {
+      "type": "blog-template",
+      "settings": {
+        "blog_show_rss": false,
+        "blog_show_tags": true,
+        "blog_show_image": true,
+        "blog_image_size": "wide",
+        "blog_show_excerpt": true,
+        "blog_show_date": true
+      }
     },
     "1446ca08-3b84-43c3-b969-a818f11974fb": {
       "type": "testimonials",
@@ -195,9 +194,9 @@
   },
   "order": [
     "582c75d6-b98f-4fcc-9885-4d113096f85e",
-    "main",
     "33aefcfc-225f-470b-a5c2-d1686b9e3556",
     "sidebar",
+    "main",
     "1446ca08-3b84-43c3-b969-a818f11974fb"
   ],
   "wrapper": "div"
