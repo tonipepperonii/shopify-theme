@@ -33,18 +33,18 @@
         "hero_qTNdfV": {
           "type": "hero",
           "settings": {
-            "top_subheading": "Sichere Dir jetzt günstige Restpostenangebote in großer Auswahl.",
-            "title": "<p>Sofort verfügbare Restposten</p>",
-            "title_size": 43,
+            "top_subheading": "Mike war kreativ und hat für euch diesen Bausatz für eine Bank entwickelt. Dabei könnt ihr aus vier Zusammensetzungen wählen.",
+            "title": "<p>NEUHEIT</p>",
+            "title_size": 45,
             "subheading": "",
-            "link": "https://alu-verkauf.de/collections/restposten",
-            "link_text": "Jetzt sichern",
+            "link": "https://alu-verkauf.de/collections/bausatze",
+            "link_text": "Jetzt entdecken",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#ff9900",
             "text_align": "vertical-center horizontal-right",
-            "image": "shopify://shop_images/Hero_Restposten.png",
-            "overlay_opacity": 40,
+            "image": "shopify://shop_images/Hero_Alu_Bank.png",
+            "overlay_opacity": 24,
             "focal_point": "center center"
           }
         },
