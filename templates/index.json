@@ -12,24 +12,6 @@
     "80218ac8-e737-45d5-9c66-8ea17e8498e8": {
       "type": "slideshow",
       "blocks": {
-        "hero_33fmRU": {
-          "type": "hero",
-          "settings": {
-            "top_subheading": "",
-            "title": "<h2>Wichtige Information</h2>",
-            "title_size": 70,
-            "subheading": "Aufgrund des derzeit hohen Bestellaufkommens kann es leider zu einer Verzögerung beim Versand Deiner Bestellung kommen. Wir bitten um Dein Verständnis und versichern Dir, dass wir alles daran setzen, Deine Bestellung schnellstmöglich zu bearbeiten.",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-center horizontal-right",
-            "image": "shopify://shop_images/Design_ohne_Titel_3.png",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
         "hero_qTNdfV": {
           "type": "hero",
           "settings": {
@@ -45,6 +27,24 @@
             "text_align": "vertical-center horizontal-right",
             "image": "shopify://shop_images/Hero_Alu_Bank_1.png",
             "overlay_opacity": 24,
+            "focal_point": "center center"
+          }
+        },
+        "hero_33fmRU": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<h2>Wichtige Information</h2>",
+            "title_size": 70,
+            "subheading": "Aufgrund des derzeit hohen Bestellaufkommens kann es leider zu einer Verzögerung beim Versand Deiner Bestellung kommen. Wir bitten um Dein Verständnis und versichern Dir, dass wir alles daran setzen, Deine Bestellung schnellstmöglich zu bearbeiten.",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify://shop_images/Design_ohne_Titel_3.png",
+            "overlay_opacity": 0,
             "focal_point": "center center"
           }
         },
@@ -104,8 +104,8 @@
         }
       },
       "block_order": [
-        "hero_33fmRU",
         "hero_qTNdfV",
+        "hero_33fmRU",
         "hero_tA3crh",
         "hero_tBrDR4",
         "hero_mcNRE4"
