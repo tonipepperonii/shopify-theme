@@ -39,7 +39,7 @@
     {%- endstyle -%}
 
     {%- if template == 'index' -%}
-      <h1 class="site-header__logo" {{ block.shopify_attributes }}>
+      <div class="site-header__logo" {{ block.shopify_attributes }}>
     {%- else -%}
       <div class="h1 site-header__logo" {{ block.shopify_attributes }}>
     {%- endif -%}
@@ -83,7 +83,7 @@
       <a href="{{ routes.root_url }}">{{ shop.name }}</a>
     {%- endif -%}
     {%- if template == 'index' -%}
-      </h1>
+      </div>
     {%- else -%}
       </div>
     {%- endif -%}
@@ -99,7 +99,7 @@
     }
   {%- endstyle -%}
   {%- if template == 'index' -%}
-    <h1 class="site-header__logo">
+    <div class="site-header__logo">
   {%- else -%}
     <div class="h1 site-header__logo">
   {%- endif -%}
@@ -107,7 +107,7 @@
     {{ shop.name }}
   </a>
   {%- if template == 'index' -%}
-    </h1>
+    </div>
   {%- else -%}
     </div>
   {%- endif -%}
