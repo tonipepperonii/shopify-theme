@@ -69,18 +69,18 @@
         "hero_tBrDR4": {
           "type": "hero",
           "settings": {
-            "top_subheading": "Flexibilität, Stabilität, Vielseitigkeit, Leichtgewicht, Ästhetik und Nachhaltigkeit",
-            "title": "<p>Systemprofile</p>",
-            "title_size": 60,
+            "top_subheading": "",
+            "title": "",
+            "title_size": 40,
             "subheading": "",
-            "link": "https://alu-verkauf.de/collections/alu-systemprofile",
-            "link_text": "zu unseren Systemprofilen",
+            "link": "",
+            "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#ff9900",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify://shop_images/a11k.jpg",
-            "overlay_opacity": 36,
+            "image": "shopify://shop_images/Hero_Kontakt_1.png",
+            "overlay_opacity": 0,
             "focal_point": "center center"
           }
         },
