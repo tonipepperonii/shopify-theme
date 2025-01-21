@@ -48,24 +48,6 @@
             "focal_point": "center center"
           }
         },
-        "hero_tA3crh": {
-          "type": "hero",
-          "settings": {
-            "top_subheading": "",
-            "title": "<p>Aluprofile auch in Kleinstmengen zum Festpreis</p>",
-            "title_size": 43,
-            "subheading": "Für Privat- und Gewerbekunden. Schnell und einfach online Dein individuelles Produkt auswählen, bestellen, in Hildesheim abholen oder bequem liefern lassen.",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-center horizontal-right",
-            "image": "shopify://shop_images/Titelbild_Startseite_72c907ca-4005-43e8-933b-04b9bf1143bc.jpg",
-            "overlay_opacity": 10,
-            "focal_point": "center center"
-          }
-        },
         "hero_tBrDR4": {
           "type": "hero",
           "settings": {
@@ -81,6 +63,24 @@
             "text_align": "vertical-center horizontal-left",
             "image": "shopify://shop_images/Hero_Kontakt_2000_x_600.png",
             "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "hero_tA3crh": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>Aluprofile auch in Kleinstmengen zum Festpreis</p>",
+            "title_size": 43,
+            "subheading": "Für Privat- und Gewerbekunden. Schnell und einfach online Dein individuelles Produkt auswählen, bestellen, in Hildesheim abholen oder bequem liefern lassen.",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify://shop_images/Titelbild_Startseite_72c907ca-4005-43e8-933b-04b9bf1143bc.jpg",
+            "overlay_opacity": 10,
             "focal_point": "center center"
           }
         },
@@ -106,8 +106,8 @@
       "block_order": [
         "hero_qTNdfV",
         "hero_33fmRU",
-        "hero_tA3crh",
         "hero_tBrDR4",
+        "hero_tA3crh",
         "hero_mcNRE4"
       ],
       "custom_css": [
