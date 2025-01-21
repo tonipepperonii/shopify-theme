@@ -68,6 +68,7 @@
         },
         "hero_tBrDR4": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "",
