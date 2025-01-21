@@ -68,7 +68,6 @@
         },
         "hero_tBrDR4": {
           "type": "hero",
-          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "",
@@ -80,7 +79,7 @@
             "link_text_2": "",
             "color_accent": "#ff9900",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify://shop_images/Hero_Kontakt_4.png",
+            "image": "shopify://shop_images/Hero_Kontakt_1620_x_805_px_2.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
