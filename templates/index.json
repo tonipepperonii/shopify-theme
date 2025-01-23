@@ -51,18 +51,18 @@
         "hero_tBrDR4": {
           "type": "hero",
           "settings": {
-            "top_subheading": "",
-            "title": "",
+            "top_subheading": "Sichere dir noch 10% Rabatt auf Platten und Bleche mit dem Code: Platte10",
+            "title": "<p>10% Rabatt sichern</p>",
             "title_size": 40,
             "subheading": "",
             "link": "",
-            "link_text": "",
+            "link_text": "Gutschein sichern",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#ff9900",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify://shop_images/Hero_Kontakt_2000_x_600.png",
-            "overlay_opacity": 0,
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify://shop_images/Hero_Suppe.png",
+            "overlay_opacity": 50,
             "focal_point": "center center"
           }
         },
