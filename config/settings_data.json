@@ -190,10 +190,9 @@
           },
           "announcement_NLhgXy": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "richtext": "<h3><a href=\"/collections/restposten\" title=\"Restposten\"><strong>Schnäppchen-Alarm! 30 % Rabatt auf Restposten – bevor sie weg sind.</strong></a></h3>",
-              "richtext_mobile": "<p><a href=\"/collections/restposten\" title=\"Restposten\">Schnäppchen-Alarm! 30 % Rabatt auf Restposten – bevor sie weg sind.</a></p>"
+              "richtext": "<p>Wir sind für Dich da: Nils Vespermann & Mike Janke - 05121 - 282900 - verkauf@alu-verkauf.de</p>",
+              "richtext_mobile": "<p>Wir sind für Dich da - 05121 - 282900</p>"
             }
           },
           "announcement_Li6Pcz": {
