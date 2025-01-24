@@ -32,6 +32,7 @@
         },
         "hero_33fmRU": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<h2>Wichtige Information</h2>",
