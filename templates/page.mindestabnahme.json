@@ -1,10 +1,18 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "16f81cd6-1a19-4f18-9be3-f81d86f752c5": {
       "type": "slideshow",
@@ -13,7 +21,7 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<h1>Mindestabnahme<\/h1>",
+            "title": "<h1>Mindestabnahme</h1>",
             "title_size": 70,
             "subheading": "",
             "link": "",
@@ -22,7 +30,7 @@
             "link_text_2": "",
             "color_accent": "#ffffff",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/BARTELS_Fotografie-9154.jpg",
+            "image": "shopify://shop_images/BARTELS_Fotografie-9154.jpg",
             "overlay_opacity": 50,
             "focal_point": "center center"
           }
@@ -46,14 +54,15 @@
         "template--18204113535280__3c7f59d0-aa81-4e78-b021-f13d8b912b9b-167783245720b5ce44-0": {
           "type": "heading",
           "settings": {
-            "title": "Keine Mindestabnahme"
+            "title": "Keine Mindestabnahme",
+            "show_line": false
           }
         },
         "template--18204113535280__3c7f59d0-aa81-4e78-b021-f13d8b912b9b-167783245720b5ce44-1": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Eben hier liegt ja unsere Stärke. Man bekommt genau die Menge die man benötigt. Auch wenn es nur 300 mm Rund 30 sind.<br\/><br\/>Es gilt lediglich ein Mindeststückpreis bei gesägten sehr kurzen Längen.<br\/>(Mindestpreise gelten nicht für vorrätige Kurzlängen)<\/p>"
+            "text": "<p>Genau hier liegt unsere Stärke. Bei uns kannst Du Aluprofile und -bleche auch in kleinen Mengen exakt so kaufen, wie Du sie brauchst. Dabei musst Du weder eine Mindestbestellmenge noch einen Mindestrechnungswert erreichen.</p><p>Lediglich für gesägte Kurzlängen gibt es bei uns einen Mindeststückpreis. Ausgenommen sind vorrätige Kurzlängen.</p>"
           }
         }
       },
@@ -74,7 +83,7 @@
         "template--18215880818992__4b716254-6066-41c4-aa4e-dcafa6898765-1677841455170e0e06-1": {
           "type": "liquid",
           "settings": {
-            "code": "<table>\n  <tr>\n    <th>Abnahme<\/th>\n    <th>Bei Aluminium:<\/th>\n    <th>Bei Kupfer:<\/th>\n  <\/tr>\n  <tr>\n    <td>1-5 Stück<\/td>\n    <td>2,62 EUR \/ Stück (inkl. Mwst.)<\/td>\n    <td>4,76 EUR \/ Stück (inkl. Mwst.)<\/td>\n  <\/tr>\n  <tr>\n    <td>6-20 Stück<\/td>\n    <td>\t2,14 EUR \/ Stück (inkl. Mwst.)<\/td>\n\n  <\/tr>\n  <tr>\n    <td>21-60 Stück<\/td>\n    <td>1,73 EUR \/ Stück (inkl. Mwst.)<\/td>\n\n  <\/tr>\n  <tr>\n    <td>61-150 Stück<\/td>\n    <td>\t1,43 EUR \/ Stück (inkl. Mwst.)<\/td>\n  <\/tr>\n<\/table>",
+            "code": "<table>\n  <tr>\n    <th>Abnahme</th>\n    <th>Bei Aluminium:</th>\n    <th>Bei Kupfer:</th>\n  </tr>\n  <tr>\n    <td>1-5 Stück</td>\n    <td>2,62 EUR / Stück (inkl. Mwst.)</td>\n    <td>4,76 EUR / Stück (inkl. Mwst.)</td>\n  </tr>\n  <tr>\n    <td>6-20 Stück</td>\n    <td>\t2,14 EUR / Stück (inkl. Mwst.)</td>\n\n  </tr>\n  <tr>\n    <td>21-60 Stück</td>\n    <td>1,73 EUR / Stück (inkl. Mwst.)</td>\n\n  </tr>\n  <tr>\n    <td>61-150 Stück</td>\n    <td>\t1,43 EUR / Stück (inkl. Mwst.)</td>\n  </tr>\n</table>",
             "width": "100%",
             "alignment": "center"
           }
@@ -82,7 +91,7 @@
         "5a79e101-c096-4b09-ad04-c275c90aab03": {
           "type": "liquid",
           "settings": {
-            "code": "<b>Ab 151 St. (bei Alu) bzw. 6 St. (bei Kupfer) bitten wir um gesonderte Anfrage<\/b><\/br>\n\nJe höher die Abnahmemenge, desto geringer der Stückpreis. (Wir bitten in diesem Falle um Ihre Anfragen, um Ihnen unser konkretes Angebot zu unterbreiten)",
+            "code": "<b>Bei größeren Abnahmemengen (151 St. bei Alu bzw. 6 St. bei Kupfer) reduziert sich der Stückpreis. </b></br>\n\nFür ein konkretes Angebot bitten wir Dich um eine separate Anfrage über unser Kontaktformular oder per Mail an verkauf@alu-verkauf.de",
             "width": "100%",
             "alignment": "center"
           }
