@@ -5691,7 +5691,8 @@ lazySizesConfig.expFactor = 4;
   
     return Map;
   })();
-  
+
+  /* visionz edit
   theme.NewsletterPopup = (function () {
     function NewsletterPopup(container) {
       this.container = container;
@@ -5806,6 +5807,8 @@ lazySizesConfig.expFactor = 4;
   
     return NewsletterPopup;
   })();
+
+  */
   
   theme.PasswordHeader = (function() {
     function PasswordHeader() {
