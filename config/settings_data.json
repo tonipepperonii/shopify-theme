@@ -197,6 +197,7 @@
           },
           "announcement_Li6Pcz": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "richtext": "<p><strong>Sichere Dir jetzt 10% Rabatt auf alle Platten und Bleche - Code: Platte10</strong></p>",
               "richtext_mobile": "<p><strong>10% auf Platten und Bleche - Code: Platte10</strong></p>"
