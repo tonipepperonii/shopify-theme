@@ -34,16 +34,16 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<h2>Aluminium bearbeiten</h2>",
+            "title": "<h2>Aluminium schweißen</h2>",
             "title_size": 53,
-            "subheading": "Die besten Tipps, Werkzeuge und Techniken für perfekte Ergebnisse",
-            "link": "shopify://blogs/aluminium-basics/aluminium-bearbeiten-die-besten-tipps-werkzeuge-und-techniken-fur-perfekte-ergebnisse",
+            "subheading": "Erfahre wie Du Aluminium professionell schweißen kannst und welche Schweißtechniken am besten geeignet sind",
+            "link": "shopify://blogs/aluminium-basics/schweissen-von-aluminium-tipps-und-techniken-fur-optimale-ergebnisse",
             "link_text": "Mehr erfahren",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#ff9900",
             "text_align": "vertical-center horizontal-right",
-            "image": "shopify://shop_images/Hero_Alubearbeiten.png",
+            "image": "shopify://shop_images/Hero_Alubearbeiten_1.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
