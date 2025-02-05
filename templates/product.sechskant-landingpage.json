@@ -137,12 +137,41 @@
         "divider": false
       }
     },
+    "rich_text_4h7xAU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YiQRfk": {
+          "type": "heading",
+          "settings": {
+            "title": "Aluminium Sechskantstangen: Praktisch geformt und vielseitig einsetzbar!",
+            "show_line": false
+          }
+        },
+        "text_JeYLP7": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Das Leichtmetall überzeugt nicht nur mit seinem <strong>geringen Gewicht</strong>, sondern ist im Vergleich zudem auch recht <strong>flexibel</strong> und somit<strong> leichter zu handhaben</strong> als zum Beispiel Edelstahl. Gleichzeitig sind Konstruktion aus Aluminium <strong>sehr stabil</strong> und <strong>wider- standsfähig</strong>, sodass Du lange Freude an ihnen haben wirst.</p><p>Bei all diesen Vorteilen von Aluminium ist es nur naheliegend, das unterschiedlichste Profile aus dem Leichtmetall gefertigt werden. So u.a. auch unsere Sechskantstangen, die insbesondere im gewerblichen Bereich vielseitig verwendet werden.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YiQRfk",
+        "text_JeYLP7"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": false,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
     "featured_collection_7w6dAK": {
       "type": "featured-collection",
       "settings": {
-        "title": "Sechskantprofil Bestseller",
+        "title": "",
         "home_featured_products": "sechskant",
-        "count": 5,
+        "count": 15,
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
@@ -255,6 +284,7 @@
   "order": [
     "5496d8f0-cbe1-4f56-b789-aad06ed907f2",
     "rich_text_PCB6Lr",
+    "rich_text_4h7xAU",
     "featured_collection_7w6dAK",
     "main",
     "c1ac324a-eaf3-4b54-96f2-fe1b250705f5",
