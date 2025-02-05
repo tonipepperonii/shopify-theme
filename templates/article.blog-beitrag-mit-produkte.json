@@ -19,6 +19,17 @@
         "blog_show_author": false
       }
     },
+    "featured_collection_3FGtya": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Passende Produkte",
+        "home_featured_products": "bausatze",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
     "sidebar": {
       "type": "blog-sidebar",
       "blocks": {
@@ -40,6 +51,7 @@
   },
   "order": [
     "main",
+    "featured_collection_3FGtya",
     "sidebar"
   ],
   "wrapper": "div.page-width.page-content.blog-layout"
