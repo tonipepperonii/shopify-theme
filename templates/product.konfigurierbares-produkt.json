@@ -111,9 +111,8 @@
       "blocks": {
         "heading_9Ftckd": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "title": "PV-Montage Profil",
+            "title": "Aluminium U-Profil",
             "show_line": false
           }
         },
@@ -130,7 +129,6 @@
         "heading_9Ftckd",
         "text_QwzgUJ"
       ],
-      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
