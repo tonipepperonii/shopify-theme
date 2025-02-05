@@ -23,7 +23,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Passende Produkte",
-        "home_featured_products": "",
+        "home_featured_products": "banke",
         "count": 5,
         "mobile_scrollable": true,
         "view_all": false,
