@@ -133,6 +133,27 @@
         "product_video_style": "muted"
       }
     },
+    "sidebar_rich_text_api_RQ4Chz": {
+      "type": "sidebar-rich-text-api",
+      "blocks": {
+        "text_eVwdzP": {
+          "type": "text",
+          "settings": {
+            "main_richtext": "<h1>Hier steht ein Beispiel</h1> <p>So könnte es aussehen</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_eVwdzP"
+      ],
+      "settings": {
+        "side-title": "",
+        "side-richtext": "<p>{{ product.metafields.product.prodfeed_descriptiontext | metafield_tag }}</p>",
+        "phone": "",
+        "mail": "",
+        "checkbox": true
+      }
+    },
     "c1ac324a-eaf3-4b54-96f2-fe1b250705f5": {
       "type": "sidebar-rich-text",
       "blocks": {
@@ -216,27 +237,6 @@
       "type": "recently-viewed",
       "disabled": true,
       "settings": {}
-    },
-    "sidebar_rich_text_api_RQ4Chz": {
-      "type": "sidebar-rich-text-api",
-      "blocks": {
-        "text_eVwdzP": {
-          "type": "text",
-          "settings": {
-            "main_richtext": "<h1>Hier steht ein Beispiel</h1> <p>So könnte es aussehen</p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_eVwdzP"
-      ],
-      "settings": {
-        "side-title": "",
-        "side-richtext": "",
-        "phone": "",
-        "mail": "",
-        "checkbox": true
-      }
     }
   },
   "order": [
