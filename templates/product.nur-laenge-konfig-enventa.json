@@ -139,7 +139,7 @@
         "text_eVwdzP": {
           "type": "text",
           "settings": {
-            "main_richtext": "<p>{{ product.metafields.product.prodfeed_descriptiontext | metafield_tag }}{{ product.metafields.custom.abmessung.value }}</p>{{ product.metafields.custom.prodfeed_description | metafield_tag }}<p>{{ product.metafields.custom.legierung.value }}</p>"
+            "main_richtext": ""
           }
         }
       },
