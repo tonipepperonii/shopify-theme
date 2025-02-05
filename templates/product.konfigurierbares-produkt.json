@@ -113,7 +113,7 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "title": "Aluminium Vierkantrohr",
+            "title": "{{ product.title }}",
             "show_line": false
           }
         },
