@@ -137,33 +137,56 @@
         "divider": false
       }
     },
-    "rich_text_4h7xAU": {
-      "type": "rich-text",
+    "text_columns_q8JjQK": {
+      "type": "text-columns",
       "blocks": {
-        "heading_YiQRfk": {
-          "type": "heading",
+        "text_block_j4p6AJ": {
+          "type": "text_block",
           "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/test_1.png",
+            "image_width": 650,
             "title": "Aluminium Sechskantstangen: Praktisch geformt und vielseitig einsetzbar!",
-            "show_line": false
+            "text": "<p>Das Leichtmetall überzeugt nicht nur mit seinem <strong>geringen Gewicht</strong>, sondern ist im Vergleich zudem auch recht <strong>flexibel</strong> und somit<strong> leichter zu handhaben</strong> als zum Beispiel Edelstahl. Gleichzeitig sind Konstruktion aus Aluminium <strong>sehr stabil</strong> und <strong>wider- standsfähig</strong>, sodass Du lange Freude an ihnen haben wirst.</p><p>Bei all diesen Vorteilen von Aluminium ist es nur naheliegend, das unterschiedlichste Profile aus dem Leichtmetall gefertigt werden. So u.a. auch unsere Sechskantstangen, die insbesondere im gewerblichen Bereich vielseitig verwendet werden.</p>",
+            "button_label": "Optional button",
+            "button_link": ""
           }
         },
-        "text_JeYLP7": {
-          "type": "text",
+        "text_block_TUj43A": {
+          "type": "text_block",
           "settings": {
-            "enlarge_text": false,
-            "text": "<p>Das Leichtmetall überzeugt nicht nur mit seinem <strong>geringen Gewicht</strong>, sondern ist im Vergleich zudem auch recht <strong>flexibel</strong> und somit<strong> leichter zu handhaben</strong> als zum Beispiel Edelstahl. Gleichzeitig sind Konstruktion aus Aluminium <strong>sehr stabil</strong> und <strong>wider- standsfähig</strong>, sodass Du lange Freude an ihnen haben wirst.</p><p>Bei all diesen Vorteilen von Aluminium ist es nur naheliegend, das unterschiedlichste Profile aus dem Leichtmetall gefertigt werden. So u.a. auch unsere Sechskantstangen, die insbesondere im gewerblichen Bereich vielseitig verwendet werden.</p>"
+            "enable_image": true,
+            "image": "shopify://shop_images/test_1.png",
+            "image_width": 650,
+            "title": "Welche Größen und Maßen an Sechskantstangen sind verfügbar",
+            "text": "<p>Standardmäßig kannst Du in unserem Shop Alu-Sechskant in den folgenden Maßen bestellen:</p><ul><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW010-2007\">10 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW014-2007\">14 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW017-2007\">17 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW019-2007\">19 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW022-2007\">22 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW024-2007\">24 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW027-2007\">27 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW030-2007\">30 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW032-2007\">32 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW036-2007\">36 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW041-2007\">41 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW046-2007\">46 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW050-2007\">50 mm (AlCuMgPb)</a></li></ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_cGcUEk": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/test_1.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "heading_YiQRfk",
-        "text_JeYLP7"
+        "text_block_j4p6AJ",
+        "text_block_TUj43A",
+        "text_block_cGcUEk"
       ],
       "settings": {
+        "title": "",
         "align_text": "left",
-        "narrow_column": false,
-        "color_scheme": "1",
-        "divider": false
+        "divider": false,
+        "color_scheme": "none"
       }
     },
     "featured_collection_7w6dAK": {
@@ -284,7 +307,7 @@
   "order": [
     "5496d8f0-cbe1-4f56-b789-aad06ed907f2",
     "rich_text_PCB6Lr",
-    "rich_text_4h7xAU",
+    "text_columns_q8JjQK",
     "featured_collection_7w6dAK",
     "main",
     "c1ac324a-eaf3-4b54-96f2-fe1b250705f5",
