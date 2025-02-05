@@ -139,7 +139,7 @@
         "text_eVwdzP": {
           "type": "text",
           "settings": {
-            "main_richtext": "<h1>Hier steht ein Beispiel</h1> <p>So könnte es aussehen</p>"
+            "main_richtext": "<p>{{ product.metafields.product.prodfeed_descriptiontext | metafield_tag }}</p>"
           }
         }
       },
@@ -148,7 +148,7 @@
       ],
       "settings": {
         "side-title": "",
-        "side-richtext": "<p>{{ product.metafields.product.prodfeed_descriptiontext | metafield_tag }}</p>",
+        "side-richtext": "",
         "phone": "",
         "mail": "",
         "checkbox": true
