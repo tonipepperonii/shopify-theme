@@ -6,14 +6,11 @@
         <div class="rich-text-with-sidebar-main-container">
           {%- if request.page_type == 'product' -%}
             <div class="rte">
-            {% assign product_name = product.title %}
-
-            {% for collection in product.collections %}
-              {% if collection.title == product_name %}
-                <div>{{ collection.description }}</div>
-                {% break %}
-              {% endif %}
-            {% endfor %}
+             {%- if product.metafields.custom.ProdFeed_descriptionText == blank -%}
+            {{ collection.title }}
+          {%- else -%}
+            {{ product.metafields.custom.ProdFeed_descriptionText }}
+          {%- endif -%}
               
             </div>
           {%- else if request.page_type == 'category' -%}
