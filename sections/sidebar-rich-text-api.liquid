@@ -9,7 +9,7 @@
              {%- if product.metafields.product.prodfeed_descriptiontext == blank -%}
             {{ block.settings.main_richtext }}
           {%- else -%}
-            {{ product.metafields.product.prodfeed_descriptiontext }}
+            {{ product.metafields.product.prodfeed_descriptiontext| metafield_text }}
           {%- endif -%}
               
             </div>
