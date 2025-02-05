@@ -23,7 +23,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Passende Produkte",
-        "home_featured_products": "bausatze",
+        "home_featured_products": "",
         "count": 5,
         "mobile_scrollable": true,
         "view_all": false,
