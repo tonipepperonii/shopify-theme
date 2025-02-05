@@ -14,6 +14,7 @@
       "blocks": {
         "template--18896842195248__5496d8f0-cbe1-4f56-b789-aad06ed907f2-16825095512038de14-1": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<h2>{{ product.title }}</h2>",
@@ -33,6 +34,7 @@
         },
         "3eebbb1a-4963-4de2-8d7a-73d64eb9ab27": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<h2>{{ product.title }}</h2>",
@@ -51,6 +53,7 @@
         },
         "7b271277-e2bc-4e22-bc6d-3ddddce9ea90": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>{{ product.title }}</p>",
@@ -69,6 +72,7 @@
         },
         "0d295002-380c-45a2-a8b5-ab9aeb41e0bc": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>{{ product.title }}</p>",
