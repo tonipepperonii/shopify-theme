@@ -6,10 +6,10 @@
         <div class="rich-text-with-sidebar-main-container">
           {%- if request.page_type == 'product' -%}
             <div class="rte">
-             {%- if product.metafields.product.ProdFeed_descriptionText == blank -%}
+             {%- if product.metafields.product.prodfeed_descriptiontext == blank -%}
             {{ collection.title }}
           {%- else -%}
-            {{ product.metafields.product.ProdFeed_descriptionText }}
+            {{ product.metafields.product.prodfeed_descriptiontext }}
           {%- endif -%}
               
             </div>
