@@ -147,8 +147,8 @@
             "image": "shopify://shop_images/test_1.png",
             "image_width": 650,
             "title": "Aluminium Sechskantstangen: Praktisch geformt und vielseitig einsetzbar!",
-            "text": "<p>Das Leichtmetall überzeugt nicht nur mit seinem <strong>geringen Gewicht</strong>, sondern ist im Vergleich zudem auch recht <strong>flexibel</strong> und somit<strong> leichter zu handhaben</strong> als zum Beispiel Edelstahl. Gleichzeitig sind Konstruktion aus Aluminium <strong>sehr stabil</strong> und <strong>wider- standsfähig</strong>, sodass Du lange Freude an ihnen haben wirst.</p><p>Bei all diesen Vorteilen von Aluminium ist es nur naheliegend, das unterschiedlichste Profile aus dem Leichtmetall gefertigt werden. So u.a. auch unsere Sechskantstangen, die insbesondere im gewerblichen Bereich vielseitig verwendet werden.</p>",
-            "button_label": "Optional button",
+            "text": "<p>Das Leichtmetall überzeugt nicht nur mit seinem <strong>geringen Gewicht</strong>, sondern ist im Vergleich zudem auch recht <strong>flexibel</strong> und somit<strong> leichter zu handhaben</strong> als zum Beispiel Edelstahl. Gleichzeitig sind Konstruktion aus Aluminium <strong>sehr stabil</strong> und <strong>wider- standsfähig</strong>, sodass Du lange Freude an ihnen haben wirst.</p><p>Bei all diesen Vorteilen von Aluminium ist es nur naheliegend, das unterschiedlichste Profile aus dem Leichtmetall gefertigt werden. So u.a. auch unsere Sechskantstangen, die insbesondere im gewerblichen Bereich vielseitig verwendet werden.</p><h3><br/>Top Auswahl und Beratung bei alu-verkauf.de</h3><p><strong>Gerne stehen wir Dir mit über 20 Jahren Expertise beratend zur Seite: </strong>Kontaktiere uns einfach telefonisch unter <a href=\"tel:05121282900\">05121 28-290-0</a> oder schreib uns eine Mail mit Deiner Frage an verkauf@alu-verkauf.de. Wir freuen uns, Dich bei Deinem Vorhaben unterstützen zu dürfen</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -163,24 +163,11 @@
             "button_label": "",
             "button_link": ""
           }
-        },
-        "text_block_cGcUEk": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/test_1.png",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "text_block_j4p6AJ",
-        "text_block_TUj43A",
-        "text_block_cGcUEk"
+        "text_block_TUj43A"
       ],
       "settings": {
         "title": "",
