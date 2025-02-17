@@ -172,6 +172,22 @@
         "product_video_style": "muted"
       }
     },
+    "1739803296c645a6c5": {
+      "type": "apps",
+      "blocks": {
+        "trusted_shops_easy_integration_mini_stars_Pfp4N7": {
+          "type": "shopify://apps/trusted-shops-easy-integration/blocks/mini-stars/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "trusted_shops_easy_integration_mini_stars_Pfp4N7"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
     "c1ac324a-eaf3-4b54-96f2-fe1b250705f5": {
       "type": "sidebar-rich-text",
       "blocks": {
@@ -274,6 +290,7 @@
     "5496d8f0-cbe1-4f56-b789-aad06ed907f2",
     "rich_text_aDK6jL",
     "main",
+    "1739803296c645a6c5",
     "c1ac324a-eaf3-4b54-96f2-fe1b250705f5",
     "sub",
     "recommendations",
