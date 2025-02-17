@@ -16,16 +16,16 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<h2>{{ product.title }}</h2>",
+            "title": "",
             "title_size": 70,
             "subheading": "",
             "link": "",
-            "link_text": "",
-            "link_2": "",
+            "link_text": "Zu allen Sechskantprofilen",
+            "link_2": "shopify://collections/sechskant",
             "link_text_2": "",
             "color_accent": "#ffffff",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify://shop_images/dgsrtlin.png",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify://shop_images/Gesamt.jpg",
             "image_mobile": "shopify://shop_images/RR.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
@@ -33,6 +33,7 @@
         },
         "3eebbb1a-4963-4de2-8d7a-73d64eb9ab27": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<h2>{{ product.title }}</h2>",
@@ -51,6 +52,7 @@
         },
         "7b271277-e2bc-4e22-bc6d-3ddddce9ea90": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>{{ product.title }}</p>",
@@ -69,6 +71,7 @@
         },
         "0d295002-380c-45a2-a8b5-ab9aeb41e0bc": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<p>{{ product.title }}</p>",
@@ -92,7 +95,6 @@
         "7b271277-e2bc-4e22-bc6d-3ddddce9ea90",
         "0d295002-380c-45a2-a8b5-ab9aeb41e0bc"
       ],
-      "disabled": true,
       "custom_css": [
         ".slideshow-wrapper {max-height: 400px;}",
         "h2 {font-size: 32px;}"
@@ -137,53 +139,14 @@
         "divider": false
       }
     },
-    "text_columns_q8JjQK": {
-      "type": "text-columns",
-      "blocks": {
-        "text_block_j4p6AJ": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/test_1.png",
-            "image_width": 650,
-            "title": "Aluminium Sechskantstangen: Praktisch geformt und vielseitig einsetzbar!",
-            "text": "<p>Das Leichtmetall überzeugt nicht nur mit seinem <strong>geringen Gewicht</strong>, sondern ist im Vergleich zudem auch recht <strong>flexibel</strong> und somit<strong> leichter zu handhaben</strong> als zum Beispiel Edelstahl. Gleichzeitig sind Konstruktion aus Aluminium <strong>sehr stabil</strong> und <strong>wider- standsfähig</strong>, sodass Du lange Freude an ihnen haben wirst.</p><p>Bei all diesen Vorteilen von Aluminium ist es nur naheliegend, das unterschiedlichste Profile aus dem Leichtmetall gefertigt werden. So u.a. auch unsere Sechskantstangen, die insbesondere im gewerblichen Bereich vielseitig verwendet werden.</p><h3><br/>Top Auswahl und Beratung bei alu-verkauf.de</h3><p><strong>Gerne stehen wir Dir mit über 20 Jahren Expertise beratend zur Seite: </strong>Kontaktiere uns einfach telefonisch unter <a href=\"tel:05121282900\">05121 28-290-0</a> oder schreib uns eine Mail mit Deiner Frage an verkauf@alu-verkauf.de. Wir freuen uns, Dich bei Deinem Vorhaben unterstützen zu dürfen</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_TUj43A": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/test_1.png",
-            "image_width": 650,
-            "title": "Welche Größen und Maßen an Sechskantstangen sind verfügbar",
-            "text": "<p>Standardmäßig kannst Du in unserem Shop Alu-Sechskant in den folgenden Maßen bestellen:</p><ul><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW010-2007\">10 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW014-2007\">14 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW017-2007\">17 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW019-2007\">19 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW022-2007\">22 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW024-2007\">24 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW027-2007\">27 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW030-2007\">30 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW032-2007\">32 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW036-2007\">36 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW041-2007\">41 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW046-2007\">46 mm (AlCuMgPb)</a></li><li><a href=\"https://alu-verkauf.de/products/aluminium-profile-6-kant?sku=SW050-2007\">50 mm (AlCuMgPb)</a></li></ul>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_j4p6AJ",
-        "text_block_TUj43A"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "left",
-        "divider": false,
-        "color_scheme": "none"
-      }
-    },
     "featured_collection_7w6dAK": {
       "type": "featured-collection",
       "settings": {
-        "title": "",
+        "title": "Unsere Sechskant-Bestseller",
         "home_featured_products": "sechskant",
-        "count": 15,
+        "count": 5,
         "mobile_scrollable": true,
-        "view_all": true,
+        "view_all": false,
         "divider": false
       }
     },
@@ -294,7 +257,6 @@
   "order": [
     "5496d8f0-cbe1-4f56-b789-aad06ed907f2",
     "rich_text_PCB6Lr",
-    "text_columns_q8JjQK",
     "featured_collection_7w6dAK",
     "main",
     "c1ac324a-eaf3-4b54-96f2-fe1b250705f5",
