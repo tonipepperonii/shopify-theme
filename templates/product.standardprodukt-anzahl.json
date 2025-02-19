@@ -74,6 +74,10 @@
             "color_swatches": false
           }
         },
+        "trusted_shops_easy_integration_mini_stars_eAQGzE": {
+          "type": "shopify://apps/trusted-shops-easy-integration/blocks/mini-stars/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
+          "settings": {}
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -98,6 +102,7 @@
       },
       "block_order": [
         "variant_picker",
+        "trusted_shops_easy_integration_mini_stars_eAQGzE",
         "price",
         "0b529514-2cd6-442b-91f6-cd9726c87e30",
         "quantity_selector_BMGCz9",
