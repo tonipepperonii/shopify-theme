@@ -116,7 +116,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Gesamt.jpg",
-            "link": "",
+            "link": "https://alu-verkauf.de/collections/sechskant",
             "width": "100%",
             "alignment": "center"
           }
