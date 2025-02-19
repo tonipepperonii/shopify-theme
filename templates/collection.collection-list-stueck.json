@@ -22,6 +22,7 @@
       "blocks": {
         "collection_description": {
           "type": "collection_description",
+          "disabled": true,
           "settings": {}
         },
         "subcollections": {
@@ -41,6 +42,7 @@
         "subcollections",
         "product_grid"
       ],
+      "disabled": true,
       "settings": {
         "enable_sidebar": false,
         "collapse_filters": false,
