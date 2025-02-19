@@ -18,13 +18,13 @@
             "top_subheading": "",
             "title": "",
             "title_size": 40,
-            "subheading": "{{ product.title }}",
+            "subheading": "",
             "link": "",
-            "link_text": "",
+            "link_text": "Zu allen Aluminiumplatten",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#ffffff",
-            "text_align": "vertical-center horizontal-center",
+            "text_align": "vertical-bottom horizontal-right",
             "image": "shopify://shop_images/kf9o8qf7.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
@@ -34,7 +34,6 @@
       "block_order": [
         "template--18896842195248__5496d8f0-cbe1-4f56-b789-aad06ed907f2-16825095512038de14-1"
       ],
-      "disabled": true,
       "custom_css": [
         ".hero__subtitle {font-size: 34px; font-weight: 800;}"
       ],
@@ -77,6 +76,17 @@
         "divider": false
       }
     },
+    "featured_collection_paPifX": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Unsere Aluminiumplatten-Bestseller",
+        "home_featured_products": "",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "main": {
       "type": "vz-main-product",
       "blocks": {
@@ -93,6 +103,7 @@
         "73ae10fe-a7be-47c5-a6cf-7252c9e0b468",
         "6d88032e-39d6-43ab-9225-fc43a656f03f"
       ],
+      "disabled": true,
       "settings": {
         "sku_enable": false,
         "hinweis-richtext": "<p><strong>Aluminium-Platten</strong> können sowohl im gewerblichen als auch im privaten Bereich vielseitig eingesetzt werden: Aufgrund des geringen Gewichts des Materials und der hohen Flexibilität beim Zuschneiden der Maße sind die Verwendungsmöglichkeiten für die Platten aus Aluminium beinahe unzählbar. In unserem Online-Shop kannst Du über den Produktkonfigurator ganz bequem Platten in Deinem Wunschmaß bestellen.</p><h2><strong>Produktinformationen</strong></h2><ul><li><strong>Maße </strong>= Dicke (in mm); Breite und Länge individuell eingebbar (in mm)</li><li><strong>Bearbeitungszeit: </strong>bei geringen bis mittleren Bestellmengen i.d.R. zwischen 1-3 Tagen</li><li>Einige<strong> Legierungen </strong>können <strong>auf Wunsch silber-eloxiert</strong> werden.</li><li><strong>Längentoleranz</strong>: Unsere Längentoleranz findest Du <a href=\"https://alu-verkauf.de/pages/langentoleranz\" title=\"Längentoleranz\"><strong>hier</strong>.</a></li></ul><p>Die angegebenen Preise verstehen sich als <strong>Bruttopreise inkl. MwSt.</strong>, zzgl. Versandkosten. Gerne überprüfen wir, ob Profile und Abmessungen, die hier nicht aufgeführt werden, für Dich beschaffbar sind. Sende uns hierzu gerne eine Anfrage per Kontaktformular und wir werden Dir schnellstmöglich eine Rückmeldung zukommen lassen.</p>",
@@ -197,6 +208,7 @@
   "order": [
     "5496d8f0-cbe1-4f56-b789-aad06ed907f2",
     "rich_text_dw4GCG",
+    "featured_collection_paPifX",
     "main",
     "c1ac324a-eaf3-4b54-96f2-fe1b250705f5",
     "sub",
