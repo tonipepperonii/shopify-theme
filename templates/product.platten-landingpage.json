@@ -9,41 +9,25 @@
  */
 {
   "sections": {
-    "5496d8f0-cbe1-4f56-b789-aad06ed907f2": {
-      "type": "slideshow",
+    "advanced_content_pzE7qM": {
+      "type": "advanced-content",
       "blocks": {
-        "template--18896842195248__5496d8f0-cbe1-4f56-b789-aad06ed907f2-16825095512038de14-1": {
-          "type": "hero",
+        "image_CpaKqF": {
+          "type": "image",
           "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 40,
-            "subheading": "",
-            "link": "",
-            "link_text": "Zu allen Aluminiumplatten",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-bottom horizontal-right",
             "image": "shopify://shop_images/kf9o8qf7.png",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "link": "",
+            "width": "100%",
+            "alignment": "center"
           }
         }
       },
       "block_order": [
-        "template--18896842195248__5496d8f0-cbe1-4f56-b789-aad06ed907f2-16825095512038de14-1"
-      ],
-      "custom_css": [
-        ".hero__subtitle {font-size: 34px; font-weight: 800;}"
+        "image_CpaKqF"
       ],
       "settings": {
-        "full_width": true,
-        "desktop_size": 0,
-        "mobile_size": 20,
-        "style": "arrows",
-        "autoplay": false,
-        "autoplay_speed": 7
+        "full_width": false,
+        "space_around": true
       }
     },
     "rich_text_dw4GCG": {
@@ -206,7 +190,7 @@
     }
   },
   "order": [
-    "5496d8f0-cbe1-4f56-b789-aad06ed907f2",
+    "advanced_content_pzE7qM",
     "rich_text_dw4GCG",
     "featured_collection_paPifX",
     "main",
