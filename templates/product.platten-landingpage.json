@@ -64,7 +64,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Unsere Aluminiumplatten-Bestseller",
-        "home_featured_products": "",
+        "home_featured_products": "platten",
         "count": 5,
         "mobile_scrollable": true,
         "view_all": true,
