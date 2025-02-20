@@ -109,25 +109,19 @@
         "autoplay_speed": 5
       }
     },
-    "advanced_content_Etqnge": {
-      "type": "advanced-content",
-      "blocks": {
-        "image_ReN9Pj": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Zu_allen_Sechskantprofilen.png",
-            "link": "https://alu-verkauf.de/collections/sechskant",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "image_ReN9Pj"
-      ],
+    "background_image_text_wgmtnB": {
+      "type": "background-image-text",
       "settings": {
-        "full_width": false,
-        "space_around": true
+        "subtitle": "",
+        "title": "",
+        "text": "<p>Aluminium Sechskantprofile finden vor allem im gewerblichen Bereich vielseitige Anwendung. Ihre Kombination aus Stabilität und geringem Gewicht macht sie ideal für anspruchsvolle Konstruktionen.</p>",
+        "button_label": "Zu allen Sechskantprofilen",
+        "button_link": "https://alu-verkauf.de/collections/sechskant",
+        "image": "shopify://shop_images/Gesamt.jpg",
+        "focal_point": "center",
+        "layout": "right",
+        "height": 450,
+        "parallax": false
       }
     },
     "rich_text_PCB6Lr": {
@@ -278,7 +272,7 @@
   },
   "order": [
     "5496d8f0-cbe1-4f56-b789-aad06ed907f2",
-    "advanced_content_Etqnge",
+    "background_image_text_wgmtnB",
     "rich_text_PCB6Lr",
     "featured_collection_7w6dAK",
     "main",
