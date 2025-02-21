@@ -553,6 +553,7 @@
       "block_order": [
         "liquid_YC8fq6"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "space_around": false
