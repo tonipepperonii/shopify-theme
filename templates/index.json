@@ -294,8 +294,68 @@
         "divider": false
       }
     },
+    "featured_collections_X7KHTA": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_wx9nNR": {
+          "type": "collection",
+          "settings": {
+            "collection": "platten-restposten",
+            "title": "Platten und Bleche"
+          }
+        },
+        "collection_g6J39U": {
+          "type": "collection",
+          "settings": {
+            "collection": "4-kantrohr-restposten",
+            "title": "4-Kantrohr"
+          }
+        },
+        "collection_tNkzi4": {
+          "type": "collection",
+          "settings": {
+            "collection": "winkel-restposten",
+            "title": "Flach"
+          }
+        },
+        "collection_BDCgea": {
+          "type": "collection",
+          "settings": {
+            "collection": "flach-restposten",
+            "title": "Flach"
+          }
+        },
+        "collection_XNyymW": {
+          "type": "collection",
+          "settings": {
+            "collection": "u-profile-restposten",
+            "title": "U-Profil"
+          }
+        },
+        "collection_HYmMbC": {
+          "type": "collection",
+          "settings": {
+            "collection": "rundrohr-restposten",
+            "title": "Rundrohr"
+          }
+        }
+      },
+      "block_order": [
+        "collection_wx9nNR",
+        "collection_g6J39U",
+        "collection_tNkzi4",
+        "collection_BDCgea",
+        "collection_XNyymW",
+        "collection_HYmMbC"
+      ],
+      "settings": {
+        "title": "Restposten",
+        "divider": false
+      }
+    },
     "8654ead3-a13f-4bcc-9889-5c72fca9d93a": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "title": "Restposten",
@@ -579,6 +639,7 @@
     "80218ac8-e737-45d5-9c66-8ea17e8498e8",
     "5e1a0983-8595-49d8-8b40-c9e179334460",
     "c708ac76-1f3e-42a5-beca-0213c4adf84a",
+    "featured_collections_X7KHTA",
     "8654ead3-a13f-4bcc-9889-5c72fca9d93a",
     "advanced_content_CgfHXA",
     "c5e4a292-5547-4722-8908-f8e44d7f0a72",
