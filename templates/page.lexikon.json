@@ -21,7 +21,7 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<h1>Werkstoffe - Die Vielseitigkeit von Aluminium</h1>",
+            "title": "<h1>Das große Glossar rund um Aluminium</h1>",
             "title_size": 70,
             "subheading": "",
             "link": "",
@@ -55,14 +55,14 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Entdecke die unglaubliche Vielseitigkeit von Aluminiumlegierungen!</p>"
+            "text": "<p>Tauche ein in die Welt des Aluminiums und erweitere Dein Wissen über dieses Material!</p>"
           }
         },
         "text_Mm6X66": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Aluminium ist in seiner reinen Form bereits ein vielfältig einsetzbares Material. Es ist gut formbar, hat eine optisch ansprechende Oberfläche und ist vergleichsweise leicht.</p><p></p><p>Als Legierung zusammen mit anderen Elementen können die Einsatzgebiete vielfältig erweitert werden. Magnesium (Mg), Silicium (Si), Kupfer (Cu), Mangan (Mn) und Zink (Zn) sind hierbei die wichtigsten Legierungselemente.</p>"
+            "text": "<p>Aluminium ist ein vielseitiger Werkstoff, der in zahlreichen Branchen wie Bau, Maschinenbau, Luftfahrt und Automobilindustrie eingesetzt wird. Seine besonderen Eigenschaften – leicht, korrosionsbeständig und gut formbar – machen es zu einem unverzichtbaren Material für Konstruktionen und technische Anwendungen</p><p></p><p>In unserem Aluminium-Lexikon findest Du alle wichtigen Begriffe rund um Aluminium, von Profilen und Legierungen bis hin zu mechanischen Eigenschaften und Verarbeitungstechniken. Erfahre mehr über Aluminiumbleche, Vierkantrohre, Zugfestigkeit, Eloxieren, Wärmeleitfähigkeit und vieles mehr.</p><p></p>"
           }
         },
         "text_3XRWtU": {
@@ -85,213 +85,24 @@
         "divider": false
       }
     },
-    "ddbd1fda-dafb-4470-9ae5-f590f192ac92": {
-      "type": "text-columns",
+    "advanced_content_qUrEfi": {
+      "type": "advanced-content",
       "blocks": {
-        "template--18204608954672__ddbd1fda-dafb-4470-9ae5-f590f192ac92-1677833703217347a4-0": {
-          "type": "text_block",
+        "liquid_y9UpBc": {
+          "type": "liquid",
           "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "AlMgSi0,5 / EN AW 6060",
-            "text": "<p>DIN Werkstoff Nr. 3.3206</p><p><strong>Anwendungsbereiche:<br/></strong>Fenster, Türen, Metallbau, Dekoration, Schrauben, Textilindustrie</p><p>Eloxieren - sehr gut<br/>Zerspanbarkeit - befriedigend<br/>Schweißen - gut<br/>Beständigkeit gegen Witterung/Seewasser -sehr gut/gut</p><p><strong>Werte für mittlere Querschnitte:<br/></strong>Zugfestigkeit 215 - 260 N/qmm<br/>Streckgrenze 160 - 230 N/qmm<br/>Härte 70 - 80 Brinell<br/>Wärmeleitfähigkeit ca. 1,86 W/cm °C </p><p></p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "2f400c67-094b-4510-a41e-530998d66496": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "AlMgSi1 / EN AW 6082",
-            "text": "<p>DIN Werkstoff Nr. 3.2315</p><p></p><p><strong>Anwendungsbereiche:<br/></strong>Chemische Industrie, Nahrungsmittelindustrie, Architektur</p><p>Eloxieren - sehr gut<br/>Zerspanbarkeit - sehr gut<br/>Schweißen - gut<br/>Beständigkeit gegen Witterung/Seewasser -sehr gut/gut</p><p><strong>Werte für Durchmesser bis ca. 60 mm<br/></strong>Zugfestigkeit 300 - 350 N/qmm<br/>Streckgrenze 240 - 320 N/qmm<br/>Härte 95 - 105 Brinell<br/>Wärmeleitfähigkeit 1,5 - 1,9 W/cm °C</p><p></p>",
-            "button_label": "",
-            "button_link": ""
+            "code": "<table style=\"border-collapse: collapse; width: 845pt;\" width=\"1125\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"><colgroup><col style=\"mso-width-source: userset; mso-width-alt: 8521; width: 175pt;\" width=\"233\"> <col style=\"mso-width-source: userset; mso-width-alt: 11629; width: 239pt;\" width=\"318\"> <col style=\"mso-width-source: userset; mso-width-alt: 20992; width: 431pt;\" width=\"574\"> </colgroup>\n<tbody>\n<tr style=\"height: 15.0pt;\" height=\"20\">\n<td style=\"height: 15.0pt; width: 175pt;\" width=\"233\" class=\"xl67\" height=\"20\">Begriff</td>\n<td style=\"border-left: none; width: 239pt;\" width=\"318\" class=\"xl67\">Alternative Schreibweisen</td>\n<td style=\"border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Erklärung</td>\n</tr>\n<tr style=\"height: 45.0pt;\" height=\"60\">\n<td style=\"height: 45.0pt; border-top: none;\" class=\"xl67\" height=\"60\">Abmessungen</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Maße, Dimensionen, Schlüsselweite</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Abmessungen bezeichnen die Maße eines Bauteils, etwa Länge, Breite und Höhe. Bei Aluminiumhalbzeugen sind Abmessungen entscheidend für die Auswahl des richtigen Werkstücks für spezifische Anwendungen, beispielsweise im Maschinen- oder Bauwesen.</td>\n</tr>\n<tr style=\"height: 15.0pt;\" height=\"20\">\n<td style=\"height: 15.0pt; border-top: none;\" class=\"xl67\" height=\"20\">AlCuBiPb / EN AW 2011</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Hochfeste Automatenlegierung, Alu 2011</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Eine Aluminiumlegierung mit hoher Zerspanbarkeit, ideal für mechanische Präzisionsteile.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">AlCuMg1 = EN AW 2017</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Hochfeste Kupferlegierung, Alu 2017</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Eine Aluminium-Kupfer-Legierung mit hoher Festigkeit, verwendet im Maschinen- und Fahrzeugbau.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">AlCuMgPb = EN AW 2007</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Automatenaluminium, Alu 2007</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Diese Legierung ist besonders gut zerspanbar und wird für Drehteile, Maschinenbauteile und Präzisionskomponenten genutzt.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">AlMg3 = EN AW 5754</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Korrosionsbeständige Legierung, Alu 5754</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Diese korrosionsbeständige Legierung findet Anwendung im Fahrzeugbau und in der chemischen Industrie.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">AlMg4,5Mn = EN AW 5083</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Seewasserbeständiges Alu, Alu 5083</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Seewasserbeständige Aluminiumlegierung für den Schiffsbau und industrielle Anwendungen.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">AlMgSi0,5 / EN AW 6060</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Standardprofillegierung, Alu 6060</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Diese Aluminiumlegierung ist korrosionsbeständig, leicht zu eloxieren und gut verformbar. Sie wird im Maschinenbau, Fahrzeugbau und für Konstruktionen genutzt.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">AlMgSi1 / EN AW 6082</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Hochfeste Alu-Legierung, Alu 6082</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Eine hochfeste Aluminiumlegierung mit guter Korrosionsbeständigkeit. Sie wird in tragenden Konstruktionen, im Brücken- und Schiffsbau eingesetzt.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">AlZn5,5Mg1,5 = EN AW 7021</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Hochfeste Alu-Zink-Legierung, Alu 7021</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Eine hochfeste Aluminiumlegierung mit guter Formstabilität, oft für Luftfahrtkomponenten genutzt.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">AlZnMgCu1,5 = EN AW 7075</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Flugzeug-Aluminium, Alu 7075</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Diese Hochleistungslegierung zeichnet sich durch extreme Festigkeit aus und wird in der Luft- und Raumfahrt eingesetzt.</td>\n</tr>\n<tr style=\"height: 60.0pt;\" height=\"80\">\n<td style=\"height: 60.0pt; border-top: none;\" class=\"xl67\" height=\"80\">Aluminiumplatten</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Alublech, Alu-Tafelblech</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Aluminiumplatten sind flache Halbzeuge aus Aluminium, die in verschiedenen Stärken und Legierungen erhältlich sind. Sie zeichnen sich durch hohe Korrosionsbeständigkeit, geringes Gewicht und gute Verarbeitbarkeit aus. Anwendung finden sie in der Luftfahrt, im Fahrzeugbau und im Bauwesen.</td>\n</tr>\n<tr style=\"height: 60.0pt;\" height=\"80\">\n<td style=\"height: 60.0pt; border-top: none;\" class=\"xl67\" height=\"80\">Aluminiumprofil</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Alu-Profil, Strangpressprofil - Profil</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Ein Aluminiumprofil ist ein stabförmiges Bauteil aus Aluminium, das durch Strangpressen geformt wird. Es ist in verschiedenen Querschnitten erhältlich, darunter T-, U-, Z- und Winkelprofile. Aluminiumprofile sind leicht, korrosionsbeständig und vielseitig einsetzbar, beispielsweise im Maschinenbau, in der Bauindustrie oder im Möbelbau.</td>\n</tr>\n<tr style=\"height: 45.0pt;\" height=\"60\">\n<td style=\"height: 45.0pt; border-top: none;\" class=\"xl67\" height=\"60\">Alurohre</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Aluminiumrundrohr, Alu-Hohlprofil, Alu Rundrohr</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Alurohre sind hohle Rund- oder Vierkantprofile aus Aluminium. Sie überzeugen durch ihr geringes Gewicht, hohe Stabilität und Korrosionsbeständigkeit. Typische Einsatzbereiche sind Konstruktionen im Maschinenbau, Möbelbau sowie im Fahrzeugbau.</td>\n</tr>\n<tr style=\"height: 45.0pt;\" height=\"60\">\n<td style=\"height: 45.0pt; border-top: none;\" class=\"xl67\" height=\"60\">anodisieren</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Eloxieren, Oxidschichtbildung</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Anodisieren ist ein elektrochemisches Verfahren zur Erzeugung einer oxidischen Schutzschicht auf Aluminium. Es verbessert die Korrosionsbeständigkeit und sorgt für eine dekorative Oberfläche.</td>\n</tr>\n<tr style=\"height: 60.0pt;\" height=\"80\">\n<td style=\"height: 60.0pt; border-top: none;\" class=\"xl67\" height=\"80\">Biegen</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Kaltumformung, Verformung</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Biegen ist ein Verformungsprozess, bei dem Aluminium ohne Materialverlust in eine gewünschte Form gebracht wird. Die Duktilität des Materials ermöglicht präzise Biegeprozesse, die in der Architektur, im Maschinenbau und im Möbelbau eingesetzt werden.</td>\n</tr>\n<tr style=\"height: 45.0pt;\" height=\"60\">\n<td style=\"height: 45.0pt; border-top: none;\" class=\"xl67\" height=\"60\">Brünieren</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Schwarzoxidation, chemisches Schwärzen</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Brünieren ist eine chemische Oberflächenbehandlung, die Aluminium schwarz einfärbt und gleichzeitig eine dünne Schutzschicht gegen Korrosion bildet. Diese Technik wird für optische und funktionale Zwecke eingesetzt.</td>\n</tr>\n<tr style=\"height: 45.0pt;\" height=\"60\">\n<td style=\"height: 45.0pt; border-top: none;\" class=\"xl67\" height=\"60\">C-Profil</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">&nbsp;</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Ein C-Profil ist ein stranggepresstes Aluminiumprofil mit einem C-förmigen Querschnitt. Es wird häufig als Führungsschiene oder für Verstärkungselemente in der Bau- und Möbelindustrie eingesetzt.<span style=\"mso-spacerun: yes;\">&nbsp;</span></td>\n</tr>\n<tr style=\"height: 60.0pt;\" height=\"80\">\n<td style=\"height: 60.0pt; border-top: none;\" class=\"xl67\" height=\"80\">Dichte</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Massendichte, spezifisches Gewicht</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Die Dichte von Aluminium beträgt ca. 2,7 g/cm³ und ist damit deutlich geringer als die von Stahl. Dies macht Aluminium zu einem bevorzugten Werkstoff für Leichtbaukonstruktionen. Trotz des geringen Gewichts bietet Aluminium eine hohe Festigkeit und ist besonders gut verarbeitbar.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">Eckprofil</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Winkelprofil, Kantenschutzprofil</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Ein Eckprofil ist ein stabförmiges Aluminiumteil, das häufig für Rahmenkonstruktionen eingesetzt wird.</td>\n</tr>\n<tr style=\"height: 60.0pt;\" height=\"80\">\n<td style=\"height: 60.0pt; border-top: none;\" class=\"xl67\" height=\"80\">eloxieren</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Anodisieren, Elektrolytische Oxidation</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Eloxieren ist ein elektrochemisches Verfahren zur Oberflächenveredelung von Aluminium. Dabei wird eine oxidische Schutzschicht erzeugt, die das Material vor Korrosion schützt und optisch ansprechend macht. Eloxierte Aluminiumteile sind besonders widerstandsfähig und langlebig.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">Flachprofil</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Flachstange, Flachleiste</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Ein Flachprofil ist ein längliches Aluminiumbauteil mit rechteckigem Querschnitt. Es wird in der Industrie, im Maschinenbau und bei Konstruktionen vielseitig eingesetzt.</td>\n</tr>\n<tr style=\"height: 45.0pt;\" height=\"60\">\n<td style=\"height: 45.0pt; border-top: none;\" class=\"xl67\" height=\"60\">Fräsen</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Zerspanung, CNC-Bearbeitung</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Beim Fräsen wird Material durch rotierende Schneidwerkzeuge abgetragen, um Aluminiumbauteile mit hoher Präzision zu formen. Aluminium lässt sich besonders gut fräsen, was es für die Herstellung komplexer Bauteile in der Industrie unverzichtbar macht.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">Härte</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Festigkeit, Widerstandsfähigkeit</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Die Härte von Aluminium beschreibt den Widerstand gegen Verformung. Sie variiert je nach Legierung und Wärmebehandlung.</td>\n</tr>\n<tr style=\"height: 60.0pt;\" height=\"80\">\n<td style=\"height: 60.0pt; border-top: none;\" class=\"xl67\" height=\"80\">Hohlprofil</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Alu-Strangpressprofil, Alu-Hohlstab</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Ein Hohlprofil ist ein Aluminiumprofil mit einer innenliegenden Aussparung, die das Gewicht reduziert, aber die Stabilität erhält. Diese Profile werden oft im Fahrzeugbau, in Fassadenkonstruktionen und im Maschinenbau verwendet. Sie bieten eine ideale Kombination aus Leichtigkeit, Festigkeit und einfacher Verarbeitung.</td>\n</tr>\n<tr style=\"height: 60.0pt;\" height=\"80\">\n<td style=\"height: 60.0pt; border-top: none;\" class=\"xl67\" height=\"80\">Korrosionsbeständigkeit</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Rostschutz, Witterungsbeständigkeit</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Aluminium bildet bei Kontakt mit Sauerstoff eine natürliche Oxidschicht, die es vor Korrosion schützt. Diese Eigenschaft macht es besonders widerstandsfähig gegenüber Witterungseinflüssen und Chemikalien. Zusätzliche Verfahren wie Eloxieren oder Pulverbeschichten verbessern die Korrosionsbeständigkeit weiter.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">Kupfer</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Cu, Elektrolytkupfer</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Kupfer ist ein Metall mit hoher elektrischer und thermischer Leitfähigkeit. Es wird in der Elektro- und Bauindustrie verwendet.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">Kupferplatte</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">&nbsp;</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Eine Kupferplatte ist eine flache Platte aus reinem Kupfer, verwendet für elektrische und industrielle Anwendungen.</td>\n</tr>\n<tr style=\"height: 60.0pt;\" height=\"80\">\n<td style=\"height: 60.0pt; border-top: none;\" class=\"xl67\" height=\"80\">Legierung</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Aluminiumlegierung<span style=\"mso-spacerun: yes;\">&nbsp;</span></td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Eine Legierung ist eine Mischung aus zwei oder mehr Metallen zur Verbesserung spezifischer Materialeigenschaften. Aluminiumlegierungen enthalten oft Magnesium, Silicium oder Kupfer, um Festigkeit, Korrosionsbeständigkeit oder Bearbeitbarkeit zu optimieren.</td>\n</tr>\n<tr style=\"height: 60.0pt;\" height=\"80\">\n<td style=\"height: 60.0pt; border-top: none;\" class=\"xl67\" height=\"80\">Leitfähigkeit</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">elektrische Leitfähigkeit, Wärmeleitfähigkeit</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Aluminium hat eine hohe elektrische und thermische Leitfähigkeit. Es wird daher häufig als Alternative zu Kupfer in Stromleitungen oder als Material für Wärmetauscher und Kühlkörper verwendet. Dank des geringen Gewichts ist es besonders vorteilhaft für den Einsatz in der Elektrotechnik und in der Automobilindustrie.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">Lochblech</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Perforiertes Blech, gelochtes Aluminiumblech</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Ein perforiertes Aluminiumblech mit Löchern in verschiedenen Formen für Lüftung, Design oder Filtration.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">Magnesium</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Mg, Festigkeitssteigerndes Element</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Magnesium verbessert die Festigkeit und Korrosionsbeständigkeit von Aluminiumlegierungen.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">Mangan</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Mn, Legierungselement für Aluminium</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Mangan wird Aluminium zugesetzt, um Korrosionsbeständigkeit und Festigkeit zu verbessern.</td>\n</tr>\n<tr style=\"height: 45.0pt;\" height=\"60\">\n<td style=\"height: 45.0pt; border-top: none;\" class=\"xl67\" height=\"60\">Nieten</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Nietverbindung, mechanische Fügung</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Nieten ist eine mechanische Verbindungstechnik, die Aluminiumbauteile dauerhaft miteinander verbindet. Besonders in der Luftfahrt- und Fahrzeugindustrie werden Nieten eingesetzt, da sie eine feste, aber leichte Verbindung bieten.</td>\n</tr>\n<tr style=\"height: 45.0pt;\" height=\"60\">\n<td style=\"height: 45.0pt; border-top: none;\" class=\"xl67\" height=\"60\">Ovalrohr</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">&nbsp;</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Ein Ovalrohr ist ein Aluminiumrohr mit ovalem Querschnitt. Es wird häufig in Design- und Architekturprojekten, im Möbelbau und im Fahrzeugbau eingesetzt. Die spezielle Form kombiniert ästhetische Eleganz mit hoher Stabilität und reduziertem Materialeinsatz.</td>\n</tr>\n<tr style=\"height: 60.0pt;\" height=\"80\">\n<td style=\"height: 60.0pt; border-top: none;\" class=\"xl67\" height=\"80\">Oxidation</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Oberflächenreaktion, Metalloxidbildung</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Oxidation ist ein natürlicher chemischer Prozess, bei dem Aluminium mit Sauerstoff reagiert und eine schützende Oxidschicht bildet. Diese verhindert eine weitere Korrosion und macht das Material langlebig. Durch gezieltes Eloxieren kann die Oxidschicht verstärkt werden, wodurch Aluminium noch widerstandsfähiger gegen Umwelteinflüsse wird.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">Polieren</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Glanzbearbeitung, Hochglanzfinish</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Polieren ist eine mechanische Bearbeitung zur Glättung der Aluminiumoberfläche. Dadurch entsteht eine glänzende oder spiegelnde Optik.</td>\n</tr>\n<tr style=\"height: 45.0pt;\" height=\"60\">\n<td style=\"height: 45.0pt; border-top: none;\" class=\"xl67\" height=\"60\">Pulverbeschichtung</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Lackierung, Farbbeschichtung</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Bei der Pulverbeschichtung wird eine schützende und dekorative Farbschicht auf das Aluminium aufgebracht. Dies verbessert die Witterungsbeständigkeit und ermöglicht eine Vielzahl an Farb- und Strukturoptionen.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">PV-Befestigung</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Solarhalterung, Photovoltaik-Montagesystem</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Befestigungselemente für Photovoltaikanlagen, meist aus Aluminium, um Solarmodule sicher zu montieren.</td>\n</tr>\n<tr style=\"height: 60.0pt;\" height=\"80\">\n<td style=\"height: 60.0pt; border-top: none;\" class=\"xl67\" height=\"80\">Recycling</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Wiederverwertung, Sekundäraluminium</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Aluminium ist zu 100 % recycelbar, ohne Qualitätsverluste. Der Recyclingprozess benötigt nur ca. 5 % der Energie, die für die Erstproduktion erforderlich ist. Dadurch wird Aluminium zu einem nachhaltigen Werkstoff, der weltweit in verschiedenen Industrien wiederverwertet wird.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">Reinaluminium<span style=\"mso-spacerun: yes;\">&nbsp;</span></td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Al99,5, hochreines Aluminium</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Reinaluminium enthält mindestens 99 % Aluminium und wird in chemischen und elektrischen Anwendungen eingesetzt.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">Riffelblech</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Warzenblech, Tränenblech</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Ein Riffelblech ist eine strukturierte Aluminiumplatte mit rutschfester Oberfläche. Es wird für Bodenbeläge, Treppen und Fahrzeugböden verwendet.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">Rohrverbinder</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Steckverbinder, Rohrkupplung</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Rohrverbinder aus Aluminium ermöglichen die stabile Verbindung von Aluminiumrohren in Konstruktionen.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">Rohrverschlussstopfen</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Endkappe, Rohrkappe</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Diese Stopfen dienen zum Verschließen von Aluminiumrohren und sorgen für ein sauberes Finish.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">Rund</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Aluminiumstab, Rundmaterial</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Runde Aluminiumteile wie Stangen oder Rohre werden in verschiedenen Industrien genutzt. Sie zeichnen sich durch hohe Korrosionsbeständigkeit und gute Formbarkeit aus.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">Rundrohr</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Aluminiumrundrohr, Hohlstab</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Ein Rundrohr ist ein hohles Aluminiumprofil mit kreisförmigem Querschnitt. Es wird im Fahrzeugbau, in der Möbelindustrie und für Konstruktionen eingesetzt.</td>\n</tr>\n<tr style=\"height: 60.0pt;\" height=\"80\">\n<td style=\"height: 60.0pt; border-top: none;\" class=\"xl67\" height=\"80\">Schmelzpunkt</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Schmelztemperatur, Liquidustemperatur</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Aluminium schmilzt bei etwa 660 °C. Dieser vergleichsweise niedrige Schmelzpunkt ermöglicht energieeffiziente Gießverfahren, wie Druckguss oder Stranggießen. Zudem ist der niedrige Schmelzpunkt ein Vorteil für das Recycling, da das Material einfach wiederverwertet werden kann.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">schweißen</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Fügen, Lichtbogenverfahren</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Schweißen ist ein Verfahren zur Verbindung von Metallteilen durch Wärme. Aluminium erfordert spezielle Schweißtechniken wie WIG- oder MIG-Schweißen.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">Sechskant</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Hexagonalprofil, Sechskantstab</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Ein Aluminium-Sechskantprofil hat einen hexagonalen Querschnitt und wird häufig in der Mechanik sowie für Schrauben und Muttern verwendet.</td>\n</tr>\n<tr style=\"height: 15.0pt;\" height=\"20\">\n<td style=\"height: 15.0pt; border-top: none;\" class=\"xl67\" height=\"20\">Silicium</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Si, Härtezusatz für Aluminium</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Silicium erhöht die Gießbarkeit und Härte von Aluminiumlegierungen.</td>\n</tr>\n<tr style=\"height: 45.0pt;\" height=\"60\">\n<td style=\"height: 45.0pt; border-top: none;\" class=\"xl67\" height=\"60\">Spanbarkeit</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Zerspanbarkeit, Fräsbarkeit</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Die Spanbarkeit beschreibt, wie gut Aluminium durch Fräsen, Bohren oder Drehen bearbeitet werden kann. Aluminiumlegierungen mit Kupfer oder Silicium sind besonders gut zerspanbar, während hochfeste Legierungen schwerer zu bearbeiten sind.</td>\n</tr>\n<tr style=\"height: 45.0pt;\" height=\"60\">\n<td style=\"height: 45.0pt; border-top: none;\" class=\"xl67\" height=\"60\">Streckgrenze</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Elastische Grenze, Dehngrenze</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Die Streckgrenze ist die Spannung, bei der ein Material beginnt, sich dauerhaft zu verformen. Bei Aluminiumlegierungen beeinflusst sie die Tragfähigkeit und Belastbarkeit in technischen Anwendungen, wie dem Fahrzeug- und Maschinenbau.</td>\n</tr>\n<tr style=\"height: 45.0pt;\" height=\"60\">\n<td style=\"height: 45.0pt; border-top: none;\" class=\"xl67\" height=\"60\">Tafelblech</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Alu-Flachblech, Blechtafel</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Tafelbleche sind flache Aluminiumplatten in standardisierten Abmessungen. Sie werden in verschiedenen Dicken und Legierungen angeboten und finden Anwendung im Bauwesen, in der Luftfahrt sowie in der Industrie.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">T-Profil</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">T-Schiene, T-Träger</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Ein T-Profil ist ein stranggepresstes Aluminiumprofil mit T-förmigem Querschnitt. Es dient als Verbindungselement oder Verstärkung in Konstruktionen.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">U-Profil</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">U-Schiene, C-Kanal</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Ein U-Profil ist ein stranggepresstes Aluminiumprofil mit U-förmigem Querschnitt. Es wird häufig für Rahmen, Führungen und Verstärkungen verwendet.</td>\n</tr>\n<tr style=\"height: 45.0pt;\" height=\"60\">\n<td style=\"height: 45.0pt; border-top: none;\" class=\"xl67\" height=\"60\">Vierkant</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Vierkantstab, Quadratstab</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Ein Vierkantprofil ist ein stabförmiges Aluminiumbauteil mit quadratischem oder rechteckigem Querschnitt. Es kombiniert geringes Gewicht mit hoher Stabilität und Korrosionsbeständigkeit.</td>\n</tr>\n<tr style=\"height: 45.0pt;\" height=\"60\">\n<td style=\"height: 45.0pt; border-top: none;\" class=\"xl67\" height=\"60\">Vierkantrohr und alle Schreibweisen</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Quadratprofil, Vierkantprofil, Rechteckrohr</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Ein Vierkantrohr ist ein rechteckiges Hohlprofil aus Aluminium. Es kombiniert geringes Gewicht mit hoher Stabilität und wird häufig im Möbel-, Maschinen- oder Bauwesen verwendet.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">Wärmeleitfähigkeit<span style=\"mso-spacerun: yes;\">&nbsp;</span></td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">&nbsp;</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Aluminium besitzt eine hohe Wärmeleitfähigkeit, was es ideal für Kühlkörper, Wärmetauscher und elektronische Bauteile macht.</td>\n</tr>\n<tr style=\"height: 45.0pt;\" height=\"60\">\n<td style=\"height: 45.0pt; border-top: none;\" class=\"xl67\" height=\"60\">Winkelprofil</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">L-Profil, Alu-Winkel</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Ein Winkelprofil ist ein L-förmiges Aluminiumprofil, das für Konstruktionen und Verstärkungen genutzt wird. Es bietet hohe Stabilität und Korrosionsbeständigkeit bei geringem Gewicht.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">Zink</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Zn, Hochfestigkeitslegierungsbestandteil</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Zink erhöht die Festigkeit von Aluminiumlegierungen und wird in Hochleistungsanwendungen genutzt.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">Z-Profile</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Z-Schiene, Z-Träger</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Ein Z-Profil ist ein Aluminiumprofil mit Z-förmigem Querschnitt. Es wird für Verstärkungen, Rahmenkonstruktionen und Träger eingesetzt.</td>\n</tr>\n<tr style=\"mso-height-source: userset; height: 45.75pt;\" height=\"61\">\n<td style=\"height: 45.75pt; border-top: none;\" class=\"xl67\" height=\"61\">Zugfestigkeit</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Reißfestigkeit, mechanische Belastbarkeit</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Die Zugfestigkeit beschreibt die maximale Spannung, die ein Material aushält, bevor es bricht. Aluminiumlegierungen weisen je nach Zusammensetzung unterschiedliche Zugfestigkeiten auf, was sie für spezifische Einsatzgebiete besonders geeignet macht.</td>\n</tr>\n<tr style=\"height: 30.0pt;\" height=\"40\">\n<td style=\"height: 30.0pt; border-top: none;\" class=\"xl67\" height=\"40\">Zuschnitte</td>\n<td style=\"border-top: none; border-left: none;\" class=\"xl67\">Alu-Zuschnitte, Maßbleche</td>\n<td style=\"border-top: none; border-left: none; width: 431pt;\" width=\"574\" class=\"xl68\">Aluminiumzuschnitte sind individuell zugeschnittene Bleche, Profile oder Platten für spezifische Anwendungen.</td>\n</tr>\n</tbody>\n</table>",
+            "width": "100%",
+            "alignment": "center"
           }
         }
       },
       "block_order": [
-        "template--18204608954672__ddbd1fda-dafb-4470-9ae5-f590f192ac92-1677833703217347a4-0",
-        "2f400c67-094b-4510-a41e-530998d66496"
-      ],
-      "custom_css": [
-        ".grid__item_inner {border: 1px solid #e3e3e2; margin: 5px; border-radius: 10px; padding: 20px;}"
+        "liquid_y9UpBc"
       ],
       "settings": {
-        "title": "Profile",
-        "align_text": "left",
-        "divider": false,
-        "color_scheme": "none"
-      }
-    },
-    "text_columns_ETN3cJ": {
-      "type": "text-columns",
-      "blocks": {
-        "text_block_QBmAWU": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "AlCuMgPb = EN AW 2007",
-            "text": "<p>DIN Werkstoff Nr. 3.1645</p><p><strong>Anwendungsbereiche:<br/></strong>Bohr-, Dreh-, Fräsqualität</p><p>Eloxieren -<br/>Zerspanbarkeit - sehr gut<br/>Schweißen - nicht geeignet<br/>Beständigkeit gg. Witterung/Seewasser - schlecht/schlecht</p><p><strong>Werte für Durchmesser bis ca. 60 mm<br/></strong>Zugfestigkeit 370 - 470 N/qmm<br/>Streckgrenze 250 - 325 N/qmm<br/>Härte 100 - 140 Brinell<br/>Wärmeleitfähigkeit 1,3 - 1,5 W/cm °C</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_nJkG9w": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "AlCuBiPb / EN AW 2011",
-            "text": "<p>DIN Werkstoff Nr. 3.1655</p><p><strong>Anwendungsbereiche:<br/></strong>Bohr-, Dreh-, Fräsqualität</p><p>Eloxieren -<br/>Zerspanbarkeit - sehr gut<br/>Schweißen - nicht geeignet<br/>Beständigkeit gg. Witterung/Seewasser - ausreichend/schlecht</p><p><strong>Werte für Durchmesser bis ca. 60 mm<br/></strong>Zugfestigkeit 370 - 410 N/qmm<br/>Streckgrenze 270 - 315 N/qmm<br/>Härte 110 - 130 Brinell<br/>Wärmeleitfähigkeit 1,4 - 1,6 W/cm °C</p><p></p><p></p><p></p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_8L3QGF": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "AlMgSi0,5 = EN AW 6060",
-            "text": "<p>DIN Werkstoff Nr. 3.3206</p><p></p><p><strong>Anwendungsbereiche:<br/></strong>Fenster, Türen, Metallbau, Dekoration, Schrauben, Textilindustrie</p><p>Eloxieren - sehr gut<br/>Zerspanbarkeit - sehr gut<br/>Schweißen - gut<br/>Beständigkeit gg. Witterung/Seewasser -          sehr gut/gut</p><p><strong>Werte für mittlere Querschnitte:<br/></strong>Zugfestigkeit 215 - 260 N/qmm<br/>Streckgrenze 160 - 230 N/qmm<br/>Härte 70 - 80 Brinell<br/>Wärmeleitfähigkeit ca. 1,86 W/cm °C</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_PdVNBV": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "AlZnMgCu1,5 = EN AW 7075",
-            "text": "<p>DIN Werkstoff Nr. 3.4365</p><p><strong>Anwendungsbereiche:<br/></strong>Luftfahrt, Maschinenbau</p><p>Eloxieren - nicht geeignet<br/>Zerspanbarkeit - sehr gut<br/>Schweißen - nicht geeignet<br/>Beständigkeit gegen Witterung/Seewasser -schlecht/schlecht</p><p><strong>Werte für Dicken von ca. 12 - 50 mm<br/></strong>Zugfestigkeit mind. 550 N/qmm<br/>Streckgrenze ca. 450 N/qmm<br/>Härte ca. 140 Brinell</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_QBmAWU",
-        "text_block_nJkG9w",
-        "text_block_8L3QGF",
-        "text_block_PdVNBV"
-      ],
-      "custom_css": [
-        ".grid__item_inner {border: 1px solid #e3e3e2; margin: 5px; border-radius: 10px; padding: 20px;}"
-      ],
-      "settings": {
-        "title": "Vollmaterial - Rund / Flach / Vierkant  / Sechskant",
-        "align_text": "left",
-        "divider": false,
-        "color_scheme": "2"
-      }
-    },
-    "text_columns_E8XqTq": {
-      "type": "text-columns",
-      "blocks": {
-        "text_block_xzEghx": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "AlCuMg1 = EN AW 2017",
-            "text": "<p>DIN Werkstoff Nr. 3.1325</p><p><strong>Anwendungsbereiche:<br/></strong>Luftfahrt, Transport, Verkehr, Schmiedestücke</p><p>Eloxieren - nicht geeignet<br/>Zerspanbarkeit - gut<br/>Schweißen - nicht geeignet<br/>Beständigkeit gegen Witterung/Seewasser -ausreichend/schlecht</p><p><strong>Werte für Dicken bis ca. 50 mm<br/></strong>Zugfestigkeit 385 - 460 N/qmm<br/>Streckgrenze 245 - 340 N/qmm<br/>Härte 95 - 130 Brinell<br/>Wärmeleitfähigkeit 1,3 - 1,7 W/cm °C</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_f4JB7w": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "AlMg4,5Mn = EN AW 5083",
-            "text": "<p>DIN Werkstoff Nr. 3.3547</p><p><strong>Anwendungsbereiche:<br/></strong>Luftfahrt, Transport, Verkehr, Schmiedestücke</p><p>Eloxieren - ausreichend<br/>Zerspanbarkeit - gut<br/>Schweißen - gut<br/>Beständigkeit gegen Witterung/Seewasser -sehr gut / gut</p><p><strong>Werte für Dicken ab ca. 6 mm<br/></strong>Zugfestigkeit 275 - 315 N/qmm<br/>Streckgrenze 125 - 180 N/qmm<br/>Härte 70 - 100 Brinell<br/>Wärmeleitfähigkeit ca. 1,1 W/cm °C</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_9q7bPt": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "AlMg3 = EN AW 5754",
-            "text": "<p>DIN Werkstoff Nr. 3.3535</p><p><strong>Anwendungsbereiche:<br/></strong>Metall- und Behälterbau, Fahrzeug- und Schiffbau, <a href=\"https://alu-verkauf.de/products/riffelblech-duett-und-quintett-standardzuschnitte\" title=\"https://alu-verkauf.de/products/riffelblech-duett-und-quintett-standardzuschnitte\"><strong>Riffelblech</strong></a></p><p>Eloxieren - gut<br/>Zerspanbarkeit - ausreichend<br/>Schweißen - gut<br/>Beständigkeit gegen Witterung/Seewasser -sehr gut/gut</p><p><strong>Werte für Dicken ab ca. 6 mm</strong><br/>Zugfestigkeit 190 - 250 N/qmm<br/>Streckgrenze 80 - 140 N/qmm<br/>Härte 50 - 80 Brinell<br/>Wärmeleitfähigkeit ca. 1,5 W/cm °C</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_nqq86T": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "AlZn5,5Mg1,5 = EN AW 7021",
-            "text": "<p>AlZn5,5Mg1,5 - als plangefräste Gussplatten</p><p><strong>Anwendungsbereiche:<br/></strong>Werkzeugbau, Druckindustrie</p><p>Beidseitig foliert</p><p><strong>Werte<br/></strong>Zugfestigkeit 320 - 380 N/qmm<br/>Streckgrenze 290 - 340 N/qmm<br/>Härte 110 - 120 Brinell<br/>Wärmeleitfähigkeit 1,25 - 1,55 W/cm °C<strong><br/></strong></p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_QjdBAz": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_width": 650,
-            "title": "AlZnMgCu1,5 = EN AW 7075",
-            "text": "<p>DIN Werkstoff Nr. 3.4365</p><p><strong>Anwendungsbereiche:<br/></strong>Luftfahrt, Maschinenbau</p><p>Eloxieren - nicht geeignet<br/>Zerspanbarkeit - sehr gut<br/>Schweißen - nicht geeignet<br/>Beständigkeit gegen Witterung/Seewasser -schlecht/schlecht</p><p><strong>Werte für Dicken von ca. 12 - 50 mm<br/></strong>Zugfestigkeit mind. 550 N/qmm<br/>Streckgrenze ca. 450 N/qmm<br/>Härte ca. 140 Brinell</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_xzEghx",
-        "text_block_f4JB7w",
-        "text_block_9q7bPt",
-        "text_block_nqq86T",
-        "text_block_QjdBAz"
-      ],
-      "custom_css": [
-        ".grid__item_inner {border: 1px solid #e3e3e2; margin: 5px; border-radius: 10px; padding: 20px;}"
-      ],
-      "settings": {
-        "title": "Platten",
-        "align_text": "left",
-        "divider": false,
-        "color_scheme": "1"
-      }
-    },
-    "rich_text_YrMfbM": {
-      "type": "rich-text",
-      "blocks": {
-        "text_zR7Ath": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Durch eine Europanorm werden die verschiedenen Legierungen unter einer       4-stelligen Zahlenkombination zu Gruppen/Klassen mit ähnlichen Eigenschaften zusammengefasst.</p>"
-          }
-        },
-        "text_aXzUiX": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p><strong>1000 Gruppe</strong> - <strong>Reinaluminium</strong> mind. 99% Al - nicht aushärtbar , beste physikalische Eigenschaft hinsichtlich elektrischer Wärmeleitfähigkeit, am besten umformbar</p><p><strong>Verwendung</strong>: Aluminiumfolie, chemische Tanks und Rohre</p><p><strong>2000 Gruppe</strong> - <strong>Kupfer</strong> - aushärtbar - weist eine hohe Festigkeit auf und sind schwierig kaltumformbar, wird überwiegend zur Zerspannung eingesetzt, mäßig korrosionsbeständig und sind bedingt schweißbar</p><p><strong>Verwendung</strong>: Flugzeugbau und Raumfahrt</p><p><strong>3000 Gruppe</strong> - <strong>Mangan</strong> besitzt nur eine leichte höhere Festigkeit als Reinaluminium, ist nicht aushärtbar</p><p><strong>Verwendung</strong>: Kochtöpfen über Kühler in Fahrzeugen bis zum Kraftwerksbau</p><p><strong>4000 Gruppe</strong> - <strong>Silicium</strong> aushärtbare und nicht aushärtbare Legierungen, senkt den Schmelzpunkt</p><p><strong>Verwendung:</strong> ideal für Schweiß- und Lötzusätze</p><p><strong>5000 Gruppe</strong> - <strong>Magnesium</strong>, nicht aushärtbar, werden sehr oft zum Kaltumformen von Blechen verwendet und bieten eine besondere Festigkeit</p><p><strong>Verwendung:</strong> Schiffsbau, Transport, Druckkessel, Brücken und Gebäuden als AA5024 (AlMgSc) auch für den Luftfahrteinsatz</p><p><strong>6000 Gruppe</strong> - <strong>Magnesium, Silicium</strong> sind  aushärtbar und haben eine hohe Festigkeit. Die 7000er enthalten Kupfer und haben die höchste Festigkeitswerte</p><p><strong>Verwendung:</strong> vorwiegend als Stangpressprofile</p><p><strong>7000 Gruppe</strong> - <strong>Zink</strong> sind aushärtbar und haben eine hohe Festigkeit. Die 7000er enthalten Kupfer und haben die höchste Festigkeitswerte</p><p><strong>Verwendung:</strong> Flugzeugbau, Raumfahrt, Sportgeräte, Gehäuse von Mobiltelefonen</p><p><strong>8000 Gruppe</strong> - andere Elemente sind Sonderlegierungen, die großtechnisch nicht hergestellt werden und marktüblich vertreten sind.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_zR7Ath",
-        "text_aXzUiX"
-      ],
-      "settings": {
-        "align_text": "left",
-        "narrow_column": true,
-        "color_scheme": "2",
-        "divider": false
+        "full_width": false,
+        "space_around": true
       }
     },
     "e8047a0e-2e60-411b-8829-9065b3604eb3": {
@@ -424,10 +235,7 @@
     "main",
     "b37da04b-c409-40bf-89e1-352e11985fcd",
     "2bcb0b91-7c44-4198-96e9-16d6053e6160",
-    "ddbd1fda-dafb-4470-9ae5-f590f192ac92",
-    "text_columns_ETN3cJ",
-    "text_columns_E8XqTq",
-    "rich_text_YrMfbM",
+    "advanced_content_qUrEfi",
     "e8047a0e-2e60-411b-8829-9065b3604eb3",
     "rich_text_YYYCiy",
     "advanced_content_D89bk3"
