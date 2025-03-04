@@ -190,7 +190,6 @@
           },
           "announcement_NLhgXy": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "richtext": "<p>Wir sind für Dich da: Nils Vespermann & Mike Janke - 05121 - 282900 - verkauf@alu-verkauf.de</p>",
               "richtext_mobile": "<p>Wir sind für Dich da - 05121 - 282900</p>"
@@ -198,6 +197,7 @@
           },
           "announcement_Li6Pcz": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "richtext": "<p><strong>Sichere Dir jetzt 10% Rabatt auf Vollmaterial - Code: Voll10</strong></p>",
               "richtext_mobile": "<p><strong>10% auf Vollmaterial - Code: Voll10</strong></p>"
