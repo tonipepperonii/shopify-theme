@@ -101,15 +101,157 @@
             "title": "AlCuBiPb / EN AW 2011",
             "text": "<p>Alternative Schreibweisen: Hochfeste Automatenlegierung, Alu 2011</p><p>Erklärung:<br/>Eine Aluminiumlegierung mit hoher Zerspanbarkeit, ideal für mechanische Präzisionsteile.</p>"
           }
+        },
+        "question_QEqgXh": {
+          "type": "question",
+          "settings": {
+            "title": "AlCuMg1 = EN AW 2017",
+            "text": "<p>Alternative Schreibweisen: Hochfeste Kupferlegierung, Alu 2017</p><p>Erklärung:<br/>Eine Aluminium-Kupfer-Legierung mit hoher Festigkeit, verwendet im Maschinen- und Fahrzeugbau.</p>"
+          }
+        },
+        "question_nTxNr8": {
+          "type": "question",
+          "settings": {
+            "title": "AlCuMgPb = EN AW 2007",
+            "text": "<p>Alternative Schreibweisen: Automatenaluminium, Alu 2007<br/><br/>Erklärung:<br/>Diese Legierung ist besonders gut zerspanbar und wird für Drehteile, Maschinenbauteile und Präzisionskomponenten genutzt.</p>"
+          }
+        },
+        "question_BWt8Fh": {
+          "type": "question",
+          "settings": {
+            "title": "AlMg3 = EN AW 5754",
+            "text": "<p>Alternative Schreibweisen: Korrosionsbeständige Legierung, Alu 5754<br/><br/>Erklärung:<br/>Diese korrosionsbeständige Legierung findet Anwendung im Fahrzeugbau und in der chemischen Industrie.</p>"
+          }
+        },
+        "question_bciEFP": {
+          "type": "question",
+          "settings": {
+            "title": "AlMg4,5Mn = EN AW 5083",
+            "text": "<p>Alternative Schreibweisen: Seewasserbeständiges Alu, Alu 5083<br/><br/>Erklärung:<br/>Diese Legierung ist besonders gut zerspanbar und wird für Drehteile, Maschinenbauteile und Präzisionskomponenten genutzt.</p>"
+          }
+        },
+        "question_3hHDDt": {
+          "type": "question",
+          "settings": {
+            "title": "AlMgSi0,5 / EN AW 6060",
+            "text": "<p>Alternative Schreibweisen: Standardprofillegierung, Alu 6060<br/><br/>Erklärung:<br/>Diese Aluminiumlegierung ist korrosionsbeständig, leicht zu eloxieren und gut verformbar. Sie wird im Maschinenbau, Fahrzeugbau und für Konstruktionen genutzt.</p>"
+          }
+        },
+        "question_pjnCKE": {
+          "type": "question",
+          "settings": {
+            "title": "AlMgSi1 / EN AW 6082",
+            "text": "<p>Alternative Schreibweisen: Hochfeste Alu-Legierung, Alu 6082<br/><br/>Erklärung:<br/>Eine hochfeste Aluminiumlegierung mit guter Korrosionsbeständigkeit. Sie wird in tragenden Konstruktionen, im Brücken- und Schiffsbau eingesetzt.</p>"
+          }
+        },
+        "question_MGWggp": {
+          "type": "question",
+          "settings": {
+            "title": "AlZn5,5Mg1,5 = EN AW 7021",
+            "text": "<p>Alternative Schreibweisen: Hochfeste Alu-Zink-Legierung, Alu 7021</p><p><br/>Erklärung:<br/>Eine hochfeste Aluminiumlegierung mit guter Formstabilität, oft für Luftfahrtkomponenten genutzt.</p>"
+          }
+        },
+        "question_yLXiRf": {
+          "type": "question",
+          "settings": {
+            "title": "AlZnMgCu1,5 = EN AW 7075",
+            "text": "<p>Alternative Schreibweisen: Flugzeug-Aluminium, Alu 7075<br/><br/>Erklärung:<br/>Diese Hochleistungslegierung zeichnet sich durch extreme Festigkeit aus und wird in der Luft- und Raumfahrt eingesetzt.</p>"
+          }
+        },
+        "question_PiHbbp": {
+          "type": "question",
+          "settings": {
+            "title": "Aluminiumplatten",
+            "text": "<p>Alternative Schreibweisen: Alublech, Alu-Tafelblech<br/><br/>Erklärung:<br/>Aluminiumplatten sind flache Halbzeuge aus Aluminium, die in verschiedenen Stärken und Legierungen erhältlich sind. Sie zeichnen sich durch hohe Korrosionsbeständigkeit, geringes Gewicht und gute Verarbeitbarkeit aus. Anwendung finden sie in der Luftfahrt, im Fahrzeugbau und im Bauwesen.</p>"
+          }
+        },
+        "question_7U8BXR": {
+          "type": "question",
+          "settings": {
+            "title": "Aluminiumprofil",
+            "text": "<p>Alternative Schreibweisen: Alu-Profil, Strangpressprofil - Profil<br/><br/>Erklärung:<br/>Ein Aluminiumprofil ist ein stabförmiges Bauteil aus Aluminium, das durch Strangpressen geformt wird. Es ist in verschiedenen Querschnitten erhältlich, darunter T-, U-, Z- und Winkelprofile. Aluminiumprofile sind leicht, korrosionsbeständig und vielseitig einsetzbar, beispielsweise im Maschinenbau, in der Bauindustrie oder im Möbelbau.</p>"
+          }
+        },
+        "question_tUNhFG": {
+          "type": "question",
+          "settings": {
+            "title": "Alurohre",
+            "text": "<p>Alternative Schreibweisen: Aluminiumrundrohr, Alu-Hohlprofil, Alu Rundrohr<br/><br/>Erklärung:<br/>Alurohre sind hohle Rund- oder Vierkantprofile aus Aluminium. Sie überzeugen durch ihr geringes Gewicht, hohe Stabilität und Korrosionsbeständigkeit. Typische Einsatzbereiche sind Konstruktionen im Maschinenbau, Möbelbau sowie im Fahrzeugbau.</p>"
+          }
+        },
+        "question_4wjEqy": {
+          "type": "question",
+          "settings": {
+            "title": "Anodisieren",
+            "text": "<p>Alternative Schreibweisen: Eloxieren, Oxidschichtbildung<br/><br/>Erklärung:<br/>Anodisieren ist ein elektrochemisches Verfahren zur Erzeugung einer oxidischen Schutzschicht auf Aluminium. Es verbessert die Korrosionsbeständigkeit und sorgt für eine dekorative Oberfläche.</p>"
+          }
         }
       },
       "block_order": [
         "question_k9THni",
-        "question_3tjqkR"
+        "question_3tjqkR",
+        "question_QEqgXh",
+        "question_nTxNr8",
+        "question_BWt8Fh",
+        "question_bciEFP",
+        "question_3hHDDt",
+        "question_pjnCKE",
+        "question_MGWggp",
+        "question_yLXiRf",
+        "question_PiHbbp",
+        "question_7U8BXR",
+        "question_tUNhFG",
+        "question_4wjEqy"
       ],
       "settings": {
-        "title": "FAQs",
-        "description": "Sie haben Fragen? Wir haben Antworten: Deshalb finden Sie hier eine Übersicht der am häufigsten gestellten Fragen. Sollte Ihre nicht dabei sein, zögern Sie nicht, uns zu kontaktieren."
+        "title": "A",
+        "description": ""
+      }
+    },
+    "faq_xARxq6": {
+      "type": "faq",
+      "blocks": {
+        "question_3HYpk3": {
+          "type": "question",
+          "settings": {
+            "title": "Biegen",
+            "text": "<p>Alternative Schreibweisen: Kaltumformung, Verformung<br/><br/>Erklärung:<br/>Biegen ist ein Verformungsprozess, bei dem Aluminium ohne Materialverlust in eine gewünschte Form gebracht wird. Die Duktilität des Materials ermöglicht präzise Biegeprozesse, die in der Architektur, im Maschinenbau und im Möbelbau eingesetzt werden.</p>"
+          }
+        },
+        "question_ayzdgk": {
+          "type": "question",
+          "settings": {
+            "title": "Brünieren",
+            "text": "<p>Alternative Schreibweisen: Schwarzoxidation, chemisches Schwärzen<br/><br/>Erklärung:<br/>Brünieren ist eine chemische Oberflächenbehandlung, die Aluminium schwarz einfärbt und gleichzeitig eine dünne Schutzschicht gegen Korrosion bildet. Diese Technik wird für optische und funktionale Zwecke eingesetzt.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_3HYpk3",
+        "question_ayzdgk"
+      ],
+      "settings": {
+        "title": "B",
+        "description": ""
+      }
+    },
+    "faq_gLMegP": {
+      "type": "faq",
+      "blocks": {
+        "question_bQAAdQ": {
+          "type": "question",
+          "settings": {
+            "title": "C-Profil",
+            "text": "<p>Alternative Schreibweisen: <br/><br/>Erklärung:<br/>Ein C-Profil ist ein stranggepresstes Aluminiumprofil mit einem C-förmigen Querschnitt. Es wird häufig als Führungsschiene oder für Verstärkungselemente in der Bau- und Möbelindustrie eingesetzt.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_bQAAdQ"
+      ],
+      "settings": {
+        "title": "C",
+        "description": ""
       }
     },
     "advanced_content_qUrEfi": {
@@ -188,6 +330,8 @@
     "b37da04b-c409-40bf-89e1-352e11985fcd",
     "2bcb0b91-7c44-4198-96e9-16d6053e6160",
     "faq_jJ3cLk",
+    "faq_xARxq6",
+    "faq_gLMegP",
     "advanced_content_qUrEfi",
     "rich_text_YYYCiy",
     "advanced_content_D89bk3"
