@@ -731,6 +731,76 @@
         "description": ""
       }
     },
+    "faq_VgUFMn": {
+      "type": "faq",
+      "blocks": {
+        "question_NbyNLY": {
+          "type": "question",
+          "settings": {
+            "title": "Wärmeleitfähigkeit",
+            "text": "<p>Alternative Schreibweisen: <br/><br/>Erklärung:<br/>Aluminium besitzt eine hohe Wärmeleitfähigkeit, was es ideal für Kühlkörper, Wärmetauscher und elektronische Bauteile macht.</p>"
+          }
+        },
+        "question_L3kRG9": {
+          "type": "question",
+          "settings": {
+            "title": "Winkelprofil",
+            "text": "<p>Alternative Schreibweisen: L-Profil, Alu-Winkel<br/><br/>Erklärung:<br/>Ein Winkelprofil ist ein L-förmiges Aluminiumprofil, das für Konstruktionen und Verstärkungen genutzt wird. Es bietet hohe Stabilität und Korrosionsbeständigkeit bei geringem Gewicht.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_NbyNLY",
+        "question_L3kRG9"
+      ],
+      "settings": {
+        "title": "W",
+        "description": ""
+      }
+    },
+    "faq_rJmf4C": {
+      "type": "faq",
+      "blocks": {
+        "question_tDrU34": {
+          "type": "question",
+          "settings": {
+            "title": "Zink",
+            "text": "<p>Alternative Schreibweisen: Zn, Hochfestigkeitslegierungsbestandteil<br/><br/>Erklärung:<br/>Zink erhöht die Festigkeit von Aluminiumlegierungen und wird in Hochleistungsanwendungen genutzt.</p>"
+          }
+        },
+        "question_rLRCnt": {
+          "type": "question",
+          "settings": {
+            "title": "Z-Profile",
+            "text": "<p>Alternative Schreibweisen: Z-Schiene, Z-Träger<br/><br/>Erklärung:<br/>Ein Z-Profil ist ein Aluminiumprofil mit Z-förmigem Querschnitt. Es wird für Verstärkungen, Rahmenkonstruktionen und Träger eingesetzt.</p>"
+          }
+        },
+        "question_CyU9Uy": {
+          "type": "question",
+          "settings": {
+            "title": "Zugfestigkeit",
+            "text": "<p>Alternative Schreibweisen: Reißfestigkeit, mechanische Belastbarkeit<br/><br/>Erklärung:<br/>Die Zugfestigkeit beschreibt die maximale Spannung, die ein Material aushält, bevor es bricht. Aluminiumlegierungen weisen je nach Zusammensetzung unterschiedliche Zugfestigkeiten auf, was sie für spezifische Einsatzgebiete besonders geeignet macht.</p>"
+          }
+        },
+        "question_kCEHCV": {
+          "type": "question",
+          "settings": {
+            "title": "Zuschnitte",
+            "text": "<p>Alternative Schreibweisen: Alu-Zuschnitte, Maßbleche<br/><br/>Erklärung:<br/>Aluminiumzuschnitte sind individuell zugeschnittene Bleche, Profile oder Platten für spezifische Anwendungen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_tDrU34",
+        "question_rLRCnt",
+        "question_CyU9Uy",
+        "question_kCEHCV"
+      ],
+      "settings": {
+        "title": "Z",
+        "description": ""
+      }
+    },
     "rich_text_YYYCiy": {
       "type": "rich-text",
       "blocks": {
@@ -795,6 +865,8 @@
     "faq_mj9bfd",
     "faq_nWKX8j",
     "faq_WrFdXY",
+    "faq_VgUFMn",
+    "faq_rJmf4C",
     "rich_text_YYYCiy",
     "advanced_content_D89bk3"
   ]
