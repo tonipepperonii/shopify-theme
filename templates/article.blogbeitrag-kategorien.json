@@ -19,14 +19,62 @@
         "blog_show_author": false
       }
     },
-    "featured_collection_3FGtya": {
-      "type": "featured-collection",
+    "featured_collections_RrfUVM": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_4mWdPU": {
+          "type": "collection",
+          "settings": {
+            "collection": "alu-profile-winkel",
+            "title": "Winkelprofil"
+          }
+        },
+        "collection_kJ4wmf": {
+          "type": "collection",
+          "settings": {
+            "collection": "platten",
+            "title": ""
+          }
+        },
+        "collection_fQg8mW": {
+          "type": "collection",
+          "settings": {
+            "collection": "alu-vierkantrohre",
+            "title": "Vierkantrohre"
+          }
+        },
+        "collection_dMkQxm": {
+          "type": "collection",
+          "settings": {
+            "collection": "sechskant",
+            "title": "Sechskant"
+          }
+        },
+        "collection_Mz4hAP": {
+          "type": "collection",
+          "settings": {
+            "collection": "rundrohr",
+            "title": ""
+          }
+        },
+        "collection_GAkpX7": {
+          "type": "collection",
+          "settings": {
+            "collection": "vierkantrohr",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_4mWdPU",
+        "collection_kJ4wmf",
+        "collection_fQg8mW",
+        "collection_dMkQxm",
+        "collection_Mz4hAP",
+        "collection_GAkpX7"
+      ],
       "settings": {
-        "title": "Passende Produkte",
-        "home_featured_products": "banke",
-        "count": 5,
-        "mobile_scrollable": true,
-        "view_all": false,
+        "title": "",
         "divider": false
       }
     },
@@ -51,7 +99,7 @@
   },
   "order": [
     "main",
-    "featured_collection_3FGtya",
+    "featured_collections_RrfUVM",
     "sidebar"
   ],
   "wrapper": "div.page-width.page-content.blog-layout"
