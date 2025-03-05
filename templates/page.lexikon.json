@@ -254,6 +254,327 @@
         "description": ""
       }
     },
+    "faq_yqaTi4": {
+      "type": "faq",
+      "blocks": {
+        "question_jgzdzG": {
+          "type": "question",
+          "settings": {
+            "title": "Dichte",
+            "text": "<p>Alternative Schreibweisen: Massendichte, spezifisches Gewicht<br/><br/>Erklärung:<br/>Die Dichte von Aluminium beträgt ca. 2,7 g/cm³ und ist damit deutlich geringer als die von Stahl. Dies macht Aluminium zu einem bevorzugten Werkstoff für Leichtbaukonstruktionen. Trotz des geringen Gewichts bietet Aluminium eine hohe Festigkeit und ist besonders gut verarbeitbar.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_jgzdzG"
+      ],
+      "settings": {
+        "title": "D",
+        "description": ""
+      }
+    },
+    "faq_GWLLpw": {
+      "type": "faq",
+      "blocks": {
+        "question_ULHjXx": {
+          "type": "question",
+          "settings": {
+            "title": "Eckprofil",
+            "text": "<p>Alternative Schreibweisen: Winkelprofil, Kantenschutzprofil<br/><br/>Erklärung:<br/>Ein Eckprofil ist ein stabförmiges Aluminiumteil, das häufig für Rahmenkonstruktionen eingesetzt wird.</p>"
+          }
+        },
+        "question_WixaH4": {
+          "type": "question",
+          "settings": {
+            "title": "Eloxieren",
+            "text": "<p>Alternative Schreibweisen: Anodisieren, Elektrolytische Oxidation<br/><br/>Erklärung:<br/>Eloxieren ist ein elektrochemisches Verfahren zur Oberflächenveredelung von Aluminium. Dabei wird eine oxidische Schutzschicht erzeugt, die das Material vor Korrosion schützt und optisch ansprechend macht. Eloxierte Aluminiumteile sind besonders widerstandsfähig und langlebig.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_ULHjXx",
+        "question_WixaH4"
+      ],
+      "settings": {
+        "title": "E",
+        "description": ""
+      }
+    },
+    "faq_nR4TP3": {
+      "type": "faq",
+      "blocks": {
+        "question_XFRTfL": {
+          "type": "question",
+          "settings": {
+            "title": "Flachprofil",
+            "text": "<p>Alternative Schreibweisen: Flachstange, Flachleiste<br/><br/>Erklärung:<br/>Ein Flachprofil ist ein längliches Aluminiumbauteil mit rechteckigem Querschnitt. Es wird in der Industrie, im Maschinenbau und bei Konstruktionen vielseitig eingesetzt.</p>"
+          }
+        },
+        "question_MJhw9k": {
+          "type": "question",
+          "settings": {
+            "title": "Fräsen",
+            "text": "<p>Alternative Schreibweisen: Zerspanung, CNC-Bearbeitung<br/><br/>Erklärung:<br/>Beim Fräsen wird Material durch rotierende Schneidwerkzeuge abgetragen, um Aluminiumbauteile mit hoher Präzision zu formen. Aluminium lässt sich besonders gut fräsen, was es für die Herstellung komplexer Bauteile in der Industrie unverzichtbar macht.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_XFRTfL",
+        "question_MJhw9k"
+      ],
+      "settings": {
+        "title": "F",
+        "description": ""
+      }
+    },
+    "faq_VBxijj": {
+      "type": "faq",
+      "blocks": {
+        "question_D86i74": {
+          "type": "question",
+          "settings": {
+            "title": "Härte",
+            "text": "<p>Alternative Schreibweisen: Festigkeit, Widerstandsfähigkeit<br/><br/>Erklärung:<br/>Die Härte von Aluminium beschreibt den Widerstand gegen Verformung. Sie variiert je nach Legierung und Wärmebehandlung.</p>"
+          }
+        },
+        "question_yMfYBz": {
+          "type": "question",
+          "settings": {
+            "title": "Hohlprofil",
+            "text": "<p>Alternative Schreibweisen: Alu-Strangpressprofil, Alu-Hohlstab<br/><br/>Erklärung:<br/>Ein Hohlprofil ist ein Aluminiumprofil mit einer innenliegenden Aussparung, die das Gewicht reduziert, aber die Stabilität erhält. Diese Profile werden oft im Fahrzeugbau, in Fassadenkonstruktionen und im Maschinenbau verwendet. Sie bieten eine ideale Kombination aus Leichtigkeit, Festigkeit und einfacher Verarbeitung.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_D86i74",
+        "question_yMfYBz"
+      ],
+      "settings": {
+        "title": "H",
+        "description": ""
+      }
+    },
+    "faq_i8AWxT": {
+      "type": "faq",
+      "blocks": {
+        "question_YaMQNh": {
+          "type": "question",
+          "settings": {
+            "title": "Korrosionsbeständigkeit",
+            "text": "<p>Alternative Schreibweisen: Rostschutz, Witterungsbeständigkeit<br/><br/>Erklärung:<br/>Aluminium bildet bei Kontakt mit Sauerstoff eine natürliche Oxidschicht, die es vor Korrosion schützt. Diese Eigenschaft macht es besonders widerstandsfähig gegenüber Witterungseinflüssen und Chemikalien. Zusätzliche Verfahren wie Eloxieren oder Pulverbeschichten verbessern die Korrosionsbeständigkeit weiter.</p>"
+          }
+        },
+        "question_zALyxA": {
+          "type": "question",
+          "settings": {
+            "title": "Kupfer",
+            "text": "<p>Alternative Schreibweisen: Cu, Elektrolytkupfer<br/><br/>Erklärung:<br/>Kupfer ist ein Metall mit hoher elektrischer und thermischer Leitfähigkeit. Es wird in der Elektro- und Bauindustrie verwendet.</p>"
+          }
+        },
+        "question_a6yXR8": {
+          "type": "question",
+          "settings": {
+            "title": "Kupferplatte",
+            "text": "<p>Alternative Schreibweisen: <br/><br/>Erklärung:<br/>Eine Kupferplatte ist eine flache Platte aus reinem Kupfer, verwendet für elektrische und industrielle Anwendungen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_YaMQNh",
+        "question_zALyxA",
+        "question_a6yXR8"
+      ],
+      "settings": {
+        "title": "K",
+        "description": ""
+      }
+    },
+    "faq_Xbabzm": {
+      "type": "faq",
+      "blocks": {
+        "question_7LUMiR": {
+          "type": "question",
+          "settings": {
+            "title": "Legierung",
+            "text": "<p>Alternative Schreibweisen: Aluminiumlegierung<br/><br/>Erklärung:<br/>Eine Legierung ist eine Mischung aus zwei oder mehr Metallen zur Verbesserung spezifischer Materialeigenschaften. Aluminiumlegierungen enthalten oft Magnesium, Silicium oder Kupfer, um Festigkeit, Korrosionsbeständigkeit oder Bearbeitbarkeit zu optimieren.</p>"
+          }
+        },
+        "question_taMR4m": {
+          "type": "question",
+          "settings": {
+            "title": "Leitfähigkeit",
+            "text": "<p>Alternative Schreibweisen: elektrische Leitfähigkeit, Wärmeleitfähigkeit<br/><br/>Erklärung:<br/>Aluminium hat eine hohe elektrische und thermische Leitfähigkeit. Es wird daher häufig als Alternative zu Kupfer in Stromleitungen oder als Material für Wärmetauscher und Kühlkörper verwendet. Dank des geringen Gewichts ist es besonders vorteilhaft für den Einsatz in der Elektrotechnik und in der Automobilindustrie.</p>"
+          }
+        },
+        "question_wTU8Hn": {
+          "type": "question",
+          "settings": {
+            "title": "Lochblech",
+            "text": "<p>Alternative Schreibweisen: Perforiertes Blech, gelochtes Aluminiumblech<br/><br/>Erklärung:<br/>Ein perforiertes Aluminiumblech mit Löchern in verschiedenen Formen für Lüftung, Design oder Filtration.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_7LUMiR",
+        "question_taMR4m",
+        "question_wTU8Hn"
+      ],
+      "settings": {
+        "title": "L",
+        "description": ""
+      }
+    },
+    "faq_9MxBt7": {
+      "type": "faq",
+      "blocks": {
+        "question_NiAYqb": {
+          "type": "question",
+          "settings": {
+            "title": "Magnesium",
+            "text": "<p>Alternative Schreibweisen: Mg, Festigkeitssteigerndes Element<br/><br/>Erklärung:<br/>Magnesium verbessert die Festigkeit und Korrosionsbeständigkeit von Aluminiumlegierungen.</p>"
+          }
+        },
+        "question_4YkUqD": {
+          "type": "question",
+          "settings": {
+            "title": "Mangan",
+            "text": "<p>Alternative Schreibweisen: Mn, Legierungselement für Aluminium<br/><br/>Erklärung:<br/>Mangan wird Aluminium zugesetzt, um Korrosionsbeständigkeit und Festigkeit zu verbessern.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_NiAYqb",
+        "question_4YkUqD"
+      ],
+      "settings": {
+        "title": "M",
+        "description": ""
+      }
+    },
+    "faq_hd8Mm6": {
+      "type": "faq",
+      "blocks": {
+        "question_LcLzdF": {
+          "type": "question",
+          "settings": {
+            "title": "Nieten",
+            "text": "<p>Alternative Schreibweisen: Nietverbindung, mechanische Fügung<br/><br/>Erklärung:<br/>Nieten ist eine mechanische Verbindungstechnik, die Aluminiumbauteile dauerhaft miteinander verbindet. Besonders in der Luftfahrt- und Fahrzeugindustrie werden Nieten eingesetzt, da sie eine feste, aber leichte Verbindung bieten.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_LcLzdF"
+      ],
+      "settings": {
+        "title": "N",
+        "description": ""
+      }
+    },
+    "faq_fgj39C": {
+      "type": "faq",
+      "blocks": {
+        "question_AgfqFQ": {
+          "type": "question",
+          "settings": {
+            "title": "Ovalrohr",
+            "text": "<p>Alternative Schreibweisen: <br/><br/>Erklärung:<br/>Ein Ovalrohr ist ein Aluminiumrohr mit ovalem Querschnitt. Es wird häufig in Design- und Architekturprojekten, im Möbelbau und im Fahrzeugbau eingesetzt. Die spezielle Form kombiniert ästhetische Eleganz mit hoher Stabilität und reduziertem Materialeinsatz.</p>"
+          }
+        },
+        "question_XQbKyG": {
+          "type": "question",
+          "settings": {
+            "title": "Oxidation",
+            "text": "<p>Alternative Schreibweisen: Oberflächenreaktion, Metalloxidbildung<br/><br/>Erklärung:<br/>Oxidation ist ein natürlicher chemischer Prozess, bei dem Aluminium mit Sauerstoff reagiert und eine schützende Oxidschicht bildet. Diese verhindert eine weitere Korrosion und macht das Material langlebig. Durch gezieltes Eloxieren kann die Oxidschicht verstärkt werden, wodurch Aluminium noch widerstandsfähiger gegen Umwelteinflüsse wird.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_AgfqFQ",
+        "question_XQbKyG"
+      ],
+      "settings": {
+        "title": "O",
+        "description": ""
+      }
+    },
+    "faq_kpzE9N": {
+      "type": "faq",
+      "blocks": {
+        "question_XwnKKx": {
+          "type": "question",
+          "settings": {
+            "title": "Polieren",
+            "text": "<p>Alternative Schreibweisen: Glanzbearbeitung, Hochglanzfinish<br/><br/>Erklärung:<br/>Polieren ist eine mechanische Bearbeitung zur Glättung der Aluminiumoberfläche. Dadurch entsteht eine glänzende oder spiegelnde Optik.</p>"
+          }
+        },
+        "question_dgrNed": {
+          "type": "question",
+          "settings": {
+            "title": "Pulverbeschichtung",
+            "text": "<p>Alternative Schreibweisen: Lackierung, Farbbeschichtung<br/><br/>Erklärung:<br/>Bei der Pulverbeschichtung wird eine schützende und dekorative Farbschicht auf das Aluminium aufgebracht. Dies verbessert die Witterungsbeständigkeit und ermöglicht eine Vielzahl an Farb- und Strukturoptionen.</p>"
+          }
+        },
+        "question_qLawrR": {
+          "type": "question",
+          "settings": {
+            "title": "PV-Befestigung",
+            "text": "<p>Alternative Schreibweisen: Solarhalterung, Photovoltaik-Montagesystem<br/><br/>Erklärung:<br/>Befestigungselemente für Photovoltaikanlagen, meist aus Aluminium, um Solarmodule sicher zu montieren.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_XwnKKx",
+        "question_dgrNed",
+        "question_qLawrR"
+      ],
+      "settings": {
+        "title": "P",
+        "description": ""
+      }
+    },
+    "faq_MrHtKt": {
+      "type": "faq",
+      "blocks": {
+        "question_hxNWCK": {
+          "type": "question",
+          "settings": {
+            "title": "Recycling",
+            "text": "<p>Alternative Schreibweisen: Wiederverwertung, Sekundäraluminium<br/><br/>Erklärung:<br/>Aluminium ist zu 100 % recycelbar, ohne Qualitätsverluste. Der Recyclingprozess benötigt nur ca. 5 % der Energie, die für die Erstproduktion erforderlich ist. Dadurch wird Aluminium zu einem nachhaltigen Werkstoff, der weltweit in verschiedenen Industrien wiederverwertet wird.</p>"
+          }
+        },
+        "question_UJpbxQ": {
+          "type": "question",
+          "settings": {
+            "title": "Reinaluminium",
+            "text": "<p>Alternative Schreibweisen: Al99,5, hochreines Aluminium<br/><br/>Erklärung:<br/>Reinaluminium enthält mindestens 99 % Aluminium und wird in chemischen und elektrischen Anwendungen eingesetzt.</p>"
+          }
+        },
+        "question_yRRUkg": {
+          "type": "question",
+          "settings": {
+            "title": "Riffelblech",
+            "text": "<p>Alternative Schreibweisen: Warzenblech, Tränenblech<br/><br/>Erklärung:<br/>Ein Riffelblech ist eine strukturierte Aluminiumplatte mit rutschfester Oberfläche. Es wird für Bodenbeläge, Treppen und Fahrzeugböden verwendet.</p>"
+          }
+        },
+        "question_trxVKh": {
+          "type": "question",
+          "settings": {
+            "title": "Rohrverbinder",
+            "text": "<p>Alternative Schreibweisen: Steckverbinder, Rohrkupplung<br/><br/>Erklärung:<br/>Rohrverbinder aus Aluminium ermöglichen die stabile Verbindung von Aluminiumrohren in Konstruktionen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_hxNWCK",
+        "question_UJpbxQ",
+        "question_yRRUkg",
+        "question_trxVKh"
+      ],
+      "settings": {
+        "title": "R",
+        "description": ""
+      }
+    },
     "advanced_content_qUrEfi": {
       "type": "advanced-content",
       "blocks": {
@@ -332,6 +653,17 @@
     "faq_jJ3cLk",
     "faq_xARxq6",
     "faq_gLMegP",
+    "faq_yqaTi4",
+    "faq_GWLLpw",
+    "faq_nR4TP3",
+    "faq_VBxijj",
+    "faq_i8AWxT",
+    "faq_Xbabzm",
+    "faq_9MxBt7",
+    "faq_hd8Mm6",
+    "faq_fgj39C",
+    "faq_kpzE9N",
+    "faq_MrHtKt",
     "advanced_content_qUrEfi",
     "rich_text_YYYCiy",
     "advanced_content_D89bk3"
