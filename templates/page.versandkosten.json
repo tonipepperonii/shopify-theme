@@ -83,7 +83,7 @@
         "liquid_6rAtgD": {
           "type": "liquid",
           "settings": {
-            "code": "<h3>GLS / UPS</h3><p>Ab einer Länge von 1,15 m bei GLS wird ein Überlängenzuschlag von 6 € und bei DHL von 7 € berechnet.</p>",
+            "code": "<h3>GLS / DHL</h3><p>Ab einer Länge von 1,15 m bei GLS wird ein Überlängenzuschlag von 6 € und bei DHL von 7 € berechnet.</p>",
             "width": "100%",
             "alignment": "center"
           }
