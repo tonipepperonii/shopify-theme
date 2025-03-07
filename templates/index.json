@@ -34,17 +34,17 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<h2>Aluminium bohren</h2>",
+            "title": "<h2>Aluminium reinigen</h2>",
             "title_size": 55,
-            "subheading": "Erfahre wie Du Aluminium bohren kannst und welche Bohrer geeignet sind.",
-            "link": "shopify://blogs/aluminium-basics/bohren-von-aluminium",
+            "subheading": "Erfahre hier, wie Du Aluminium richtig reinigst und wie es im Frühling wieder glänzt.",
+            "link": "shopify://blogs/aluminium-basics/effektive-aluminiumreinigung-fur-glanzende-oberflachen",
             "link_text": "Jetzt lesen",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#ff9900",
             "text_align": "vertical-center horizontal-right",
-            "image": "shopify://shop_images/Hero_Alubearbeiten_2.png",
-            "image_mobile": "shopify://shop_images/Aluminium_bohren_mobil_Shop.png",
+            "image": "shopify://shop_images/Hero_Blog_Aluminium_reinigen.png",
+            "image_mobile": "shopify://shop_images/Aluminium_reinigen_1.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
