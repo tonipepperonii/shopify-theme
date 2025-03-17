@@ -49,22 +49,22 @@
             "focal_point": "center center"
           }
         },
-        "hero_tBrDR4": {
+        "hero_iNPGmq": {
           "type": "hero",
-          "disabled": true,
           "settings": {
-            "top_subheading": "Sichere dir noch 10% Rabatt auf Platten und Bleche mit dem Code: Platte10",
-            "title": "<p>10% Rabatt sichern</p>",
-            "title_size": 40,
+            "top_subheading": "",
+            "title": "",
+            "title_size": 70,
             "subheading": "",
             "link": "",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#ff9900",
-            "text_align": "vertical-center horizontal-right",
-            "image": "shopify://shop_images/Hero_Suppe.png",
-            "overlay_opacity": 50,
+            "color_accent": "#fff",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/Hero_Staffelrabatt_4.png",
+            "image_mobile": "shopify://shop_images/Hero_mobil_Staffelrabatt.png",
+            "overlay_opacity": 0,
             "focal_point": "center center"
           }
         },
@@ -108,7 +108,7 @@
       "block_order": [
         "hero_qTNdfV",
         "hero_33fmRU",
-        "hero_tBrDR4",
+        "hero_iNPGmq",
         "hero_tA3crh",
         "hero_mcNRE4"
       ],
