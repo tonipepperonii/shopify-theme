@@ -83,7 +83,7 @@
         "liquid_6rAtgD": {
           "type": "liquid",
           "settings": {
-            "code": "<h3>GLS / DHL</h3><p>Ab einer Länge von 1,15 m bei GLS wird ein Überlängenzuschlag von 6 € und bei DHL von 7 € berechnet.</p>",
+            "code": "<h3>GLS / DHL</h3><p>Ab einer Länge von 1,15 m bei wird ein Überlängenzuschlag von 8,50 € berechnet.</p>",
             "width": "100%",
             "alignment": "center"
           }
@@ -91,7 +91,7 @@
         "template--18215882654000__c82253ad-fcd0-40e0-a47d-d19487a9ceb5-1677841455170e0e06-1": {
           "type": "liquid",
           "settings": {
-            "code": "<table>\n  <tr>\n    <th>Paket</th>\n    <th>Deutschland (standard)</th>\n    <th>Deutschland (express)</th>\n<th>Schweiz (ohne MwSt.)</th>\n\n  </tr>\n  <tr>\n    <td>bis 5 kg</td>\n    <td>DHL: 7,45 € / GLS: 6,95 €</td>\n    <td>25,95 €</td>\n\n<td>33,00 €</td>\n  </tr>\n  <tr>\n    <td>5 bis 10 kg</td>\n    <td>9,45 €</td>\n    <td>28,45 €</td>\n\n<td>35,00 €</td>\n  </tr>\n  <tr>\n    <td>10 bis 20 kg</td>\n    <td>11,95 €</td>\n    <td>30,95 €</td>\n\t\n    <td>39,00 €</td>\n  </tr>\n  <tr>\n    <td>20 bis 50 kg</td>\n    <td>21,45 €</td>\n    <td>40,45 €</td>\n\n<td>63,00 €</td>\n  </tr>\n<tr>\n<td>Paket über 50 kg</td>\n<td>35 €</td>\n\n</tr>\n</table>",
+            "code": "<table>\n  <tr>\n    <th>Paket</th>\n    <th>Deutschland (standard)</th>\n    <th>Deutschland (express)</th>\n<th>Schweiz (ohne MwSt.)</th>\n\n  </tr>\n  <tr>\n    <td>bis 5 kg</td>\n    <td>6,95 €</td>\n    <td>25,95 €</td>\n    <td>33,00 €</td>\n  </tr>\n  <tr>\n    <td>5 bis 10 kg</td>\n    <td>7,95 €</td>\n    <td>28,45 €</td>\n    <td>35,00 €</td>\n  </tr>\n  <tr>\n    <td>10 bis 20 kg</td>\n    <td>9,95 €</td>\n    <td>30,95 €</td>\n    <td>39,00 €</td>\n  </tr>\n  <tr>\n    <td>20 bis 50 kg</td>\n    <td>21,45 €</td>\n    <td>40,45 €</td>\n\n<td>63,00 €</td>\n  </tr>\n<tr>\n<td>Paket über 50 kg</td>\n<td>35 €</td>\n\n</tr>\n</table>",
             "width": "100%",
             "alignment": "center"
           }
