@@ -172,6 +172,17 @@
         "product_video_style": "muted"
       }
     },
+    "featured_collection_fWfg4T": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Passendes Zubehör",
+        "home_featured_products": "pv-montage",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "c1ac324a-eaf3-4b54-96f2-fe1b250705f5": {
       "type": "sidebar-rich-text",
       "blocks": {
@@ -274,6 +285,7 @@
     "5496d8f0-cbe1-4f56-b789-aad06ed907f2",
     "rich_text_aDK6jL",
     "main",
+    "featured_collection_fWfg4T",
     "c1ac324a-eaf3-4b54-96f2-fe1b250705f5",
     "sub",
     "recommendations",
