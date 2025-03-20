@@ -124,6 +124,17 @@
         "product_video_style": "muted"
       }
     },
+    "featured_collection_9CgUFy": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Weitere Optionen",
+        "home_featured_products": "stopfen",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "sub": {
       "type": "product-full-width",
       "blocks": {
@@ -214,6 +225,7 @@
   "order": [
     "11d26c36-a631-42d5-892c-ed8bfd22fef4",
     "main",
+    "featured_collection_9CgUFy",
     "sub",
     "recommendations",
     "more-products-vendor",
