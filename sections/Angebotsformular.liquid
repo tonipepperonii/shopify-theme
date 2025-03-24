@@ -1,4 +1,4 @@
-<div class="page-width">
+<div class="page-width page-width--narrow" id="angebotsformular">
   <div class="grid grid--small">
     <div class="grid__item medium-up--one-whole">
       <h2 style="text-align: center;">Angebotsanfrage</h2>
@@ -66,6 +66,20 @@
             <input type="number" id="laenge" name="contact[Länge]" class="input-full" required min="0" placeholder="mm" />
           </div>
 
+          <!-- Dynamische Ja/Nein-Abfrage -->
+          <div id="schnitt-hinweis-wrapper" class="grid__item medium-up--one-whole" style="display: none; margin-top: 1.5rem;">
+            <p style="margin-bottom: 0.8rem;">
+              Du hast eine Länge von <strong>1000mm</strong>, <strong>1500mm</strong> oder <strong>2000mm</strong> gewählt.<br>
+              Wenn wir komplette Lagerlängen aufsägen, werden diese ca. <strong>5 mm kürzer</strong> (durch die Sägeblattdicke).<br>
+              Wärst du damit einverstanden?
+            </p>
+            <input type="hidden" id="toleranz-wert" name="contact[Schnitt-Toleranz akzeptiert]" required>
+            <div class="toleranz-buttons">
+              <button type="button" class="toleranz-button" data-value="Ja">Ja</button>
+              <button type="button" class="toleranz-button" data-value="Nein">Nein</button>
+            </div>
+          </div>
+
           <!-- Checkbox -->
           <div class="grid__item medium-up--one-whole">
             <label for="masse_bestaetigung" style="display: flex; align-items: center;">
@@ -94,6 +108,69 @@
     </div>
   </div>
 </div>
+
+<!-- STYLE für die Ja/Nein-Buttons -->
+<style>
+  .toleranz-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .toleranz-button {
+    background-color: #ff9933;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    transition: background-color 0.2s ease;
+  }
+
+  .toleranz-button:hover {
+    background-color: #e67e22;
+  }
+
+  .toleranz-button.active {
+    background-color: #d35400;
+  }
+</style>
+
+<!-- JS für die dynamische Abfrage -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const laengeInput = document.getElementById("laenge");
+    const hinweisWrapper = document.getElementById("schnitt-hinweis-wrapper");
+    const toleranzButtons = document.querySelectorAll(".toleranz-button");
+    const hiddenField = document.getElementById("toleranz-wert");
+
+    const relevanteLaengen = ["1000", "1500", "2000"];
+
+    function checkLaenge() {
+      const value = laengeInput.value.trim();
+      if (relevanteLaengen.includes(value)) {
+        hinweisWrapper.style.display = "block";
+      } else {
+        hinweisWrapper.style.display = "none";
+        hiddenField.value = "";
+        toleranzButtons.forEach(btn => btn.classList.remove("active"));
+      }
+    }
+
+    toleranzButtons.forEach(btn => {
+      btn.addEventListener("click", function () {
+        hiddenField.value = this.dataset.value;
+        toleranzButtons.forEach(b => b.classList.remove("active"));
+        this.classList.add("active");
+      });
+    });
+
+    laengeInput.addEventListener("input", checkLaenge);
+    checkLaenge();
+  });
+</script>
 
 {% schema %}
 {
