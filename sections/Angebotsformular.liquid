@@ -1,6 +1,108 @@
+<div class="page-width">
+  <div class="grid grid--small">
+    <div class="grid__item medium-up--one-whole">
+      <h2 style="text-align: center;">Angebotsanfrage</h2>
+    </div>
+
+    <div class="form-vertical">
+      <form method="post" action="/contact#angebotsformular" accept-charset="UTF-8" class="contact-form">
+        <input type="hidden" name="form_type" value="contact">
+        <input type="hidden" name="utf8" value="✓">
+
+        <div class="grid grid--small">
+          <!-- Name -->
+          <div class="grid__item medium-up--one-half">
+            <label for="ContactFormName">Name<span style="color: red;">*</span></label>
+            <input type="text" id="ContactFormName" name="contact[name]" class="input-full" required>
+          </div>
+
+          <!-- E-Mail -->
+          <div class="grid__item medium-up--one-half">
+            <label for="ContactFormEmail">E-Mail<span style="color: red;">*</span></label>
+            <input type="email" id="ContactFormEmail" name="contact[email]" class="input-full" required>
+          </div>
+
+          <!-- Eloxieren -->
+          <div class="grid__item medium-up--one-half">
+            <label for="eloxieren">Eloxieren<span style="color: red;">*</span></label>
+            <select id="eloxieren" name="contact[Eloxieren]" class="input-full" required>
+              <option value="">Bitte wählen</option>
+              <option value="Nein">Nein</option>
+              <option value="Silber">Silber EV1</option>
+              <option value="Schwarz">Schwarz C35</option>
+            </select>
+          </div>
+
+          <!-- Profil / Platte -->
+          <div class="grid__item medium-up--one-half">
+            <label for="profil_platte">Profil / Platte<span style="color: red;">*</span></label>
+            <input type="text" id="profil_platte" name="contact[Profil oder Platte]" class="input-full" required placeholder="z. B. U-Profil" />
+          </div>
+
+          <!-- Menge -->
+          <div class="grid__item medium-up--one-half">
+            <label for="menge">Menge<span style="color: red;">*</span></label>
+            <input type="number" id="menge" name="contact[Menge]" class="input-full" required min="0" placeholder="z. B. 50" />
+          </div>
+
+          <!-- Maße -->
+          <div class="grid__item medium-up--one-half">
+            <label for="hoehe">Höhe (mm)<span style="color: red;">*</span></label>
+            <input type="number" id="hoehe" name="contact[Höhe]" class="input-full" required min="0" placeholder="mm" />
+          </div>
+
+          <div class="grid__item medium-up--one-half">
+            <label for="breite">Breite (mm)<span style="color: red;">*</span></label>
+            <input type="number" id="breite" name="contact[Breite]" class="input-full" required min="0" placeholder="mm" />
+          </div>
+
+          <div class="grid__item medium-up--one-half">
+            <label for="staerke">Stärke (mm)<span style="color: red;">*</span></label>
+            <input type="number" id="staerke" name="contact[Stärke]" class="input-full" required min="0" placeholder="mm" />
+          </div>
+
+          <div class="grid__item medium-up--one-half">
+            <label for="laenge">Länge (mm)<span style="color: red;">*</span></label>
+            <input type="number" id="laenge" name="contact[Länge]" class="input-full" required min="0" placeholder="mm" />
+          </div>
+
+          <!-- Checkbox -->
+          <div class="grid__item medium-up--one-whole">
+            <label for="masse_bestaetigung" style="display: flex; align-items: center;">
+              <input type="checkbox" id="masse_bestaetigung" name="contact[Maße bestätigt]" required style="margin-right: 0.5em;">
+              Alle Maße wurden in mm angegeben und werden so verarbeitet.<span style="color: red;">*</span>
+            </label>
+          </div>
+
+          <!-- Nachricht -->
+          <div class="grid__item medium-up--one-whole">
+            <label for="ContactFormMessage">Nachricht</label>
+            <textarea rows="5" id="ContactFormMessage" class="input-full" name="contact[body]"></textarea>
+          </div>
+
+          <!-- Pflichtfeld-Hinweis -->
+          <div class="grid__item medium-up--one-whole">
+            <p><span style="color: red;">*</span> Pflichtfeld</p>
+          </div>
+
+          <!-- Submit -->
+          <div class="grid__item medium-up--one-whole">
+            <button type="submit" class="btn">Anfrage absenden</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Angebotsformular",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Angebotsformular"
+    }
+  ]
+}
 {% endschema %}
