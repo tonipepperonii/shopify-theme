@@ -19,7 +19,7 @@
       "settings": {
         "title": "Angebotsanfrage",
         "text": "",
-        "show_phone": true,
+        "show_phone": false,
         "narrow_column": true,
         "color_scheme": "1"
       }
