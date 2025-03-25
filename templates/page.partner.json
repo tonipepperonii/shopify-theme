@@ -1,40 +1,31 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "rich_text_gh4gUa": {
       "type": "rich-text",
       "blocks": {
-        "heading_nzc4Gh": {
-          "type": "heading",
-          "settings": {
-            "title": "Unsere Partner",
-            "show_line": false
-          }
-        },
         "text_XhCz9w": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Ein stabiles Netz ist für den Erfolg eines Unternehmens von entscheidender Bedeutung. Wir wissen, wie wichtig Zuverlässigkeit und Vertrauen für unsere und deine Arbeit sind. Deshalb pflegen wir langfristige Kooperationen mit zuverlässigen Unternehmen.<br\/><br\/>Wir möchten uns bei unseren bewährten Partnern für die hervorragende Zusammenarbeit bedanken. Wir freuen uns darauf, gemeinsam an weiteren spannenden Projekten zu arbeiten und unseren gemeinsamen Erfolg voranzutreiben.<\/p>"
+            "text": "<h1>Unsere Partner</h1><p>Ein stabiles Netz ist für den Erfolg eines Unternehmens von entscheidender Bedeutung. Wir wissen, wie wichtig Zuverlässigkeit und Vertrauen für unsere und deine Arbeit sind. Deshalb pflegen wir langfristige Kooperationen mit zuverlässigen Unternehmen.<br/><br/>Wir möchten uns bei unseren bewährten Partnern für die hervorragende Zusammenarbeit bedanken. Wir freuen uns darauf, gemeinsam an weiteren spannenden Projekten zu arbeiten und unseren gemeinsamen Erfolg voranzutreiben.</p>"
           }
         }
       },
       "block_order": [
-        "heading_nzc4Gh",
         "text_XhCz9w"
       ],
       "settings": {
@@ -47,13 +38,13 @@
     "text_and_image_9jmptp": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Logo_EQOH_Weiss_Gelb_120x_2x_5b2a1757-6e5a-499a-9a16-dc9b335f5318.png",
+        "image": "shopify://shop_images/Logo_EQOH_Weiss_Gelb_120x_2x_5b2a1757-6e5a-499a-9a16-dc9b335f5318.png",
         "image_width": 290,
         "subtitle": "",
         "title": "EQOH GmbH",
-        "text": "<p>EQOH GmbH ist unser Partner für Balkonkraftwerke mit intelligenten Speichern.<\/p>",
+        "text": "<p>EQOH GmbH ist unser Partner für Balkonkraftwerke mit intelligenten Speichern.</p>",
         "button_label": "Weiter zu EQOH GmbH",
-        "button_link": "https:\/\/www.eqoh.de\/?tw_source=google&tw_adid=669591395961&tw_campaign=20415379382&tw_source=google&tw_adid=669591395961&tw_campaign=20415379382&utm_term=eqoh&utm_content=eqoh&utm_campaign=DE_|_Brand&utm_source=google&utm_medium=cpc&gad_source=1&gclid=Cj0KCQjwq_G1BhCSARIsACc7Nxrk6N0Y1AFnGEs2PbZdt8ssbg8VNWTBkVmOVvxEb9KPuUriVTztum4aAt3IEALw_wcB",
+        "button_link": "https://www.eqoh.de/?tw_source=google&tw_adid=669591395961&tw_campaign=20415379382&tw_source=google&tw_adid=669591395961&tw_campaign=20415379382&utm_term=eqoh&utm_content=eqoh&utm_campaign=DE_|_Brand&utm_source=google&utm_medium=cpc&gad_source=1&gclid=Cj0KCQjwq_G1BhCSARIsACc7Nxrk6N0Y1AFnGEs2PbZdt8ssbg8VNWTBkVmOVvxEb9KPuUriVTztum4aAt3IEALw_wcB",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
@@ -64,13 +55,13 @@
     "text_and_image_ARdina": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Logo_MoWa_GmbH.png",
+        "image": "shopify://shop_images/Logo_MoWa_GmbH.png",
         "image_width": 520,
         "subtitle": "",
         "title": "MoWa Pulverbeschichtung GmbH",
-        "text": "<p>MoWa berät und kümmert sich um Deine Projekte rund um die Themen Pulverbeschichtung und Sandstrahlen.<\/p>",
+        "text": "<p>MoWa berät und kümmert sich um Deine Projekte rund um die Themen Pulverbeschichtung und Sandstrahlen.</p>",
         "button_label": "Weiter zu MoWa Pulverbeschichtung GmbH",
-        "button_link": "https:\/\/www.mowa-pulvertechnik.de\/",
+        "button_link": "https://www.mowa-pulvertechnik.de/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "left",
@@ -81,13 +72,13 @@
     "text_and_image_FJghjn": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/uncle-phil.png",
+        "image": "shopify://shop_images/uncle-phil.png",
         "image_width": 220,
         "subtitle": "",
         "title": "Uncle Phil",
-        "text": "<p>Uncle Phil bietet Dir open-source mäßig Baupläne und Zeichnungen für die CNC-Fräse, 3D-Drucker und alles dazu an.<\/p>",
+        "text": "<p>Uncle Phil bietet Dir open-source mäßig Baupläne und Zeichnungen für die CNC-Fräse, 3D-Drucker und alles dazu an.</p>",
         "button_label": "Weiter zu Uncle Phil",
-        "button_link": "https:\/\/www.unclephil.de\/volksfr%C3%A4se-vf1\/",
+        "button_link": "https://www.unclephil.de/volksfr%C3%A4se-vf1/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
@@ -98,13 +89,13 @@
     "text_and_image_6MCfHk": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Jaster_wei-blau_grau.webp",
+        "image": "shopify://shop_images/Jaster_wei-blau_grau.webp",
         "image_width": 520,
         "subtitle": "",
         "title": "Jaster CNC Technik",
-        "text": "<p>Jaster bietet Dir alles rund um die CNC-Fräse.<\/p>",
+        "text": "<p>Jaster bietet Dir alles rund um die CNC-Fräse.</p>",
         "button_label": "Weiter zu Jaster",
-        "button_link": "https:\/\/jaster-cnc.de\/",
+        "button_link": "https://jaster-cnc.de/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "left",
@@ -115,13 +106,13 @@
     "text_and_image_xnBWmV": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/pirate-vans-25_4.png",
+        "image": "shopify://shop_images/pirate-vans-25_4.png",
         "image_width": 290,
         "subtitle": "",
         "title": "Pirate Vans",
-        "text": "<p>Pirate Vans entwickelt und vertreibt Camping-Module, mit denen Ihr Eure Fahrzeuge der VW-Bus-Klasse innerhalb von 15 Minuten zu vollwertigen Campern umrüsten könnt.<\/p>",
+        "text": "<p>Pirate Vans entwickelt und vertreibt Camping-Module, mit denen Ihr Eure Fahrzeuge der VW-Bus-Klasse innerhalb von 15 Minuten zu vollwertigen Campern umrüsten könnt.</p>",
         "button_label": "Weiter zu Pirate Vans",
-        "button_link": "https:\/\/www.pirate-vans.com\/",
+        "button_link": "https://www.pirate-vans.com/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
@@ -133,13 +124,13 @@
       "type": "text-and-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/logo-metallbau-genath.jpg",
+        "image": "shopify://shop_images/logo-metallbau-genath.jpg",
         "image_width": 520,
         "subtitle": "",
         "title": "Michael Genath - Metallbau und Schlosserei",
-        "text": "<p>Genath Metallbau ist ein mittelständiger Handwerksbetrieb, der Bauelemente in Aluminium nach Maßanfertigung und nach Ihren individuellen Wünschen fertigt.<\/p>",
+        "text": "<p>Genath Metallbau ist ein mittelständiger Handwerksbetrieb, der Bauelemente in Aluminium nach Maßanfertigung und nach Ihren individuellen Wünschen fertigt.</p>",
         "button_label": "Weiter zu Metallbau Genath",
-        "button_link": "https:\/\/metallbaugenath.de\/",
+        "button_link": "https://metallbaugenath.de/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "left",
@@ -151,13 +142,13 @@
       "type": "text-and-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/kothe-logo-02.png",
+        "image": "shopify://shop_images/kothe-logo-02.png",
         "image_width": 290,
         "subtitle": "",
         "title": "Kothe Galvanik",
-        "text": "<p>Kothe Galvanik bietet eine breite Palette von Leistungen an, um die<br\/>Oberflächen von Metallteilen zu veredeln und ihre Haltbarkeit und Ästhetik zu verbessern.<\/p>",
+        "text": "<p>Kothe Galvanik bietet eine breite Palette von Leistungen an, um die<br/>Oberflächen von Metallteilen zu veredeln und ihre Haltbarkeit und Ästhetik zu verbessern.</p>",
         "button_label": "Weiter zu Kothe Galvanik",
-        "button_link": "https:\/\/kothe-galvanik.de\/",
+        "button_link": "https://kothe-galvanik.de/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
@@ -169,13 +160,13 @@
       "type": "text-and-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/gebu-technik-logo.png",
+        "image": "shopify://shop_images/gebu-technik-logo.png",
         "image_width": 290,
         "subtitle": "",
         "title": "GEBU tec",
-        "text": "<p>GEBU tec bietet ein großes Spektrum an Leistungen im CNC-Bereich, der Bauteilfertigung oder der Weiterverarbeitung an. Wobei sie besonderen Wert auf höchsten Qualitätsstandard und Flexibilität legen.<\/p>",
+        "text": "<p>GEBU tec bietet ein großes Spektrum an Leistungen im CNC-Bereich, der Bauteilfertigung oder der Weiterverarbeitung an. Wobei sie besonderen Wert auf höchsten Qualitätsstandard und Flexibilität legen.</p>",
         "button_label": "Weiter zu GEBU TEC",
-        "button_link": "https:\/\/www.gebu-tec.de\/",
+        "button_link": "https://www.gebu-tec.de/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "left",
@@ -187,13 +178,13 @@
       "type": "text-and-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/sino-bikeports_logo.svg",
+        "image": "shopify://shop_images/sino-bikeports_logo.svg",
         "image_width": 290,
         "subtitle": "",
         "title": "SinoMak Bikeports",
-        "text": "<p>SinoMak Bikeports bieten individuelle Fahrradgaragen und Unterstände für deinen Bedarf an.<\/p>",
+        "text": "<p>SinoMak Bikeports bieten individuelle Fahrradgaragen und Unterstände für deinen Bedarf an.</p>",
         "button_label": "Weiter zu SinoMak Bikeports",
-        "button_link": "https:\/\/www.bikeports.com\/",
+        "button_link": "https://www.bikeports.com/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
@@ -204,13 +195,13 @@
     "text_and_image_p46hnN": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/gentemann_metallbau_Logo_mit_grau.png",
+        "image": "shopify://shop_images/gentemann_metallbau_Logo_mit_grau.png",
         "image_width": 290,
         "subtitle": "",
         "title": "Gentemann Metallbau",
-        "text": "<p>Gentemann Metallbau ist Dein Experte für individuelle Schweißkonstruktionen aus Aluminium<\/p>",
+        "text": "<p>Gentemann Metallbau ist Dein Experte für individuelle Schweißkonstruktionen aus Aluminium</p>",
         "button_label": "Weiter zu Gentemann Metallbau",
-        "button_link": "https:\/\/www.gentemann-metallbau.de\/",
+        "button_link": "https://www.gentemann-metallbau.de/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "left",
@@ -222,13 +213,13 @@
       "type": "text-and-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Logo-LichtKlang-LTM-800x314.png",
+        "image": "shopify://shop_images/Logo-LichtKlang-LTM-800x314.png",
         "image_width": 290,
         "subtitle": "",
         "title": "LichtKlang",
-        "text": "<p>LichtKlang ist ein Full-Service-Dienstleister der eure Events mit der erforderlichen Veranstaltungstechnik ausstattet. Licht-, Ton- und Medientechnik sind ihre Berufung.<\/p>",
+        "text": "<p>LichtKlang ist ein Full-Service-Dienstleister der eure Events mit der erforderlichen Veranstaltungstechnik ausstattet. Licht-, Ton- und Medientechnik sind ihre Berufung.</p>",
         "button_label": "Weiter zu LichtKlang",
-        "button_link": "https:\/\/lichtklang-hannover.de\/",
+        "button_link": "https://lichtklang-hannover.de/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
@@ -239,13 +230,13 @@
     "text_and_image_NVbVzJ": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/jendrossek.png",
+        "image": "shopify://shop_images/jendrossek.png",
         "image_width": 440,
         "subtitle": "",
         "title": "Jendrossek Autoteile GmbH",
-        "text": "<p>Jendrossek kümmert sich um Dein Auto und ist zudem spezialisiert auf den Innenausbau von kleinen und großen Transportern.<\/p>",
+        "text": "<p>Jendrossek kümmert sich um Dein Auto und ist zudem spezialisiert auf den Innenausbau von kleinen und großen Transportern.</p>",
         "button_label": "Weiter zu Jendrossek",
-        "button_link": "https:\/\/www.jendrossek.de\/index.php",
+        "button_link": "https://www.jendrossek.de/index.php",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
@@ -256,13 +247,13 @@
     "text_and_image_AMfP3G": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/varie-vestimentum_logo.png",
+        "image": "shopify://shop_images/varie-vestimentum_logo.png",
         "image_width": 290,
         "subtitle": "",
         "title": "VARIE VESTIMENTUM",
-        "text": "<p>VARIE VESTIMENTUM ist unser kompetenter und zuverlässiger Partner für individuelle Textilveredelung und wirkungsvolle Werbetechnik.<\/p>",
+        "text": "<p>VARIE VESTIMENTUM ist unser kompetenter und zuverlässiger Partner für individuelle Textilveredelung und wirkungsvolle Werbetechnik.</p>",
         "button_label": "Weiter zu VARIE VESTIMENTUM",
-        "button_link": "https:\/\/varie-vestimentum.de\/",
+        "button_link": "https://varie-vestimentum.de/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "left",
@@ -274,13 +265,13 @@
       "type": "text-and-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Logo-LichtKlang-LTM-800x314.png",
+        "image": "shopify://shop_images/Logo-LichtKlang-LTM-800x314.png",
         "image_width": 290,
         "subtitle": "",
         "title": "LichtKlang",
-        "text": "<p>SinoMak Bikeports bieten individuelle Fahrradgaragen und Unterstände für deinen Bedarf an.<\/p>",
+        "text": "<p>SinoMak Bikeports bieten individuelle Fahrradgaragen und Unterstände für deinen Bedarf an.</p>",
         "button_label": "Weiter zu LichtKlang",
-        "button_link": "https:\/\/lichtklang-hannover.de\/",
+        "button_link": "https://lichtklang-hannover.de/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
@@ -291,13 +282,13 @@
     "text_and_image_BnYhc7": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/spiegelart_Logo.jpg",
+        "image": "shopify://shop_images/spiegelart_Logo.jpg",
         "image_width": 350,
         "subtitle": "",
         "title": "Spiegelart",
-        "text": "<p>Spiegelart ist ein familiengeführtes Unternehmen das sich auf Spiegel und Gläser spezialisiert hat.<\/p>",
+        "text": "<p>Spiegelart ist ein familiengeführtes Unternehmen das sich auf Spiegel und Gläser spezialisiert hat.</p>",
         "button_label": "Weiter zu Spiegelart",
-        "button_link": "https:\/\/www.spiegelart.com\/",
+        "button_link": "https://www.spiegelart.com/",
         "button_style": "primary",
         "align_text": "left",
         "layout": "left",
