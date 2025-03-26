@@ -78,7 +78,7 @@
           "type": "inventory_status",
           "settings": {
             "inventory_threshold": 6,
-            "inventory_transfers_enable": true
+            "inventory_transfers_enable": false
           }
         },
         "trusted_shops_easy_integration_mini_stars_eAQGzE": {
