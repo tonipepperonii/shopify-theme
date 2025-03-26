@@ -74,13 +74,6 @@
             "color_swatches": false
           }
         },
-        "inventory_status_LKYMJd": {
-          "type": "inventory_status",
-          "settings": {
-            "inventory_threshold": 0,
-            "inventory_transfers_enable": false
-          }
-        },
         "trusted_shops_easy_integration_mini_stars_eAQGzE": {
           "type": "shopify://apps/trusted-shops-reviews-and-more/blocks/mini-stars/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
           "settings": {}
@@ -109,7 +102,6 @@
       },
       "block_order": [
         "variant_picker",
-        "inventory_status_LKYMJd",
         "trusted_shops_easy_integration_mini_stars_eAQGzE",
         "price",
         "0b529514-2cd6-442b-91f6-cd9726c87e30",
