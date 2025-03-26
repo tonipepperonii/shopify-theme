@@ -77,7 +77,7 @@
         "inventory_status_LKYMJd": {
           "type": "inventory_status",
           "settings": {
-            "inventory_threshold": 10,
+            "inventory_threshold": 6,
             "inventory_transfers_enable": true
           }
         },
