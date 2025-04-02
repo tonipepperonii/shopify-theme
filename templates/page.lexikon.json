@@ -62,21 +62,13 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Aluminium ist ein vielseitiger Werkstoff, der in zahlreichen Branchen wie Bau, Maschinenbau, Luftfahrt und Automobilindustrie eingesetzt wird. Seine besonderen Eigenschaften – leicht, korrosionsbeständig und gut formbar – machen es zu einem unverzichtbaren Material für Konstruktionen und technische Anwendungen</p><p></p><p>In unserem Aluminium-Lexikon findest Du alle wichtigen Begriffe rund um Aluminium, von Profilen und Legierungen bis hin zu mechanischen Eigenschaften und Verarbeitungstechniken. Erfahre mehr über Aluminiumbleche, Vierkantrohre, Zugfestigkeit, Eloxieren, Wärmeleitfähigkeit und vieles mehr.</p><p></p>"
-          }
-        },
-        "text_3XRWtU": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p>Angaben ohne Gewähr auf Vollständigkeit/Richtigkeit</p>"
+            "text": "<p>Aluminium ist ein vielseitiger Werkstoff, der in zahlreichen Branchen wie Bau, Maschinenbau, Luftfahrt und Automobilindustrie eingesetzt wird. Seine besonderen Eigenschaften – leicht, korrosionsbeständig und gut formbar – machen es zu einem unverzichtbaren Material für Konstruktionen und technische Anwendungen</p><p></p><p>In unserem Aluminium-Lexikon findest Du alle wichtigen Begriffe rund um Aluminium, von Profilen und Legierungen bis hin zu mechanischen Eigenschaften und Verarbeitungstechniken. Erfahre mehr über Aluminiumbleche, Vierkantrohre, Zugfestigkeit, Eloxieren, Wärmeleitfähigkeit und vieles mehr.</p><p>Angaben ohne Gewähr auf Vollständigkeit/Richtigkeit</p>"
           }
         }
       },
       "block_order": [
         "template--18204608954672__2bcb0b91-7c44-4198-96e9-16d6053e6160-167783245720b5ce44-1",
-        "text_Mm6X66",
-        "text_3XRWtU"
+        "text_Mm6X66"
       ],
       "settings": {
         "align_text": "center",
