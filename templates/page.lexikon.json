@@ -490,6 +490,42 @@
         "description": ""
       }
     },
+    "glossar_bht6Wz": {
+      "type": "glossar",
+      "blocks": {
+        "term_36eyT6": {
+          "type": "term",
+          "settings": {
+            "title": "Polieren",
+            "text": "<p>Alternative Schreibweisen: Glanzbearbeitung, Hochglanzfinish<br/><br/>Erklärung:<br/>Polieren ist eine mechanische Bearbeitung zur Glättung der Aluminiumoberfläche. Dadurch entsteht eine glänzende oder spiegelnde Optik.</p>"
+          }
+        },
+        "term_NxLgk6": {
+          "type": "term",
+          "settings": {
+            "title": "Pulverbeschichtung",
+            "text": "<p>Alternative Schreibweisen: Lackierung, Farbbeschichtung<br/><br/>Erklärung:<br/>Bei der Pulverbeschichtung wird eine schützende und dekorative Farbschicht auf das Aluminium aufgebracht. Dies verbessert die Witterungsbeständigkeit und ermöglicht eine Vielzahl an Farb- und Strukturoptionen.</p>"
+          }
+        },
+        "term_HDVP7G": {
+          "type": "term",
+          "settings": {
+            "title": "PV-Befestigung",
+            "text": "<p>Alternative Schreibweisen: Solarhalterung, Photovoltaik-Montagesystem<br/><br/>Erklärung:<br/>Befestigungselemente für Photovoltaikanlagen, meist aus Aluminium, um Solarmodule sicher zu montieren.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "term_36eyT6",
+        "term_NxLgk6",
+        "term_HDVP7G"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "R",
+        "description": ""
+      }
+    },
     "faq_MrHtKt": {
       "type": "faq",
       "blocks": {
@@ -817,6 +853,7 @@
     "glossar_rVqch8",
     "glossar_VbnLWr",
     "glossar_7bWbNr",
+    "glossar_bht6Wz",
     "faq_MrHtKt",
     "faq_RHJebB",
     "faq_mj9bfd",
