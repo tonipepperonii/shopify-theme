@@ -285,18 +285,18 @@
         "description": ""
       }
     },
-    "faq_VBxijj": {
-      "type": "faq",
+    "glossar_JKjqgA": {
+      "type": "glossar",
       "blocks": {
-        "question_D86i74": {
-          "type": "question",
+        "term_VxiNYk": {
+          "type": "term",
           "settings": {
             "title": "Härte",
             "text": "<p>Alternative Schreibweisen: Festigkeit, Widerstandsfähigkeit<br/><br/>Erklärung:<br/>Die Härte von Aluminium beschreibt den Widerstand gegen Verformung. Sie variiert je nach Legierung und Wärmebehandlung.</p>"
           }
         },
-        "question_yMfYBz": {
-          "type": "question",
+        "term_CBextK": {
+          "type": "term",
           "settings": {
             "title": "Hohlprofil",
             "text": "<p>Alternative Schreibweisen: Alu-Strangpressprofil, Alu-Hohlstab<br/><br/>Erklärung:<br/>Ein Hohlprofil ist ein Aluminiumprofil mit einer innenliegenden Aussparung, die das Gewicht reduziert, aber die Stabilität erhält. Diese Profile werden oft im Fahrzeugbau, in Fassadenkonstruktionen und im Maschinenbau verwendet. Sie bieten eine ideale Kombination aus Leichtigkeit, Festigkeit und einfacher Verarbeitung.</p>"
@@ -304,33 +304,33 @@
         }
       },
       "block_order": [
-        "question_D86i74",
-        "question_yMfYBz"
+        "term_VxiNYk",
+        "term_CBextK"
       ],
       "settings": {
         "title": "H",
         "description": ""
       }
     },
-    "faq_i8AWxT": {
-      "type": "faq",
+    "glossar_d9ALNF": {
+      "type": "glossar",
       "blocks": {
-        "question_YaMQNh": {
-          "type": "question",
+        "term_bemfVK": {
+          "type": "term",
           "settings": {
             "title": "Korrosionsbeständigkeit",
             "text": "<p>Alternative Schreibweisen: Rostschutz, Witterungsbeständigkeit<br/><br/>Erklärung:<br/>Aluminium bildet bei Kontakt mit Sauerstoff eine natürliche Oxidschicht, die es vor Korrosion schützt. Diese Eigenschaft macht es besonders widerstandsfähig gegenüber Witterungseinflüssen und Chemikalien. Zusätzliche Verfahren wie Eloxieren oder Pulverbeschichten verbessern die Korrosionsbeständigkeit weiter.</p>"
           }
         },
-        "question_zALyxA": {
-          "type": "question",
+        "term_MAp97f": {
+          "type": "term",
           "settings": {
             "title": "Kupfer",
             "text": "<p>Alternative Schreibweisen: Cu, Elektrolytkupfer<br/><br/>Erklärung:<br/>Kupfer ist ein Metall mit hoher elektrischer und thermischer Leitfähigkeit. Es wird in der Elektro- und Bauindustrie verwendet.</p>"
           }
         },
-        "question_a6yXR8": {
-          "type": "question",
+        "term_ecHkaQ": {
+          "type": "term",
           "settings": {
             "title": "Kupferplatte",
             "text": "<p>Alternative Schreibweisen: <br/><br/>Erklärung:<br/>Eine Kupferplatte ist eine flache Platte aus reinem Kupfer, verwendet für elektrische und industrielle Anwendungen.</p>"
@@ -338,9 +338,9 @@
         }
       },
       "block_order": [
-        "question_YaMQNh",
-        "question_zALyxA",
-        "question_a6yXR8"
+        "term_bemfVK",
+        "term_MAp97f",
+        "term_ecHkaQ"
       ],
       "settings": {
         "title": "K",
@@ -810,8 +810,8 @@
     "glossar_xVrxp3",
     "glossar_Gkjn8a",
     "glossar_n6XUC4",
-    "faq_VBxijj",
-    "faq_i8AWxT",
+    "glossar_JKjqgA",
+    "glossar_d9ALNF",
     "faq_Xbabzm",
     "faq_9MxBt7",
     "faq_hd8Mm6",
