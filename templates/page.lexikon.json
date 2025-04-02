@@ -43,102 +43,102 @@
         "divider": false
       }
     },
-    "faq_jJ3cLk": {
-      "type": "faq",
+    "glossar_gH7UKE": {
+      "type": "glossar",
       "blocks": {
-        "question_k9THni": {
-          "type": "question",
+        "term_4xU4PD": {
+          "type": "term",
           "settings": {
             "title": "Abmessungen",
             "text": "<p>Alternative Schreibweisen: Maße, Dimensionen, Schlüsselweite</p><p></p><p>Erklärung:<br/>Abmessungen bezeichnen die Maße eines Bauteils, etwa Länge, Breite und Höhe. Bei Aluminiumhalbzeugen sind Abmessungen entscheidend für die Auswahl des richtigen Werkstücks für spezifische Anwendungen, beispielsweise im Maschinen- oder Bauwesen.</p><p><a href=\"https://alu-verkauf.de/blogs/lexikon/aluminium-abmessungen\" title=\"Blogbeitrag Abmessungen\">Mehr zum Thema Abmessungen und den vorhandenen Profilmaßen erfahren Sie hier.</a></p><p></p>"
           }
         },
-        "question_3tjqkR": {
-          "type": "question",
+        "term_KUGcni": {
+          "type": "term",
           "settings": {
             "title": "AlCuBiPb / EN AW 2011",
             "text": "<p>Alternative Schreibweisen: Hochfeste Automatenlegierung, Alu 2011</p><p>Erklärung:<br/>Eine Aluminiumlegierung mit hoher Zerspanbarkeit, ideal für mechanische Präzisionsteile.</p><p><a href=\"https://alu-verkauf.de/blogs/lexikon/alcubipb-en-aw-2011\" title=\"https://alu-verkauf.de/blogs/lexikon/alcubipb-en-aw-2011\">Mehr zum Thema Legierung und der AlCBiPb (EN AW 2011) erfahren Sie hier.</a></p>"
           }
         },
-        "question_QEqgXh": {
-          "type": "question",
+        "term_fVBNNz": {
+          "type": "term",
           "settings": {
             "title": "AlCuMg1 = EN AW 2017",
             "text": "<p>Alternative Schreibweisen: Hochfeste Kupferlegierung, Alu 2017</p><p>Erklärung:<br/>Eine Aluminium-Kupfer-Legierung mit hoher Festigkeit, verwendet im Maschinen- und Fahrzeugbau.</p><p><a href=\"https://alu-verkauf.de/blogs/lexikon/alcumg1-en-aw-2017-hochfeste-aluminiumlegierung-fur-anspruchsvolle-anwendungen\" title=\"https://alu-verkauf.de/blogs/lexikon/alcumg1-en-aw-2017-hochfeste-aluminiumlegierung-fur-anspruchsvolle-anwendungen\">Mehr zum Thema Legierung und der AlCuMg1 (EN AW 2017) erfahren Sie hier.</a></p>"
           }
         },
-        "question_nTxNr8": {
-          "type": "question",
+        "term_8wCGEK": {
+          "type": "term",
           "settings": {
             "title": "AlCuMgPb = EN AW 2007",
             "text": "<p>Alternative Schreibweisen: Automatenaluminium, Alu 2007<br/><br/>Erklärung:<br/>Diese Legierung ist besonders gut zerspanbar und wird für Drehteile, Maschinenbauteile und Präzisionskomponenten genutzt.</p><p><a href=\"https://alu-verkauf.de/blogs/lexikon/alcumgpb-en-aw-2007-die-hochfeste-automatenlegierung-fur-prazisionsbearbeitung\" title=\"https://alu-verkauf.de/blogs/lexikon/alcumgpb-en-aw-2007-die-hochfeste-automatenlegierung-fur-prazisionsbearbeitung\">Mehr zum Thema Legierung und der AlCuMgPb (EN AW 2007) erfahren Sie hier.</a></p>"
           }
         },
-        "question_BWt8Fh": {
-          "type": "question",
+        "term_PyhVMW": {
+          "type": "term",
           "settings": {
             "title": "AlMg3 = EN AW 5754",
             "text": "<p>Alternative Schreibweisen: Korrosionsbeständige Legierung, Alu 5754<br/><br/>Erklärung:<br/>Diese korrosionsbeständige Legierung findet Anwendung im Fahrzeugbau und in der chemischen Industrie.</p><p><a href=\"https://alu-verkauf.de/blogs/lexikon/almg3-en-aw-5754-die-vielseitige-aluminiumlegierung-fur-hohe-korrosionsbestandigkeit\" title=\"https://alu-verkauf.de/blogs/lexikon/almg3-en-aw-5754-die-vielseitige-aluminiumlegierung-fur-hohe-korrosionsbestandigkeit\">Mehr zum Thema Legierung und der AlMg3 (EN AW 5754) erfahren Sie hier.</a></p>"
           }
         },
-        "question_bciEFP": {
-          "type": "question",
+        "term_cXwbQb": {
+          "type": "term",
           "settings": {
             "title": "AlMg4,5Mn = EN AW 5083",
             "text": "<p>Alternative Schreibweisen: Seewasserbeständiges Alu, Alu 5083<br/><br/>Erklärung:<br/>Diese Legierung ist besonders gut zerspanbar und wird für Drehteile, Maschinenbauteile und Präzisionskomponenten genutzt.</p><p><a href=\"/blogs/lexikon/almg4-5mn-en-aw-5083-die-hochfeste-aluminiumlegierung-fur-tragende-konstruktionen\" title=\"AlMg4,5Mn (EN AW 5083) – Die hochfeste Aluminiumlegierung für tragende Konstruktionen\">Mehr zum Thema Legierung und der AlMg4,5Mn (EN AW 5083) erfahren Sie hier.</a></p>"
           }
         },
-        "question_3hHDDt": {
-          "type": "question",
+        "term_NRqckP": {
+          "type": "term",
           "settings": {
             "title": "AlMgSi0,5 / EN AW 6060",
             "text": "<p>Alternative Schreibweisen: Standardprofillegierung, Alu 6060<br/><br/>Erklärung:<br/>Diese Aluminiumlegierung ist korrosionsbeständig, leicht zu eloxieren und gut verformbar. Sie wird im Maschinenbau, Fahrzeugbau und für Konstruktionen genutzt.</p><p><a href=\"/blogs/lexikon/almgsi0-5-en-aw-6060-die-standardlegierung-fur-aluminiumprofile\" title=\"AlMgSi0,5 (EN AW 6060) – Die Standardlegierung für Aluminiumprofile\">Mehr zum Thema Legierungen und der AlMgSi0,5 (EN AW 6060) erfahren Sie hier.</a></p>"
           }
         },
-        "question_pjnCKE": {
-          "type": "question",
+        "term_F4GrwJ": {
+          "type": "term",
           "settings": {
             "title": "AlMgSi1 / EN AW 6082",
             "text": "<p>Alternative Schreibweisen: Hochfeste Alu-Legierung, Alu 6082<br/><br/>Erklärung:<br/>Eine hochfeste Aluminiumlegierung mit guter Korrosionsbeständigkeit. Sie wird in tragenden Konstruktionen, im Brücken- und Schiffsbau eingesetzt.</p><p><a href=\"/blogs/lexikon/almgsi1-en-aw-6082-die-hochfeste-aluminiumlegierung-fur-anspruchsvolle-konstruktionen\" title=\"AlMgSi1 (EN AW 6082) – Die hochfeste Aluminiumlegierung für anspruchsvolle Konstruktionen\">Mehr zum Thema Legierungen und der AlMgSi1 (EN AW 6082) erfahren Sie hier.</a></p>"
           }
         },
-        "question_MGWggp": {
-          "type": "question",
+        "term_VcNKjf": {
+          "type": "term",
           "settings": {
             "title": "AlZn5,5Mg1,5 = EN AW 7021",
             "text": "<p>Alternative Schreibweisen: Hochfeste Alu-Zink-Legierung, Alu 7021</p><p><br/>Erklärung:<br/>Eine hochfeste Aluminiumlegierung mit guter Formstabilität, oft für Luftfahrtkomponenten genutzt.</p><p><a href=\"/blogs/lexikon/alzn5-5mg1-5-en-aw-7021-die-hochfeste-aluminiumlegierung-fur-maximale-anforderungen\" title=\"AlZn5,5Mg1,5 (EN AW 7021) – Die hochfeste Aluminiumlegierung für maximale Anforderungen\">Mehr zum Thema Legierungen und der AlZn5,5Mg1,5 (EN AW 7021) erfahren Sie hier.</a></p>"
           }
         },
-        "question_yLXiRf": {
-          "type": "question",
+        "term_hBC6Xz": {
+          "type": "term",
           "settings": {
             "title": "AlZnMgCu1,5 = EN AW 7075",
             "text": "<p>Alternative Schreibweisen: Flugzeug-Aluminium, Alu 7075<br/><br/>Erklärung:<br/>Diese Hochleistungslegierung zeichnet sich durch extreme Festigkeit aus und wird in der Luft- und Raumfahrt eingesetzt.</p><p><a href=\"/blogs/lexikon/alznmgcu1-5-en-aw-7075-die-hochleistungslegierung-fur-maximale-festigkeit\" title=\"AlZnMgCu1,5 (EN AW 7075) – Die Hochleistungslegierung für maximale Festigkeit\">Mehr zum Thema Legierungen und der AlZnMgCu1,5 (EN AW 7075) erfahren Sie hier.</a></p>"
           }
         },
-        "question_PiHbbp": {
-          "type": "question",
+        "term_GawxNW": {
+          "type": "term",
           "settings": {
             "title": "Aluminiumplatten",
             "text": "<p>Alternative Schreibweisen: Alublech, Alu-Tafelblech<br/><br/>Erklärung:<br/>Aluminiumplatten sind flache Halbzeuge aus Aluminium, die in verschiedenen Stärken und Legierungen erhältlich sind. Sie zeichnen sich durch hohe Korrosionsbeständigkeit, geringes Gewicht und gute Verarbeitbarkeit aus. Anwendung finden sie in der Luftfahrt, im Fahrzeugbau und im Bauwesen.</p>"
           }
         },
-        "question_7U8BXR": {
-          "type": "question",
+        "term_ekdHKr": {
+          "type": "term",
           "settings": {
             "title": "Aluminiumprofil",
             "text": "<p>Alternative Schreibweisen: Alu-Profil, Strangpressprofil - Profil<br/><br/>Erklärung:<br/>Ein Aluminiumprofil ist ein stabförmiges Bauteil aus Aluminium, das durch Strangpressen geformt wird. Es ist in verschiedenen Querschnitten erhältlich, darunter T-, U-, Z- und Winkelprofile. Aluminiumprofile sind leicht, korrosionsbeständig und vielseitig einsetzbar, beispielsweise im Maschinenbau, in der Bauindustrie oder im Möbelbau.</p>"
           }
         },
-        "question_tUNhFG": {
-          "type": "question",
+        "term_T8L6iT": {
+          "type": "term",
           "settings": {
             "title": "Alurohre",
             "text": "<p>Alternative Schreibweisen: Aluminiumrundrohr, Alu-Hohlprofil, Alu Rundrohr<br/><br/>Erklärung:<br/>Alurohre sind hohle Rund- oder Vierkantprofile aus Aluminium. Sie überzeugen durch ihr geringes Gewicht, hohe Stabilität und Korrosionsbeständigkeit. Typische Einsatzbereiche sind Konstruktionen im Maschinenbau, Möbelbau sowie im Fahrzeugbau.</p>"
           }
         },
-        "question_4wjEqy": {
-          "type": "question",
+        "term_cRMfEY": {
+          "type": "term",
           "settings": {
             "title": "Anodisieren",
             "text": "<p>Alternative Schreibweisen: Eloxieren, Oxidschichtbildung<br/><br/>Erklärung:<br/>Anodisieren ist ein elektrochemisches Verfahren zur Erzeugung einer oxidischen Schutzschicht auf Aluminium. Es verbessert die Korrosionsbeständigkeit und sorgt für eine dekorative Oberfläche.</p>"
@@ -146,20 +146,20 @@
         }
       },
       "block_order": [
-        "question_k9THni",
-        "question_3tjqkR",
-        "question_QEqgXh",
-        "question_nTxNr8",
-        "question_BWt8Fh",
-        "question_bciEFP",
-        "question_3hHDDt",
-        "question_pjnCKE",
-        "question_MGWggp",
-        "question_yLXiRf",
-        "question_PiHbbp",
-        "question_7U8BXR",
-        "question_tUNhFG",
-        "question_4wjEqy"
+        "term_4xU4PD",
+        "term_KUGcni",
+        "term_fVBNNz",
+        "term_8wCGEK",
+        "term_PyhVMW",
+        "term_cXwbQb",
+        "term_NRqckP",
+        "term_F4GrwJ",
+        "term_VcNKjf",
+        "term_hBC6Xz",
+        "term_GawxNW",
+        "term_ekdHKr",
+        "term_T8L6iT",
+        "term_cRMfEY"
       ],
       "settings": {
         "title": "A",
@@ -804,7 +804,7 @@
   "order": [
     "main",
     "2bcb0b91-7c44-4198-96e9-16d6053e6160",
-    "faq_jJ3cLk",
+    "glossar_gH7UKE",
     "faq_xARxq6",
     "faq_gLMegP",
     "faq_yqaTi4",
