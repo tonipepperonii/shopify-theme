@@ -29,10 +29,10 @@
             {% case block.type %}
               {% when 'term' %}
                 {
-                  "@type": "Question",
+                  "@type": "text",
                   "name": {{ block.settings.title | json }},
                   "acceptedAnswer": {
-                    "@type": "Answer",
+                    "@type": "richtext",
                     "text": {{ block.settings.text | json }}
                   }
                 }{% unless forloop.last %},{% endunless %}
