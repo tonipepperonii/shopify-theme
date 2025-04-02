@@ -496,83 +496,47 @@
         "term_36eyT6": {
           "type": "term",
           "settings": {
-            "title": "Polieren",
-            "text": "<p>Alternative Schreibweisen: Glanzbearbeitung, Hochglanzfinish<br/><br/>Erklärung:<br/>Polieren ist eine mechanische Bearbeitung zur Glättung der Aluminiumoberfläche. Dadurch entsteht eine glänzende oder spiegelnde Optik.</p>"
+            "title": "Recycling",
+            "text": "<p>Alternative Schreibweisen: Wiederverwertung, Sekundäraluminium<br/><br/>Erklärung:<br/>Aluminium ist zu 100 % recycelbar, ohne Qualitätsverluste. Der Recyclingprozess benötigt nur ca. 5 % der Energie, die für die Erstproduktion erforderlich ist. Dadurch wird Aluminium zu einem nachhaltigen Werkstoff, der weltweit in verschiedenen Industrien wiederverwertet wird.</p>"
           }
         },
         "term_NxLgk6": {
           "type": "term",
           "settings": {
-            "title": "Pulverbeschichtung",
-            "text": "<p>Alternative Schreibweisen: Lackierung, Farbbeschichtung<br/><br/>Erklärung:<br/>Bei der Pulverbeschichtung wird eine schützende und dekorative Farbschicht auf das Aluminium aufgebracht. Dies verbessert die Witterungsbeständigkeit und ermöglicht eine Vielzahl an Farb- und Strukturoptionen.</p>"
+            "title": "Reinaluminium",
+            "text": "<p>Alternative Schreibweisen: Al99,5, hochreines Aluminium<br/><br/>Erklärung:<br/>Reinaluminium enthält mindestens 99 % Aluminium und wird in chemischen und elektrischen Anwendungen eingesetzt.</p>"
           }
         },
         "term_HDVP7G": {
           "type": "term",
           "settings": {
-            "title": "PV-Befestigung",
-            "text": "<p>Alternative Schreibweisen: Solarhalterung, Photovoltaik-Montagesystem<br/><br/>Erklärung:<br/>Befestigungselemente für Photovoltaikanlagen, meist aus Aluminium, um Solarmodule sicher zu montieren.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "term_36eyT6",
-        "term_NxLgk6",
-        "term_HDVP7G"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "R",
-        "description": ""
-      }
-    },
-    "faq_MrHtKt": {
-      "type": "faq",
-      "blocks": {
-        "question_hxNWCK": {
-          "type": "question",
-          "settings": {
-            "title": "Recycling",
-            "text": "<p>Alternative Schreibweisen: Wiederverwertung, Sekundäraluminium<br/><br/>Erklärung:<br/>Aluminium ist zu 100 % recycelbar, ohne Qualitätsverluste. Der Recyclingprozess benötigt nur ca. 5 % der Energie, die für die Erstproduktion erforderlich ist. Dadurch wird Aluminium zu einem nachhaltigen Werkstoff, der weltweit in verschiedenen Industrien wiederverwertet wird.</p>"
-          }
-        },
-        "question_UJpbxQ": {
-          "type": "question",
-          "settings": {
-            "title": "Reinaluminium",
-            "text": "<p>Alternative Schreibweisen: Al99,5, hochreines Aluminium<br/><br/>Erklärung:<br/>Reinaluminium enthält mindestens 99 % Aluminium und wird in chemischen und elektrischen Anwendungen eingesetzt.</p>"
-          }
-        },
-        "question_yRRUkg": {
-          "type": "question",
-          "settings": {
             "title": "Riffelblech",
             "text": "<p>Alternative Schreibweisen: Warzenblech, Tränenblech<br/><br/>Erklärung:<br/>Ein Riffelblech ist eine strukturierte Aluminiumplatte mit rutschfester Oberfläche. Es wird für Bodenbeläge, Treppen und Fahrzeugböden verwendet.</p>"
           }
         },
-        "question_trxVKh": {
-          "type": "question",
+        "term_iRB48L": {
+          "type": "term",
           "settings": {
             "title": "Rohrverbinder",
             "text": "<p>Alternative Schreibweisen: Steckverbinder, Rohrkupplung<br/><br/>Erklärung:<br/>Rohrverbinder aus Aluminium ermöglichen die stabile Verbindung von Aluminiumrohren in Konstruktionen.</p>"
           }
         },
-        "question_wNQ64q": {
-          "type": "question",
+        "term_eLJ8jz": {
+          "type": "term",
           "settings": {
             "title": "Rohrverschlussstopfen",
             "text": "<p>Alternative Schreibweisen: Endkappe, Rohrkappe<br/><br/>Erklärung:<br/>Diese Stopfen dienen zum Verschließen von Aluminiumrohren und sorgen für ein sauberes Finish.</p>"
           }
         },
-        "question_4VDLFQ": {
-          "type": "question",
+        "term_RADgcR": {
+          "type": "term",
           "settings": {
             "title": "Rund",
             "text": "<p>Alternative Schreibweisen: Aluminiumstab, Rundmaterial<br/><br/>Erklärung:<br/>Runde Aluminiumteile wie Stangen oder Rohre werden in verschiedenen Industrien genutzt. Sie zeichnen sich durch hohe Korrosionsbeständigkeit und gute Formbarkeit aus.</p>"
           }
         },
-        "question_CLy9K9": {
-          "type": "question",
+        "term_TB8eTh": {
+          "type": "term",
           "settings": {
             "title": "Rundrohr",
             "text": "<p>Alternative Schreibweisen: Aluminiumrundrohr, Hohlstab<br/><br/>Erklärung:<br/>Ein Rundrohr ist ein hohles Aluminiumprofil mit kreisförmigem Querschnitt. Es wird im Fahrzeugbau, in der Möbelindustrie und für Konstruktionen eingesetzt.</p>"
@@ -580,59 +544,59 @@
         }
       },
       "block_order": [
-        "question_hxNWCK",
-        "question_UJpbxQ",
-        "question_yRRUkg",
-        "question_trxVKh",
-        "question_wNQ64q",
-        "question_4VDLFQ",
-        "question_CLy9K9"
+        "term_36eyT6",
+        "term_NxLgk6",
+        "term_HDVP7G",
+        "term_iRB48L",
+        "term_eLJ8jz",
+        "term_RADgcR",
+        "term_TB8eTh"
       ],
       "settings": {
         "title": "R",
         "description": ""
       }
     },
-    "faq_RHJebB": {
-      "type": "faq",
+    "glossar_gMRz3K": {
+      "type": "glossar",
       "blocks": {
-        "question_VqiqBd": {
-          "type": "question",
+        "term_7xhpkL": {
+          "type": "term",
           "settings": {
             "title": "Schmelzpunkt",
             "text": "<p>Alternative Schreibweisen: Schmelztemperatur, Liquidustemperatur<br/><br/>Erklärung:<br/>Aluminium schmilzt bei etwa 660 °C. Dieser vergleichsweise niedrige Schmelzpunkt ermöglicht energieeffiziente Gießverfahren, wie Druckguss oder Stranggießen. Zudem ist der niedrige Schmelzpunkt ein Vorteil für das Recycling, da das Material einfach wiederverwertet werden kann.</p>"
           }
         },
-        "question_3thMJ4": {
-          "type": "question",
+        "term_3P6heq": {
+          "type": "term",
           "settings": {
             "title": "Schweißen",
             "text": "<p>Alternative Schreibweisen: Fügen, Lichtbogenverfahren<br/><br/>Erklärung:<br/>Schweißen ist ein Verfahren zur Verbindung von Metallteilen durch Wärme. Aluminium erfordert spezielle Schweißtechniken wie WIG- oder MIG-Schweißen.</p>"
           }
         },
-        "question_fNPHya": {
-          "type": "question",
+        "term_8yM9dh": {
+          "type": "term",
           "settings": {
             "title": "Sechskant",
             "text": "<p>Alternative Schreibweisen: Hexagonalprofil, Sechskantstab<br/><br/>Erklärung:<br/>Ein Aluminium-Sechskantprofil hat einen hexagonalen Querschnitt und wird häufig in der Mechanik sowie für Schrauben und Muttern verwendet.</p>"
           }
         },
-        "question_wtFggD": {
-          "type": "question",
+        "term_MHLPRr": {
+          "type": "term",
           "settings": {
             "title": "Silicium",
             "text": "<p>Alternative Schreibweisen: Si, Härtezusatz für Aluminium<br/><br/>Erklärung:<br/>Silicium erhöht die Gießbarkeit und Härte von Aluminiumlegierungen.</p>"
           }
         },
-        "question_4h93Jb": {
-          "type": "question",
+        "term_FMrTLC": {
+          "type": "term",
           "settings": {
             "title": "Spanbarkeit",
             "text": "<p>Alternative Schreibweisen: Zerspanbarkeit, Fräsbarkeit<br/><br/>Erklärung:<br/>Die Spanbarkeit beschreibt, wie gut Aluminium durch Fräsen, Bohren oder Drehen bearbeitet werden kann. Aluminiumlegierungen mit Kupfer oder Silicium sind besonders gut zerspanbar, während hochfeste Legierungen schwerer zu bearbeiten sind.</p>"
           }
         },
-        "question_diXdgi": {
-          "type": "question",
+        "term_iH6FGc": {
+          "type": "term",
           "settings": {
             "title": "Streckgrenze",
             "text": "<p>Alternative Schreibweisen: Elastische Grenze, Dehngrenze<br/><br/>Erklärung:<br/>Die Streckgrenze ist die Spannung, bei der ein Material beginnt, sich dauerhaft zu verformen. Bei Aluminiumlegierungen beeinflusst sie die Tragfähigkeit und Belastbarkeit in technischen Anwendungen, wie dem Fahrzeug- und Maschinenbau.</p>"
@@ -640,30 +604,30 @@
         }
       },
       "block_order": [
-        "question_VqiqBd",
-        "question_3thMJ4",
-        "question_fNPHya",
-        "question_wtFggD",
-        "question_4h93Jb",
-        "question_diXdgi"
+        "term_7xhpkL",
+        "term_3P6heq",
+        "term_8yM9dh",
+        "term_MHLPRr",
+        "term_FMrTLC",
+        "term_iH6FGc"
       ],
       "settings": {
         "title": "S",
         "description": ""
       }
     },
-    "faq_mj9bfd": {
-      "type": "faq",
+    "glossar_h7jffG": {
+      "type": "glossar",
       "blocks": {
-        "question_BgYf7J": {
-          "type": "question",
+        "term_r7BVAG": {
+          "type": "term",
           "settings": {
             "title": "Tafelblech",
             "text": "<p>Alternative Schreibweisen: Alu-Flachblech, Blechtafel<br/><br/>Erklärung:<br/>Tafelbleche sind flache Aluminiumplatten in standardisierten Abmessungen. Sie werden in verschiedenen Dicken und Legierungen angeboten und finden Anwendung im Bauwesen, in der Luftfahrt sowie in der Industrie.</p>"
           }
         },
-        "question_ky4BKU": {
-          "type": "question",
+        "term_XTAmBa": {
+          "type": "term",
           "settings": {
             "title": "T-Profil",
             "text": "<p>Alternative Schreibweisen: T-Schiene, T-Träger<br/><br/>Erklärung:<br/>Ein T-Profil ist ein stranggepresstes Aluminiumprofil mit T-förmigem Querschnitt. Es dient als Verbindungselement oder Verstärkung in Konstruktionen.</p>"
@@ -671,19 +635,19 @@
         }
       },
       "block_order": [
-        "question_BgYf7J",
-        "question_ky4BKU"
+        "term_r7BVAG",
+        "term_XTAmBa"
       ],
       "settings": {
         "title": "T",
         "description": ""
       }
     },
-    "faq_nWKX8j": {
-      "type": "faq",
+    "glossar_6iMpyU": {
+      "type": "glossar",
       "blocks": {
-        "question_nYgFaE": {
-          "type": "question",
+        "term_FQxzkp": {
+          "type": "term",
           "settings": {
             "title": "U-Profil",
             "text": "<p>Alternative Schreibweisen: U-Schiene, C-Kanal<br/><br/>Erklärung:<br/>Ein U-Profil ist ein stranggepresstes Aluminiumprofil mit U-förmigem Querschnitt. Es wird häufig für Rahmen, Führungen und Verstärkungen verwendet.</p>"
@@ -691,25 +655,25 @@
         }
       },
       "block_order": [
-        "question_nYgFaE"
+        "term_FQxzkp"
       ],
       "settings": {
         "title": "U",
         "description": ""
       }
     },
-    "faq_WrFdXY": {
-      "type": "faq",
+    "glossar_qntWVf": {
+      "type": "glossar",
       "blocks": {
-        "question_8dMPHV": {
-          "type": "question",
+        "term_PeBMfR": {
+          "type": "term",
           "settings": {
             "title": "Vierkant",
             "text": "<p>Alternative Schreibweisen: Vierkantstab, Quadratstab<br/><br/>Erklärung:<br/>Ein Vierkantprofil ist ein stabförmiges Aluminiumbauteil mit quadratischem oder rechteckigem Querschnitt. Es kombiniert geringes Gewicht mit hoher Stabilität und Korrosionsbeständigkeit.</p>"
           }
         },
-        "question_kVQcxy": {
-          "type": "question",
+        "term_E7jXp8": {
+          "type": "term",
           "settings": {
             "title": "Vierkantrohr",
             "text": "<p>Alternative Schreibweisen: Quadratprofil, Vierkantprofil, Rechteckrohr<br/><br/>Erklärung:<br/>Ein Vierkantrohr ist ein rechteckiges Hohlprofil aus Aluminium. Es kombiniert geringes Gewicht mit hoher Stabilität und wird häufig im Möbel-, Maschinen- oder Bauwesen verwendet.</p>"
@@ -717,26 +681,26 @@
         }
       },
       "block_order": [
-        "question_8dMPHV",
-        "question_kVQcxy"
+        "term_PeBMfR",
+        "term_E7jXp8"
       ],
       "settings": {
         "title": "V",
         "description": ""
       }
     },
-    "faq_VgUFMn": {
-      "type": "faq",
+    "glossar_j47Fat": {
+      "type": "glossar",
       "blocks": {
-        "question_NbyNLY": {
-          "type": "question",
+        "term_wgtNAt": {
+          "type": "term",
           "settings": {
             "title": "Wärmeleitfähigkeit",
             "text": "<p>Alternative Schreibweisen: <br/><br/>Erklärung:<br/>Aluminium besitzt eine hohe Wärmeleitfähigkeit, was es ideal für Kühlkörper, Wärmetauscher und elektronische Bauteile macht.</p>"
           }
         },
-        "question_L3kRG9": {
-          "type": "question",
+        "term_reteDy": {
+          "type": "term",
           "settings": {
             "title": "Winkelprofil",
             "text": "<p>Alternative Schreibweisen: L-Profil, Alu-Winkel<br/><br/>Erklärung:<br/>Ein Winkelprofil ist ein L-förmiges Aluminiumprofil, das für Konstruktionen und Verstärkungen genutzt wird. Es bietet hohe Stabilität und Korrosionsbeständigkeit bei geringem Gewicht.</p>"
@@ -744,40 +708,40 @@
         }
       },
       "block_order": [
-        "question_NbyNLY",
-        "question_L3kRG9"
+        "term_wgtNAt",
+        "term_reteDy"
       ],
       "settings": {
         "title": "W",
         "description": ""
       }
     },
-    "faq_rJmf4C": {
-      "type": "faq",
+    "glossar_bdi7hq": {
+      "type": "glossar",
       "blocks": {
-        "question_tDrU34": {
-          "type": "question",
+        "term_g3emzt": {
+          "type": "term",
           "settings": {
             "title": "Zink",
             "text": "<p>Alternative Schreibweisen: Zn, Hochfestigkeitslegierungsbestandteil<br/><br/>Erklärung:<br/>Zink erhöht die Festigkeit von Aluminiumlegierungen und wird in Hochleistungsanwendungen genutzt.</p>"
           }
         },
-        "question_rLRCnt": {
-          "type": "question",
+        "term_ByFVed": {
+          "type": "term",
           "settings": {
             "title": "Z-Profile",
             "text": "<p>Alternative Schreibweisen: Z-Schiene, Z-Träger<br/><br/>Erklärung:<br/>Ein Z-Profil ist ein Aluminiumprofil mit Z-förmigem Querschnitt. Es wird für Verstärkungen, Rahmenkonstruktionen und Träger eingesetzt.</p>"
           }
         },
-        "question_CyU9Uy": {
-          "type": "question",
+        "term_Wr39D6": {
+          "type": "term",
           "settings": {
             "title": "Zugfestigkeit",
             "text": "<p>Alternative Schreibweisen: Reißfestigkeit, mechanische Belastbarkeit<br/><br/>Erklärung:<br/>Die Zugfestigkeit beschreibt die maximale Spannung, die ein Material aushält, bevor es bricht. Aluminiumlegierungen weisen je nach Zusammensetzung unterschiedliche Zugfestigkeiten auf, was sie für spezifische Einsatzgebiete besonders geeignet macht.</p>"
           }
         },
-        "question_kCEHCV": {
-          "type": "question",
+        "term_6Wfrxb": {
+          "type": "term",
           "settings": {
             "title": "Zuschnitte",
             "text": "<p>Alternative Schreibweisen: Alu-Zuschnitte, Maßbleche<br/><br/>Erklärung:<br/>Aluminiumzuschnitte sind individuell zugeschnittene Bleche, Profile oder Platten für spezifische Anwendungen.</p>"
@@ -785,10 +749,10 @@
         }
       },
       "block_order": [
-        "question_tDrU34",
-        "question_rLRCnt",
-        "question_CyU9Uy",
-        "question_kCEHCV"
+        "term_g3emzt",
+        "term_ByFVed",
+        "term_Wr39D6",
+        "term_6Wfrxb"
       ],
       "settings": {
         "title": "Z",
@@ -854,13 +818,12 @@
     "glossar_VbnLWr",
     "glossar_7bWbNr",
     "glossar_bht6Wz",
-    "faq_MrHtKt",
-    "faq_RHJebB",
-    "faq_mj9bfd",
-    "faq_nWKX8j",
-    "faq_WrFdXY",
-    "faq_VgUFMn",
-    "faq_rJmf4C",
+    "glossar_gMRz3K",
+    "glossar_h7jffG",
+    "glossar_6iMpyU",
+    "glossar_qntWVf",
+    "glossar_j47Fat",
+    "glossar_bdi7hq",
     "rich_text_YYYCiy",
     "advanced_content_D89bk3"
   ]
