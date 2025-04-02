@@ -14,40 +14,6 @@
       "disabled": true,
       "settings": {}
     },
-    "b37da04b-c409-40bf-89e1-352e11985fcd": {
-      "type": "slideshow",
-      "blocks": {
-        "template--18204608954672__b37da04b-c409-40bf-89e1-352e11985fcd-16778323741cff4d3e-0": {
-          "type": "hero",
-          "settings": {
-            "top_subheading": "",
-            "title": "<h1>Das große Glossar rund um Aluminium</h1>",
-            "title_size": 70,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/alu-verkauf-banner.jpg",
-            "overlay_opacity": 50,
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "template--18204608954672__b37da04b-c409-40bf-89e1-352e11985fcd-16778323741cff4d3e-0"
-      ],
-      "settings": {
-        "full_width": true,
-        "desktop_size": 0,
-        "mobile_size": 20,
-        "style": "arrows",
-        "autoplay": true,
-        "autoplay_speed": 7
-      }
-    },
     "2bcb0b91-7c44-4198-96e9-16d6053e6160": {
       "type": "rich-text",
       "blocks": {
@@ -55,7 +21,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Tauche ein in die Welt des Aluminiums und erweitere Dein Wissen über dieses Material!</p>"
+            "text": "<h1>Das große Glossar rund um Aluminium</h1><p></p><p>Tauche ein in die Welt des Aluminiums und erweitere Dein Wissen über dieses Material!</p>"
           }
         },
         "text_Mm6X66": {
@@ -837,7 +803,6 @@
   },
   "order": [
     "main",
-    "b37da04b-c409-40bf-89e1-352e11985fcd",
     "2bcb0b91-7c44-4198-96e9-16d6053e6160",
     "faq_jJ3cLk",
     "faq_xARxq6",
