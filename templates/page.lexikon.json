@@ -166,18 +166,18 @@
         "description": ""
       }
     },
-    "faq_xARxq6": {
-      "type": "faq",
+    "glossar_wPrWcP": {
+      "type": "glossar",
       "blocks": {
-        "question_3HYpk3": {
-          "type": "question",
+        "term_CmBDhq": {
+          "type": "term",
           "settings": {
             "title": "Biegen",
             "text": "<p>Alternative Schreibweisen: Kaltumformung, Verformung<br/><br/>Erklärung:<br/>Biegen ist ein Verformungsprozess, bei dem Aluminium ohne Materialverlust in eine gewünschte Form gebracht wird. Die Duktilität des Materials ermöglicht präzise Biegeprozesse, die in der Architektur, im Maschinenbau und im Möbelbau eingesetzt werden.</p>"
           }
         },
-        "question_ayzdgk": {
-          "type": "question",
+        "term_gEEHNA": {
+          "type": "term",
           "settings": {
             "title": "Brünieren",
             "text": "<p>Alternative Schreibweisen: Schwarzoxidation, chemisches Schwärzen<br/><br/>Erklärung:<br/>Brünieren ist eine chemische Oberflächenbehandlung, die Aluminium schwarz einfärbt und gleichzeitig eine dünne Schutzschicht gegen Korrosion bildet. Diese Technik wird für optische und funktionale Zwecke eingesetzt.</p>"
@@ -185,8 +185,8 @@
         }
       },
       "block_order": [
-        "question_3HYpk3",
-        "question_ayzdgk"
+        "term_CmBDhq",
+        "term_gEEHNA"
       ],
       "settings": {
         "title": "B",
@@ -805,7 +805,7 @@
     "main",
     "2bcb0b91-7c44-4198-96e9-16d6053e6160",
     "glossar_gH7UKE",
-    "faq_xARxq6",
+    "glossar_wPrWcP",
     "faq_gLMegP",
     "faq_yqaTi4",
     "faq_GWLLpw",
