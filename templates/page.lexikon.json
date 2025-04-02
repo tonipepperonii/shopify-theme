@@ -347,25 +347,25 @@
         "description": ""
       }
     },
-    "faq_Xbabzm": {
-      "type": "faq",
+    "glossar_Vr6rJA": {
+      "type": "glossar",
       "blocks": {
-        "question_7LUMiR": {
-          "type": "question",
+        "term_jzzGHa": {
+          "type": "term",
           "settings": {
             "title": "Legierung",
             "text": "<p>Alternative Schreibweisen: Aluminiumlegierung<br/><br/>Erklärung:<br/>Eine Legierung ist eine Mischung aus zwei oder mehr Metallen zur Verbesserung spezifischer Materialeigenschaften. Aluminiumlegierungen enthalten oft Magnesium, Silicium oder Kupfer, um Festigkeit, Korrosionsbeständigkeit oder Bearbeitbarkeit zu optimieren.</p>"
           }
         },
-        "question_taMR4m": {
-          "type": "question",
+        "term_k3Ghdd": {
+          "type": "term",
           "settings": {
             "title": "Leitfähigkeit",
             "text": "<p>Alternative Schreibweisen: elektrische Leitfähigkeit, Wärmeleitfähigkeit<br/><br/>Erklärung:<br/>Aluminium hat eine hohe elektrische und thermische Leitfähigkeit. Es wird daher häufig als Alternative zu Kupfer in Stromleitungen oder als Material für Wärmetauscher und Kühlkörper verwendet. Dank des geringen Gewichts ist es besonders vorteilhaft für den Einsatz in der Elektrotechnik und in der Automobilindustrie.</p>"
           }
         },
-        "question_wTU8Hn": {
-          "type": "question",
+        "term_h8KWnn": {
+          "type": "term",
           "settings": {
             "title": "Lochblech",
             "text": "<p>Alternative Schreibweisen: Perforiertes Blech, gelochtes Aluminiumblech<br/><br/>Erklärung:<br/>Ein perforiertes Aluminiumblech mit Löchern in verschiedenen Formen für Lüftung, Design oder Filtration.</p>"
@@ -373,27 +373,27 @@
         }
       },
       "block_order": [
-        "question_7LUMiR",
-        "question_taMR4m",
-        "question_wTU8Hn"
+        "term_jzzGHa",
+        "term_k3Ghdd",
+        "term_h8KWnn"
       ],
       "settings": {
         "title": "L",
         "description": ""
       }
     },
-    "faq_9MxBt7": {
-      "type": "faq",
+    "glossar_9gCe4W": {
+      "type": "glossar",
       "blocks": {
-        "question_NiAYqb": {
-          "type": "question",
+        "term_zfwyBc": {
+          "type": "term",
           "settings": {
             "title": "Magnesium",
             "text": "<p>Alternative Schreibweisen: Mg, Festigkeitssteigerndes Element<br/><br/>Erklärung:<br/>Magnesium verbessert die Festigkeit und Korrosionsbeständigkeit von Aluminiumlegierungen.</p>"
           }
         },
-        "question_4YkUqD": {
-          "type": "question",
+        "term_Dn7TDD": {
+          "type": "term",
           "settings": {
             "title": "Mangan",
             "text": "<p>Alternative Schreibweisen: Mn, Legierungselement für Aluminium<br/><br/>Erklärung:<br/>Mangan wird Aluminium zugesetzt, um Korrosionsbeständigkeit und Festigkeit zu verbessern.</p>"
@@ -401,19 +401,19 @@
         }
       },
       "block_order": [
-        "question_NiAYqb",
-        "question_4YkUqD"
+        "term_zfwyBc",
+        "term_Dn7TDD"
       ],
       "settings": {
         "title": "M",
         "description": ""
       }
     },
-    "faq_hd8Mm6": {
-      "type": "faq",
+    "glossar_rVqch8": {
+      "type": "glossar",
       "blocks": {
-        "question_LcLzdF": {
-          "type": "question",
+        "term_CcARpF": {
+          "type": "term",
           "settings": {
             "title": "Nieten",
             "text": "<p>Alternative Schreibweisen: Nietverbindung, mechanische Fügung<br/><br/>Erklärung:<br/>Nieten ist eine mechanische Verbindungstechnik, die Aluminiumbauteile dauerhaft miteinander verbindet. Besonders in der Luftfahrt- und Fahrzeugindustrie werden Nieten eingesetzt, da sie eine feste, aber leichte Verbindung bieten.</p>"
@@ -421,25 +421,25 @@
         }
       },
       "block_order": [
-        "question_LcLzdF"
+        "term_CcARpF"
       ],
       "settings": {
         "title": "N",
         "description": ""
       }
     },
-    "faq_fgj39C": {
-      "type": "faq",
+    "glossar_VbnLWr": {
+      "type": "glossar",
       "blocks": {
-        "question_AgfqFQ": {
-          "type": "question",
+        "term_yNzyCG": {
+          "type": "term",
           "settings": {
             "title": "Ovalrohr",
             "text": "<p>Alternative Schreibweisen: <br/><br/>Erklärung:<br/>Ein Ovalrohr ist ein Aluminiumrohr mit ovalem Querschnitt. Es wird häufig in Design- und Architekturprojekten, im Möbelbau und im Fahrzeugbau eingesetzt. Die spezielle Form kombiniert ästhetische Eleganz mit hoher Stabilität und reduziertem Materialeinsatz.</p>"
           }
         },
-        "question_XQbKyG": {
-          "type": "question",
+        "term_WLY7RP": {
+          "type": "term",
           "settings": {
             "title": "Oxidation",
             "text": "<p>Alternative Schreibweisen: Oberflächenreaktion, Metalloxidbildung<br/><br/>Erklärung:<br/>Oxidation ist ein natürlicher chemischer Prozess, bei dem Aluminium mit Sauerstoff reagiert und eine schützende Oxidschicht bildet. Diese verhindert eine weitere Korrosion und macht das Material langlebig. Durch gezieltes Eloxieren kann die Oxidschicht verstärkt werden, wodurch Aluminium noch widerstandsfähiger gegen Umwelteinflüsse wird.</p>"
@@ -447,33 +447,33 @@
         }
       },
       "block_order": [
-        "question_AgfqFQ",
-        "question_XQbKyG"
+        "term_yNzyCG",
+        "term_WLY7RP"
       ],
       "settings": {
         "title": "O",
         "description": ""
       }
     },
-    "faq_kpzE9N": {
-      "type": "faq",
+    "glossar_7bWbNr": {
+      "type": "glossar",
       "blocks": {
-        "question_XwnKKx": {
-          "type": "question",
+        "term_KpPKdR": {
+          "type": "term",
           "settings": {
             "title": "Polieren",
             "text": "<p>Alternative Schreibweisen: Glanzbearbeitung, Hochglanzfinish<br/><br/>Erklärung:<br/>Polieren ist eine mechanische Bearbeitung zur Glättung der Aluminiumoberfläche. Dadurch entsteht eine glänzende oder spiegelnde Optik.</p>"
           }
         },
-        "question_dgrNed": {
-          "type": "question",
+        "term_wBhRJd": {
+          "type": "term",
           "settings": {
             "title": "Pulverbeschichtung",
             "text": "<p>Alternative Schreibweisen: Lackierung, Farbbeschichtung<br/><br/>Erklärung:<br/>Bei der Pulverbeschichtung wird eine schützende und dekorative Farbschicht auf das Aluminium aufgebracht. Dies verbessert die Witterungsbeständigkeit und ermöglicht eine Vielzahl an Farb- und Strukturoptionen.</p>"
           }
         },
-        "question_qLawrR": {
-          "type": "question",
+        "term_rKbBxi": {
+          "type": "term",
           "settings": {
             "title": "PV-Befestigung",
             "text": "<p>Alternative Schreibweisen: Solarhalterung, Photovoltaik-Montagesystem<br/><br/>Erklärung:<br/>Befestigungselemente für Photovoltaikanlagen, meist aus Aluminium, um Solarmodule sicher zu montieren.</p>"
@@ -481,9 +481,9 @@
         }
       },
       "block_order": [
-        "question_XwnKKx",
-        "question_dgrNed",
-        "question_qLawrR"
+        "term_KpPKdR",
+        "term_wBhRJd",
+        "term_rKbBxi"
       ],
       "settings": {
         "title": "P",
@@ -812,11 +812,11 @@
     "glossar_n6XUC4",
     "glossar_JKjqgA",
     "glossar_d9ALNF",
-    "faq_Xbabzm",
-    "faq_9MxBt7",
-    "faq_hd8Mm6",
-    "faq_fgj39C",
-    "faq_kpzE9N",
+    "glossar_Vr6rJA",
+    "glossar_9gCe4W",
+    "glossar_rVqch8",
+    "glossar_VbnLWr",
+    "glossar_7bWbNr",
     "faq_MrHtKt",
     "faq_RHJebB",
     "faq_mj9bfd",
