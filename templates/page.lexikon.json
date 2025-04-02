@@ -193,11 +193,11 @@
         "description": ""
       }
     },
-    "faq_gLMegP": {
-      "type": "faq",
+    "glossar_bmLWRK": {
+      "type": "glossar",
       "blocks": {
-        "question_bQAAdQ": {
-          "type": "question",
+        "term_afQEJn": {
+          "type": "term",
           "settings": {
             "title": "C-Profil",
             "text": "<p>Alternative Schreibweisen: <br/><br/>Erklärung:<br/>Ein C-Profil ist ein stranggepresstes Aluminiumprofil mit einem C-förmigen Querschnitt. Es wird häufig als Führungsschiene oder für Verstärkungselemente in der Bau- und Möbelindustrie eingesetzt.</p>"
@@ -205,18 +205,18 @@
         }
       },
       "block_order": [
-        "question_bQAAdQ"
+        "term_afQEJn"
       ],
       "settings": {
         "title": "C",
         "description": ""
       }
     },
-    "faq_yqaTi4": {
-      "type": "faq",
+    "glossar_xVrxp3": {
+      "type": "glossar",
       "blocks": {
-        "question_jgzdzG": {
-          "type": "question",
+        "term_yWcnQb": {
+          "type": "term",
           "settings": {
             "title": "Dichte",
             "text": "<p>Alternative Schreibweisen: Massendichte, spezifisches Gewicht<br/><br/>Erklärung:<br/>Die Dichte von Aluminium beträgt ca. 2,7 g/cm³ und ist damit deutlich geringer als die von Stahl. Dies macht Aluminium zu einem bevorzugten Werkstoff für Leichtbaukonstruktionen. Trotz des geringen Gewichts bietet Aluminium eine hohe Festigkeit und ist besonders gut verarbeitbar.</p>"
@@ -224,25 +224,25 @@
         }
       },
       "block_order": [
-        "question_jgzdzG"
+        "term_yWcnQb"
       ],
       "settings": {
         "title": "D",
         "description": ""
       }
     },
-    "faq_GWLLpw": {
-      "type": "faq",
+    "glossar_Gkjn8a": {
+      "type": "glossar",
       "blocks": {
-        "question_ULHjXx": {
-          "type": "question",
+        "term_tEgbTr": {
+          "type": "term",
           "settings": {
             "title": "Eckprofil",
             "text": "<p>Alternative Schreibweisen: Winkelprofil, Kantenschutzprofil<br/><br/>Erklärung:<br/>Ein Eckprofil ist ein stabförmiges Aluminiumteil, das häufig für Rahmenkonstruktionen eingesetzt wird.</p>"
           }
         },
-        "question_WixaH4": {
-          "type": "question",
+        "term_bnif8U": {
+          "type": "term",
           "settings": {
             "title": "Eloxieren",
             "text": "<p>Alternative Schreibweisen: Anodisieren, Elektrolytische Oxidation<br/><br/>Erklärung:<br/>Eloxieren ist ein elektrochemisches Verfahren zur Oberflächenveredelung von Aluminium. Dabei wird eine oxidische Schutzschicht erzeugt, die das Material vor Korrosion schützt und optisch ansprechend macht. Eloxierte Aluminiumteile sind besonders widerstandsfähig und langlebig.</p>"
@@ -250,26 +250,26 @@
         }
       },
       "block_order": [
-        "question_ULHjXx",
-        "question_WixaH4"
+        "term_tEgbTr",
+        "term_bnif8U"
       ],
       "settings": {
         "title": "E",
         "description": ""
       }
     },
-    "faq_nR4TP3": {
-      "type": "faq",
+    "glossar_n6XUC4": {
+      "type": "glossar",
       "blocks": {
-        "question_XFRTfL": {
-          "type": "question",
+        "term_ywGLPj": {
+          "type": "term",
           "settings": {
             "title": "Flachprofil",
             "text": "<p>Alternative Schreibweisen: Flachstange, Flachleiste<br/><br/>Erklärung:<br/>Ein Flachprofil ist ein längliches Aluminiumbauteil mit rechteckigem Querschnitt. Es wird in der Industrie, im Maschinenbau und bei Konstruktionen vielseitig eingesetzt.</p>"
           }
         },
-        "question_MJhw9k": {
-          "type": "question",
+        "term_6NqmwF": {
+          "type": "term",
           "settings": {
             "title": "Fräsen",
             "text": "<p>Alternative Schreibweisen: Zerspanung, CNC-Bearbeitung<br/><br/>Erklärung:<br/>Beim Fräsen wird Material durch rotierende Schneidwerkzeuge abgetragen, um Aluminiumbauteile mit hoher Präzision zu formen. Aluminium lässt sich besonders gut fräsen, was es für die Herstellung komplexer Bauteile in der Industrie unverzichtbar macht.</p>"
@@ -277,8 +277,8 @@
         }
       },
       "block_order": [
-        "question_XFRTfL",
-        "question_MJhw9k"
+        "term_ywGLPj",
+        "term_6NqmwF"
       ],
       "settings": {
         "title": "F",
@@ -806,10 +806,10 @@
     "2bcb0b91-7c44-4198-96e9-16d6053e6160",
     "glossar_gH7UKE",
     "glossar_wPrWcP",
-    "faq_gLMegP",
-    "faq_yqaTi4",
-    "faq_GWLLpw",
-    "faq_nR4TP3",
+    "glossar_bmLWRK",
+    "glossar_xVrxp3",
+    "glossar_Gkjn8a",
+    "glossar_n6XUC4",
     "faq_VBxijj",
     "faq_i8AWxT",
     "faq_Xbabzm",
