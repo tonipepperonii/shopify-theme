@@ -759,6 +759,27 @@
         "description": ""
       }
     },
+    "rich_text_ULex43": {
+      "type": "rich-text",
+      "blocks": {
+        "text_VmhQUb": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p><strong>Aluminium-Lexikon: Fachbegriffe rund um Aluminiumlegierungen einfach erklärt<br/><br/></strong>Aluminium ist einer der wichtigsten und meistverwendeten Werkstoffe in der modernen Industrie. Dank seiner einzigartigen Materialeigenschaften wie geringes Gewicht, hohe Festigkeit, Korrosionsbeständigkeit und gute Umformbarkeit ist Aluminium aus vielen Branchen nicht mehr wegzudenken. Es wird unter anderem in der Fahrzeugtechnik, im Bauwesen, in der Elektrotechnik, im Maschinenbau und im Designbereich eingesetzt. Die Vielzahl der möglichen Legierungen und Verarbeitungsverfahren bringt jedoch eine komplexe Fachsprache mit sich, die nicht immer selbsterklärend ist. Genau aus diesem Grund haben wir das Aluminium-Lexikon ins Leben gerufen.<br/><br/>Unser Aluminium-Lexikon bietet Ihnen einen strukturierten und verständlichen Überblick über die wichtigsten Begriffe rund um Aluminiumlegierungen, deren Zusammensetzung, Eigenschaften und Verwendung. Es richtet sich an alle, die regelmäßig mit Aluminium arbeiten oder sich für die technischen Hintergründe interessieren - ob in Ausbildung, Studium oder Beruf.<br/><br/><strong>Was erklärt das Aluminium-Lexikon?<br/><br/></strong>Das Lexikon behandelt eine Vielzahl technischer Aspekte:</p><ul><li>Übersicht über die gebräuchlichsten Aluminiumlegierungen einschließlich Knet- und Gusslegierungen</li><li>Erläuterung der Werkstoffbezeichnungen nach EN, DIN oder internationalen Normensystemen</li><li>Darstellung der relevanten Legierungselemente wie Magnesium, Silizium, Kupfer, Mangan oder Zink</li><li>Beschreibung der mechanischen Eigenschaften wie Härte, Zugfestigkeit, Streckgrenze oder Elastizitätsmodul</li><li>Erklärung physikalischer Eigenschaften wie Dichte, elektrische Leitfähigkeit oder Wärmeleitfähigkeit</li><li>Informationen über Verarbeitungsverfahren wie Schweißen, Strangpressen, Löten, Fräsen oder Oberflächenbehandlung</li><li>Liste typischer Anwendungen von Aluminium in verschiedenen Branchen</li></ul><p><strong>An wen richtet sich das Lexikon?<br/></strong>Das Lexikon richtet sich an Techniker, Konstrukteure, Ingenieure, Architekten, Handwerker, technische Einkäufer, Studenten sowie an alle, die mit Aluminium arbeiten oder sich fundiert über den Werkstoff informieren möchten. Es dient als nützliches Nachschlagewerk für die tägliche Arbeit, als Orientierungshilfe bei der Werkstoffauswahl und zur besseren Kommunikation mit Kunden und Partnern.</p><p>Entdecken Sie die Welt des Aluminiums auf verständliche Weise - mit unserem Aluminium-Lexikon, Ihrem digitalen Begleiter für technische Klarheit und praktisches Wissen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_VmhQUb"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
     "rich_text_YYYCiy": {
       "type": "rich-text",
       "blocks": {
@@ -824,6 +845,7 @@
     "glossar_qntWVf",
     "glossar_j47Fat",
     "glossar_bdi7hq",
+    "rich_text_ULex43",
     "rich_text_YYYCiy",
     "advanced_content_D89bk3"
   ]
