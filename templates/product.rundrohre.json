@@ -111,6 +111,7 @@
       "blocks": {
         "heading_7jG3zh": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "title": "Aluminium Rundrohr",
             "show_line": false
@@ -118,10 +119,9 @@
         },
         "text_Gif3MM": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "text": "<h1>Aluminium Rundrohr</h1>"
           }
         }
       },
