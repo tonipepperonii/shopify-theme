@@ -14,6 +14,7 @@
       "blocks": {
         "heading_Lp9kfk": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "title": "Aluminium Profile Flach",
             "show_line": false
@@ -21,10 +22,9 @@
         },
         "text_FyiWUK": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "enlarge_text": true,
-            "text": ""
+            "text": "<h1>Aluminium Profile Flach</h1>"
           }
         }
       },
