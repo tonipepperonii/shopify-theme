@@ -110,7 +110,7 @@
       "type": "main-product",
       "blocks": {
         "trusted_shops_easy_integration_mini_stars_zDUxwb": {
-          "type": "shopify://apps/trusted-shops-easy-integration/blocks/mini-stars/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
+          "type": "shopify://apps/trusted-shops-reviews-and-more/blocks/mini-stars/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
           "settings": {}
         },
         "alu_verkauf_konfigurator_app_block_onlylength_BcxEfb": {
@@ -203,6 +203,7 @@
     },
     "recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "product_recommendations_heading": "You may also like"
       }
