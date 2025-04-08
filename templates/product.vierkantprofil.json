@@ -111,6 +111,7 @@
       "blocks": {
         "heading_8UFWfH": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "title": "Aluminium Vierkantprofil",
             "show_line": false
@@ -118,10 +119,9 @@
         },
         "text_jM6gVq": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "text": "<h1>Aluminium Vierkantprofil</h1>"
           }
         }
       },
