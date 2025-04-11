@@ -34,17 +34,17 @@
           "type": "hero",
           "settings": {
             "top_subheading": "",
-            "title": "<h2>Frühling wird aus Alu gemacht!</h2>",
+            "title": "<h1>Der Recycling-Star: Warum Aluminium so wertvoll ist</h1>",
             "title_size": 40,
-            "subheading": "Mach mehr aus deiner Outdoor-Saison – mit cleveren Ideen aus Aluminium.",
+            "subheading": "Aluminium lässt sich nahezu unbegrenzt recyceln – und das bei minimalem Energieaufwand. Erfahre, warum das silberne Multitalent nicht nur unsere Bauwerke, sondern auch unsere Umwelt nachhaltig stärkt.",
             "link": "shopify://blogs/ideen/aluminium-im-fruehling",
             "link_text": "Mehr erfahren",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#ff9900",
             "text_align": "vertical-center horizontal-right",
-            "image": "shopify://shop_images/Hero_desktop_fruehling_blog.jpg",
-            "image_mobile": "shopify://shop_images/Aluminium_bohren_2.png",
+            "image": "shopify://shop_images/Herobanner_recycling_aluminium.jpg",
+            "image_mobile": "shopify://shop_images/Hero_mobil_Recycling_Aluminium.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
