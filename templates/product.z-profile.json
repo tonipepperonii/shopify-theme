@@ -121,7 +121,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<h1>Aluminium Z Profil</h1>"
+            "text": "<h2>Aluminium Z Profil</h2>"
           }
         }
       },
