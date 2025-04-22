@@ -63,7 +63,7 @@
             "color_accent": "#ff9900",
             "text_align": "vertical-center horizontal-right",
             "image": "shopify://shop_images/herobanner_aluminium_spray_a_100.png",
-            "image_mobile": "shopify://shop_images/Hero_mobil_Staffelrabatt.png",
+            "image_mobile": "shopify://shop_images/Hero_mobil_aluminium_a_100_spray.png",
             "overlay_opacity": 6,
             "focal_point": "center center"
           }
