@@ -26,7 +26,7 @@
             "color_accent": "#ff9900",
             "text_align": "vertical-center horizontal-right",
             "image": "shopify://shop_images/Hero_Rabatt_Vierkantrohre_2.png",
-            "image_mobile": "shopify://shop_images/Hero_mobil_aluminium_bleifrei_1.png",
+            "image_mobile": "shopify://shop_images/Hero_mobil_aluminium_bleifrei_2.png",
             "overlay_opacity": 24,
             "focal_point": "center center"
           }
