@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -15,26 +24,75 @@
       "blocks": {
         "tags": {
           "type": "tags",
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
         "tags",
         "share"
       ],
+      "settings": {}
+    },
+    "featured_product_3GNiUN": {
+      "type": "featured-product",
+      "blocks": {
+        "price_rNPTq9": {
+          "type": "price",
+          "settings": {}
+        },
+        "description_B89eyd": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "variant_picker_RfYBfK": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "buy_buttons_pDDGpq": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        }
+      },
+      "block_order": [
+        "price_rNPTq9",
+        "description_B89eyd",
+        "variant_picker_RfYBfK",
+        "buy_buttons_pDDGpq"
+      ],
+      "name": "t:sections.featured-product.presets.featured_product.name",
       "settings": {
+        "featured_product": "tuk-alu-60x30x2-995-10",
+        "divider": false,
+        "sku_enable": false,
+        "image_position": "left",
+        "image_container_size": "medium",
+        "product_image_size": "square",
+        "product_zoom_enable": true,
+        "thumbnail_position": "below",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
       }
     }
   },
   "order": [
     "main",
-    "sidebar"
+    "sidebar",
+    "featured_product_3GNiUN"
   ],
   "wrapper": "div.page-width.page-content.blog-layout"
 }
