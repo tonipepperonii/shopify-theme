@@ -14,6 +14,7 @@
       "blocks": {
         "hero_qTNdfV": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "Sichere Dir jetzt 10% Rabatt auf Z-, U- oder T-Profile.",
             "title": "<p>Code: 10ZTUAktion</p>",
