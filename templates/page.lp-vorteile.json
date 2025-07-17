@@ -181,7 +181,7 @@
         "collection_VjLRyc": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "vierkant",
             "title": ""
           }
         }
@@ -196,7 +196,7 @@
       ],
       "name": "t:sections.featured-collections.presets.collection_list.name",
       "settings": {
-        "title": "Popular categories",
+        "title": "",
         "divider": false
       }
     }
