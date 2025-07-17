@@ -139,6 +139,66 @@
         "full_width": false,
         "space_around": false
       }
+    },
+    "featured_collections_tBbtdN": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_7p4n3N": {
+          "type": "collection",
+          "settings": {
+            "collection": "alu-vierkantrohre",
+            "title": ""
+          }
+        },
+        "collection_MMy4ic": {
+          "type": "collection",
+          "settings": {
+            "collection": "platten",
+            "title": ""
+          }
+        },
+        "collection_jqEDwR": {
+          "type": "collection",
+          "settings": {
+            "collection": "alu-profile-winkel",
+            "title": ""
+          }
+        },
+        "collection_prg3wk": {
+          "type": "collection",
+          "settings": {
+            "collection": "alu-systemprofile",
+            "title": ""
+          }
+        },
+        "collection_VpWbTD": {
+          "type": "collection",
+          "settings": {
+            "collection": "rundrohr",
+            "title": ""
+          }
+        },
+        "collection_VjLRyc": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_7p4n3N",
+        "collection_MMy4ic",
+        "collection_jqEDwR",
+        "collection_prg3wk",
+        "collection_VpWbTD",
+        "collection_VjLRyc"
+      ],
+      "name": "t:sections.featured-collections.presets.collection_list.name",
+      "settings": {
+        "title": "Popular categories",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -148,6 +208,7 @@
     "advanced_content_f49iRW",
     "advanced_content_xYQM3V",
     "advanced_content_AixVGW",
-    "advanced_content_iJRdQz"
+    "advanced_content_iJRdQz",
+    "featured_collections_tBbtdN"
   ]
 }
