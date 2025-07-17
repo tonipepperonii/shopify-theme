@@ -1,0 +1,42 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "advanced_content_MYeCXK": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_TFwWGk": {
+          "type": "liquid",
+          "settings": {
+            "code": "<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Stufenregal-Rechner</title>\n  <style>\n    body { font-family: sans-serif; padding: 20px; max-width: 1200px; }\n    input, button { padding: 8px; margin: 8px 0; width: 100%; }\n    .output { margin-top: 20px; padding: 10px; background: #f0f0f0; border-radius: 6px; }\n  </style>\n</head>\n<body>\n  <h1>Stufenregal-Rechner mit Steckverbindern</h1>\n  <label for=\"hoehe\">Gesamthöhe des Regals (in cm):</label>\n  <input type=\"number\" id=\"hoehe\" placeholder=\"z. B. 90\">\n\n  <label for=\"breite\">Gesamtbreite des Regals (in cm):</label>\n  <input type=\"number\" id=\"breite\" placeholder=\"z. B. 100\">\n\n  <button onclick=\"berechneRegal()\">Regal berechnen</button>\n\n  <div class=\"output\" id=\"ergebnis\"></div>\n\n  <script>\n    function berechneRegal() {\n      const hoehe = parseFloat(document.getElementById('hoehe').value);\n      const breite = parseFloat(document.getElementById('breite').value);\n      const etagen = 3;\n      const verbindungsAbzug = 1; // 2x10mm = 20mm = 2cm -> für beide Seiten je Querstrebe\n\n      if (isNaN(hoehe) || isNaN(breite) || hoehe <= 0 || breite <= 0) {\n        document.getElementById('ergebnis').innerHTML = 'Bitte gültige Werte für Höhe und Breite eingeben.';\n        return;\n      }\n\n      const vertikaleProfile = 4; // 2 links, 2 rechts\n      const vertikaleLaenge = hoehe.toFixed(1);\n\n      const querstrebenProEbene = 2; // vorn + hinten\n      const gesamtQuerstreben = etagen * querstrebenProEbene;\n      const zugeschnitteneBreite = (breite - (verbindungsAbzug * 2)).toFixed(1);\n\n      const bretterProEbene = [3, 3, 2]; // unten, mitte, oben\n      const gesamtBretter = bretterProEbene.reduce((a, b) => a + b);\n\n      const output = `\n        <strong>Profilanzahl:</strong><br>\n        - Vertikale Profile: ${vertikaleProfile} × ${vertikaleLaenge} cm<br>\n        - Waagrechte Profile: ${gesamtQuerstreben} × ${zugeschnitteneBreite} cm (inkl. 2x1 cm Abzug für Steckverbinder)<br><br>\n\n        <strong>Holzbretter:</strong><br>\n        - ${gesamtBretter} Bretter (z. B. je ${breite} cm, je nach Design)<br><br>\n\n        <strong>Einkaufsliste (Basis):</strong><br>\n        - ${vertikaleProfile + gesamtQuerstreben} Aluprofile gesamt<br>\n        - ${gesamtQuerstreben * 2} Steckverbinder (je Querprofil 2 Stück)<br>\n        - ${gesamtBretter} Holzbretter<br>\n      `;\n\n      document.getElementById('ergebnis').innerHTML = output;\n    }\n  </script>\n</body>\n</html>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_TFwWGk"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "advanced_content_MYeCXK"
+  ]
+}
