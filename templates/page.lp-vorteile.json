@@ -98,13 +98,97 @@
         "product_video_style": "muted"
       }
     },
+    "advanced_content_LVEaL3": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_PWgYVV": {
+          "type": "liquid",
+          "settings": {
+            "code": "<img src=\"https://cdn.shopify.com/s/files/1/0729/7653/1760/files/Vorteile_1_Desktop_LP.png?v=1752735046\" alt=\"Bildbeschreibung\" width=\"2000\" height=\"auto\">",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_PWgYVV"
+      ],
+      "name": "t:sections.advanced-content.presets.custom_content.name",
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "advanced_content_f49iRW": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_jeG86b": {
+          "type": "liquid",
+          "settings": {
+            "code": "<img src=\"https://cdn.shopify.com/s/files/1/0729/7653/1760/files/Vorteile_4_Desktop_LP.png?v=1752735046\" alt=\"Bildbeschreibung\" width=\"2000\" height=\"auto\">",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_jeG86b"
+      ],
+      "name": "t:sections.advanced-content.presets.custom_content.name",
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "advanced_content_xYQM3V": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_JtVxRD": {
+          "type": "liquid",
+          "settings": {
+            "code": "<img src=\"https://cdn.shopify.com/s/files/1/0729/7653/1760/files/Vorteile_3_Desktop_LP.png?v=1752735047\" alt=\"Bildbeschreibung\" width=\"2000\" height=\"auto\">",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_JtVxRD"
+      ],
+      "name": "t:sections.advanced-content.presets.custom_content.name",
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "advanced_content_AixVGW": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_PLLNNz": {
+          "type": "liquid",
+          "settings": {
+            "code": "<img src=\"https://cdn.shopify.com/s/files/1/0729/7653/1760/files/Vorteile_2_Desktop_LP.png?v=1752735047\" alt=\"Bildbeschreibung\" width=\"2000\" height=\"auto\">",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_PLLNNz"
+      ],
+      "name": "t:sections.advanced-content.presets.custom_content.name",
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
     "advanced_content_iJRdQz": {
       "type": "advanced-content",
       "blocks": {
         "liquid_XX9pmM": {
           "type": "liquid",
           "settings": {
-            "code": "<img src=\"https://alu-verkauf.de/cdn/shop/files/Vorteile_Desktop_LP_2400x.png?v=1752732395\" alt=\"Bildbeschreibung\" width=\"2000\" height=\"auto\">",
+            "code": "<img src=\"https://cdn.shopify.com/s/files/1/0729/7653/1760/files/Vorteile_5_Desktop_LP_642ebc6e-7a87-4501-8f49-0d171cb8d8fb.png?v=1752733222?v=1752732395\" alt=\"Bildbeschreibung\" width=\"2000\" height=\"auto\">",
             "width": "100%",
             "alignment": "center"
           }
@@ -117,22 +201,6 @@
       "settings": {
         "full_width": false,
         "space_around": true
-      }
-    },
-    "background_image_text_Pi4mqJ": {
-      "type": "background-image-text",
-      "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
-      "settings": {
-        "subtitle": "",
-        "title": "",
-        "text": "<p></p><p></p>",
-        "button_label": "",
-        "button_link": "",
-        "image": "shopify://shop_images/Vorteile_5_Desktop_LP_642ebc6e-7a87-4501-8f49-0d171cb8d8fb.png",
-        "focal_point": "center",
-        "layout": "left",
-        "height": 450,
-        "parallax": false
       }
     },
     "featured_product_4LtfVW": {
@@ -198,25 +266,130 @@
         "product_video_style": "muted"
       }
     },
-    "advanced_content_zTWCX4": {
-      "type": "advanced-content",
+    "featured_product_CeEcan": {
+      "type": "featured-product",
       "blocks": {
-        "liquid_Nhjg6t": {
-          "type": "liquid",
+        "price_FqBqwg": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "inventory_status_mHfeyC": {
+          "type": "inventory_status",
           "settings": {
-            "code": "<h2>Custom content</h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.</p>",
-            "width": "100%",
-            "alignment": "center"
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "description_PygJKU": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "variant_picker_M9zUrf": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "buy_buttons_aBTgYg": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
           }
         }
       },
       "block_order": [
-        "liquid_Nhjg6t"
+        "price_FqBqwg",
+        "inventory_status_mHfeyC",
+        "description_PygJKU",
+        "variant_picker_M9zUrf",
+        "buy_buttons_aBTgYg"
       ],
-      "name": "t:sections.advanced-content.presets.custom_content.name",
+      "name": "t:sections.featured-product.presets.featured_product.name",
       "settings": {
-        "full_width": false,
-        "space_around": true
+        "featured_product": "aluminium-platten",
+        "divider": false,
+        "sku_enable": false,
+        "image_position": "left",
+        "image_container_size": "small",
+        "product_image_size": "square",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "featured_product_rEE7eU": {
+      "type": "featured-product",
+      "blocks": {
+        "price_89zqBa": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "inventory_status_wc3jhU": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "description_TpUjWC": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "variant_picker_RpkUp9": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "buy_buttons_9iFTz3": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        }
+      },
+      "block_order": [
+        "price_89zqBa",
+        "inventory_status_wc3jhU",
+        "description_TpUjWC",
+        "variant_picker_RpkUp9",
+        "buy_buttons_9iFTz3"
+      ],
+      "name": "t:sections.featured-product.presets.featured_product.name",
+      "settings": {
+        "featured_product": "aluminium-platten",
+        "divider": false,
+        "sku_enable": false,
+        "image_position": "left",
+        "image_container_size": "small",
+        "product_image_size": "square",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
       }
     }
   },
@@ -224,9 +397,13 @@
     "main",
     "advanced_content_ncFMyY",
     "featured_product_RAjaek",
+    "advanced_content_LVEaL3",
+    "advanced_content_f49iRW",
+    "advanced_content_xYQM3V",
+    "advanced_content_AixVGW",
     "advanced_content_iJRdQz",
-    "background_image_text_Pi4mqJ",
     "featured_product_4LtfVW",
-    "advanced_content_zTWCX4"
+    "featured_product_CeEcan",
+    "featured_product_rEE7eU"
   ]
 }
