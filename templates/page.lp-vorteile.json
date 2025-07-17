@@ -98,14 +98,14 @@
       "name": "t:sections.background-image-text.presets.large_image_with_text_box.name",
       "settings": {
         "subtitle": "",
-        "title": "",
-        "text": "",
+        "title": "Korrosionsbeständig",
+        "text": "<p>Aluminium bildet eine natürliche Oxidschicht, die es hervorragend gegen Rost und Witterung schützt – ideal für den Einsatz bei Regen, Schnee oder hoher Luftfeuchtigkeit.</p><p></p>",
         "button_label": "",
         "button_link": "",
-        "image": "shopify://shop_images/Vorteile_5_Desktop_LP_642ebc6e-7a87-4501-8f49-0d171cb8d8fb.png",
+        "image": "shopify://shop_images/Vorteile_5_Desktop_LP_2.png",
         "focal_point": "center",
         "layout": "left",
-        "height": 550,
+        "height": 450,
         "parallax": false
       }
     },
