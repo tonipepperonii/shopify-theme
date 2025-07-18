@@ -20,7 +20,7 @@
         "liquid_gyJH8H": {
           "type": "liquid",
           "settings": {
-            "code": "<img src=\"https://cdn.shopify.com/s/files/1/0729/7653/1760/files/Vorteile_Desktop_LP_eda451ff-b09a-489b-9a9e-4c2b8b1c01b2.png?v=1752822449\" alt=\"Bildbeschreibung\" width=\"2000\" height=\"auto\">",
+            "code": "<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Vorteile Aluminium</title>\n  <style>\n    body {\n      margin: 0;\n      padding: 0;\n      background-color: #e5e5e5;\n    }\n\n    .responsive-image {\n      width: 100%;\n      height: auto;\n      display: none;\n    }\n\n    /* Desktop-Anzeige ab 768px */\n    @media (min-width: 768px) {\n      #desktop-img {https://cdn.shopify.com/s/files/1/0729/7653/1760/files/Vorteile_Desktop_LP_eda451ff-b09a-489b-9a9e-4c2b8b1c01b2.png?v=1752822449\n        display: block;\n      }\n    }\n\n    /* Mobil-Anzeige bis 767px */\n    @media (max-width: 767px) {\n      #mobile-img {https://cdn.shopify.com/s/files/1/0729/7653/1760/files/Vorteile_Mobil_LP.png?v=1752822453\n        display: block;\n      }\n    }\n  </style>\n</head>\n<body>\n\n  <!-- Mobilgrafik -->\n  <img\n    id=\"mobile-img\"\n    class=\"responsive-image\"\n    src=\"Vorteile%20Mobil%20LP.png\"\n    alt=\"5 Vorteile von Aluminium – Mobilversion\"\n  >\n\n  <!-- Desktopgrafik -->\n  <img\n    id=\"desktop-img\"\n    class=\"responsive-image\"\n    src=\"Vorteile%20Desktop%20LP.png\"\n    alt=\"5 Vorteile von Aluminium – Desktopversion\"\n  >\n\n</body>\n</html>",
             "width": "100%",
             "alignment": "center"
           }
