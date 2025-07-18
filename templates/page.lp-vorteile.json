@@ -20,7 +20,7 @@
         "liquid_gyJH8H": {
           "type": "liquid",
           "settings": {
-            "code": "<img src=\"https://alu-verkauf.de/cdn/shop/files/Vorteile_Desktop_LP_2400x.png?v=1752732395\" alt=\"Bildbeschreibung\" width=\"2000\" height=\"auto\">",
+            "code": "<img src=\"https://cdn.shopify.com/s/files/1/0729/7653/1760/files/Vorteile_Desktop_LP_eda451ff-b09a-489b-9a9e-4c2b8b1c01b2.png?v=1752822449\" alt=\"Bildbeschreibung\" width=\"2000\" height=\"auto\">",
             "width": "100%",
             "alignment": "center"
           }
@@ -28,111 +28,6 @@
       },
       "block_order": [
         "liquid_gyJH8H"
-      ],
-      "name": "t:sections.advanced-content.presets.custom_content.name",
-      "settings": {
-        "full_width": false,
-        "space_around": false
-      }
-    },
-    "advanced_content_LVEaL3": {
-      "type": "advanced-content",
-      "blocks": {
-        "liquid_PWgYVV": {
-          "type": "liquid",
-          "settings": {
-            "code": "<img src=\"https://cdn.shopify.com/s/files/1/0729/7653/1760/files/Vorteile_1_Desktop_LP.png?v=1752735046\" alt=\"Bildbeschreibung\" width=\"2000\" height=\"auto\">",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "liquid_PWgYVV"
-      ],
-      "name": "t:sections.advanced-content.presets.custom_content.name",
-      "settings": {
-        "full_width": false,
-        "space_around": false
-      }
-    },
-    "advanced_content_f49iRW": {
-      "type": "advanced-content",
-      "blocks": {
-        "liquid_jeG86b": {
-          "type": "liquid",
-          "settings": {
-            "code": "<img src=\"https://cdn.shopify.com/s/files/1/0729/7653/1760/files/Vorteile_4_Desktop_LP.png?v=1752735046\" alt=\"Bildbeschreibung\" width=\"2000\" height=\"auto\">",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "liquid_jeG86b"
-      ],
-      "name": "t:sections.advanced-content.presets.custom_content.name",
-      "settings": {
-        "full_width": false,
-        "space_around": false
-      }
-    },
-    "advanced_content_xYQM3V": {
-      "type": "advanced-content",
-      "blocks": {
-        "liquid_JtVxRD": {
-          "type": "liquid",
-          "settings": {
-            "code": "<img src=\"https://cdn.shopify.com/s/files/1/0729/7653/1760/files/Vorteile_3_Desktop_LP.png?v=1752735047\" alt=\"Bildbeschreibung\" width=\"2000\" height=\"auto\">",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "liquid_JtVxRD"
-      ],
-      "name": "t:sections.advanced-content.presets.custom_content.name",
-      "settings": {
-        "full_width": false,
-        "space_around": false
-      }
-    },
-    "advanced_content_AixVGW": {
-      "type": "advanced-content",
-      "blocks": {
-        "liquid_PLLNNz": {
-          "type": "liquid",
-          "settings": {
-            "code": "<img src=\"https://cdn.shopify.com/s/files/1/0729/7653/1760/files/Vorteile_2_Desktop_LP.png?v=1752735047\" alt=\"Bildbeschreibung\" width=\"2000\" height=\"auto\">",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "liquid_PLLNNz"
-      ],
-      "name": "t:sections.advanced-content.presets.custom_content.name",
-      "settings": {
-        "full_width": false,
-        "space_around": false
-      }
-    },
-    "advanced_content_iJRdQz": {
-      "type": "advanced-content",
-      "blocks": {
-        "liquid_XX9pmM": {
-          "type": "liquid",
-          "settings": {
-            "code": "<img src=\"https://cdn.shopify.com/s/files/1/0729/7653/1760/files/Vorteile_5_Desktop_LP_642ebc6e-7a87-4501-8f49-0d171cb8d8fb.png?v=1752733222?v=1752732395\" alt=\"Bildbeschreibung\" width=\"2000\" height=\"auto\">",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "liquid_XX9pmM"
       ],
       "name": "t:sections.advanced-content.presets.custom_content.name",
       "settings": {
@@ -204,11 +99,6 @@
   "order": [
     "main",
     "advanced_content_ncFMyY",
-    "advanced_content_LVEaL3",
-    "advanced_content_f49iRW",
-    "advanced_content_xYQM3V",
-    "advanced_content_AixVGW",
-    "advanced_content_iJRdQz",
     "featured_collections_tBbtdN"
   ]
 }
