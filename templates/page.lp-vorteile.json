@@ -27,6 +27,7 @@
         },
         "image_akU7wt": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Vorteile_Desktop_LP_eda451ff-b09a-489b-9a9e-4c2b8b1c01b2.png",
             "link": "",
