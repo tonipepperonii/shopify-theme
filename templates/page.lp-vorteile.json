@@ -24,10 +24,20 @@
             "width": "100%",
             "alignment": "center"
           }
+        },
+        "image_akU7wt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Vorteile_Desktop_LP_eda451ff-b09a-489b-9a9e-4c2b8b1c01b2.png",
+            "link": "",
+            "width": "100%",
+            "alignment": "center"
+          }
         }
       },
       "block_order": [
-        "liquid_gyJH8H"
+        "liquid_gyJH8H",
+        "image_akU7wt"
       ],
       "name": "t:sections.advanced-content.presets.custom_content.name",
       "settings": {
