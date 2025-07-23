@@ -123,7 +123,7 @@
         ".vertical-bottom {vertical-align: middle !important;}"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "desktop_size": 10,
         "mobile_size": 60,
         "style": "arrows",
