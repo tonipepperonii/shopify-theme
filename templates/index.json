@@ -14,26 +14,26 @@
       "blocks": {
         "hero_qTNdfV": {
           "type": "hero",
-          "disabled": true,
           "settings": {
-            "top_subheading": "Sichere Dir jetzt 10% Rabatt auf Z-, U- oder T-Profile.",
-            "title": "<p>Code: 10ZTUAktion</p>",
+            "top_subheading": "Gutscheincode im Warenkorb einlösen und Give-Away sichern.",
+            "title": "",
             "title_size": 45,
             "subheading": "",
-            "link": "https://alu-verkauf.de/collections/aktion-mai-juni-ztu",
+            "link": "",
             "link_text": "Jetzt einlösen",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#ff9900",
             "text_align": "vertical-center horizontal-right",
-            "image": "shopify://shop_images/Gutschein_Shop_Desktop_113abc60-db03-4f0e-ab79-f92a2b3efdcf.png",
-            "image_mobile": "shopify://shop_images/Gutschein_Shop_mobile.png",
-            "overlay_opacity": 24,
+            "image": "shopify://shop_images/Giveaway_Desktop_Hero_56df70eb-33da-4bd0-bb24-b28081e9fe95.png",
+            "image_mobile": "shopify://shop_images/Giveaway_Mobile_Kopie.png",
+            "overlay_opacity": 0,
             "focal_point": "center center"
           }
         },
         "hero_33fmRU": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "<h1>Der Recycling-Star: Warum Aluminium so wertvoll ist</h1>",
