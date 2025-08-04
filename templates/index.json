@@ -14,6 +14,7 @@
       "blocks": {
         "hero_qTNdfV": {
           "type": "hero",
+          "disabled": true,
           "settings": {
             "top_subheading": "Gutscheincode im Warenkorb einlösen und Give-Away sichern.",
             "title": "",
