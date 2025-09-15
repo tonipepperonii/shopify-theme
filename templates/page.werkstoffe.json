@@ -208,8 +208,8 @@
           "settings": {
             "enable_image": false,
             "image_width": 650,
-            "title": "AlMg4,5Mn = EN AW 5083",
-            "text": "<p>DIN Werkstoff Nr. 3.3547</p><p><strong>Anwendungsbereiche:<br/></strong>Luftfahrt, Transport, Verkehr, Schmiedestücke</p><p>Eloxieren - ausreichend<br/>Zerspanbarkeit - gut<br/>Schweißen - gut<br/>Beständigkeit gegen Witterung/Seewasser -sehr gut / gut</p><p><strong>Werte für Dicken ab ca. 6 mm<br/></strong>Zugfestigkeit 275 - 315 N/qmm<br/>Streckgrenze 125 - 180 N/qmm<br/>Härte 70 - 100 Brinell<br/>Wärmeleitfähigkeit ca. 1,1 W/cm °C</p>",
+            "title": "AlMg4,5Mn = EN AW 5083 Guss",
+            "text": "<p>DIN Werkstoff Nr. 3.3547</p><p><strong>Anwendungsbereiche:<br/></strong>Luftfahrt, Transport, Verkehr, Schmiedestücke</p><p>Eloxieren - gut<br/>Zerspanbarkeit - ausreichend<br/>Schweißen - gut<br/>Beständigkeit gegen Witterung/Seewasser -sehr gut</p><p><strong>Werte für Dicken ab ca. 6 mm<br/></strong>Zugfestigkeit 230 - 275 N/qmm<br/>Streckgrenze 115 - 125 N/qmm<br/>Härte 68 - 75 Brinell</p>",
             "button_label": "",
             "button_link": ""
           }
