@@ -227,6 +227,7 @@
         },
         "text_block_nqq86T": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": false,
             "image_width": 650,
