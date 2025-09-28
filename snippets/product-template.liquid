@@ -435,7 +435,9 @@
                   <div class="placeholder-content" style="min-height: 86px;"></div>
                 </div>
               {%- endfor -%}
-                            {% comment %}Gibt das Metafeld als line item property aus um die Versandkosten berechnen zu können.{% endcomment %}
+              {% comment %}Gibt das Metafeld versand als lineitem property aus um die Versandkosten berechnen zu können.{% endcomment %}
+              {% assign versand_value = product.selected_or_first_available_variant.metafields.produktVariant.versand.value %}
+              {% if versand_value != blank %}
                             <div class="versandproperty" style="font-size: 10px; color: #999; display: block;">
                             Versandhinweis: <input type="text" form="{{ form_id }}"
                                   id="versand-text" 
@@ -449,6 +451,7 @@
                padding: 1px; 
                width: 60px;">
                           </div>
+              {% endif %}
             </div>
           </div>
         </div>
