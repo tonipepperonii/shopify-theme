@@ -435,13 +435,13 @@
                   <div class="placeholder-content" style="min-height: 86px;"></div>
                 </div>
               {%- endfor -%}
-                                                <div class="versandproperty" style="font-size: 8px; color: #999; display: block;">
+                                                <div class="versandproperty" style="font-size: 10px; color: #999; display: block;">
                             Versandhinweis: <input type="text" form="{{ form_id }}"
                                   id="versand-text" 
                                   name="properties[_Versandprofil]" 
                                   value="{{ product.selected_or_first_available_variant.metafields.produktVariant.versand.value | default: 'K1000' }}"
                                   data-variant-metafield="versand"
-                                  placeholder="K1000" readonly style="font-size: 8px; 
+                                  placeholder="K1000" readonly style="font-size: 10px; 
                color: #aaa; 
                background: none; 
                border: none; 
