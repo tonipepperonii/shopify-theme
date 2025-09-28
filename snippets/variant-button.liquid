@@ -88,6 +88,16 @@
             class="variant__button-label{% unless product_available %} disabled{% endunless %}">{{ value | escape }}</label>
         {%- endif -%}
       </div>
+      <div class="product-form__input">
+  <label for="versand-text">Versandhinweis:</label>
+  <input type="text" 
+         id="versand-text" 
+         name="properties[Versand]" 
+         value="{{ product.selected_or_first_available_variant.metafields.produktVariant.versand.value | default: '' }}"
+         data-variant-metafield="versand"
+         placeholder="Versandcode eingeben">
+</div>
+
     {%- endfor -%}
   </fieldset>
 </div>
