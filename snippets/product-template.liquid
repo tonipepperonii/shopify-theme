@@ -491,3 +491,36 @@
     </div>
   </div>
 </div>
+<!-- JavaScript am Ende der Datei einfügen: -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Alle Varianten-Selektoren finden
+  const variantSelectors = document.querySelectorAll('select[name="id"], input[name="id"]');
+  
+  variantSelectors.forEach(selector => {
+    selector.addEventListener('change', function() {
+      if (this.type === 'radio' && !this.checked) return;
+      updateVersandMetafield(this.value);
+    });
+  });
+});
+
+function updateVersandMetafield(variantId) {
+  const productUrl = window.location.pathname;
+  
+  fetch(`${productUrl}?variant=${variantId}&section_id={{ section.id }}`)
+    .then(response => response.text())
+    .then(html => {
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, 'text/html');
+      
+      const newVersandInput = doc.querySelector('#versand-text');
+      const currentVersandInput = document.querySelector('#versand-text');
+      
+      if (newVersandInput && currentVersandInput) {
+        currentVersandInput.value = newVersandInput.value || 'K1000';
+      }
+    })
+    .catch(error => console.log('Versand-Update Fehler:', error));
+}
+</script>
