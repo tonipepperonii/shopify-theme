@@ -95,6 +95,12 @@
             "show_dynamic_checkout": false,
             "surface_pickup_enable": true
           }
+        },
+        "custom_HkfVQi": {
+          "type": "custom",
+          "settings": {
+            "code": "<div class=\"product-form__input\">\n  <label for=\"personalization-text\">Beschriftungstext:</label>\n  <input type=\"text\" \n         id=\"personalization-text\" \n         name=\"properties[Beschriftung]\" \n         value=\"{{ product.metafields.custom.standard_beschriftung.value | default: '' }}\"\n         placeholder=\"Geben Sie Ihren gewünschten Text ein\">\n</div>"
+          }
         }
       },
       "block_order": [
@@ -102,7 +108,8 @@
         "price",
         "0b529514-2cd6-442b-91f6-cd9726c87e30",
         "text_Bh66QM",
-        "buy_buttons"
+        "buy_buttons",
+        "custom_HkfVQi"
       ],
       "custom_css": [
         ".product-grid__container {padding: 50px 0;}"
