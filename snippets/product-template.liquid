@@ -352,6 +352,15 @@
                           {%- endif -%}
                         {%- endfor -%}
                       {%- endunless -%}
+                            <div class="product-form__input">
+                            <label for="versand-text">Versandhinweis:</label>
+                            <input type="text" 
+                                  id="versand-text" 
+                                  name="properties[Versand]" 
+                                  value="{{ product.selected_or_first_available_variant.metafields.produktVariant.versand.value | default: '' }}"
+                                  data-variant-metafield="versand"
+                                  placeholder="Versandcode eingeben">
+                          </div>
                     </div>
                   {%- when 'buy_buttons' -%}
                     <div class="product-block" {{ block.shopify_attributes }}>
