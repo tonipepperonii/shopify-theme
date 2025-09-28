@@ -435,7 +435,8 @@
                   <div class="placeholder-content" style="min-height: 86px;"></div>
                 </div>
               {%- endfor -%}
-                                                <div class="versandproperty" style="font-size: 10px; color: #999; display: block;">
+                            {% comment %}Gibt das Metafeld als line item property aus um die Versandkosten berechnen zu können.{% endcomment %}
+                            <div class="versandproperty" style="font-size: 10px; color: #999; display: block;">
                             Versandhinweis: <input type="text" form="{{ form_id }}"
                                   id="versand-text" 
                                   name="properties[_Versandprofil]" 
