@@ -324,6 +324,11 @@
         "type": "shopify://apps/pushowl-brevo-email-push-sms/blocks/pushowl-app-embed-3d2ff2b5/fa20c3ba-38bf-43e0-ba5c-431f6ae07d95",
         "disabled": false,
         "settings": {}
+      },
+      "16212576608872179499": {
+        "type": "shopify://apps/sa-request-a-quote/blocks/app-embed-block/56d84fcb-37c7-4592-bb51-641b7ec5eef0",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
