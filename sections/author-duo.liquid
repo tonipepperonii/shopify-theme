@@ -1,0 +1,99 @@
+{% schema %}
+{
+  "name": "Autoren-Duo (nur Bild)",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Überschrift (optional)",
+      "default": "Autorenduo"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Hintergrundfarbe",
+      "default": "#ffffff"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Bild-Position (Desktop)",
+      "default": "top",
+      "options": [
+        { "value": "left", "label": "Links" },
+        { "value": "right", "label": "Rechts" },
+        { "value": "top", "label": "Oben (volle Breite)" }
+      ]
+    },
+    {
+      "type": "image_picker",
+      "id": "group_image",
+      "label": "Gemeinsames Bild (Upload-Option)"
+    },
+    {
+      "type": "text",
+      "id": "group_image_cdn_url",
+      "label": "Gemeinsames Bild (CDN-URL-Option)",
+      "default": "https://cdn.shopify.com/s/files/1/0729/7653/1760/files/Ueber_Nils_und_Mike.png?v=1761203342"
+    }
+  ],
+  "presets": [
+    { "name": "Autoren-Duo (nur Bild)" }
+  ]
+}
+{% endschema %}
+
+{% assign img_src = section.settings.group_image | image_url: width: 2000 %}
+{% if section.settings.group_image == blank and section.settings.group_image_cdn_url != blank %}
+  {% assign img_src = section.settings.group_image_cdn_url %}
+{% endif %}
+
+<section class="author-duo-only-image" style="background: {{ section.settings.bg_color }};">
+  <div class="author-duo-only-image__inner" style="max-width:1400px;margin:0 auto;padding:clamp(16px,2.5vw,40px);">
+
+    {% if section.settings.heading != blank %}
+      <h2 class="author-duo-only-image__heading" style="text-align:center;margin-bottom:clamp(12px,1.5vw,24px);">
+        {{ section.settings.heading }}
+      </h2>
+    {% endif %}
+
+    <style>
+      .author-duo-only-image__wrap {
+        display: grid;
+        align-items: center;
+        gap: clamp(16px, 2vw, 32px);
+      }
+      @media (min-width: 900px) {
+        .author-duo-only-image__wrap--left { grid-template-columns: 1fr 1fr; }
+        .author-duo-only-image__wrap--right { grid-template-columns: 1fr 1fr; }
+      }
+      .author-duo-only-image__img {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        display: block;
+      }
+    </style>
+
+    {% assign layout = section.settings.image_position %}
+
+    {% if layout == 'top' %}
+      {% if img_src != blank %}
+        <img class="author-duo-only-image__img" src="{{ img_src }}" alt="Nils und Mike" loading="lazy">
+      {% endif %}
+    {% else %}
+      <div class="author-duo-only-image__wrap author-duo-only-image__wrap--{{ layout }}">
+        {% if layout == 'left' %}
+          {% if img_src != blank %}
+            <img class="author-duo-only-image__img" src="{{ img_src }}" alt="Nils und Mike" loading="lazy">
+          {% endif %}
+        {% endif %}
+        {% if layout == 'right' %}
+          {% if img_src != blank %}
+            <img class="author-duo-only-image__img" src="{{ img_src }}" alt="Nils und Mike" loading="lazy">
+          {% endif %}
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+</section>
