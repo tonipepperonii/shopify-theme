@@ -190,6 +190,16 @@
         "round_images": true,
         "color_scheme": "none"
       }
+    },
+    "author_duo_YiK8NC": {
+      "type": "author-duo",
+      "name": "Autoren-Duo (nur Bild)",
+      "settings": {
+        "heading": "Autorenduo",
+        "bg_color": "#ffffff",
+        "image_position": "top",
+        "group_image_cdn_url": "https://cdn.shopify.com/s/files/1/0729/7653/1760/files/Ueber_Nils_und_Mike.png?v=1761203342"
+      }
     }
   },
   "order": [
@@ -197,7 +207,8 @@
     "33aefcfc-225f-470b-a5c2-d1686b9e3556",
     "sidebar",
     "main",
-    "1446ca08-3b84-43c3-b969-a818f11974fb"
+    "1446ca08-3b84-43c3-b969-a818f11974fb",
+    "author_duo_YiK8NC"
   ],
   "wrapper": "div"
 }
