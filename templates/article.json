@@ -37,7 +37,7 @@
         "share"
       ],
       "custom_css": [
-        ".blog-layout__sidebar {background: url(\"https://cdn.shopify.com/s/files/1/0729/7653/1760/files/Ueber_Nils_Neu.png?v=1761207545\") no-repeat center bottom/contain; padding-bottom: calc(350px * 4 / 3 + 20px);}"
+        ".blog-layout__sidebar {background: url(\"https://cdn.shopify.com/s/files/1/0729/7653/1760/files/Ueber_Mike_Neu.png?v=1761207545\") no-repeat center bottom/contain; padding-bottom: calc(350px * 4 / 3 + 20px);}"
       ],
       "settings": {}
     },
