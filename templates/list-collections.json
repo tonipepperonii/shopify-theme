@@ -1,5 +1,36 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "rich_text_bpdKCP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_46KGPc": {
+          "type": "heading",
+          "settings": {
+            "title": "Unsere Kollektion",
+            "show_line": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_46KGPc"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "1",
+        "divider": false
+      }
+    },
     "main": {
       "type": "list-collections-template",
       "blocks": {
@@ -103,6 +134,7 @@
     }
   },
   "order": [
+    "rich_text_bpdKCP",
     "main",
     "logo-list"
   ]
