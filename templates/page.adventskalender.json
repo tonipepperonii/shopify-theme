@@ -14,6 +14,28 @@
       "disabled": true,
       "settings": {}
     },
+    "17623547099c6c3b2e": {
+      "type": "apps",
+      "blocks": {
+        "christmas_calendar_sale_boost_christmas_calendar_m74G6T": {
+          "type": "shopify://apps/christmas-calendar-sale-boost/blocks/christmas-calendar/cf73da4a-c532-4125-9ffa-b205bf1d75c4",
+          "settings": {
+            "max_width": 1024,
+            "space_top": 10,
+            "space_bottom": 10,
+            "test_mode": true,
+            "open_door": "1"
+          }
+        }
+      },
+      "block_order": [
+        "christmas_calendar_sale_boost_christmas_calendar_m74G6T"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -28,7 +50,7 @@
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#fff",
+            "color_accent": "#ffffff",
             "text_align": "vertical-bottom horizontal-left",
             "overlay_opacity": 0,
             "focal_point": "center center"
@@ -38,6 +60,7 @@
       "block_order": [
         "slideshow-0"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "desktop_size": 0,
@@ -69,6 +92,7 @@
         "heading",
         "text"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -118,6 +142,7 @@
         "column2",
         "column3"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "align_text": "left",
@@ -127,6 +152,7 @@
     },
     "map": {
       "type": "map",
+      "disabled": true,
       "settings": {
         "map_title": "Our retail store",
         "address": "<p>301 Front St W<br>Toronto, Canada</p><p>Mon - Fri, 8:30am - 10:30pm<br>Saturday, 8:30am - 10:30pm<br>Sunday, 8:30am - 10:30pm</p>",
@@ -138,6 +164,7 @@
     },
     "featured-collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured collection",
         "home_featured_products": "",
@@ -149,6 +176,7 @@
     },
     "form": {
       "type": "contact-form",
+      "disabled": true,
       "settings": {
         "title": "Contact us",
         "text": "",
@@ -187,11 +215,13 @@
         "template--18300172173616__cb6246e8-1e18-414d-b84a-9e2ccd65d423-16794846939f4eb2d6-1",
         "template--18300172173616__cb6246e8-1e18-414d-b84a-9e2ccd65d423-16794846939f4eb2d6-2"
       ],
+      "disabled": true,
       "settings": {}
     }
   },
   "order": [
     "main",
+    "17623547099c6c3b2e",
     "slideshow",
     "rich-text",
     "text-columns",
