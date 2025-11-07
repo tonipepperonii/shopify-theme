@@ -418,10 +418,18 @@
             "title": "Nieten",
             "text": "<p>Alternative Schreibweisen: Nietverbindung, mechanische Fügung<br/><br/>Erklärung:<br/>Nieten ist eine mechanische Verbindungstechnik, die Aluminiumbauteile dauerhaft miteinander verbindet. Besonders in der Luftfahrt- und Fahrzeugindustrie werden Nieten eingesetzt, da sie eine feste, aber leichte Verbindung bieten.</p>"
           }
+        },
+        "term_JtYdRk": {
+          "type": "term",
+          "settings": {
+            "title": "Nut",
+            "text": "<p>Eine Nut ist eine schmale, längliche Vertiefung in einem Aluminiumprofil, die zur Aufnahme von Verbindungselementen wie Schrauben, Nutensteinen oder Winkeln dient. Sie ermöglicht eine flexible und modulare Konstruktion, ohne dass gebohrt oder geschweißt werden muss.</p><p>Die Nut wird häufig nummeriert, z. B. Nut 8, was bedeutet, dass die Nutbreite 8 mm beträgt. Diese Angabe ist wichtig, um das passende Zubehör zu wählen – etwa Winkelverbinder oder Abdeckprofile für Nut 8.</p><p>Nuten sind ein zentraler Bestandteil des Profilbaukastensystems im Maschinen-, Anlagen- und Möbelbau. Sie sorgen für hohe Stabilität, einfache Montage und vielfältige Kombinationsmöglichkeiten.</p>"
+          }
         }
       },
       "block_order": [
-        "term_CcARpF"
+        "term_CcARpF",
+        "term_JtYdRk"
       ],
       "settings": {
         "title": "N",
